@@ -1,0 +1,9 @@
+id: paella-pan
+kind: equipment
+names:
+  en: paella pan
+observed_forms:
+- syntax: paella pan
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce

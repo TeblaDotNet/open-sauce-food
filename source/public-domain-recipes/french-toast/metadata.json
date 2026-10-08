@@ -1,0 +1,43 @@
+{
+  "title": "French Toast",
+  "source_url": "https://publicdomainrecipes.com/french-toast/",
+  "source_author": "ryan-wilson",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/french-toast.md",
+  "original_sha256": "db0ffe7adb4bdc77eeb24140086f235a56da91d034582ef3dbba40894c429d40",
+  "original_front_matter": {
+    "title": "French Toast",
+    "date": "2021-03-21",
+    "tags": [
+      "breakfast",
+      "french"
+    ],
+    "author": "ryan-wilson"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "5 min",
+    "Cook time": "25 min",
+    "Servings": "1"
+  },
+  "ingredients_source_markdown": "- 2 Eggs\n- 1/2 Cup of milk (1/4 for a more solid consistency)\n- 5 Slices of bread\n- Maple Syrup (Optional)\n- Butter",
+  "directions_source_markdown": "1. Butter up a frying pan and set it on the burner with low-medium heat.(May need to add more butter in-between slices)\n2. Take your two eggs and crack them into a bowl together.\n3. Pour milk in the bowl with the eggs.\n4. Break the yolks and stir the eggs and milk well with a beater until it's a smooth, yellow liquid.\n5. Dip one side of bread into the bowl, making sure the liquid gets into all of the surface area of that side.\n6. Immediately bring the side back up and scrape off any access liquid on the side with a butter knife.\n7. Repeat steps 5-6, but for the other side of the bread.\n8. Drop into the hot pan.\n9. Cook both sides until golden brown, then plop onto a plate.\n10. Repeat steps 5 to 9 until you have cooked all of your bread.\n11. Drench french toast stack in Maple syrup (Optional)",
+  "images": [
+    {
+      "alt": "French Toast",
+      "source_url": "https://publicdomainrecipes.com/pix/french-toast.webp",
+      "source_reference": "/pix/french-toast.webp",
+      "status": "retrieved",
+      "filename": "french-toast.webp",
+      "sha256": "f85946b7f315dac8c9d27dd0028a33d0219d08ddf52bdb0499acb9c1dc7ec431"
+    }
+  ],
+  "coverage_group": "mixed"
+}

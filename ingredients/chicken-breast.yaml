@@ -1,0 +1,26 @@
+id: chicken-breast
+kind: ingredient
+canonical_name: chicken breast
+names:
+  en: chicken breast
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 2
+  observed_terms:
+  - term: chicken breast
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  legacy_terms:
+  - term: chicken breast
+    count: 2
+observed_qualifiers:
+- value: boneless
+  count: 1
+- value: large
+  count: 1
+- value: small
+  count: 1

@@ -1,0 +1,60 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Ray Peat's Carrot Salad
+source: https://publicdomainrecipes.com/peat-carrot-salad/
+source author: rami-shafikov
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: fasting, vegetables
+serves: 1
+
+# Imported from content/peat-carrot-salad.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 0 min
+# Source metadata: - Servings: 1
+
+::ingredients
+
+(raw carrots, peeled in thick vertical strips and washed thoroughly.) 3
+(virgin coconut oil) 2 tbsp
+(apple cider vinegar, unrefined) 1 tbsp
+(raw garlic, optional) 2 cloves
+
+::instructions
+
+<grate, the carrot and rinse out under water. Then mix with coconut oil and vinegar, I also like to add a pinch or two of salt>
+
+::story
+
+A raw carrot salad to support digestive, hormone and thyroid health.
+
+
+::source
+<<<
+---
+title: Ray Peat's Carrot Salad
+tags: ['fasting', 'vegetables']
+date: 2022-06-01
+author: "rami-shafikov"
+---
+
+A raw carrot salad to support digestive, hormone and thyroid health.
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 0 min
+- Servings: 1
+
+## Ingredients
+
+- 3 raw carrots, peeled in thick vertical strips and washed thoroughly.
+- 2 tbsp virgin coconut oil
+- 1 tbsp apple cider vinegar, unrefined
+- 2 cloves raw garlic (optional)
+
+## Directions
+
+Grate the carrot and rinse out under water. Then mix with coconut oil and vinegar, I also like to add a pinch or two of salt.
+>>>

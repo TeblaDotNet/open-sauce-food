@@ -1,0 +1,32 @@
+{
+  "title": "Ratatouille",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/ratatouille.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "8ce91adb4d9726ce89bd2141dd7d21e9212b3c6777e5a7049488482b46a2acaf",
+  "original_front_matter": {
+    "title": "Ratatouille",
+    "tags": [
+      "soup",
+      "french",
+      "tomato"
+    ],
+    "date": "2022-08-04",
+    "author": "joel-maxuel"
+  },
+  "source_url": "https://publicdomainrecipes.com/ratatouille/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

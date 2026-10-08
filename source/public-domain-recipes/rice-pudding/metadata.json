@@ -1,0 +1,31 @@
+{
+  "title": "Rice Pudding",
+  "source_url": "https://publicdomainrecipes.com/rice-pudding/",
+  "source_author": "Miss Leslie",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/rice-pudding.md",
+  "original_sha256": "bc1552a46ec5c96a5d6d175b021ec0682ce875ebdc9789343d605e5fef3f419e",
+  "original_front_matter": {
+    "title": "Rice Pudding",
+    "tags": [
+      "rice",
+      "dessert",
+      "pudding"
+    ],
+    "date": "1832-01-01",
+    "author": "Miss Leslie"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- A quarter of a pound of rice.\n- A quarter of a pound of butter.\n- A quarter of a pound of sugar.\n- A pint and a half of milk, or cream and milk.\n- Six eggs.\n- A tea-spoonful of mixed spice, mace, nutmeg and cinnamon.\n- A half wine-glass of rose-water.",
+  "directions_source_markdown": "1. Wash the rice. Boil it till very soft. Drain it and set it away to get cold. Put the butter and sugar together in a pan, and stir them till very light. Add to them the spice and rose-water. Beat the eggs very light, and stir them, gradually, into the milk. Then stir the eggs and the milk into the butter and sugar, alternately with the rice.\n2. Bake it and grate nutmeg over the top.\n3. Currants or raisins, floured, and stirred in at the last, will greatly improve it.\n\nIt should be eaten cold, or quite cool.",
+  "images": [],
+  "coverage_group": "dessert-historical"
+}

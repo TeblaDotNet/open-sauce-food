@@ -1,0 +1,121 @@
+id: water
+kind: ingredient
+canonical_name: water
+names:
+  en: water
+status: canonical-seed
+evidence:
+  current_recipe_count: 51
+  current_observation_count: 67
+  legacy_observation_count: 11
+  observed_terms:
+  - term: water
+    count: 67
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/ceviche/ceviche.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+  - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+  - examples/public-domain-recipes/granita/granita.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/kvass/kvass.opensauce
+  - examples/public-domain-recipes/lentejas/lentejas.opensauce
+  - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+  - examples/public-domain-recipes/limoncello/limoncello.opensauce
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+  - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
+  - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+  - examples/public-domain-recipes/oat-milk/oat-milk.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/party-mimosa/party-mimosa.opensauce
+  - examples/public-domain-recipes/pavlova/pavlova.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+  - examples/public-domain-recipes/pizza-dough/pizza-dough.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+  - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+  - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+  - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+  - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+  - term: water
+    count: 11
+observed_qualifiers:
+- value: 25-35°C
+  count: 1
+- value: boiling
+  count: 4
+- value: cold
+  count: 5
+- value: extra
+  count: 2
+- value: final simmer
+  count: 1
+- value: for bath
+  count: 1
+- value: for crust
+  count: 2
+- value: for dough
+  count: 1
+- value: for egg wash
+  count: 2
+- value: for lye bath
+  count: 1
+- value: for poaching
+  count: 1
+- value: for potatoes
+  count: 1
+- value: for steam
+  count: 1
+- value: for syrup
+  count: 1
+- value: for tea
+  count: 1
+- value: for washing and boiling rice
+  count: 1
+- value: hot
+  count: 1
+- value: ice-cold
+  count: 6
+- value: initial boil
+  count: 2
+- value: lukewarm
+  count: 1
+- value: optional
+  count: 4
+- value: preparation
+  count: 1
+- value: steaming
+  count: 1
+- value: to dilute
+  count: 2
+- value: warm
+  count: 8
+- value: warm not hot
+  count: 1

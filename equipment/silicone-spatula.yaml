@@ -1,0 +1,18 @@
+id: silicone-spatula
+kind: equipment
+canonical_name: silicone spatula
+names:
+  en: silicone spatula
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: silicone spatula
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

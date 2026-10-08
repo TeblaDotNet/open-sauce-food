@@ -1,0 +1,15 @@
+id: old-bay-seasoning
+kind: ingredient
+canonical_name: Old Bay seasoning
+names:
+  en: Old Bay seasoning
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: Old Bay seasoning
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce

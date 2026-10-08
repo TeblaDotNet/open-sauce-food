@@ -1,0 +1,70 @@
+id: tomato
+kind: ingredient
+canonical_name: tomato
+names:
+  en: tomato
+status: canonical-seed
+evidence:
+  current_recipe_count: 18
+  current_observation_count: 20
+  legacy_observation_count: 6
+  observed_terms:
+  - term: tomato
+    count: 20
+  seen_in:
+  - examples/public-domain-recipes/aljotta/aljotta.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+  - examples/public-domain-recipes/guacamole/guacamole.opensauce
+  - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+  - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+  legacy_terms:
+  - term: tomato
+    count: 6
+observed_qualifiers:
+- value: blended
+  count: 1
+- value: canned
+  count: 2
+- value: chopped
+  count: 4
+- value: diced
+  count: 4
+- value: grated
+  count: 2
+- value: large
+  count: 1
+- value: medium
+  count: 4
+- value: medium-sized
+  count: 1
+- value: peeled
+  count: 1
+- value: plum
+  count: 1
+- value: preferably skinned and whole
+  count: 1
+- value: pureed
+  count: 2
+- value: ripe
+  count: 2
+- value: skin removed
+  count: 1
+- value: sliced
+  count: 1
+- value: small
+  count: 4
+plural_names:
+  en: tomatoes

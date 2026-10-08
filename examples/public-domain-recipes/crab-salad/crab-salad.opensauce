@@ -1,0 +1,71 @@
+::recipe
+
+name: Crab salad
+source: https://publicdomainrecipes.com/crab-salad/
+# Source author not stated.
+source license: Public domain (Unlicense)
+units: source
+tags: salad, russian
+serves: 3
+image: crab-salad.webp
+
+# Original source: ../../../source/public-domain-recipes/crab-salad/crab-salad.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 10 min
+# Source Cook time: 30 min
+# Source Servings: 3
+# Conversion note: Chop crab meat and all other ingredients; combine all ingredients then add mayonnaise. Literal all is imprecise; avoid interpreting it as chopping liquids or inventing preparation detail.
+
+::ingredients
+
+(crab meat) 300g
+(egg) 3
+(rice) 50g
+(corn) 1 can
+(cucumber) 1
+(carrot) 1
+(onion) 1
+(mayonnaise) 100g
+
+::instructions
+
+(rice) + (egg) + (carrot) <boil>
+(crab meat) <chop, and all other ingredients as source states>
+{salad} = (crab meat) + (egg) + (rice) + (corn) + (cucumber) + (carrot) + (onion)
+{salad} <mix>
+    + (mayonnaise)
+    <chill, before serving>
+
+::source
+<<<
+---
+title: "Crab salad"
+date: 2021-03-22
+tags: ['salad', 'russian']
+---
+
+![Crab salad](/pix/crab-salad.webp)
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 30 min
+- 🍽️ Servings: 3
+
+## Ingredients
+
+- Сrab meat (300 grams)
+- Egg (3)
+- Rice (50 grams)
+- Corn (1 can)
+- Cucumber (1)
+- Carrot (1)
+- Onion (1)
+- Mayonnaise (100 grams)
+
+## Directions
+
+1. Boil rice, eggs and carrot
+2. Chop crab meat and all other ingredients
+3. Combine and mix all ingredients
+4. Add mayonnaise
+5. Chill before serving
+>>>

@@ -1,0 +1,10 @@
+id: turmeric-powder
+kind: ingredient
+names:
+  en: turmeric powder
+observed_forms:
+- syntax: turmeric powder
+  count: 2
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

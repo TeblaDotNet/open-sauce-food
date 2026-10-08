@@ -1,0 +1,10 @@
+id: chicken-bouillon
+kind: ingredient
+names:
+  en: chicken bouillon
+observed_forms:
+- syntax: chicken bouillon
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

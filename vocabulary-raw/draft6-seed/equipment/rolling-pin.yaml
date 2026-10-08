@@ -1,0 +1,9 @@
+id: rolling-pin
+kind: equipment
+names:
+  en: rolling pin
+observed_forms:
+- syntax: rolling pin
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce

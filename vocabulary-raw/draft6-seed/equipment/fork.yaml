@@ -1,0 +1,10 @@
+id: fork
+kind: equipment
+names:
+  en: fork
+observed_forms:
+- syntax: fork
+  count: 2
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce

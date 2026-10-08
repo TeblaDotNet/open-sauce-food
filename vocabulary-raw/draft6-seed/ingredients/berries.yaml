@@ -1,0 +1,12 @@
+id: berries
+kind: ingredient
+names:
+  en: berries
+observed_forms:
+- syntax: berries, for serving
+  count: 1
+seen_in:
+- examples/public-domain-recipes/lavacake/lavacake.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1

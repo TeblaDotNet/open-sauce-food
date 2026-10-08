@@ -1,0 +1,98 @@
+id: cut
+kind: process
+canonical_name: cut
+names:
+  en: cut
+status: canonical-seed
+evidence:
+  current_recipe_count: 24
+  current_observation_count: 31
+  legacy_observation_count: 9
+  observed_terms:
+  - term: cut
+    count: 31
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+  - examples/public-domain-recipes/castagnole/castagnole.opensauce
+  - examples/public-domain-recipes/ceviche/ceviche.opensauce
+  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+  - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+  - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+  - examples/public-domain-recipes/jam/jam.opensauce
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+  - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
+  - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+  - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+  - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+  - term: cut
+    count: 9
+observed_parameters:
+- value: 1-2in strips
+  count: 2
+- value: 1/2in strips
+  count: 1
+- value: 1cm chunks
+  count: 1
+- value: 1in slices
+  count: 1
+- value: 3/4in / 2cm cubes
+  count: 1
+- value: a few vents in top crust
+  count: 2
+- value: as finely as possible
+  count: 1
+- value: bite-sized
+  count: 2
+- value: cubes
+  count: 3
+- value: cubes or slabs as preferred
+  count: 1
+- value: cutter
+  count: 1
+- value: each chicken into 8 pieces
+  count: 1
+- value: eighths
+  count: 1
+- value: florets off stalks
+  count: 1
+- value: four pieces
+  count: 1
+- value: from outside almost through towards centre
+  count: 1
+- value: half
+  count: 1
+- value: kitchen shears along both sides of backbone starting at tail
+  count: 1
+- value: little florets
+  count: 1
+- value: or tear
+  count: 1
+- value: small
+  count: 4
+- value: small pieces
+  count: 3
+- value: small squares
+  count: 1
+- value: small strips
+  count: 1
+- value: squares ~5cm long
+  count: 1
+- value: steaks not quite 1in thick
+  count: 1
+- value: upside down and cut around stem with paring knife
+  count: 1
+- value: ~1cm cubes
+  count: 1

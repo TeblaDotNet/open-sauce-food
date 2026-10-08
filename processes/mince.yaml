@@ -1,0 +1,17 @@
+id: mince
+kind: process
+canonical_name: mince
+names:
+  en: mince
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: mince
+      count: 6
+  seen_in:
+    - examples/public-domain-recipes/guacamole/guacamole.opensauce
+    - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+    - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.

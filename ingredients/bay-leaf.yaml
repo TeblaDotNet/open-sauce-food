@@ -1,0 +1,36 @@
+id: bay-leaf
+kind: ingredient
+canonical_name: bay leaf
+names:
+  en: bay leaf
+status: canonical-seed
+evidence:
+  current_recipe_count: 9
+  current_observation_count: 9
+  legacy_observation_count: 3
+  observed_terms:
+  - term: bay leaf
+    count: 9
+  seen_in:
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+  - examples/public-domain-recipes/lentejas/lentejas.opensauce
+  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+  - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+  - term: bay leaf
+    count: 3
+observed_qualifiers:
+- value: optional
+  count: 1
+aliases:
+- name: bayleaf
+  type: review-pass-1-lexical
+- name: bayleaves
+  type: review-pass-1-lexical
+plural_names:
+  en: bay leaves

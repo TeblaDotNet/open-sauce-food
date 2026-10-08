@@ -1,0 +1,39 @@
+{
+  "title": "Asian Style Chicken with Sticky Sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/asian-style-chicken-sticky-sauce.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "a99be771d1b97e81b264578a4f7bc82528917c8c874a0bc9c3ba9bf157189416",
+  "original_front_matter": {
+    "title": "Asian Style Chicken with Sticky Sauce",
+    "date": "2021-03-23",
+    "tags": [
+      "asian",
+      "chicken"
+    ],
+    "author": "pazu"
+  },
+  "source_url": "https://publicdomainrecipes.com/asian-style-chicken-sticky-sauce/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Asian Style Chicken with Sticky Sauce",
+      "url": "/pix/asian-style-chicken-sticky-sauce.webp",
+      "upstreamPath": "static/pix/asian-style-chicken-sticky-sauce.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "0e4e8118d3b42d1cbacb3ab90464bd755370893cf0732a9c351459ea0e629da3",
+      "sourcePath": "source/public-domain-recipes/asian-style-chicken-sticky-sauce/asian-style-chicken-sticky-sauce.webp",
+      "promotedPath": "examples/public-domain-recipes/asian-style-chicken-sticky-sauce/asian-style-chicken-sticky-sauce.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

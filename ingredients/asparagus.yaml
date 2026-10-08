@@ -1,0 +1,12 @@
+id: asparagus
+kind: ingredient
+canonical_name: asparagus
+names:
+  en: asparagus
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/smoked-salmon-pasta-primavera/smoked-salmon-pasta-primavera.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

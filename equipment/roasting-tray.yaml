@@ -1,0 +1,20 @@
+id: roasting-tray
+kind: equipment
+canonical_name: roasting tray
+names:
+  en: roasting tray
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: roasting tray
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+observed_qualifiers:
+- value: foil cover
+  count: 1
+- value: sided
+  count: 1

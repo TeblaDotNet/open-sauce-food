@@ -1,0 +1,10 @@
+id: warm-through
+kind: process
+names:
+  en: warm through
+observed_forms:
+- syntax: warm through
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

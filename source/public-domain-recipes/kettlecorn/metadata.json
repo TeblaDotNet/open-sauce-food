@@ -1,0 +1,40 @@
+{
+  "title": "Kettle Corn",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/kettlecorn.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "f0702a31cbbc6b968dccb9079b8c5710c4b63e2e6744c6b76f567b7c3c3f7fe2",
+  "original_front_matter": {
+    "title": "Kettle Corn",
+    "tags": [
+      "snack",
+      "sweet",
+      "quick"
+    ],
+    "date": "2022-07-02",
+    "author": "MMOOBB"
+  },
+  "source_url": "https://publicdomainrecipes.com/kettlecorn/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Kettle Corn",
+      "url": "/pix/kettlecorn.webp",
+      "upstreamPath": "static/pix/kettlecorn.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "92ff92c014085d322e78473c4ae2a984a670bf7aeda2f072dd2e3e95b3fa1148",
+      "sourcePath": "source/public-domain-recipes/kettlecorn/kettlecorn.webp",
+      "promotedPath": "examples/public-domain-recipes/kettlecorn/kettlecorn.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

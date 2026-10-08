@@ -1,0 +1,53 @@
+id: onion
+kind: ingredient
+names:
+  en: onion
+observed_forms:
+- syntax: onion
+  count: 1
+- syntax: onion, chopped
+  count: 1
+- syntax: onion, finely chopped
+  count: 1
+- syntax: onion, finely chopped, optional
+  count: 1
+- syntax: onion, large, roughly chopped
+  count: 1
+- syntax: onion, medium
+  count: 2
+- syntax: onion, medium, minced
+  count: 1
+- syntax: onion, medium, thin wedges
+  count: 1
+- syntax: onion, white, peeled
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/guacamole/guacamole.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: chopped
+  count: 1
+- value: finely chopped
+  count: 2
+- value: large
+  count: 1
+- value: medium
+  count: 4
+- value: minced
+  count: 1
+- value: optional
+  count: 1
+- value: peeled
+  count: 1
+- value: roughly chopped
+  count: 1
+- value: thin wedges
+  count: 1
+- value: white
+  count: 1
+legacy_observation: true

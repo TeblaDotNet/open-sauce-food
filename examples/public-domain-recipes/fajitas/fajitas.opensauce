@@ -1,0 +1,86 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Fajitas
+source: https://publicdomainrecipes.com/fajitas/
+source author: joel-maxuel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: beef, chicken
+serves: 4
+
+# Imported from content/fajitas.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 20 min
+# Source metadata: - 🍳 Cook time:15 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(+ 1/2 tsp lime juice, divided) 1/4 cup
+(olive oil, divided) 3 Tbsp
+(garlic, crushed) 4 cloves
+(soy sauce, divided) 3 tsp
+(salt) 1 tsp
+(liquid smoke) 1/2 tsp
+(cayenne pepper) 1/2 tsp
+(black pepper) 1/4 tsp
+(chicken breasts or skirt steak, bones/skin removed) 1 lb
+(water) 2 Tbsp
+(spanish onion, large, thinly sliced) 1
+(each green, Red, and Yellow Bell Pepper, thinly sliced) 1/2
+
+::equipment
+
+(skillet)
+
+::instructions
+
+<combine, 1/4 cup lime juice, 2 Tbsp of the oil, garlic, 2 tsp soy sauce, the salt, liquid smoke, cayenne pepper, and black pepper in a resealable container, add chicken/steak, cover, and refrigerate for at least 2 hours or overnight>
+<combine, water, remaining soy sauce and lime juice, and a dash of salt and pepper - set aside>
+<grill, meat over a medium-high flame for 4-5 minutes per side, or until cooked through>
+<cut, meat into thin strips - set aside and keep warm>
+In a large skillet over medium-high heat, cook onion and peppers in remaining oil until brown - remove from heat and pour reserved liquid mixture over onions and peppers.
+<toss, together meat, onions, and peppers>
+Can serve with warm tortillas, pico de gallo, cheese, sour cream, and guacamole.
+
+::source
+<<<
+---
+title: Fajitas
+tags: ['beef', 'chicken']
+date: 2022-09-10
+author: joel-maxuel
+---
+
+
+- ⏲️ Prep time: 20 min
+- 🍳 Cook time:15 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 1/4 cup + 1/2 tsp Lime Juice, divided
+- 3 Tbsp Olive Oil, divided
+- 4 cloves Garlic, crushed
+- 3 tsp Soy Sauce, divided
+- 1 tsp Salt
+- 1/2 tsp Liquid Smoke
+- 1/2 tsp Cayenne Pepper
+- 1/4 tsp Black Pepper
+- 1 lb Chicken Breasts or Skirt Steak, bones/skin removed
+- 2 Tbsp Water
+- 1 large Spanish Onion, thinly sliced
+- 1/2 each Green, Red, and Yellow Bell Pepper, thinly sliced
+
+## Directions
+
+1. Combine 1/4 cup lime juice, 2 Tbsp of the oil, garlic, 2 tsp soy sauce, the salt, liquid smoke, cayenne pepper, and black pepper in a resealable container, add chicken/steak, cover, and refrigerate for at least 2 hours or overnight.
+2. Combine water, remaining soy sauce and lime juice, and a dash of salt and pepper - set aside.
+3. Grill meat over a medium-high flame for 4-5 minutes per side, or until cooked through.
+4. Cut meat into thin strips - set aside and keep warm.
+5. In a large skillet over medium-high heat, cook onion and peppers in remaining oil until brown - remove from heat and pour reserved liquid mixture over onions and peppers.
+6. Toss together meat, onions, and peppers.
+7. Can serve with warm tortillas, pico de gallo, cheese, sour cream, and guacamole.
+>>>

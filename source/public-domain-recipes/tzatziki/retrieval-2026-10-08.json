@@ -1,0 +1,35 @@
+{
+  "title": "Tzatziki",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tzatziki.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "a582cc8885f3e3027bd8d27ddc6a575039efa60f834502073c0da21a02503e4e",
+  "original_front_matter": {
+    "title": "Tzatziki",
+    "tags": [
+      "basic",
+      "snack",
+      "spread",
+      "traditional"
+    ],
+    "date": "2022-04-16"
+  },
+  "source_url": "https://publicdomainrecipes.com/tzatziki/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Tzatziki",
+      "url": "/pix/tzatziki.webp",
+      "upstreamPath": "static/pix/tzatziki.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

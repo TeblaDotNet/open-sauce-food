@@ -1,0 +1,18 @@
+id: beans
+kind: ingredient
+canonical_name: beans
+names:
+  en: beans
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: beans
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+observed_qualifiers:
+- value: cooked
+  count: 1

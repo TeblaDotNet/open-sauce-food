@@ -1,0 +1,13 @@
+id: liquid-smoke
+kind: ingredient
+canonical_name: liquid smoke
+names:
+  en: liquid smoke
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/beef-jerky/beef-jerky.opensauce
+  - examples/public-domain-recipes/fajitas/fajitas.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

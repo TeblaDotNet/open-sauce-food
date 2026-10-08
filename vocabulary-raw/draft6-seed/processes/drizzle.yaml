@@ -1,0 +1,11 @@
+id: drizzle
+kind: process
+names:
+  en: drizzle
+observed_forms:
+  - syntax: drizzle, muffin tin
+    count: 1
+seen_in: []
+observed_parameters:
+  - value: muffin tin
+    count: 1

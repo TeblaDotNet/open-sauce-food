@@ -1,0 +1,78 @@
+::recipe
+
+name: Casio in pastelletto
+source: https://publicdomainrecipes.com/casio-in-pastelletto/
+source author: pestanzul
+source license: Public domain (Unlicense)
+units: source
+tags: cheese, cheesefare, easy, italian, medieval
+serves: 1
+image: casio-in-pastelletto.webp
+
+# Original source: ../../../source/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 1 min
+# Source Cook time: 3 min
+# Source Servings: 1
+# Conversion note: No exact quantities beyond two cheese slices; source uncertain whether main or sweet. Cheese identity and amounts intentionally depend on preference.
+
+::ingredients
+
+(cheese, mid-aged, not too savoury or delicate) 2 slices
+(sugar) to taste
+(cinnamon) to taste
+(frying fat) = (butter) as needed -OR- (lard) as needed
+
+::equipment
+
+(pan)
+
+::instructions
+
+(frying fat) <heat, pan, for frying>
+    + (cheese) <place>
+    + (sugar) + (cinnamon) <sprinkle, immediately, all over>
+(cheese) <remove, as soon as softened>
+    <serve, warm>
+
+::story
+
+Casio in pastelletto means roughly "cheese treat" in vernacular Italian.
+
+It is a medieval recipe and the taste changes a lot depending on the cheese you choose, so there are no exact quantities for the ingredients, and the dish may be considered a main one or a sweet (I think it was probably a dessert, though).
+You will probably have to do some trial and error before you get a good result.
+
+::source
+<<<
+---
+title: 'Casio in pastelletto'
+tags: ['cheese', 'cheesefare', 'easy', 'italian', 'medieval']
+date: 2026-02-14
+author: "pestanzul"
+---
+
+![Casio in pastelletto](/pix/casio-in-pastelletto.webp)
+
+_Casio in pastelletto_ means roughly "cheese treat" in vernacular Italian.
+
+It is a medieval recipe and the taste changes a lot depending on the cheese you choose, so there are no exact quantities for the ingredients, and the dish may be considered a main one or a sweet (I think it was probably a dessert, though).
+You will probably have to do some trial and error before you get a good result.
+
+- ⏲️ Prep time: 1 min
+- 🍳 Cook time: 3 min
+- 🍽️ Servings: 1
+
+## Ingredients
+
+- 2 slice cheese. Use a cheese that is mid-aged, not too savoury and not too delicate.
+- sugar
+- cinnamon
+- butter or lard
+
+## Directions
+
+1. Place the cheese in a pan with frying butter or lard.
+1. Immediately sprinkle sugar and cinnamon all over it.
+1. As soon as it softens, remove it from the pan.
+1. Serve warm.
+>>>

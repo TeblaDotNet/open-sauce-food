@@ -1,0 +1,62 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Dried tomato & plum bread spread
+source: https://publicdomainrecipes.com/dried-tomato-plum-spread/
+source author: patryk-niedźwiedziński
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: bread, quick, snack, spread, fasting
+
+# Imported from content/dried-tomato-plum-spread.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(plums, dried) 10
+(tomatoes, dried) 1 jar
+(smoked paprika) 1 tsp
+(coriander, dried, optional) pinch
+(chilli, optional, if you like it to be spicy) pinch
+
+::equipment
+
+(blender)
+
+::instructions
+
+(plums) <put, in hot water from kettle for couple of minutes, in order to make them softer>
+After that put plums （without the water） and rest of the ingredients into blender and mix it until you're satisfied.
+If you want to make it more liquid you can add water from the plums.
+
+::story
+
+Quick and simple bread spread.
+
+
+::source
+<<<
+---
+title: "Dried tomato & plum bread spread"
+date: 2021-03-11
+tags: ['bread', 'quick', 'snack', 'spread', 'fasting']
+author: patryk-niedźwiedziński
+---
+
+Quick and simple bread spread.
+
+## Ingredients
+
+- 10 dried plums
+- 1 jar of dried tomatoes
+- 1 tsp of smoked paprika
+- pinch of dried coriander (optional)
+- pinch of chilli (optional, if you like it to be spicy)
+
+## Directions
+
+1. Put plums in hot water from kettle for couple of minutes, in order to make them softer.
+2. After that put plums (without the water) and rest of the ingredients into blender and mix it until you're satisfied.
+3. If you want to make it more liquid you can add water from the plums.
+>>>

@@ -1,0 +1,36 @@
+{
+  "title": "Venezuelan Arepa",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/venezuelan-arepa.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "9a6948a5fe9c9264bff5e1db7b20e91082e23fe52fbc752a8e05e4b639279abb",
+  "original_front_matter": {
+    "title": "Venezuelan Arepa",
+    "date": "2025-04-15",
+    "tags": [
+      "venezuelan",
+      "basic",
+      "breakfast",
+      "corn",
+      "quick"
+    ],
+    "author": "Leliel"
+  },
+  "source_url": "https://publicdomainrecipes.com/venezuelan-arepa/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

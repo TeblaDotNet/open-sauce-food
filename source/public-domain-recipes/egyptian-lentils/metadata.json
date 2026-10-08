@@ -1,0 +1,34 @@
+{
+  "title": "Egyptian Lentils",
+  "source_url": "https://publicdomainrecipes.com/egyptian-lentils/",
+  "source_author": "joel-maxuel",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/egyptian-lentils.md",
+  "original_sha256": "6f8d5b90ab19e4c122928188231dfbef41c61328f3c23277dd59337ca1054048",
+  "original_front_matter": {
+    "title": "Egyptian Lentils",
+    "tags": [
+      "rice",
+      "pasta"
+    ],
+    "date": "2022-09-10",
+    "author": "joel-maxuel"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "5 min",
+    "Cook time": "40 min",
+    "Servings": "5"
+  },
+  "ingredients_source_markdown": "- 1 cup Lentils\n- 1 cup Elbow Macaroni\n- 2 Fresh Chili or Bell Peppers\n- 2 Tbsp Lime Juice\n- 1 1/2 cup Regular Rice\n- 3 Tbsp Oil\n- 2 medium Tomatoes, chopped\n- 1 large Onion, diced",
+  "directions_source_markdown": "1. Place lentils in a saucepan and cover by 1\" or more of water. Turn heat to high and bring to a boil, then turn down heat to simmer, and cook covered for 35 minutes or until tender. Drain and transfer to a large bowl. Set aside.\n2. Bring 3 cups of water to a boil, add rice. Turn down to simmer for 20 minutes and fluff up rice with a fork and add to lentils.\n3. Boil 2 quarts of water, add elbow macaroni and cook until tender. Add to lentils.\n4. In a small skillet add 1 Tbsp of oil and saute chopped peppers finely for two minutes. Add the tomato, 1/2 cup of water, bring to a boil and simmer for 5 minutes. Add the lime juice. Fold this sauce into the lentils.\n5. In another skillet heat 2 Tbsp oil, add onions and saute until brown. Garnish lentil mixture with the browned onions.",
+  "images": [],
+  "coverage_group": "vegetable-pulses"
+}

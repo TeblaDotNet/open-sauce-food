@@ -1,0 +1,38 @@
+{
+  "title": "Fritatem pomeranciis",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/fritatem-pomeranciis.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "ddc94d95d36fff56b25cde2d1417c8405943c4da435fab6676f79af031eb99bc",
+  "original_front_matter": {
+    "title": "Fritatem pomeranciis",
+    "tags": [
+      "cream",
+      "dessert",
+      "eggs",
+      "fasting",
+      "italian",
+      "medieval"
+    ],
+    "date": "2026-01-01",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/fritatem-pomeranciis/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Fritatem pomeranciis",
+      "url": "/pix/fritatem-pomeranciis.webp",
+      "upstreamPath": "static/pix/fritatem-pomeranciis.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

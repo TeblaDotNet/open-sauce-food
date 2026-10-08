@@ -1,0 +1,37 @@
+{
+  "title": "Pavlova",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pavlova.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "3fc5ae6ed69ee0b212ee714701bb8e19474f09590b031e4d04bb60e8f0f673ed",
+  "original_front_matter": {
+    "title": "Pavlova",
+    "tags": [
+      "meringue",
+      "dessert",
+      "australian",
+      "new zealand",
+      "baking"
+    ],
+    "date": "2023-06-10",
+    "author": "u/Idzuna"
+  },
+  "source_url": "https://publicdomainrecipes.com/pavlova/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Pavlova",
+      "url": "/pix/pavlova.webp",
+      "upstreamPath": "static/pix/pavlova.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

@@ -1,0 +1,83 @@
+::recipe
+
+name: Chicken Satay with Peanut Sauce
+source: https://publicdomainrecipes.com/chicken-satay/
+source author: Eric Lindberg
+source license: Public domain (Unlicense)
+units: source
+tags: chicken, thai, asian
+serves: 4
+
+# Original source: ../../../source/public-domain-recipes/chicken-satay/chicken-satay.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 10 min
+# Source Cook time: 15 min
+# Source Servings: 4
+# Conversion note: Prep 10 min and cook 15 min exclude at least an hour marinating. Do not calculate total as 25m. Source tumeric spelling retained.
+
+::ingredients
+
+(chicken choice) = (chicken breast, boneless) 2lb -OR- (chicken thigh, boneless) 2lb
+(oyster sauce) 1.5tbsp
+(tumeric, ground) 1tbsp
+(sugar) 2tbsp
+(coconut milk) 2tbsp
+(peanut butter, creamy) 3tbsp
+(massaman curry paste) 1tbsp
+(water) enough to thin peanut sauce
+
+::equipment
+
+(skewer, wooden, optional)
+(saucepan, small)
+
+::instructions
+
+(chicken choice) <cut, 1/2in strips>
+{marinated chicken} = (chicken choice) + (oyster sauce) + (tumeric) + (sugar) 1tbsp + (coconut milk)
+{marinated chicken} <mix>
+    <marinate, at least 1h>
+Optional [
+    {marinated chicken} <skewer, wooden skewers>
+]
+{chicken} <grill, until cooked through>
+{peanut sauce} = (peanut butter) + (sugar) 1tbsp + (massaman curry paste)
+{peanut sauce} <mix, small saucepan>
+    + (water) <thin, thick sauce consistency>
+    <cook, 1-2m, stirring frequently>
+{chicken} <serve, peanut sauce for dipping>
+
+::source
+<<<
+---
+title: Chicken Satay with Peanut Sauce
+tags: ['chicken', 'thai', 'asian']
+date: 2022-07-10
+author: "Eric Lindberg"
+---
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 15 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 2 lbs boneless chicken breast or thigh
+- 1.5 tbsp oyster sauce
+- 1 tbsp ground tumeric
+- 2 tbsp sugar
+- 2 tbsp coconut milk
+- 3 tbsp peanut butter (creamy)
+- 1 tbsp massaman curry paste
+- water to thin peanut sauce
+
+## Directions
+
+1. Cut the chicken into 1/2 inch thick strips.
+2. Mix chicken with oyster sauce, tumeric, 1 tbsp sugar and coconut milk.  Allow chicken to marinade for at least an hour.
+3. Optionally, you can skewer the meat with wooden skewers.
+4. Grill chicken until cooked through.
+5. Mix peanut butter, 1 tbsp sugar and curry paste together in a small saucepan.  Add enough water to thin to a thick sauce.
+6. Cook for 1-2 min stirring frequently.
+7. Serve chicken with peanut sauce for dipping.
+>>>

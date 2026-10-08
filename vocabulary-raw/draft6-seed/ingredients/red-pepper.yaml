@@ -1,0 +1,12 @@
+id: red-pepper
+kind: ingredient
+names:
+  en: red pepper
+observed_forms:
+- syntax: red pepper, 1/2in pieces
+  count: 1
+seen_in:
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+observed_qualifiers:
+- value: 1/2in pieces
+  count: 1

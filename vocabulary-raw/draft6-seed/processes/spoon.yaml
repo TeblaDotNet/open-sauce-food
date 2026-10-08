@@ -1,0 +1,13 @@
+id: spoon
+kind: process
+names:
+  en: spoon
+observed_forms:
+- syntax: spoon, loaf tin
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: loaf tin
+  count: 1
+legacy_observation: true

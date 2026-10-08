@@ -1,0 +1,70 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Fajita Seasoning
+source: https://publicdomainrecipes.com/fajita-seasoning/
+source author: carl-zimmerman
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: basic, mexican, fasting
+
+# Imported from content/fajita-seasoning.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(garlic powder) 1/2 tsp
+(onion powder) 1/2 tsp
+(paprika) 1/2 tsp
+(smoked paprika) 1/2 tsp
+(cumin, Ground) 1/2 tsp
+(coriander, Ground) 1/2 tsp
+(oregano) 1/2 tsp
+(cayenne pepper) 1/2 tsp
+(salt) 1 tsp
+(sugar; brown) 1 tsp
+(chili powder) 1.5 tsp
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<mix, seasonings in a bowl. Adjust amounts depending on how much is needed>
+
+::story
+
+Simple seasoning mix similar to Old El Paso. Can be used for any Mexican dishes or plain meats.
+
+
+::source
+<<<
+---
+title: "Fajita Seasoning"
+date: 2021-03-17
+tags: ['basic', 'mexican', 'fasting']
+author: carl-zimmerman
+---
+
+Simple seasoning mix similar to Old El Paso. Can be used for any Mexican dishes or plain meats.
+
+## Ingredients
+
+- 1/2 tsp Garlic Powder
+- 1/2 tsp Onion Powder
+- 1/2 tsp Paprika
+- 1/2 tsp Smoked Paprika
+- 1/2 tsp Ground Cumin
+- 1/2 tsp Ground Coriander
+- 1/2 tsp Oregano
+- 1/2 tsp Cayenne Pepper
+- 1 tsp Salt
+- 1 tsp Brown Sugar
+- 1.5 tsp Chili Powder
+
+## Directions
+
+1. Mix seasonings in a bowl. Adjust amounts depending on how much is needed.
+>>>

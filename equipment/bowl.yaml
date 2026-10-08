@@ -1,0 +1,67 @@
+id: bowl
+kind: equipment
+canonical_name: bowl
+names:
+  en: bowl
+status: canonical-seed
+evidence:
+  legacy_observation_count: 9
+  observed_terms:
+    - term: bowl
+      count: 38
+  seen_in:
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+    - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+    - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/ceviche/ceviche.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+    - examples/public-domain-recipes/french-toast/french-toast.opensauce
+    - examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce
+    - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+    - examples/public-domain-recipes/guacamole/guacamole.opensauce
+    - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+    - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/pizza-dough/pizza-dough.opensauce
+    - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+    - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+    - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+    - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+    - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+    - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+    - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+    - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+    - term: bowl
+      count: 9
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: big
+    count: 1
+  - value: large
+    count: 10
+  - value: locked
+    count: 1
+  - value: medium
+    count: 1
+  - value: salad
+    count: 1
+  - value: small
+    count: 1
+plural_names:
+  en: bowls

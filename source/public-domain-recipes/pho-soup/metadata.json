@@ -1,0 +1,43 @@
+{
+  "title": "Pho Soup",
+  "source_url": "https://publicdomainrecipes.com/pho-soup/",
+  "source_author": "jon-burga",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pho-soup.md",
+  "original_sha256": "8301e4a96238df20fa98b678f2b9c41fa63e6222e29a87cd7d6c28b0c314fe82",
+  "original_front_matter": {
+    "title": "Pho Soup",
+    "date": "2021-03-23",
+    "tags": [
+      "vietnamese",
+      "beef"
+    ],
+    "author": "jon-burga"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "20 min",
+    "Cook time": "2 hours",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "- Garlic (4-8 large cloves)\n- Spring Onions\n- Cardamom Seeds (10 or so)\n- Star Anise (4-5)\n- Ginger\n- Cinnamon Sticks (3-5 sticks)\n- Diced Beef (300g)\n- Beef Bones with marrow (3x)\n- Beef bouillon cubes (1-3)\n- Coriander (to taste)\n- 1 Lime (to taste)\n- Fish/Oyster Sauce\n- Honey or Brown Sugar\n- Rice noodles",
+  "directions_source_markdown": "1. Heat your oven and place the spices (garlic, cardamom seeds, cinnamon sticks, star anise and ginger) on a tray and bake them until browned or decently toasted.\n2. Boil bones until you remove most of the scum, and transfer the spices from the oven into the pot. Life will be easier if you can place the spices in a tea strainer of sorts, otherwise, it's not the worst thing in the world fishing them out later on.\n3. Add beef bouillon cubes, diced beef, fish/oyster sauce, and honey/sugar, then simmer for a couple hours with the lid on.\n4. Cook the rice noodles (should only take a few minutes, just until the texture is al dente enough).\n5. Once the broth is done cooking, fish out the spices that you added at step 2. It's worth doing this rather than accidentally chewing on a bit of star anise, trust me.\n6. Cut up coriander and spring onions as garnish.\n7. Add rice noodles to bowl, followed by the broth and its contents, followed by the garnish. This can be made and eaten within 1 hour if you want it quickly, but typically with broths the longer you simmer the tastier it'll be.",
+  "images": [
+    {
+      "alt": "Based Beef Pho",
+      "source_url": "https://publicdomainrecipes.com/pix/pho-soup.webp",
+      "source_reference": "/pix/pho-soup.webp",
+      "status": "retrieved",
+      "filename": "pho-soup.webp",
+      "sha256": "ec48c57e7d4f34e62e0bbd64b6174bb85caa079b0db34dada1400a946f408dd2"
+    }
+  ],
+  "coverage_group": "soups"
+}

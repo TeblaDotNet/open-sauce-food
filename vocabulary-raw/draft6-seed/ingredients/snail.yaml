@@ -1,0 +1,14 @@
+id: snail
+kind: ingredient
+names:
+  en: snail
+observed_forms:
+- syntax: snail, cleaned, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce
+observed_qualifiers:
+- value: cleaned
+  count: 1
+- value: optional
+  count: 1

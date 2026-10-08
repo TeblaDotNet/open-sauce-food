@@ -1,0 +1,22 @@
+id: slash
+kind: process
+canonical_name: slash
+names:
+  en: slash
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: slash
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/bread/bread.opensauce
+observed_parameters:
+- value: 2 or 3 times
+  count: 1
+- value: when oven preheated
+  count: 1
+- value: ~1/2in deep
+  count: 1

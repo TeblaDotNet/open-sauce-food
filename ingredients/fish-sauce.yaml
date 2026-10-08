@@ -1,0 +1,18 @@
+id: fish-sauce
+kind: ingredient
+canonical_name: fish sauce
+names:
+  en: fish sauce
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 1
+  observed_terms:
+  - term: fish sauce
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  legacy_terms:
+  - term: fish sauce
+    count: 1

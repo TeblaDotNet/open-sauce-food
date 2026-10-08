@@ -1,0 +1,12 @@
+id: za-atar
+kind: ingredient
+names:
+  en: za'atar
+observed_forms:
+- syntax: za'atar, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

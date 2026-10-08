@@ -1,0 +1,76 @@
+::recipe
+
+name: Limoncello
+source: https://publicdomainrecipes.com/limoncello/
+source author: mfed3
+source license: Public domain (Unlicense)
+units: source
+tags: alcohol, lemon, digestivo, liquor
+serves: 22
+image: limoncello.webp
+
+# Original source: ../../../source/public-domain-recipes/limoncello/limoncello.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 10 min
+# Source Wait time: 20 days
+# Source Servings: 22
+# Conversion note: Sugar is measured in ml; ABV target 28-30%; jar capacity 1 litre. No mass conversion or inferred final volume/alcohol strength.
+
+::ingredients
+
+(lemon, organic) 5-7
+(grain alcohol, 95% ABV) 300ml
+(water) 700ml
+(sugar) 500ml
+
+::equipment
+
+(mason jar) 1 litre
+(strainer)
+(bottle, optional)
+
+::instructions
+
+(grain alcohol) <pour, 1 litre mason jar>
+(lemon) <peel, avoid white pith>
+{lemon peel} <submerge, alcohol>
+(jar) <cover> <infuse, 20 days>
+(water) <boil>
+    + (sugar) <dissolve>
+    <cool, completely>
+{infused alcohol} <strain, into sugar water> <stir>
+    <bottle, or return to mason jar>
+# Source permits scaling and sugar adjustment and claims an ABV around 28-30%; not calculated here.
+
+::source
+<<<
+---
+title: "Limoncello"
+date: 2021-05-13
+tags: ['alcohol', 'lemon', 'digestivo', 'liquor']
+author: mfed3
+---
+
+![Limoncello](/pix/limoncello.webp)
+
+- ⏲️ Prep time: 10 min
+- 🍳Wait time: 20 days
+- 🍽️ Servings: 22
+
+## Ingredients
+
+- 5-7 organic lemons (regular lemons are covered in wax)
+- 300ml 95% ABV grain alcohol
+- 700ml water
+- 500ml sugar
+
+## Directions
+
+1. Pour the alcohol into a 1 liter mason jar
+2. Peel the lemons avoiding the white pith (it will make your limoncello bitter) and submerse them in the alcohol
+3. Cover the jar and let the lemons infuse the alcohol for 20 days
+4. After the infusion is completed, create a simple syrup by boiling the water and dissolving the sugar in the water
+5. Allow the water to cool completely, then strain the alcohol into the sugar water and stir
+6. Bottle or put it back into the mason jar
+7. Feel free to scale the recipe up or down, and adjust the sugar to the sweetness you like, but the ABV should remain somewhere around 28-30%
+>>>

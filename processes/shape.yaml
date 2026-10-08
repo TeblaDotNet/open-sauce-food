@@ -1,0 +1,50 @@
+id: shape
+kind: process
+canonical_name: shape
+names:
+  en: shape
+status: canonical-seed
+evidence:
+  current_recipe_count: 8
+  current_observation_count: 9
+  legacy_observation_count: 0
+  observed_terms:
+  - term: shape
+    count: 9
+  seen_in:
+  - examples/public-domain-recipes/crostata/crostata.opensauce
+  - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+  - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+  - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+observed_parameters:
+- value: ball
+  count: 1
+- value: ball ~1tbsp
+  count: 1
+- value: balls
+  count: 2
+- value: by hand
+  count: 1
+- value: cross arms twice then fold back towards belly
+  count: 1
+- value: greased baking sheet
+  count: 1
+- value: ring
+  count: 1
+- value: rolls
+  count: 1
+- value: strips 1/2in thick and 3in long
+  count: 1
+- value: twist together or shape as liked; dip hands in oil if sticky
+  count: 1
+- value: upside-down U
+  count: 1
+- value: ~24 golf-sized balls
+  count: 1
+aliases:
+- name: form
+  type: review-pass-1-lexical

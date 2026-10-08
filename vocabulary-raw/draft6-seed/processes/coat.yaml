@@ -1,0 +1,15 @@
+id: coat
+kind: process
+names:
+  en: coat
+observed_forms:
+- syntax: coat
+  count: 2
+- syntax: coat, if wanted
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: if wanted
+  count: 1
+legacy_observation: true

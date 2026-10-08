@@ -1,0 +1,33 @@
+id: spring-onion
+kind: ingredient
+canonical_name: spring onion
+names:
+  en-GB: spring onion
+  en-US: green onion
+status: reviewed-merge
+aliases:
+- name: green onion
+  type: regional-name
+  observed_count: 1
+- name: scallion
+  type: review-pass-1-lexical
+- name: scallions
+  type: review-pass-1-lexical
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: green onion
+    count: 1
+  - term: spring onion
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+observed_qualifiers:
+- value: chopped
+  count: 1
+- value: optional
+  count: 2

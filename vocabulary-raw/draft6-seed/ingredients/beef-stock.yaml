@@ -1,0 +1,10 @@
+id: beef-stock
+kind: ingredient
+names:
+  en: beef stock
+observed_forms:
+- syntax: beef stock
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

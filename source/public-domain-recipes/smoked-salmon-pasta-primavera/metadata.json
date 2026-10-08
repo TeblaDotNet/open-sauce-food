@@ -1,0 +1,33 @@
+{
+  "title": "Smoked Salmon Pasta Primavera",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/smoked-salmon-pasta-primavera.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "aa74f6e252859e4239f4ee79f3607c5e72eeac2aa44086c0f85b79f910630110",
+  "original_front_matter": {
+    "title": "Smoked Salmon Pasta Primavera",
+    "tags": [
+      "fish",
+      "pasta"
+    ],
+    "date": "2022-09-11",
+    "author": "joel-maxuel"
+  },
+  "source_url": "https://publicdomainrecipes.com/smoked-salmon-pasta-primavera/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

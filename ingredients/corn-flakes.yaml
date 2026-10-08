@@ -1,0 +1,15 @@
+id: corn-flakes
+kind: ingredient
+canonical_name: corn flakes
+names:
+  en: corn flakes
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: corn flakes
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/desert-roses/desert-roses.opensauce

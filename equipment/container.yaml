@@ -1,0 +1,28 @@
+id: container
+kind: equipment
+canonical_name: container
+names:
+  en: container
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: container
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/granita/granita.opensauce
+  - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+  - examples/public-domain-recipes/kvass/kvass.opensauce
+  - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+  - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+observed_qualifiers:
+- value: cover
+  count: 1
+- value: freezer-suitable
+  count: 1
+- value: narrow and tall
+  count: 1
+- value: sterilized
+  count: 1

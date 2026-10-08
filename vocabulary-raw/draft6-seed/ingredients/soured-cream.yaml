@@ -1,0 +1,10 @@
+id: soured-cream
+kind: ingredient
+names:
+  en: soured cream
+observed_forms:
+- syntax: soured cream
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

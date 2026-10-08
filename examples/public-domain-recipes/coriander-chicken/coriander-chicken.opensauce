@@ -1,0 +1,109 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Coriander Chicken
+source: https://publicdomainrecipes.com/coriander-chicken/
+source author: chetan-basuray
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: indian, lunch, spicy
+serves: 3
+
+# Imported from content/coriander-chicken.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 30 min
+# Source metadata: - 🍳 Cook time: 20 min
+# Source metadata: - 🍽️ Servings: 3
+
+::ingredients
+
+(boneless chicken breast) 500g
+(fat free yoghurt) 250g
+(coriander leaves) 250g
+(mustard oil / sunflower oil)
+(sugar)
+(ginger)
+(garlic)
+(onion, medium) 2
+(green chillies)
+(garam masala — /garam-masala)
+(cardamom pods) 2/3
+(bayleaf) 1
+(cinnamom stick) 1
+
+::equipment
+
+(frying pan)
+(bowl)
+
+::instructions
+
+<cut, the boneless chicken into small bite sized pieces>
+In a mixer, put 250g coriander leaves, 2/3 green chillies, 250g yoghurt, 20g ginger, 9/10 cloves of garlic, 2 medium sized onions and mix well.
+<add, the green chillies according to your taste>
+<pour, half of the mixture from step 2 into a bowl and mix it thoroughly with the chicken>
+Into this chicken mixture add 1 tbsp Garam Masala and salt to taste.
+<keep, the resulting marinated chicken aside for about 30 minutes>
+In a frying pan add 3 tbsp of either mustard oil or sunflower oil.
+Once the oil is hot, add 1 tbsp sugar and cook until the sugar melts into the oil.
+<add, 2/3 cardamom pods, 1 small cinnamon stick, and 1 bayleaf into the hot oil>
+<simmer, for about 1 minute, then lower the heat to medium>
+On medium heat, add the marinated chicken mixture and cook till oil starts separating from the chicken.
+<add, salt to taste and keep stirring the chicken to make sure it does not burn or stick to the bottom of the pan>
+Once the oil separates, add the remaining mixture which was left behind after step 4.
+<stir, until it has a thick consistency. Serve with naan — /naan-bread or rice — /rice>
+
+::story
+
+Boneless chicken marinated in a gravy of yoghurt and coriander
+
+
+::source
+<<<
+---
+title: "Coriander Chicken"
+date: 2021-04-02
+tags: ['indian', 'lunch', 'spicy']
+author: chetan-basuray
+---
+
+Boneless chicken marinated in a gravy of yoghurt and coriander
+
+- ⏲️ Prep time: 30 min
+- 🍳 Cook time: 20 min
+- 🍽️ Servings: 3
+
+## Ingredients
+
+- 500g boneless chicken breast
+- 250g fat free yoghurt
+- 250g coriander leaves
+- Mustard oil / Sunflower oil
+- Sugar
+- Ginger
+- Garlic
+- 2 medium onions
+- Green chillies
+- [Garam masala](/garam-masala)
+- 2/3 Cardamom pods
+- 1 Bayleaf
+- 1 Cinnamom stick
+
+## Directions
+
+1. Cut the boneless chicken into small bite sized pieces.
+2. In a mixer, put 250g coriander leaves, 2/3 green chillies, 250g yoghurt, 20g ginger, 9/10 cloves of garlic, 2 medium sized onions and mix well.
+3. Add the green chillies according to your taste.
+4. Pour half of the mixture from step 2 into a bowl and mix it thoroughly with the chicken.
+5. Into this chicken mixture add 1 tbsp Garam Masala and salt to taste.
+6. Keep the resulting marinated chicken aside for about 30 minutes.
+7. In a frying pan add 3 tbsp of either mustard oil or sunflower oil.
+8. Once the oil is hot, add 1 tbsp sugar and cook until the sugar melts into the oil.
+9. Add 2/3 cardamom pods, 1 small cinnamon stick, and 1 bayleaf into the hot oil.
+10. Simmer for about 1 minute, then lower the heat to medium.
+11. On medium heat, add the marinated chicken mixture and cook till oil starts separating from the chicken.
+12. Add salt to taste and keep stirring the chicken to make sure it does not burn or stick to the bottom of the pan.
+13. Once the oil separates, add the remaining mixture which was left behind after step 4.
+14. Stir until it has a thick consistency. Serve with [naan](/naan-bread) or [rice](/rice).
+>>>

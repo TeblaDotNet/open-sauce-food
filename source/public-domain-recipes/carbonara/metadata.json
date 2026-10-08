@@ -1,0 +1,36 @@
+{
+  "title": "Carbonara",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/carbonara.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "67e9a04c1baa1961ce28f941d4591f43e82702d3d66080f7c80dc5259806b6c6",
+  "original_front_matter": {
+    "title": "Carbonara",
+    "date": "2021-03-11",
+    "tags": [
+      "italian",
+      "pasta",
+      "quick",
+      "cheesefare"
+    ],
+    "author": "Peter Piontek, Ladislao Blanchi"
+  },
+  "source_url": "https://publicdomainrecipes.com/carbonara/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "carbonara",
+      "url": "/pix/carbonara.webp",
+      "upstreamPath": "static/pix/carbonara.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

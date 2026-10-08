@@ -1,0 +1,21 @@
+id: core
+kind: process
+canonical_name: core
+names:
+  en: core
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 1
+  observed_terms:
+  - term: core
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  legacy_terms:
+  - term: core
+    count: 1
+observed_parameters:
+- value: stems
+  count: 1

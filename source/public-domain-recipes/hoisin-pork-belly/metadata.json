@@ -1,0 +1,41 @@
+{
+  "title": "Hoisin Pork Belly",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/hoisin-pork-belly.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "3966bbaa0d4ef9cbe0f63f2f4707876166cafe352b551be2667e60bb0a0dc2f0",
+  "original_front_matter": {
+    "title": "Hoisin Pork Belly",
+    "date": "2021-04-02",
+    "tags": [
+      "chinese",
+      "pork",
+      "spicy",
+      "sweet"
+    ],
+    "author": "speaker scorned"
+  },
+  "source_url": "https://publicdomainrecipes.com/hoisin-pork-belly/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Spicy Glazed Hoisin Pork Belly",
+      "url": "/pix/hoisin-pork-belly.webp",
+      "upstreamPath": "static/pix/hoisin-pork-belly.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "6d33d3a85e8497fb243a01a366a1d5dde3ab7a3a4ab00a7cfbd86d1fa16896df",
+      "sourcePath": "source/public-domain-recipes/hoisin-pork-belly/hoisin-pork-belly.webp",
+      "promotedPath": "examples/public-domain-recipes/hoisin-pork-belly/hoisin-pork-belly.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

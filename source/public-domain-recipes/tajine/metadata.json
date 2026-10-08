@@ -1,0 +1,39 @@
+{
+  "title": "Tajine Maadnous",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tajine.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "9e3373d701dc3b8e2d1041b71c54f01024b1c12ce046b419fd4d09134af1f531",
+  "original_front_matter": {
+    "title": "Tajine Maadnous",
+    "date": "2022-11-16",
+    "tags": [
+      "tunisian",
+      "Eggs"
+    ],
+    "author": "Sami Ben Romdhane"
+  },
+  "source_url": "https://publicdomainrecipes.com/tajine/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "tajine maadnous",
+      "url": "/pix/tajine-maadnous.webp",
+      "upstreamPath": "static/pix/tajine-maadnous.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "a7754970de95b62502e97e0dcde0023af37a84462af16e5d896b1534075f30a7",
+      "sourcePath": "source/public-domain-recipes/tajine/tajine-maadnous.webp",
+      "promotedPath": "examples/public-domain-recipes/tajine/tajine-maadnous.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

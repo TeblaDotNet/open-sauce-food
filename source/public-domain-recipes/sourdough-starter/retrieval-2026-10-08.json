@@ -1,0 +1,32 @@
+{
+  "title": "Sourdough starter",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sourdough-starter.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "233d5b078142af9d58cdc1f6131792a7bcd1b5c2133d1a28f82251fbbeff1717",
+  "original_front_matter": {
+    "title": "Sourdough starter",
+    "date": "2021-03-23",
+    "tags": [
+      "bread",
+      "sourdough",
+      "basic"
+    ],
+    "author": "Vili Kangas"
+  },
+  "source_url": "https://publicdomainrecipes.com/sourdough-starter/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

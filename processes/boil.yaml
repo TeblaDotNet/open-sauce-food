@@ -1,0 +1,134 @@
+id: boil
+kind: process
+canonical_name: boil
+names:
+  en: boil
+status: reviewed-merge
+aliases:
+  - name: bring to boil
+    type: phrase-alias
+    observed_count: 22
+  - name: bring to a boil
+    type: review-pass-1-lexical
+evidence:
+  legacy_observation_count: 9
+  observed_terms:
+    - term: boil
+      count: 27
+    - term: bring to boil
+      count: 22
+  seen_in:
+    - examples/public-domain-recipes/aljotta/aljotta.opensauce
+    - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+    - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+    - examples/public-domain-recipes/crab-salad/crab-salad.opensauce
+    - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+    - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+    - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+    - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+    - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+    - examples/public-domain-recipes/granita/granita.opensauce
+    - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+    - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+    - examples/public-domain-recipes/jam/jam.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/ketchup/ketchup.opensauce
+    - examples/public-domain-recipes/kombucha/kombucha.opensauce
+    - examples/public-domain-recipes/kvass/kvass.opensauce
+    - examples/public-domain-recipes/lentejas/lentejas.opensauce
+    - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+    - examples/public-domain-recipes/limoncello/limoncello.opensauce
+    - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
+    - examples/public-domain-recipes/orange-jam/orange-jam.opensauce
+    - examples/public-domain-recipes/paella/paella.opensauce
+    - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
+    - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+    - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+    - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+    - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+    - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+  legacy_terms:
+    - term: boil
+      count: 6
+    - term: bring to boil
+      count: 3
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 1-2h
+    count: 1
+  - value: 10m
+    count: 6
+  - value: 2 serves
+    count: 1
+  - value: 30-40m
+    count: 1
+  - value: 45m
+    count: 1
+  - value: 6m
+    count: 2
+  - value: additional 6m
+    count: 1
+  - value: at least 2h
+    count: 1
+  - value: constantly stirring
+    count: 1
+  - value: covered
+    count: 1
+  - value: gently
+    count: 2
+  - value: high
+    count: 1
+  - value: high heat
+    count: 1
+  - value: large pan
+    count: 1
+  - value: low heat
+    count: 1
+  - value: medium heat
+    count: 1
+  - value: medium-high
+    count: 1
+  - value: over fire
+    count: 1
+  - value: possibly day before
+    count: 1
+  - value: pot
+    count: 2
+  - value: rapidly
+    count: 3
+  - value: retain stated proportions
+    count: 1
+  - value: salted water
+    count: 2
+  - value: saucepan
+    count: 1
+  - value: separate pot
+    count: 1
+  - value: skin on
+    count: 1
+  - value: source also says spices without naming ginger
+    count: 1
+  - value: still slightly runny at finish
+    count: 1
+  - value: stir frequently against sticking
+    count: 1
+  - value: tall stock pot
+    count: 1
+  - value: thickens further on cooling
+    count: 1
+  - value: until half original amount
+    count: 1
+  - value: until very soft
+    count: 1
+  - value: ~10m or until slightly thickened
+    count: 1
+  - value: ~15-20m
+    count: 1
+  - value: ~25m depending on size
+    count: 1

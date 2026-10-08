@@ -1,0 +1,35 @@
+id: flour
+kind: ingredient
+names:
+  en: flour
+observed_forms:
+  - syntax: flour
+    count: 6
+  - syntax: flour, bread
+    count: 1
+  - syntax: flour, plain
+    count: 3
+  - syntax: flour, self-raising
+    count: 2
+  - syntax: flour, wheat
+    count: 2
+seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - examples/public-domain-recipes/lavacake/lavacake.opensauce
+  - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+  - legacy-corpus:bbc-food-10
+observed_qualifiers:
+  - value: bread
+    count: 1
+  - value: plain
+    count: 3
+  - value: self-raising
+    count: 2
+  - value: wheat
+    count: 2
+legacy_observation: true

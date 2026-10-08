@@ -1,0 +1,34 @@
+{
+  "title": "No-knead Bread",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/no-knead-bread.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "565bdbf3e97de28297efe003dbe075a03d93c3db9793e947046557ffb36c2599",
+  "original_front_matter": {
+    "title": "No-knead Bread",
+    "date": "2021-03-21",
+    "tags": [
+      "bread",
+      "dough"
+    ],
+    "author": "enthdegree"
+  },
+  "source_url": "https://publicdomainrecipes.com/no-knead-bread/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Finished bread",
+      "url": "/pix/no-knead-bread.webp",
+      "upstreamPath": "static/pix/no-knead-bread.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

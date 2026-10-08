@@ -1,0 +1,15 @@
+id: remove-from-soup
+kind: process
+canonical_name: remove from soup
+names:
+  en: remove from soup
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: remove from soup
+    count: 1

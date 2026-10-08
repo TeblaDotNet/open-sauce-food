@@ -1,0 +1,9 @@
+id: spaghetti
+kind: ingredient
+names:
+  en: spaghetti
+observed_forms:
+- syntax: spaghetti
+  count: 1
+seen_in:
+- examples/public-domain-recipes/carbonara/carbonara.opensauce

@@ -1,0 +1,90 @@
+::recipe
+
+name: Tzatziki
+source: https://publicdomainrecipes.com/tzatziki/
+# Source author not stated.
+source license: Public domain (Unlicense)
+units: source
+tags: basic, snack, spread, traditional
+serves: 3
+
+# Original source: ../../../source/public-domain-recipes/tzatziki/tzatziki.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 2 min
+# Source Cook time: 6 min
+# Source Servings: 3
+# Conversion note: Garlic, 1 clove/teaspoon; add all three to yogurt after cucumber, dill and garlic-oil preparation. Slash meaning and referent count are ambiguous; no measured equivalence assumed.
+# Conversion note: Image reference /pix/tzatziki.webp has no image in upstream snapshot; live retrieval returned HTML. No image substituted or fabricated.
+
+::ingredients
+
+(yogurt, Greek) 2 cups
+(cucumber) 3 inches
+(dill) as needed
+(garlic) 1 clove/teaspoon
+(olive oil) 1tsp; optional extra in method
+(acid) = (lemon juice) as needed -OR- (lime juice) as needed -OR- (vinegar) as needed
+(salt) generous pinch in method
+(pepper) small pinch in method
+
+::equipment
+
+(kitchen towel, clean)
+(mortar and pestle)
+
+::instructions
+
+(cucumber) <grate, finely>
+(dill) <chop>
+(cucumber) <strain, thoroughly, clean kitchen towel>
+(garlic) + (olive oil) <mash, mortar and pestle>
+{tzatziki} = (yogurt) + (cucumber) + (dill) + (garlic) + (olive oil)
+{tzatziki} + (acid) <squeeze, some lemon/lime or vinegar>
+    + (salt) + (pepper)
+Optional [
+    {tzatziki} + (olive oil) extra
+]
+{tzatziki} <stir>
+    <serve, favourite snack>
+
+::story
+
+A traditional greek dip that goes well with crackers, celery and carrots or in a greek gyro. Great for parties and sharing with your family friends. Can be eaten immediately after preparation or after a few hours of being in the fridge for enhanced flavor.
+
+::source
+<<<
+---
+title: "Tzatziki"
+tags: ['basic', 'snack', 'spread', 'traditional']
+date: 2022-04-16
+---
+
+![Tzatziki](/pix/tzatziki.webp)
+
+A traditional greek dip that goes well with crackers, celery and carrots or in a greek gyro. Great for parties and sharing with your family friends. Can be eaten immediately after preparation or after a few hours of being in the fridge for enhanced flavor.
+
+- ⏲️ Prep time: 2 min
+- 🍳 Cook time: 6 min
+- 🍽️ Servings: 3
+
+## Ingredients
+
+- Greek yogurt, 2 cups
+- Cucumber, 3 inches
+- Dill
+- Garlic, 1 clove/teaspoon
+- Olive oil, 1 teaspoon
+- Lemon/lime or vinegar
+- Salt and pepper
+
+## Directions
+
+1. Finely grate the cucumber and chop the dill
+2. Strain the cucumber thoroughly with a clean kitchen towel
+3. Mash the garlic and the olive oil in a mortar and pestle
+4. Add all three to the Greek yogurt
+5. Squeeze in some lemon/lime or vinegar
+6. Add a generous pinch of salt and small pinch of pepper
+7. Optionally add some extra olive oil
+8. Stir and enjoy with your favorite snack
+>>>

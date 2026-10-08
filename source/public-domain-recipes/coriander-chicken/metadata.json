@@ -1,0 +1,34 @@
+{
+  "title": "Coriander Chicken",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/coriander-chicken.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "aa7acf9ea3cbd43ca6d1e90591bf80e049a0a8f07d3175b06773db7bcad67ebb",
+  "original_front_matter": {
+    "title": "Coriander Chicken",
+    "date": "2021-04-02",
+    "tags": [
+      "indian",
+      "lunch",
+      "spicy"
+    ],
+    "author": "chetan-basuray"
+  },
+  "source_url": "https://publicdomainrecipes.com/coriander-chicken/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

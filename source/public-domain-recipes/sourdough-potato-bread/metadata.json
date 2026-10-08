@@ -1,0 +1,40 @@
+{
+  "title": "Potato sourdough bread",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sourdough-potato-bread.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "e3b7df80e9c1cf7c72af65a4f1f5f348827f75dfd8dc93e1ef5f93938b09e95b",
+  "original_front_matter": {
+    "title": "Potato sourdough bread",
+    "date": "2021-03-23",
+    "tags": [
+      "sourdough",
+      "bread",
+      "potato"
+    ],
+    "author": "SirStart"
+  },
+  "source_url": "https://publicdomainrecipes.com/sourdough-potato-bread/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Potato sourdough bread",
+      "url": "/pix/sourdough-potato-bread.webp",
+      "upstreamPath": "static/pix/sourdough-potato-bread.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "d241dac6b17e1e54bc77eecbdf7aeadafacf322f06804e549d3eaba52d5846d1",
+      "sourcePath": "source/public-domain-recipes/sourdough-potato-bread/sourdough-potato-bread.webp",
+      "promotedPath": "examples/public-domain-recipes/sourdough-potato-bread/sourdough-potato-bread.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

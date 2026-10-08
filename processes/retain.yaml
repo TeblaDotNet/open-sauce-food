@@ -1,0 +1,17 @@
+id: retain
+kind: process
+canonical_name: retain
+names:
+  en: retain
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: retain
+      count: 1
+  seen_in: []
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: pan when bacon done
+    count: 1

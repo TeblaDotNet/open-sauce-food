@@ -1,0 +1,35 @@
+{
+  "title": "Simple Creamy Pasta Sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/simple-pasta-cream-sauce.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "e0f615b22c788d0cd154e3497b278a6e8881545d636849ee6af83dbc6d546907",
+  "original_front_matter": {
+    "title": "Simple Creamy Pasta Sauce",
+    "date": "2021-03-23",
+    "tags": [
+      "basic",
+      "quick",
+      "sauce",
+      "pasta"
+    ],
+    "author": "herzeleid02"
+  },
+  "source_url": "https://publicdomainrecipes.com/simple-pasta-cream-sauce/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

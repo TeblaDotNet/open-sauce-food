@@ -1,0 +1,32 @@
+id: cover
+kind: process
+names:
+  en: cover
+observed_forms:
+- syntax: cover
+  count: 1
+- syntax: cover, boiling water
+  count: 1
+- syntax: cover, lid
+  count: 1
+- syntax: cover, remaining crust
+  count: 1
+- syntax: cover, water, a few inches
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: a few inches
+  count: 1
+- value: boiling water
+  count: 1
+- value: lid
+  count: 1
+- value: remaining crust
+  count: 1
+- value: water
+  count: 1
+legacy_observation: true

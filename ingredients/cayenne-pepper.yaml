@@ -1,0 +1,28 @@
+id: cayenne-pepper
+kind: ingredient
+canonical_name: cayenne pepper
+names:
+  en: cayenne pepper
+status: reviewed-merge
+aliases:
+- name: cayenne
+  type: short-name
+  observed_count: 1
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cayenne
+    count: 1
+  - term: cayenne pepper
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+  - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

@@ -1,0 +1,32 @@
+{
+  "title": "Clam Chowder",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/clam-chowder.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "38b37ed382bf8b79715530eb4e32f53b4c295831e371dc1ecffaffe1cf1fb710",
+  "original_front_matter": {
+    "title": "Clam Chowder",
+    "tags": [
+      "seafood",
+      "stew",
+      "american"
+    ],
+    "date": "2025-10-09",
+    "author": "Tim L"
+  },
+  "source_url": "https://publicdomainrecipes.com/clam-chowder/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

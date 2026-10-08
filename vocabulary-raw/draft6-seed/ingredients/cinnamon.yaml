@@ -1,0 +1,16 @@
+id: cinnamon
+kind: ingredient
+names:
+  en: cinnamon
+observed_forms:
+- syntax: cinnamon
+  count: 1
+- syntax: cinnamon, ground
+  count: 2
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: ground
+  count: 2
+legacy_observation: true

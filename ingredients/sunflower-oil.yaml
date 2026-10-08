@@ -1,0 +1,18 @@
+id: sunflower-oil
+kind: ingredient
+canonical_name: sunflower oil
+names:
+  en: sunflower oil
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: sunflower oil
+      count: 2
+  seen_in:
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: for frying
+    count: 1

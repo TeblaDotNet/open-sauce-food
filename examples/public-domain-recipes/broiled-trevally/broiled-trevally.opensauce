@@ -1,0 +1,94 @@
+::recipe
+
+name: Broiled Trevally
+source: https://publicdomainrecipes.com/broiled-trevally/
+source author: oq-olarte
+source license: Public domain (Unlicense)
+units: source
+tags: fish, cheesefare
+
+# Original source: ../../../source/public-domain-recipes/broiled-trevally/broiled-trevally.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Title Broiled Trevally; covered pan method; butter unused; squash doneness judges everything. Title and method differ; doneness heuristic is source wording, not independently validated.
+
+::ingredients
+
+(giant trevally) quantity unspecified
+(eggplant) as needed
+(squash choice) = (squash) as needed -OR- (zucchini) as needed
+(carrot) as needed
+(onion) as needed
+(garlic) as needed
+(ginger) as needed
+(tomato) as needed
+(bay leaf) as needed
+(olive oil) good splash
+(thyme) as needed
+(basil) as needed
+(butter) as needed
+# Method-only seasonings
+(salt) as needed
+(pepper) as needed
+
+::equipment
+
+(pan)
+(mortar and pestle)
+
+::instructions
+
+(carrot) + (eggplant) + (squash choice) + (tomato) + (onion) <dice>
+    <place, pan>
+(giant trevally) + (basil) + (thyme) + (bay leaf) + (salt) + (pepper) <season, both sides>
+    <place, above vegetables>
+(garlic) + (ginger) <crush, mortar and pestle>
+    <place, in and around fish>
+{fish and vegetables} + (olive oil) <pour, good splash>
+    <cover, pan>
+    <cook, medium-low fire, until everything looks cooked>
+(giant trevally) <turn, to cook other side properly>
+(squash choice) <check, doneness; source uses this to judge all ingredients cooked>
+{fish and vegetables} <rest, 5m before serving>
+
+::story
+
+Well, it's actually a giant trevally, and if you have seen one, that fish looks ugly.
+So here's a recipe to make it look---and taste!---more appealing.
+
+::source
+<<<
+---
+title: "Broiled Trevally"
+date: 2021-03-10
+tags: ['fish', 'cheesefare']
+author: oq-olarte
+---
+
+Well, it's actually a *giant* trevally, and if you have seen one, that fish looks ugly.
+So here's a recipe to make it look---and taste!---more appealing.
+
+## Ingredients
+- giant trevally
+- eggplants
+- squash (or zucchini)
+- carrots
+- onion
+- garlic
+- ginger
+- tomatoes
+- bay leaf
+- olive oil
+- thyme
+- basil
+- butter
+
+## Directions
+1. Dice carrots, eggplant, squash, tomatoes and onions. Place these on a pan.
+2. Put basil, thyme, bay leaf, salt, and pepper on each of the fish's side. Place the fish above the veggies.
+3. Crush garlic and ginger (with mortar and pestle, of course) and place this in and around the fish.
+4. Give it all a good splash of olive oil.
+5. Cover the pan and set to medium-low fire, until everything looks cooked.
+6. Flip the fish on the other side, just to make sure that it's properly cooked.
+7. Check the doneness of the squash: if it's cooked, everything is.
+8. Let everything set for 5 mins. before serving.
+>>>

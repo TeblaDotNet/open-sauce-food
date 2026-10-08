@@ -1,0 +1,15 @@
+id: chilli-flakes
+kind: ingredient
+names:
+  en: chilli flakes
+observed_forms:
+- syntax: chilli flakes, dried, red
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: dried
+  count: 1
+- value: red
+  count: 1
+legacy_observation: true

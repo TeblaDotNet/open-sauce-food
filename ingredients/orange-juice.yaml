@@ -1,0 +1,15 @@
+id: orange-juice
+kind: ingredient
+canonical_name: orange juice
+names:
+  en: orange juice
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: orange juice
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce

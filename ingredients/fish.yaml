@@ -1,0 +1,18 @@
+id: fish
+kind: ingredient
+canonical_name: fish
+names:
+  en: fish
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: fish
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/aljotta/aljotta.opensauce
+observed_qualifiers:
+- value: raw
+  count: 1

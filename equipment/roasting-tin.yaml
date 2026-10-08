@@ -1,0 +1,15 @@
+id: roasting-tin
+kind: equipment
+canonical_name: roasting tin
+names:
+  en: roasting tin
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: roasting tin
+    count: 1

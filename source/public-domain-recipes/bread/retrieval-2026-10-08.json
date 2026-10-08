@@ -1,0 +1,35 @@
+{
+  "title": "Bread",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/bread.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "2a7c29a8fe0dca0f43302168ae283bddbbba6c97e12667ca5debf15237507f93",
+  "original_front_matter": {
+    "title": "Bread",
+    "date": "2021-03-10",
+    "tags": [
+      "basic",
+      "bread",
+      "fasting"
+    ],
+    "author": "alex-selimov"
+  },
+  "source_url": "https://publicdomainrecipes.com/bread/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Finished bread in its baking mold",
+      "url": "/pix/bread.webp",
+      "upstreamPath": "static/pix/bread.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

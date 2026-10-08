@@ -1,0 +1,14 @@
+id: sumac
+kind: ingredient
+names:
+  en: sumac
+observed_forms:
+- syntax: sumac, optional, for serving
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1
+- value: optional
+  count: 1

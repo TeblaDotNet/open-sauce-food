@@ -1,0 +1,35 @@
+{
+  "title": "Yibin Burning Noodles",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/yibin-burning-noodles.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "7e60ceef12e9210fbdec0edada94ddadc510c531f45897cd220f88d98d1695be",
+  "original_front_matter": {
+    "title": "Yibin Burning Noodles",
+    "date": "2021-04-15",
+    "tags": [
+      "noodles",
+      "asian",
+      "chinese",
+      "spicy"
+    ],
+    "author": "ThePademelon"
+  },
+  "source_url": "https://publicdomainrecipes.com/yibin-burning-noodles/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

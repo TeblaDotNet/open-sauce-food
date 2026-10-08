@@ -1,0 +1,41 @@
+{
+  "title": "Croutons",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/croutons.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "eebcea678ec7f706e130a77ce2a53148b11126dda083139fef0af8733318932e",
+  "original_front_matter": {
+    "title": "Croutons",
+    "date": "2021-03-11",
+    "tags": [
+      "basic",
+      "french",
+      "salad",
+      "fasting"
+    ],
+    "author": "gucko"
+  },
+  "source_url": "https://publicdomainrecipes.com/croutons/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "croutons",
+      "url": "/pix/croutons.webp",
+      "upstreamPath": "static/pix/croutons.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "8698c445e8bdcc49de56a8b903118397e8e1f825146f7791f202e9fff16cc81a",
+      "sourcePath": "source/public-domain-recipes/croutons/croutons.webp",
+      "promotedPath": "examples/public-domain-recipes/croutons/croutons.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

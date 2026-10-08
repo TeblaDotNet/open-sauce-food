@@ -1,0 +1,88 @@
+::recipe
+
+name: Red Lentil Dahl
+source: https://publicdomainrecipes.com/red-lentil-dahl/
+source author: joel-maxuel
+source license: Public domain (Unlicense)
+units: source
+tags: indian, curry, tomato, vegetables
+serves: 6
+
+# Original source: ../../../source/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 10 min
+# Source Cook time: 50 min
+# Source Servings: 6
+
+::ingredients
+
+(olive oil) 3tbsp
+(onion; yellow, medium) 1
+(ginger, fresh, grated) 1tbsp
+(garlic, minced) 4 cloves
+(yellow curry, mild madras) 2tbsp
+(salt, sea) 1tsp
+(lentils, red, dried) 1 cup
+(water) 4-5 cups
+(tomato, plum, chopped) 5
+(lemon: juice) of 1 lemon
+(cilantro, fresh, chopped, lightly packed) 1 cup
+(heat seasoning) = (red chillies, dried) to taste -OR- (cayenne pepper) to taste
+(cinnamon, ground) 1/4tsp
+
+::equipment
+
+(pot, soup)
+
+::instructions
+
+(olive oil) <heat, soup pot>
+(onion) <sauté, 5m>
+    + (garlic) + (ginger) <sauté, 5m more>
+    + (yellow curry) + (heat seasoning) + (cinnamon) + (salt) <sauté, 5m more>
+{dahl} = (olive oil) + (onion) + (garlic) + (ginger) + (yellow curry) + (heat seasoning) + (cinnamon) + (salt) + (water) 4 cups
+{dahl} <stir>
+    + (tomato) + (lentils)
+    <bring to boil>
+    <simmer, lower heat a bit, 20m>
+    + (lemon: juice) + (cilantro)
+    + (water) more if too thick
+    <simmer, 10m more or until lentils completely tender; may take a while>
+
+::source
+<<<
+---
+title: Red Lentil Dahl
+tags: ['indian', 'curry', 'tomato', 'vegetables']
+date: 2022-08-04
+author: joel-maxuel
+---
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 50 min
+- 🍽️ Servings: 6
+
+## Ingredients
+
+- 3 Tbsp Olive Oil
+- 1 medium Yellow Onion
+- 1 Tbsp Fresh Ginger, grated
+- 4 Garlic Cloves, minced
+- 2 Tbsp Yellow Curry (mild madras)
+- 1 tsp Sea Salt
+- 1 cup dried Red Lentils
+- 4 - 5 cups Water
+- 5 Plum Tomatoes, chopped
+- juice of 1 Lemon
+- 1 cup Fresh Cilantro, chopped and lightly packed
+- Dried Red Chili's or cayenne pepper, to taste
+- 1/4 tsp Ground Cinnamon
+
+## Directions
+
+1. Heat oil in a soup pot and saute onions for 5 minutes.
+2. Add garlic and ginger and saute 5 more minutes.
+3. Add spices and salt, saute 5 minutes more.
+4. Add 4 cups of water and stir.  Add tomatoes and lentils. Bring to a boil and then lower the heat a bit and simmer for 20 minutes.
+5. Add the lemon juice and cilantro and more water if it's too thick.  Simmer 10 more minutes, or until lentils are completely tender. This may take a while.
+>>>

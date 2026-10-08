@@ -1,0 +1,12 @@
+id: paneer
+kind: ingredient
+names:
+  en: paneer
+observed_forms:
+- syntax: paneer, cubes
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_qualifiers:
+- value: cubes
+  count: 1

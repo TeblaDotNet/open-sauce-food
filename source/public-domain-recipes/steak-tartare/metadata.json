@@ -1,0 +1,34 @@
+{
+  "title": "Steak Tartare",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/steak-tartare.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "187a257b7a22f8f5551efbaefa91b35ed97768d0d2680da73af917e959ec7b12",
+  "original_front_matter": {
+    "title": "Steak Tartare",
+    "tags": [
+      "beef",
+      "raw",
+      "quick"
+    ],
+    "date": "2022-05-22",
+    "author": "dunkelheit-biz"
+  },
+  "source_url": "https://publicdomainrecipes.com/steak-tartare/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

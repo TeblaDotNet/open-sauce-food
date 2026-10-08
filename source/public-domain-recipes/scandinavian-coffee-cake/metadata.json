@@ -1,0 +1,35 @@
+{
+  "title": "Scandinavian Coffee Cake",
+  "source_url": "https://publicdomainrecipes.com/scandinavian-coffee-cake/",
+  "source_author": null,
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/scandinavian-coffee-cake.md",
+  "original_sha256": "44b56916614739fd13201f4440681327a1f0fddf12644e72532f7b6bd1f296d3",
+  "original_front_matter": {
+    "title": "Scandinavian Coffee Cake",
+    "date": "2021-03-12",
+    "tags": [
+      "sweet",
+      "dessert",
+      "cake",
+      "cheesefare"
+    ]
+  },
+  "source_timing_and_servings": {
+    "Prep time": "15 min",
+    "Cook time": "≈ 3 hours",
+    "Servings": "1 cake"
+  },
+  "ingredients_source_markdown": "* 1/2 cup milk\n* 1/2 cup shortening\n* 1/2 cup sugar\n* 1/2 teaspoon salt\n* 1 package active dry yeast\n* 1/4 cup warm (not hot) water\n* 3 cup sifted enriched Flour\n* 2 eggs, beaten\n* melted butter, or margarine\n* 2/3 cup firmly packed brown sugar\n* 2 teaspoon cinnamon\n* chopped walnuts",
+  "directions_source_markdown": "1. Scald milk.\n2. Add shortening, sugar, and salt.\n3. Stir until sugar dissolves; cool to lukewarm.\n4. Dissolve yeast in water; combine with milk mixture.\n5. Stir in half the flour; add eggs; beat well.\n6. Add enough of remaining flour to make a soft dough.\n7. Turn out on lightly floured board; knead till smooth and elastic.\n8. (See a recipe for white bread) put in a greased bowl; brush with shortening; cover; let rise in a warm place, 80°-85°F (25°-30°C) till double in bulk (about 2 hours).\n9. Turn out on floured board; roll into a rectangle 8 by 12 inches.\n10. Brush with butter.\n11. Sprinkle with brown sugar and cinnamon.\n12. Roll up like jelly roll; shape into a ring on greased baking sheet; pinch ends.\n13. From the outside, cut through the ring toward center almost all the way through in 1- inch slices.\n14. Fan out slices slightly to side.\n15. Brush with shortening; cover; let it rise for about 45 minutes or till double in bulk.\n16. Meanwhile set oven for moderate 375°F (190°C).\n17. Bake 25 to 30 minutes.\n18. While warm spread with confectioners' sugar icing; sprinkle with chopped walnuts.",
+  "images": [],
+  "coverage_group": "baking"
+}

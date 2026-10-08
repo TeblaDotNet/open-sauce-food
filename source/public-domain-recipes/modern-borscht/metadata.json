@@ -1,0 +1,40 @@
+{
+  "title": "Modern Borscht",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/modern-borscht.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "52d5a2a91f4f5f6aca17c7df5b2dcfe35ce5346274becf9b40a9232d69b687ee",
+  "original_front_matter": {
+    "title": "Modern Borscht",
+    "tags": [
+      "beef",
+      "soup",
+      "russian",
+      "ukrainian"
+    ],
+    "date": "2024-11-10",
+    "author": "Skunkee"
+  },
+  "source_url": "https://publicdomainrecipes.com/modern-borscht/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    {
+      "category": "syntax/representation question",
+      "evidence": "Prep Directions and Cooking Directions overlap in time; source delays potatoes and cabbage until later simmer stages.",
+      "decision": "Preserve both subsection headings and timing instructions; do not execute all preparation up front."
+    },
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

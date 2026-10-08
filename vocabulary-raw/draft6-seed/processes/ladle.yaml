@@ -1,0 +1,13 @@
+id: ladle
+kind: process
+names:
+  en: ladle
+observed_forms:
+- syntax: ladle, pan
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: pan
+  count: 1
+legacy_observation: true

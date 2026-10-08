@@ -1,0 +1,51 @@
+id: lemon
+kind: ingredient
+canonical_name: lemon
+names:
+  en: lemon
+status: canonical-seed
+evidence:
+  legacy_observation_count: 1
+  observed_terms:
+    - term: lemon
+      count: 10
+  seen_in:
+    - examples/public-domain-recipes/granita/granita.opensauce
+    - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+    - examples/public-domain-recipes/kvass/kvass.opensauce
+    - examples/public-domain-recipes/limoncello/limoncello.opensauce
+    - examples/public-domain-recipes/orange-jam/orange-jam.opensauce
+    - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+    - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+    - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+    - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  legacy_terms:
+    - term: lemon
+      count: 1
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: juice
+    count: 1
+  - value: large
+    count: 1
+  - value: organic
+    count: 1
+  - value: seeded
+    count: 1
+  - value: thinly sliced
+    count: 1
+  - value: unwaxed
+    count: 1
+  - value: zest
+    count: 1
+parts:
+  juice:
+    names:
+      en: juice
+  zest:
+    names:
+      en: zest
+  peel:
+    names:
+      en: peel

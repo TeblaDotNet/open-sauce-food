@@ -1,0 +1,13 @@
+id: tortilla-wrap
+kind: ingredient
+names:
+  en: tortilla wrap
+observed_forms:
+- syntax: tortilla wrap, soft
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: soft
+  count: 1
+legacy_observation: true

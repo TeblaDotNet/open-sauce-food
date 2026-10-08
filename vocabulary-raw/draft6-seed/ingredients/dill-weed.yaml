@@ -1,0 +1,12 @@
+id: dill-weed
+kind: ingredient
+names:
+  en: dill weed
+observed_forms:
+- syntax: dill weed, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

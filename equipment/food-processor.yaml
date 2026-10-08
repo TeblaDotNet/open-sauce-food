@@ -1,0 +1,24 @@
+id: food-processor
+kind: equipment
+canonical_name: food processor
+names:
+  en: food processor
+status: canonical-seed
+evidence:
+  legacy_observation_count: 4
+  observed_terms:
+    - term: food processor
+      count: 5
+  seen_in:
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+    - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+  legacy_terms:
+    - term: food processor
+      count: 4
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: optional
+    count: 1

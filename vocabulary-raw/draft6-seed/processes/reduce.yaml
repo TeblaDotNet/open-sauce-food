@@ -1,0 +1,18 @@
+id: reduce
+kind: process
+names:
+  en: reduce
+observed_forms:
+- syntax: reduce, saucepan, medium-low heat, ~15m, stirring regularly
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+observed_parameters:
+- value: medium-low heat
+  count: 1
+- value: saucepan
+  count: 1
+- value: stirring regularly
+  count: 1
+- value: ~15m
+  count: 1

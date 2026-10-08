@@ -1,0 +1,9 @@
+id: tahini
+kind: ingredient
+names:
+  en: tahini
+observed_forms:
+- syntax: tahini
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce

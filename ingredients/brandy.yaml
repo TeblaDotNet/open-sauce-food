@@ -1,0 +1,12 @@
+id: brandy
+kind: ingredient
+canonical_name: brandy
+names:
+  en: brandy
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/plum-pudding/plum-pudding.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

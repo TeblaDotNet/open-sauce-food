@@ -1,0 +1,43 @@
+id: serve
+kind: process
+names:
+  en: serve
+observed_forms:
+- syntax: serve
+  count: 12
+- syntax: serve, bread
+  count: 1
+- syntax: serve, fresh, with totopos
+  count: 1
+- syntax: serve, hot
+  count: 2
+- syntax: serve, immediately
+  count: 1
+- syntax: serve, rice or naan
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/guacamole/guacamole.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- examples/public-domain-recipes/lavacake/lavacake.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: bread
+  count: 1
+- value: fresh
+  count: 1
+- value: hot
+  count: 2
+- value: immediately
+  count: 1
+- value: rice or naan
+  count: 1
+- value: with totopos
+  count: 1
+legacy_observation: true

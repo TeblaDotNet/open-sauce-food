@@ -1,0 +1,23 @@
+id: cloth
+kind: equipment
+canonical_name: cloth
+names:
+  en: cloth
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cloth
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+observed_qualifiers:
+- value: clean
+  count: 1
+- value: thin
+  count: 1
+- value: white
+  count: 1

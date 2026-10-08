@@ -1,0 +1,71 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Easy Chicken and Rice Casserole
+source: https://publicdomainrecipes.com/easy-chicken-and-rice-casserole/
+source author: joel-maxuel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: chicken, quick, easy
+serves: 4
+
+# Imported from content/easy-chicken-and-rice-casserole.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 40 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(onion, chopped) 1/2 cup
+(celery, chopped) 1/2 cup
+(butter or margarine) 2 Tbsp
+(chicken, cooked and chopped) 2 cups
+(hot water) 1 3/4 cups
+(long grain white rice) 2/3 cup
+(mushrooms with liquid) 1 can （10 oz）
+(frozen peas and carrots) 1 cup
+(thyme and rosemary, Dried) 1 tsp
+
+::equipment
+
+(oven)
+
+::instructions
+
+In large fry pan, cook onion and celery in butter until soft.
+<stir, in remaining ingredients>
+<bake, in covered 8 cup baking dish in preheated (350F) oven for about 30 minutes or until rice is cooked>
+
+::source
+<<<
+---
+title: Easy Chicken and Rice Casserole
+tags: ['chicken', 'quick', 'easy']
+date: 2022-08-09
+author: joel-maxuel
+---
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 40 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 1/2 cup Onion, chopped
+- 1/2 cup Celery, chopped
+- 2 Tbsp Butter or margarine
+- 2 cups Chicken, cooked and chopped
+- 1 3/4 cups Hot water
+- 2/3 cup Long Grain White Rice
+- 1 can (10 oz) Mushrooms with liquid
+- 1 cup Frozen Peas and Carrots
+- 1 tsp Dried Thyme and Rosemary
+
+## Directions
+
+1. In large fry pan, cook onion and celery in butter until soft.
+2. Stir in remaining ingredients.
+3. Bake in covered 8 cup baking dish in preheated (350F) oven for about 30 minutes or until rice is cooked.
+>>>

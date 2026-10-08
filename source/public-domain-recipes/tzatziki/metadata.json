@@ -1,0 +1,43 @@
+{
+  "title": "Tzatziki",
+  "source_url": "https://publicdomainrecipes.com/tzatziki/",
+  "source_author": null,
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tzatziki.md",
+  "original_sha256": "43cc13c518bdfe50796ddc52a3fea0d9abe321d046d242a3bf45be272e0da49c",
+  "original_front_matter": {
+    "title": "Tzatziki",
+    "tags": [
+      "basic",
+      "snack",
+      "spread",
+      "traditional"
+    ],
+    "date": "2022-04-16"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "2 min",
+    "Cook time": "6 min",
+    "Servings": "3"
+  },
+  "ingredients_source_markdown": "- Greek yogurt, 2 cups\n- Cucumber, 3 inches\n- Dill\n- Garlic, 1 clove/teaspoon\n- Olive oil, 1 teaspoon\n- Lemon/lime or vinegar\n- Salt and pepper",
+  "directions_source_markdown": "1. Finely grate the cucumber and chop the dill\n2. Strain the cucumber thoroughly with a clean kitchen towel\n3. Mash the garlic and the olive oil in a mortar and pestle\n4. Add all three to the Greek yogurt\n5. Squeeze in some lemon/lime or vinegar\n6. Add a generous pinch of salt and small pinch of pepper\n7. Optionally add some extra olive oil\n8. Stir and enjoy with your favorite snack",
+  "images": [
+    {
+      "alt": "Tzatziki",
+      "source_url": "https://publicdomainrecipes.com/pix/tzatziki.webp",
+      "source_reference": "/pix/tzatziki.webp",
+      "status": "unavailable",
+      "reason": "Absent in pinned upstream snapshot. Live URL retrieved on 2026-10-07 returned HTML, not image bytes."
+    }
+  ],
+  "coverage_group": "sauces"
+}

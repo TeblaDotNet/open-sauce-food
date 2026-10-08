@@ -1,0 +1,10 @@
+id: set-aside
+kind: process
+names:
+  en: set aside
+observed_forms:
+- syntax: set aside
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

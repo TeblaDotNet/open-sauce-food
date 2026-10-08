@@ -1,0 +1,70 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Irish Potato Casserole
+source: https://publicdomainrecipes.com/irish-potato-casserole/
+source author: joel-maxuel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: irish, baking
+serves: 6
+
+# Imported from content/irish-potato-casserole.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 45 min
+# Source metadata: - 🍽️ Servings: 6
+
+::ingredients
+
+(potatoes, peeled and shredded) 2 cups
+(butter, melted) 1/2 cup
+(whole eggs, beaten) 2
+(onion, minced) 1 tsp
+(salt) 1 tsp
+(paprika) 1/4 tsp
+(milk) 1/2 cup
+(sharp cheddar cheese, shredded) 1/2 cup
+
+::equipment
+
+(oven)
+(bowl)
+
+::instructions
+
+<preheat, oven to 350F. Butter a 1.5 quart baking dish>
+In a medium bowl, combine the potatoes, butter, eggs, onion, salt, and paprika. Mix well.
+<place, potato mixture into the prepared baking dish and pour milk over top. Bake in the preheated oven for 40 minutes. Sprinkle top with cheese, return to oven until cheese melts and is slightly browned>
+
+::source
+<<<
+---
+title: Irish Potato Casserole
+tags: ['irish', 'baking']
+date: 2022-09-10
+author: joel-maxuel
+---
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 45 min
+- 🍽️ Servings: 6
+
+## Ingredients
+
+- 2 cups Potatoes, peeled and shredded
+- 1/2 cup Butter, melted
+- 2 whole Eggs, beaten
+- 1 tsp Onion, minced
+- 1 tsp Salt
+- 1/4 tsp Paprika
+- 1/2 cup Milk
+- 1/2 cup Sharp Cheddar Cheese, shredded
+
+## Directions
+
+1. Preheat oven to 350F. Butter a 1.5 quart baking dish.
+2. In a medium bowl, combine the potatoes, butter, eggs, onion, salt, and paprika. Mix well.
+3. Place potato mixture into the prepared baking dish and pour milk over top. Bake in the preheated oven for 40 minutes. Sprinkle top with cheese, return to oven until cheese melts and is slightly browned.
+>>>

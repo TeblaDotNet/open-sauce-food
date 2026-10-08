@@ -1,0 +1,15 @@
+id: waffle-maker
+kind: equipment
+canonical_name: waffle maker
+names:
+  en: waffle maker
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: waffle maker
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce

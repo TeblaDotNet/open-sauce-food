@@ -1,0 +1,24 @@
+id: stretch-and-fold
+kind: process
+canonical_name: stretch and fold
+names:
+  en: stretch and fold
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: stretch and fold
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+observed_parameters:
+- value: combine salt and begin gluten formation
+  count: 1
+- value: fold over itself and turn bowl to work around dough
+  count: 1
+- value: wet hand
+  count: 1
+- value: wet hands
+  count: 1

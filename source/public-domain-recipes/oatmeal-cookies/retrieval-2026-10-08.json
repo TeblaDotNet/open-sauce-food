@@ -1,0 +1,32 @@
+{
+  "title": "Oatmeal Cookies",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/oatmeal-cookies.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "9600f0b2e4bfee1216bb07738f4721eff5a12979c455fc3fb4a28afbd5b1ee4a",
+  "original_front_matter": {
+    "title": "Oatmeal Cookies",
+    "tags": [
+      "dessert",
+      "cookies",
+      "cheesefare"
+    ],
+    "date": "2023-07-29",
+    "author": "hoehlrich"
+  },
+  "source_url": "https://publicdomainrecipes.com/oatmeal-cookies/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

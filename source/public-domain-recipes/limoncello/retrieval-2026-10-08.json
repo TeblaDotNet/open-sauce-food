@@ -1,0 +1,36 @@
+{
+  "title": "Limoncello",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/limoncello.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "aad255c6148244784ee39a68fe782e79d38f6cec3c36d03193895f0b0a8f4f9a",
+  "original_front_matter": {
+    "title": "Limoncello",
+    "date": "2021-05-13",
+    "tags": [
+      "alcohol",
+      "lemon",
+      "digestivo",
+      "liquor"
+    ],
+    "author": "mfed3"
+  },
+  "source_url": "https://publicdomainrecipes.com/limoncello/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Limoncello",
+      "url": "/pix/limoncello.webp",
+      "upstreamPath": "static/pix/limoncello.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

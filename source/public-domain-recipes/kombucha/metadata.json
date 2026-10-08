@@ -1,0 +1,30 @@
+{
+  "title": "Kombucha",
+  "source_url": "https://publicdomainrecipes.com/kombucha/",
+  "source_author": "elias-pahls",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/kombucha.md",
+  "original_sha256": "310aad1d4eb93b094c8eda3a7ab99886a7bf59be10ab31fb3ccb0db589236430",
+  "original_front_matter": {
+    "title": "Kombucha",
+    "tags": [
+      "drink",
+      "sweet"
+    ],
+    "date": "2022-12-30",
+    "author": "elias-pahls"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- 5l (1 gallon) jar\n- 3-5 tbsp black (or green) tea\n- 2 cups sugar\n- kombucha scoby\n- optional additional teas\n- optional juices, fruits, spices\n- patience ;)",
+  "directions_source_markdown": "Primary brew:\n\n1. Boil 1-2l of water.\n2. Rinse all the dishes you will be working with boiling water; this is\n   important so the brew doesn't go bad while fermenting.\n3. Steep 3-5 tbsp (or 5-6 bags) of tee in 3-5 cups of water.\n4. Strain the leaves from the tea and add 2 cups of sugar (or honey).\n5. Add other optional teas to your liking; I like to add a good handful of\n   rosella tea; steep and strain this in boiling water separately.\n6. Add 4l of water to the tea concentrate and pour into a wide mouthed jar.\n7. Let the tea sit until it is less than 40°C; add ice cubes if it has to go\n   quick.\n8. Add your scoby to the jar and seal the mouth tightly with a cloth or paper\n   towel and a rubber band. The scoby has to breathe, but you want to prevent\n   insects and dirt from getting into the jar.\n9. Let the jar sit in a warm dark spot for 10-14 days.\n\nSecond brew:\n\n1. Taste the brew after 10-14 days; if it has started to carbonate and the\n   sugar is mostly gone, it is ready. The brewing time will strongly depend on\n   your personal preference, shorten or lengthen as you wish.\n2. Once ready, strain 4/5 of the brew through a sieve into re-sealable glass\n   bottles.\n3. Make another batch of primary brew and refill the big jar; the remaining old\n   brew will act as a starter. Rinse the jar and remove parts of the scoby once\n   in a while.\n4. If you wish you can add juices, fruits, or spices to your brew. These will\n   partially ferment and add a special character to your kombucha. One nice\n   addition is apple and cinnamon mixed in with green tea.\n5. Let the bottles sit in a warm dark spot for another 3-14 days; the\n   carbonation process will continue, so make sure to release pressure from the\n   bottles every other day.\n6. When you are satisfied with the carbonation and the flavor, put the bottles\n   in the fridge. Here you can store them for weeks at a time.\n7. Enjoy your kombucha, rinse, and repeat.",
+  "images": [],
+  "coverage_group": "drinks-preserves-fermentation"
+}

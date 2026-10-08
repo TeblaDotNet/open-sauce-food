@@ -1,0 +1,32 @@
+{
+  "title": "Erwtensoep (Dutch pea soup)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/erwtensoep.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "bc0e8b30eff414744c41e0e2cb17d6816147979a48f6582dc0a86da732ca842e",
+  "original_front_matter": {
+    "title": "Erwtensoep (Dutch pea soup)",
+    "date": "2021-03-23",
+    "tags": [
+      "dutch",
+      "soup",
+      "vegetables"
+    ],
+    "author": "rijk"
+  },
+  "source_url": "https://publicdomainrecipes.com/erwtensoep/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

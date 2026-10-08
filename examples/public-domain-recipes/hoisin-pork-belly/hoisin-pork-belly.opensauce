@@ -1,0 +1,88 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Hoisin Pork Belly
+source: https://publicdomainrecipes.com/hoisin-pork-belly/
+source author: speaker scorned
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: chinese, pork, spicy, sweet
+serves: 2
+image: hoisin-pork-belly.webp
+
+# Imported from content/hoisin-pork-belly.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 1 hr 15 mins
+# Source metadata: - 🍽 Servings: 2
+
+::ingredients
+
+(high fat pork belly, no skin) 400g
+(thumb of ginger, large)
+(garlic) 4 cloves
+(scotch bonnet chili) 1
+(ketchup) 2 tbsp
+(hoisin sauce) 2 tbsp
+(honey) 2 tbsp
+(sesame oil) 2 tsp
+(spring onion) 1
+
+::equipment
+
+(frying pan)
+(bowl)
+
+::instructions
+
+<cut, pork belly into 1 inch cubes>
+In a small frying pan place pork cubes fattiest side down in dry pan, put gas on lowest level possible flame, cover with lid. Ideally your pork covers the entire surface of the small pan---crowding is good for this recipe.
+Lard will render out of the pork allowing it to confit cook in its own juice. Low flame essential. Turn the pork 3 or 4 times until all sides are golden and fat is rendered to melt in mouth levels. This will take around 1hr.
+<remove, pork belly and place in a bowl and cover. Remove around half the liquified lard and store for other uses>
+<add, diced ginger, smashed garlic cloves and chopped chili and sauté in the remaining lard. Once these are softened add the ketchup, hoisin sauce and honey. Reduce over very low heat for a few minutes until thickened>
+<add, the pork belly to the sauce and cook on low for a further 2 minutes. Leave to stand for 5 minutes then add thinly sliced spring onions to garnish. Enjoy with steamed white rice>
+
+::story
+
+Melt-in-mouth fatty pork in a sweet and spicy glaze.
+
+
+::source
+<<<
+---
+title: "Hoisin Pork Belly"
+date: 2021-04-02
+tags: ['chinese', 'pork', 'spicy', 'sweet']
+author: "speaker scorned"
+---
+
+![Spicy Glazed Hoisin Pork Belly](/pix/hoisin-pork-belly.webp)
+
+Melt-in-mouth fatty pork in a sweet and spicy glaze.
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 1 hr 15 mins
+- 🍽  Servings: 2
+
+## Ingredients
+
+- 400g high fat pork belly (no skin)
+- large thumb of ginger
+- 4 cloves of garlic
+- 1 scotch bonnet chili
+- 2 tbsp ketchup
+- 2 tbsp hoisin sauce
+- 2 tbsp honey
+- 2 tsp sesame oil
+- 1 spring onion
+
+## Directions
+
+1. Cut pork belly into 1 inch cubes.
+2. In a small frying pan place pork cubes fattiest side down in dry pan, put gas on lowest level possible flame, cover with lid. Ideally your pork covers the entire surface of the small pan---crowding is good for this recipe.
+3. Lard will render out of the pork allowing it to confit cook in its own juice. Low flame essential. Turn the pork 3 or 4 times until all sides are golden and fat is rendered to melt in mouth levels. This will take around 1hr.
+4. Remove pork belly and place in a bowl and cover. Remove around half the liquified lard and store for other uses.
+5. Add diced ginger, smashed garlic cloves and chopped chili and sauté in the remaining lard. Once these are softened add the ketchup, hoisin sauce and honey. Reduce over very low heat for a few minutes until thickened.
+6. Add the pork belly to the sauce and cook on low for a further 2 minutes. Leave to stand for 5 minutes then add thinly sliced spring onions to garnish. Enjoy with steamed white rice.
+>>>

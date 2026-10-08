@@ -1,0 +1,12 @@
+id: scald
+kind: process
+names:
+  en: scald
+observed_forms:
+- syntax: scald, to loosen skin
+  count: 1
+seen_in:
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+observed_parameters:
+- value: to loosen skin
+  count: 1

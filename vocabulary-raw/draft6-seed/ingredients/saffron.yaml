@@ -1,0 +1,9 @@
+id: saffron
+kind: ingredient
+names:
+  en: saffron
+observed_forms:
+- syntax: saffron
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce

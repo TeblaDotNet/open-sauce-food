@@ -1,0 +1,33 @@
+id: beef
+kind: ingredient
+canonical_name: beef
+names:
+  en: beef
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: beef
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+observed_qualifiers:
+- value: chuck roast
+  count: 1
+- value: diced
+  count: 1
+- value: fillet
+  count: 1
+- value: mince
+  count: 1
+- value: small pieces
+  count: 1
+aliases:
+- name: beef meat
+  type: review-pass-1-lexical

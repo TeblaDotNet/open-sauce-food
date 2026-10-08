@@ -1,0 +1,18 @@
+id: celery-leaves
+kind: ingredient
+canonical_name: celery leaves
+names:
+  en: celery leaves
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: celery leaves
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+observed_qualifiers:
+- value: chopped
+  count: 1

@@ -1,0 +1,15 @@
+id: ziplock-bag
+kind: equipment
+canonical_name: ziplock bag
+names:
+  en: ziplock bag
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: ziplock bag
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce

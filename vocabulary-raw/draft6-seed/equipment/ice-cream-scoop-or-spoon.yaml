@@ -1,0 +1,9 @@
+id: ice-cream-scoop-or-spoon
+kind: equipment
+names:
+  en: ice cream scoop or spoon
+observed_forms:
+- syntax: ice cream scoop or spoon
+  count: 1
+seen_in:
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce

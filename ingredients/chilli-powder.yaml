@@ -1,0 +1,23 @@
+id: chilli-powder
+kind: ingredient
+canonical_name: chilli powder
+names:
+  en-GB: chilli powder
+  en-US: chili powder
+status: reviewed-merge
+aliases:
+- name: chili powder
+  type: regional-spelling
+  observed_count: 1
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: chili powder
+    count: 1
+  - term: chilli powder
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce

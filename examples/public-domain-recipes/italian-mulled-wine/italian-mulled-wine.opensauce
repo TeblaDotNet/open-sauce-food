@@ -1,0 +1,107 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Italian Mulled Wine
+source: https://publicdomainrecipes.com/italian-mulled-wine/
+source author: mfed3
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: alcohol, wine, liquor, drink
+serves: 4
+image: italian-mulled-wine.webp
+
+# Imported from content/italian-mulled-wine.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳Cook time: 15 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(star anise, for Crushed Ingredients) 1
+(bay leaf, for Crushed Ingredients) 1
+(rosemary, for Crushed Ingredients) 1 pinch
+(peppercorn, for Crushed Ingredients) 1 pinch
+(thyme, for Crushed Ingredients) 1 pinch
+(red pepper, for Crushed Ingredients) 1 pinch
+(fennel seeds, for Crushed Ingredients) 1 pinch
+(cloves, for Crushed Ingredients) 1 pinch
+(nutmeg, for Crushed Ingredients) 1 pinch
+(italian red wine, for Non-Crushed Ingredients) 1 bottle
+(orange, for Non-Crushed Ingredients) 1
+(lemon, for Non-Crushed Ingredients) 1
+(honey, for Non-Crushed Ingredients) 1 tbsp
+(vanilla, for Non-Crushed Ingredients) 1 tsp
+(cinnamon, for Non-Crushed Ingredients) 1 stick
+(figs, optional, for Non-Crushed Ingredients) 4
+(limoncello, optional, for Non-Crushed Ingredients) 100 ml
+(sweet vermouth, optional, for Non-Crushed Ingredients) 50 ml
+(bourbon, optional, brandy, or cognac, for Non-Crushed Ingredients) 50 ml
+
+::equipment
+
+(pot)
+
+::instructions
+
+<pour, the wine into a stock pot and turn the gas on medium high>
+<crush, all the "Crushed Ingredients" in a mortar and pestle>
+<peel, and juice the orange and lemon (toss the peels and juice into the wine but not the white pith)>
+When the wine is up to a simmer, immediately bring the gas down to low and pour in all the rest of the ingredients
+<cook, on low for at least 15 minutes to infuse the flavors>
+<keep, the flame on low so the wine stays warm and continues to infuse, but doesn't bubble / burn off the alcohol>
+Feel free to double the recipe or scale any of these ingredients up or down to suite your taste
+
+::source
+<<<
+---
+title: "Italian Mulled Wine"
+date: 2021-05-13
+tags: ['alcohol', 'wine', 'liquor', 'drink']
+author: mfed3
+---
+
+![Italian Mulled Wine](/pix/italian-mulled-wine.webp)
+
+- ⏲️ Prep time: 5 min
+- 🍳Cook time: 15 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+### Crushed Ingredients
+
+- 1 star anise
+- 1 bay leaf
+- 1 pinch rosemary
+- 1 pinch peppercorn
+- 1 pinch thyme
+- 1 pinch red pepper
+- 1 pinch fennel seeds
+- 1 pinch cloves
+- 1 pinch nutmeg
+
+### Non-Crushed Ingredients
+
+- 1 bottle Italian red wine
+- 1 orange
+- 1 lemon
+- 1 tbsp honey
+- 1 tsp vanilla
+- 1 stick cinnamon
+- 4 figs (optional)
+- 100 ml limoncello (optional)
+- 50 ml sweet vermouth (optional)
+- 50 ml bourbon, brandy, or cognac (optional)
+
+## Directions
+
+1. Pour the wine into a stock pot and turn the gas on medium high
+2. Crush all the "Crushed Ingredients" in a mortar and pestle
+3. Peel and juice the orange and lemon (toss the peels and juice into the wine but not the white pith)
+4. When the wine is up to a simmer, immediately bring the gas down to low and pour in all the rest of the ingredients
+5. Cook on low for at least 15 minutes to infuse the flavors
+6. Keep the flame on low so the wine stays warm and continues to infuse, but doesn't bubble / burn off the alcohol
+7. Feel free to double the recipe or scale any of these ingredients up or down to suite your taste
+>>>

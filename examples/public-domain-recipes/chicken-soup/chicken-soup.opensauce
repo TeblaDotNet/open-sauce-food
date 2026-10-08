@@ -1,0 +1,76 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Chicken Soup
+source: https://publicdomainrecipes.com/chicken-soup/
+source author: aj
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: chicken, soup
+
+# Imported from content/chicken-soup.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 30 min
+# Source metadata: - 🍳 Cook time: 2 hours
+# Source metadata: - 🍽️ Servings:
+
+::ingredients
+
+(chicken breasts — /pan-seared-chicken) 2
+(onion) 1
+(carrot) 2
+(celery stalks) 2
+(chicken stock or broth) 32 oz / 950ml
+(pasta, Optional)
+
+::equipment
+
+(bowl)
+(pot)
+
+::instructions
+
+<cook, chicken breasts — /pan-seared-chicken, shred, and set aside in a bowl>
+<cut, up carrots and celery, place in pot and saute>
+<add, in chicken and stock or broth and mix together well. Season with salt, pepper, hot sauce, whatever you desire>
+<allow, it to simmer on low heat for 2 hours mixing every so often>
+If adding noodles, add in pasta and allow pasta to cook until al dente.
+
+::story
+
+Hearty soup that is adaptable to customizing to your desired vegetables or other additions
+
+
+::source
+<<<
+---
+title: "Chicken Soup"
+date: 2021-03-16
+tags: ['chicken', 'soup']
+author: aj
+---
+
+Hearty soup that is adaptable to customizing to your desired vegetables or other additions
+
+- ⏲️ Prep time: 30 min
+- 🍳 Cook time: 2 hours
+- 🍽️ Servings:
+
+## Ingredients
+
+- 2 [chicken breasts](/pan-seared-chicken)
+- 1 Onion
+- 2 carrots
+- 2 celery stalks
+- 32 oz / 950ml Chicken Stock or Broth
+- Pasta (Optional)
+
+## Directions
+
+1. Cook [chicken breasts](/pan-seared-chicken), shred, and set aside in a bowl.
+2. Cut up carrots and celery, place in pot and saute.
+3. Add in chicken and stock or broth and mix together well. Season with salt, pepper, hot sauce, whatever you desire
+4. Allow it to simmer on low heat for 2 hours mixing every so often.
+5. If adding noodles, add in pasta and allow pasta to cook until al dente.
+>>>

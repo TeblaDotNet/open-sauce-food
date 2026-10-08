@@ -1,0 +1,9 @@
+id: savoiardi-biscuits
+kind: ingredient
+names:
+  en: savoiardi biscuits
+observed_forms:
+- syntax: savoiardi biscuits
+  count: 1
+seen_in:
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce

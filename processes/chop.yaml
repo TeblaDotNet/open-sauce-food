@@ -1,0 +1,50 @@
+id: chop
+kind: process
+canonical_name: chop
+names:
+  en: chop
+status: canonical-seed
+evidence:
+  current_recipe_count: 17
+  current_observation_count: 21
+  legacy_observation_count: 0
+  observed_terms:
+  - term: chop
+    count: 21
+  seen_in:
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+  - examples/public-domain-recipes/crab-salad/crab-salad.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+  - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  - examples/public-domain-recipes/sunday-milkshake/sunday-milkshake.opensauce
+  - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+observed_parameters:
+- value: and all other ingredients as source states
+  count: 1
+- value: chunks
+  count: 2
+- value: cutting board and sharp knife
+  count: 1
+- value: into fries
+  count: 1
+- value: moderate pieces
+  count: 1
+- value: remaining vegetables as source states
+  count: 1
+- value: small
+  count: 2
+- value: to fit blender
+  count: 1
+- value: vertically
+  count: 1

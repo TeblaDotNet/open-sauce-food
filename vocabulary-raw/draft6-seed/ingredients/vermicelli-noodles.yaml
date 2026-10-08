@@ -1,0 +1,13 @@
+id: vermicelli-noodles
+kind: ingredient
+names:
+  en: vermicelli noodles
+observed_forms:
+- syntax: vermicelli noodles, dried
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: dried
+  count: 1
+legacy_observation: true

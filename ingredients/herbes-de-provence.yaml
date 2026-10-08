@@ -1,0 +1,18 @@
+id: herbes-de-provence
+kind: ingredient
+canonical_name: herbes de Provence
+names:
+  en: herbes de Provence
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: herbes de Provence
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+observed_qualifiers:
+- value: basil/thyme/parsley
+  count: 1

@@ -1,0 +1,35 @@
+{
+  "title": "Honey Vanilla Ice Cream",
+  "source_url": "https://publicdomainrecipes.com/honey-vanilla-ice-cream/",
+  "source_author": "Ruby-Dragon",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/honey-vanilla-ice-cream.md",
+  "original_sha256": "ff61a4a7596eaaa6369636ca0e60f8e26f9d711bebbb82b4ec0d7b272dc8406f",
+  "original_front_matter": {
+    "title": "Honey Vanilla Ice Cream",
+    "tags": [
+      "icecream",
+      "honey",
+      "dessert"
+    ],
+    "date": "2023-07-28",
+    "author": "Ruby-Dragon"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "5 min, + 2 hours minimum chill time",
+    "\"Cook\" time": "30 min + overnight chill time",
+    "Servings": "8-10"
+  },
+  "ingredients_source_markdown": "- 1 pint heavy cream\n- 1 cup milk (whole milk recommended)\n- 2 Tbsp vanilla extract\n- 1/2 cup honey\n- 1 cup sugar",
+  "directions_source_markdown": "1. Add milk and sugar to medium sized bowl and mix until dissolved.\n2. Add heavy cream and vanilla extract and mix.\n3. Stir in honey.\n4. Chill in refrigerator for at least 2 hours.\n5. Add to ice cream maker and let it go for 30 minutes.\n6. Swiftly remove from ice cream maker (I use a silicone spatula as it allows for sides to be scraped down) and put into container.\n7. Freeze ice cream overnight - a few hours will do in a pinch but overnight is better.\n8. Scoop out of container and serve! Goes great with honey cake.",
+  "images": [],
+  "coverage_group": "dessert-historical"
+}

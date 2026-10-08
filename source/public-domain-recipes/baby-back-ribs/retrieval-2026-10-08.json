@@ -1,0 +1,32 @@
+{
+  "title": "Baby Back Ribs",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/baby-back-ribs.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "8334b7d2bff83de19107373bff10c7ab038738e4728597ad54304c14ae01d865",
+  "original_front_matter": {
+    "title": "Baby Back Ribs",
+    "date": "2022-04-15",
+    "tags": [
+      "pork",
+      "american",
+      "supper"
+    ],
+    "author": "crazywillbear"
+  },
+  "source_url": "https://publicdomainrecipes.com/baby-back-ribs/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

@@ -1,0 +1,72 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Tuna Sub
+source: https://publicdomainrecipes.com/tuna-sub/
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: tuna, sandwich, quick, cheesefare
+
+# Imported from content/tuna-sub.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(recipe of your favorite tuna salad) 1
+(sandwich bun or bread, a good one)
+(cheese, Thinly sliced, your favorite)
+(tomatoes, Sliced)
+(baby spinach leaves)
+(pickles)
+(mayo and mustard)
+(other sandwich toppings , very little out of bounds here)
+
+::instructions
+
+Lightly toast one side of the bun
+(cheese) <add, to bottom of bun>
+<spread, a layer of tuna salad>
+<place, several spinach leaves on top bun>
+<add, sliced tomatoes>
+<add, pickle slices>
+<season, with salt and pepper to taste>
+<combine, halves and enjoy>
+
+::notes
+
+Use the best tuna you can find. I like oil-packed but water is OK. Someone you know has a tuna salad recipe.
+
+
+::source
+<<<
+---
+title: "Tuna Sub"
+date: 2021-03-12
+tags: ['tuna', 'sandwich', 'quick', 'cheesefare']
+---
+
+Use the best tuna you can find. I like oil-packed but water is OK. Someone you know has a tuna salad recipe.
+
+## Ingredients
+
+- 1 recipe of your favorite tuna salad
+- Sandwich bun or bread (a good one)
+- Thinly sliced cheese (your favorite)
+- Sliced tomatoes
+- Baby spinach leaves
+- Pickles
+- Mayo and mustard
+- Other sandwich toppings (very little out of bounds here).
+
+## Directions
+
+1. Lightly toast one side of the bun
+2. Add cheese to bottom of bun
+3. Spread a layer of tuna salad
+4. Place several spinach leaves on top bun
+5. Add sliced tomatoes
+6. Add pickle slices
+7. Season with salt and pepper to taste
+8. Combine halves and enjoy.
+>>>

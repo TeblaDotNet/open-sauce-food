@@ -1,0 +1,38 @@
+{
+  "title": "Banana and oatmeal cookies",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/banana-oatmeal-cookies.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "d80eaab65ed43c52948fb9bc23713ddb754847dd128856f272107fae17857894",
+  "original_front_matter": {
+    "title": "Banana and oatmeal cookies",
+    "tags": [
+      "snack",
+      "quick",
+      "dessert",
+      "cookies"
+    ],
+    "date": "2022-07-12",
+    "author": "Éric G."
+  },
+  "source_url": "https://publicdomainrecipes.com/banana-oatmeal-cookies/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Banana and oatmeal cookies",
+      "url": "/pix/banana-oatmeal-cookies.webp",
+      "upstreamPath": "static/pix/banana-oatmeal-cookies.webp",
+      "status": "unavailable-image",
+      "reason": "Referenced asset absent from pinned tree or external; no mirror fetched."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

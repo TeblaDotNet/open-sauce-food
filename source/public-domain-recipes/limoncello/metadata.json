@@ -1,0 +1,45 @@
+{
+  "title": "Limoncello",
+  "source_url": "https://publicdomainrecipes.com/limoncello/",
+  "source_author": "mfed3",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/limoncello.md",
+  "original_sha256": "6529c117104a4dac3adf1dd445ae591ebb54c50bb7be045c68baf465f3021dcf",
+  "original_front_matter": {
+    "title": "Limoncello",
+    "date": "2021-05-13",
+    "tags": [
+      "alcohol",
+      "lemon",
+      "digestivo",
+      "liquor"
+    ],
+    "author": "mfed3"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Wait time": "20 days",
+    "Servings": "22"
+  },
+  "ingredients_source_markdown": "- 5-7 organic lemons (regular lemons are covered in wax)\n- 300ml 95% ABV grain alcohol\n- 700ml water\n- 500ml sugar",
+  "directions_source_markdown": "1. Pour the alcohol into a 1 liter mason jar\n2. Peel the lemons avoiding the white pith (it will make your limoncello bitter) and submerse them in the alcohol\n3. Cover the jar and let the lemons infuse the alcohol for 20 days\n4. After the infusion is completed, create a simple syrup by boiling the water and dissolving the sugar in the water\n5. Allow the water to cool completely, then strain the alcohol into the sugar water and stir\n6. Bottle or put it back into the mason jar\n7. Feel free to scale the recipe up or down, and adjust the sugar to the sweetness you like, but the ABV should remain somewhere around 28-30%",
+  "images": [
+    {
+      "alt": "Limoncello",
+      "source_url": "https://publicdomainrecipes.com/pix/limoncello.webp",
+      "source_reference": "/pix/limoncello.webp",
+      "status": "retrieved",
+      "filename": "limoncello.webp",
+      "sha256": "7c0df78da6a49f11b0a4d8a518fcb49a514169a3c0f9db49ffa1f96f13191dd2"
+    }
+  ],
+  "coverage_group": "drinks-preserves-fermentation"
+}

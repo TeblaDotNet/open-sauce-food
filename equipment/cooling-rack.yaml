@@ -1,0 +1,21 @@
+id: cooling-rack
+kind: equipment
+canonical_name: cooling rack
+names:
+  en: cooling rack
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 2
+  observed_terms:
+  - term: cooling rack
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  legacy_terms:
+  - term: cooling rack
+    count: 2

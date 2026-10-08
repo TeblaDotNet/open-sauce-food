@@ -1,0 +1,9 @@
+id: brush
+kind: process
+names:
+  en: brush
+observed_forms:
+- syntax: brush
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce

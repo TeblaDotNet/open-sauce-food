@@ -1,0 +1,42 @@
+{
+  "title": "Mayonnaise or aioli",
+  "source_url": "https://publicdomainrecipes.com/mayonnaise-or-aioli/",
+  "source_author": "brox",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/mayonnaise-or-aioli.md",
+  "original_sha256": "13bc74141e512bcfb66db6e28965a2c4cda5aae07a912438e9276669cc4f67d0",
+  "original_front_matter": {
+    "title": "Mayonnaise or aioli",
+    "date": "2021-04-06",
+    "tags": [
+      "sauce",
+      "basic"
+    ],
+    "author": "brox"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "2 min",
+    "Cook time": "1 min"
+  },
+  "ingredients_source_markdown": "- 1 whole egg or 2 egg yolks, preferably at room temperature\n- 2.5 dl/ 1 cup neutral oil\n- 1-2 tbsp vinegar or lemon juice\n- 1 tbsp pickle juice (optional)\n- 2-4 cloves of garlic for aioli, don't include for mayonnaise\n- 1 tsp dijon mustard (optional)",
+  "directions_source_markdown": "1. Place egg, vinegar, mustard a pinch of salt and pepper in a beaker or narrow and tall container. Add diced garlic for aioli.\n2. Add oil as the very last ingredient. It should be on the top of the other ingredients, or the mayonnaise/aioli could seperate.\n3. Place hand blender at the very bottom. Don't start it yet.\n4. Use full power, and work your way upwards slowly until all the oil is mixed in.\n5. Feel free to taste and mix in extra spices and vinegar afterwards.",
+  "images": [
+    {
+      "alt": "Aioli",
+      "source_url": "https://publicdomainrecipes.com/pix/mayonnaise-or-aioli.webp",
+      "source_reference": "/pix/mayonnaise-or-aioli.webp",
+      "status": "retrieved",
+      "filename": "mayonnaise-or-aioli.webp",
+      "sha256": "008b5e9531ca42a9b96acbc38585b80e5c486d7f26036e150f2a9cf668483b0d"
+    }
+  ],
+  "coverage_group": "sauces"
+}

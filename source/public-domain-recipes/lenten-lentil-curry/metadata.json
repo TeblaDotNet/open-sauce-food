@@ -1,0 +1,45 @@
+{
+  "title": "Lenten Lentil Curry",
+  "source_url": "https://publicdomainrecipes.com/lenten-lentil-curry/",
+  "source_author": "sinan-kurtulmuş",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/lenten-lentil-curry.md",
+  "original_sha256": "e67c692dc82bcdf9cff30f2895de53f792cbee800d87fd2216c6bd9b5570085f",
+  "original_front_matter": {
+    "title": "Lenten Lentil Curry",
+    "date": "2021-04-06",
+    "tags": [
+      "spicy",
+      "curry",
+      "lentil",
+      "fasting"
+    ],
+    "author": "sinan-kurtulmuş"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "5 min",
+    "Cook time": "30-35 min",
+    "Servings": "2"
+  },
+  "ingredients_source_markdown": "- 200 g (7 oz) green lentils\n- 50 g (1¾ oz) vermicelli\n- 1 tsp curry powder\n- ½ tsp paprika powder\n- ½ tsp cinnamon powder\n- ½ tsp ground sumac",
+  "directions_source_markdown": "1. Thoroughly rinse the lentils and drain the water.\n2. Put the lentils in the pot, and add 1 L (0.26 gal) of water.\n3. Bring to a boil, and gently boil for about 15-20 minutes.\n4. Drain the water.\n5. Add the other ingredients to the pot.\n6. Add 1½-2 tsp of salt and a little bit of ground black pepper.\n7. Add 0.5 L (0.13 gal) of boiling water.\n8. Simmer for about 10 minutes.\n\nHave a blessed Lent.",
+  "images": [
+    {
+      "alt": "Lenten Lentil Curry",
+      "source_url": "https://publicdomainrecipes.com/pix/lenten-lentil-curry.webp",
+      "source_reference": "/pix/lenten-lentil-curry.webp",
+      "status": "retrieved",
+      "filename": "lenten-lentil-curry.webp",
+      "sha256": "45a9b3493ebf35689a505beb8534030b4c6f8d7fa60bd3f70811e812d9189478"
+    }
+  ],
+  "coverage_group": "vegetable-pulses"
+}

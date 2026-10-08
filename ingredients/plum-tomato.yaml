@@ -1,0 +1,18 @@
+id: plum-tomato
+kind: ingredient
+canonical_name: plum tomato
+names:
+  en: plum tomato
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: plum tomato
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/lentejas/lentejas.opensauce
+observed_qualifiers:
+- value: chopped
+  count: 1

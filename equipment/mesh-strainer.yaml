@@ -1,0 +1,18 @@
+id: mesh-strainer
+kind: equipment
+canonical_name: mesh strainer
+names:
+  en: mesh strainer
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: mesh strainer
+      count: 2
+  seen_in:
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: fine
+    count: 1

@@ -1,0 +1,40 @@
+{
+  "title": "Lemon and oregano chicken traybake",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/lemon-and-oregano-chicken-traybake.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "7bed4cbc0e1dea6a697eb990c450c2c04ac4f274d5bf75c33ea58c2deea38527",
+  "original_front_matter": {
+    "title": "Lemon and oregano chicken traybake",
+    "date": "2021-03-23",
+    "tags": [
+      "mediterranean",
+      "chicken",
+      "baking"
+    ],
+    "author": "isaac-hill"
+  },
+  "source_url": "https://publicdomainrecipes.com/lemon-and-oregano-chicken-traybake/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Lemon and oregano chicken traybake",
+      "url": "/pix/lemon-and-oregano-chicken-traybake.webp",
+      "upstreamPath": "static/pix/lemon-and-oregano-chicken-traybake.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "9983445a9b5a4510fe474e3351422d3f5dc80e865e223460ba4543c2bb72eb2c",
+      "sourcePath": "source/public-domain-recipes/lemon-and-oregano-chicken-traybake/lemon-and-oregano-chicken-traybake.webp",
+      "promotedPath": "examples/public-domain-recipes/lemon-and-oregano-chicken-traybake/lemon-and-oregano-chicken-traybake.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

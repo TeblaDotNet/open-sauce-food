@@ -1,0 +1,91 @@
+::recipe
+
+name: Mayonnaise or aioli
+source: https://publicdomainrecipes.com/mayonnaise-or-aioli/
+source author: brox
+source license: Public domain (Unlicense)
+units: source
+tags: sauce, basic
+image: mayonnaise-or-aioli.webp
+
+# Original source: ../../../source/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 2 min
+# Source Cook time: 1 min
+# Conversion note: Pickle juice is optional in ingredients but not mentioned in directions. Source leaves its use unspecified.
+
+::ingredients
+
+(egg choice) = (egg, whole, preferably room temperature) 1 -OR- (egg: yolk, preferably room temperature) 2
+(oil, neutral) 2.5dl / 1 cup
+(acid) = (vinegar) 1-2tbsp -OR- (lemon juice) 1-2tbsp
+(pickle juice, optional) 1tbsp
+(garlic, for aioli only) 2-4 cloves
+(mustard, dijon, optional) 1tsp
+# Method-only seasonings
+(salt) 1 pinch
+(pepper) 1 pinch
+(spices, extra, optional) as desired
+(vinegar, extra, optional) as desired
+
+::equipment
+
+(beaker) -OR- (container, narrow and tall)
+(immersion blender)
+
+::instructions
+
+{base} = (egg choice) + (acid) + (salt) + (pepper)
+Optional [
+    {base} + (mustard)
+]
+{base} <place, beaker or narrow tall container>
+Optional [
+    (garlic) <dice>
+    {base} + (garlic) <add, for aioli; omit for mayonnaise>
+]
+(oil) <add, very last, above other ingredients to avoid separation>
+(immersion blender) <place, very bottom, not running yet>
+{mayonnaise or aioli} <blend, full power, moving upwards slowly until all oil incorporated>
+Optional [
+    {mayonnaise or aioli} <taste>
+        + (spices, extra) + (vinegar, extra) <mix>
+]
+
+::story
+
+Aioli is pretty much just mayonnaise with garlic, although traditional aioli only includes olive oil and garlic, and no eggs or acid. This recipe uses raw eggs, so if that is sketchy in your region use pasteurized eggs 🥚.
+
+::source
+<<<
+---
+title: "Mayonnaise or aioli"
+date: 2021-04-06
+tags: ['sauce', 'basic']
+author: brox
+---
+
+![Aioli](/pix/mayonnaise-or-aioli.webp)
+
+Aioli is pretty much just mayonnaise with garlic, although traditional aioli only includes olive oil and garlic, and no eggs or acid. This recipe uses raw eggs, so if that is sketchy in your region use pasteurized eggs 🥚.
+
+- ⏲️ Prep time: 2 min
+- 🍳 Cook time: 1 min
+
+## Ingredients
+
+- 1 whole egg or 2 egg yolks, preferably at room temperature
+- 2.5 dl/ 1 cup neutral oil
+- 1-2 tbsp vinegar or lemon juice
+- 1 tbsp pickle juice (optional)
+- 2-4 cloves of garlic for aioli, don't include for mayonnaise
+- 1 tsp dijon mustard (optional)
+
+## Directions
+
+1. Place egg, vinegar, mustard a pinch of salt and pepper in a beaker or narrow and tall container. Add diced garlic for aioli.
+2. Add oil as the very last ingredient. It should be on the top of the other ingredients, or the mayonnaise/aioli could seperate.
+3. Place hand blender at the very bottom. Don't start it yet.
+4. Use full power, and work your way upwards slowly until all the oil is mixed in.
+5. Feel free to taste and mix in extra spices and vinegar afterwards.
+>>>

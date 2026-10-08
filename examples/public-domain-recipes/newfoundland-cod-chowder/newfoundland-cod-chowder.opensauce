@@ -1,0 +1,73 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Newfoundland Cod Chowder
+source: https://publicdomainrecipes.com/newfoundland-cod-chowder/
+source author: joel-maxuel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: fish, soup, seafood
+serves: 8
+
+# Imported from content/newfoundland-cod-chowder.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 30 min
+# Source metadata: - 🍽️ Servings: 8
+
+::ingredients
+
+(bacon) 4 Slices
+(onion, sliced) 2
+(savoury) 1 tsp
+(potatoes, peeled and cubed) 6
+(carrot, sliced) 3
+(cod fillets) 1 1/2 lbs
+(evaporated milk) 1 can
+(parsley or chives, Fresh, chopped) 2 Tbsp
+
+::equipment
+
+(saucepan)
+
+::instructions
+
+In a large, heavy saucepan, cook bacon over medium-high heat for about 10 minutes or until crisp. Chop coarsely and set aside.
+<drain, off all but 1 tbsp. fat from saucepan. Add onions and savoury. Cook, stirring occasionally for 5 minutes or until softened>
+<add, potatoes, carrots, water and salt. Bring to boil, cover, reduce heat and simmer for about 20 minutes or until tender>
+<cut, cod into 1-inch chunks. Add to vegetables and simmer for about 5 minutes or until fish flakes easily>
+<add, milk and white pepper, heat through. Garnish with bacon and parsley>
+
+::source
+<<<
+---
+title: Newfoundland Cod Chowder
+tags: ['fish', 'soup', 'seafood']
+date: 2022-08-09
+author: joel-maxuel
+---
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 30 min
+- 🍽️ Servings: 8
+
+## Ingredients
+
+- 4 Slices Bacon
+- 2 Onions, sliced
+- 1 tsp Savoury
+- 6 Potatoes, peeled and cubed
+- 3 Carrots, sliced
+- 1 1/2 lbs Cod Fillets
+- 1 can Evaporated Milk
+- 2 Tbsp Fresh Parsley or Chives, chopped
+
+## Directions
+
+1. In a large, heavy saucepan, cook bacon over medium-high heat for about 10 minutes or until crisp. Chop coarsely and set aside.
+2. Drain off all but 1 tbsp. fat from saucepan. Add onions and savoury. Cook, stirring occasionally for 5 minutes or until softened.
+3. Add potatoes, carrots, water and salt. Bring to boil, cover, reduce heat and simmer for about 20 minutes or until tender
+4. Cut cod into 1-inch chunks. Add to vegetables and simmer for about 5 minutes or until fish flakes easily
+5. Add milk and white pepper, heat through. Garnish with bacon and parsley.
+>>>

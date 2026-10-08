@@ -1,0 +1,15 @@
+id: ice-cream-scoop-or-spoon
+kind: equipment
+canonical_name: ice cream scoop or spoon
+names:
+  en: ice cream scoop or spoon
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: ice cream scoop or spoon
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce

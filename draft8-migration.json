@@ -1,0 +1,1619 @@
+[
+  {
+    "recipe": "aljotta",
+    "file": "examples/public-domain-recipes/aljotta/aljotta.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/aljotta/aljotta.md",
+    "sha256": "14ab20851b0507cbc5d9f1ab48d2d4863eaf61a3d8623792efe1431cafa519df",
+    "lfSha256": "974c4a3da2c0162e0d2945592d9455ab62e8c50b010846cefa1a172d216d781d"
+  },
+  {
+    "recipe": "apple-pie",
+    "file": "examples/public-domain-recipes/apple-pie/apple-pie.opensauce",
+    "structureChanges": [
+      {
+        "line": 21,
+        "before": "(sugar, white)",
+        "after": "(sugar; white)"
+      },
+      {
+        "line": 22,
+        "before": "(sugar, brown)",
+        "after": "(sugar; brown)"
+      },
+      {
+        "line": 34,
+        "before": "(sugar, white, for crust)",
+        "after": "(sugar; white, for crust)"
+      },
+      {
+        "line": 61,
+        "before": "(sugar, white)",
+        "after": "(sugar; white)"
+      },
+      {
+        "line": 62,
+        "before": "(sugar, brown)",
+        "after": "(sugar; brown)"
+      },
+      {
+        "line": 74,
+        "before": "(sugar, white, for crust)",
+        "after": "(sugar; white, for crust)"
+      }
+    ],
+    "storyStatus": "import commentary -> comments (wording preserved)",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "baby-back-ribs",
+    "file": "examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce",
+    "structureChanges": [
+      {
+        "line": 18,
+        "before": "(sugar, brown)",
+        "after": "(sugar; brown)"
+      }
+    ],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/baby-back-ribs/baby-back-ribs.md",
+    "sha256": "5c7cf8b09a782c965b42af869491590e8d1609a90b068f4be758c334d6d2bd3e",
+    "lfSha256": "8334b7d2bff83de19107373bff10c7ab038738e4728597ad54304c14ae01d865"
+  },
+  {
+    "recipe": "baked-pasta-with-broccoli",
+    "file": "examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "baked-salmon",
+    "file": "examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/baked-salmon/baked-salmon.md",
+    "sha256": "a4f4629ee2bd5ef85493d9ca3da18b0cf519b1d4ab6388696cd627a23a36ba99",
+    "lfSha256": "1e5692c175e01669d4ffa59dc3a00fb3940edbe88865f6dfb8e4d75280ba4be5"
+  },
+  {
+    "recipe": "baked-trout",
+    "file": "examples/public-domain-recipes/baked-trout/baked-trout.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: original Markdown plus one required fence-separating newline",
+    "sha256": "3bb0f3529e1ab437ab3f28acda79ed32f6a49389b12d93c4579493b53b4959c2",
+    "sourcePath": "source/public-domain-recipes/baked-trout/baked-trout.md",
+    "lfSha256": "8d19cb57fa4b61661a547256e0b5fd42ccc7396597187cbfebb5cffc9afa588b"
+  },
+  {
+    "recipe": "banana-bread",
+    "file": "examples/public-domain-recipes/banana-bread/banana-bread.opensauce",
+    "structureChanges": [
+      {
+        "line": 16,
+        "before": "(flour, all purpose)",
+        "after": "(flour; all purpose)"
+      }
+    ],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/banana-bread/banana-bread.md",
+    "sha256": "38c7311949b619791a6a1225fb27863c3e9e6490c35bf8d4f456ebe61d2350a2",
+    "lfSha256": "a84b00fedfabbd274681319503a645db6b6809e4649e6e8ece5d2afcb9528319"
+  },
+  {
+    "recipe": "banana-muffins-with-chocolate",
+    "file": "examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce",
+    "structureChanges": [
+      {
+        "line": 22,
+        "before": "(flour, wheat)",
+        "after": "(flour; wheat)"
+      },
+      {
+        "line": 23,
+        "before": "(chocolate, dark)",
+        "after": "(chocolate; dark)"
+      },
+      {
+        "line": 24,
+        "before": "(chocolate, milk)",
+        "after": "(chocolate; milk)"
+      },
+      {
+        "line": 42,
+        "before": "(chocolate, dark)",
+        "after": "(chocolate; dark)"
+      },
+      {
+        "line": 43,
+        "before": "(chocolate, milk)",
+        "after": "(chocolate; milk)"
+      },
+      {
+        "line": 50,
+        "before": "(chocolate, dark)",
+        "after": "(chocolate; dark)"
+      },
+      {
+        "line": 51,
+        "before": "(chocolate, milk)",
+        "after": "(chocolate; milk)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "basic-waffles",
+    "file": "examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "bean-salad",
+    "file": "examples/public-domain-recipes/bean-salad/bean-salad.opensauce",
+    "structureChanges": [],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/bean-salad/bean-salad.md",
+    "sha256": "4edd61215f78eec1de53075537116c4ab91cc4b7ed0d010c9277b1825e903153",
+    "lfSha256": "217c6439f31d3a66660c736e9232c440ceac26b8473e4949aed59449ba6644bf"
+  },
+  {
+    "recipe": "beef-goulash",
+    "file": "examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "beef-wellington",
+    "file": "examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce",
+    "structureChanges": [
+      {
+        "line": 26,
+        "before": "(egg, yolk, beaten)",
+        "after": "(egg: yolk, beaten)"
+      },
+      {
+        "line": 64,
+        "before": "(egg, yolk)",
+        "after": "(egg: yolk)"
+      },
+      {
+        "line": 67,
+        "before": "(egg, yolk)",
+        "after": "(egg: yolk)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/beef-wellington/beef-wellington.md",
+    "sha256": "75c638a4b0dc08ea63ffde152d70b7351600e82bfe7780c591ca627e4495ed4a",
+    "lfSha256": "5c1cd2158c8a333a2ef7c2a822d8334f47f825bc07d72693fcede8468c3be53c"
+  },
+  {
+    "recipe": "blueberry-muffins",
+    "file": "examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce",
+    "structureChanges": [
+      {
+        "line": 20,
+        "before": "(flour, all-purpose)",
+        "after": "(flour; all-purpose)"
+      },
+      {
+        "line": 21,
+        "before": "(sugar, granulated)",
+        "after": "(sugar; granulated)"
+      },
+      {
+        "line": 24,
+        "before": "(butter, unsalted, melted)",
+        "after": "(butter; unsalted, melted)"
+      }
+    ],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/blueberry-muffins/blueberry-muffins.md",
+    "sha256": "2385ecc7f07fe0f391a86e7afc3db6c7ba35671b341ec890219f1f4a3fd06e5f",
+    "lfSha256": "94b29d5b835e115fb7eb4ae37db93d2b92cb6fd5bb8c24ba35f5e51afaed7ffd"
+  },
+  {
+    "recipe": "bolognese-sauce",
+    "file": "examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/bolognese-sauce/bolognese-sauce.md",
+    "sha256": "1f288eb37ec7266e1082f89593edad84457e48b974cf98f5c987e213ec7f9f72",
+    "lfSha256": "790e19497b9f5ddfe93460502b27eae58f070c609ae2d6a5310729ece49a4261"
+  },
+  {
+    "recipe": "bread",
+    "file": "examples/public-domain-recipes/bread/bread.opensauce",
+    "structureChanges": [],
+    "storyStatus": "narrative retained; practical suffix -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/bread/bread.md",
+    "sha256": "7a33906e3356b92081b94a40b924040df5178d3edabf9c8da410e19ecfbe44a5",
+    "lfSha256": "2a7c29a8fe0dca0f43302168ae283bddbbba6c97e12667ca5debf15237507f93"
+  },
+  {
+    "recipe": "broiled-trevally",
+    "file": "examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/broiled-trevally/broiled-trevally.md",
+    "sha256": "29cf17f87de57548cdc2bfdc5e6dfc47328b28afa20092056ecbfa4c491e3810",
+    "lfSha256": "ca1b298d021976962cf47971e4b5015bdff04a0fb399b969c73e612b9bf29f03"
+  },
+  {
+    "recipe": "broiled-venison-steaks",
+    "file": "examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: original Markdown plus one required fence-separating newline",
+    "sha256": "0e424aa3f3f85feda1aa08477a16ea287daff00302ffffe69e4d652c4f900ccb",
+    "sourcePath": "source/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.md",
+    "lfSha256": "b279938b5c47cec3d6a873ec76c82c2a79ba873568b90066ec7ff2ab49cd8a3c"
+  },
+  {
+    "recipe": "butter-cake",
+    "file": "examples/public-domain-recipes/butter-cake/butter-cake.opensauce",
+    "structureChanges": [
+      {
+        "line": 21,
+        "before": "(butter, unsalted, room temperature)",
+        "after": "(butter; unsalted, room temperature)"
+      },
+      {
+        "line": 22,
+        "before": "(sugar, caster, for batter)",
+        "after": "(sugar; caster, for batter)"
+      },
+      {
+        "line": 24,
+        "before": "(egg, yolk)",
+        "after": "(egg: yolk)"
+      },
+      {
+        "line": 25,
+        "before": "(flour, self-raising, sifted)",
+        "after": "(flour; self-raising, sifted)"
+      },
+      {
+        "line": 29,
+        "before": "(sugar, caster, for meringue)",
+        "after": "(sugar; caster, for meringue)"
+      },
+      {
+        "line": 30,
+        "before": "(egg, white)",
+        "after": "(egg: white)"
+      },
+      {
+        "line": 41,
+        "before": "(egg, yolk)",
+        "after": "(egg: yolk)"
+      },
+      {
+        "line": 49,
+        "before": "(egg, white)",
+        "after": "(egg: white)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/butter-cake/butter-cake.md",
+    "sha256": "ac1c635ffe29b4f503035f382fdfc436ba223b0d34dd1efbd396b02e50bebe09",
+    "lfSha256": "2e6b3c2c955c3671ce2ca720ebe99bff7dcbe0fdb1e5314c87e8fba73f413e13"
+  },
+  {
+    "recipe": "butter-chicken-masala",
+    "file": "examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "carbonara",
+    "file": "examples/public-domain-recipes/carbonara/carbonara.opensauce",
+    "structureChanges": [
+      {
+        "line": 44,
+        "before": "(egg, yolk)",
+        "after": "(egg: yolk)"
+      },
+      {
+        "line": 47,
+        "before": "(egg, yolk)",
+        "after": "(egg: yolk)"
+      },
+      {
+        "line": 65,
+        "before": "(egg, yolk)",
+        "after": "(egg: yolk)"
+      },
+      {
+        "line": 73,
+        "before": "(egg, yolk)",
+        "after": "(egg: yolk)"
+      }
+    ],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "casio-in-pastelletto",
+    "file": "examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.md",
+    "sha256": "ace2e6b082926feb622bfc9206a0e5ec3129f1419b266d2a1f03ce176f2c183e",
+    "lfSha256": "c8b66141e66f1c775a91451280abe0cf02656efcca176e51977fd76bd007fa1f"
+  },
+  {
+    "recipe": "castagnole",
+    "file": "examples/public-domain-recipes/castagnole/castagnole.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/castagnole/castagnole.md",
+    "sha256": "39a2302bf30953d9ff11dec000d723d7c89547e0153e2acf19d1be621fc9883c",
+    "lfSha256": "c783688c345113d3c6407bcc26ea430fee09db92151832794392c5b43a20acaf"
+  },
+  {
+    "recipe": "ceviche",
+    "file": "examples/public-domain-recipes/ceviche/ceviche.opensauce",
+    "structureChanges": [
+      {
+        "line": 19,
+        "before": "(onion, red)",
+        "after": "(onion; red)"
+      }
+    ],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/ceviche/ceviche.md",
+    "sha256": "44cf7ea8a4ccfba14751ba7b1f297bfbc6102d5d89b41c9dc5950706146eb6cb",
+    "lfSha256": "1ae0afc7cdcfaf78509549d1c77c8f61cae1588e2914c8d35992fd71aef2dbb8"
+  },
+  {
+    "recipe": "challah-bread",
+    "file": "examples/public-domain-recipes/challah-bread/challah-bread.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/challah-bread/challah-bread.md",
+    "sha256": "f4132cf5e9958eba4e23d54a5245f92fc895a6e3aec96248e10db8ae001ca201",
+    "lfSha256": "f599640389ccbf107739ad627e9b5cab96723484c043982890e49307e3cf5237"
+  },
+  {
+    "recipe": "chicken-satay",
+    "file": "examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/chicken-satay/chicken-satay.md",
+    "sha256": "d569f3231c418fca97917d36cf7295d1f494b4eeb21879a0dd9e877fa4a49894",
+    "lfSha256": "911e3db0a35b7afcbcf4e9697ac7c87d4cf9c373ec16a4b72fc56e4e7393255f"
+  },
+  {
+    "recipe": "chicken-wings",
+    "file": "examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/chicken-wings/chicken-wings.md",
+    "sha256": "98551f6a4f215c7210611495875930e0017ba39e798bbfd29b35c5d2c67788b4",
+    "lfSha256": "0fbb140d0d7e0c880e5c7487902b0758ee3111156ebad5b0bb6ae3f9ec911b51"
+  },
+  {
+    "recipe": "chocolate-chip-cookies",
+    "file": "examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce",
+    "structureChanges": [
+      {
+        "line": 19,
+        "before": "(flour, bread)",
+        "after": "(flour; bread)"
+      },
+      {
+        "line": 22,
+        "before": "(sugar, white)",
+        "after": "(sugar; white)"
+      },
+      {
+        "line": 23,
+        "before": "(sugar, brown)",
+        "after": "(sugar; brown)"
+      },
+      {
+        "line": 54,
+        "before": "(sugar, white)",
+        "after": "(sugar; white)"
+      },
+      {
+        "line": 55,
+        "before": "(sugar, brown)",
+        "after": "(sugar; brown)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "clam-chowder",
+    "file": "examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/clam-chowder/clam-chowder.md",
+    "sha256": "30d4b02665ac38e0d514611a20f932def8bc89fda1a7035219e15dbe25f134d7",
+    "lfSha256": "38b37ed382bf8b79715530eb4e32f53b4c295831e371dc1ecffaffe1cf1fb710"
+  },
+  {
+    "recipe": "classic-bechamel-sauce",
+    "file": "examples/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce",
+    "structureChanges": [
+      {
+        "line": 17,
+        "before": "(butter, unsalted)",
+        "after": "(butter; unsalted)"
+      }
+    ],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.md",
+    "sha256": "0a12eeabe9318b896f4244fc316017fdedeff9329686762aeb351ddf2e0cbdfb",
+    "lfSha256": "26088c477b6a6c4415afb7b92f13d03ab5287e7feba6088816d50bce2ddfafb3"
+  },
+  {
+    "recipe": "cocoanut-pudding",
+    "file": "examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.md",
+    "sha256": "828a27895d7734903846576bac595a4fae03969d7ee14425437ab9aa933b4556",
+    "lfSha256": "d095a3c5532517d883bef450f192be091f1e495b523f889e4e2f59064edd9e33"
+  },
+  {
+    "recipe": "crab-salad",
+    "file": "examples/public-domain-recipes/crab-salad/crab-salad.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/crab-salad/crab-salad.md",
+    "sha256": "8c9d60e5ac1bc052a82723853016aee0ff0866e634fd8de4c9bf1072a1a735c6",
+    "lfSha256": "529a65f267e086fc87491ad284a691cf4dd78ee9bb498362ef16b2a1a16a2bdb"
+  },
+  {
+    "recipe": "creme-brulee",
+    "file": "examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/creme-brulee/creme-brulee.md",
+    "sha256": "2f40fac96b499efff773b2de7c8b7db62e6dce9f219b5c1854663e20c754dc56",
+    "lfSha256": "7e8d9e50780ade19deefa85043eb4f025a4795acf553e873aa67ecb34bb51093"
+  },
+  {
+    "recipe": "croque-monsieur",
+    "file": "examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/croque-monsieur/croque-monsieur.md",
+    "sha256": "1b22796ad0a7ad279f60de4f3ccea9dc1371b17441d3c6e82f7c122123aebbbd",
+    "lfSha256": "257e83fbba51fceaec1ae0c0a8fa92e3a69b5aa3bd49702c4f22d5053af05979"
+  },
+  {
+    "recipe": "crostata",
+    "file": "examples/public-domain-recipes/crostata/crostata.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/crostata/crostata.md",
+    "sha256": "e247246ae03f8d17a3f6e9491e5d683423b4ad053806de1322714bc65ac03dc4",
+    "lfSha256": "aac5dbc6efdc28705c40788a242ea1f08bcd16ee1893291e83674dedccae4680"
+  },
+  {
+    "recipe": "curry-sauce",
+    "file": "examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce",
+    "structureChanges": [],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/curry-sauce/curry-sauce.md",
+    "sha256": "78f48d1552ed189c26101ae4e585c87172e43e23d065edadcd10411e3e7cbc11",
+    "lfSha256": "7e7a13daa4c2441d9b32f6b0292bf1800a7b34216cea8787c5313af90738beda"
+  },
+  {
+    "recipe": "desert-roses",
+    "file": "examples/public-domain-recipes/desert-roses/desert-roses.opensauce",
+    "structureChanges": [
+      {
+        "line": 22,
+        "before": "(sugar, powdered, for dough)",
+        "after": "(sugar; powdered, for dough)"
+      },
+      {
+        "line": 23,
+        "before": "(sugar, powdered, extra, optional)",
+        "after": "(sugar; powdered, extra, optional)"
+      }
+    ],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/desert-roses/desert-roses.md",
+    "sha256": "ccce7da57ca5b684971636fa1e95c66d09c3ca00dc563c729841fc93085876b9",
+    "lfSha256": "6098bad93af914ef45428e92fecb69e7dbd05e8d861031469aa4cb5587957a41"
+  },
+  {
+    "recipe": "eggs-benedict",
+    "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+    "structureChanges": [
+      {
+        "line": 23,
+        "before": "(butter, unsalted, melted)",
+        "after": "(butter; unsalted, melted)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/eggs-benedict/eggs-benedict.md",
+    "sha256": "923e0499760624fd467c87020fe4b12880b51fca3f345b114ab1eb3f58e8e37e",
+    "lfSha256": "c53bd8741a0ba37972f00b755d880fed91b406842a298ea31c5f4820afbe9104"
+  },
+  {
+    "recipe": "egyptian-lentils",
+    "file": "examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/egyptian-lentils/egyptian-lentils.md",
+    "sha256": "6f8d5b90ab19e4c122928188231dfbef41c61328f3c23277dd59337ca1054048",
+    "lfSha256": "b5aecbc76991c9b3a0e2e11cc9463c8fff4a108e313dca2933dd2dc11476183b"
+  },
+  {
+    "recipe": "erwtensoep",
+    "file": "examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/erwtensoep/erwtensoep.md",
+    "sha256": "06e14acdf9831542888b2619a00d17e10ca3a5c2c4757673dd1b775cab84fd2e",
+    "lfSha256": "bc0e8b30eff414744c41e0e2cb17d6816147979a48f6582dc0a86da732ca842e"
+  },
+  {
+    "recipe": "fall-vegetable-and-chickpea-curry",
+    "file": "examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce",
+    "structureChanges": [
+      {
+        "line": 28,
+        "before": "(flour, wheat)",
+        "after": "(flour; wheat)"
+      },
+      {
+        "line": 57,
+        "before": "(lime, zest)",
+        "after": "(lime: zest)"
+      },
+      {
+        "line": 58,
+        "before": "(lime, juice)",
+        "after": "(lime: juice)"
+      }
+    ],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "finnish-salmon-soup",
+    "file": "examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.md",
+    "sha256": "05ca07c128537c99c829db017a864680b4c49c9c9bf1b20ed1ec04b2b6495f0b",
+    "lfSha256": "ed2aae9974e642d4467733276b0256d501c8a453de6690680ae26d57870253da"
+  },
+  {
+    "recipe": "fish-curry",
+    "file": "examples/public-domain-recipes/fish-curry/fish-curry.opensauce",
+    "structureChanges": [
+      {
+        "line": 21,
+        "before": "(onion, red)",
+        "after": "(onion; red)"
+      },
+      {
+        "line": 39,
+        "before": "(onion, red)",
+        "after": "(onion; red)"
+      },
+      {
+        "line": 41,
+        "before": "(onion, red)",
+        "after": "(onion; red)"
+      },
+      {
+        "line": 42,
+        "before": "(onion, red)",
+        "after": "(onion; red)"
+      }
+    ],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/fish-curry/fish-curry.md",
+    "sha256": "5208db4b76bdcd024a25358ab406740484920c10c3b20043b701de69e0dc1715",
+    "lfSha256": "4918e1de0b861a8458dad7f1555342cf4e0e41652ffa4fc84efe6d33e1b40024"
+  },
+  {
+    "recipe": "french-onion-soup",
+    "file": "examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/french-onion-soup/french-onion-soup.md",
+    "sha256": "1fa57c923d969be23c96523c941af990c363a966b3e7d758214c3af128c03fe6",
+    "lfSha256": "4f184b8d73c8385a7239c7207febd6257a932ef7a27d1f3f61616e87ac8b9736"
+  },
+  {
+    "recipe": "french-toast",
+    "file": "examples/public-domain-recipes/french-toast/french-toast.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/french-toast/french-toast.md",
+    "sha256": "db0ffe7adb4bdc77eeb24140086f235a56da91d034582ef3dbba40894c429d40",
+    "lfSha256": "80021eb1d82c64f894ecb52cd910a925d9cb4414aebf84d1c987ea3c153cdbe7"
+  },
+  {
+    "recipe": "fritatem-pomeranciis",
+    "file": "examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce",
+    "structureChanges": [
+      {
+        "line": 35,
+        "before": "(orange, juice)",
+        "after": "(orange: juice)"
+      }
+    ],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.md",
+    "sha256": "8cb0c4a46508bfd5683b23a14824fc74dc456fd9ad5ea87076af26dcd1ca4ea9",
+    "lfSha256": "ddc94d95d36fff56b25cde2d1417c8405943c4da435fab6676f79af031eb99bc"
+  },
+  {
+    "recipe": "fume-sauce",
+    "file": "examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/fume-sauce/fume-sauce.md",
+    "sha256": "936c9939068f46065fee9e3b463d27081e602cd4ca5d8f12452bdb4d9d7ecabc",
+    "lfSha256": "ee12b07a3a2a7ab1ab0d44db769f02bd95e69704890e2cf69423a4dfa5444adb"
+  },
+  {
+    "recipe": "ginger-garlic-broccoli",
+    "file": "examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce",
+    "structureChanges": [
+      {
+        "line": 29,
+        "before": "(sugar, brown)",
+        "after": "(sugar; brown)"
+      }
+    ],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.md",
+    "sha256": "5e47b0642a6b071e47dae3bfdd7cc0e0c0486f5f292ad31864101884c335bf87",
+    "lfSha256": "dcb521b7de1371dd5ffed0a5beb30c951e7e989b2a90378c394dff0555d44e06"
+  },
+  {
+    "recipe": "gooseberry-pudding",
+    "file": "examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce",
+    "structureChanges": [
+      {
+        "line": 17,
+        "before": "(sugar, powdered)",
+        "after": "(sugar; powdered)"
+      }
+    ],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.md",
+    "sha256": "1b6a6ae4b4c01ed4960f6b0562df5b4a477e6ce192704bacbf6b0b2e32a7ded9",
+    "lfSha256": "f8a6cc1660cba43ec9d1c87d1d870fa097ae2915595794f2ab9f8725294a98da"
+  },
+  {
+    "recipe": "granita",
+    "file": "examples/public-domain-recipes/granita/granita.opensauce",
+    "structureChanges": [],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/granita/granita.md",
+    "sha256": "3cf010bbb6b64c80e25ae5b6b8cc6668242c7d9a953efed6acac13d03065d95c",
+    "lfSha256": "1cdd4063300c12598286cadecffc5838bd369ccedacc3c9cea5500914617f0d5"
+  },
+  {
+    "recipe": "greek-easter-cookies",
+    "file": "examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce",
+    "structureChanges": [
+      {
+        "line": 20,
+        "before": "(butter, unsalted)",
+        "after": "(butter; unsalted)"
+      },
+      {
+        "line": 27,
+        "before": "(orange, zest)",
+        "after": "(orange: zest)"
+      },
+      {
+        "line": 28,
+        "before": "(lemon, zest)",
+        "after": "(lemon: zest)"
+      },
+      {
+        "line": 31,
+        "before": "(egg, yolk, whisked, for brushing)",
+        "after": "(egg: yolk, whisked, for brushing)"
+      },
+      {
+        "line": 52,
+        "before": "(lemon, zest)",
+        "after": "(lemon: zest)"
+      },
+      {
+        "line": 52,
+        "before": "(orange, zest)",
+        "after": "(orange: zest)"
+      },
+      {
+        "line": 60,
+        "before": "(egg, yolk, for brushing)",
+        "after": "(egg: yolk, for brushing)"
+      }
+    ],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.md",
+    "sha256": "50481e82a4bba0f1eff1ba5ef9d224ab5d7e5a21d9f9d22f97f1a7648df34988",
+    "lfSha256": "2eff6613ef6e7b76da89cc9b59f6b86890576d1565ef6541a851e49b6946836a"
+  },
+  {
+    "recipe": "guacamole",
+    "file": "examples/public-domain-recipes/guacamole/guacamole.opensauce",
+    "structureChanges": [
+      {
+        "line": 34,
+        "before": "(lime, juice)",
+        "after": "(lime: juice)"
+      }
+    ],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "hoisin-tofu-and-broccoli",
+    "file": "examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.md",
+    "sha256": "d832e379f88093e713799fb6901eda933831f05a9dfdba6d750950f39a259b0a",
+    "lfSha256": "f01d8b1b9f0a415166e3a759e30caa8c7a5cc9f9d122c3fffc27fc694d2ae661"
+  },
+  {
+    "recipe": "honey-vanilla-ice-cream",
+    "file": "examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.md",
+    "sha256": "ff61a4a7596eaaa6369636ca0e60f8e26f9d711bebbb82b4ec0d7b272dc8406f",
+    "lfSha256": "33bf1c2abd8100c0310edaa163821478de49e0ebc341fa6d331f738c68861410"
+  },
+  {
+    "recipe": "hummus",
+    "file": "examples/public-domain-recipes/hummus/hummus.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "indian-tea",
+    "file": "examples/public-domain-recipes/indian-tea/indian-tea.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/indian-tea/indian-tea.md",
+    "sha256": "33b46298b486b6f35d0e93cba72fce71f8049bd0bc1cceed1291618e8f07416e",
+    "lfSha256": "f8a80668d94830483a7acfe6e7b71ed7b32f44ab49126432fd7466ae1dadb26a"
+  },
+  {
+    "recipe": "jam",
+    "file": "examples/public-domain-recipes/jam/jam.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/jam/jam.md",
+    "sha256": "b6e2c7388fd350bebde37d92740a8094384e0bc0469a08ab055cf084982e6211",
+    "lfSha256": "28bed2541255897eaaa8efd8e6777b1590dbf74eea12a6050f35fe2e0e6cb5aa"
+  },
+  {
+    "recipe": "japanese-noodle-soup",
+    "file": "examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.md",
+    "sha256": "19070e246cbb9e6af9ce47c8a3d3272bbda2bfa3df24c7bc54710ab93d303afd",
+    "lfSha256": "326c9b518bdbe693e38c2fca7df7200325eeaf85f95005c2358b91fb09574963"
+  },
+  {
+    "recipe": "ketchup",
+    "file": "examples/public-domain-recipes/ketchup/ketchup.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/ketchup/ketchup.md",
+    "sha256": "b69591c8572f2707745b6357f9393c876f7c6b659ab5178910305197e1437f89",
+    "lfSha256": "9ed61a57e677d1548196731e40ebe8d83dea7fd251dd05c2432493c96c446488"
+  },
+  {
+    "recipe": "kombucha",
+    "file": "examples/public-domain-recipes/kombucha/kombucha.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/kombucha/kombucha.md",
+    "sha256": "310aad1d4eb93b094c8eda3a7ab99886a7bf59be10ab31fb3ccb0db589236430",
+    "lfSha256": "a050e1f652b95882dd63478d7db40f74923d9fb4f1c5cacdb081e7fc599fcbf4"
+  },
+  {
+    "recipe": "kvass",
+    "file": "examples/public-domain-recipes/kvass/kvass.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/kvass/kvass.md",
+    "sha256": "9e82c64af1494d45cb8a0742070d422bcc4db164c7aaf734a6e2ca1318ed0aa0",
+    "lfSha256": "be3a848909f9f69fafdee751bc623954714e8c75442af433052379ea5b757c61"
+  },
+  {
+    "recipe": "lavacake",
+    "file": "examples/public-domain-recipes/lavacake/lavacake.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "lentejas",
+    "file": "examples/public-domain-recipes/lentejas/lentejas.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/lentejas/lentejas.md",
+    "sha256": "8e66b7f6303bccb1ee5d3f376fd3945bda6ef39c0d88e4d33274642fadbd3ece",
+    "lfSha256": "f454abb5da7a8967cb3d10644fe5f7f5d0ee66102d4ccfa341615cc3a1d41fc7"
+  },
+  {
+    "recipe": "lenten-chili",
+    "file": "examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce",
+    "structureChanges": [],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/lenten-chili/lenten-chili.md",
+    "sha256": "bc59d88766ae0c8b377863052886f642a7f8e9a79ef2081337d9863ceebf4bfc",
+    "lfSha256": "a272d62af285c5d623953770674e9c8a29e5a3869eb3103cfa6e4d4b2395f04f"
+  },
+  {
+    "recipe": "lenten-lentil-curry",
+    "file": "examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.md",
+    "sha256": "e67c692dc82bcdf9cff30f2895de53f792cbee800d87fd2216c6bd9b5570085f",
+    "lfSha256": "dd8047e17bfaf9531ed09352306ad88b131f3c79f8a8ac7d583382d0146e1d80"
+  },
+  {
+    "recipe": "limoncello",
+    "file": "examples/public-domain-recipes/limoncello/limoncello.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/limoncello/limoncello.md",
+    "sha256": "6529c117104a4dac3adf1dd445ae591ebb54c50bb7be045c68baf465f3021dcf",
+    "lfSha256": "aad255c6148244784ee39a68fe782e79d38f6cec3c36d03193895f0b0a8f4f9a"
+  },
+  {
+    "recipe": "matcha-cookies",
+    "file": "examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce",
+    "structureChanges": [
+      {
+        "line": 18,
+        "before": "(butter, unsalted)",
+        "after": "(butter; unsalted)"
+      },
+      {
+        "line": 19,
+        "before": "(sugar, caster)",
+        "after": "(sugar; caster)"
+      },
+      {
+        "line": 20,
+        "before": "(sugar, brown)",
+        "after": "(sugar; brown)"
+      },
+      {
+        "line": 22,
+        "before": "(flour, plain)",
+        "after": "(flour; plain)"
+      },
+      {
+        "line": 41,
+        "before": "(sugar, caster)",
+        "after": "(sugar; caster)"
+      },
+      {
+        "line": 41,
+        "before": "(sugar, brown)",
+        "after": "(sugar; brown)"
+      }
+    ],
+    "storyStatus": "narrative retained; practical suffix -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/matcha-cookies/matcha-cookies.md",
+    "sha256": "805386e015077b366f908de7bf71ca86d9d44f1483e52333b114dc98d0bf8847",
+    "lfSha256": "718a5faed7f95b0f665f0ce51f24d2ca1022dfcd70ed95bf14ae4c1ff8b0743b"
+  },
+  {
+    "recipe": "mayonnaise-or-aioli",
+    "file": "examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce",
+    "structureChanges": [
+      {
+        "line": 19,
+        "before": "(egg, yolk, preferably room temperature)",
+        "after": "(egg: yolk, preferably room temperature)"
+      }
+    ],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.md",
+    "sha256": "13bc74141e512bcfb66db6e28965a2c4cda5aae07a912438e9276669cc4f67d0",
+    "lfSha256": "19f09958c635020a5dc53b7495b9ad44ff0092d256a4150a64a14fbe79acb479"
+  },
+  {
+    "recipe": "medieval-beef-soup",
+    "file": "examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.md",
+    "sha256": "554308db39cf274b2577e20acf4f54ba995d19e354985ff94d0405f1e07224a8",
+    "lfSha256": "d7c08921a25cb759a448463abeb10c49ed25fd7fee2dbb0a86ebd882b709aecb"
+  },
+  {
+    "recipe": "miso-soup",
+    "file": "examples/public-domain-recipes/miso-soup/miso-soup.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/miso-soup/miso-soup.md",
+    "sha256": "7f3edc5ed0bfba86d8fa770508b9dff2f975bff346e205dd9e8d2b2447323132",
+    "lfSha256": "d1d0bd39995bef3c579db438011acd0e2cc4e2cf76cdfdb3790a56e09510e9f5"
+  },
+  {
+    "recipe": "naan-bread",
+    "file": "examples/public-domain-recipes/naan-bread/naan-bread.opensauce",
+    "structureChanges": [
+      {
+        "line": 22,
+        "before": "(flour, all-purpose)",
+        "after": "(flour; all-purpose)"
+      }
+    ],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/naan-bread/naan-bread.md",
+    "sha256": "6dbf3ebe16b6a64dfcf3d0219741bfb705d60f8f7cce70d0c36ef22d63ae3257",
+    "lfSha256": "b46b7bb2fa962917bfeb0cecd085e139c89a295453181b8021fa8c9e06415c78"
+  },
+  {
+    "recipe": "no-knead-bread",
+    "file": "examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "oat-milk",
+    "file": "examples/public-domain-recipes/oat-milk/oat-milk.opensauce",
+    "structureChanges": [],
+    "storyStatus": "narrative retained; practical suffix -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/oat-milk/oat-milk.md",
+    "sha256": "cdbf2814c6fbcdc6c28a0b2a80386f25b8c4d663469b8af5bc294113465cd78d",
+    "lfSha256": "ef6bc75bf20341fc5ea78b41cbdcae3502839d57d0b2a7844f533e2b688fb667"
+  },
+  {
+    "recipe": "oatmeal-cookies",
+    "file": "examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: original Markdown plus one required fence-separating newline",
+    "sha256": "cbbebd1db48754559f162d635a8544fae4ce94447d44be097da40867adb3782f",
+    "sourcePath": "source/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.md",
+    "lfSha256": "9600f0b2e4bfee1216bb07738f4721eff5a12979c455fc3fb4a28afbd5b1ee4a"
+  },
+  {
+    "recipe": "orange-jam",
+    "file": "examples/public-domain-recipes/orange-jam/orange-jam.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/orange-jam/orange-jam.md",
+    "sha256": "3a6e0dd263be58502113612eda2a68bc7c42eedf01fe502b639ac7cfacee0b4c",
+    "lfSha256": "32f0b9c5686736749d08d4d91312d258a9dafc5a059da6095d61653603a4af33"
+  },
+  {
+    "recipe": "paella",
+    "file": "examples/public-domain-recipes/paella/paella.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "paneer-tikka-masala",
+    "file": "examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "party-mimosa",
+    "file": "examples/public-domain-recipes/party-mimosa/party-mimosa.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/party-mimosa/party-mimosa.md",
+    "sha256": "386d857ad6b14545e16b6c2f9877fa6a76c893287ab28fc2ebbf70e76dcbe8a0",
+    "lfSha256": "88aa3d7f2d4999c7e16390705cfec863189117ab4729936b0a83728fda72d33a"
+  },
+  {
+    "recipe": "pavlova",
+    "file": "examples/public-domain-recipes/pavlova/pavlova.opensauce",
+    "structureChanges": [
+      {
+        "line": 19,
+        "before": "(sugar, caster)",
+        "after": "(sugar; caster)"
+      },
+      {
+        "line": 39,
+        "before": "(sugar, caster)",
+        "after": "(sugar; caster)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "pepper-sauce",
+    "file": "examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/pepper-sauce/pepper-sauce.md",
+    "sha256": "bec0089d795b416dd3849748ae76d634ab3bb413c78f11e51680d5fd2cad492b",
+    "lfSha256": "69ae6b732e17ba1f6965ba582c070f746e5713d54bf23892e124406f197c6e2d"
+  },
+  {
+    "recipe": "pho-soup",
+    "file": "examples/public-domain-recipes/pho-soup/pho-soup.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/pho-soup/pho-soup.md",
+    "sha256": "8301e4a96238df20fa98b678f2b9c41fa63e6222e29a87cd7d6c28b0c314fe82",
+    "lfSha256": "5705f59053d5c297265a66ca6281a1f6d0c19924d3f7d43fdbec4593c84ba531"
+  },
+  {
+    "recipe": "pickled-onions",
+    "file": "examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce",
+    "structureChanges": [],
+    "storyStatus": "narrative retained; practical suffix -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/pickled-onions/pickled-onions.md",
+    "sha256": "3c6b1d289e68f93560a0f59fb6f2b270a53e78dd47f9fa23c25dc0a9cfbd7908",
+    "lfSha256": "c9e0bf100302b2c2b121afc5e77e7849e54a569f5b8505d8f8c485ae9f1aeb30"
+  },
+  {
+    "recipe": "pizza-dough",
+    "file": "examples/public-domain-recipes/pizza-dough/pizza-dough.opensauce",
+    "structureChanges": [],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/pizza-dough/pizza-dough.md",
+    "sha256": "a2f4c3345b453319b0e537a638ab0accb84aacebd261fc05e7bdbcb1f6c88ac2",
+    "lfSha256": "50dd7bfda31c744210e8b887d369d7bace60adf068e0a9615dae28f75980c0ac"
+  },
+  {
+    "recipe": "pizza-sauce",
+    "file": "examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/pizza-sauce/pizza-sauce.md",
+    "sha256": "b94e5b230482e0a31aa6e98bdc555bd71f25e90d307280cf5c14a00fb96a8d7f",
+    "lfSha256": "63e25af2328f3c6a2ee661e157d312fe23e600270d5a310a0cd20c3353482c46"
+  },
+  {
+    "recipe": "pork-carnitas",
+    "file": "examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce",
+    "structureChanges": [],
+    "storyStatus": "narrative retained; practical suffix -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/pork-carnitas/pork-carnitas.md",
+    "sha256": "35cc7b68834ecac747c0cbefd571259bfb2d7a9e317333b6f1112a09cd78ae28",
+    "lfSha256": "c5304871acd9a35af4ed99c251075251561533a637f83cc1c47454c0313dcc26"
+  },
+  {
+    "recipe": "potato-and-eggplant-curry",
+    "file": "examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.md",
+    "sha256": "bbdfc2a94de5d144750018435139dee80aa7f913dc113f51416b9f1dc4777c95",
+    "lfSha256": "f6c687efac1729ee1867dc4fda40420ab01c0eb557776a2d0be366f58de90e60"
+  },
+  {
+    "recipe": "potato-leek-soup",
+    "file": "examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce",
+    "structureChanges": [
+      {
+        "line": 18,
+        "before": "(butter, unsalted)",
+        "after": "(butter; unsalted)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "pretzels",
+    "file": "examples/public-domain-recipes/pretzels/pretzels.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/pretzels/pretzels.md",
+    "sha256": "e422da82dbe991716bf7ea8bbdc4056995d733a96afba30d889cee0343da4960",
+    "lfSha256": "8ca82c24054d86ddbde9de233e3cbc3f7ecffc4a69abcef87d0b44f8dba33f2f"
+  },
+  {
+    "recipe": "puff-pastry",
+    "file": "examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce",
+    "structureChanges": [
+      {
+        "line": 21,
+        "before": "(flour, bread)",
+        "after": "(flour; bread)"
+      },
+      {
+        "line": 24,
+        "before": "(butter, unsalted, softened)",
+        "after": "(butter; unsalted, softened)"
+      }
+    ],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/puff-pastry/puff-pastry.md",
+    "sha256": "dda0117db065425b6cd06e595dd705c50518f4ce493666063d463facaf79eb62",
+    "lfSha256": "d41ab9fe01e709a7ec048669ebdd067a5e1a42d83940b089f122dd0afc954ab7"
+  },
+  {
+    "recipe": "pulpo-gallega",
+    "file": "examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/pulpo-gallega/pulpo-gallega.md",
+    "sha256": "2489d0a8d3107485ff130d1a0f989d5142bb8057790cd2f272bd34d35a03871e",
+    "lfSha256": "9da5ec5fac3d9be8f47c43200cde3554d904c46ad5853fe067d6ab7b2a1cc7d6"
+  },
+  {
+    "recipe": "quarkbaellchen",
+    "file": "examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/quarkbaellchen/quarkbaellchen.md",
+    "sha256": "2a987851599633b0436b2bd9a3196fd16c09ff9ded2aa7706c4a96b553d08572",
+    "lfSha256": "90391190c2f4d37702c61fdf1ba669f4476128c3c90d52d0812110f818db26b3"
+  },
+  {
+    "recipe": "ratatouille",
+    "file": "examples/public-domain-recipes/ratatouille/ratatouille.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/ratatouille/ratatouille.md",
+    "sha256": "e603897db186d100060094e5c59ca60c7a67ba49d36371360f20cdf134adc8fe",
+    "lfSha256": "8ce91adb4d9726ce89bd2141dd7d21e9212b3c6777e5a7049488482b46a2acaf"
+  },
+  {
+    "recipe": "red-lentil-dahl",
+    "file": "examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce",
+    "structureChanges": [
+      {
+        "line": 20,
+        "before": "(onion, yellow, medium)",
+        "after": "(onion; yellow, medium)"
+      },
+      {
+        "line": 28,
+        "before": "(lemon, juice)",
+        "after": "(lemon: juice)"
+      },
+      {
+        "line": 48,
+        "before": "(lemon, juice)",
+        "after": "(lemon: juice)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.md",
+    "sha256": "89407524f5c57e58a059afaa0ff0c6ff50f6154b7b78fd567cc4d8de76b275a9",
+    "lfSha256": "a0dd96577df60b391b5044437ca3b8681aadcd74864961a436cc3b20f08adb78"
+  },
+  {
+    "recipe": "red-sauce",
+    "file": "examples/public-domain-recipes/red-sauce/red-sauce.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/red-sauce/red-sauce.md",
+    "sha256": "f9e09894d5018b65f0af7c52c48fed0fadab67628dbb3c8cfa64447abed728f6",
+    "lfSha256": "833bce048502ab4d2598927674e88da4aeb4407774a3f86c3d0267df9c18b402"
+  },
+  {
+    "recipe": "rice-pudding",
+    "file": "examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce",
+    "structureChanges": [],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: original Markdown plus one required fence-separating newline",
+    "sha256": "bc1552a46ec5c96a5d6d175b021ec0682ce875ebdc9789343d605e5fef3f419e",
+    "sourcePath": "source/public-domain-recipes/rice-pudding/rice-pudding.md",
+    "lfSha256": "9b456bcd0be4344a9872e1426310724fdcd4bf41a9408ac5c17e0d5bc7b68429"
+  },
+  {
+    "recipe": "salsa-verde",
+    "file": "examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce",
+    "structureChanges": [],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/salsa-verde/salsa-verde.md",
+    "sha256": "3e4f7200f7d48549df2578b3b78dc453a657bea3e16347019930a54b343845a2",
+    "lfSha256": "ed496b1b50c6bc84784875f53509d92485f886747ae7c19ca6cca5b209f22671"
+  },
+  {
+    "recipe": "sand-tarts",
+    "file": "examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/sand-tarts/sand-tarts.md",
+    "sha256": "5378ba3eedd4466655e8b6c3261f1b61e12b604b7e03e0e382950b20e7aa2885",
+    "lfSha256": "eda7280900e20dcdbd094319230e452fffcaf47e774894bb28606645be527b2a"
+  },
+  {
+    "recipe": "sardine-cakes",
+    "file": "examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce",
+    "structureChanges": [],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/sardine-cakes/sardine-cakes.md",
+    "sha256": "014d0be1b71daac909dfd0d60ecb3e05e64c3f89cfbad6029b0e53e657ffec66",
+    "lfSha256": "9a604b4ba2638835c269ae153ff87b23a39eec13cba41cffaf391ca6b9cae296"
+  },
+  {
+    "recipe": "sauerkraut",
+    "file": "examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/sauerkraut/sauerkraut.md",
+    "sha256": "d434f16de52a7c366063094b0abf5aafd70877ed56ba7b48f948842300b2217e",
+    "lfSha256": "89ca4ded1614bb70ce4694ec558e76315dd287e14648b311e548b15cf8b26b30"
+  },
+  {
+    "recipe": "scandinavian-coffee-cake",
+    "file": "examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce",
+    "structureChanges": [
+      {
+        "line": 30,
+        "before": "(sugar, brown, firmly packed)",
+        "after": "(sugar; brown, firmly packed)"
+      },
+      {
+        "line": 60,
+        "before": "(sugar, brown)",
+        "after": "(sugar; brown)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.md",
+    "sha256": "44b56916614739fd13201f4440681327a1f0fddf12644e72532f7b6bd1f296d3",
+    "lfSha256": "9da76600f811b7d988a3003a07b2fc2f27a21143dd812d9d9bb0c359b994bf6c"
+  },
+  {
+    "recipe": "schnitzel",
+    "file": "examples/public-domain-recipes/schnitzel/schnitzel.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/schnitzel/schnitzel.md",
+    "sha256": "eca1a11111f65c6b318e2fd179f5e8c85ab6e86c26580b69c24b58092ad86632",
+    "lfSha256": "61325253366f3bfc8ed215308af45001cfc68cbd02b556dca448fc927d815342"
+  },
+  {
+    "recipe": "shakshouka",
+    "file": "examples/public-domain-recipes/shakshouka/shakshouka.opensauce",
+    "structureChanges": [
+      {
+        "line": 20,
+        "before": "(onion, white, peeled)",
+        "after": "(onion; white, peeled)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "shortcrust-pastry",
+    "file": "examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce",
+    "structureChanges": [
+      {
+        "line": 21,
+        "before": "(sugar, powdered)",
+        "after": "(sugar; powdered)"
+      }
+    ],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.md",
+    "sha256": "4994418b0da811e124ee981401a586b0f27514cb19300301a99c85d493aff4fc",
+    "lfSha256": "66e59c615a7d790f247648e6b9e08ecc53e49bb24be65e759c189351c49d2997"
+  },
+  {
+    "recipe": "slow-cooked-lamb-with-lemon",
+    "file": "examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce",
+    "structureChanges": [
+      {
+        "line": 43,
+        "before": "(lemon, juice)",
+        "after": "(lemon: juice)"
+      }
+    ],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.md",
+    "sha256": "fac418e0b5606defd7b68c0e9f3975ebba7350c2a8081b0c64c8d5734c954c98",
+    "lfSha256": "37ee7c5ff2d954dc8c32980f024fc56155202a37799b31cd48e003e217aedc7b"
+  },
+  {
+    "recipe": "sourdough-bread-with-seeds-and-grains",
+    "file": "examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.md",
+    "sha256": "224209dc8fb2a75cdcba754484766c5038a92cae3d7e416f4c6206d6d454b5da",
+    "lfSha256": "d40f02869a70741ab49902e5586bbff52ac82f63d2e1dd1bb6acc652855cf1fb"
+  },
+  {
+    "recipe": "sourdough-loaf",
+    "file": "examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce",
+    "structureChanges": [
+      {
+        "line": 19,
+        "before": "(flour, bread)",
+        "after": "(flour; bread)"
+      },
+      {
+        "line": 20,
+        "before": "(flour, all-purpose, avoid bleached and enriched)",
+        "after": "(flour; all-purpose, avoid bleached and enriched)"
+      },
+      {
+        "line": 21,
+        "before": "(flour, rye)",
+        "after": "(flour; rye)"
+      },
+      {
+        "line": 42,
+        "before": "(flour, bread)",
+        "after": "(flour; bread)"
+      },
+      {
+        "line": 42,
+        "before": "(flour, all-purpose)",
+        "after": "(flour; all-purpose)"
+      }
+    ],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/sourdough-loaf/sourdough-loaf.md",
+    "sha256": "744946cd77d48b73e8a41328e1f0852a3767336c2617541195fb36b81788d305",
+    "lfSha256": "1f7e1205c40a86cd6f8d3e3f98adc0625c09074faf127d8bdd58664f81e41127"
+  },
+  {
+    "recipe": "sourdough-starter",
+    "file": "examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce",
+    "structureChanges": [
+      {
+        "line": 19,
+        "before": "(flour, wheat)",
+        "after": "(flour; wheat)"
+      },
+      {
+        "line": 19,
+        "before": "(flour, rye)",
+        "after": "(flour; rye)"
+      }
+    ],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/sourdough-starter/sourdough-starter.md",
+    "sha256": "c065444e9125c04426431d01b244b5d2c6d99415580e4f4f72177c9dd0d425a9",
+    "lfSha256": "233d5b078142af9d58cdc1f6131792a7bcd1b5c2133d1a28f82251fbbeff1717"
+  },
+  {
+    "recipe": "spanish-tortilla",
+    "file": "examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce",
+    "structureChanges": [],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/spanish-tortilla/spanish-tortilla.md",
+    "sha256": "ee13e11be4dff6501b5814da1b987d38766594feeee131ea6c14c48f56b1d53c",
+    "lfSha256": "4e36c04768240d1397075b8ae17e2cf204c195c79be801f18f6fb3df1609b68f"
+  },
+  {
+    "recipe": "spatchcock-chicken",
+    "file": "examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.md",
+    "sha256": "752491eb1491ca3f8f8d59ad39d4adf106eb688e72b24794490949197fc5c0e6",
+    "lfSha256": "04ef62d9116d18612e553cd56149328ae0789f9f0c612cc3707a4f8faaa6938a"
+  },
+  {
+    "recipe": "stuffed-round-squash",
+    "file": "examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.md",
+    "sha256": "83bff5452a8dbedfe1bd03b256cf04f31c06da26960a6934a227f66c94777a41",
+    "lfSha256": "022ee122b84d220cb9bb9fa12d726b31df7b7faf3742a522dc12e2e01b0e0434"
+  },
+  {
+    "recipe": "sunday-milkshake",
+    "file": "examples/public-domain-recipes/sunday-milkshake/sunday-milkshake.opensauce",
+    "structureChanges": [],
+    "storyStatus": "narrative retained; practical suffix -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/sunday-milkshake/sunday-milkshake.md",
+    "sha256": "8bc1914cd86c9de7ffd430b9103df85f5698a92501742801bbbffcc2b8d881a5",
+    "lfSha256": "8abf51ddb92d5ee2d614afebee20b9797fd02f4838fb8fc51293c4d9d76834b6"
+  },
+  {
+    "recipe": "sweet-potato-fries",
+    "file": "examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce",
+    "structureChanges": [],
+    "storyStatus": "narrative retained; practical suffix -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.md",
+    "sha256": "596cefd2c133aaa3115d7166bf505d06048f65874f9056db9c13d2c77a45d6a9",
+    "lfSha256": "72a6ecf8a5c42e48208efc9b069cb38d659bb89e47f99a3424205c2ed81cb8cb"
+  },
+  {
+    "recipe": "tiramisu",
+    "file": "examples/public-domain-recipes/tiramisu/tiramisu.opensauce",
+    "structureChanges": [
+      {
+        "line": 33,
+        "before": "(egg, yolk)",
+        "after": "(egg: yolk)"
+      },
+      {
+        "line": 34,
+        "before": "(egg, white)",
+        "after": "(egg: white)"
+      },
+      {
+        "line": 37,
+        "before": "(egg, yolk)",
+        "after": "(egg: yolk)"
+      },
+      {
+        "line": 44,
+        "before": "(egg, white)",
+        "after": "(egg: white)"
+      },
+      {
+        "line": 46,
+        "before": "(egg, white)",
+        "after": "(egg: white)"
+      }
+    ],
+    "storyStatus": "absent",
+    "sourceStatus": "skipped: no retained original document"
+  },
+  {
+    "recipe": "tofu-stir-fry",
+    "file": "examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.md",
+    "sha256": "c6066ce078f62add057f51260e53051e564392c6df7590a855d8bafded18ca37",
+    "lfSha256": "d3a38e481898f8a56cd459154be137b6f86b858557045e47aba71f620e70c3c4"
+  },
+  {
+    "recipe": "tomato-and-grilled-paprika-soup",
+    "file": "examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce",
+    "structureChanges": [],
+    "storyStatus": "practical advice -> notes",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.md",
+    "sha256": "b695518688ee0fffe7e666b87a36b53fb1f77a6070d5ac7b8ea13506bd34abb5",
+    "lfSha256": "dff2eb151227d33640052da09c52197eb8e4881d949d22a0f51495b715a9d858"
+  },
+  {
+    "recipe": "tzatziki",
+    "file": "examples/public-domain-recipes/tzatziki/tzatziki.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: mixed narrative/practical or attribution; human review",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/tzatziki/tzatziki.md",
+    "sha256": "43cc13c518bdfe50796ddc52a3fea0d9abe321d046d242a3bf45be272e0da49c",
+    "lfSha256": "a582cc8885f3e3027bd8d27ddc6a575039efa60f834502073c0da21a02503e4e"
+  },
+  {
+    "recipe": "ukrainian-borscht",
+    "file": "examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce",
+    "structureChanges": [],
+    "storyStatus": "unchanged: narrative/editorial",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.md",
+    "sha256": "b7ec94f742393196ea02f7b786621fff51280c6b1b9affda06960dc2480e7681",
+    "lfSha256": "929b50c0faf1a8c733ec8cf9c9ca96dfeab6c930bd5b35013960bbb0aba163c7"
+  },
+  {
+    "recipe": "zopf",
+    "file": "examples/public-domain-recipes/zopf/zopf.opensauce",
+    "structureChanges": [],
+    "storyStatus": "absent",
+    "sourceStatus": "embedded: byte-exact upstream Markdown including front matter",
+    "sourcePath": "source/public-domain-recipes/zopf/zopf.md",
+    "sha256": "9c3e6527935d792d891c4ecc3a62448005e76effba078c6f871a60742d6b168b",
+    "lfSha256": "9d71d3872fa61bee5774972624d29940b259d1a337856f308f9e0c2a91678763"
+  }
+]

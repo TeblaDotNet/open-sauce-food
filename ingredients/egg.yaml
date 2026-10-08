@@ -1,0 +1,116 @@
+id: egg
+kind: ingredient
+canonical_name: egg
+names:
+  en: egg
+plural_names:
+  en: eggs
+parts:
+  yolk:
+    names:
+      en-GB: yolk
+      en-US: yolk
+    plural_names:
+      en: yolks
+  white:
+    names:
+      en-GB: white
+      en-US: white
+    plural_names:
+      en: whites
+  shell:
+    names:
+      en-GB: shell
+      en-US: shell
+    plural_names:
+      en: shells
+part_groups:
+  separated_contents:
+    process: separate
+    parts:
+      - yolk
+      - white
+    description: Separating the contents of whole eggs into yolks and whites;
+      excludes the shell and does not enumerate all anatomy.
+    sources:
+      - citation: examples/public-domain-recipes/tiramisu/tiramisu.opensauce (whole eggs
+          and complementary separation instructions)
+status: canonical-seed
+evidence:
+  legacy_observation_count: 14
+  observed_terms:
+    - term: egg
+      count: 41
+  seen_in:
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+    - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+    - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+    - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/castagnole/castagnole.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+    - examples/public-domain-recipes/crab-salad/crab-salad.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+    - examples/public-domain-recipes/french-toast/french-toast.opensauce
+    - examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce
+    - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+    - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/lavacake/lavacake.opensauce
+    - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+    - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+    - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+    - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+    - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+    - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+    - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+    - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+    - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+    - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+    - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+    - term: egg
+      count: 14
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: beaten
+    count: 3
+  - value: boiled
+    count: 1
+  - value: conditional on non-vegan version in method
+    count: 1
+  - value: for brushing
+    count: 1
+  - value: for top
+    count: 1
+  - value: free-range
+    count: 4
+  - value: large
+    count: 2
+  - value: lightly beaten
+    count: 1
+  - value: medium
+    count: 2
+  - value: optional
+    count: 3
+  - value: preferably room temperature
+    count: 2
+  - value: whisked
+    count: 1
+  - value: white
+    count: 1
+  - value: whole
+    count: 1
+  - value: yolk
+    count: 4

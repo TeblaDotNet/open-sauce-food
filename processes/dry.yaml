@@ -1,0 +1,25 @@
+id: dry
+kind: process
+canonical_name: dry
+names:
+  en: dry
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: dry
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/castagnole/castagnole.opensauce
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+  - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+observed_parameters:
+- value: clean towel
+  count: 1
+- value: gently
+  count: 1
+- value: kitchen roll
+  count: 1

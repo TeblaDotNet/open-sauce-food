@@ -1,0 +1,20 @@
+id: parmigiano-reggiano
+kind: ingredient
+canonical_name: parmigiano-reggiano
+names:
+  en: parmigiano-reggiano
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: parmigiano-reggiano
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+observed_qualifiers:
+- value: grated
+  count: 1
+- value: optional
+  count: 1

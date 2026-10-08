@@ -1,0 +1,64 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Hamburger dressing
+source: https://publicdomainrecipes.com/burger-dressing/
+source author: brox
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: sauce, basic, dressing
+image: burger-dressing.webp
+
+# Imported from content/burger-dressing.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 1 min
+# Source metadata: - 🍳 Cook time: 1 min
+
+::ingredients
+
+(mayonnese or aioli — /mayonnaise-or-aioli) 3 tbsp
+(ketchup) 2 tbsp
+(sriracha) 1 tbsp
+(garlic, optional, if using mayonnese and not aioli) 1 clove
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<mix, ingredients in a bowl>
+
+::story
+
+A delicious home made hamburger dressing 🍔
+
+
+::source
+<<<
+---
+title: "Hamburger dressing"
+date: 2021-04-06
+tags: ['sauce', 'basic', 'dressing']
+author: brox
+---
+
+![burger-dressing](/pix/burger-dressing.webp)
+
+A delicious home made hamburger dressing 🍔
+
+- ⏲️ Prep time: 1 min
+- 🍳 Cook time: 1 min
+
+## Ingredients
+
+- 3 tbsp [mayonnese or aioli](/mayonnaise-or-aioli)
+- 2 tbsp ketchup
+- 1 tbsp sriracha
+- 1 clove garlic, if using mayonnese and not aioli (optional)
+
+## Directions
+
+1. Mix ingredients in a bowl
+>>>

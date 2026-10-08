@@ -1,0 +1,84 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Beef Kidney
+source: https://publicdomainrecipes.com/beef-kidney/
+source author: philip-wittamore
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: beef
+serves: 2
+
+# Imported from content/beef-kidney.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 45 min
+# Source metadata: - 🍽️ Servings: 2
+
+::ingredients
+
+(beef kidney) 1
+(butter) 60g
+(onion) 2
+(shallots) 2
+(sprig of fresh parsley) 1
+(bay leaves) 3
+(croutons or toasted bread in pieces) 400g
+
+::instructions
+
+<clean, the kidney and remove the fat>
+<cut, the kidney into small chunks (2cm or 3/4")>
+(butter) <put, in a casserole dish>
+<add, kidney, parsley, bay leaf, salt, pepper>
+<brown, in the casserole for 10 minutes while stirring (don't burn)>
+<add, 2 glasses of dry white wine>
+<add, half a glass of water so that the mixture is well-bathed>
+<simmer, for 35 minutes>
+<add, about 400g of toasted bread in pieces>
+<simmer, for another 10 minutes>
+
+::story
+
+My wife's beef kidney recipe
+
+
+::source
+<<<
+---
+title: "Beef Kidney"
+date: 2021-06-05
+tags: ['beef']
+author: philip-wittamore
+---
+
+My wife's beef kidney recipe
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 45 min
+- 🍽️ Servings: 2
+
+## Ingredients
+
+- 1 beef kidney
+- 60g butter
+- 2 onions
+- 2 shallots
+- 1 sprig of fresh parsley
+- 3 bay leaves
+- 400g croutons or toasted bread in pieces
+
+## Directions
+
+1. clean the kidney and remove the fat
+2. cut the kidney into small chunks (2cm or 3/4")
+3. put butter in a casserole dish
+4. add kidney, parsley, bay leaf, salt, pepper
+5. brown in the casserole for 10 minutes while stirring (don't burn)
+6. add 2 glasses of dry white wine
+7. add half a glass of water so that the mixture is well-bathed
+8. simmer for 35 minutes
+9. add about 400g of toasted bread in pieces
+10. simmer for another 10 minutes
+>>>

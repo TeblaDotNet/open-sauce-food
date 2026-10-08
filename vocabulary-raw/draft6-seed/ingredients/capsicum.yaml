@@ -1,0 +1,9 @@
+id: capsicum
+kind: ingredient
+names:
+  en: capsicum
+observed_forms:
+- syntax: capsicum
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

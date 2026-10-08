@@ -1,0 +1,40 @@
+{
+  "title": "Pasta Arrabbiata",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pasta-arrabbiata.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "2f6644fa9bc57c48657391cebdcbb811f6fa7301a687c3679db5219e498e083a",
+  "original_front_matter": {
+    "title": "Pasta Arrabbiata",
+    "tags": [
+      "pasta",
+      "quick",
+      "italian"
+    ],
+    "date": "2022-06-21",
+    "author": "klisurovi4"
+  },
+  "source_url": "https://publicdomainrecipes.com/pasta-arrabbiata/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "arrabiata",
+      "url": "/pix/pasta-arrabbiata.webp",
+      "upstreamPath": "static/pix/pasta-arrabbiata.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "a673a942a493ca3b5d3db92acd1c0de4d12e12c49efd3654c553dff17c1d80fb",
+      "sourcePath": "source/public-domain-recipes/pasta-arrabbiata/pasta-arrabbiata.webp",
+      "promotedPath": "examples/public-domain-recipes/pasta-arrabbiata/pasta-arrabbiata.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

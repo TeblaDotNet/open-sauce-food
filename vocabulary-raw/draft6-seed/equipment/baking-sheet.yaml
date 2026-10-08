@@ -1,0 +1,9 @@
+id: baking-sheet
+kind: equipment
+names:
+  en: baking sheet
+observed_forms:
+- syntax: baking sheet
+  count: 1
+seen_in:
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce

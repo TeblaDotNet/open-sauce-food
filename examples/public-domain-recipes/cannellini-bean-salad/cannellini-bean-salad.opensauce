@@ -1,0 +1,69 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Cannellini Bean Salad
+source: https://publicdomainrecipes.com/cannellini-bean-salad/
+source author: carl-zimmerman
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: beans, italian, salad
+serves: 2
+
+# Imported from content/cannellini-bean-salad.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 10 min
+# Source metadata: - 🍽️ Servings: 2
+
+::ingredients
+
+(cannellini beans, drained and rinsed) 1 can
+(garlic, minced) 2 tbsp
+(onion) 1/2
+(smoked paprika) 1 tsp
+(cumin, ground) 1/2 tsp
+(tomatoes, diced) 1 15 oz can
+(parsley flakes) 1 tbsp
+(prosciutto)
+(arugula)
+
+::instructions
+
+Sauté garlic and onions in olive oil until onions are translucent.
+<add, diced tomatoes, seasonings, and salt and pepper to taste. Simmer for 3 minutes>
+<add, the beans, season to taste, mix until combined, and simmer for an additional 2 minutes>
+<serve, over arugula and top with bits of prosciutto>
+
+::source
+<<<
+---
+title: "Cannellini Bean Salad"
+date: 2021-03-17
+tags: ['beans', 'italian', 'salad']
+author: carl-zimmerman
+---
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 10 min
+- 🍽️ Servings: 2
+
+## Ingredients
+
+- 1 can Cannellini beans, drained and rinsed
+- 2 tbsp minced garlic
+- 1/2 onion
+- 1 tsp smoked paprika
+- 1/2 tsp ground cumin
+- 1 15 oz can diced tomatoes
+- 1 tbsp parsley flakes
+- Prosciutto
+- Arugula
+
+## Directions
+
+1. Sauté garlic and onions in olive oil until onions are translucent.
+2. Add diced tomatoes, seasonings, and salt and pepper to taste. Simmer for 3 minutes.
+3. Add the beans, season to taste, mix until combined, and simmer for an additional 2 minutes.
+4. Serve over arugula and top with bits of prosciutto.
+>>>

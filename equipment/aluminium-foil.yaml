@@ -1,0 +1,36 @@
+id: aluminium-foil
+kind: equipment
+canonical_name: aluminium foil
+names:
+  en-GB: aluminium foil
+  en-US: aluminum foil
+status: reviewed-merge
+aliases:
+- name: aluminum foil
+  type: regional-spelling
+  observed_count: 1
+- name: foil
+  type: short-name
+  observed_count: 1
+- name: tin foil
+  type: colloquial-name
+  observed_count: 1
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: aluminium foil
+    count: 2
+  - term: aluminum foil
+    count: 1
+  - term: foil
+    count: 1
+  - term: tin foil
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+  - examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce
+  - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+  - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce

@@ -1,0 +1,40 @@
+{
+  "title": "Fennel White Bean and Kale Soup",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/fennel-beans-and-kale-soup.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "aeb9ebd56793c1b0e5cad114682b72c3755005b1e6b0ff49ab49e1c4ca83f9fd",
+  "original_front_matter": {
+    "title": "Fennel White Bean and Kale Soup",
+    "date": "2022-07-01",
+    "tags": [
+      "soup",
+      "vegetables",
+      "beans"
+    ],
+    "author": "zyansheep"
+  },
+  "source_url": "https://publicdomainrecipes.com/fennel-beans-and-kale-soup/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "finished bean soup",
+      "url": "/pix/fennel-bean-kale-soup.webp",
+      "upstreamPath": "static/pix/fennel-bean-kale-soup.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "e276e08d01657167533c62dc977af07bf6a7cbdbdcf78a128c4b9133d24ffdae",
+      "sourcePath": "source/public-domain-recipes/fennel-beans-and-kale-soup/fennel-bean-kale-soup.webp",
+      "promotedPath": "examples/public-domain-recipes/fennel-beans-and-kale-soup/fennel-bean-kale-soup.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

@@ -1,0 +1,19 @@
+id: baking-soda
+kind: ingredient
+canonical_name: baking soda
+names:
+  en: baking soda
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: baking soda
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce

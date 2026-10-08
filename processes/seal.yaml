@@ -1,0 +1,29 @@
+id: seal
+kind: process
+canonical_name: seal
+names:
+  en: seal
+status: canonical-seed
+evidence:
+  current_recipe_count: 6
+  current_observation_count: 6
+  legacy_observation_count: 0
+  observed_terms:
+  - term: seal
+    count: 6
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
+  - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  - examples/public-domain-recipes/kvass/kvass.opensauce
+  - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+observed_parameters:
+- value: bag
+  count: 1
+- value: fork or fingers
+  count: 1
+- value: lid
+  count: 1
+- value: press tips firmly onto belly; avoid delay to limit puffing
+  count: 1

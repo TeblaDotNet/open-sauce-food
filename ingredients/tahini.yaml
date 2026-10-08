@@ -1,0 +1,15 @@
+id: tahini
+kind: ingredient
+canonical_name: tahini
+names:
+  en: tahini
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: tahini
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/hummus/hummus.opensauce

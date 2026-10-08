@@ -1,0 +1,15 @@
+id: cream
+kind: ingredient
+names:
+  en: cream
+observed_forms:
+- syntax: cream
+  count: 1
+- syntax: cream, heavy
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+observed_qualifiers:
+- value: heavy
+  count: 1

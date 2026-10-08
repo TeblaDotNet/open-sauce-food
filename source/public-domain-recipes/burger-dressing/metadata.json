@@ -1,0 +1,40 @@
+{
+  "title": "Hamburger dressing",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/burger-dressing.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "792fe4e1990c04dbdf285e61e20b036ab8b6eb922daed476353aeb55df18b309",
+  "original_front_matter": {
+    "title": "Hamburger dressing",
+    "date": "2021-04-06",
+    "tags": [
+      "sauce",
+      "basic",
+      "dressing"
+    ],
+    "author": "brox"
+  },
+  "source_url": "https://publicdomainrecipes.com/burger-dressing/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "burger-dressing",
+      "url": "/pix/burger-dressing.webp",
+      "upstreamPath": "static/pix/burger-dressing.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "2b1aece8e062e208f37df02c97d9278bc13baad20c00f749b033d642598a295f",
+      "sourcePath": "source/public-domain-recipes/burger-dressing/burger-dressing.webp",
+      "promotedPath": "examples/public-domain-recipes/burger-dressing/burger-dressing.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

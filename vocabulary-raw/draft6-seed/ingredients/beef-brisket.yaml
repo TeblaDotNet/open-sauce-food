@@ -1,0 +1,13 @@
+id: beef-brisket
+kind: ingredient
+names:
+  en: beef brisket
+observed_forms:
+- syntax: beef brisket, large chunks
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: large chunks
+  count: 1
+legacy_observation: true

@@ -1,0 +1,31 @@
+{
+  "title": "Kombucha",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/kombucha.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "a050e1f652b95882dd63478d7db40f74923d9fb4f1c5cacdb081e7fc599fcbf4",
+  "original_front_matter": {
+    "title": "Kombucha",
+    "tags": [
+      "drink",
+      "sweet"
+    ],
+    "date": "2022-12-30",
+    "author": "elias-pahls"
+  },
+  "source_url": "https://publicdomainrecipes.com/kombucha/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

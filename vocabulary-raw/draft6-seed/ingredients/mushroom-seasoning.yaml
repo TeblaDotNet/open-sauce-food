@@ -1,0 +1,10 @@
+id: mushroom-seasoning
+kind: ingredient
+names:
+  en: mushroom seasoning
+observed_forms:
+- syntax: mushroom seasoning
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

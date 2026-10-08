@@ -1,0 +1,126 @@
+id: mix
+kind: process
+canonical_name: mix
+names:
+  en: mix
+status: canonical-seed
+evidence:
+  current_recipe_count: 38
+  current_observation_count: 52
+  legacy_observation_count: 17
+  observed_terms:
+  - term: mix
+    count: 52
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+  - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/castagnole/castagnole.opensauce
+  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+  - examples/public-domain-recipes/crab-salad/crab-salad.opensauce
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+  - examples/public-domain-recipes/guacamole/guacamole.opensauce
+  - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/lavacake/lavacake.opensauce
+  - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+  - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+  - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+  - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
+  - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+  - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+  - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+  - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+  - term: mix
+    count: 17
+observed_parameters:
+- value: adding wet slowly
+  count: 1
+- value: another bowl
+  count: 1
+- value: as soon as butter foams
+  count: 1
+- value: bowl
+  count: 4
+- value: enough to make very stiff
+  count: 1
+- value: evenly
+  count: 1
+- value: fork
+  count: 1
+- value: gently
+  count: 3
+- value: glass container
+  count: 2
+- value: gradually
+  count: 2
+- value: high speed
+  count: 2
+- value: incorporated not puréed
+  count: 1
+- value: large bowl
+  count: 1
+- value: large bowl or stand mixer with dough hook
+  count: 1
+- value: large mixing bowl
+  count: 1
+- value: medium bowl
+  count: 1
+- value: mixer
+  count: 2
+- value: pork with juices
+  count: 1
+- value: slowly
+  count: 1
+- value: small bowl
+  count: 1
+- value: small saucepan
+  count: 1
+- value: spatula
+  count: 1
+- value: sprinkle sodium hydroxide slowly into water
+  count: 1
+- value: stir in oil
+  count: 1
+- value: thoroughly
+  count: 2
+- value: until dissolved
+  count: 1
+- value: until easily rolled between hands; knead by hand if mixer cannot handle volume
+  count: 1
+- value: until firm
+  count: 2
+- value: until no dry flour remains
+  count: 1
+- value: until no dry flour; very wet and sticky
+  count: 1
+- value: until powder barely visible
+  count: 1
+- value: until smooth
+  count: 2
+- value: well
+  count: 1
+- value: well mixed
+  count: 1
+- value: whisk
+  count: 3

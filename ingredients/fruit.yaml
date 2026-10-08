@@ -1,0 +1,21 @@
+id: fruit
+kind: ingredient
+canonical_name: fruit
+names:
+  en: fruit
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: fruit
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/jam/jam.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+observed_qualifiers:
+- value: of your choice
+  count: 1
+- value: optional
+  count: 1

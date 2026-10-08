@@ -1,0 +1,16 @@
+id: chopstick
+kind: equipment
+canonical_name: chopstick
+names:
+  en: chopstick
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: chopstick
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+  - examples/public-domain-recipes/butter-cake/butter-cake.opensauce

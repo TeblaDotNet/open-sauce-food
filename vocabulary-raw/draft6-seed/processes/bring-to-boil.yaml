@@ -1,0 +1,20 @@
+id: bring-to-boil
+kind: process
+names:
+  en: bring to boil
+observed_forms:
+- syntax: bring to boil
+  count: 1
+- syntax: bring to boil, covered
+  count: 1
+- syntax: bring to boil, saucepan
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: covered
+  count: 1
+- value: saucepan
+  count: 1
+legacy_observation: true

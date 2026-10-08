@@ -1,0 +1,10 @@
+id: fajita-seasoning-mix
+kind: ingredient
+names:
+  en: fajita seasoning mix
+observed_forms:
+- syntax: fajita seasoning mix
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

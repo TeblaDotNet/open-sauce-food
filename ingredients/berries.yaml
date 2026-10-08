@@ -1,0 +1,21 @@
+id: berries
+kind: ingredient
+canonical_name: berries
+names:
+  en: berries
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: berries
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/lavacake/lavacake.opensauce
+  - examples/public-domain-recipes/sunday-milkshake/sunday-milkshake.opensauce
+observed_qualifiers:
+- value: any kind
+  count: 1
+- value: for serving
+  count: 1

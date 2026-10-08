@@ -1,0 +1,28 @@
+id: coriander
+kind: ingredient
+names:
+  en: coriander
+observed_forms:
+- syntax: coriander, fresh
+  count: 1
+- syntax: coriander, fresh, chopped
+  count: 2
+- syntax: coriander, fresh, finely chopped, optional
+  count: 1
+- syntax: coriander, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: chopped
+  count: 2
+- value: finely chopped
+  count: 1
+- value: fresh
+  count: 4
+- value: optional
+  count: 2
+legacy_observation: true

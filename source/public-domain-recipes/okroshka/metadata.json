@@ -1,0 +1,36 @@
+{
+  "title": "Russian Okroshka",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/okroshka.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "8659f76f957d8aab824d42cc7cebe18eb602d45e5c28314bccc929278398cd0d",
+  "original_front_matter": {
+    "title": "Russian Okroshka",
+    "date": "2022-07-21",
+    "tags": [
+      "basic",
+      "spread",
+      "quick",
+      "russian",
+      "soup"
+    ],
+    "author": "mons"
+  },
+  "source_url": "https://publicdomainrecipes.com/okroshka/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

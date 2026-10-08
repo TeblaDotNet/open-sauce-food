@@ -1,0 +1,12 @@
+id: champignon-mushroom
+kind: ingredient
+names:
+  en: champignon mushroom
+observed_forms:
+- syntax: champignon mushroom, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

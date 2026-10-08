@@ -1,0 +1,39 @@
+{
+  "title": "Fried Anglerfish fillet",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/fried-anglerfish-fillet.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "24189692790b31bcc6852683fbb6b602d5687324abd528b6a7054ccf345c5e37",
+  "original_front_matter": {
+    "title": "Fried Anglerfish fillet",
+    "date": "2021-03-12",
+    "tags": [
+      "fish",
+      "seafood"
+    ],
+    "author": "shou-ganai"
+  },
+  "source_url": "https://publicdomainrecipes.com/fried-anglerfish-fillet/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "anglerfish",
+      "url": "/pix/fried-anglerfish-fillet.webp",
+      "upstreamPath": "static/pix/fried-anglerfish-fillet.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "40dc8accd094e837575dabf70fc5dde734abdd5eb9dfb8271e6bcdf90068e85d",
+      "sourcePath": "source/public-domain-recipes/fried-anglerfish-fillet/fried-anglerfish-fillet.webp",
+      "promotedPath": "examples/public-domain-recipes/fried-anglerfish-fillet/fried-anglerfish-fillet.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

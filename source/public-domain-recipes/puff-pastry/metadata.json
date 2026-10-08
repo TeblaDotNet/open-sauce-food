@@ -1,0 +1,35 @@
+{
+  "title": "Puff Pastry",
+  "source_url": "https://publicdomainrecipes.com/puff-pastry/",
+  "source_author": "Nic Trib",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/puff-pastry.md",
+  "original_sha256": "dda0117db065425b6cd06e595dd705c50518f4ce493666063d463facaf79eb62",
+  "original_front_matter": {
+    "title": "Puff Pastry",
+    "tags": [
+      "dough",
+      "cheesefare",
+      "pastry"
+    ],
+    "date": "2022-06-23",
+    "author": "Nic Trib"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "~1.5 hrs",
+    "Cook time": "25 min",
+    "Servings": "24"
+  },
+  "ingredients_source_markdown": "- 5 cups bread flour\n- 2 1/2 teaspoons salt\n- 2 cups water\n- 2 cups unsalted butter, softened",
+  "directions_source_markdown": "1. Before starting on the dough, place the butter between two pieces of plastic wrap. Pound into a flat disc using a rolling pin or other heavy object. Refrigerate until firm, roughly 20 minutes.\n2. Mix the flour and salt in a large bowl or in the bowl of a stand mixer with a dough hook. Gradually stir in water until the dough holds together enough to clean the sides of the bowl. The dough should not be sticky, but it should not be dry. Do not put all the water in as you may not need all of it. Let the dough sit for at least 10 minutes.\n3. On a lightly floured surface, roll out the dough into a large rectangle about 1/2 inch thick. Place the butter in the center and fold the two ends over it so that it is fully encased in dough. Roll out the dough again, taking care to not let the butter break through the surface. Once the dough is about 1/2 inch thick again fold into thirds. The butter should be warm now, place into fridge for 30 minutes.\n4. Repeat rolling and folding two more times, then refrigerate again until firm.\n5. Repeat two or more times until the dough was rolled roughly 6 times, then wrap and refrigerate. The dough can now be used in recipes calling for puff pastry. Roll out thin, about 1/4 inch, and bake at 400 degrees F for best results.",
+  "images": [],
+  "coverage_group": "bread-dough"
+}

@@ -1,0 +1,70 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Spicy Mayo
+source: https://publicdomainrecipes.com/spicy-mayo/
+source author: scary90
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: basic, sauce, japanese
+
+# Imported from content/spicy-mayo.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 3 min
+
+::ingredients
+
+(chili sauce, e.g Sriracha)
+(mayonnaise)
+(sesame oil)
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<add, 2 parts mayonnaise to 1 part chili sauce in a bowl>
+<add, 1 tbsp of sesame oil for every cup of mayonnaise you use>
+<mix, all of the ingredients together, and taste test it for more chili sauce or mayonnaise>
+
+::notes
+
+This is just a basic guide, adapt this recipe to your liking.
+
+
+::story
+
+A simple sauce that is at almost every sushi bar in the United States.
+
+
+::source
+<<<
+---
+title: "Spicy Mayo"
+date: 2021-03-30
+tags: ['basic', 'sauce', 'japanese']
+author: "scary90"
+---
+
+A simple sauce that is at almost every sushi bar in the United States.
+
+- ⏲️ Prep time: 3 min
+
+## Ingredients
+
+- chili sauce (e.g Sriracha)
+- mayonnaise
+- sesame oil
+
+## Directions
+
+1. Add 2 parts mayonnaise to 1 part chili sauce in a bowl.
+2. Add 1 tbsp of sesame oil for every cup of mayonnaise you use.
+3. Mix all of the ingredients together, and taste test it for more chili sauce or mayonnaise.
+
+## Note
+
+This is just a basic guide, adapt this recipe to your liking.
+>>>

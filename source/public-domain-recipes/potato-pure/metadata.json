@@ -1,0 +1,40 @@
+{
+  "title": "Potato purée",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/potato-pure.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "0f72d16c9faf1f9731cbd54f0cf64ed6feb1ce18a0796ca73d7a9f59c20a381b",
+  "original_front_matter": {
+    "title": "Potato purée",
+    "tags": [
+      "easy",
+      "potato",
+      "side"
+    ],
+    "date": "2025-11-15",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/potato-pure/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Potato purée",
+      "url": "/pix/potato-puree.webp",
+      "upstreamPath": "static/pix/potato-puree.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "b1fde8c953a338441f1bff7b9ff9f6a0be653dc98a6877b9cabe7cfa5dd7d3de",
+      "sourcePath": "source/public-domain-recipes/potato-pure/potato-puree.webp",
+      "promotedPath": "examples/public-domain-recipes/potato-pure/potato-puree.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

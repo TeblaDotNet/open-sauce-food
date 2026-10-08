@@ -1,0 +1,9 @@
+id: whip
+kind: process
+names:
+  en: whip
+observed_forms:
+- syntax: whip
+  count: 1
+seen_in:
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce

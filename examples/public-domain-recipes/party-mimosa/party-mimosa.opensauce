@@ -1,0 +1,51 @@
+::recipe
+
+name: Party Mimosa
+source: https://publicdomainrecipes.com/party-mimosa/
+source author: front3ndninja
+source license: Public domain (Unlicense)
+units: source
+tags: drink, sweet, breakfast
+
+# Original source: ../../../source/public-domain-recipes/party-mimosa/party-mimosa.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Ingredients say apricot-mango nectar and champagne; method says apricot nectar and sparkling wine. Treat contextual shorter/generic wording as same ingredient, not new choices.
+
+::ingredients
+
+(apricot-mango nectar) 1 can / 12oz
+(pineapple juice) 1 can / 12oz
+(orange juice concentrate, frozen, thawed and undiluted) 1 can / 6oz
+(champagne, cold) 1 bottle / 750ml
+(water, cold) 3/4 cup
+
+::equipment
+
+(pitcher, large)
+
+::instructions
+
+(apricot-mango nectar) + (pineapple juice) + (water) + (orange juice concentrate) <stir, large pitcher, until combined>
+    + (champagne) <pour, just before serving>
+
+::source
+<<<
+---
+title: "Party Mimosa"
+date: 2021-03-16
+tags: ['drink', 'sweet', 'breakfast']
+author: front3ndninja
+---
+
+## Ingredients
+
+- 1 (12 ounce) can apricot-mango nectar
+- 1 (12 ounce) can pineapple juice
+- 1 (6 ounce) can frozen orange juice concentrate, thawed and undiluted
+- 1 (750 milliliter) bottle cold champagne
+- 3/4 cup cold water
+
+## Directions
+
+1. Stir together apricot nectar, pineapple juice, water, and orange juice concentrate in a large pitcher until combined. Pour in bottle of sparkling wine just before serving.
+>>>

@@ -1,0 +1,14 @@
+id: meat-mallet
+kind: equipment
+canonical_name: meat mallet
+names:
+  en: meat mallet
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: meat mallet
+      count: 1
+  seen_in: []
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.

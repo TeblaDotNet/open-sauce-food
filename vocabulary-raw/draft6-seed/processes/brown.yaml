@@ -1,0 +1,13 @@
+id: brown
+kind: process
+names:
+  en: brown
+observed_forms:
+- syntax: brown, batches
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: batches
+  count: 1
+legacy_observation: true

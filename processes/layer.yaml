@@ -1,0 +1,27 @@
+id: layer
+kind: process
+canonical_name: layer
+names:
+  en: layer
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 6
+  legacy_observation_count: 0
+  observed_terms:
+  - term: layer
+    count: 6
+  seen_in:
+  - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+observed_parameters:
+- value: baking tray
+  count: 2
+- value: broccoli + scamorza cheese + black pepper + salt
+  count: 1
+- value: béchamel
+  count: 1
+- value: cream
+  count: 1
+- value: pasta
+  count: 1

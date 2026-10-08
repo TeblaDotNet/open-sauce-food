@@ -1,0 +1,32 @@
+{
+  "title": "Chicken Satay with Peanut Sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/chicken-satay.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "911e3db0a35b7afcbcf4e9697ac7c87d4cf9c373ec16a4b72fc56e4e7393255f",
+  "original_front_matter": {
+    "title": "Chicken Satay with Peanut Sauce",
+    "tags": [
+      "chicken",
+      "thai",
+      "asian"
+    ],
+    "date": "2022-07-10",
+    "author": "Eric Lindberg"
+  },
+  "source_url": "https://publicdomainrecipes.com/chicken-satay/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

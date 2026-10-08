@@ -1,0 +1,35 @@
+{
+  "title": "Medieval Beef Soup",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/medieval-beef-soup.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "d7c08921a25cb759a448463abeb10c49ed25fd7fee2dbb0a86ebd882b709aecb",
+  "original_front_matter": {
+    "title": "Medieval Beef Soup",
+    "date": "2022-04-15",
+    "author": "LogSuperMulti",
+    "tags": [
+      "beef",
+      "soup",
+      "roast"
+    ]
+  },
+  "source_url": "https://publicdomainrecipes.com/medieval-beef-soup/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Medieval Beef Soup",
+      "url": "/pix/medieval-beef-soup.webp",
+      "upstreamPath": "static/pix/medieval-beef-soup.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

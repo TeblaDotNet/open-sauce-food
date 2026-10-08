@@ -1,0 +1,58 @@
+id: oven
+kind: equipment
+canonical_name: oven
+names:
+  en: oven
+status: canonical-seed
+evidence:
+  legacy_observation_count: 14
+  observed_terms:
+    - term: oven
+      count: 43
+  seen_in:
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+    - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+    - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
+    - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+    - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+    - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+    - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+    - examples/public-domain-recipes/crostata/crostata.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+    - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+    - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+    - examples/public-domain-recipes/kvass/kvass.opensauce
+    - examples/public-domain-recipes/lavacake/lavacake.opensauce
+    - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+    - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+    - examples/public-domain-recipes/pavlova/pavlova.opensauce
+    - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/pretzels/pretzels.opensauce
+    - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+    - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+    - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+    - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+    - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+    - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+    - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+    - term: oven
+      count: 14
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.

@@ -1,0 +1,20 @@
+id: banana
+kind: ingredient
+canonical_name: banana
+names:
+  en: banana
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: banana
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/sunday-milkshake/sunday-milkshake.opensauce
+observed_qualifiers:
+- value: mashed
+  count: 1

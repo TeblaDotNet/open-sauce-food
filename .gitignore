@@ -1,0 +1,25 @@
+# Dependencies and generated build output
+node_modules/
+dist/
+coverage/
+*.log
+__pycache__/
+*.pyc
+
+# Import and development scratch
+work/
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Local archive bundles and earlier test-source material
+*.zip
+History/
+test source recipes/

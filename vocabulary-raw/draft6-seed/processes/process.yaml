@@ -1,0 +1,41 @@
+id: process
+kind: process
+names:
+  en: process
+observed_forms:
+- syntax: process, 1-3m, until smooth
+  count: 1
+- syntax: process, food processor
+  count: 1
+- syntax: process, food processor, 5-10s
+  count: 1
+- syntax: process, food processor, briefly
+  count: 1
+- syntax: process, food processor, until fine and uniform
+  count: 1
+- syntax: process, high
+  count: 1
+- syntax: process, until lighter and thick
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 1-3m
+  count: 1
+- value: 5-10s
+  count: 1
+- value: briefly
+  count: 1
+- value: food processor
+  count: 4
+- value: high
+  count: 1
+- value: until fine and uniform
+  count: 1
+- value: until lighter and thick
+  count: 1
+- value: until smooth
+  count: 1
+legacy_observation: true

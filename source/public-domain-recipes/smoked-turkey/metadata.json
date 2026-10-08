@@ -1,0 +1,40 @@
+{
+  "title": "Smoked Turkey",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/smoked-turkey.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "8d4fb0a1d059349c773f7a34393805e2a4ef10bca62144d14abc20f76916b9e5",
+  "original_front_matter": {
+    "title": "Smoked Turkey",
+    "date": "2021-03-30",
+    "tags": [
+      "basic",
+      "american",
+      "turkey"
+    ],
+    "author": "daddy-warcrimes"
+  },
+  "source_url": "https://publicdomainrecipes.com/smoked-turkey/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Smoked Turkey",
+      "url": "/pix/smoked-turkey.webp",
+      "upstreamPath": "static/pix/smoked-turkey.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "045d4e263d631b6f7f33abc19be9963141668b44fa228468a4d68848e66f3f6e",
+      "sourcePath": "source/public-domain-recipes/smoked-turkey/smoked-turkey.webp",
+      "promotedPath": "examples/public-domain-recipes/smoked-turkey/smoked-turkey.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

@@ -1,0 +1,20 @@
+id: non-citrus-fruit
+kind: ingredient
+canonical_name: non-citrus fruit
+names:
+  en: non-citrus fruit
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: non-citrus fruit
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/kvass/kvass.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1
+- value: such as plums or apples or kiwi
+  count: 1

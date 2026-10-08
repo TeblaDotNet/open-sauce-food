@@ -1,0 +1,12 @@
+id: pulse
+kind: process
+names:
+  en: pulse
+observed_forms:
+- syntax: pulse, a few times
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce
+observed_parameters:
+- value: a few times
+  count: 1

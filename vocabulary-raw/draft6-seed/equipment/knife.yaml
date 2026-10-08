@@ -1,0 +1,9 @@
+id: knife
+kind: equipment
+names:
+  en: knife
+observed_forms:
+- syntax: knife
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce

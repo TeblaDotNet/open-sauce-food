@@ -1,0 +1,27 @@
+id: slow-cook
+kind: process
+canonical_name: slow cook
+names:
+  en: slow cook
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 1
+  observed_terms:
+  - term: slow cook
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+  legacy_terms:
+  - term: slow cook
+    count: 1
+observed_parameters:
+- value: 4-5h
+  count: 1
+- value: 8h
+  count: 1
+- value: low
+  count: 2
+- value: until beef pulls apart easily
+  count: 1

@@ -1,0 +1,17 @@
+id: cheddar-cheese
+kind: ingredient
+canonical_name: cheddar cheese
+names:
+  en: cheddar cheese
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: cheddar cheese
+      count: 1
+  seen_in: []
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: shredded
+    count: 1

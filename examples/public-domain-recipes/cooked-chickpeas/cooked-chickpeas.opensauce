@@ -1,0 +1,66 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Cooked Chickpeas
+source: https://publicdomainrecipes.com/cooked-chickpeas/
+source author: carl-zimmerman
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: basic, beans, fasting
+serves: 3
+
+# Imported from content/cooked-chickpeas.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 1 min
+# Source metadata: - 🍳 Cook time: 15 min
+# Source metadata: - 🍽️ Servings: 3
+
+::ingredients
+
+(chickpeas / garbanzo beans, drained) 1 can
+(olive oil) 1 tbsp
+(garlic powder) 1 tsp
+(cumin) 1 tsp
+(paprika) 1 tsp
+(cayenne pepper) 1 tsp
+
+::instructions
+
+<heat, oil in pan. Add chickpeas and seasonings>
+<cook, over medium-high heat for 10-15 minutes. Salt and pepper to taste>
+
+::story
+
+Easy recipe for cooked chickpeas. Can be add to salads, rice, or almost anything else.
+
+
+::source
+<<<
+---
+title: "Cooked Chickpeas"
+date: 2021-03-17
+tags: ['basic', 'beans', 'fasting']
+author: carl-zimmerman
+---
+
+Easy recipe for cooked chickpeas. Can be add to salads, rice, or almost anything else.
+
+- ⏲️ Prep time: 1 min
+- 🍳 Cook time: 15 min
+- 🍽️ Servings: 3
+
+## Ingredients
+
+- 1 can chickpeas / garbanzo beans, drained
+- 1 tbsp olive oil
+- 1 tsp garlic powder
+- 1 tsp cumin
+- 1 tsp paprika
+- 1 tsp cayenne pepper
+
+## Directions
+
+1. Heat oil in pan. Add chickpeas and seasonings.
+2. Cook over medium-high heat for 10-15 minutes. Salt and pepper to taste.
+>>>

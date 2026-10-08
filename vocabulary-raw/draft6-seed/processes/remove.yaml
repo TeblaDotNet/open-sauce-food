@@ -1,0 +1,12 @@
+id: remove
+kind: process
+names:
+  en: remove
+observed_forms:
+- syntax: remove, bay leaf
+  count: 1
+seen_in:
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+observed_parameters:
+- value: bay leaf
+  count: 1

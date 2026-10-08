@@ -1,0 +1,40 @@
+{
+  "title": "Red Bean Buns (豆沙包)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/dou-sha-bao.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "aedd978bc7e7a1a7b5da40856d523f845621cafdbc924da47d4707012d55d5cb",
+  "original_front_matter": {
+    "title": "Red Bean Buns (豆沙包)",
+    "author": "tufek",
+    "tags": [
+      "chinese",
+      "snack",
+      "breakfast"
+    ],
+    "date": "2022-05-31"
+  },
+  "source_url": "https://publicdomainrecipes.com/dou-sha-bao/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Dou-Sha-Bao",
+      "url": "/pix/dou-sha-bao.webp",
+      "upstreamPath": "static/pix/dou-sha-bao.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "266363ab05591fa82779910b77e6236836f297a2083843ee649121b6fa5ea9ff",
+      "sourcePath": "source/public-domain-recipes/dou-sha-bao/dou-sha-bao.webp",
+      "promotedPath": "examples/public-domain-recipes/dou-sha-bao/dou-sha-bao.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

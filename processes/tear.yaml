@@ -1,0 +1,12 @@
+id: tear
+kind: process
+canonical_name: tear
+names:
+  en: tear
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/chipolata-in-balsamic-vinegar/chipolata-in-balsamic-vinegar.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

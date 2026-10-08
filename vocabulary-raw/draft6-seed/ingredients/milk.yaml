@@ -1,0 +1,18 @@
+id: milk
+kind: ingredient
+names:
+  en: milk
+observed_forms:
+  - syntax: milk
+    count: 7
+  - syntax: milk, any type
+    count: 1
+seen_in:
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - legacy-corpus:bbc-food-10
+observed_qualifiers:
+  - value: any type
+    count: 1
+legacy_observation: true

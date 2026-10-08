@@ -1,0 +1,36 @@
+{
+  "title": "Banana Pancakes",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/banana-pancakes.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "f85957ef0996704c8a8989449a4b8a1e5e21449c5a05595091249843735bf7b6",
+  "original_front_matter": {
+    "title": "Banana Pancakes",
+    "date": "2021-03-13",
+    "tags": [
+      "breakfast",
+      "quick",
+      "sweet",
+      "pancake",
+      "cheesefare"
+    ],
+    "author": "ricky-linden"
+  },
+  "source_url": "https://publicdomainrecipes.com/banana-pancakes/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

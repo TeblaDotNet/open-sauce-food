@@ -1,0 +1,71 @@
+::recipe
+
+name: Pizza sauce
+source: https://publicdomainrecipes.com/pizza-sauce/
+source author: brox
+source license: Public domain (Unlicense)
+units: source
+tags: basic, pizza, sauce
+
+# Original source: ../../../source/public-domain-recipes/pizza-sauce/pizza-sauce.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 10 min
+# Source Cook time: 0.5-2 hours
+# Conversion note: Headline cook time 0.5-2h but method only longer the better. Do not change method to a precise duration.
+
+::ingredients
+
+(tomato, canned, preferably skinned and whole) 400g
+(tomato puré) 150g
+(onion, medium) 1
+(olive oil) as needed
+(garlic) as needed
+(oregano) to taste
+(chili pepper, optional) to taste
+(salt) to taste
+(pepper) to taste
+
+::equipment
+
+(spatula)
+
+::instructions
+
+(onion) <dice>
+    + (olive oil) <fry, medium>
+    + (garlic, chopped) + (chili pepper, if using) <cook, some minutes>
+    + (tomato puré) + (salt) + (pepper) + (oregano) <mix>
+    <cook, until puré gets oily>
+    + (tomato) <crush, spatula>
+    <cook, low heat, longer is better>
+
+::source
+<<<
+---
+title: "Pizza sauce"
+date: 2021-03-21
+tags: ['basic', 'pizza', 'sauce']
+author: brox
+---
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 0.5-2 hours
+
+## Ingredients
+
+- 400g canned tomatoes, preferebly skinned and whole
+- 150g tomato puré
+- 1 medium sized onion
+- olive oil
+- garlic
+- oregano
+- chili pepper (optional)
+
+## Directions
+
+1. Dice onion and fry in olive oil on medium heat.
+2. Add chopped garlic and chili pepper (optional) for some minutes.
+3. Mix in tomato puré, salt, pepper, and oregano. Cook until puré gets oily.
+4. Add canned tomatoes, and crush with spatula.
+5. Let it sit on low heat. The longer the better.
+>>>

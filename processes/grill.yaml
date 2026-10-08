@@ -1,0 +1,36 @@
+id: grill
+kind: process
+canonical_name: grill
+names:
+  en: grill
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: grill
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+  - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+observed_parameters:
+- value: 200c / 392f
+  count: 1
+- value: 5-10m
+  count: 1
+- value: char skin
+  count: 1
+- value: oven
+  count: 1
+- value: oven or grill
+  count: 1
+- value: turn every 5m
+  count: 1
+- value: until cooked through
+  count: 1
+- value: until outside is crisp
+  count: 1

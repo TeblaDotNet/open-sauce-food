@@ -1,0 +1,16 @@
+id: slow-cooker
+kind: equipment
+canonical_name: slow cooker
+names:
+  en: slow cooker
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: slow cooker
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce

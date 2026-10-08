@@ -1,0 +1,36 @@
+{
+  "title": "Eggs Benedict",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/eggs-benedict.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "c53bd8741a0ba37972f00b755d880fed91b406842a298ea31c5f4820afbe9104",
+  "original_front_matter": {
+    "title": "Eggs Benedict",
+    "tags": [
+      "breakfast",
+      "brunch",
+      "american",
+      "pork"
+    ],
+    "date": "2024-07-22",
+    "author": "Enzo Stever"
+  },
+  "source_url": "https://publicdomainrecipes.com/eggs-benedict/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "eggs-benedict",
+      "url": "/pix/eggs-benedict.webp",
+      "upstreamPath": "static/pix/eggs-benedict.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

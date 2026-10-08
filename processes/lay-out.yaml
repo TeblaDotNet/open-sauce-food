@@ -1,0 +1,15 @@
+id: lay-out
+kind: process
+canonical_name: lay out
+names:
+  en: lay out
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: lay out
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce

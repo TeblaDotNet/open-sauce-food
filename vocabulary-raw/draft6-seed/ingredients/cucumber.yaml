@@ -1,0 +1,13 @@
+id: cucumber
+kind: ingredient
+names:
+  en: cucumber
+observed_forms:
+- syntax: cucumber, fine matchsticks
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: fine matchsticks
+  count: 1
+legacy_observation: true

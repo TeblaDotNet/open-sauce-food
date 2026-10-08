@@ -1,0 +1,21 @@
+id: thyme
+kind: ingredient
+canonical_name: thyme
+names:
+  en: thyme
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 1
+  observed_terms:
+  - term: thyme
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  legacy_terms:
+  - term: thyme
+    count: 1
+observed_qualifiers:
+- value: dried
+  count: 1

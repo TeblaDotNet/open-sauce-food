@@ -1,0 +1,40 @@
+{
+  "title": "Russian 1000 Islands Sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/russian-1000-islands-sauce.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "770fbb402bb59d7a87b661644576fddeb6f9eb0c2bdb8fd58c36e32fdbcc100d",
+  "original_front_matter": {
+    "title": "Russian 1000 Islands Sauce",
+    "date": "2021-03-19",
+    "tags": [
+      "basic",
+      "spread",
+      "quick",
+      "russian",
+      "sauce"
+    ]
+  },
+  "source_url": "https://publicdomainrecipes.com/russian-1000-islands-sauce/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    {
+      "category": "provenance/licensing",
+      "evidence": "Source says recipe taken from a Russian monastery; no identified publication or copying claim.",
+      "decision": "Retain provenance note; upstream dedication is the available redistribution evidence."
+    },
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

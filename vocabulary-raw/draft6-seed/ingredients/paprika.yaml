@@ -1,0 +1,21 @@
+id: paprika
+kind: ingredient
+names:
+  en: paprika
+observed_forms:
+- syntax: paprika
+  count: 1
+- syntax: paprika, smoked
+  count: 1
+- syntax: paprika, sweet
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: smoked
+  count: 1
+- value: sweet
+  count: 1
+legacy_observation: true

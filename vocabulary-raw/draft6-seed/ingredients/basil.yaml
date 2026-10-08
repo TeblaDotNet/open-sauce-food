@@ -1,0 +1,12 @@
+id: basil
+kind: ingredient
+names:
+  en: basil
+observed_forms:
+- syntax: basil, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

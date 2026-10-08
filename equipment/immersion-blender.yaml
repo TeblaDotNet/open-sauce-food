@@ -1,0 +1,21 @@
+id: immersion-blender
+kind: equipment
+canonical_name: immersion blender
+names:
+  en: immersion blender
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: immersion blender
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+  - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

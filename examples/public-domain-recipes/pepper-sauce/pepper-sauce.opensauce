@@ -1,0 +1,78 @@
+::recipe
+
+name: Pepper Sauce
+source: https://publicdomainrecipes.com/pepper-sauce/
+source author: Vili Kangas
+source license: Public domain (Unlicense)
+units: source
+tags: sauce, steak
+serves: 4
+
+# Original source: ../../../source/public-domain-recipes/pepper-sauce/pepper-sauce.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 2 min
+# Source Cook time: 20 min
+# Source Servings: 4
+# Conversion note: 1 tablespoon ... rose pepper, green pepper and black pepper. Source does not specify ratio; do not assign a tablespoon to each.
+
+::ingredients
+
+(peppers, freshly ground rose pepper and green pepper and black pepper) 1tbsp
+(mustard, dijon) 1tsp
+(bouillon) 1dl
+(cream) 2dl
+(salt) if needed
+
+::equipment
+
+(pan)
+(spatula)
+
+::instructions
+
+(peppers) <grind>
+    <roast, pan, ~1m, move with spatula>
+{base} = (peppers) + (mustard) + (bouillon)
+{base} <mix>
+    <bring to boil>
+{sauce} = {base} + (cream)
+{sauce} <cook, medium heat, ~10-20m, until thickened>
+    <taste>
+Optional [
+    {sauce} + (salt) <season, if needed>
+]
+
+::story
+
+A very basic pepper sauce that is great for steaks and other dishes
+
+::source
+<<<
+---
+title: "Pepper Sauce"
+date: 2021-03-23
+tags: ['sauce', 'steak']
+author: "Vili Kangas"
+---
+
+A very basic pepper sauce that is great for steaks and other dishes
+
+- ⏲️ Prep time: 2 min
+- 🍳 Cook time: 20 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 1 tablespoon freshy ground rose pepper, green pepper and black pepper
+- 1 teaspoon dijon mustard
+- 1dl bouillon
+- 2dl cream
+- Salt if needed
+
+## Directions
+
+1. Ground the peppers and put them on the pan and roast them for about one minute while moving the peppers with your spatula
+2. Mix in the mustard and bouillon and bring to a boil
+3. Add in the cream and let the sauce thicken on medium heat for about 10-20 minutes
+4. Taste the sauce and add salt if needed
+>>>

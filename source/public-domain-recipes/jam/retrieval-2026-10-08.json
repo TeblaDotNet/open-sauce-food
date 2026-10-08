@@ -1,0 +1,35 @@
+{
+  "title": "Jam",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/jam.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "28bed2541255897eaaa8efd8e6777b1590dbf74eea12a6050f35fe2e0e6cb5aa",
+  "original_front_matter": {
+    "title": "Jam",
+    "tags": [
+      "fasting",
+      "fruit",
+      "jam"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/jam/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Jam",
+      "url": "/pix/jam.webp",
+      "upstreamPath": "static/pix/jam.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

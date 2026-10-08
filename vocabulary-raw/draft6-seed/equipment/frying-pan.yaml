@@ -1,0 +1,18 @@
+id: frying-pan
+kind: equipment
+names:
+  en: frying pan
+observed_forms:
+- syntax: frying pan
+  count: 2
+- syntax: frying pan, large, non-stick
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+observed_qualifiers:
+- value: large
+  count: 1
+- value: non-stick
+  count: 1

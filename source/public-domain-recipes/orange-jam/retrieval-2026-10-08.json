@@ -1,0 +1,33 @@
+{
+  "title": "Orange jam",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/orange-jam.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "32f0b9c5686736749d08d4d91312d258a9dafc5a059da6095d61653603a4af33",
+  "original_front_matter": {
+    "title": "Orange jam",
+    "date": "2021-04-06",
+    "tags": [
+      "jam",
+      "fruit",
+      "sweet",
+      "spread"
+    ],
+    "author": "martin-chrzanowski"
+  },
+  "source_url": "https://publicdomainrecipes.com/orange-jam/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

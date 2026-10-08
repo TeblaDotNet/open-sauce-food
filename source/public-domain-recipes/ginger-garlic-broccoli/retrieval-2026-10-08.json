@@ -1,0 +1,33 @@
+{
+  "title": "Broccoli with Ginger and Garlic Sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/ginger-garlic-broccoli.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "dcb521b7de1371dd5ffed0a5beb30c951e7e989b2a90378c394dff0555d44e06",
+  "original_front_matter": {
+    "title": "Broccoli with Ginger and Garlic Sauce",
+    "date": "2021-03-15",
+    "tags": [
+      "side",
+      "quick",
+      "asian",
+      "fasting"
+    ],
+    "author": "mjt91"
+  },
+  "source_url": "https://publicdomainrecipes.com/ginger-garlic-broccoli/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

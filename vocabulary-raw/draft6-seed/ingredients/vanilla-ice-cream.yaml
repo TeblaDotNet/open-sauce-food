@@ -1,0 +1,12 @@
+id: vanilla-ice-cream
+kind: ingredient
+names:
+  en: vanilla ice cream
+observed_forms:
+- syntax: vanilla ice cream, for serving
+  count: 1
+seen_in:
+- examples/public-domain-recipes/lavacake/lavacake.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1

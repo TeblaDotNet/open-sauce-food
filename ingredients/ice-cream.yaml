@@ -1,0 +1,20 @@
+id: ice-cream
+kind: ingredient
+canonical_name: ice cream
+names:
+  en: ice cream
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: ice cream
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/pavlova/pavlova.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1
+- value: optional
+  count: 1

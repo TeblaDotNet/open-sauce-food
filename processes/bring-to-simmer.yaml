@@ -1,0 +1,9 @@
+id: bring-to-simmer
+kind: process
+names:
+  en: bring to simmer
+observed_forms:
+- syntax: bring to simmer
+  count: 1
+seen_in:
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce

@@ -1,0 +1,39 @@
+{
+  "title": "Spaghetti all'amatriciana",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/spaghetti-all-amatriciana.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "56a044fd89bd5f748414402859fa726098c6bbc06bab529a89eb0f9689e20c96",
+  "original_front_matter": {
+    "title": "Spaghetti all'amatriciana",
+    "date": "2021-03-24",
+    "tags": [
+      "italian",
+      "pasta"
+    ],
+    "author": "Jebusthebus"
+  },
+  "source_url": "https://publicdomainrecipes.com/spaghetti-all-amatriciana/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Jebusthebus",
+      "url": "/pix/spaghetti-all-amatriciana.webp",
+      "upstreamPath": "static/pix/spaghetti-all-amatriciana.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "9b0342d50b6d8a5a2d1864463f30754e2dd151bb24fc4ae54b7c7b2cb4b70681",
+      "sourcePath": "source/public-domain-recipes/spaghetti-all-amatriciana/spaghetti-all-amatriciana.webp",
+      "promotedPath": "examples/public-domain-recipes/spaghetti-all-amatriciana/spaghetti-all-amatriciana.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

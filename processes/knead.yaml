@@ -1,0 +1,77 @@
+id: knead
+kind: process
+canonical_name: knead
+names:
+  en: knead
+status: canonical-seed
+evidence:
+  current_recipe_count: 12
+  current_observation_count: 18
+  legacy_observation_count: 0
+  observed_terms:
+  - term: knead
+    count: 18
+  seen_in:
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/castagnole/castagnole.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+  - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+  - examples/public-domain-recipes/pizza-dough/pizza-dough.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+  - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+observed_parameters:
+- value: adding flour as needed to prevent sticking
+  count: 1
+- value: again with sprinkled all-purpose flour
+  count: 1
+- value: and turn by hand in bowl
+  count: 1
+- value: at least 15m
+  count: 1
+- value: avoid overworking
+  count: 1
+- value: bowl
+  count: 1
+- value: clean hands
+  count: 1
+- value: enough liquid to cover cabbage
+  count: 1
+- value: lightly floured board
+  count: 1
+- value: need not be perfectly uniform
+  count: 1
+- value: once viscous
+  count: 1
+- value: only until uniform and surface cracks when bent
+  count: 1
+- value: rule of thumb 10m
+  count: 1
+- value: soft dough
+  count: 1
+- value: stretch a lot
+  count: 1
+- value: uniform
+  count: 1
+- value: until elastic
+  count: 1
+- value: until just barely sticky
+  count: 1
+- value: until smooth
+  count: 1
+- value: until smooth and elastic
+  count: 1
+- value: until smooth and elastic and not sticky
+  count: 1
+- value: until uniform
+  count: 2
+- value: well
+  count: 1
+- value: work fast enough to avoid melting butter
+  count: 1
+- value: ~10m
+  count: 1

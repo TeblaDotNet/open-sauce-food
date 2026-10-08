@@ -1,0 +1,43 @@
+{
+  "title": "Garam Masala",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/garam-masala.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "9333fb0bed9858b28e6f0f7462505677b518c21f160743b9c1b23cf7db017358",
+  "original_front_matter": {
+    "title": "Garam Masala",
+    "date": "2021-04-02",
+    "tags": [
+      "indian",
+      "spice"
+    ],
+    "author": "chetan-basuray"
+  },
+  "source_url": "https://publicdomainrecipes.com/garam-masala/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    {
+      "category": "quantity/unit oddity",
+      "evidence": "5/6 Bayleaf, 5/6 Black pepper pods and storage for 2/3 months.",
+      "decision": "Retain slash spellings; do not decide fraction versus range."
+    },
+    {
+      "category": "culinary interpretation",
+      "evidence": "Source calls mace a dried flower.",
+      "decision": "Retain in original source and flag the botanical statement; do not promote it as vocabulary knowledge."
+    },
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

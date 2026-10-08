@@ -1,0 +1,24 @@
+id: freeze
+kind: process
+canonical_name: freeze
+names:
+  en: freeze
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: freeze
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/granita/granita.opensauce
+  - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+observed_parameters:
+- value: a few hours in a pinch
+  count: 1
+- value: at least 24h prior
+  count: 1
+- value: overnight preferred
+  count: 1

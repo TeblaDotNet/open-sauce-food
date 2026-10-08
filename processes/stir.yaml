@@ -1,0 +1,157 @@
+id: stir
+kind: process
+canonical_name: stir
+names:
+  en: stir
+status: reviewed-merge
+aliases:
+  - name: stir in
+    type: phrase-alias
+    observed_count: 1
+evidence:
+  legacy_observation_count: 13
+  observed_terms:
+    - term: stir
+      count: 57
+    - term: stir in
+      count: 1
+  seen_in:
+    - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+    - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+    - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+    - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+    - examples/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce
+    - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+    - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+    - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+    - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+    - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+    - examples/public-domain-recipes/granita/granita.opensauce
+    - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+    - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+    - examples/public-domain-recipes/jam/jam.opensauce
+    - examples/public-domain-recipes/kvass/kvass.opensauce
+    - examples/public-domain-recipes/limoncello/limoncello.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/paella/paella.opensauce
+    - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+    - examples/public-domain-recipes/party-mimosa/party-mimosa.opensauce
+    - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+    - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+    - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+    - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+    - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+    - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+    - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+    - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+    - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+    - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+  legacy_terms:
+    - term: stir
+      count: 13
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: alternate egg mixture with rice
+    count: 1
+  - value: bowl
+    count: 3
+  - value: break into rice-grain-sized clumps with spoon
+    count: 1
+  - value: break up ice blocks
+    count: 1
+  - value: combine aromatics and tofu
+    count: 1
+  - value: combined
+    count: 2
+  - value: constantly
+    count: 1
+  - value: continuously
+    count: 2
+  - value: continuously while combining
+    count: 2
+  - value: cornstarch dissolved
+    count: 1
+  - value: do not burn
+    count: 2
+  - value: eggs alternating with gooseberries and bread
+    count: 1
+  - value: even if no visible ice
+    count: 1
+  - value: generally less than 1m
+    count: 1
+  - value: gently
+    count: 1
+  - value: gradually
+    count: 2
+  - value: gradually into butter mixture
+    count: 1
+  - value: including pot corners to prevent burning
+    count: 1
+  - value: into pudding at last
+    count: 1
+  - value: just combined; do not overmix
+    count: 1
+  - value: large mixing bowl
+    count: 2
+  - value: large pitcher
+    count: 1
+  - value: low heat
+    count: 1
+  - value: medium-low
+    count: 1
+  - value: neither sticky nor dry
+    count: 1
+  - value: once juice collects at bottom
+    count: 1
+  - value: only enough to clean bowl sides
+    count: 1
+  - value: pan
+    count: 1
+  - value: to taste
+    count: 1
+  - value: until combined
+    count: 2
+  - value: until desired thickness
+    count: 1
+  - value: until fragrant
+    count: 1
+  - value: until leeks are sweated
+    count: 2
+  - value: until lightly cooked and grey
+    count: 1
+  - value: until lightly golden brown and nutty smelling
+    count: 1
+  - value: until sugar dissolved
+    count: 2
+  - value: until sugar no longer visible
+    count: 1
+  - value: until thick
+    count: 1
+  - value: until uniform
+    count: 2
+  - value: until very light
+    count: 1
+  - value: until well combined and spoon no longer works
+    count: 1
+  - value: very well
+    count: 1
+  - value: vigorously with fork every 2h
+    count: 1
+  - value: water gradually
+    count: 1
+  - value: well
+    count: 3
+  - value: when done
+    count: 1
+  - value: with as much rendered pork fat as desired
+    count: 2

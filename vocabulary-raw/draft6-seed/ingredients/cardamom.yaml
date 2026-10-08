@@ -1,0 +1,9 @@
+id: cardamom
+kind: ingredient
+names:
+  en: cardamom
+observed_forms:
+- syntax: cardamom
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

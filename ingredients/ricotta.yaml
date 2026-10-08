@@ -1,0 +1,13 @@
+id: ricotta
+kind: ingredient
+canonical_name: ricotta
+names:
+  en: ricotta
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/herbs-pizza/herbs-pizza.opensauce
+  - examples/public-domain-recipes/ravioli/ravioli.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

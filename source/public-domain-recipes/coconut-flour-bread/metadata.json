@@ -1,0 +1,42 @@
+{
+  "title": "Keto Coconut Bread",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/coconut-flour-bread.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "6cfc5198997d0e957d3118f7bc10d12e37d97cf0993c869dc6ef2244f2234f35",
+  "original_front_matter": {
+    "title": "Keto Coconut Bread",
+    "tags": [
+      "bread",
+      "coconut",
+      "baking",
+      "keto",
+      "bariatric"
+    ],
+    "date": "2022-11-16",
+    "author": "luis-fernando-maschietto-junior"
+  },
+  "source_url": "https://publicdomainrecipes.com/coconut-flour-bread/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "keto-coconut-bread",
+      "url": "/pix/coconutbread-lufemas.webp",
+      "upstreamPath": "static/pix/coconutbread-lufemas.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "0e2171ae7ab8ae81139a3795d8c043672e7cf2e47b2788e3e9fc193a50ecbad1",
+      "sourcePath": "source/public-domain-recipes/coconut-flour-bread/coconutbread-lufemas.webp",
+      "promotedPath": "examples/public-domain-recipes/coconut-flour-bread/coconutbread-lufemas.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

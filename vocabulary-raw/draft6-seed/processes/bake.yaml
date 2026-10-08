@@ -1,0 +1,99 @@
+id: bake
+kind: process
+names:
+  en: bake
+observed_forms:
+  - syntax: bake, 12-15m, until risen and golden
+    count: 1
+  - syntax: bake, 150c / 300f, 45m
+    count: 1
+  - syntax: bake, 170c / 340f, 20-30m
+    count: 1
+  - syntax: bake, 180c, 10m
+    count: 1
+  - syntax: bake, 180c, 15-20m
+    count: 1
+  - syntax: bake, 200c, 7m
+    count: 1
+  - syntax: bake, 350f, ~45m, until crust is browned and filling is bubbling
+    count: 1
+  - syntax: bake, 50-55m
+    count: 1
+  - syntax: bake, covered, 30m
+    count: 1
+  - syntax: bake, one baking sheet at a time, 8-10m, until starting to brown
+    count: 1
+  - syntax: bake, uncovered, 20m
+    count: 1
+  - syntax: bake, undisturbed, until puffed and browned
+    count: 1
+  - syntax: bake, until golden brown
+    count: 1
+  - syntax: bake, ~30m, until crisp and golden
+    count: 1
+seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/lavacake/lavacake.opensauce
+  - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+  - examples/public-domain-recipes/pavlova/pavlova.opensauce
+  - legacy-corpus:bbc-food-10
+observed_parameters:
+  - value: 10m
+    count: 1
+  - value: 12-15m
+    count: 1
+  - value: 15-20m
+    count: 1
+  - value: 150c / 300f
+    count: 1
+  - value: 170c / 340f
+    count: 1
+  - value: 180c
+    count: 2
+  - value: 20-30m
+    count: 1
+  - value: 200c
+    count: 1
+  - value: 20m
+    count: 1
+  - value: 30m
+    count: 1
+  - value: 350f
+    count: 1
+  - value: 45m
+    count: 1
+  - value: 50-55m
+    count: 1
+  - value: 7m
+    count: 1
+  - value: 8-10m
+    count: 1
+  - value: covered
+    count: 1
+  - value: one baking sheet at a time
+    count: 1
+  - value: uncovered
+    count: 1
+  - value: undisturbed
+    count: 1
+  - value: until crisp and golden
+    count: 1
+  - value: until crust is browned and filling is bubbling
+    count: 1
+  - value: until golden brown
+    count: 1
+  - value: until puffed and browned
+    count: 1
+  - value: until risen and golden
+    count: 1
+  - value: until starting to brown
+    count: 1
+  - value: ~30m
+    count: 1
+  - value: ~45m
+    count: 1
+legacy_observation: true

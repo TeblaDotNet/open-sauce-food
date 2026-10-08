@@ -1,0 +1,9 @@
+id: mixer-or-whisk
+kind: equipment
+names:
+  en: mixer or whisk
+observed_forms:
+- syntax: mixer or whisk
+  count: 1
+seen_in:
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce

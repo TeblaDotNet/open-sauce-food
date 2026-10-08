@@ -1,0 +1,41 @@
+{
+  "title": "Sunday Morning Milkshake",
+  "source_url": "https://publicdomainrecipes.com/sunday-milkshake/",
+  "source_author": "yaroslav-smirnov",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sunday-milkshake.md",
+  "original_sha256": "8bc1914cd86c9de7ffd430b9103df85f5698a92501742801bbbffcc2b8d881a5",
+  "original_front_matter": {
+    "title": "Sunday Morning Milkshake",
+    "date": "2021-03-12",
+    "tags": [
+      "sweet",
+      "breakfast",
+      "drink",
+      "cheesefare"
+    ],
+    "author": "yaroslav-smirnov"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "These are for about 4 glasses or 1 liter:\n\n* 1 banana (or 2 if they are small)\n* ~120 grams of berries. Can be any berries you like.\n* <1 liter of milk\n* Vanilla\n* Sugar",
+  "directions_source_markdown": "1. Chop the banana so that it fits better in the blender.\n2. Add the banana pieces, berries, vanilla and sugar to taste to the blender.\n   Usually I use about 6 tea spoons of sugar.\n3. Pour enough milk so that the mix fills a liter of the blender volume.\n4. Blend it until the mix looks somewhat homogeneous.\n5. Pour it and enjoy!\n\nBasically anything is better consumed fresh, but it is especially the case for\nthis milkshake recipe. If you leave it sitting for more than 10-15 minutes it\nwon't be so delicious anymore.",
+  "images": [
+    {
+      "alt": "Sunday Morning Milkshake",
+      "source_url": "https://publicdomainrecipes.com/pix/sunday-milkshake.webp",
+      "source_reference": "/pix/sunday-milkshake.webp",
+      "status": "retrieved",
+      "filename": "sunday-milkshake.webp",
+      "sha256": "048163f555530ccbd2985e649d9a1cc454f115ebcdf73c966c764be8c05e0fed"
+    }
+  ],
+  "coverage_group": "drinks-preserves-fermentation"
+}

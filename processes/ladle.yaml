@@ -1,0 +1,18 @@
+id: ladle
+kind: process
+canonical_name: ladle
+names:
+  en: ladle
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: ladle
+    count: 1
+observed_parameters:
+- value: pan
+  count: 1

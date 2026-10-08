@@ -1,0 +1,33 @@
+{
+  "title": "Red Lentil Dahl",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/red-lentil-dahl.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "a0dd96577df60b391b5044437ca3b8681aadcd74864961a436cc3b20f08adb78",
+  "original_front_matter": {
+    "title": "Red Lentil Dahl",
+    "tags": [
+      "indian",
+      "curry",
+      "tomato",
+      "vegetables"
+    ],
+    "date": "2022-08-04",
+    "author": "joel-maxuel"
+  },
+  "source_url": "https://publicdomainrecipes.com/red-lentil-dahl/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

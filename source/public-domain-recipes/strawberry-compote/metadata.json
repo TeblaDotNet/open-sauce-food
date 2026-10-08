@@ -1,0 +1,40 @@
+{
+  "title": "Strawberry Compote",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/strawberry-compote.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "d6d0aa5b33e3453d118acb25206fd0bd5fca440d443fa046f0e861cf15bf7bf9",
+  "original_front_matter": {
+    "title": "Strawberry Compote",
+    "tags": [
+      "Russian",
+      "Fruit",
+      "Drink"
+    ],
+    "date": "2022-11-16",
+    "author": "M-watermelon"
+  },
+  "source_url": "https://publicdomainrecipes.com/strawberry-compote/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Strawberry Compote",
+      "url": "/pix/glass-of-compote.webp",
+      "upstreamPath": "static/pix/glass-of-compote.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "ff60e3722d3da073b5aee0cd3663c674a9cc2fe0eeeecec34a610e2bd9abe9b3",
+      "sourcePath": "source/public-domain-recipes/strawberry-compote/glass-of-compote.webp",
+      "promotedPath": "examples/public-domain-recipes/strawberry-compote/glass-of-compote.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

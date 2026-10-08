@@ -1,0 +1,35 @@
+{
+  "title": "Oatmeal Cookies",
+  "source_url": "https://publicdomainrecipes.com/oatmeal-cookies/",
+  "source_author": "hoehlrich",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/oatmeal-cookies.md",
+  "original_sha256": "cbbebd1db48754559f162d635a8544fae4ce94447d44be097da40867adb3782f",
+  "original_front_matter": {
+    "title": "Oatmeal Cookies",
+    "tags": [
+      "dessert",
+      "cookies",
+      "cheesefare"
+    ],
+    "date": "2023-07-29",
+    "author": "hoehlrich"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "20 min",
+    "Cook time": "10 min",
+    "Servings": "24"
+  },
+  "ingredients_source_markdown": "- 1 cup butter\n- 2 eggs\n- 1 tsp vanilla\n- 2 cups sugar\n- 2 cups flour\n- 1.5 tsp cinnamon\n- 1 tsp salt\n- 3 cups oats\n- cranberries/raisins/coconut/nuts (optional)",
+  "directions_source_markdown": "1. Whisk butter, eggs, vanilla and sugar together\n2. Add and combine flour, cinnamon, salt, oats, and optional add-ins\n3. Mold and place ~24 golf sized balls of dough on trays with parchment paper\n4. Cook for ~10 minutes or until edges begin to brown",
+  "images": [],
+  "coverage_group": "baking"
+}

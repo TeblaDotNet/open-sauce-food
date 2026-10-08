@@ -1,0 +1,19 @@
+id: yogurt
+kind: ingredient
+names:
+  en: yogurt
+observed_forms:
+- syntax: yogurt, optional, for serving
+  count: 1
+- syntax: yogurt, thick
+  count: 1
+seen_in:
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1
+- value: optional
+  count: 1
+- value: thick
+  count: 1

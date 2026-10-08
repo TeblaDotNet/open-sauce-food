@@ -1,0 +1,40 @@
+{
+  "title": "Bread",
+  "source_url": "https://publicdomainrecipes.com/bread/",
+  "source_author": "alex-selimov",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/bread.md",
+  "original_sha256": "7a33906e3356b92081b94a40b924040df5178d3edabf9c8da410e19ecfbe44a5",
+  "original_front_matter": {
+    "title": "Bread",
+    "date": "2021-03-10",
+    "tags": [
+      "basic",
+      "bread",
+      "fasting"
+    ],
+    "author": "alex-selimov"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "* 1 1/2 cups warm water\n* 2 and 1/4 teaspoons Active Dry Yeast\n* 1 Tsp sugar\n* 2 Tbsp  maple syrup, agave, or honey\n* 1/2 Tbsp salt\n* 3 3/4 cups Unbleached All-Purpose Flour (plus more for rolling / dusting)",
+  "directions_source_markdown": "1. Proof the yeast. To do this warm 1/4 cup water to about bath water heat (110 degrees F, 43 degrees C) add active dry yeast and 1 Tsp sugar. Let sit for about 10 minutes, mixture should at least be doubled in size after waiting.\n1. Combine rest of water, yeast mixture, maple syrup (or other sweetener), salt, and flour in a large mixing bowl and stir. The result will be a sticky, rough dough. Use a spoon to stir until well combined and when it can no longer do the job, knead and turn it in the bowl with your hands.\n2. Lift the dough out and lightly grease the bowl with nonstick spray or olive oil. Cover and let rise for 2 hours at room temperature.\n3. Transfer dough to a lightly floured work surface and knead until dough is elastic. Rule of thumb is 10 minutes of kneading.\n4. Place seam-side down in a lightly greased loaf pan or baking sheet. Loosely cover with plastic wrap and let rest for 45-60 minutes.\n5. Preheat oven to 425 degrees F (218 C)* toward the end of the dough resting time and place a metal pan (NOT glass, Pyrex, or ceramic) on the lowest oven rack. Also have 1 cup of hot water ready.\n6. When the oven is preheated, slash the bread 2 or 3 times with a knife, making a cut about ½-inch deep.\n7. Place in oven on middle rack. Then carefully pour hot water into the shallow pan on the rack beneath. Expect it to bubble and steam; then close oven door quickly.\n8. Bake the bread for 26 to 35 minutes, or until deep golden brown and risen. Tapping the top of the loaf should produce a hollow sound.\n9. Remove the bread from the oven and let rest in the pan for 5 minutes. Then carefully remove from pan and transfer to a cooling rack to cool. Let it cool completely before slicing for best results (otherwise it can be doughy in the middle).\n10. Store leftovers in a plastic bag at room temperature for up to a few days. Transfer to freezer for longer term storage.",
+  "images": [
+    {
+      "alt": "Finished bread in its baking mold",
+      "source_url": "https://publicdomainrecipes.com/pix/bread.webp",
+      "source_reference": "/pix/bread.webp",
+      "status": "retrieved",
+      "filename": "bread.webp",
+      "sha256": "7993d529fcb5139eb64b3b651ff1e42b5aa3f1121e2bfd5fb4fbc6dd30193f6f"
+    }
+  ],
+  "coverage_group": "bread-dough"
+}

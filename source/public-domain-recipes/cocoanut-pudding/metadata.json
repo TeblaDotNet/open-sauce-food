@@ -1,0 +1,31 @@
+{
+  "title": "Cocoa-nut Pudding",
+  "source_url": "https://publicdomainrecipes.com/cocoanut-pudding/",
+  "source_author": "Miss Leslie",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/cocoanut-pudding.md",
+  "original_sha256": "828a27895d7734903846576bac595a4fae03969d7ee14425437ab9aa933b4556",
+  "original_front_matter": {
+    "title": "Cocoa-nut Pudding",
+    "tags": [
+      "cocoa",
+      "dessert",
+      "pudding"
+    ],
+    "date": "1832-01-01",
+    "author": "Miss Leslie"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- A quarter of a pound of cocoa-nut, grated.\n- A quarter of a pound of powdered white sugar.\n- Three ounces and a half of fresh butter.\n- The whites only of six eggs.\n- A table-spoonful of wine and brandy mixed.\n- Half a tea-spoonful of rose-water.",
+  "directions_source_markdown": "1. Break up a cocoa-nut, and take the thin brown skin carefully off, with a knife. Wash all the pieces in cold water, and then wipe them dry, with a clean towel. Weigh a quarter of a pound of cocoa-nut, and grate it very fine, into a soup-plate.\n2. Stir the butter and sugar to a cream, and add the liquor and rose-water gradually to them.\n3. Beat the whites only, of six eggs, till they stand alone on the rods; and then stir the beaten white of egg, gradually, into the butter and sugar. Afterwards, sprinkle in, by degrees, the grated cocoa-nut, stirring hard all the time. Then stir all very well at the last.\n4. Have ready a puff-paste, sufficient to cover the bottom, sides, and edges of a soup-plate. Put in the mixture, and bake it in a moderate oven, about half an hour.\n5. Sprinkle granulated sugar over it, when cool.",
+  "images": [],
+  "coverage_group": "dessert-historical"
+}

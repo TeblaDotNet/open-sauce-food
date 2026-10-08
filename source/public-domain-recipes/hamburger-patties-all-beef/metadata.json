@@ -1,0 +1,35 @@
+{
+  "title": "Hamburger Patties",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/hamburger-patties-all-beef.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "6fc3a04559558441510fb0efda3a8a5c41fd0b7287776341ea0493af24510135",
+  "original_front_matter": {
+    "title": "Hamburger Patties",
+    "date": "2021-03-19",
+    "tags": [
+      "american",
+      "quick",
+      "beef",
+      "basic"
+    ],
+    "author": "James Hendrie"
+  },
+  "source_url": "https://publicdomainrecipes.com/hamburger-patties-all-beef/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

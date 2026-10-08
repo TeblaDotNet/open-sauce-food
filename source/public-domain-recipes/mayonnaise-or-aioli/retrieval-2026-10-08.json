@@ -1,0 +1,34 @@
+{
+  "title": "Mayonnaise or aioli",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/mayonnaise-or-aioli.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "19f09958c635020a5dc53b7495b9ad44ff0092d256a4150a64a14fbe79acb479",
+  "original_front_matter": {
+    "title": "Mayonnaise or aioli",
+    "date": "2021-04-06",
+    "tags": [
+      "sauce",
+      "basic"
+    ],
+    "author": "brox"
+  },
+  "source_url": "https://publicdomainrecipes.com/mayonnaise-or-aioli/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Aioli",
+      "url": "/pix/mayonnaise-or-aioli.webp",
+      "upstreamPath": "static/pix/mayonnaise-or-aioli.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

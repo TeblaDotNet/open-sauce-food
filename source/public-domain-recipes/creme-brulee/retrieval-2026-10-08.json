@@ -1,0 +1,31 @@
+{
+  "title": "Crème brûlée",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/creme-brulee.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "7e8d9e50780ade19deefa85043eb4f025a4795acf553e873aa67ecb34bb51093",
+  "original_front_matter": {
+    "title": "Crème brûlée",
+    "tags": [
+      "dessert",
+      "french"
+    ],
+    "date": "2023-04-11",
+    "author": "jan-kremer"
+  },
+  "source_url": "https://publicdomainrecipes.com/creme-brulee/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

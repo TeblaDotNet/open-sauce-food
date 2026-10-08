@@ -1,0 +1,78 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Russian Okroshka
+source: https://publicdomainrecipes.com/okroshka/
+source author: mons
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: basic, spread, quick, russian, soup
+
+# Imported from content/okroshka.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(potatoes, medium) 2-3
+(egg) 4
+(long or 4 short cucumbers) 2
+(strands of spring onions) 3
+(radishes) 10-12
+(bunch of dill)
+(kefir or 1 kvass) 2
+(boiled sausage or boiled chicken meat) 500g
+(mineral water, optional) 1
+
+::equipment
+
+(saucepan)
+
+::instructions
+
+<prepare, a saucepan where you will put the ingredients (5 liters) and a saucepan for boiling eggs and potatoes>
+<boil, potatoes and eggs (hard boiled)>
+Finely chop cucumbers, radishes, onions, dill and sausage （or meat）
+<peel, eggs and potatoes and chop finely>
+<pour, kefir (or kvass) and mix all the ingredients>
+If necessary, add boiled water or mineral water.
+<let, it brew for a few minutes and the dish is ready to eat>
+
+::story
+
+A hearty and healthy cold soup, which is especially good to eat in the hot season. Author's recipe.
+
+
+::source
+<<<
+---
+title: "Russian Okroshka"
+date: 2022-07-21
+tags: ['basic', 'spread', 'quick', 'russian', 'soup']
+author: mons
+---
+
+A hearty and healthy cold soup, which is especially good to eat in the hot season. Author's recipe.
+
+## Ingredients
+
+- 2-3 medium potatoes
+- 4 eggs
+- 2 long or 4 short cucumbers
+- 3 strands of spring onions
+- 10-12 radishes
+- bunch of dill
+- 2 Kefir or 1 kvass
+- 500g boiled sausage or boiled chicken meat
+- 1 mineral water (optional)
+
+## Directions
+
+1. Prepare a saucepan where you will put the ingredients (5 liters) and a saucepan for boiling eggs and potatoes
+2. Boil potatoes and eggs (hard boiled)
+3. Finely chop cucumbers, radishes, onions, dill and sausage (or meat)
+4. Peel eggs and potatoes and chop finely
+5. Pour kefir (or kvass) and mix all the ingredients
+6. If necessary, add boiled water or mineral water.
+7. Let it brew for a few minutes and the dish is ready to eat.
+>>>

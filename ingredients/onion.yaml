@@ -1,0 +1,92 @@
+id: onion
+kind: ingredient
+canonical_name: onion
+names:
+  en: onion
+status: canonical-seed
+evidence:
+  current_recipe_count: 32
+  current_observation_count: 33
+  legacy_observation_count: 10
+  observed_terms:
+  - term: onion
+    count: 33
+  seen_in:
+  - examples/public-domain-recipes/aljotta/aljotta.opensauce
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/ceviche/ceviche.opensauce
+  - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+  - examples/public-domain-recipes/crab-salad/crab-salad.opensauce
+  - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+  - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+  - examples/public-domain-recipes/guacamole/guacamole.opensauce
+  - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  - examples/public-domain-recipes/lentejas/lentejas.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+  - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+  - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+  - term: onion
+    count: 10
+observed_qualifiers:
+- value: chopped
+  count: 8
+- value: cut into quarter moons
+  count: 1
+- value: diced
+  count: 2
+- value: finely chopped
+  count: 2
+- value: finely sliced
+  count: 1
+- value: large
+  count: 5
+- value: medium
+  count: 9
+- value: minced
+  count: 2
+- value: optional
+  count: 1
+- value: peeled
+  count: 2
+- value: red
+  count: 2
+- value: roughly chopped
+  count: 2
+- value: sliced
+  count: 1
+- value: small
+  count: 2
+- value: sweet
+  count: 1
+- value: thin wedges
+  count: 1
+- value: white
+  count: 2
+- value: yellow
+  count: 1
+plural_names:
+  en: onions
+parts:
+  peel:
+    names:
+      en: peel

@@ -1,0 +1,36 @@
+{
+  "title": "Zaatar",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/zaatar.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "1bdc789a28c4d3e4fcfaf29306bd39823cc96e56d007eba494fa1f2b39e66bc2",
+  "original_front_matter": {
+    "title": "Zaatar",
+    "date": "2022-09-30",
+    "tags": [
+      "palestinian",
+      "lebanese",
+      "mediterranean",
+      "middle eastern",
+      "spice"
+    ],
+    "author": "Wael Karram"
+  },
+  "source_url": "https://publicdomainrecipes.com/zaatar/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

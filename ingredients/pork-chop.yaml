@@ -1,0 +1,21 @@
+id: pork-chop
+kind: ingredient
+canonical_name: pork chop
+names:
+  en: pork chop
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: pork chop
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+aliases:
+- name: porkchops
+  type: review-pass-1-lexical
+plural_names:
+  en: pork chops

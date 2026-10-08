@@ -1,0 +1,40 @@
+{
+  "title": "Meatloaf",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/meatloaf.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "0139faa7320cca7c8f0ffcb0810e9d9b4ab9e82f7445ef6f03d114b9b316eff4",
+  "original_front_matter": {
+    "title": "Meatloaf",
+    "date": "2021-03-23",
+    "tags": [
+      "beef",
+      "american",
+      "supper"
+    ],
+    "author": "ryan-wilson"
+  },
+  "source_url": "https://publicdomainrecipes.com/meatloaf/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Meatloaf",
+      "url": "/pix/meatloaf.webp",
+      "upstreamPath": "static/pix/meatloaf.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "6f24704a38603c041d909a60163e70114364f428860433f35aed2fefe48d69ba",
+      "sourcePath": "source/public-domain-recipes/meatloaf/meatloaf.webp",
+      "promotedPath": "examples/public-domain-recipes/meatloaf/meatloaf.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

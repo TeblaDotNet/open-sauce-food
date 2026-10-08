@@ -1,0 +1,27 @@
+id: marinate
+kind: process
+canonical_name: marinate
+names:
+  en: marinate
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: marinate
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+observed_parameters:
+- value: 1h
+  count: 1
+- value: at least 1h
+  count: 2
+- value: overnight
+  count: 1
+- value: refrigerator
+  count: 1

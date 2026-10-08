@@ -1,0 +1,69 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Simple Tuna Salad
+source: https://publicdomainrecipes.com/tuna-salad/
+source author: scary90
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: quick, basic, tuna, fish
+serves: 3
+image: tuna-salad.webp
+
+# Imported from content/tuna-salad.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍽️ Servings: 3
+
+::ingredients
+
+(can white tuna, drained) 1 （7 oz）
+(mayonnaise) 6 tablespoons
+(sweet pickle relish) 1 tablespoons
+(garlic powder, optional) A pinch
+(white vinegar or lemon juice, optional) 2 tablespoons
+(cheese, shredded, optional) 1 cup
+(hard-boiled egg, chopped, optional) 1
+
+::equipment
+
+(bowl)
+
+::instructions
+
+In a medium bowl, stir together tuna, mayonnaise, and relish.
+<add, optional ingredients like vinegar, cheese or hard-boiled eggs if wanted>
+<season, with garlic powder, salt, and pepper if wanted>
+
+::source
+<<<
+---
+title: "Simple Tuna Salad"
+date: 2021-03-15
+tags: ['quick', 'basic', 'tuna', 'fish']
+author: "scary90"
+
+---
+
+![Tuna Salad](/pix/tuna-salad.webp)
+
+- ⏲️ Prep time: 5 min
+- 🍽️ Servings: 3
+
+## Ingredients
+
+- 1 (7 oz) can white tuna, drained
+- 6 tablespoons mayonnaise
+- 1 tablespoons sweet pickle relish
+- A pinch of garlic powder (optional)
+- 2 tablespoons white vinegar or lemon juice (optional)
+- 1 cup shredded cheese (optional)
+- 1 chopped hard-boiled egg (optional)
+
+## Directions
+
+1. In a medium bowl, stir together tuna, mayonnaise, and relish.
+2. Add optional ingredients like vinegar, cheese or hard-boiled eggs if wanted.
+3. Season with garlic powder, salt, and pepper if wanted.
+>>>

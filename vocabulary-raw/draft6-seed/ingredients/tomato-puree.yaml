@@ -1,0 +1,9 @@
+id: tomato-puree
+kind: ingredient
+names:
+  en: tomato puree
+observed_forms:
+- syntax: tomato puree
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

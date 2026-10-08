@@ -1,0 +1,85 @@
+::recipe
+
+name: Sunday Morning Milkshake
+source: https://publicdomainrecipes.com/sunday-milkshake/
+source author: yaroslav-smirnov
+source license: Public domain (Unlicense)
+units: source
+tags: sweet, breakfast, drink, cheesefare
+yield: about 4 glasses / 1 litre
+image: sunday-milkshake.webp
+
+# Original source: ../../../source/public-domain-recipes/sunday-milkshake/sunday-milkshake.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Milk amount is dependent on total mixture volume, not 1 litre milk. Cannot calculate fixed milk volume from source.
+
+::ingredients
+
+(banana) 1, or 2 if small
+(berries, any kind) ~120g
+(milk) less than 1 litre, enough to bring mixture to 1 litre
+(vanilla) to taste
+(sugar) to taste, usually ~6tsp
+
+::equipment
+
+(blender)
+
+::instructions
+
+(banana) <chop, to fit blender>
+    + (berries) + (vanilla) + (sugar) <add, blender>
+    + (milk) <pour, until mixture fills 1 litre of blender volume>
+    <blend, somewhat homogeneous>
+    <pour> <serve, fresh>
+
+::story
+A sweet and refreshing milkshake that barely requires any effort to make. You're
+not required to make it and drink it on Sunday, it was just almost a tradition
+in my family to make it on the weekends, and it somehow does taste better on a
+Saturday or Sunday morning.
+
+::notes
+Basically anything is better consumed fresh, but it is especially the case for
+this milkshake recipe. If you leave it sitting for more than 10-15 minutes it
+won't be so delicious anymore.
+
+::source
+<<<
+---
+title: "Sunday Morning Milkshake"
+date: 2021-03-12
+tags: ['sweet', 'breakfast', 'drink', 'cheesefare']
+author: yaroslav-smirnov
+---
+
+![Sunday Morning Milkshake](/pix/sunday-milkshake.webp)
+
+A sweet and refreshing milkshake that barely requires any effort to make. You're
+not required to make it and drink it on Sunday, it was just almost a tradition
+in my family to make it on the weekends, and it somehow does taste better on a
+Saturday or Sunday morning.
+
+## Ingredients
+
+These are for about 4 glasses or 1 liter:
+
+* 1 banana (or 2 if they are small)
+* ~120 grams of berries. Can be any berries you like.
+* <1 liter of milk
+* Vanilla
+* Sugar
+
+## Directions
+
+1. Chop the banana so that it fits better in the blender.
+2. Add the banana pieces, berries, vanilla and sugar to taste to the blender.
+   Usually I use about 6 tea spoons of sugar.
+3. Pour enough milk so that the mix fills a liter of the blender volume.
+4. Blend it until the mix looks somewhat homogeneous.
+5. Pour it and enjoy!
+
+Basically anything is better consumed fresh, but it is especially the case for
+this milkshake recipe. If you leave it sitting for more than 10-15 minutes it
+won't be so delicious anymore.
+>>>

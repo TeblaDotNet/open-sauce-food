@@ -1,0 +1,46 @@
+id: spread
+kind: process
+canonical_name: spread
+names:
+  en: spread
+status: canonical-seed
+evidence:
+  legacy_observation_count: 1
+  observed_terms:
+    - term: spread
+      count: 10
+  seen_in:
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+    - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+    - examples/public-domain-recipes/crostata/crostata.opensauce
+    - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  legacy_terms:
+    - term: spread
+      count: 1
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 1tsp on each ramekin
+    count: 1
+  - value: a little
+    count: 1
+  - value: both halves
+    count: 1
+  - value: confectioners’ sugar icing
+    count: 1
+  - value: layer
+    count: 2
+  - value: leave ~2in gap on one side
+    count: 1
+  - value: roasting tin
+    count: 1
+  - value: single layer
+    count: 1
+  - value: spoon
+    count: 1
+  - value: thin layer
+    count: 1
+  - value: while warm
+    count: 1

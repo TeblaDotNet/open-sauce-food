@@ -1,0 +1,31 @@
+{
+  "title": "Miso-soup",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/miso-soup.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "d1d0bd39995bef3c579db438011acd0e2cc4e2cf76cdfdb3790a56e09510e9f5",
+  "original_front_matter": {
+    "title": "Miso-soup",
+    "date": "2021-03-23",
+    "tags": [
+      "japanese",
+      "soup"
+    ],
+    "author": "yakatan"
+  },
+  "source_url": "https://publicdomainrecipes.com/miso-soup/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

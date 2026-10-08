@@ -1,0 +1,30 @@
+{
+  "title": "Ketchup",
+  "source_url": "https://publicdomainrecipes.com/ketchup/",
+  "source_author": null,
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/ketchup.md",
+  "original_sha256": "b69591c8572f2707745b6357f9393c876f7c6b659ab5178910305197e1437f89",
+  "original_front_matter": {
+    "title": "Ketchup",
+    "date": "2021-03-12",
+    "tags": [
+      "basic",
+      "sauce",
+      "fasting"
+    ]
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "* 2 1/2 quart (15 to 17 medium-sized) sliced tomatoes\n* 1 large garlic clove, chopped\n* 1 cup vinegar\n* 1/4 cup chopped onion\n* 1/2 cup sugar\n* 3 - inch piece stick cinnamon\n* 1 1/4 teaspoon salt\n* 1 teaspoon paprika\n* 1 teaspoon whole cloves\n* a dash cayenne pepper",
+  "directions_source_markdown": "1. Simmer together tomatoes and onion for 20 to 30 minutes; press through a sieve.\n2. Put the cinnamon, cloves, and garlic loosely in a clean, thin, white cloth; tie top tightly; add to vinegar and simmer 30 minutes.\n3. Remove spice bag.\n4. Boil tomato mixture rapidly until you have but one-half the original amount.\n5. Stir frequently to prevent sticking.\n6. Add spiced vinegar, sugar, salt, paprika, and cayenne pepper to tomato mixture.\n7. Boil rapidly, stirring constantly, about 10 minutes or until slightly thickened.\n8. Pour into hot, sterile jars, fill jars to top, and seal.",
+  "images": [],
+  "coverage_group": "sauces"
+}

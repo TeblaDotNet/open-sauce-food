@@ -1,0 +1,73 @@
+::recipe
+
+name: Sauerkraut
+source: https://publicdomainrecipes.com/sauerkraut/
+source author: andrej-kirchmaier
+source license: Public domain (Unlicense)
+units: source
+tags: german, cabbage, side, fasting
+image: sauerkraut.webp
+
+# Original source: ../../../source/public-domain-recipes/sauerkraut/sauerkraut.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Salt expressed as 2-4% of cabbage weight; fermentation terminates by preference. No numeric cabbage mass, pH or fixed finish time inferred.
+
+::ingredients
+
+(cabbage) 1 head
+(sea salt) 2-4% of cabbage weight
+(water, cold) as needed for rinsing
+(water, optional) enough to cover cabbage if needed
+
+::equipment
+
+(glass jars) as needed
+(lid) -OR- (airlock lid) -OR- (coffee filter)
+(rubber band, if using coffee filter)
+
+::instructions
+
+(glass jars) <clean, as many as needed>
+(cabbage) <chop or shred> <rinse, cold water>
+    + (sea salt) <sprinkle>
+    <knead, clean hands, ~10m, enough liquid to cover cabbage>
+    <pack, glass jar, press beneath liquid>
+Optional [
+    (water) <add, enough to completely cover cabbage if needed>
+]
+(jar) <cover, tight lid or airlock lid or coffee filter secured with rubber band>
+    <ferment, room temperature, preferably 60-70°F / 15-20°C, at least 2 weeks, until desired flavour and texture, burp daily if tight lid>
+    <cover, tight lid when finished> <store, cold>
+
+::story
+
+Sauerkraut is a based lacto-fermented food that is healthy and has a long shelf live.
+
+::source
+<<<
+---
+title: "Sauerkraut"
+date: 2021-03-11
+tags: ['german', 'cabbage', 'side', 'fasting']
+author: andrej-kirchmaier
+---
+
+![Sauerkraut](/pix/sauerkraut.webp)
+
+Sauerkraut is a based lacto-fermented food that is healthy and has a long shelf live.
+
+## Ingredients
+
+- 1 head of cabbage
+- 2-4% sea salt by cabbage weight
+
+## Directions
+
+1. Prepare and clean as many glass jars as you think you'll need.
+2. Chop or shred cabbage and rinse under cold water. Sprinkle with salt.
+3. Knead the cabbage with clean hands for about 10 minutes until there is enough liquid to cover it.
+4. Stuff the cabbage into a glass jar, pressing the cabbage underneath the liquid. If necessary, add a bit of water to completely cover the cabbage.
+5. Cover the jar with a tight lid, airlock lid, or coffee filter secured with a rubber band.
+6. Culture at room temperature (60-70°F/15-20°C is preferred) for at least 2 weeks, until desired flavor and texture is achieved. If using a tight lid, burp it daily to release excess pressure.
+7. Once the sauerkraut is finished, put a tight lid on the jar and move to cold storage. The sauerkraut's flavor will continue to develop as it ages.
+>>>

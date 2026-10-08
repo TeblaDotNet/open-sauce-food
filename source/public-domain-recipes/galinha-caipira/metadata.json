@@ -1,0 +1,39 @@
+{
+  "title": "Galinha Caipira",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/galinha-caipira.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "65fcba85115b171dbf844aecd5d0d76ffdd12a78e72a147c02d752484ecc3b0e",
+  "original_front_matter": {
+    "title": "Galinha Caipira",
+    "tags": [
+      "chicken",
+      "stew",
+      "brazilian"
+    ],
+    "date": "2022-11-16",
+    "author": "bernardo-slongo"
+  },
+  "source_url": "https://publicdomainrecipes.com/galinha-caipira/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    {
+      "category": "quantity/unit oddity",
+      "evidence": "Source calls close to 2,5kg roughly 3 pounds and spells chicken ckicken.",
+      "decision": "Preserve discrepancy and source spelling rather than silently repairing either."
+    },
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

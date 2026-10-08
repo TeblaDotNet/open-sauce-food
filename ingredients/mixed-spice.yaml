@@ -1,0 +1,18 @@
+id: mixed-spice
+kind: ingredient
+canonical_name: mixed spice
+names:
+  en: mixed spice
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: mixed spice
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+observed_qualifiers:
+- value: mace and nutmeg and cinnamon
+  count: 1

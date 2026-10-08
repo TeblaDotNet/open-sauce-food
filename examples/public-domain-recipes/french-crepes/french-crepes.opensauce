@@ -1,0 +1,81 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: French Crêpes
+source: https://publicdomainrecipes.com/french-crepes/
+source author: aeredren
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: french, dessert, breakfast, cheesefare
+
+# Imported from content/french-crepes.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(white flour) 300g
+(egg) 3
+(milk) 60cl
+(beer) 20cl
+(butter or 3 tablespoons of oil) 30g
+
+::instructions
+
+<mix, flour, salt, eggs and melted butter or oil. (In this order to avoid dry flour)>
+<slowly add, milk and beer until the dough becomes fluid enough. (Pouring it from the ladle has to be fluid)>
+<let, it rest one hour. (optional)>
+<cook, the crêpe in a flat pan, one ladle at a time>
+
+::notes
+
+- Oil the pan frequently with an oiled piece of fabric.
+
+- Wait for the pan to be hot before cooking the first crêpe.
+
+- Wait until the crêpe has dried up to flip it.
+
+- When pouring the dough, follow the pan rotation with the ladle to evenly spread a thin layer of it.
+
+
+::story
+
+Like pancakes, but very thin.
+
+15 crêpes.
+
+
+::source
+<<<
+---
+title: "French Crêpes"
+date: 2021-03-14
+tags: ['french', 'dessert', 'breakfast', 'cheesefare']
+author: aeredren
+---
+Like pancakes, but very thin.
+
+15 crêpes.
+
+## Ingredients
+
+- 300g white flour
+- 3 eggs
+- 60cl milk
+- 20cl beer
+- 30g butter or 3 tablespoons of oil
+
+## Directions
+
+1. Mix flour, salt, eggs and melted butter or oil. (In this order to avoid dry flour)
+2. Slowly add milk and beer until the dough becomes fluid enough. (Pouring it from the ladle has to be fluid)
+3. Let it rest one hour. (optional)
+4. Cook the crêpe in a flat pan, one ladle at a time.
+
+## Tips
+
+- Oil the pan frequently with an oiled piece of fabric.
+- Wait for the pan to be hot before cooking the first crêpe.
+- Wait until the crêpe has dried up to flip it.
+- When pouring the dough, follow the pan rotation with the ladle to evenly spread a thin layer of it.
+>>>

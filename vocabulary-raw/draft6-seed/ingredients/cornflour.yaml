@@ -1,0 +1,9 @@
+id: cornflour
+kind: ingredient
+names:
+  en: cornflour
+observed_forms:
+- syntax: cornflour
+  count: 1
+seen_in:
+- examples/public-domain-recipes/pavlova/pavlova.opensauce

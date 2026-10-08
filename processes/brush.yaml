@@ -1,0 +1,40 @@
+id: brush
+kind: process
+canonical_name: brush
+names:
+  en: brush
+status: canonical-seed
+evidence:
+  current_recipe_count: 9
+  current_observation_count: 13
+  legacy_observation_count: 0
+  observed_terms:
+  - term: brush
+    count: 13
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+  - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+  - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+observed_parameters:
+- value: both sides of baguette slices
+  count: 1
+- value: brushing fat
+  count: 1
+- value: butter
+  count: 1
+- value: edges
+  count: 1
+- value: exposed surface
+  count: 1
+- value: immediately after removing from pan
+  count: 1
+- value: shortening
+  count: 2
+- value: tops
+  count: 1

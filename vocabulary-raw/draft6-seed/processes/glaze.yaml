@@ -1,0 +1,14 @@
+id: glaze
+kind: process
+names:
+  en: glaze
+observed_forms:
+- syntax: glaze, frying pan, oil
+  count: 1
+seen_in:
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+observed_parameters:
+- value: frying pan
+  count: 1
+- value: oil
+  count: 1

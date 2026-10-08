@@ -1,0 +1,9 @@
+id: refrigerator
+kind: equipment
+names:
+  en: refrigerator
+observed_forms:
+- syntax: refrigerator
+  count: 1
+seen_in:
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce

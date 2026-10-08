@@ -1,0 +1,18 @@
+id: baguette
+kind: ingredient
+canonical_name: baguette
+names:
+  en: baguette
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: baguette
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+observed_qualifiers:
+- value: sliced
+  count: 1

@@ -1,0 +1,20 @@
+id: sieve
+kind: equipment
+canonical_name: sieve
+names:
+  en: sieve
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: sieve
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+  - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

@@ -1,0 +1,10 @@
+id: vegetable-oil
+kind: ingredient
+names:
+  en: vegetable oil
+observed_forms:
+- syntax: vegetable oil
+  count: 2
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

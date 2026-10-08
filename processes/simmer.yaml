@@ -1,0 +1,145 @@
+id: simmer
+kind: process
+canonical_name: simmer
+names:
+  en: simmer
+status: reviewed-merge
+aliases:
+  - name: bring to simmer
+    type: phrase-alias
+    observed_count: 1
+evidence:
+  legacy_observation_count: 4
+  observed_terms:
+    - term: bring to simmer
+      count: 1
+    - term: simmer
+      count: 32
+  seen_in:
+    - examples/public-domain-recipes/aljotta/aljotta.opensauce
+    - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+    - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+    - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+    - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+    - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+    - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+    - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/ketchup/ketchup.opensauce
+    - examples/public-domain-recipes/lentejas/lentejas.opensauce
+    - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+    - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+    - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+    - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+    - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+    - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+    - term: simmer
+      count: 4
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 10m more
+    count: 1
+  - value: 10m more or until lentils completely tender; may take a while
+    count: 1
+  - value: 15-20m
+    count: 1
+  - value: 2-3h
+    count: 1
+  - value: 2-3m
+    count: 2
+  - value: 20-30m
+    count: 1
+  - value: 20m
+    count: 3
+  - value: 30m
+    count: 3
+  - value: 35m or until tender
+    count: 1
+  - value: 45m
+    count: 1
+  - value: 5m
+    count: 5
+  - value: a few hours
+    count: 1
+  - value: add water if too dry to avoid burning
+    count: 1
+  - value: box instructions
+    count: 1
+  - value: couple of hours
+    count: 1
+  - value: covered
+    count: 4
+  - value: do not break fish
+    count: 1
+  - value: gently
+    count: 1
+  - value: large saucepan
+    count: 1
+  - value: lentils just cooked
+    count: 1
+  - value: lid partly covering
+    count: 1
+  - value: low
+    count: 3
+  - value: lower heat
+    count: 1
+  - value: lower heat a bit
+    count: 1
+  - value: lowest heat
+    count: 1
+  - value: medium
+    count: 1
+  - value: medium heat
+    count: 2
+  - value: medium-high heat
+    count: 2
+  - value: medium-low
+    count: 1
+  - value: pot
+    count: 1
+  - value: preferably at least 4h or as long as possible
+    count: 1
+  - value: slowly
+    count: 1
+  - value: source wording
+    count: 1
+  - value: stir and skim
+    count: 1
+  - value: stir occasionally
+    count: 1
+  - value: stirring
+    count: 2
+  - value: stirring occasionally
+    count: 4
+  - value: thoroughly cooked
+    count: 1
+  - value: uncovered
+    count: 2
+  - value: until beef pulls apart easily
+    count: 1
+  - value: until browned
+    count: 1
+  - value: until cooked
+    count: 1
+  - value: until potatoes are tender
+    count: 2
+  - value: until thick and deep brown-red
+    count: 2
+  - value: until tomatillos pale green
+    count: 1
+  - value: usually 25m
+    count: 1
+  - value: very gentle
+    count: 1
+  - value: ~10m
+    count: 2
+  - value: ~15-20m
+    count: 1
+  - value: ~5m
+    count: 2

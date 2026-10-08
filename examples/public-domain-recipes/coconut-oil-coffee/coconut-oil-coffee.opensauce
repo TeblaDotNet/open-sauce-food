@@ -1,0 +1,51 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Coconut Oil Coffee
+source: https://publicdomainrecipes.com/coconut-oil-coffee/
+source author: front3ndninja
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: drink, sweet, breakfast
+serves: 1
+
+# Imported from content/coconut-oil-coffee.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - 🍽️ Servings: 1
+
+::ingredients
+
+(hot coffee) 1 cup
+(coconut oil) 1 tbsp
+(butter; unsalted) 1 tbsp
+
+::equipment
+
+(blender)
+
+::instructions
+
+<blend, coffee, coconut oil, and butter together in a blender until oil and butter are melted and coffee is frothy>
+
+::source
+<<<
+---
+title: "Coconut Oil Coffee"
+date: 2021-03-16
+tags: ['drink', 'sweet', 'breakfast']
+author: front3ndninja
+---
+
+- 🍽️ Servings: 1
+
+## Ingredients
+
+- 1 cup hot coffee
+- 1 tbsp coconut oil
+- 1 tbsp unsalted butter
+
+## Directions
+
+1. Blend coffee, coconut oil, and butter together in a blender until oil and butter are melted and coffee is frothy.
+>>>

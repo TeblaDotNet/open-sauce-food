@@ -1,0 +1,18 @@
+id: apple
+kind: ingredient
+names:
+  en: apple
+observed_forms:
+- syntax: apple, Bramley
+  count: 1
+- syntax: apple, Golden Delicious
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: Bramley
+  count: 1
+- value: Golden Delicious
+  count: 1
+legacy_observation: true

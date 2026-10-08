@@ -1,0 +1,16 @@
+id: stew
+kind: process
+names:
+  en: stew
+observed_forms:
+- syntax: stew, covered, low heat, 60-80m
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+observed_parameters:
+- value: 60-80m
+  count: 1
+- value: covered
+  count: 1
+- value: low heat
+  count: 1

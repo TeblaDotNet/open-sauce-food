@@ -1,0 +1,18 @@
+id: vanilla-ice-cream
+kind: ingredient
+canonical_name: vanilla ice cream
+names:
+  en: vanilla ice cream
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: vanilla ice cream
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/lavacake/lavacake.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1

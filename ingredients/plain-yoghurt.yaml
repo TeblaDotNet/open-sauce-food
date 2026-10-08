@@ -1,0 +1,15 @@
+id: plain-yoghurt
+kind: ingredient
+canonical_name: plain yoghurt
+names:
+  en: plain yoghurt
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: plain yoghurt
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce

@@ -1,0 +1,36 @@
+{
+  "title": "Red Lentil Dahl",
+  "source_url": "https://publicdomainrecipes.com/red-lentil-dahl/",
+  "source_author": "joel-maxuel",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/red-lentil-dahl.md",
+  "original_sha256": "89407524f5c57e58a059afaa0ff0c6ff50f6154b7b78fd567cc4d8de76b275a9",
+  "original_front_matter": {
+    "title": "Red Lentil Dahl",
+    "tags": [
+      "indian",
+      "curry",
+      "tomato",
+      "vegetables"
+    ],
+    "date": "2022-08-04",
+    "author": "joel-maxuel"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Cook time": "50 min",
+    "Servings": "6"
+  },
+  "ingredients_source_markdown": "- 3 Tbsp Olive Oil\n- 1 medium Yellow Onion\n- 1 Tbsp Fresh Ginger, grated\n- 4 Garlic Cloves, minced\n- 2 Tbsp Yellow Curry (mild madras)\n- 1 tsp Sea Salt\n- 1 cup dried Red Lentils\n- 4 - 5 cups Water\n- 5 Plum Tomatoes, chopped\n- juice of 1 Lemon\n- 1 cup Fresh Cilantro, chopped and lightly packed\n- Dried Red Chili's or cayenne pepper, to taste\n- 1/4 tsp Ground Cinnamon",
+  "directions_source_markdown": "1. Heat oil in a soup pot and saute onions for 5 minutes.\n2. Add garlic and ginger and saute 5 more minutes.\n3. Add spices and salt, saute 5 minutes more.\n4. Add 4 cups of water and stir.  Add tomatoes and lentils. Bring to a boil and then lower the heat a bit and simmer for 20 minutes.\n5. Add the lemon juice and cilantro and more water if it's too thick.  Simmer 10 more minutes, or until lentils are completely tender. This may take a while.",
+  "images": [],
+  "coverage_group": "vegetable-pulses"
+}

@@ -1,0 +1,47 @@
+id: pepper
+kind: ingredient
+canonical_name: pepper
+names:
+  en: pepper
+status: canonical-seed
+evidence:
+  legacy_observation_count: 2
+  observed_terms:
+    - term: pepper
+      count: 19
+  seen_in:
+    - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+    - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+    - examples/public-domain-recipes/ceviche/ceviche.opensauce
+    - examples/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce
+    - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+    - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+    - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+    - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+    - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+    - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+    - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+    - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+    - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+    - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+    - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+    - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+  legacy_terms:
+    - term: pepper
+      count: 2
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: cubed
+    count: 1
+  - value: deseeded
+    count: 2
+  - value: ground
+    count: 1
+  - value: optional
+    count: 1
+  - value: red
+    count: 1
+  - value: thinly sliced
+    count: 1

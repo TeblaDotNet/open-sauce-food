@@ -1,0 +1,33 @@
+{
+  "title": "Damper",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/damper.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "2d97d5f3df42cafe10e3b1ef8b46eef0764b5645b4db8735ca457c2915c5ecda",
+  "original_front_matter": {
+    "title": "Damper",
+    "date": "2025-06-04",
+    "tags": [
+      "bread",
+      "quick"
+    ],
+    "author": "walktheearth"
+  },
+  "source_url": "https://publicdomainrecipes.com/damper/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

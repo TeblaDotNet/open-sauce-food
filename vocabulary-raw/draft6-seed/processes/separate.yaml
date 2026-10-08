@@ -1,0 +1,15 @@
+id: separate
+kind: process
+names:
+  en: separate
+observed_forms:
+- syntax: separate
+  count: 2
+- syntax: separate, bowl
+  count: 1
+seen_in:
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+observed_parameters:
+- value: bowl
+  count: 1

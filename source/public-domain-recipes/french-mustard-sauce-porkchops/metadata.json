@@ -1,0 +1,34 @@
+{
+  "title": "French mustard sauce porkchops (Côtes de porc charcutières)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/french-mustard-sauce-porkchops.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "c49cfe1f66e2d1b3ab0c980c9c647850f19e55413e322842020b4a0aaa502935",
+  "original_front_matter": {
+    "title": "French mustard sauce porkchops (Côtes de porc charcutières)",
+    "date": "2021-03-10",
+    "tags": [
+      "french",
+      "pork",
+      "quick"
+    ],
+    "author": "1FJSSps89rEMtYm8Vvkp2uyTX9MFpZtcGy"
+  },
+  "source_url": "https://publicdomainrecipes.com/french-mustard-sauce-porkchops/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

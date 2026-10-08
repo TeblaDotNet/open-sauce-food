@@ -1,0 +1,12 @@
+id: bourbon
+kind: ingredient
+canonical_name: bourbon
+names:
+  en: bourbon
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/italian-mulled-wine/italian-mulled-wine.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

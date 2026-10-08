@@ -1,0 +1,15 @@
+id: turn-off-heat
+kind: process
+canonical_name: turn off heat
+names:
+  en: turn off heat
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: turn off heat
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce

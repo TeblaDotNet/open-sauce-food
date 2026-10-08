@@ -1,0 +1,44 @@
+id: store
+kind: process
+canonical_name: store
+names:
+  en: store
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 7
+  legacy_observation_count: 0
+  observed_terms:
+  - term: store
+    count: 7
+  seen_in:
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+  - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+  - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+observed_parameters:
+- value: 13-16h
+  count: 1
+- value: airtight container
+  count: 1
+- value: closed container or jar
+  count: 1
+- value: cold
+  count: 1
+- value: locked bowl
+  count: 1
+- value: loosely covered
+  count: 1
+- value: overnight
+  count: 1
+- value: plastic bag
+  count: 1
+- value: refrigerator
+  count: 2
+- value: room temperature up to a few days; freeze for longer storage
+  count: 1
+- value: up to 1 week
+  count: 1
+- value: warm
+  count: 1

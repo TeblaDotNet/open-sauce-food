@@ -1,0 +1,35 @@
+{
+  "title": "Lavacake",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/lavacake.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "68ebfbb62921e561373664172f5ec9e2df564c9299a41ae1b786ac292f5df9f5",
+  "original_front_matter": {
+    "title": "Lavacake",
+    "date": "2022-05-17",
+    "author": "benjamin-h",
+    "tags": [
+      "chocolate",
+      "dessert",
+      "quick"
+    ]
+  },
+  "source_url": "https://publicdomainrecipes.com/lavacake/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "lavacake",
+      "url": "/pix/lavacake.webp",
+      "upstreamPath": "static/pix/lavacake.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

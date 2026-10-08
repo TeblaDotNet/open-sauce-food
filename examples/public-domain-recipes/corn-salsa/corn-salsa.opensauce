@@ -1,0 +1,56 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Corn Salsa
+source: https://publicdomainrecipes.com/corn-salsa/
+source author: joe-powerhouse
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: sauce, mexican
+
+# Imported from content/corn-salsa.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 Minutes
+# Source metadata: - 🍳 Cook time: 1 Hour+ in fridge
+
+::ingredients
+
+(frozen corn, defrosted) 2 pounds
+(red onion, finely chopped) 1/2
+(radishes, sliced thin and chopped) 4
+(few pinches of cilantro, finely chopped)
+(jalepenos, optional, finely chopped) 1-2
+(lime: juice) of 2-3 limes
+(salt and pepper, to taste)
+
+::instructions
+
+<chop, everything to pieces smaller than the corn kernels. Mix well and let sit covered in the fridge for at least an hour, even better overnight>
+
+::source
+<<<
+---
+title: "Corn Salsa"
+date: 2021-03-23
+tags: ['sauce', 'mexican']
+author: joe-powerhouse
+---
+
+- ⏲️ Prep time: 10 Minutes
+- 🍳 Cook time: 1 Hour+ in fridge
+
+## Ingredients
+
+- 2 pounds frozen corn, defrosted
+- 1/2 Red onion, finely chopped
+- 4 Radishes, sliced thin and chopped
+- Few pinches of Cilantro, finely chopped
+- 1-2 Jalepenos, finely chopped (optional)
+- Juice of 2-3 Limes
+- Salt and pepper, to taste
+
+## Directions
+
+1. Chop everything to pieces smaller than the corn kernels. Mix well and let sit covered in the fridge for at least an hour, even better overnight.
+>>>

@@ -1,0 +1,13 @@
+id: thyme
+kind: ingredient
+names:
+  en: thyme
+observed_forms:
+- syntax: thyme, dried
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: dried
+  count: 1
+legacy_observation: true

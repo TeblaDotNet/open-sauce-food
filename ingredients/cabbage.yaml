@@ -1,0 +1,23 @@
+id: cabbage
+kind: ingredient
+canonical_name: cabbage
+names:
+  en: cabbage
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 1
+  observed_terms:
+  - term: cabbage
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+  legacy_terms:
+  - term: cabbage
+    count: 1
+observed_qualifiers:
+- value: bite-sized pieces
+  count: 1
+- value: white
+  count: 1

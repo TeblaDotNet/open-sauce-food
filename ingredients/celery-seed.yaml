@@ -1,0 +1,15 @@
+id: celery-seed
+kind: ingredient
+canonical_name: celery seed
+names:
+  en: celery seed
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: celery seed
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce

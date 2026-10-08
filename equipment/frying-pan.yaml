@@ -1,0 +1,45 @@
+id: frying-pan
+kind: equipment
+canonical_name: frying pan
+names:
+  en-GB: frying pan
+  en-US: skillet
+status: reviewed-merge
+aliases:
+  - name: skillet
+    type: regional-name
+    observed_count: 7
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: frying pan
+      count: 7
+    - term: skillet
+      count: 7
+  seen_in:
+    - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+    - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+    - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+    - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+    - examples/public-domain-recipes/french-toast/french-toast.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+    - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+    - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+    - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+    - examples/public-domain-recipes/zopf/zopf.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: cast iron
+    count: 1
+  - value: for onion
+    count: 1
+  - value: large
+    count: 2
+  - value: non-stick
+    count: 1
+  - value: nonstick
+    count: 1
+  - value: small
+    count: 1

@@ -1,0 +1,12 @@
+id: garnish
+kind: process
+names:
+  en: garnish
+observed_forms:
+- syntax: garnish
+  count: 4
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

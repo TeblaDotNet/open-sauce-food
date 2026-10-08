@@ -1,0 +1,9 @@
+id: cornstarch
+kind: ingredient
+names:
+  en: cornstarch
+observed_forms:
+- syntax: cornstarch
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce

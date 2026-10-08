@@ -1,0 +1,42 @@
+id: ferment
+kind: process
+canonical_name: ferment
+names:
+  en: ferment
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: ferment
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/kvass/kvass.opensauce
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+observed_parameters:
+- value: 1 week or until bubbling stops
+  count: 1
+- value: 10-14 days
+  count: 1
+- value: 26-30°C / 79-86°F
+  count: 1
+- value: 3-14 days
+  count: 1
+- value: at least 2 weeks
+  count: 1
+- value: burp daily if tight lid
+  count: 1
+- value: preferably 60-70°F / 15-20°C
+  count: 1
+- value: release pressure every other day
+  count: 1
+- value: room temperature
+  count: 1
+- value: until desired flavour and texture
+  count: 1
+- value: warm dark spot
+  count: 2
+- value: warm place
+  count: 1

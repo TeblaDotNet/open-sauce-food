@@ -1,0 +1,36 @@
+{
+  "title": "Glühwein - mulled wine",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/gluehwein.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "a4ea5fc0312ae5e286bad6c4e1e83d912f43e129e94d2790f9ea6ed807c6670f",
+  "original_front_matter": {
+    "title": "Glühwein - mulled wine",
+    "date": "2021-03-19",
+    "tags": [
+      "drink",
+      "quick",
+      "swiss",
+      "german",
+      "french"
+    ],
+    "author": "bernhard-egger"
+  },
+  "source_url": "https://publicdomainrecipes.com/gluehwein/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

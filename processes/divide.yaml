@@ -1,0 +1,38 @@
+id: divide
+kind: process
+canonical_name: divide
+names:
+  en: divide
+status: canonical-seed
+evidence:
+  current_recipe_count: 6
+  current_observation_count: 7
+  legacy_observation_count: 2
+  observed_terms:
+  - term: divide
+    count: 7
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+  - term: divide
+    count: 2
+observed_parameters:
+- value: '2'
+  count: 1
+- value: 4 bowls
+  count: 1
+- value: 4 equal pieces
+  count: 1
+- value: half
+  count: 3
+- value: quarters
+  count: 1
+- value: thirds
+  count: 1
+- value: two or three sections according to region
+  count: 1

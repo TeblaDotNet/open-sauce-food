@@ -1,0 +1,33 @@
+id: broil
+kind: process
+canonical_name: broil
+names:
+  en: broil
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: broil
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+observed_parameters:
+- value: 3-4m at end
+  count: 1
+- value: 3-5m more
+  count: 1
+- value: 5m
+  count: 1
+- value: first side quite done then turn and broil other
+  count: 1
+- value: source says very thoroughly done
+  count: 1
+- value: until golden brown
+  count: 1
+- value: until melted
+  count: 1

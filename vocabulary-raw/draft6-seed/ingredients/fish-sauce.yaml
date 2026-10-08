@@ -1,0 +1,10 @@
+id: fish-sauce
+kind: ingredient
+names:
+  en: fish sauce
+observed_forms:
+- syntax: fish sauce
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

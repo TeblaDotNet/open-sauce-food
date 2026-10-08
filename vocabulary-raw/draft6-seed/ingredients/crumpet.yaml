@@ -1,0 +1,13 @@
+id: crumpet
+kind: ingredient
+names:
+  en: crumpet
+observed_forms:
+- syntax: crumpet, thin fingers
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: thin fingers
+  count: 1
+legacy_observation: true

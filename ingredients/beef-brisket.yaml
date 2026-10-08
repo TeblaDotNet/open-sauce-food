@@ -1,0 +1,18 @@
+id: beef-brisket
+kind: ingredient
+canonical_name: beef brisket
+names:
+  en: beef brisket
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: beef brisket
+    count: 1
+observed_qualifiers:
+- value: large chunks
+  count: 1

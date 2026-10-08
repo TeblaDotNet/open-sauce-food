@@ -1,0 +1,15 @@
+id: cabbage
+kind: ingredient
+names:
+  en: cabbage
+observed_forms:
+- syntax: cabbage, white, bite-sized pieces
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: bite-sized pieces
+  count: 1
+- value: white
+  count: 1
+legacy_observation: true

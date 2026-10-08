@@ -1,0 +1,79 @@
+::recipe
+
+name: Oat Milk
+source: https://publicdomainrecipes.com/oat-milk/
+source author: machocam
+source license: Public domain (Unlicense)
+units: source
+tags: oat, drink, breakfast
+yield: 1 litre
+
+# Original source: ../../../source/public-domain-recipes/oat-milk/oat-milk.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 7-10 min
+# Conversion note: Yield 1L, but water quantity missing; oats measured by volume. Cannot infer 1L water or oat mass from final yield.
+
+::ingredients
+
+(oat) 250ml
+(salt) 0.5tsp
+(peanut butter) 0.7tbsp
+(water) as needed for desired consistency, amount not stated
+(ice, optional) as needed
+
+::equipment
+
+(blender)
+(cheese cloth)
+
+::instructions
+
+(water) <refrigerate, roughly 4°C>
+Optional [
+    (ice) <add, to make colder>
+]
+(water) + (oat) + (salt) + (peanut butter) <combine, blender>
+    <blend, high speed, 15s, avoid mixture getting hot>
+    <strain, cheese cloth>
+# Source permits adjusting water for consistency; retained oats may be used in baking.
+
+::story
+Oat milk with great consistency.
+
+::notes
+You want to avoid the mix getting hot, otherwise the proteins will denaturate and make the drink slimy.
+You can add or reduce water content to reach desired consistency.
+The oat left in the cheese cloth can be used to bake, it's mainly just fibre.
+
+::source
+<<<
+---
+title: "Oat Milk"
+date: 2025-09-20
+tags: ['oat', 'drink', 'breakfast']
+author: machocam
+---
+
+Oat milk with great consistency.
+
+- ⏲️ Prep time: 7-10 min
+
+## Ingredients
+
+This is for 1L of oat milk.
+
+- 250 ml of oat
+- 0.5 teaspoon of salt
+- 0.7 tablespoon of peanut butter
+
+## Directions
+
+1. Put your water in the fridge so that it's at roughly 4 °C. You can also add ice to make it colder.
+2. Add all ingredients into blender.
+3. Blend for 15 seconds at high speed.
+4. Pass result through cheese cloth.
+
+You want to avoid the mix getting hot, otherwise the proteins will denaturate and make the drink slimy.
+You can add or reduce water content to reach desired consistency.
+The oat left in the cheese cloth can be used to bake, it's mainly just fibre.
+>>>

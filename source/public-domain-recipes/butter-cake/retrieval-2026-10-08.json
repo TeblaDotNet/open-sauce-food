@@ -1,0 +1,32 @@
+{
+  "title": "Butter Cake",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/butter-cake.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "2e6b3c2c955c3671ce2ca720ebe99bff7dcbe0fdb1e5314c87e8fba73f413e13",
+  "original_front_matter": {
+    "title": "Butter Cake",
+    "tags": [
+      "dessert",
+      "sweet",
+      "snack"
+    ],
+    "date": "2024-08-25",
+    "author": "Michael"
+  },
+  "source_url": "https://publicdomainrecipes.com/butter-cake/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Slowcooked Green Bean Beef Soup Supreme",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/slowcooked-green-bean-beef-soup-supreme.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "915fdce9ce612d1cba4570f2a8cb27097da4f2370eed681f006980c07fc4875f",
+  "original_front_matter": {
+    "title": "Slowcooked Green Bean Beef Soup Supreme",
+    "tags": [
+      "beef",
+      "vegetables",
+      "stew",
+      "soup",
+      "slowcooked",
+      "spicy"
+    ],
+    "date": "2025-11-13",
+    "author": "Bradley Gustin"
+  },
+  "source_url": "https://publicdomainrecipes.com/slowcooked-green-bean-beef-soup-supreme/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Slowcooked Green Bean Beef Soup Supreme",
+      "url": "/pix/slowcooked-green-bean-beef-soup-supreme.webp",
+      "upstreamPath": "static/pix/slowcooked-green-bean-beef-soup-supreme.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "b6ba26f39408991382533406aaddd90746115d1a924c0db9e7e29939535a70da",
+      "sourcePath": "source/public-domain-recipes/slowcooked-green-bean-beef-soup-supreme/slowcooked-green-bean-beef-soup-supreme.webp",
+      "promotedPath": "examples/public-domain-recipes/slowcooked-green-bean-beef-soup-supreme/slowcooked-green-bean-beef-soup-supreme.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Sauerkraut",
+  "source_url": "https://publicdomainrecipes.com/sauerkraut/",
+  "source_author": "andrej-kirchmaier",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sauerkraut.md",
+  "original_sha256": "d434f16de52a7c366063094b0abf5aafd70877ed56ba7b48f948842300b2217e",
+  "original_front_matter": {
+    "title": "Sauerkraut",
+    "date": "2021-03-11",
+    "tags": [
+      "german",
+      "cabbage",
+      "side",
+      "fasting"
+    ],
+    "author": "andrej-kirchmaier"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- 1 head of cabbage\n- 2-4% sea salt by cabbage weight",
+  "directions_source_markdown": "1. Prepare and clean as many glass jars as you think you'll need.\n2. Chop or shred cabbage and rinse under cold water. Sprinkle with salt.\n3. Knead the cabbage with clean hands for about 10 minutes until there is enough liquid to cover it.\n4. Stuff the cabbage into a glass jar, pressing the cabbage underneath the liquid. If necessary, add a bit of water to completely cover the cabbage.\n5. Cover the jar with a tight lid, airlock lid, or coffee filter secured with a rubber band.\n6. Culture at room temperature (60-70°F/15-20°C is preferred) for at least 2 weeks, until desired flavor and texture is achieved. If using a tight lid, burp it daily to release excess pressure.\n7. Once the sauerkraut is finished, put a tight lid on the jar and move to cold storage. The sauerkraut's flavor will continue to develop as it ages.",
+  "images": [
+    {
+      "alt": "Sauerkraut",
+      "source_url": "https://publicdomainrecipes.com/pix/sauerkraut.webp",
+      "source_reference": "/pix/sauerkraut.webp",
+      "status": "retrieved",
+      "filename": "sauerkraut.webp",
+      "sha256": "2e2b753e537048c1f66b6f22b7e3ce6935bcaf1d06b1bfc7357df7714c611ed3"
+    }
+  ],
+  "coverage_group": "drinks-preserves-fermentation"
+}

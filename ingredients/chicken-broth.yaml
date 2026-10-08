@@ -1,0 +1,21 @@
+id: chicken-broth
+kind: ingredient
+canonical_name: chicken broth
+names:
+  en: chicken broth
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: chicken broth
+      count: 5
+  seen_in:
+    - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+    - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+    - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+    - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: low sodium
+    count: 1

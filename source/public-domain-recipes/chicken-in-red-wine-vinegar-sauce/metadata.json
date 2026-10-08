@@ -1,0 +1,33 @@
+{
+  "title": "Chicken in Red Wine Vinegar Sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/chicken-in-red-wine-vinegar-sauce.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "34ef1eff0f8e3c7f0f9a8b0fd9dad41bedf4edfb3386a2929e5ae3599d9944bc",
+  "original_front_matter": {
+    "title": "Chicken in Red Wine Vinegar Sauce",
+    "date": "2021-03-16",
+    "tags": [
+      "chicken",
+      "french",
+      "wine"
+    ]
+  },
+  "source_url": "https://publicdomainrecipes.com/chicken-in-red-wine-vinegar-sauce/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

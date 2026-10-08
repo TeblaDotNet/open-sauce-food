@@ -1,0 +1,24 @@
+id: cumin
+kind: ingredient
+canonical_name: cumin
+names:
+  en: cumin
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 3
+  observed_terms:
+  - term: cumin
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+  - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+  legacy_terms:
+  - term: cumin
+    count: 3
+observed_qualifiers:
+- value: ground
+  count: 3

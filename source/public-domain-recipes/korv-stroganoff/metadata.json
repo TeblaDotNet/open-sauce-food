@@ -1,0 +1,39 @@
+{
+  "title": "Korv Stroganoff",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/korv-stroganoff.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "47e06cdb746ee2dc6ef98e4e8046361c7c901c3de6b7f732431919288c3008ad",
+  "original_front_matter": {
+    "title": "Korv Stroganoff",
+    "tags": [
+      "swedish",
+      "quick",
+      "sausage"
+    ],
+    "date": "2022-07-16"
+  },
+  "source_url": "https://publicdomainrecipes.com/korv-stroganoff/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Korv Stroganoff",
+      "url": "/pix/korv-stroganoff.webp",
+      "upstreamPath": "static/pix/korv-stroganoff.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "f8b562651227ba68b8969dcd17d14190248cedc461f4df4530e18bc77fd286ee",
+      "sourcePath": "source/public-domain-recipes/korv-stroganoff/korv-stroganoff.webp",
+      "promotedPath": "examples/public-domain-recipes/korv-stroganoff/korv-stroganoff.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

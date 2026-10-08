@@ -1,0 +1,28 @@
+id: mustard
+kind: ingredient
+canonical_name: mustard
+names:
+  en: mustard
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: mustard
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+  - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+  - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+observed_qualifiers:
+- value: dijon
+  count: 2
+- value: Dijon
+  count: 1
+- value: optional
+  count: 1
+- value: yellow
+  count: 1

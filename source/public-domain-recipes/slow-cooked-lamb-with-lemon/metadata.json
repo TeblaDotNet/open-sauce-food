@@ -1,0 +1,41 @@
+{
+  "title": "Slow-cooked Lamb with Lemon",
+  "source_url": "https://publicdomainrecipes.com/slow-cooked-lamb-with-lemon/",
+  "source_author": "ben-stox",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/slow-cooked-lamb-with-lemon.md",
+  "original_sha256": "fac418e0b5606defd7b68c0e9f3975ebba7350c2a8081b0c64c8d5734c954c98",
+  "original_front_matter": {
+    "title": "Slow-cooked Lamb with Lemon",
+    "author": "ben-stox",
+    "tags": [
+      "lamb",
+      "roast",
+      "lemon",
+      "mediterranean"
+    ],
+    "date": "2022-04-16"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- Lamb shoulder, or something similar, like lamb shank, preferably on the bone. Get something that will fit in your pot, with room for vegetables around it. For example, I usually get half a shoulder, 2 – 3 lbs, 1 – 1.5kg.\n- a whole head of garlic\n- 2 carrots\n- 1 leek\n- 1 onion\n- 2 lemons\n- oregano\n- rosemary\n- potatoes (optional)\n- yoghurt (optional, to serve)\n- fresh bread (optional, to serve)",
+  "directions_source_markdown": "1. _On the night before:_ Mix up some olive oil, the juice of half a lemon, the oregano, the rosemary, and some salt and pepper. Rub this mixture into the meat and leave it in the fridge overnight to marinate.\n2. _The next day:_ Heat the oven to 375°F/190°C/gas mark 5.\n3. Break apart the garlic. You can leave the skin on the cloves, or you can peel them, as you prefer. Chop the carrots, leek, onion, the remaining lemon, and the potatoes into chunks.\n4. Arrange the meat in the pot with the vegetables underneath and around it. Pour in any marinating juices, as well as a cup of water.\n5. Cook for 2½ – 3 hours. Half way through it's a good idea to check and see if it needs some more water to keep things from burning.\n6. Remove the lid and let the meat brown for a few minutes if you think it needs it.\n7. Pull the meat apart and serve, with yoghurt and fresh bread. You can use the juices as a gravy.",
+  "images": [
+    {
+      "alt": "Slow-cooked Lamb with Lemon",
+      "source_url": "https://publicdomainrecipes.com/pix/slow-cooked-lamb-with-lemon.webp",
+      "source_reference": "/pix/slow-cooked-lamb-with-lemon.webp",
+      "status": "retrieved",
+      "filename": "slow-cooked-lamb-with-lemon.webp",
+      "sha256": "426e65244b4985b611c784e74bdb90c316251eec05be6008f228eafd2190be47"
+    }
+  ],
+  "coverage_group": "meat"
+}

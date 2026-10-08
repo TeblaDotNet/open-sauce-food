@@ -1,0 +1,24 @@
+id: wash
+kind: process
+canonical_name: wash
+names:
+  en: wash
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: wash
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+  - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+observed_parameters:
+- value: and drain if needed
+  count: 1
+- value: cold water
+  count: 1

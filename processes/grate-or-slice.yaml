@@ -1,0 +1,15 @@
+id: grate-or-slice
+kind: process
+canonical_name: grate or slice
+names:
+  en: grate or slice
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: grate or slice
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce

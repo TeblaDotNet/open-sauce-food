@@ -1,0 +1,12 @@
+id: bay-leaf
+kind: ingredient
+names:
+  en: bay leaf
+observed_forms:
+- syntax: bay leaf
+  count: 3
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- legacy-corpus:bbc-food-10
+legacy_observation: true

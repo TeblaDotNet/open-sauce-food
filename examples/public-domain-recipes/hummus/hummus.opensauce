@@ -1,0 +1,111 @@
+::recipe
+
+name: Hummus
+source: https://publicdomainrecipes.com/hummus/
+source author: jacob-smith
+source license: Public domain (Unlicense)
+ingredients: US
+units: US
+category: dip
+tags: chickpeas, tahini
+dietary: vegan
+total time: ~45m
+image: hummus.webp
+
+::ingredients
+
+(chickpeas, canned) 1 can
+(baking soda) 1/2tsp
+(tahini) 1/2 cup
+(lemon juice, fresh preferred) 1/4 cup or more to taste / ~1 1/2-2 lemons
+(garlic, roughly chopped) 1-2 cloves
+(cumin, ground) 1/4tsp
+(za'atar, optional) 1/4tsp
+(olive oil) 1tbsp + extra for serving
+(parsley, fresh, optional, for serving) as needed
+(salt) 1/4tsp + more to taste
+(water, ice-cold) 2tbsp + more as needed
+(sumac, optional, for serving) as needed
+(dukkah, optional, for serving) as needed
+
+::equipment
+
+(saucepan)
+(mesh strainer)
+(food processor)
+(serving bowl)
+
+::instructions
+
+(chickpeas) <drain>
+    <rinse>
+
+# Source discrepancy: ingredient list says 1/2tsp baking soda; method says 1tsp.
+(chickpeas) + (baking soda) 1tsp
+    <cover, water, a few inches>
+    <boil>
+    <cook, ~20m, until skins fall off and beans are very soft>
+
+Meanwhile [
+    {garlic lemon} =
+        (garlic) +
+        (lemon juice) +
+        (salt) 1/4tsp
+
+    {garlic lemon} <process, food processor, until fine and uniform>
+        <rest, at least 10m>
+]
+
+(chickpeas) <drain, mesh strainer>
+    <rinse, cold water, at least 30s>
+
+{hummus} =
+    {garlic lemon} +
+    (tahini)
+
+{hummus} <blend, until creamy>
+
+{hummus} + (water, ice-cold) 2tbsp
+    <drizzle in, food processor on high>
+    <process, until lighter and thick>
+
+{hummus} +
+    (chickpeas) +
+    (cumin)
+
+Optional [
+    {hummus} + (za'atar) <mix>
+]
+
+{hummus} <pulse, a few times>
+    <process, high>
+
+{hummus} + (olive oil) 1tbsp
+    <drizzle in, slowly>
+    <process, 1-3m, until smooth>
+
+Optional [
+    {hummus} + (water, ice-cold) as needed <thin>
+]
+
+{hummus} <taste>
+    <adjust, lemon juice and salt>
+
+{hummus} <transfer, serving bowl>
+    <smooth surface>
+
+{hummus} + (olive oil) extra for serving
+    <top>
+
+Optional [
+    {hummus} + (parsley) + (za'atar) + (sumac) + (dukkah)
+        <garnish>
+]
+
+[
+    {hummus} <serve, immediately>
+]
+-OR-
+[
+    {hummus} <store, airtight container, refrigerator, up to 1 week>
+]

@@ -1,0 +1,11 @@
+id: chicken-stock
+kind: ingredient
+names:
+  en: chicken stock
+observed_forms:
+- syntax: chicken stock
+  count: 2
+seen_in:
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- legacy-corpus:bbc-food-10
+legacy_observation: true

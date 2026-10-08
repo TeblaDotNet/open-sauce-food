@@ -1,0 +1,91 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Chilli con Carne
+source: https://publicdomainrecipes.com/pork-based-chili-con-carne/
+source author: siggines
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: mexican, beans, pork
+
+# Imported from content/pork-based-chili-con-carne.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 1-2 hours
+
+::ingredients
+
+(chorizo pork sausage)
+(pork mince)
+(bacon strips)
+(tomato sauce)
+(chili)
+(kidney beans)
+(olive oil)
+(wine)
+(butter)
+(ingredient described in source, spices)
+
+::instructions
+
+As pan heats: Slice chilies and chorizo as desired
+Olive oil in pan heat on high
+Pork mince in.
+<butter, add>
+Bacon add
+<add, 3/4 of tomato sauce>
+<add, chilies and chorizo>
+<add, spices and beans. Then wait until audible spitting of sauce has lasted for around 40 min>
+<add, remainder of sauce>
+(wine) <add>
+Lower flame, cover pan, then maintain a gentle simmer for 20-40 min
+
+::story
+
+Thinly minced and non-lean mince is preferred. Spices shall be left to the choice of the cook, if at all desired. Mince should be broken up well before cooking.
+
+
+::source
+<<<
+---
+title: "Chilli con Carne"
+date: 2021-03-12
+tags: ['mexican', 'beans', 'pork']
+author: siggines
+---
+
+Thinly minced and non-lean mince is preferred.
+Spices shall be left to the choice of the cook, if at all desired.
+Mince should be broken up well before cooking.
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 1-2 hours
+
+## Ingredients
+
+- Chorizo pork sausage
+- Pork mince
+- Bacon strips
+- Tomato sauce
+- Chilis
+- Kidney beans
+- Olive oil
+- Wine
+- Butter
+- (spices)
+
+## Directions
+
+1. As pan heats: Slice chilies and chorizo as desired
+2. Olive oil in pan heat on high
+3. Pork mince in.
+3. Butter add
+4. Bacon add
+5. Add 3/4 of tomato sauce
+6. Add chilies and chorizo
+7. Add spices and beans. Then wait until audible spitting of sauce has lasted for around 40 min
+8. Add remainder of sauce
+9. Add wine
+10. Lower flame, cover pan, then maintain a gentle simmer for 20-40 min
+>>>

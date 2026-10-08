@@ -1,0 +1,134 @@
+schema_version: '0.1'
+principle: Minimise concepts, not accepted vocabulary. Merge only high-confidence synonyms/regional names/spelling or phrase aliases in this pass.
+ingredients:
+- from: bell pepper
+  to: sweet pepper
+  type: regional-name
+- from: capsicum
+  to: sweet pepper
+  type: regional-name
+- from: cayenne
+  to: cayenne pepper
+  type: short-name
+- from: chili
+  to: chilli
+  type: regional-spelling
+- from: chili pepper
+  to: chilli
+  type: regional-name
+- from: chili powder
+  to: chilli powder
+  type: regional-spelling
+- from: cilantro
+  to: coriander leaves
+  type: regional-name
+- from: cocoa-nut
+  to: coconut
+  type: historical-spelling
+- from: cornstarch
+  to: cornflour
+  type: regional-name
+- from: eggplant
+  to: aubergine
+  type: regional-name
+- from: garam masala powder
+  to: garam masala
+  type: name-alias
+- from: green onion
+  to: spring onion
+  type: regional-name
+- from: paprica
+  to: paprika
+  type: source-spelling
+- from: puff-paste
+  to: puff pastry
+  type: historical-name
+- from: tomato puré
+  to: tomato puree
+  type: spelling
+- from: tumeric
+  to: turmeric
+  type: source-spelling
+- from: white cannelini beans
+  to: cannellini beans
+  type: source-spelling
+- from: yogurt
+  to: yoghurt
+  type: spelling-regional
+- from: zucchini
+  to: courgette
+  type: regional-name
+equipment:
+- from: Dutch oven
+  to: dutch oven
+  type: case-normalisation
+- from: aluminum foil
+  to: aluminium foil
+  type: regional-spelling
+- from: baking sheet
+  to: baking tray
+  type: regional-name
+- from: cheese cloth
+  to: cheesecloth
+  type: spelling
+- from: cooking pot
+  to: pot
+  type: name-alias
+- from: cupcake tin
+  to: muffin tin
+  type: near-synonym
+- from: cutting board
+  to: chopping board
+  type: regional-name
+- from: foil
+  to: aluminium foil
+  type: short-name
+- from: parchment paper
+  to: baking paper
+  type: regional-name
+- from: skillet
+  to: frying pan
+  type: regional-name
+- from: soup-plate
+  to: soup plate
+  type: spelling
+- from: tin foil
+  to: aluminium foil
+  type: colloquial-name
+processes:
+- from: bring to boil
+  to: boil
+  type: phrase-alias
+- from: bring to simmer
+  to: simmer
+  type: phrase-alias
+- from: drizzle in
+  to: drizzle
+  type: phrase-alias
+- from: fold in
+  to: fold
+  type: phrase-alias
+- from: plait
+  to: braid
+  type: regional-name
+- from: remove from heat
+  to: remove
+  type: phrase-specialisation
+- from: remove pulp
+  to: remove
+  type: phrase-specialisation
+- from: remove stems
+  to: remove
+  type: phrase-specialisation
+- from: serve alongside
+  to: serve
+  type: phrase-alias
+- from: serve with
+  to: serve
+  type: phrase-alias
+- from: smooth surface
+  to: smooth
+  type: phrase-specialisation
+- from: stir in
+  to: stir
+  type: phrase-alias

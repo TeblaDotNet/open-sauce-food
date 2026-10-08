@@ -1,0 +1,46 @@
+{
+  "title": "Älplermagronen (Alpine macaroni)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/aelplermagronen.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "f2142fdc73999267b74d7dc26c761cd9237703580c8d1728b42099494787e0bc",
+  "original_front_matter": {
+    "title": "Älplermagronen (Alpine macaroni)",
+    "date": "2021-03-11",
+    "tags": [
+      "swiss",
+      "pork",
+      "potato",
+      "pasta"
+    ],
+    "author": "alexander-bocken"
+  },
+  "source_url": "https://publicdomainrecipes.com/aelplermagronen/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Älplermagronen",
+      "url": "/pix/aelplermagronen.webp",
+      "upstreamPath": "static/pix/aelplermagronen.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "5c3a573693bb9248d0219474c2fe352b5923f783a6e375d158e5572a95ca0fa7",
+      "sourcePath": "source/public-domain-recipes/aelplermagronen/aelplermagronen.webp",
+      "promotedPath": "examples/public-domain-recipes/aelplermagronen/aelplermagronen.webp"
+    }
+  ],
+  "caveats": [
+    {
+      "category": "source ambiguity",
+      "evidence": "Method adds butter if needed, salt and optional nutmeg, absent from the formal ingredient list; source numbering skips 6.",
+      "decision": "Retain method wording without inventing amounts or a missing step."
+    },
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

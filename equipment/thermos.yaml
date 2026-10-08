@@ -1,0 +1,13 @@
+id: thermos
+kind: equipment
+canonical_name: thermos
+names:
+  en: thermos
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/greek-yogurt/greek-yogurt.opensauce
+  - examples/public-domain-recipes/yogurt/yogurt.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

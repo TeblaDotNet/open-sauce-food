@@ -1,0 +1,9 @@
+id: fenugreek-powder
+kind: ingredient
+names:
+  en: fenugreek powder
+observed_forms:
+- syntax: fenugreek powder
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

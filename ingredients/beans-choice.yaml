@@ -1,0 +1,15 @@
+id: beans-choice
+kind: ingredient
+canonical_name: beans choice
+names:
+  en: beans choice
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: beans choice
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce

@@ -1,0 +1,77 @@
+::recipe
+
+name: Rice Pudding
+source: https://publicdomainrecipes.com/rice-pudding/
+source author: Miss Leslie
+source license: Public domain (Unlicense)
+units: source
+tags: rice, dessert, pudding
+
+# Original source: ../../../source/public-domain-recipes/rice-pudding/rice-pudding.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Half wine-glass; milk or cream and milk; no baking temperature or duration. Measure capacity and bake settings unknown; fruit addition placed before bake from at the last.
+
+::ingredients
+
+(rice) 1/4lb
+(butter) 1/4lb
+(sugar) 1/4lb
+(milk choice) = (milk) 1 1/2 pints -OR- (cream and milk) 1 1/2 pints
+(egg) 6
+(mixed spice, mace and nutmeg and cinnamon) 1 tea-spoonful
+(rose-water) 1/2 wine-glass
+(nutmeg, for top) as needed
+(fruit choice, optional) = (currants) as needed -OR- (raisins) as needed
+(flour, for optional fruit) as needed
+(water, for washing and boiling rice) as needed
+
+::equipment
+
+(pan)
+(oven)
+
+::instructions
+
+(rice) <wash> <boil, until very soft> <drain> <cool>
+{butter mixture} = (butter) + (sugar) <stir, pan, until very light>
+    + (mixed spice) + (rose-water) <add>
+{egg mixture} = (egg) <beat, very light>
+    + (milk choice) <stir, gradually>
+{butter mixture} + {egg mixture} + (rice) <stir, alternate egg mixture with rice>
+Optional [
+    (fruit choice) + (flour) <coat> <stir, into pudding at last>
+]
+{pudding} <bake, temperature and duration not stated>
+    + (nutmeg) <grate, over top>
+    <cool> <serve, cold or quite cool>
+
+::notes
+It should be eaten cold, or quite cool.
+
+::source
+<<<
+---
+title: "Rice Pudding"
+tags: ['rice', 'dessert', 'pudding']
+date: 1832-01-01
+author: "Miss Leslie"
+---
+
+## Ingredients
+
+- A quarter of a pound of rice.
+- A quarter of a pound of butter.
+- A quarter of a pound of sugar.
+- A pint and a half of milk, or cream and milk.
+- Six eggs.
+- A tea-spoonful of mixed spice, mace, nutmeg and cinnamon.
+- A half wine-glass of rose-water.
+
+## Directions
+
+1. Wash the rice. Boil it till very soft. Drain it and set it away to get cold. Put the butter and sugar together in a pan, and stir them till very light. Add to them the spice and rose-water. Beat the eggs very light, and stir them, gradually, into the milk. Then stir the eggs and the milk into the butter and sugar, alternately with the rice.
+2. Bake it and grate nutmeg over the top.
+3. Currants or raisins, floured, and stirred in at the last, will greatly improve it.
+
+It should be eaten cold, or quite cool.
+>>>

@@ -1,0 +1,21 @@
+id: pepper
+kind: ingredient
+names:
+  en: pepper
+observed_forms:
+- syntax: pepper, deseeded, thinly sliced
+  count: 1
+- syntax: pepper, red, deseeded, cubed
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: cubed
+  count: 1
+- value: deseeded
+  count: 2
+- value: red
+  count: 1
+- value: thinly sliced
+  count: 1
+legacy_observation: true

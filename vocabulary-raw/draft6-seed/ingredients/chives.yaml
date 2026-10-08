@@ -1,0 +1,9 @@
+id: chives
+kind: ingredient
+names:
+  en: chives
+observed_forms:
+- syntax: chives
+  count: 1
+seen_in:
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce

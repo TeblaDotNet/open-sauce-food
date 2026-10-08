@@ -1,0 +1,39 @@
+id: fold
+kind: process
+canonical_name: fold
+names:
+  en: fold
+status: reviewed-merge
+aliases:
+- name: fold in
+  type: phrase-alias
+  observed_count: 4
+evidence:
+  current_recipe_count: 6
+  current_observation_count: 9
+  legacy_observation_count: 0
+  observed_terms:
+  - term: fold
+    count: 5
+  - term: fold in
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+  - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+observed_parameters:
+- value: gently
+  count: 2
+- value: gradually
+  count: 1
+- value: if cocoa batter was made use ~1/3 of meringue for it and remainder for plain batter
+  count: 1
+- value: sides into centre then top and bottom over centre
+  count: 1
+- value: thirds
+  count: 1
+- value: two ends over butter to enclose
+  count: 1

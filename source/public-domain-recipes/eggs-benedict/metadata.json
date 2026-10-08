@@ -1,0 +1,45 @@
+{
+  "title": "Eggs Benedict",
+  "source_url": "https://publicdomainrecipes.com/eggs-benedict/",
+  "source_author": "Enzo Stever",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/eggs-benedict.md",
+  "original_sha256": "923e0499760624fd467c87020fe4b12880b51fca3f345b114ab1eb3f58e8e37e",
+  "original_front_matter": {
+    "title": "Eggs Benedict",
+    "tags": [
+      "breakfast",
+      "brunch",
+      "american",
+      "pork"
+    ],
+    "date": "2024-07-22",
+    "author": "Enzo Stever"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "15 min",
+    "Cook time": "20 min",
+    "Servings": "2"
+  },
+  "ingredients_source_markdown": "- 3 egg yolks\n- 1 tablespoon lemon juice\n- 1/2 cup unsalted butter, melted\n- Cayenne pepper or hot sauce, to taste (optional)\n- 4 eggs\n- 1 tablespoon white vinegar\n- 2 english muffins or toast, split\n- 4 slices of Canadian bacon or ham\n- Butter, for spreading on muffins (optional)\n- Chives, finely chopped (optional)",
+  "directions_source_markdown": "1. **Blend Yolks and Lemon Juice**: In a blender, blend the yolks and lemon juice to create the base for the hollandaise sauce. This can optionally be done in a double boiler on a gentle simmer with whisking instead of blending to reduce curdling.\n2. **Drizzle Butter**: Slowly pour in the melted butter while blending. The sauce should thicken and become creamy. If it becomes too viscous, add a little warm water or lemon juice to thin it out.\n3. **Season Sauce**: Season to taste with cayenne pepper or hot sauce.\n4. **Heat Water to Simmer**: Prepare a large saucepan with at least four inches of water and bring it to a gentle simmer. Add the vinegar to help the egg whites set.\n5. **Poach Eggs 3-4 Minutes**: Gently slide the eggs into the simmering water. It helps to crack the eggs into a small bowl or ladle, bring the vessel to the surface of the water, and then drop the egg in that way. While cooking, take a spoon and stir the water into a little whirlpool; this can help displace the excess egg whites, giving the poached eggs a cleaner, firmer appearance. Cook for 3-4 minutes.\n6. **Remove Eggs**: Remove the eggs with a slotted spoon and place them on a paper towel-lined plate to drain.\n7. **Toast Muffins**: Halve the muffins and toast them. Optionally butter both halves. You could substitute the muffins with any kind of spongey bread.\n8. **Cook Bacon**: In a skillet on medium heat, cook the Canadian bacon or ham until slightly browned.\n9. **Assemble**: Place a slice of Canadian bacon on each toasted muffin half, top with a poached egg and a generous amount of hollandaise sauce. Garnish with cut chives and more cayenne pepper if desired.",
+  "images": [
+    {
+      "alt": "eggs-benedict",
+      "source_url": "https://publicdomainrecipes.com/pix/eggs-benedict.webp",
+      "source_reference": "/pix/eggs-benedict.webp",
+      "status": "retrieved",
+      "filename": "eggs-benedict.webp",
+      "sha256": "6c6517805d61402a84d13805693ada3d557e847791014996251f49e49e7593c0"
+    }
+  ],
+  "coverage_group": "mixed"
+}

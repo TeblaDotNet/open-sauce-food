@@ -1,0 +1,31 @@
+{
+  "title": "Fish Curry",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/fish-curry.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "4918e1de0b861a8458dad7f1555342cf4e0e41652ffa4fc84efe6d33e1b40024",
+  "original_front_matter": {
+    "title": "Fish Curry",
+    "date": "2021-03-15",
+    "tags": [
+      "thai",
+      "fish"
+    ],
+    "author": "thijs-wester"
+  },
+  "source_url": "https://publicdomainrecipes.com/fish-curry/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

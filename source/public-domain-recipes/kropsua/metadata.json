@@ -1,0 +1,40 @@
+{
+  "title": "Kropsua (Finnish Baked Pancake)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/kropsua.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "ae784d3406ca6b6a97ec6f2bd134f2d48f8fe28d841dd47b30b7ddb7c02ad102",
+  "original_front_matter": {
+    "title": "Kropsua (Finnish Baked Pancake)",
+    "tags": [
+      "finnish",
+      "pancake",
+      "breakfast"
+    ],
+    "date": "2023-05-04",
+    "author": "albert-elmore"
+  },
+  "source_url": "https://publicdomainrecipes.com/kropsua/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "kropsua",
+      "url": "/pix/kropsua.webp",
+      "upstreamPath": "static/pix/kropsua.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "7a15d9832e7a1b85e9d2b08993d1c0733656fc6b71081137ab6d7460d683bca2",
+      "sourcePath": "source/public-domain-recipes/kropsua/kropsua.webp",
+      "promotedPath": "examples/public-domain-recipes/kropsua/kropsua.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

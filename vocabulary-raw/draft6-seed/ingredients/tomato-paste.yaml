@@ -1,0 +1,9 @@
+id: tomato-paste
+kind: ingredient
+names:
+  en: tomato paste
+observed_forms:
+- syntax: tomato paste
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce

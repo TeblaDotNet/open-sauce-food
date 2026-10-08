@@ -1,0 +1,62 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Simple Creamy Pasta Sauce
+source: https://publicdomainrecipes.com/simple-pasta-cream-sauce/
+source author: herzeleid02
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: basic, quick, sauce, pasta
+serves: 1
+
+# Imported from content/simple-pasta-cream-sauce.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 2 min
+# Source metadata: - 🍳 Cook time: 3 mins
+# Source metadata: - 🍽️ Servings: 1
+
+::ingredients
+
+(dairy liquid cream, 10%+ fat recommended)
+(flour, Wheat flour recommended)
+
+::equipment
+
+(saucepan)
+
+::instructions
+
+<add, 1 teaspoon of flour into a saucepan>
+<pour, ~60ml(2fl oz|1/4 cup) of cream into a saucepan>
+<stir, and turn on maximum heat>
+<keep, stirring until it becomes thick. If the sauce is too liquid, add more flour, if the sauce is too solid (like a uncooked pancake), add more cream>
+<mix, the sauce with the pasta>
+
+::source
+<<<
+---
+title: "Simple Creamy Pasta Sauce"
+date: 2021-03-23
+tags: ['basic', 'quick', 'sauce', 'pasta']
+author: "herzeleid02"
+---
+
+- ⏲️  Prep time: 2 min
+- 🍳  Cook time: 3 mins
+- 🍽️  Servings: 1
+
+## Ingredients
+
+- Dairy liquid cream (10%+ fat recommended)
+- Flour (Wheat flour recommended)
+
+## Directions
+
+ 1. Add 1 teaspoon of flour into a saucepan.
+ 2. Pour ~60ml(2fl oz|1/4 cup) of cream into a saucepan.
+ 3. Stir and turn on maximum heat.
+ 4. Keep stirring until it becomes thick.
+ If the sauce is too liquid, add more flour, if the sauce is too solid (like a uncooked pancake), add more cream.
+ 5. Mix the sauce with the pasta.
+>>>

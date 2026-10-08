@@ -1,0 +1,9 @@
+id: thin
+kind: process
+names:
+  en: thin
+observed_forms:
+- syntax: thin
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce

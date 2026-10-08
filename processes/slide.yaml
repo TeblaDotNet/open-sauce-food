@@ -1,0 +1,25 @@
+id: slide
+kind: process
+canonical_name: slide
+names:
+  en: slide
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: slide
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+observed_parameters:
+- value: gently into water
+  count: 1
+- value: optionally via small bowl or ladle at water surface
+  count: 1
+- value: single layer
+  count: 1
+- value: under skin
+  count: 1

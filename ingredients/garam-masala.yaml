@@ -1,0 +1,23 @@
+id: garam-masala
+kind: ingredient
+canonical_name: garam masala
+names:
+  en: garam masala
+status: reviewed-merge
+aliases:
+- name: garam masala powder
+  type: name-alias
+  observed_count: 1
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: garam masala
+    count: 2
+  - term: garam masala powder
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce

@@ -1,0 +1,35 @@
+{
+  "title": "Honey Garlic Chicken with Broccoli and Brown Rice",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/honey-garlic-chicken.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "32ee3d8c0b73372e8191050ca5a9665dfbd8187c68c202f889fbace64c2f798c",
+  "original_front_matter": {
+    "title": "Honey Garlic Chicken with Broccoli and Brown Rice",
+    "date": "2021-05-08",
+    "tags": [
+      "chicken",
+      "broccoli",
+      "rice",
+      "quick"
+    ],
+    "author": "Connor McLean"
+  },
+  "source_url": "https://publicdomainrecipes.com/honey-garlic-chicken/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

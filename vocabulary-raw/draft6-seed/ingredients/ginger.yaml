@@ -1,0 +1,32 @@
+id: ginger
+kind: ingredient
+names:
+  en: ginger
+observed_forms:
+- syntax: ginger, fresh, peeled, chopped
+  count: 1
+- syntax: ginger, minced
+  count: 1
+- syntax: ginger, minced or paste
+  count: 1
+- syntax: ginger, shaved
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: chopped
+  count: 1
+- value: fresh
+  count: 1
+- value: minced
+  count: 1
+- value: minced or paste
+  count: 1
+- value: peeled
+  count: 1
+- value: shaved
+  count: 1
+legacy_observation: true

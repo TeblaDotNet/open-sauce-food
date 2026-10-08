@@ -1,0 +1,42 @@
+{
+  "title": "Lenten Chili",
+  "source_url": "https://publicdomainrecipes.com/lenten-chili/",
+  "source_author": "yorge-z",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/lenten-chili.md",
+  "original_sha256": "bc59d88766ae0c8b377863052886f642a7f8e9a79ef2081337d9863ceebf4bfc",
+  "original_front_matter": {
+    "title": "Lenten Chili",
+    "date": "2021-03-18",
+    "tags": [
+      "fasting"
+    ],
+    "author": "yorge-z"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Cook time": "30 min",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "- 1 large onion, chopped\n- 3 cloves garlic, minced\n- 4 15oz cans of kidney beans (or 6 cups cooked beans)\n- 1 29oz large can tomato sauce (or 4 cups fresh tomato sauce)\n- 1 15oz can diced tomatoes (or 1 large diced tomato with skin removed)\n- 1/2 can of sweet corn\n- 1 cup cooked white or brown rice\n- 1 tsp cumin\n- 1 tsp smoked paprika\n- 1 tsp garlic powder\n- 1 tsp onion powder\n- 1 tbsp chili powder\n- 1 tbsp crushed red pepper\n- 2-3 tbsp olive oil",
+  "directions_source_markdown": "1. Chop the large onion and mince the garlic cloves.\n2. On medium-low heat in a large tall pot add 2-3 tbsp olive oil.\n3. Add the chopped onions into the pot with oil and constantly stir for 5-10 minutes until they begin to brown.\n4. Just before onions are done add the minced garlic to the pot and let cook for 1-2 minutes.\n5. Add the tomato sauce, diced tomatoes, sweet corn, beans, and rice.\n6. Turn up the heat to medium.\n6. Add each of the spices, taste the chili, and adjust flavoring accordingly.\n7. Let cook for 20-30 minutes, stirring occasionally.\n\nLet cool for a few minutes and then serve in bowls.",
+  "images": [
+    {
+      "alt": "Lenten chili",
+      "source_url": "https://publicdomainrecipes.com/pix/lenten-chili.webp",
+      "source_reference": "/pix/lenten-chili.webp",
+      "status": "retrieved",
+      "filename": "lenten-chili.webp",
+      "sha256": "058207bb0ad5a8639cec6071ff5c48bba97e7a9c9c815a27e662935d9ad7ab84"
+    }
+  ],
+  "coverage_group": "vegetable-pulses"
+}

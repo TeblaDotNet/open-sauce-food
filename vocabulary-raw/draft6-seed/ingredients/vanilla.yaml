@@ -1,0 +1,9 @@
+id: vanilla
+kind: ingredient
+names:
+  en: vanilla
+observed_forms:
+- syntax: vanilla
+  count: 1
+seen_in:
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce

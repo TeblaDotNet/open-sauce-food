@@ -1,0 +1,10 @@
+id: roasting-tin
+kind: equipment
+names:
+  en: roasting tin
+observed_forms:
+- syntax: roasting tin
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

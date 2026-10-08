@@ -1,0 +1,9 @@
+id: caraway
+kind: ingredient
+names:
+  en: caraway
+observed_forms:
+- syntax: caraway
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce

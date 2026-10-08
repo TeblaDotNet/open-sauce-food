@@ -1,0 +1,9 @@
+id: glass-container
+kind: equipment
+names:
+  en: glass container
+observed_forms:
+- syntax: glass container
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

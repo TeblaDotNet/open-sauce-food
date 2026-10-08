@@ -1,0 +1,68 @@
+::recipe
+
+name: Baked Trout
+source: https://publicdomainrecipes.com/baked-trout/
+# Source author not stated.
+source license: Public domain (Unlicense)
+units: source
+tags: fish
+
+# Original source: ../../../source/public-domain-recipes/baked-trout/baked-trout.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Ingredient list says garlic power; method says garlic powder. Likely typo documented instead of silently disregarded.
+
+::ingredients
+
+(trout, cleaned) quantity unspecified
+(bacon) very thin slice per fish
+(garlic choice) = (garlic) as needed -OR- (garlic powder) as needed
+(butter) thin slice per fish
+(cayenne, optional) as desired
+
+::equipment
+
+(foil)
+(pan)
+
+::instructions
+
+(trout) <clean>
+    <wrap, very thin bacon slice per fish>
+    + (garlic choice) <sprinkle, minced garlic or powder>
+Optional [
+    (trout) + (cayenne) <season>
+]
+(butter) <slice, thin>
+(trout) + (butter) <place, middle of fish>
+    <enclose, foil with overlap>
+    <place, pan>
+    <bake, in foil, 350f / 175c, 15m>
+    <check, skin peels easily from meat as source doneness test>
+    <remove, foil>
+    <serve>
+
+::source
+<<<
+---
+title: "Baked Trout"
+date: 2025-11-09
+tags: ['fish']
+---
+
+## Ingredients
+
+- cleaned trout
+- bacon
+- garlic (or garlic power)
+- butter
+- cayenne (optional)
+
+## Directions
+
+1. Clean the trout and wrap each fish in a very thin slice of bacon, sprinkled with minced garlic (or garlic powder), and seasoned with cayenne (optional).
+2. Cut a thin slice of butter and set in the middle of the trout.
+3. Enclose each fish in foil, cut larger than to fit so there is some overlap.
+4. Lay the trout in a pan, and bake them in the foil at 350 F/175 C for 15 minutes.
+5. To confirm the fish is finished, the skin of the trout should peel easily from the meat.
+6. Remove from foil and serve.
+>>>

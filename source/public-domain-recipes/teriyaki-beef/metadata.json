@@ -1,0 +1,40 @@
+{
+  "title": "Teriyaki Beef Wok",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/teriyaki-beef.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "94a3ec9e789974483301d25bc572f9b83f2578da746183f9754baca0d31b15eb",
+  "original_front_matter": {
+    "title": "Teriyaki Beef Wok",
+    "tags": [
+      "beef",
+      "asian",
+      "noodles"
+    ],
+    "date": "2022-08-20",
+    "author": "Lars Henrik Bolstad"
+  },
+  "source_url": "https://publicdomainrecipes.com/teriyaki-beef/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Teriyaki Beef Wok",
+      "url": "/pix/teriyaki-beef.webp",
+      "upstreamPath": "static/pix/teriyaki-beef.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "a949130102e49f49132cbacc7d46f7e091bf44beeae51b7d73e24f7e0fa2f491",
+      "sourcePath": "source/public-domain-recipes/teriyaki-beef/teriyaki-beef.webp",
+      "promotedPath": "examples/public-domain-recipes/teriyaki-beef/teriyaki-beef.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Croque-monsieur bites",
+  "source_url": "https://publicdomainrecipes.com/croque-monsieur/",
+  "source_author": "SofianeHamlaoui",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/croque-monsieur.md",
+  "original_sha256": "1b22796ad0a7ad279f60de4f3ccea9dc1371b17441d3c6e82f7c122123aebbbd",
+  "original_front_matter": {
+    "title": "Croque-monsieur bites",
+    "tags": [
+      "quick",
+      "cheese",
+      "french"
+    ],
+    "date": "2022-06-24",
+    "author": "SofianeHamlaoui"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Cook time": "10 min",
+    "Servings": "6"
+  },
+  "ingredients_source_markdown": "- For the bechamel\n  - 50g Butter\n  - 50g Flour\n  - 1 Liter of milk\n  - Salt\n  - Ground Pepper\n  - Nutmeg\n- For the bites\n  - 12 Slices of bread\n  - 2 Tbsp of Mustard\n  - 12 very thin slices of ham with Italian herbs\n  - 80g grated cheese (Emmental, Comté Gruyère Mimolette",
+  "directions_source_markdown": "1. Prepare the béchamel: melt the butter in a heavy-bottomed saucepan.\n2. As soon as it foams, sprinkle it with flour, salt, pepper, add a pinch of nutmeg, mix.\n3. Then pour in the milk, little by little (especially not all at once), stirring with a whisk each time, until the sauce thickens.\n4. Turn on the oven on th. 6/180°, take the baking sheet out of the oven and line it with aluminum foil.\n5. Spread 6 slices of bread in front of you, spread them with a little mustard, add a layer of béchamel, 1 slice of ham folded in 4, grated cheese, a layer of béchamel, put the other 6 slices of bread on the on top, add a thin layer of béchamel and distribute the rest of the grated cheese.\n6. Arrange the croque-monsieur on the baking sheet and put them in the oven for about 10 minutes.\n7. You can place them under the broiler for 3-4 minutes at the end.",
+  "images": [
+    {
+      "alt": "croquemsr",
+      "source_url": "https://publicdomainrecipes.com/pix/croque-monsieur.webp",
+      "source_reference": "/pix/croque-monsieur.webp",
+      "status": "retrieved",
+      "filename": "croque-monsieur.webp",
+      "sha256": "b406cf6391df25ffc4ce82805aa3f352d0131abdeb209761225fef720e513664"
+    }
+  ],
+  "coverage_group": "mixed"
+}

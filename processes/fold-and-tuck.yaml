@@ -1,0 +1,18 @@
+id: fold-and-tuck
+kind: process
+canonical_name: fold and tuck
+names:
+  en: fold and tuck
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: fold and tuck
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+observed_parameters:
+- value: excess crust
+  count: 1

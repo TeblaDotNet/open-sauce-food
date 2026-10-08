@@ -1,0 +1,22 @@
+id: dill
+kind: ingredient
+canonical_name: dill
+names:
+  en: dill
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: dill
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+  - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+observed_qualifiers:
+- value: fresh
+  count: 1
+- value: optional
+  count: 1

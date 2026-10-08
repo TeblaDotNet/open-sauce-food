@@ -1,0 +1,14 @@
+id: rosemary
+kind: ingredient
+names:
+  en: rosemary
+observed_forms:
+- syntax: rosemary, fresh, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce
+observed_qualifiers:
+- value: fresh
+  count: 1
+- value: optional
+  count: 1

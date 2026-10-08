@@ -1,0 +1,36 @@
+{
+  "title": "Sauerkraut",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sauerkraut.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "89ca4ded1614bb70ce4694ec558e76315dd287e14648b311e548b15cf8b26b30",
+  "original_front_matter": {
+    "title": "Sauerkraut",
+    "date": "2021-03-11",
+    "tags": [
+      "german",
+      "cabbage",
+      "side",
+      "fasting"
+    ],
+    "author": "andrej-kirchmaier"
+  },
+  "source_url": "https://publicdomainrecipes.com/sauerkraut/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Sauerkraut",
+      "url": "/pix/sauerkraut.webp",
+      "upstreamPath": "static/pix/sauerkraut.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

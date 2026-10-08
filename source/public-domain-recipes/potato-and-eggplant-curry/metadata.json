@@ -1,0 +1,32 @@
+{
+  "title": "Potato and Eggplant (Aubergine) Curry",
+  "source_url": "https://publicdomainrecipes.com/potato-and-eggplant-curry/",
+  "source_author": "luke-chadwick",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/potato-and-eggplant-curry.md",
+  "original_sha256": "bbdfc2a94de5d144750018435139dee80aa7f913dc113f51416b9f1dc4777c95",
+  "original_front_matter": {
+    "title": "Potato and Eggplant (Aubergine) Curry",
+    "date": "2021-03-11",
+    "tags": [
+      "indian",
+      "curry",
+      "potato",
+      "fasting"
+    ],
+    "author": "luke-chadwick"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- 1 large eggplant (aubergine)\n- 2 medium potatoes\n- 3 tbsp olive oil\n- 2 onions (finely sliced)\n- 2 garlic cloves (crushed)\n- 2 tsp [garam masala](/garam-masala)\n- 2 tsp turmeric\n- 2 tsp ground coriander\n- 400 ml can chopped tomatoes\n- 400 ml can coconut milk\n- rice\n\n### Optional extras\n- carrots\n- red peppers (capsicums)\n- paneer",
+  "directions_source_markdown": "1. Heat the oven to approximately 200 °C (392 °F).\n2. Cut the eggplant into 1 cm (⅓\") slices and place on a tray. Cover with a layer of oil and bake for 20 minutes.\n3. Cook the sliced onions with oil until soft on medium (about 5-6 minutes).\n4. Add the garlic, garam masala, turmeric and ground coriander and allow to release aroma for a minute or two.\n5. Tip in the canned tomatoes and coconut milk. Add the eggplant, and chunks of potato.\n  - It is possible to add additional vegetables at this step. I have on occasion added carrots and red peppers (capsicums).\n7. Cover and simmer for ~15-20 minutes.\n8. Boil 2 serves of rice\n9. Remove the lid and cook for a further 5 minutes, or until reduced.\n  - A nice optional addition at this point is paneer.\n10. Serve with the rice",
+  "images": [],
+  "coverage_group": "vegetable-pulses"
+}

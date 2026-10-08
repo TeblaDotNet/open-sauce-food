@@ -1,0 +1,58 @@
+id: pot
+kind: equipment
+canonical_name: pot
+names:
+  en: pot
+status: reviewed-merge
+aliases:
+  - name: cooking pot
+    type: name-alias
+    observed_count: 1
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: cooking pot
+      count: 1
+    - term: pot
+      count: 23
+  seen_in:
+    - examples/public-domain-recipes/aljotta/aljotta.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+    - examples/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce
+    - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+    - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+    - examples/public-domain-recipes/granita/granita.opensauce
+    - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+    - examples/public-domain-recipes/jam/jam.opensauce
+    - examples/public-domain-recipes/kvass/kvass.opensauce
+    - examples/public-domain-recipes/lentejas/lentejas.opensauce
+    - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+    - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+    - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
+    - examples/public-domain-recipes/orange-jam/orange-jam.opensauce
+    - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+    - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+    - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+    - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+    - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+    - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+    - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: 3.75 QT
+    count: 1
+  - value: large
+    count: 3
+  - value: lidded
+    count: 1
+  - value: oven-safe
+    count: 1
+  - value: soup
+    count: 1
+  - value: tall
+    count: 1
+  - value: thick-bottomed
+    count: 1

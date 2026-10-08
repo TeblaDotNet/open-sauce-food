@@ -1,0 +1,72 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Swedish Pancakes
+source: https://publicdomainrecipes.com/swedish-pancakes/
+source author: Matt Bogenhagen
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: breakfast, swedish, pancake
+serves: 4
+image: swedish-pancakes.webp
+
+# Imported from content/swedish-pancakes.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 30 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(egg, beaten) 3
+(salt) 1 tsp
+(sugar) 1 tbsp
+(flour) 1 cup
+(milk) 1 - 2/3 cups
+(butter) 6-8 tbsp
+
+::equipment
+
+(bowl)
+
+::instructions
+
+At medium/low heat begin melting the butter, and continue with beating eggs in large bowl, add salt, sugar, milk, flour and mix.
+<add, melted butter while stirring batter>
+<use, about 1/2 cup batter on griddle and tilt until spread evenly over griddle surface>
+When edges of pancake start to firm-up use spatula and free up the outside inch or two to achieve a clean removal for flipping later.
+First side will take about a minute or more the second side will take half that time. Pick up at middle of pancake with spatula then place on plate and fold over. The pancake will then be four layers thick 10" x 2" long. Serve with syrup on top or anything you choose, my wife likes peanut butter and I prefer to spread a little butter on it before adding syrup. Maybe you prefer adding fruits of your choice.
+
+::source
+<<<
+---
+title: "Swedish Pancakes"
+date: 2021-03-21
+tags: ['breakfast', 'swedish', 'pancake']
+author: "Matt Bogenhagen"
+---
+
+![Swedish Pancakes](/pix/swedish-pancakes.webp)
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 30 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 3 Eggs, beaten
+- 1 tsp Salt
+- 1 tbsp Sugar
+- 1 cup Flour
+- 1 - 2/3 cups Milk
+- 6-8 tbsp Butter
+
+## Directions
+
+1. At medium/low heat begin melting the butter, and continue with beating eggs in large bowl, add salt, sugar, milk, flour and mix.
+2. Add melted butter while stirring batter.
+3. Use about 1/2 cup batter on griddle and tilt until spread evenly over griddle surface.
+4. When edges of pancake start to firm-up use spatula and free up the outside inch or two to achieve a clean removal for flipping later.
+5. First side will take about a minute or more the second side will take half that time. Pick up at middle of pancake with spatula then place on plate and fold over. The pancake will then be four layers thick 10" x 2" long. Serve with syrup on top or anything you choose, my wife likes peanut butter and I prefer to spread a little butter on it before adding syrup. Maybe you prefer adding fruits of your choice.
+>>>

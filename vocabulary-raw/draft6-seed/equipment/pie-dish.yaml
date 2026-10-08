@@ -1,0 +1,12 @@
+id: pie-dish
+kind: equipment
+names:
+  en: pie dish
+observed_forms:
+- syntax: pie dish, ~9in
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+observed_qualifiers:
+- value: ~9in
+  count: 1

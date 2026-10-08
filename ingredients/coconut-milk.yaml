@@ -1,0 +1,20 @@
+id: coconut-milk
+kind: ingredient
+canonical_name: coconut milk
+names:
+  en: coconut milk
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 1
+  observed_terms:
+  - term: coconut milk
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+  - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+  legacy_terms:
+  - term: coconut milk
+    count: 1

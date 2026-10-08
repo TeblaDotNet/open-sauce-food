@@ -1,0 +1,43 @@
+{
+  "title": "Greek Yogurt",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/greek-yogurt.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "6aaac1ee5b32b1ad8e8b22965ae2b9accff6d823994c53f23d4f89649154f6c6",
+  "original_front_matter": {
+    "title": "Greek Yogurt",
+    "date": "2022-04-16",
+    "tags": [
+      "basic",
+      "cheesefare"
+    ],
+    "author": "SuperDuperDeou"
+  },
+  "source_url": "https://publicdomainrecipes.com/greek-yogurt/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    {
+      "category": "source ambiguity",
+      "evidence": "Near-duplicate of yogurt; adds cheesecloth straining for 30 minutes to 4 hours.",
+      "decision": "Keep as a distinct authored preparation; do not silently merge. Equipment was listed among ingredients and is separated here."
+    },
+    {
+      "category": "safety",
+      "evidence": "12h incubation, 45°C target, thermos washing and refrigeration directions.",
+      "decision": "Preserve source instructions without independently endorsing fermentation safety."
+    },
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

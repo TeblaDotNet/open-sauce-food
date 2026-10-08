@@ -1,0 +1,90 @@
+id: garlic
+kind: ingredient
+canonical_name: garlic
+names:
+  en: garlic
+status: canonical-seed
+evidence:
+  legacy_observation_count: 5
+  observed_terms:
+    - term: garlic
+      count: 34
+  seen_in:
+    - examples/public-domain-recipes/aljotta/aljotta.opensauce
+    - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+    - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+    - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+    - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+    - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+    - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+    - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+    - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+    - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/ketchup/ketchup.opensauce
+    - examples/public-domain-recipes/lentejas/lentejas.opensauce
+    - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+    - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+    - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+    - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+    - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+    - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+    - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+    - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+    - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+    - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+    - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+    - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+    - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+    - term: garlic
+      count: 5
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: chopped
+    count: 1
+  - value: crushed
+    count: 2
+  - value: diced
+    count: 1
+  - value: finely chopped
+    count: 1
+  - value: finely grated
+    count: 1
+  - value: for aioli only
+    count: 1
+  - value: large
+    count: 2
+  - value: minced
+    count: 9
+  - value: minced or crushed
+    count: 2
+  - value: not traditional
+    count: 1
+  - value: optional
+    count: 3
+  - value: pressed
+    count: 1
+  - value: roughly chopped
+    count: 2
+  - value: sliced
+    count: 1
+  - value: sliced or diced
+    count: 1
+  - value: slivers
+    count: 1
+  - value: small
+    count: 1
+parts:
+  clove:
+    names:
+      en: clove
+    plural_names:
+      en: cloves

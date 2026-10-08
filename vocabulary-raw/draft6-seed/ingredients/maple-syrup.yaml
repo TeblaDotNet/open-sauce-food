@@ -1,0 +1,10 @@
+id: maple-syrup
+kind: ingredient
+names:
+  en: maple syrup
+observed_forms:
+- syntax: maple syrup
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

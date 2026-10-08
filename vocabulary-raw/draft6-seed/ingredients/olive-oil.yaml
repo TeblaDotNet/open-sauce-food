@@ -1,0 +1,11 @@
+id: olive-oil
+kind: ingredient
+names:
+  en: olive oil
+observed_forms:
+- syntax: olive oil
+  count: 2
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- legacy-corpus:bbc-food-10
+legacy_observation: true

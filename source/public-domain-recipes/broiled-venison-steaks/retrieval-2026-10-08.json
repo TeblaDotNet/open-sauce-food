@@ -1,0 +1,31 @@
+{
+  "title": "Broiled Venison Steaks",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/broiled-venison-steaks.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "b279938b5c47cec3d6a873ec76c82c2a79ba873568b90066ec7ff2ab49cd8a3c",
+  "original_front_matter": {
+    "title": "Broiled Venison Steaks",
+    "date": "1857-03-11",
+    "tags": [
+      "venison",
+      "meat"
+    ],
+    "author": "Miss Leslie"
+  },
+  "source_url": "https://publicdomainrecipes.com/broiled-venison-steaks/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

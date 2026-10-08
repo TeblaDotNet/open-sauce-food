@@ -1,0 +1,24 @@
+id: dust
+kind: process
+canonical_name: dust
+names:
+  en: dust
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: dust
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/pizza-dough/pizza-dough.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+observed_parameters:
+- value: flour
+  count: 2
+- value: generously with flour
+  count: 1
+- value: table
+  count: 1

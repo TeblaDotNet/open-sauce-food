@@ -1,0 +1,83 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Winter Risotto
+source: https://publicdomainrecipes.com/winter-risotto/
+source author: joel-maxuel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: mushrooms, rice, italian
+serves: 4
+
+# Imported from content/winter-risotto.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15 min
+# Source metadata: - 🍳 Cook time: 40 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(arborio rice) 3/4 cup
+(baby spinach) 1 cup
+(garlic cloves) 2
+(vegetable broth) 4 1/2 cup
+(parmesan cheese, shredded) 1/4 cup
+(baby tomatoes) 1/2 lb
+(white wine vinegar) 1 Tbsp
+(walnuts, chopped) 1/4 cup
+(leek, sliced) 1/2 cup
+(mushrooms) 1 cup
+(butter; unsalted) 3 Tbsp
+
+::equipment
+
+(baking sheet)
+(oven)
+(bowl)
+(pot)
+
+::instructions
+
+(vegetable broth) <combine, in a medium pot. Cover and bring to a gentle boil over medium heat. While broth comes to a boil, peel and mince/grate the garlic. Roughly chop the spinach. Thinly slice mushrooms>
+<heat, a large non-stick pan over medium heat. When hot, add the butter, onions, leeks, and mushrooms. Season with salt. Cook, stirring occasionally, until softened (2-3 mins). Add rice, garlic, and vinegar. Cook, stirring constantly until fragrant (1-2 min)>
+<add, 1 cup broth from the medium pot to the pan with rice. Stir until broth has been absorbed by rice. Continue adding broth 1 cup at a time, stirring regularly, until liquid is absorbed, the texture is creamy and the rice is tender (28-30 mins)>
+While risotto cooks, add tomatoes and a tablespoon of oil to a parchment-lined baking sheet. Season with salt and pepper, then toss to coat. Roast on the middle rack of the oven until tomatoes start to burst （10-11 mins）.
+When the last cup of broth has been absorbed and rice is tender and creamy, add Parmesan and spinach to risotto. Stir until spinach wilts （3-4 mins）. Stir in roasted tomatoes. Divide risotto between bowls. Sprinkle walnuts over top.
+
+::source
+<<<
+---
+title: Winter Risotto
+tags: ['mushrooms', 'rice', 'italian']
+date: 2022-08-09
+author: joel-maxuel
+---
+
+- ⏲️ Prep time: 15 min
+- 🍳 Cook time: 40 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 3/4 cup Arborio Rice
+- 1 cup Baby Spinach
+- 2 Garlic Cloves
+- 4 1/2 cup Vegetable Broth
+- 1/4 cup Parmesan Cheese, shredded
+- 1/2 lb Baby Tomatoes
+- 1 Tbsp White Wine Vinegar
+- 1/4 cup Walnuts, chopped
+- 1/2 cup Leek, sliced
+- 1 cup Mushrooms
+- 3 Tbsp Unsalted Butter
+
+
+## Directions
+
+1. Combine vegetable broth in a medium pot. Cover and bring to a gentle boil over medium heat. While broth comes to a boil, peel and mince/grate the garlic. Roughly chop the spinach. Thinly slice mushrooms.
+2. Heat a large non-stick pan over medium heat. When hot, add the butter, onions, leeks, and mushrooms. Season with salt. Cook, stirring occasionally, until softened (2-3 mins). Add rice, garlic, and vinegar. Cook, stirring constantly until fragrant (1-2 min).
+3. Add 1 cup broth from the medium pot to the pan with rice. Stir until broth has been absorbed by rice. Continue adding broth 1 cup at a time, stirring regularly, until liquid is absorbed, the texture is creamy and the rice is tender (28-30 mins).
+4. While risotto cooks, add tomatoes and a tablespoon of oil to a parchment-lined baking sheet. Season with salt and pepper, then toss to coat. Roast on the middle rack of the oven until tomatoes start to burst (10-11 mins).
+5. When the last cup of broth has been absorbed and rice is tender and creamy, add Parmesan and spinach to risotto. Stir until spinach wilts (3-4 mins). Stir in roasted tomatoes. Divide risotto between bowls. Sprinkle walnuts over top.
+>>>

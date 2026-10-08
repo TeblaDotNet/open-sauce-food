@@ -1,0 +1,8 @@
+id: jug
+kind: equipment
+names:
+  en: jug
+observed_forms:
+  - syntax: jug
+    count: 1
+seen_in: []

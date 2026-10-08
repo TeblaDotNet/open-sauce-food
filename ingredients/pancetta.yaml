@@ -1,0 +1,19 @@
+id: pancetta
+kind: ingredient
+canonical_name: pancetta
+names:
+  en: pancetta
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: pancetta
+      count: 3
+  seen_in:
+    - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+    - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: optional
+    count: 1

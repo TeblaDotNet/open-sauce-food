@@ -1,0 +1,28 @@
+id: add
+kind: process
+names:
+  en: add
+observed_forms:
+- syntax: add, final 5m
+  count: 1
+- syntax: add, final few minutes
+  count: 1
+- syntax: add, pan
+  count: 1
+- syntax: add, top
+  count: 1
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: final 5m
+  count: 1
+- value: final few minutes
+  count: 1
+- value: pan
+  count: 1
+- value: top
+  count: 1
+legacy_observation: true

@@ -1,0 +1,22 @@
+id: tomato-sauce
+kind: ingredient
+canonical_name: tomato sauce
+names:
+  en: tomato sauce
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: tomato sauce
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+observed_qualifiers:
+- value: canned
+  count: 1
+- value: fresh
+  count: 1

@@ -1,0 +1,9 @@
+id: cumin-seeds
+kind: ingredient
+names:
+  en: cumin seeds
+observed_forms:
+- syntax: cumin seeds
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

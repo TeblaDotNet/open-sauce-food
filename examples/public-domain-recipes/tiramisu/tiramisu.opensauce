@@ -1,0 +1,62 @@
+::recipe
+
+name: Tiramisù
+source: https://publicdomainrecipes.com/tiramisu/
+source author: pestanzul
+source license: Public domain (Unlicense)
+units: metric
+category: dessert
+tags: coffee, mascarpone, chilled
+dietary: vegetarian
+serves: 8
+active time: ~20m
+total time: ~3h20m
+image: tiramisu.webp
+
+::ingredients
+
+(egg) 4
+(sugar) 100g
+(mascarpone) 500g
+(savoiardi biscuits) 300g
+(coffee, room temperature) as needed
+(cocoa powder) as needed
+
+::equipment
+
+(bowl) 2
+(baking tray)
+(refrigerator)
+
+::instructions
+
+(egg: yolk) <separate>
+(egg: white) <separate>
+
+{cream} =
+    (egg: yolk) +
+    (sugar)
+
+{cream} <beat>
+    + (mascarpone)
+    <stir, until uniform>
+
+(egg: white) <beat, until stiff>
+
+{cream} + (egg: white)
+    <fold in, gradually, gently>
+
+(baking tray) <layer, cream>
+
+Repeat [
+    (savoiardi biscuits) <soak, coffee>
+        <layer, baking tray>
+    {cream} <layer, baking tray>
+]
+until layers complete
+
+# Source recommends rotating the second biscuit layer 90 degrees for stability.
+(cocoa powder) <sprinkle, top>
+
+{tiramisu} <refrigerate, 3h>
+    <serve>

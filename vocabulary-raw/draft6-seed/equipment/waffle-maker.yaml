@@ -1,0 +1,9 @@
+id: waffle-maker
+kind: equipment
+names:
+  en: waffle maker
+observed_forms:
+- syntax: waffle maker
+  count: 1
+seen_in:
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce

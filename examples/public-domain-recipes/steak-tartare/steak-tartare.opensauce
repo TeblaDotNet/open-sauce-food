@@ -1,0 +1,92 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Steak Tartare
+source: https://publicdomainrecipes.com/steak-tartare/
+source author: dunkelheit-biz
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: beef, raw, quick
+serves: 4
+
+# Imported from content/steak-tartare.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍽️ Servings: 4
+# safety: title: Steak Tartare — Preserve source wording; no safety assurance inferred. Human safety review before practical reliance.
+# safety: Steak Tartare is a dish prepared using raw ground / minced beef and egg yolk. A popular dish in Europe, this recipe is a good stepping stone into the world of raw meats, organs and pates. — Preserve source wording; no safety assurance inferred. Human safety review before practical reliance.
+
+::ingredients
+
+(beef, Ground, Lean as possible)
+(egg)
+(onion or shallots)
+(capers)
+(gherkin / cornichons)
+(parsley, Optional)
+(ketchup, Optional)
+(mustard, Optional)
+(worcestershire sauce, Optional)
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<dice, your onions or shallots>
+Finely slice your cornichons.
+<rinse, , drain and chop your capers>
+<chop, parsley. (Optional)>
+<chop, ground beef into smaller pieces>
+<add, the above to a mixing bowl and mix with hands>
+<add, ketchup, mustard or Worcestershire sauce as needed and mix further. (Optional)>
+<separate, an egg yolk from the whites>
+Loosely roll some of the mixture into a ball in your hand and place onto a plate and press softly to form a bowl shape, add egg yolk to indentation.
+<serve, , you may now add salt and pepper as desired>
+
+::story
+
+Steak Tartare is a dish prepared using raw ground / minced beef and egg yolk. A popular dish in Europe, this recipe is a good stepping stone into the world of raw meats, organs and pates.
+
+
+::source
+<<<
+---
+title: Steak Tartare
+tags: ['beef', 'raw', 'quick']
+date: 2022-05-22
+author: dunkelheit-biz
+---
+
+Steak Tartare is a dish prepared using raw ground / minced beef and egg yolk. A popular dish in Europe, this recipe is a good stepping stone into the world of raw meats, organs and pates.
+
+- ⏲️ Prep time: 10 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- Ground Beef (Lean as possible)
+- Eggs
+- Onion or Shallots
+- Capers
+- Gherkin / Cornichons
+- Parsley (Optional)
+- Ketchup (Optional)
+- Mustard (Optional)
+- Worcestershire Sauce (Optional)
+
+## Directions
+
+1. Dice your onions or shallots.
+2. Finely slice your cornichons.
+3. Rinse, drain and chop your capers.
+4. Chop parsley. (Optional)
+5. Chop ground beef into smaller pieces.
+6. Add the above to a mixing bowl and mix with hands.
+7. Add ketchup, mustard or Worcestershire sauce as needed and mix further. (Optional)
+8. Separate an egg yolk from the whites.
+9.  Loosely roll some of the mixture into a ball in your hand and place onto a plate and press softly to form a bowl shape, add egg yolk to indentation.
+10. Serve, you may now add salt and pepper as desired.
+>>>

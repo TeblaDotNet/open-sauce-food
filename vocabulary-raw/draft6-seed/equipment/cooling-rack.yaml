@@ -1,0 +1,11 @@
+id: cooling-rack
+kind: equipment
+names:
+  en: cooling rack
+observed_forms:
+- syntax: cooling rack
+  count: 2
+seen_in:
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+- legacy-corpus:bbc-food-10
+legacy_observation: true

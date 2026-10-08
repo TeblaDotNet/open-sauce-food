@@ -1,0 +1,25 @@
+id: jar
+kind: equipment
+canonical_name: jar
+names:
+  en: jar
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: jar
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+  - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+observed_qualifiers:
+- value: hot
+  count: 1
+- value: sterile
+  count: 1
+- value: wide-mouthed
+  count: 1

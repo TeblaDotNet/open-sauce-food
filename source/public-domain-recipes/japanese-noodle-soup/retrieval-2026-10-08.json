@@ -1,0 +1,35 @@
+{
+  "title": "Japanese Noodle Soup",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/japanese-noodle-soup.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "326c9b518bdbe693e38c2fca7df7200325eeaf85f95005c2358b91fb09574963",
+  "original_front_matter": {
+    "title": "Japanese Noodle Soup",
+    "date": "2021-03-12",
+    "tags": [
+      "japanese",
+      "chicken",
+      "soup"
+    ],
+    "author": "jake-keast"
+  },
+  "source_url": "https://publicdomainrecipes.com/japanese-noodle-soup/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Japanese Noodle Soup",
+      "url": "/pix/japanese-noodle-soup.webp",
+      "upstreamPath": "static/pix/japanese-noodle-soup.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

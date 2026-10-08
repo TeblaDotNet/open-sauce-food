@@ -1,0 +1,10 @@
+id: pour-over
+kind: process
+names:
+  en: pour over
+observed_forms:
+- syntax: pour over
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

@@ -1,0 +1,37 @@
+{
+  "title": "Stuffed Round Squash",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/stuffed-round-squash.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "022ee122b84d220cb9bb9fa12d726b31df7b7faf3742a522dc12e2e01b0e0434",
+  "original_front_matter": {
+    "title": "Stuffed Round Squash",
+    "date": "2021-03-13",
+    "tags": [
+      "supper",
+      "rice",
+      "vegetables",
+      "cheesefare",
+      "fasting"
+    ],
+    "author": "Marco Fleres"
+  },
+  "source_url": "https://publicdomainrecipes.com/stuffed-round-squash/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "",
+      "url": "/pix/stuffed-round-squash.webp",
+      "upstreamPath": "static/pix/stuffed-round-squash.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

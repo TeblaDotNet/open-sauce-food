@@ -1,0 +1,47 @@
+id: carrot
+kind: ingredient
+canonical_name: carrot
+names:
+  en: carrot
+status: canonical-seed
+evidence:
+  current_recipe_count: 13
+  current_observation_count: 13
+  legacy_observation_count: 2
+  observed_terms:
+  - term: carrot
+    count: 13
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/crab-salad/crab-salad.opensauce
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+  - examples/public-domain-recipes/lentejas/lentejas.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+  - term: carrot
+    count: 2
+observed_qualifiers:
+- value: chopped
+  count: 2
+- value: large
+  count: 1
+- value: medium
+  count: 1
+- value: optional
+  count: 1
+- value: peeled
+  count: 1
+- value: peeled and sliced
+  count: 1
+- value: thinly sliced
+  count: 1
+plural_names:
+  en: carrots

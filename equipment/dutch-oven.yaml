@@ -1,0 +1,26 @@
+id: dutch-oven
+kind: equipment
+canonical_name: dutch oven
+names:
+  en: dutch oven
+status: reviewed-merge
+aliases:
+- name: Dutch oven
+  type: case-normalisation
+  observed_count: 1
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: dutch oven
+    count: 2
+  - term: Dutch oven
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

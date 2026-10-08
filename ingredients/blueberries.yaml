@@ -1,0 +1,18 @@
+id: blueberries
+kind: ingredient
+canonical_name: blueberries
+names:
+  en: blueberries
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: blueberries
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+observed_qualifiers:
+- value: fresh
+  count: 1

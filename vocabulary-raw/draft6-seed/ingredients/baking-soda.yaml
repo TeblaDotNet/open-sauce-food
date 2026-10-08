@@ -1,0 +1,10 @@
+id: baking-soda
+kind: ingredient
+names:
+  en: baking soda
+observed_forms:
+- syntax: baking soda
+  count: 2
+seen_in:
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce

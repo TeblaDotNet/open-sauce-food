@@ -1,0 +1,17 @@
+id: food-processor
+kind: equipment
+names:
+  en: food processor
+observed_forms:
+- syntax: food processor
+  count: 3
+- syntax: food processor, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: optional
+  count: 1
+legacy_observation: true

@@ -1,0 +1,35 @@
+{
+  "title": "Paneer Tikka Masala",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/paneer-tikka-masala.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "d4eca6dacb9ae8cfdd37bb461d0e023dafe1123cfdf2a4a3221602917ba04ab7",
+  "original_front_matter": {
+    "title": "Paneer Tikka Masala",
+    "date": "2021-03-23",
+    "tags": [
+      "indian",
+      "lunch",
+      "spicy"
+    ],
+    "author": "arth-patel"
+  },
+  "source_url": "https://publicdomainrecipes.com/paneer-tikka-masala/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "paneer tikka masala",
+      "url": "/pix/paneer-tikka-masala.webp",
+      "upstreamPath": "static/pix/paneer-tikka-masala.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

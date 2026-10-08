@@ -1,0 +1,12 @@
+id: parmesan-cheese
+kind: ingredient
+names:
+  en: parmesan cheese
+observed_forms:
+- syntax: parmesan cheese, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

@@ -1,0 +1,34 @@
+{
+  "title": "Shakshouka",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/shakshouka.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "76a9f184f94de3b33e5e92f2f51bf5b69596830342132e6f2af86d8fef03371d",
+  "original_front_matter": {
+    "title": "Shakshouka",
+    "date": "2021-03-29",
+    "tags": [
+      "breakfast",
+      "quick"
+    ],
+    "author": "jakub-korsak"
+  },
+  "source_url": "https://publicdomainrecipes.com/shakshouka/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Shakshouka",
+      "url": "/pix/shakshouka.webp",
+      "upstreamPath": "static/pix/shakshouka.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

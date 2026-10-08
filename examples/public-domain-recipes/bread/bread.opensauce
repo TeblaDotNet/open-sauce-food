@@ -1,0 +1,123 @@
+::recipe
+
+name: Bread
+source: https://publicdomainrecipes.com/bread/
+source author: alex-selimov
+source license: Public domain (Unlicense)
+units: source
+tags: basic, bread, fasting
+image: bread.webp
+
+# Original source: ../../../source/public-domain-recipes/bread/bread.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Whole wheat note says 2 cups of whole wheat bread. Likely flour typo, but no ingredient substitution silently corrected.
+
+::ingredients
+
+(water, warm) 1 1/2 cups
+(active dry yeast) 2 1/4tsp
+(sugar) 1tsp
+(sweetener) = (maple syrup) 2tbsp -OR- (agave) 2tbsp -OR- (honey) 2tbsp
+(salt) 1/2tbsp
+(flour, unbleached all-purpose) 3 3/4 cups; extra for rolling / dusting
+# Method-only additions
+(greasing fat) = (nonstick spray) as needed -OR- (olive oil) as needed
+(water, hot, for steam) 1 cup
+
+::equipment
+
+(oven)
+(bowl, large)
+(spoon)
+(loaf tin) -OR- (baking sheet)
+(pan, metal)
+(knife)
+(cooling rack)
+
+::instructions
+
+(water) 1/4 cup <heat, ~110f / 43c, bath-water heat>
+{yeast mixture} = (water) 1/4 cup + (active dry yeast) + (sugar)
+{yeast mixture} <rest, ~10m, at least doubled in size>
+{dough} = (water) rest of + {yeast mixture} + (sweetener) + (salt) + (flour)
+{dough} <stir, large mixing bowl, until well combined and spoon no longer works>
+    <knead, and turn by hand in bowl>
+    <remove, bowl>
+(bowl) + (greasing fat) <grease, lightly>
+{dough} <place, bowl>
+    <cover>
+    <prove, room temperature, 2h>
+    <transfer, lightly floured surface>
+    <knead, until elastic, rule of thumb 10m>
+    <place, seam down, lightly greased loaf pan or baking sheet>
+    <cover, loosely with plastic wrap>
+    <rest, 45-60m>
+Meanwhile [
+    (oven) <preheat, near end of rest, 425f / 218c>
+    (pan, metal) <place, lowest oven rack, NOT glass or Pyrex or ceramic>
+    (water, for steam) <prepare, hot>
+]
+{loaf} <slash, 2 or 3 times, ~1/2in deep, when oven preheated>
+    <place, oven middle rack>
+(water, for steam) <pour, carefully into lower pan, expect steam and bubbling; close oven quickly>
+{bread} <bake, 26-35m, deep golden and risen, hollow when tapped>
+    <remove, oven>
+    <rest, pan, 5m>
+    <transfer, carefully, cooling rack>
+    <cool, completely before slicing>
+    <store, plastic bag, room temperature up to a few days; freeze for longer storage>
+
+::story
+This is a recipe for a basic loaf of bread. The dough itself can be used however. I've made buns, rolls, and whole bread loafs using this same exact dough every time without a problem.
+
+::notes
+Eat within 3 days as it will probably be going stale around then (as bread without preservatives and other junk should).
+
+Instant yeast is not recommended as you can't easily tell if the bread will come to life.
+For whole wheat version use 2 cups of whole wheat bread and 1 and 3/4 cup unbleached all purpose flour.
+Add sunflower seeds and/or rolled oats for extra flavor/grains.
+For buns or rolls divide dough into smaller pieces before second rest. Shape them and then let the dough rest. Recommended lowering oven temperature to 350 F and not using water as those will result in a hard crust and potentially dry interior.
+
+::source
+<<<
+---
+title: "Bread"
+date: 2021-03-10
+tags: ['basic', 'bread', 'fasting']
+author: alex-selimov
+---
+
+![Finished bread in its baking mold](/pix/bread.webp)
+
+This is a recipe for a basic loaf of bread. The dough itself can be used however. I've made buns, rolls, and whole bread loafs using this same exact dough every time without a problem. Eat within 3 days as it will probably be going stale around then (as bread without preservatives and other junk should).
+
+## Ingredients
+
+* 1 1/2 cups warm water
+* 2 and 1/4 teaspoons Active Dry Yeast
+* 1 Tsp sugar
+* 2 Tbsp  maple syrup, agave, or honey
+* 1/2 Tbsp salt
+* 3 3/4 cups Unbleached All-Purpose Flour (plus more for rolling / dusting)
+
+## Directions
+
+1. Proof the yeast. To do this warm 1/4 cup water to about bath water heat (110 degrees F, 43 degrees C) add active dry yeast and 1 Tsp sugar. Let sit for about 10 minutes, mixture should at least be doubled in size after waiting.
+1. Combine rest of water, yeast mixture, maple syrup (or other sweetener), salt, and flour in a large mixing bowl and stir. The result will be a sticky, rough dough. Use a spoon to stir until well combined and when it can no longer do the job, knead and turn it in the bowl with your hands.
+2. Lift the dough out and lightly grease the bowl with nonstick spray or olive oil. Cover and let rise for 2 hours at room temperature.
+3. Transfer dough to a lightly floured work surface and knead until dough is elastic. Rule of thumb is 10 minutes of kneading.
+4. Place seam-side down in a lightly greased loaf pan or baking sheet. Loosely cover with plastic wrap and let rest for 45-60 minutes.
+5. Preheat oven to 425 degrees F (218 C)* toward the end of the dough resting time and place a metal pan (NOT glass, Pyrex, or ceramic) on the lowest oven rack. Also have 1 cup of hot water ready.
+6. When the oven is preheated, slash the bread 2 or 3 times with a knife, making a cut about ½-inch deep.
+7. Place in oven on middle rack. Then carefully pour hot water into the shallow pan on the rack beneath. Expect it to bubble and steam; then close oven door quickly.
+8. Bake the bread for 26 to 35 minutes, or until deep golden brown and risen. Tapping the top of the loaf should produce a hollow sound.
+9. Remove the bread from the oven and let rest in the pan for 5 minutes. Then carefully remove from pan and transfer to a cooling rack to cool. Let it cool completely before slicing for best results (otherwise it can be doughy in the middle).
+10. Store leftovers in a plastic bag at room temperature for up to a few days. Transfer to freezer for longer term storage.
+
+## Notes
+
+* Instant yeast is not recommended as you can't easily tell if the bread will come to life.
+* For whole wheat version use 2 cups of whole wheat bread and 1 and 3/4 cup unbleached all purpose flour.
+* Add sunflower seeds and/or rolled oats for extra flavor/grains.
+* For buns or rolls divide dough into smaller pieces before second rest. Shape them and then let the dough rest. Recommended lowering oven temperature to 350 F and not using water as those will result in a hard crust and potentially dry interior.
+>>>

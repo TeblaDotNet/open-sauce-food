@@ -1,0 +1,23 @@
+id: sumac
+kind: ingredient
+canonical_name: sumac
+names:
+  en: sumac
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: sumac
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1
+- value: ground
+  count: 1
+- value: optional
+  count: 1

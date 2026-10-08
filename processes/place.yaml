@@ -1,0 +1,198 @@
+id: place
+kind: process
+canonical_name: place
+names:
+  en: place
+status: canonical-seed
+evidence:
+  legacy_observation_count: 4
+  observed_terms:
+    - term: place
+      count: 64
+  seen_in:
+    - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+    - examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce
+    - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+    - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+    - examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce
+    - examples/public-domain-recipes/ceviche/ceviche.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+    - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+    - examples/public-domain-recipes/crostata/crostata.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+    - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+    - examples/public-domain-recipes/jam/jam.opensauce
+    - examples/public-domain-recipes/ketchup/ketchup.opensauce
+    - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+    - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+    - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+    - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+    - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+    - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+    - examples/public-domain-recipes/pavlova/pavlova.opensauce
+    - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/pretzels/pretzels.opensauce
+    - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+    - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+    - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+    - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+    - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+    - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+    - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+    - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+    - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+    - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+    - term: place
+      count: 4
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 1 slice folded in 4 on each
+    count: 1
+  - value: 5cm diameter as stated in method
+    count: 1
+  - value: above vegetables
+    count: 1
+  - value: arrange borders along mold to contain jam
+    count: 1
+  - value: baking dish
+    count: 1
+  - value: baking mold
+    count: 1
+  - value: baking paper on tray
+    count: 2
+  - value: baking tray
+    count: 1
+  - value: beaker or narrow tall container
+    count: 1
+  - value: between two pieces of plastic wrap
+    count: 1
+  - value: big bowl
+    count: 1
+  - value: bit on each steak before lifting
+    count: 1
+  - value: board
+    count: 1
+  - value: bone down meat up
+    count: 1
+  - value: bottom of plate
+    count: 1
+  - value: bowl
+    count: 4
+  - value: breast down
+    count: 1
+  - value: centre
+    count: 1
+  - value: colander over bowl
+    count: 1
+  - value: cold pan
+    count: 1
+  - value: cookie sheet or baking pan
+    count: 1
+  - value: cover first 15m; omit water pan
+    count: 1
+  - value: criss-cross over filling
+    count: 1
+  - value: cutting board
+    count: 1
+  - value: dutch oven
+    count: 1
+  - value: face down
+    count: 1
+  - value: fat side down
+    count: 1
+  - value: floured chopping board
+    count: 1
+  - value: glass of water
+    count: 1
+  - value: grease pan
+    count: 1
+  - value: greased bowl
+    count: 1
+  - value: heat-safe chemically non-reactive vessel
+    count: 1
+  - value: heavily floured dish about dough size
+    count: 1
+  - value: high-temperature baking vessel such as 8in springform pan
+    count: 1
+  - value: hot oil
+    count: 1
+  - value: in and around fish
+    count: 1
+  - value: jar
+    count: 1
+  - value: large bowl
+    count: 1
+  - value: large thick-bottomed pot
+    count: 1
+  - value: lightly greased loaf pan or baking sheet
+    count: 1
+  - value: loosely in clean thin white cloth
+    count: 1
+  - value: lower rack for steam
+    count: 1
+  - value: lowest oven rack
+    count: 1
+  - value: meat side
+    count: 1
+  - value: medium saucepan
+    count: 1
+  - value: metal griddle in oven
+    count: 1
+  - value: middle of fish
+    count: 1
+  - value: NOT glass or Pyrex or ceramic
+    count: 1
+  - value: not running yet
+    count: 1
+  - value: not shallow; proving basket ideal
+    count: 1
+  - value: oven middle rack
+    count: 1
+  - value: pan
+    count: 6
+  - value: parchment-lined baking sheet
+    count: 1
+  - value: pastry middle
+    count: 1
+  - value: pot
+    count: 2
+  - value: rimmed baking sheet or large cast iron pan or casserole dish
+    count: 1
+  - value: sealable ziplock bag
+    count: 1
+  - value: seam down
+    count: 1
+  - value: slow cooker
+    count: 1
+  - value: smoker
+    count: 1
+  - value: source gives Pyrex as example
+    count: 1
+  - value: source says active starter floats
+    count: 1
+  - value: tray
+    count: 1
+  - value: trays
+    count: 1
+  - value: trays with parchment paper
+    count: 1
+  - value: two sheets tin foil
+    count: 1
+  - value: very bottom
+    count: 1
+  - value: when oven hot
+    count: 1

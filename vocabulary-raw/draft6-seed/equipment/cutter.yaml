@@ -1,0 +1,15 @@
+id: cutter
+kind: equipment
+names:
+  en: cutter
+observed_forms:
+- syntax: cutter, round, 5cm
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: 5cm
+  count: 1
+- value: round
+  count: 1
+legacy_observation: true

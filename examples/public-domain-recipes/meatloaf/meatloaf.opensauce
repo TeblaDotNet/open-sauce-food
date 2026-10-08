@@ -1,0 +1,117 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Meatloaf
+source: https://publicdomainrecipes.com/meatloaf/
+source author: ryan-wilson
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: beef, american, supper
+serves: 6+
+image: meatloaf.webp
+
+# Imported from content/meatloaf.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 30 min
+# Source metadata: - 🍳 Cook time: 1 hour 10 minutes
+# Source metadata: - 🍽️ Servings: 6+
+# safety: 7. Evenly distribute your mixed meat into 2 or 3 oven safe greased up dishes. Try to flatten the surface as much as you can. — Preserve source wording; no safety assurance inferred. Human safety review before practical reliance.
+
+::ingredients
+
+(beef, Ground) 4 1/2 pounds
+(onion) 1
+(bread) 2 Slices
+(egg) 4
+(milk) 1/4 Cup
+(garlic salt)
+(onion powder)
+(mustard)
+(sugar free ketchup)
+(cubes of brown sugar) 3
+(campbell's tomato soup) 1 Can
+(franks redhot sauce, Optional)
+
+::equipment
+
+(oven)
+(bowl)
+
+::instructions
+
+Once thawed, put all of your beef into a bowl. The next 4 steps will all go into this same bowl.
+<dice, the onion and bread slices into small pieces. Add them>
+<crack, and put in all of your eggs>
+<pour, in your milk, and a moderate amount of mustard and ketchup>
+<add, garlic salt and onion powder>
+Now you must use your （sanitized） hands and mix everything in the big bowl well. Make sure you get the bottom.
+Evenly distribute your mixed meat into 2 or 3 oven safe greased up dishes. Try to flatten the surface as much as you can.
+In each dish, create a small channel in the middle of each meatloaf. This is to maintain the shape as it's cooking.
+<put, all of your meatloaf filled dishes into the oven on 180 Celsius for 1 hour>
+Once you have about 15 minutes left on your timer, get started on your sauce.
+<toss, your 3 sugar cubes into a bowl with a little bit of hot water to melt them>
+<add, your tomato soup, 1/4 Cup of ketchup and mustard (each)>
+<stir, sauce until it's a thick, light red color>
+Once 1 hour is up, take out all of your meatloaf. Make sure to cut open the thickest meatloaf and confirm the beef is cooked.
+<coat, the top of each of your meatloaves with the sauce, evenly>
+Once coated, put back into the oven for 10 minutes.
+<take, out all of your meatloaf. Once cool, slice it up and serve>
+
+::story
+
+This recipe will result in two or three glass dishes of tasty, moist meatloaf. Great for family suppers.
+
+
+::source
+<<<
+---
+title: "Meatloaf"
+date: 2021-03-23
+tags: ['beef', 'american', 'supper']
+author: ryan-wilson
+---
+
+![Meatloaf](/pix/meatloaf.webp)
+
+This recipe will result in two or three glass dishes of tasty, moist meatloaf. Great for family suppers.
+
+- ⏲️ Prep time: 30 min
+- 🍳 Cook time: 1 hour 10 minutes
+- 🍽️ Servings: 6+
+
+## Ingredients
+
+- 4 1/2 pounds Ground beef
+- 1 Onion
+- 2 Slices of bread
+- 4 Eggs
+- 1/4 Cup of milk
+- Garlic salt
+- Onion powder
+- Mustard
+- Sugar free ketchup
+- 3 Cubes of brown sugar
+- 1 Can of Campbell's tomato soup
+- Franks RedHot sauce (Optional)
+
+## Directions
+
+1. Once thawed, put all of your beef into a bowl. The next 4 steps will all go into this same bowl.
+2. Dice the onion and bread slices into small pieces. Add them.
+3. Crack and put in all of your eggs.
+4. Pour in your milk, and a moderate amount of mustard and ketchup.
+5. Add garlic salt and onion powder.
+6. Now you must use your (sanitized) hands and mix everything in the big bowl well. Make sure you get the bottom.
+7. Evenly distribute your mixed meat into 2 or 3 oven safe greased up dishes. Try to flatten the surface as much as you can.
+8. In each dish, create a small channel in the middle of each meatloaf. This is to maintain the shape as it's cooking.
+9. Put all of your meatloaf filled dishes into the oven on 180 Celsius for *1 hour*.
+10. Once you have about 15 minutes left on your timer, get started on your sauce.
+11. Toss your 3 sugar cubes into a bowl with a little bit of hot water to melt them.
+12. Add your tomato soup, 1/4 Cup of ketchup and mustard (each).
+13. Stir sauce until it's a thick, light red color.
+14. Once 1 hour is up, take out all of your meatloaf. *Make sure to cut open the thickest meatloaf and confirm the beef is cooked*.
+15. Coat the top of each of your meatloaves with the sauce, evenly.
+16. Once coated, put back into the oven for 10 minutes.
+17. Take out all of your meatloaf. Once cool, slice it up and serve!
+>>>

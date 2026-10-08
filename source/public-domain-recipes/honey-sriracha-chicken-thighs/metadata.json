@@ -1,0 +1,39 @@
+{
+  "title": "Honey Sriracha Chicken Thighs",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/honey-sriracha-chicken-thighs.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "0ed5034bd321d4b83544de26bbf874624e8d625cee598a8266359e036b25fcf0",
+  "original_front_matter": {
+    "title": "Honey Sriracha Chicken Thighs",
+    "tags": [
+      "chicken",
+      "spicy"
+    ],
+    "author": "Kevin Anderson",
+    "date": "2022-04-16"
+  },
+  "source_url": "https://publicdomainrecipes.com/honey-sriracha-chicken-thighs/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Honey Sriracha Chicken Thighs",
+      "url": "/pix/honey-sriracha-chicken-thighs.webp",
+      "upstreamPath": "static/pix/honey-sriracha-chicken-thighs.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "40de88061f61deba7446bf357328fe32a8d589496d91569d29b09de6e978a8ac",
+      "sourcePath": "source/public-domain-recipes/honey-sriracha-chicken-thighs/honey-sriracha-chicken-thighs.webp",
+      "promotedPath": "examples/public-domain-recipes/honey-sriracha-chicken-thighs/honey-sriracha-chicken-thighs.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

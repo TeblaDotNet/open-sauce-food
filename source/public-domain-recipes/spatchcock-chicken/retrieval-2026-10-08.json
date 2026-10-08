@@ -1,0 +1,32 @@
+{
+  "title": "Spatchcock Chicken",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/spatchcock-chicken.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "04ef62d9116d18612e553cd56149328ae0789f9f0c612cc3707a4f8faaa6938a",
+  "original_front_matter": {
+    "title": "Spatchcock Chicken",
+    "date": "2021-03-15",
+    "tags": [
+      "basic",
+      "bread",
+      "chicken"
+    ],
+    "author": "front3ndninja"
+  },
+  "source_url": "https://publicdomainrecipes.com/spatchcock-chicken/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

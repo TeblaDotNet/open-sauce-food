@@ -1,0 +1,11 @@
+id: halve
+kind: process
+names:
+  en: halve
+observed_forms:
+- syntax: halve
+  count: 2
+seen_in:
+- examples/public-domain-recipes/guacamole/guacamole.opensauce
+- legacy-corpus:bbc-food-10
+legacy_observation: true

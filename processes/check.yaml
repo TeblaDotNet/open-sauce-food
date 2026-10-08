@@ -1,0 +1,32 @@
+id: check
+kind: process
+canonical_name: check
+names:
+  en: check
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: check
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+  - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+observed_parameters:
+- value: doneness; source uses this to judge all ingredients cooked
+  count: 1
+- value: fermentation complete when small surface bubbles at edge; windowpane stretch test also described
+  count: 1
+- value: liquid not above meat
+  count: 1
+- value: should be a bit bubbly; if no bubbles wait another day
+  count: 1
+- value: skin peels easily from meat as source doneness test
+  count: 1
+- value: thick and concentrated
+  count: 1

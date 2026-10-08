@@ -1,0 +1,48 @@
+{
+  "title": "Crostata",
+  "source_url": "https://publicdomainrecipes.com/crostata/",
+  "source_author": "pestanzul",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/crostata.md",
+  "original_sha256": "e247246ae03f8d17a3f6e9491e5d683423b4ad053806de1322714bc65ac03dc4",
+  "original_front_matter": {
+    "title": "Crostata",
+    "tags": [
+      "baking",
+      "cake",
+      "cheesefare",
+      "dessert",
+      "italian",
+      "jam"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Cook time": "45 min",
+    "Servings": "8",
+    "servings": "[shortcrust pastry](/shortcrust-pastry)"
+  },
+  "ingredients_source_markdown": "- 8 servings [shortcrust pastry](/shortcrust-pastry)\n- 300 g jam or marmalade",
+  "directions_source_markdown": "1. Set aside about 1/6 of the shortcrust pastry and roll out the remaining so that it is slightly larger than the tray.\n2. Place rolled shortcrust pastry in a baking mold and arrange the border along those of the mold, so that the pastry can contain jam.\n3. Pour the jam in the shortcrust pastry \"container\" you just created and spread it with a spoon.\n4. Use the pastry you set aside to create rolls and place them in a criss-cross pattern all over the surface.\n   Push them through the jam to the bottom.\n5. Preheat the oven to 180 °C.\n6. Cook in the oven for about 45 minutes.\n7. Let the cake cool down to room temperature before removing from the mold, otherwise it will easily break.",
+  "images": [
+    {
+      "alt": "Crostata",
+      "source_url": "https://publicdomainrecipes.com/pix/crostata.webp",
+      "source_reference": "/pix/crostata.webp",
+      "status": "retrieved",
+      "filename": "crostata.webp",
+      "sha256": "a15285f3670cabe9824dbd0d9a4e5fb46b90c7d879ca092f39befc97d3d06c53"
+    }
+  ],
+  "coverage_group": "baking"
+}

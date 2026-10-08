@@ -1,0 +1,36 @@
+{
+  "title": "Sardine Cakes",
+  "source_url": "https://publicdomainrecipes.com/sardine-cakes/",
+  "source_author": "tom-fasano",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sardine-cakes.md",
+  "original_sha256": "014d0be1b71daac909dfd0d60ecb3e05e64c3f89cfbad6029b0e53e657ffec66",
+  "original_front_matter": {
+    "title": "Sardine Cakes",
+    "tags": [
+      "seafood",
+      "fish",
+      "american",
+      "spicy"
+    ],
+    "date": "2022-04-16",
+    "author": "tom-fasano"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Cook time": "10 min",
+    "Servings": "15"
+  },
+  "ingredients_source_markdown": "### Sardine Fish Cakes\n\n- 2 tins sardines (~4oz)\n- ½ cup mayonnaise\n- ½ cup Panko breadcrumbs\n- 2 teaspoons Old Bay seasoning\n- 1 egg\n- lemon juice (optional)\n\n### Spicy Yogurt Sauce\n\n- ½ cup plain yogurt (whole milk)\n- 1 tablespoon sriracha\n- 1 tablespoon Dijon mustard\n- 1 teaspoon Worcestershire sauce\n- minced garlic (optional)",
+  "directions_source_markdown": "1. Remove sardines from tin, reserving oil, and place fish in a mixing bowl.  Add remaining fish cake ingredients, along with the oil from one tin (about 2 TB) to the bowl.\n2. Gently mix all the ingredients together with a fork.  Mix until incorporated, but don't purée.\n3. Use something to scoop the fish cake mix into small balls. Flatten into small patties 2\" across, and about ½\" thick.\n4. Set patties on a rimmed baking sheet, large cast iron pan, or casserole dish.\n5. Refrigerate patties for about 30 minutes.\n6. While fish cakes chill, mix together all the ingredients for the yogurt sauce.\n7. Move oven rack to the top 3rd of the oven. Broil for 5 minutes, flip, and broil 3-5 minutes more, until cakes are golden brown.\n8. Drizzle some lemon juice on cakes. Serve while still hot with the yogurt sauce. Enjoy!",
+  "images": [],
+  "coverage_group": "fish-seafood"
+}

@@ -1,0 +1,28 @@
+id: black-pepper
+kind: ingredient
+names:
+  en: black pepper
+observed_forms:
+  - syntax: black pepper
+    count: 4
+  - syntax: black pepper, freshly ground
+    count: 2
+  - syntax: black pepper, ground
+    count: 1
+  - syntax: black pepper, optional
+    count: 2
+seen_in:
+  - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/guacamole/guacamole.opensauce
+  - legacy-corpus:bbc-food-10
+observed_qualifiers:
+  - value: freshly ground
+    count: 2
+  - value: ground
+    count: 1
+  - value: optional
+    count: 2
+legacy_observation: true

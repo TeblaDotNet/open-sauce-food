@@ -1,0 +1,15 @@
+id: beaker
+kind: equipment
+canonical_name: beaker
+names:
+  en: beaker
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: beaker
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce

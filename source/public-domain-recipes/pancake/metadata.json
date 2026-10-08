@@ -1,0 +1,42 @@
+{
+  "title": "Pancake",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pancake.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "e49202b98419d5be29e56aa0578477d05ffcaf3594be8c54d188fc5f63cb82d9",
+  "original_front_matter": {
+    "title": "Pancake",
+    "date": "2021-03-11",
+    "tags": [
+      "quick",
+      "breakfast",
+      "sweet",
+      "pancake",
+      "cheesefare"
+    ],
+    "author": "BeFe"
+  },
+  "source_url": "https://publicdomainrecipes.com/pancake/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Pancakes made at home",
+      "url": "/pix/pancake.webp",
+      "upstreamPath": "static/pix/pancake.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "b623143e954c1cc1f88533eea659bab3ad452657978834cc16eb72ecc21475a8",
+      "sourcePath": "source/public-domain-recipes/pancake/pancake.webp",
+      "promotedPath": "examples/public-domain-recipes/pancake/pancake.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

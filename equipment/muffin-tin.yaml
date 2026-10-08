@@ -1,0 +1,28 @@
+id: muffin-tin
+kind: equipment
+canonical_name: muffin tin
+names:
+  en-GB: muffin tin
+  en-US: muffin pan
+  en: cupcake tin
+status: reviewed-merge
+aliases:
+  - name: cupcake tin
+    type: near-synonym
+    observed_count: 1
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: cupcake tin
+      count: 1
+    - term: muffin tin
+      count: 3
+  seen_in:
+    - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/lavacake/lavacake.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: 24-hole
+    count: 1

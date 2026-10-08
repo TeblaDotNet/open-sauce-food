@@ -1,0 +1,30 @@
+{
+  "title": "Broiled Trevally",
+  "source_url": "https://publicdomainrecipes.com/broiled-trevally/",
+  "source_author": "oq-olarte",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/broiled-trevally.md",
+  "original_sha256": "29cf17f87de57548cdc2bfdc5e6dfc47328b28afa20092056ecbfa4c491e3810",
+  "original_front_matter": {
+    "title": "Broiled Trevally",
+    "date": "2021-03-10",
+    "tags": [
+      "fish",
+      "cheesefare"
+    ],
+    "author": "oq-olarte"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- giant trevally\n- eggplants\n- squash (or zucchini)\n- carrots\n- onion\n- garlic\n- ginger\n- tomatoes\n- bay leaf\n- olive oil\n- thyme\n- basil\n- butter",
+  "directions_source_markdown": "1. Dice carrots, eggplant, squash, tomatoes and onions. Place these on a pan.\n2. Put basil, thyme, bay leaf, salt, and pepper on each of the fish's side. Place the fish above the veggies.\n3. Crush garlic and ginger (with mortar and pestle, of course) and place this in and around the fish.\n4. Give it all a good splash of olive oil.\n5. Cover the pan and set to medium-low fire, until everything looks cooked.\n6. Flip the fish on the other side, just to make sure that it's properly cooked.\n7. Check the doneness of the squash: if it's cooked, everything is.\n8. Let everything set for 5 mins. before serving.",
+  "images": [],
+  "coverage_group": "fish-seafood"
+}

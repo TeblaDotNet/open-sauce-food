@@ -1,0 +1,32 @@
+{
+  "title": "Slow-cooked Pork Carnitas",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pork-carnitas.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "c5304871acd9a35af4ed99c251075251561533a637f83cc1c47454c0313dcc26",
+  "original_front_matter": {
+    "title": "Slow-cooked Pork Carnitas",
+    "date": "2021-03-21",
+    "tags": [
+      "pork",
+      "slowcooked",
+      "mexican"
+    ],
+    "author": "sam"
+  },
+  "source_url": "https://publicdomainrecipes.com/pork-carnitas/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

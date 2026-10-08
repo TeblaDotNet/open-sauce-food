@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Sauce Food · Recipes & references</title>
+  <script src="/demo/theme-init.js"></script>
+  <script src="/demo/dark-mode.js" defer></script>
+  <link rel="stylesheet" href="/demo/style.css">
+  <script type="module" src="/demo/app.js"></script>
+</head>
+<body data-colour="on">
+  <a class="skip-link" href="#recipe-output">Skip to content</a>
+  <header class="site-header">
+    <a class="back-to-tebla" href="https://tebla.net/">← tebla.net</a>
+    <a href="/" class="brand">Open Sauce Food</a>
+    <nav aria-label="Open Sauce Food">
+      <a href="/" data-nav="recipes">Recipes</a>
+      <a href="/reference/ingredient/egg" data-nav="ingredient" title="Ingredient reference example: egg">Ingredients</a>
+      <a href="/reference/process/separate" data-nav="process" title="Process reference example: separate">Processes</a>
+      <a href="/reference/equipment/bowl" data-nav="equipment" title="Equipment reference example: bowl">Equipment</a>
+      <a href="/SPEC.md">Spec</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="display-controls"><button id="dark-mode-toggle" type="button">Light</button><label class="colour-control"><input id="syntax-colour" type="checkbox" checked> Syntax colour</label></div>
+  </header>
+  <main>
+    <div id="recipe-controls">
+      <div class="recipe-picker"><label for="recipe-select">Recipe</label>
+      <select id="recipe-select" disabled><option>Loading recipes…</option></select></div>
+      <p id="recipe-note"></p>
+      <fieldset id="controls" disabled>
+        <legend>View as</legend>
+        <div class="control-row view-options">
+          <label><input type="radio" name="view" value="code" checked> Code</label>
+          <label><input type="radio" name="view" value="compact"> Compact</label>
+          <label><input type="radio" name="view" value="originalSource" disabled> Original recipe source</label>
+        </div>
+        <div class="control-row">
+          <label><input id="images" type="checkbox" checked> Images</label>
+          <label><input id="comments" type="checkbox"> Comments</label>
+          <label><input id="story" type="checkbox" checked> Story</label>
+          <label><input id="notes" type="checkbox" checked> Notes</label>
+        </div>
+      </fieldset>
+      <a id="code-link" hidden>View Code file (.opensauce)</a>
+    </div>
+    <a id="back-link" hidden>← Back to recipe</a>
+    <p id="status" role="status" aria-live="polite">Loading…</p>
+    <div id="recipe-output" tabindex="-1" aria-busy="true">Loading…</div>
+  </main>
+  <footer id="about" tabindex="-1"><p><strong>Open Sauce Food</strong> · A distinct Tebla project.</p><p>Human recipes, structured text. Explore a recipe, follow its ingredients and processes, or read the original source.</p><p>Local prototype · Draft 8 · Reference navigation opens example entries. Full indexes are still to come.</p></footer>
+  <noscript>This demonstration needs JavaScript to parse recipes and display references.</noscript>
+</body>
+</html>

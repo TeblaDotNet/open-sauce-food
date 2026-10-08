@@ -1,0 +1,15 @@
+id: wooden-spoon
+kind: equipment
+canonical_name: wooden spoon
+names:
+  en: wooden spoon
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: wooden spoon
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce

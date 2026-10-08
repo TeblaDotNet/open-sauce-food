@@ -1,0 +1,45 @@
+{
+  "title": "Ukrainian Borscht",
+  "source_url": "https://publicdomainrecipes.com/ukrainian-borscht/",
+  "source_author": "stanislav",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/ukrainian-borscht.md",
+  "original_sha256": "b7ec94f742393196ea02f7b786621fff51280c6b1b9affda06960dc2480e7681",
+  "original_front_matter": {
+    "title": "Ukrainian Borscht",
+    "date": "2021-04-02",
+    "tags": [
+      "ukrainian",
+      "soup",
+      "beetroot",
+      "russian"
+    ],
+    "author": "stanislav"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "25 mins",
+    "Cook time": "40 mins",
+    "Servings": "10"
+  },
+  "ingredients_source_markdown": "- 3 red beetroots\n- 4 Tbsp extra virgin olive oil\n- 8 cups chicken broth + 2 cups water\n- 3 yukon potatoes\n- 2 carrots\n- 2 celery ribs\n- 1 onion\n- 4 Tbsp ketchup or 3 Tbsp tomato sauce\n- 1 red bell pepper (optional)\n- 1 can white cannelini beans with their juice (optional)\n- 2 bay leaves (optional)\n- 1 pressed garlic clove (optional)\n- 1 cup sour cream (optional)\n- fresh dill to taste (optional)",
+  "directions_source_markdown": "1. Peel, grate and/or slice all vegetables (keeping sliced potatoes in cold water to prevent browning until ready to use then drain).\n2. Heat a large soup pot (5 1/2 Qt or larger) over medium/high heat and add 2 Tbsp olive oil.\n3. Add grated beets and sauté 10 minutes, stirring occasionally until beets are softened.\n4. Add 8 cups broth and 2 cups water.\n5. Add sliced potatoes and sliced carrots then cook for 10-15 minutes or until easily pierced with a fork.\n6. While potatoes are cooking, place a large skillet over medium/high heat and add 2 Tbsp oil.\n7. Add chopped onion, celery and bell pepper. Saute stirring occasionally until softened and lightly golden (7-8 minutes).\n8. Add 4 Tbsp Ketchup and stir fry for 30 seconds then transfer to the soup pot to continue cooking with the potatoes.\n9. When potatoes and carrots reach desired softness, add optional ingredients from the list.\n10. Simmer for an additional 2-3 minutes and add more spices to taste.\n11. Serve with a dollop of sour cream on top.",
+  "images": [
+    {
+      "alt": "Borscht in a bowl",
+      "source_url": "https://publicdomainrecipes.com/pix/borscht.webp",
+      "source_reference": "/pix/borscht.webp",
+      "status": "retrieved",
+      "filename": "borscht.webp",
+      "sha256": "5b117387cc968f6c1f651261483691842e4b3b57940654bb773ad86afae662eb"
+    }
+  ],
+  "coverage_group": "soups"
+}

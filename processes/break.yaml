@@ -1,0 +1,21 @@
+id: break
+kind: process
+canonical_name: break
+names:
+  en: break
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: break
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+observed_parameters:
+- value: not too thoroughly
+  count: 1
+- value: spoon
+  count: 1

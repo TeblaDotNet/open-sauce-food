@@ -1,0 +1,14 @@
+id: pork-roast
+kind: ingredient
+canonical_name: pork roast
+names:
+  en: pork roast
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: pork roast
+      count: 1
+  seen_in: []
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.

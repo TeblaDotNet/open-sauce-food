@@ -1,0 +1,46 @@
+{
+  "title": "Fumé sauce",
+  "source_url": "https://publicdomainrecipes.com/fume-sauce/",
+  "source_author": "pestanzul",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/fume-sauce.md",
+  "original_sha256": "936c9939068f46065fee9e3b463d27081e602cd4ca5d8f12452bdb4d9d7ecabc",
+  "original_front_matter": {
+    "title": "Fumé sauce",
+    "tags": [
+      "cheesefare",
+      "italian",
+      "pasta",
+      "sauce"
+    ],
+    "date": "2025-11-15",
+    "author": "pestanzul"
+  },
+  "source_timing_and_servings": {
+    "servings": "of 100 g pasta each.",
+    "Prep time": "10 min",
+    "Cook time": "10 min",
+    "Servings": "2"
+  },
+  "ingredients_source_markdown": "- 200 g milk cream\n- 150 g tomato sauce\n- 100 g pancetta\n- olive oil\n- onion\n- paprica\n- parsley (optional)",
+  "directions_source_markdown": "1. Cut onion to small pieces and pancetta to cubes about 1 cm long.\n2. Fry them on low fire until onion darkens.\n3. Add milk cream and tomato sauce and stir.\n4. Add a small pinch of sugar, then season with salt and paprica.\n   Also add parsely, if you like it.\n5. Cook stirring slowly on low fire for 10 minutes or until the sauce thickens.",
+  "images": [
+    {
+      "alt": "fume-sauce",
+      "source_url": "https://publicdomainrecipes.com/pix/fume-sauce.webp",
+      "source_reference": "/pix/fume-sauce.webp",
+      "status": "retrieved",
+      "filename": "fume-sauce.webp",
+      "sha256": "31b68981c03be377d4cf5b292607fc38df4abaeac8ceb1c794982b76ab98b109"
+    }
+  ],
+  "coverage_group": "sauces"
+}

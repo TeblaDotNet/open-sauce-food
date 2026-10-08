@@ -1,0 +1,16 @@
+id: store
+kind: process
+names:
+  en: store
+observed_forms:
+- syntax: store, airtight container, refrigerator, up to 1 week
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce
+observed_parameters:
+- value: airtight container
+  count: 1
+- value: refrigerator
+  count: 1
+- value: up to 1 week
+  count: 1

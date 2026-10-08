@@ -1,0 +1,37 @@
+{
+  "title": "Granita",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/granita.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "1cdd4063300c12598286cadecffc5838bd369ccedacc3c9cea5500914617f0d5",
+  "original_front_matter": {
+    "title": "Granita",
+    "tags": [
+      "fasting",
+      "italian",
+      "lemon",
+      "sweet",
+      "traditional"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/granita/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Granita",
+      "url": "/pix/granita.webp",
+      "upstreamPath": "static/pix/granita.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

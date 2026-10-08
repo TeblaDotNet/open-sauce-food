@@ -1,0 +1,36 @@
+id: tomato
+kind: ingredient
+names:
+  en: tomato
+observed_forms:
+- syntax: tomato
+  count: 1
+- syntax: tomato, medium, blended
+  count: 1
+- syntax: tomato, medium, pureed
+  count: 1
+- syntax: tomato, ripe, grated
+  count: 1
+- syntax: tomato, small
+  count: 2
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/guacamole/guacamole.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: blended
+  count: 1
+- value: grated
+  count: 1
+- value: medium
+  count: 2
+- value: pureed
+  count: 1
+- value: ripe
+  count: 1
+- value: small
+  count: 2
+legacy_observation: true

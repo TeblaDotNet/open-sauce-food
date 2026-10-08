@@ -1,0 +1,42 @@
+{
+  "title": "Basic Waffles",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/basic-waffles.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "591ef1798403c215f9f84d916fdbc3b748c9befe6c333bd8a1afdcb90270507e",
+  "original_front_matter": {
+    "title": "Basic Waffles",
+    "date": "2024-02-24T15:40:05+01:00",
+    "tags": [
+      "sweet",
+      "basic",
+      "dessert"
+    ],
+    "author": "logianer"
+  },
+  "source_url": "https://publicdomainrecipes.com/basic-waffles/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Small Waffle Tower",
+      "url": "/pix/basic-waffles-01.webp",
+      "upstreamPath": "static/pix/basic-waffles-01.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    },
+    {
+      "alt": "Waffle Maker",
+      "url": "/pix/basic-waffles-02.webp",
+      "upstreamPath": "static/pix/basic-waffles-02.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

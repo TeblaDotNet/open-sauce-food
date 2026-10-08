@@ -1,0 +1,96 @@
+::recipe
+
+name: Naan Bread
+source: https://publicdomainrecipes.com/naan-bread/
+source author: nihar-samantaray
+source license: Public domain (Unlicense)
+units: source
+tags: indian, bread, fasting
+serves: 4
+image: naan-bread.webp
+
+# Original source: ../../../source/public-domain-recipes/naan-bread/naan-bread.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 90 min
+# Source Cook time: 30 min
+# Source Servings: 4
+# Conversion note: Introduction calls naan unleavened; yeast is listed. Step 2 does not explicitly combine milk mixture with flour. Source contradictions are not resolved by adding an unmentioned mixing step.
+# Conversion note: Prep 90 min / cook 30 min versus rest 2-3h and bake 30-35m. Do not compute a misleading total.
+
+::ingredients
+
+(flour; all-purpose) 3 cups; extra as needed in method
+(active dry yeast) 1tbsp
+(sugar) 2tbsp
+(milk, warm) 1 cup
+(butter, melted) 2tbsp
+(oil) little to grease
+(salt) 1 1/2tsp
+
+::equipment
+
+(bowl, large)
+(baking tray, foiled)
+(oven)
+
+::instructions
+
+{yeast mix} = (active dry yeast) + (sugar) + (milk)
+{yeast mix} <stir, large mixing bowl, well>
+    <rest, 3-5m>
+(flour) + (salt) <whisk, large mixing bowl; add flour as needed against sticking>
+# Source does not explicitly say when the yeast mixture is combined with flour.
+{dough} + (oil) <coat, once soft and ready>
+    <cover, soft cloth>
+    <rest, 2-3h>
+    <knead, again with sprinkled all-purpose flour, until smooth>
+    <divide, 4 equal pieces>
+{pieces} <shape, balls>
+    <roll, desired thickness, size of small tortilla>
+{naan} <transfer, foiled baking tray>
+    <bake, preheated oven, 180c, 30-35m>
+    <brush, butter>
+    <cut, four pieces>
+    <serve>
+
+::story
+
+A curry serves best with naan that is unleavened bread. Traditionally made in ‘Tandoor or clay oven' but at home, we will be making it in the oven and/or on the stovetop. Naan is not eaten solely but acts as assortments with meat, veggies, or egg items.
+
+::source
+<<<
+---
+title: "Naan Bread"
+date: 2021-03-15
+tags: ['indian', 'bread', 'fasting']
+author: nihar-samantaray
+---
+
+![Naan Bread](/pix/naan-bread.webp)
+
+A curry serves best with naan that is unleavened bread. Traditionally made in ‘Tandoor or clay oven' but at home, we will be making it in the oven and/or on the stovetop. Naan is not eaten solely but acts as assortments with meat, veggies, or egg items.
+
+- ⏲️ Prep time: 90 min
+- 🍳 Cook time: 30 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- All-purpose flour 3 cups
+- Active dry yeast 1 tbsp
+- Sugar 2 tbsp
+- Warm Milk 1 cup
+- Butter melted 2 tbsp
+- Oil - little to grease
+- Salt - 1 1/2 teaspoons
+
+## Directions
+
+1. Put the yeast and sugar to warm milk in a large mixing bowl and stir well. Leave it for 3-5 minutes.
+2. Put the flour and salt into a large mixing bowl and whisk to combine.  Sprinkle additional flour as needed to keep the dough from sticking to the sides.
+3. Once the dough is soft and ready, apply oil on it and cover it with a soft cloth. Rest it for 2–3 hours.
+4. Knead the dough again, sprinkle all-purpose flour, and knead until smooth.
+5. Divide dough into 4 equal pieces. Form pieces into balls. Roll out dough balls to desired thickness (about the size of a small tortilla).
+6. Now transfer the naan to the foiled baking tray and bake in preheated at 180 C for 30-35 minutes.
+7. After baking, brush the top with butter and cut it into four pieces and serve. Enjoy!
+>>>

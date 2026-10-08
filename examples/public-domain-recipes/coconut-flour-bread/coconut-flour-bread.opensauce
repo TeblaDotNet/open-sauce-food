@@ -1,0 +1,84 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Keto Coconut Bread
+source: https://publicdomainrecipes.com/coconut-flour-bread/
+source author: luis-fernando-maschietto-junior
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: bread, coconut, baking, keto, bariatric
+serves: 12
+image: coconutbread-lufemas.webp
+
+# Imported from content/coconut-flour-bread.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 45 min
+# Source metadata: - 🍽️ Servings: 12
+
+::ingredients
+
+(egg, Medium, or 5 Extra Large) 6
+(coconut oil) 1 Tbsp
+(coconut flour) ¾ cup
+(baking powder) 1 tsp
+(salt) Pinch
+(or less of xanthan gum, optional, to have a more stick bread) ½ tsp
+
+::equipment
+
+(oven)
+(bowl)
+
+::instructions
+
+<mix, all dry ingredients in a big bowl>
+<add, the whole eggs and the coconut oil>
+<mix, well with a spoon until it gets thick. You can add extra coconut flour if you feel it is too liquid>
+Pre-heat your oven to 350°F （175°C）.
+<pour, the dough evenly into a Bread/Loaf form (coated with butter or parchment paper) and cook for 35 to 45 min>
+After cooking, remove it from the oven and let it sits while it cools down.
+Some variations can be done, like using butter instead of coconut oil or adding pumpkin pure to the mix and having a cake-like texture.
+
+::story
+
+I created this recipe looking for a bread alternative not using any grains, processed sugar and processed oils. It is sitting between bread and cake feel and my wife loved it. I used pasture-raised eggs to my recipe, just because it is more nutritious. But regular eggs should be fine.
+
+
+::source
+<<<
+---
+title: Keto Coconut Bread
+tags: ['bread', 'coconut', 'baking', 'keto', 'bariatric']
+date: 2022-11-16
+author: "luis-fernando-maschietto-junior"
+---
+![keto-coconut-bread](/pix/coconutbread-lufemas.webp)
+
+I created this recipe looking for a bread alternative not using any grains, processed sugar and processed oils.
+It is sitting between bread and cake feel and my wife loved it. I used pasture-raised eggs to my recipe, just because it is more nutritious. But regular eggs should be fine.
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 45 min
+- 🍽️ Servings: 12
+
+## Ingredients
+
+- 6 Medium Eggs (or 5 Extra Large)
+- 1 Tbsp Coconut Oil
+- ¾ cup Coconut Flour
+- 1 tsp Baking Powder
+- Pinch of Salt
+- ½ tsp or less of Xanthan Gum (optional, to have a more stick bread)
+
+## Directions
+
+1. Mix all dry ingredients in a big bowl.
+2. Add the whole eggs and the coconut oil.
+3. Mix well with a spoon until it gets thick. You can add extra coconut flour if you feel it is too liquid.
+4. Pre-heat your oven to 350°F (175°C).
+5. Pour the dough evenly into a Bread/Loaf form (coated with butter or parchment paper) and cook for 35 to 45 min.
+6. After cooking, remove it from the oven and let it sits while it cools down.
+7. Some variations can be done, like using butter instead of coconut oil or adding pumpkin pure to the mix and having a cake-like texture.
+>>>

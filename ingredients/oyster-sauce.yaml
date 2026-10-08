@@ -1,0 +1,16 @@
+id: oyster-sauce
+kind: ingredient
+canonical_name: oyster sauce
+names:
+  en: oyster sauce
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: oyster sauce
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce

@@ -1,0 +1,23 @@
+id: chill
+kind: process
+canonical_name: chill
+names:
+  en: chill
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: chill
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/crab-salad/crab-salad.opensauce
+  - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+observed_parameters:
+- value: at least 2h
+  count: 1
+- value: before serving
+  count: 1
+- value: refrigerator
+  count: 1

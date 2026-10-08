@@ -1,0 +1,37 @@
+{
+  "title": "Indian tea",
+  "source_url": "https://publicdomainrecipes.com/indian-tea/",
+  "source_author": "pestanzul",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/indian-tea.md",
+  "original_sha256": "33b46298b486b6f35d0e93cba72fce71f8049bd0bc1cceed1291618e8f07416e",
+  "original_front_matter": {
+    "title": "Indian tea",
+    "tags": [
+      "drink",
+      "easy",
+      "indian",
+      "milk",
+      "traditional"
+    ],
+    "date": "2026-02-14",
+    "author": "pestanzul"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "5 min",
+    "Cook time": "10 min",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "The quantities below are approximate and should be adjusted according to your taste.\n\n- 8 g fresh ginger\n- 10 cardamom seeds\n- 1.5 cup milk\n- 2 tablespoon black tea",
+  "directions_source_markdown": "1. Peel off the ginger and cut it to small pieces.\n2. Crush ginger and cardamom seeds.\n3. Bring 1 l water to boiling.\n4. Turn off the stove.\n5. Add ginger, cardamom seeds, black tea and milk to the water and cover the pot.\n6. Wait 5-10 minutes for infusion.\n7. Serve with a teaspoon sugar per cup.\n   You may want to sieve, or wait for the particles to precipitate to the bottom of the cups.",
+  "images": [],
+  "coverage_group": "drinks-preserves-fermentation"
+}

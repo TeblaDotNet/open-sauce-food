@@ -1,0 +1,12 @@
+id: buckwheat
+kind: ingredient
+canonical_name: buckwheat
+names:
+  en: buckwheat
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/merchants-buckwheat/merchants-buckwheat.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

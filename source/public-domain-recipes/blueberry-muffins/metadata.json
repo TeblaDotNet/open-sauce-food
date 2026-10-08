@@ -1,0 +1,35 @@
+{
+  "title": "Blueberry Muffins",
+  "source_url": "https://publicdomainrecipes.com/blueberry-muffins/",
+  "source_author": "Marcus Howser",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/blueberry-muffins.md",
+  "original_sha256": "2385ecc7f07fe0f391a86e7afc3db6c7ba35671b341ec890219f1f4a3fd06e5f",
+  "original_front_matter": {
+    "title": "Blueberry Muffins",
+    "tags": [
+      "berries",
+      "muffins",
+      "baking"
+    ],
+    "date": "2022-06-10",
+    "author": "Marcus Howser"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Cook time": "30 min",
+    "Servings": "12"
+  },
+  "ingredients_source_markdown": "- 2 cups all-purpose flour\n- 1 cup granulated sugar\n- 1 tablespoon baking powder\n- 1/2 teaspoon salt\n- 1/2 cup unsalted butter, melted\n- 1 cup milk\n- 2 large eggs\n- 1 teaspoon vanilla extract\n- 1 1/2 cups fresh blueberries",
+  "directions_source_markdown": "1. Preheat the oven to 375°F (190°C). Line a muffin tin with paper liners or just grease the tin directly.\n2. In a large mixing bowl, combine the dry ingredients: flour, sugar, baking powder, and salt.\n3. In a separate bowl, whisk together the wet ingredients: melted butter, milk, eggs, and vanilla extract.\n4. Pour the wet ingredients into the dry ingredients and stir until just combined. Do not overmix.\n5. Gently fold in the fresh blueberries.\n6. Spoon the batter into the prepared muffin tin, filling each cup about three-quarters full.\n7. Bake in the preheated oven for 20-25 minutes, or until a toothpick inserted into the center of a muffin comes out clean.\n8. Remove the muffins from the oven and allow them to cool in the tin for a few minutes.\n9. Transfer the muffins to a wire rack to cool completely before serving.\n\nEnjoy your homemade blueberry muffins!",
+  "images": [],
+  "coverage_group": "baking"
+}

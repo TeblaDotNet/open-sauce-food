@@ -1,0 +1,40 @@
+{
+  "title": "Stuffed vegetables",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/stuffed-vegetables.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "9da6a785382310f67e792a8fd0b1aa9c2bdaa56dd2cf7830ab0c7ef9a4f21bbe",
+  "original_front_matter": {
+    "title": "Stuffed vegetables",
+    "tags": [
+      "baking",
+      "cheesefare",
+      "vegetables"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/stuffed-vegetables/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Stuffed vegetables",
+      "url": "/pix/stuffed-vegetables.webp",
+      "upstreamPath": "static/pix/stuffed-vegetables.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "1906b0be77bc1526ebe615a4154a4d2433f72ff211f6c06214ad2086efecd747",
+      "sourcePath": "source/public-domain-recipes/stuffed-vegetables/stuffed-vegetables.webp",
+      "promotedPath": "examples/public-domain-recipes/stuffed-vegetables/stuffed-vegetables.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

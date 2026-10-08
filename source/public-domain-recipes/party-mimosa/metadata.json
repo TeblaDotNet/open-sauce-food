@@ -1,0 +1,31 @@
+{
+  "title": "Party Mimosa",
+  "source_url": "https://publicdomainrecipes.com/party-mimosa/",
+  "source_author": "front3ndninja",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/party-mimosa.md",
+  "original_sha256": "386d857ad6b14545e16b6c2f9877fa6a76c893287ab28fc2ebbf70e76dcbe8a0",
+  "original_front_matter": {
+    "title": "Party Mimosa",
+    "date": "2021-03-16",
+    "tags": [
+      "drink",
+      "sweet",
+      "breakfast"
+    ],
+    "author": "front3ndninja"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- 1 (12 ounce) can apricot-mango nectar\n- 1 (12 ounce) can pineapple juice\n- 1 (6 ounce) can frozen orange juice concentrate, thawed and undiluted\n- 1 (750 milliliter) bottle cold champagne\n- 3/4 cup cold water",
+  "directions_source_markdown": "1. Stir together apricot nectar, pineapple juice, water, and orange juice concentrate in a large pitcher until combined. Pour in bottle of sparkling wine just before serving.",
+  "images": [],
+  "coverage_group": "drinks-preserves-fermentation"
+}

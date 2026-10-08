@@ -1,0 +1,32 @@
+id: lemon-juice
+kind: ingredient
+canonical_name: lemon juice
+names:
+  en: lemon juice
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: lemon juice
+      count: 15
+  seen_in:
+    - examples/public-domain-recipes/aljotta/aljotta.opensauce
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+    - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+    - examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce
+    - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+    - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+    - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+    - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: fresh preferred
+    count: 1
+  - value: optional
+    count: 3

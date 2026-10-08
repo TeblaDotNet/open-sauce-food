@@ -1,0 +1,14 @@
+id: white-beans
+kind: ingredient
+names:
+  en: white beans
+observed_forms:
+- syntax: white beans, large, garrofó
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce
+observed_qualifiers:
+- value: garrofó
+  count: 1
+- value: large
+  count: 1

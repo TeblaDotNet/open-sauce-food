@@ -1,0 +1,18 @@
+id: round-squash
+kind: ingredient
+canonical_name: round squash
+names:
+  en: round squash
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: round squash
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+observed_qualifiers:
+- value: fist-sized
+  count: 1

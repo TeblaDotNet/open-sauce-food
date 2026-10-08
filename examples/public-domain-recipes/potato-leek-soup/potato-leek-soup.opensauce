@@ -1,0 +1,63 @@
+::recipe
+
+name: Potato Leek Soup
+source: https://publicdomainrecipes.com/potato-leek-soup/
+source author: cactar
+source license: Public domain (Unlicense)
+ingredients: US
+units: US
+category: soup
+tags: potato, leek
+serves: 2
+active time: ~15m
+total time: ~1h35m
+image: potato-leek-soup.webp
+
+::ingredients
+
+(butter; unsalted) 3tbsp
+(leek, large) 2
+(stock) =
+    (chicken stock) 1 quart
+    -OR-
+    (vegetable stock) 1 quart
+(potato, waxy, peeled, sliced) 11oz
+(bay leaf) 1
+(cream, heavy) 3/4 cup
+(white pepper) to taste
+(nutmeg, ground, optional) 1/2tsp
+(dill weed, optional) 1/2tbsp
+(salt) to taste
+
+::equipment
+
+(pot)
+(immersion blender)
+
+::instructions
+
+(leek, white and light-green part) <chop, moderate pieces>
+(leek, dark-green ends) <discard>
+
+(butter) <melt, pot, medium-low heat>
+    + (leek)
+    + (potato)
+    <stir, until leeks are sweated>
+
+{soup} =
+    (stock) +
+    (bay leaf) +
+    (white pepper)
+
+Optional [
+    {soup} + (nutmeg) + (dill weed)
+        <mix>
+]
+
+{soup} <simmer, medium-high heat, until potatoes are tender>
+    <remove from heat>
+    <remove, bay leaf>
+    <blend, immersion blender, desired consistency>
+    + (cream)
+    <stir>
+    <adjust, salt>

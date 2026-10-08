@@ -1,0 +1,18 @@
+id: icing-sugar
+kind: ingredient
+canonical_name: icing sugar
+names:
+  en: icing sugar
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: icing sugar
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

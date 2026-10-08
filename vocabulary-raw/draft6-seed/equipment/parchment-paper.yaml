@@ -1,0 +1,9 @@
+id: parchment-paper
+kind: equipment
+names:
+  en: parchment paper
+observed_forms:
+- syntax: parchment paper
+  count: 1
+seen_in:
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce

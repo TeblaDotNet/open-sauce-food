@@ -1,0 +1,12 @@
+id: sprinkle
+kind: process
+names:
+  en: sprinkle
+observed_forms:
+- syntax: sprinkle, top
+  count: 1
+seen_in:
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+observed_parameters:
+- value: top
+  count: 1

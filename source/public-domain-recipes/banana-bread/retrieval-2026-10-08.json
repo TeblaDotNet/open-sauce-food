@@ -1,0 +1,33 @@
+{
+  "title": "Banana Bread",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/banana-bread.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "a84b00fedfabbd274681319503a645db6b6809e4649e6e8ece5d2afcb9528319",
+  "original_front_matter": {
+    "title": "Banana Bread",
+    "date": "2021-03-11",
+    "tags": [
+      "bread",
+      "dessert",
+      "sweet",
+      "fasting"
+    ],
+    "author": "martin-chrzanowski"
+  },
+  "source_url": "https://publicdomainrecipes.com/banana-bread/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

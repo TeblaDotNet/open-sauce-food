@@ -1,0 +1,35 @@
+{
+  "title": "Curry sauce",
+  "source_url": "https://publicdomainrecipes.com/curry-sauce/",
+  "source_author": "Fiddelate",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/curry-sauce.md",
+  "original_sha256": "78f48d1552ed189c26101ae4e585c87172e43e23d065edadcd10411e3e7cbc11",
+  "original_front_matter": {
+    "title": "Curry sauce",
+    "date": "2021-05-08",
+    "tags": [
+      "sauce",
+      "indian",
+      "curry"
+    ],
+    "author": "Fiddelate"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "20 min",
+    "Cook time": "60 min",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "- 25g butter\n- 1 onion, sliced\n- 2 garlic cloves, sliced\n- Thumb of ginger, sliced\n- 2 tbsp curry powder\n- 1/2 tsp turmeric\n- 1 tbsp malt vinegar\n- 1 star anise\n- 250ml chicken stock\n- 1 tbsp cornflour\n- 2 tbsp water\n- Lemon juice (optional)",
+  "directions_source_markdown": "1. Melt the butter in a large saucepan over medium heat.\n2. Add in the sliced onion, sliced garlic, and ginger.\n3. Fry for 15 min, until the onion is soft.\n4. Add the curry powder, turmeric, vinegar, and star anise.\n5. Fry for 1 minute.\n6. Pour in the stock.\n7. Simmer for 30 minutes while stirring.\n8. Remove the star anise.\n9. Add the cornflour and water.\n10. Simmer for 5 minutes while stirring.\n11. Blend the sauce. Add in some lemon juice if you want.",
+  "images": [],
+  "coverage_group": "sauces"
+}

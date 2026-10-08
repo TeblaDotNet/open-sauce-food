@@ -1,0 +1,35 @@
+{
+  "title": "Zarangollo",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/zarangollo.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "57abd978af80cb6ad64b70b7ab7abc5363203a1494aaf34a494f4d268b0a2088",
+  "original_front_matter": {
+    "title": "Zarangollo",
+    "date": "2021-03-22",
+    "tags": [
+      "spanish",
+      "mediterranean",
+      "side",
+      "quick"
+    ],
+    "author": "enrique95"
+  },
+  "source_url": "https://publicdomainrecipes.com/zarangollo/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

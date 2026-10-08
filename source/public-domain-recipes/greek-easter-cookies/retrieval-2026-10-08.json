@@ -1,0 +1,34 @@
+{
+  "title": "Greek Easter Cookies",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/greek-easter-cookies.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "2eff6613ef6e7b76da89cc9b59f6b86890576d1565ef6541a851e49b6946836a",
+  "original_front_matter": {
+    "title": "Greek Easter Cookies",
+    "date": "2021-03-21",
+    "tags": [
+      "dessert",
+      "cookies",
+      "snack",
+      "greek",
+      "easter"
+    ],
+    "author": "Rufflikerex"
+  },
+  "source_url": "https://publicdomainrecipes.com/greek-easter-cookies/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

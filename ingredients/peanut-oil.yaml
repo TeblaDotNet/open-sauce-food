@@ -1,0 +1,18 @@
+id: peanut-oil
+kind: ingredient
+canonical_name: peanut oil
+names:
+  en: peanut oil
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: peanut oil
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+observed_qualifiers:
+- value: or any oil
+  count: 1

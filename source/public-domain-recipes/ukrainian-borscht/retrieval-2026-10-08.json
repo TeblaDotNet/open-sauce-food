@@ -1,0 +1,36 @@
+{
+  "title": "Ukrainian Borscht",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/ukrainian-borscht.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "929b50c0faf1a8c733ec8cf9c9ca96dfeab6c930bd5b35013960bbb0aba163c7",
+  "original_front_matter": {
+    "title": "Ukrainian Borscht",
+    "date": "2021-04-02",
+    "tags": [
+      "ukrainian",
+      "soup",
+      "beetroot",
+      "russian"
+    ],
+    "author": "stanislav"
+  },
+  "source_url": "https://publicdomainrecipes.com/ukrainian-borscht/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Borscht in a bowl",
+      "url": "/pix/borscht.webp",
+      "upstreamPath": "static/pix/borscht.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

@@ -1,0 +1,21 @@
+id: fenugreek-leaves
+kind: ingredient
+canonical_name: fenugreek leaves
+names:
+  en: fenugreek leaves
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: fenugreek leaves
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_qualifiers:
+- value: crushed
+  count: 1
+- value: dried
+  count: 1

@@ -1,0 +1,75 @@
+::recipe
+
+name: Honey Vanilla Ice Cream
+source: https://publicdomainrecipes.com/honey-vanilla-ice-cream/
+source author: Ruby-Dragon
+source license: Public domain (Unlicense)
+units: source
+tags: icecream, honey, dessert
+serves: 8-10
+
+# Original source: ../../../source/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 5 min, + 2 hours minimum chill time
+# Source "Cook" time: 30 min + overnight chill time
+# Source Servings: 8-10
+# Conversion note: Source labels churning plus overnight chilling as Cook time. Not a reliable active-time or total-time field.
+
+::ingredients
+
+(heavy cream) 1 pint
+(milk, whole recommended) 1 cup
+(vanilla extract) 2tbsp
+(honey) 1/2 cup
+(sugar) 1 cup
+
+::equipment
+
+(bowl, medium)
+(ice cream maker)
+(container)
+(silicone spatula, optional)
+
+::instructions
+
+(milk) + (sugar) <mix, medium bowl, until dissolved>
+    + (heavy cream) + (vanilla extract) <mix>
+    + (honey) <stir>
+    <chill, refrigerator, at least 2h>
+    <churn, ice cream maker, 30m>
+    <transfer, swiftly to container, scrape sides with silicone spatula if desired>
+    <freeze, overnight preferred, a few hours in a pinch>
+    <scoop> <serve>
+
+::source
+<<<
+---
+title: Honey Vanilla Ice Cream
+tags: ['icecream', 'honey', 'dessert']
+date: 2023-07-28
+author: "Ruby-Dragon"
+---
+
+- ⏲️ Prep time: 5 min, + 2 hours minimum chill time
+- 🍳 "Cook" time: 30 min + overnight chill time
+- 🍽️ Servings: 8-10
+
+## Ingredients
+
+- 1 pint heavy cream
+- 1 cup milk (whole milk recommended)
+- 2 Tbsp vanilla extract
+- 1/2 cup honey
+- 1 cup sugar
+
+## Directions
+
+1. Add milk and sugar to medium sized bowl and mix until dissolved.
+2. Add heavy cream and vanilla extract and mix.
+3. Stir in honey.
+4. Chill in refrigerator for at least 2 hours.
+5. Add to ice cream maker and let it go for 30 minutes.
+6. Swiftly remove from ice cream maker (I use a silicone spatula as it allows for sides to be scraped down) and put into container.
+7. Freeze ice cream overnight - a few hours will do in a pinch but overnight is better.
+8. Scoop out of container and serve! Goes great with honey cake.
+>>>

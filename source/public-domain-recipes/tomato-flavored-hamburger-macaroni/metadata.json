@@ -1,0 +1,40 @@
+{
+  "title": "Tomato Flavored Hamburger and Macaroni",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tomato-flavored-hamburger-macaroni.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "86105ff0f465bd5fdafd108b5b41e66170253db0be0320bd3505ed2b3aaa1787",
+  "original_front_matter": {
+    "title": "Tomato Flavored Hamburger and Macaroni",
+    "date": "2021-03-14",
+    "tags": [
+      "beef",
+      "pasta",
+      "supper"
+    ],
+    "author": "ryan-wilson"
+  },
+  "source_url": "https://publicdomainrecipes.com/tomato-flavored-hamburger-macaroni/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Tomato Flavored Hamburger and Macaroni",
+      "url": "/pix/tomato-flavored-hamburger-macaroni.webp",
+      "upstreamPath": "static/pix/tomato-flavored-hamburger-macaroni.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "db803f06398ad7bd62b4a6b201003c567eca2cd658e7056088a0ea0d24825f62",
+      "sourcePath": "source/public-domain-recipes/tomato-flavored-hamburger-macaroni/tomato-flavored-hamburger-macaroni.webp",
+      "promotedPath": "examples/public-domain-recipes/tomato-flavored-hamburger-macaroni/tomato-flavored-hamburger-macaroni.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

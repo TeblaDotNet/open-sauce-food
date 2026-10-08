@@ -1,0 +1,93 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Fennel White Bean and Kale Soup
+source: https://publicdomainrecipes.com/fennel-beans-and-kale-soup/
+source author: zyansheep
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: soup, vegetables, beans
+serves: 6-8 bowls
+image: fennel-bean-kale-soup.webp
+
+# Imported from content/fennel-beans-and-kale-soup.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15 min
+# Source metadata: - 🍳 Cook time: 20 min
+# Source metadata: - 🍽️ Servings: 6-8 bowls
+
+::ingredients
+
+(olive oil) ½ cup
+(fennel bulbs, small, small-diced) 2
+(yellow onions, small, small-diced) 2
+(fresh rosemary or thyme, minced) 4 teaspoons
+(garlic, minced or pressed) 10 cloves
+(red-pepper flakes) ½-1 teaspoon
+(kale, escarole, swiss chard, or spinach can also be used, .) 10-12 oz
+(cannellini beans, rinsed) 4 cans
+(chicken broth) 4 cups
+(lemon: juice) 2 tablespoons
+(parmesan, grated, plus extra for serving if desired) 6 tablespoons
+
+::equipment
+
+(pot)
+
+::instructions
+
+In a large soup pot, heat olive oil over medium.
+<add, fennel, onion, rosemary and mix until tender (4-6 min)>
+<add, garlic, red pepper flakes, cook until fragrant (1 min)>
+<add, one handful of greens at a time, stirring until leaves wilt>
+<add, white beans, broth, and black pepper,>
+<bring, to boil then bring to simmer while mashing some of the beans with a wooden spoon. Simmer until liquid has reduced and simmered (6-8 mins)>
+<take, off heat, stir in lemon juice and parmesan. Serve with some toasted bread that is good at scooping up soup. Enjoy>
+
+::story
+
+Hearty soup with lots of veggie and protein.
+
+
+::source
+<<<
+---
+title: "Fennel White Bean and Kale Soup"
+date: 2022-07-01
+tags: ['soup', 'vegetables', 'beans']
+author: "zyansheep"
+---
+
+![finished bean soup](/pix/fennel-bean-kale-soup.webp)
+
+Hearty soup with lots of veggie and protein.
+
+- ⏲️ Prep time: 15 min
+- 🍳 Cook time: 20 min
+- 🍽️ Servings: 6-8 bowls
+
+## Ingredients
+
+ - ½ cup olive oil
+ - 2 small fennel bulbs, small-diced
+ - 2 small yellow onions, small-diced
+ - 4 teaspoons minced fresh rosemary or thyme
+ - 10 cloves of garlic, minced or pressed
+ - ½-1 teaspoon red-pepper flakes.
+ - 10-12 oz kale, (escarole, swiss chard, or spinach can also be used).
+ - 4 cans cannellini beans, rinsed
+ - 4 cups chicken broth.
+ - 2 tablespoons lemon juice
+ - 6 tablespoons grated parmesan, plus extra for serving if desired
+
+## Directions
+
+1. In a large soup pot, heat olive oil over medium.
+2. Add fennel, onion, rosemary and mix until tender (4-6 min).
+3. Add garlic, red pepper flakes, cook until fragrant (1 min).
+4. Add one handful of greens at a time, stirring until leaves wilt.
+5. Add white beans, broth, and black pepper,
+6. Bring to boil then bring to simmer while mashing some of the beans with a wooden spoon. Simmer until liquid has reduced and simmered (6-8 mins)
+7. Take off heat, stir in lemon juice and parmesan. Serve with some toasted bread that is good at scooping up soup. Enjoy!
+>>>

@@ -1,0 +1,18 @@
+id: jelly
+kind: ingredient
+canonical_name: jelly
+names:
+  en: jelly
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: jelly
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+observed_qualifiers:
+- value: cranberry or peach or grape
+  count: 1

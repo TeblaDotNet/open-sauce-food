@@ -1,0 +1,12 @@
+id: cover
+kind: equipment
+names:
+  en: cover
+observed_forms:
+- syntax: cover, oven-safe
+  count: 1
+seen_in:
+- examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+observed_qualifiers:
+- value: oven-safe
+  count: 1

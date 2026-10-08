@@ -1,0 +1,26 @@
+id: roast
+kind: process
+names:
+  en: roast
+observed_forms:
+- syntax: roast, 40-45m, until soft and browned at edges
+  count: 1
+- syntax: roast, oven, medium temperature, 5-10m, until about three-quarters cooked
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 40-45m
+  count: 1
+- value: 5-10m
+  count: 1
+- value: medium temperature
+  count: 1
+- value: oven
+  count: 1
+- value: until about three-quarters cooked
+  count: 1
+- value: until soft and browned at edges
+  count: 1
+legacy_observation: true

@@ -1,0 +1,40 @@
+{
+  "title": "Refried Beans",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/refried-beans.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "caea114a2df00309236f3b0a285d0b0b6e9a9b61f3d41afd0ac545a31e69960d",
+  "original_front_matter": {
+    "title": "Refried Beans",
+    "date": "2021-03-12",
+    "tags": [
+      "mexican",
+      "beans",
+      "fasting"
+    ],
+    "author": "yaroslav-smirnov"
+  },
+  "source_url": "https://publicdomainrecipes.com/refried-beans/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Refried Beans",
+      "url": "/pix/refried-beans.webp",
+      "upstreamPath": "static/pix/refried-beans.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "76fec79f451dc2807b1eef62f7c7052905b39bd513dc32f767800d1a3f724ff5",
+      "sourcePath": "source/public-domain-recipes/refried-beans/refried-beans.webp",
+      "promotedPath": "examples/public-domain-recipes/refried-beans/refried-beans.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

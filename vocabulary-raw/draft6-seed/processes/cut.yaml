@@ -1,0 +1,38 @@
+id: cut
+kind: process
+names:
+  en: cut
+observed_forms:
+- syntax: cut
+  count: 2
+- syntax: cut, 1-2in strips
+  count: 1
+- syntax: cut, a few vents in top crust
+  count: 1
+- syntax: cut, cubes
+  count: 1
+- syntax: cut, cutter
+  count: 1
+- syntax: cut, eighths
+  count: 1
+- syntax: cut, small
+  count: 2
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 1-2in strips
+  count: 1
+- value: a few vents in top crust
+  count: 1
+- value: cubes
+  count: 1
+- value: cutter
+  count: 1
+- value: eighths
+  count: 1
+- value: small
+  count: 2
+legacy_observation: true

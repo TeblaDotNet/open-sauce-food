@@ -1,0 +1,40 @@
+{
+  "title": "Country Breakfast Skillet",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/country-skillet.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "e13353a70c358007ee5d649c8270acf90fb696b08defe3c1bc8611cb699e6cd0",
+  "original_front_matter": {
+    "title": "Country Breakfast Skillet",
+    "date": "2021-03-12",
+    "tags": [
+      "american",
+      "breakfast",
+      "pork"
+    ],
+    "author": "yaroslav-smirnov"
+  },
+  "source_url": "https://publicdomainrecipes.com/country-skillet/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Country Breakfast Skillet",
+      "url": "/pix/country-skillet.webp",
+      "upstreamPath": "static/pix/country-skillet.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "841d700dc223e11390a1b80c09ba6d033c66772cc7afef96651884f5b062fa0c",
+      "sourcePath": "source/public-domain-recipes/country-skillet/country-skillet.webp",
+      "promotedPath": "examples/public-domain-recipes/country-skillet/country-skillet.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

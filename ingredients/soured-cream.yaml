@@ -1,0 +1,15 @@
+id: soured-cream
+kind: ingredient
+canonical_name: soured cream
+names:
+  en: soured cream
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: soured cream
+    count: 1

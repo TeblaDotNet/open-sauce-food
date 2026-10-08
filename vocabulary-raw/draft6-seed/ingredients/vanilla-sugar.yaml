@@ -1,0 +1,15 @@
+id: vanilla-sugar
+kind: ingredient
+names:
+  en: vanilla sugar
+observed_forms:
+- syntax: vanilla sugar
+  count: 1
+- syntax: vanilla sugar, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

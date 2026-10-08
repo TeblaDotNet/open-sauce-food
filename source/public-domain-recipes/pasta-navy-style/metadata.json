@@ -1,0 +1,40 @@
+{
+  "title": "Pasta Navy Style",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pasta-navy-style.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "53f93155cbd53e0a7ecb41c698a40f829385616cee17924dfb13688ad0a6a049",
+  "original_front_matter": {
+    "title": "Pasta Navy Style",
+    "date": "2021-03-12",
+    "tags": [
+      "russian",
+      "pasta",
+      "beef"
+    ],
+    "author": "yaroslav-smirnov"
+  },
+  "source_url": "https://publicdomainrecipes.com/pasta-navy-style/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Pasta Navy Style",
+      "url": "/pix/pasta-navy-style.webp",
+      "upstreamPath": "static/pix/pasta-navy-style.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "12a4810c7ba804d2e410a8f158e9de761d3bad065e02adf48f2402b90df03374",
+      "sourcePath": "source/public-domain-recipes/pasta-navy-style/pasta-navy-style.webp",
+      "promotedPath": "examples/public-domain-recipes/pasta-navy-style/pasta-navy-style.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

@@ -1,0 +1,33 @@
+id: red-pepper
+kind: ingredient
+canonical_name: red pepper
+names:
+  en: red pepper
+status: canonical-seed
+evidence:
+  current_recipe_count: 6
+  current_observation_count: 6
+  legacy_observation_count: 0
+  observed_terms:
+  - term: red pepper
+    count: 6
+  seen_in:
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+  - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+observed_qualifiers:
+- value: 1/2in pieces
+  count: 1
+- value: capsicum
+  count: 1
+- value: crushed
+  count: 2
+- value: hot
+  count: 1
+- value: optional
+  count: 1
+- value: sweet and spicy
+  count: 1

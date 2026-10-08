@@ -1,0 +1,22 @@
+id: rosemary
+kind: ingredient
+canonical_name: rosemary
+names:
+  en: rosemary
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: rosemary
+      count: 4
+  seen_in:
+    - examples/public-domain-recipes/paella/paella.opensauce
+    - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: fresh
+    count: 2
+  - value: optional
+    count: 2

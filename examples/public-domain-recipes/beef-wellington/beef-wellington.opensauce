@@ -1,0 +1,112 @@
+::recipe
+
+name: Beef Wellington
+source: https://publicdomainrecipes.com/beef-wellington/
+source author: HiddenSquid321
+source license: Public domain (Unlicense)
+units: source
+tags: english, beef
+serves: 4
+
+# Original source: ../../../source/public-domain-recipes/beef-wellington/beef-wellington.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep Time: 10 min
+# Source Cook Time: 2 hours
+# Source Servings: 4
+# Conversion note: Preheat 302°F/150°C; bake 302°F/105°C. Contradictory Celsius values and false equivalence cannot be resolved without changing source meaning.
+
+::ingredients
+
+(beef, fillet) 1lb
+(extra virgin olive oil) as needed
+(mushrooms) 1lb
+(ham, thinly cut) 4 slices
+(mustard, yellow) 2tbsp
+(puff pastry) 7oz
+(egg: yolk, beaten) 2
+# Method-only items
+(salt) as needed
+(black pepper) as needed
+(flour, for rolling) as needed
+(salt, coarse, for pastry) as needed
+
+::equipment
+
+(pan)
+(plate)
+(food processor)
+(sauté pan)
+(refrigerator)
+(oven)
+(baking tray)
+(knife)
+
+::instructions
+
+(beef) + (salt) + (black pepper) <season>
+    <sear, nicely oiled pan, high heat, all sides including ends; source suggests more heat here for more than medium-rare>
+    <set aside, plate>
+    + (mustard) <brush, immediately after removing from pan>
+(mushrooms) <chop>
+    <process, food processor, purée>
+    <cook, sauté pan, medium-high, until released moisture boiled away>
+    <remove, pan>
+    <cool>
+(ham) <lay, plastic wrap>
+    + (mushrooms) <spread>
+{wrapped fillet} = (ham) + (mushrooms) + (beef)
+{wrapped fillet} <wrap, beef in middle, tight barrel, twist plastic-wrap ends>
+    <refrigerate, 20m>
+(oven) <preheat, 302f / 150c>
+(puff pastry) <roll, lightly floured surface, fit fillet, preserve little excess>
+{wrapped fillet} <unwrap, plastic>
+    <place, pastry middle>
+(puff pastry) + (egg: yolk) <brush, edges>
+{wellington} <wrap, pastry>
+    <place, baking tray>
+    + (egg: yolk) <brush, exposed surface>
+Optional [
+    {wellington} <score, knife, scratch surface without cutting through>
+]
+{wellington} + (salt, coarse) <season>
+    <bake, source states 302f / 105c, 35-42m, pastry golden>
+    <rest, ~10m>
+    <slice, 1in / 2.54cm thick>
+
+::source
+<<<
+---
+title: "Beef Wellington"
+date: 2022-04-15
+tags: ['english', 'beef']
+author: "HiddenSquid321"
+---
+
+- ⏲️ Prep Time: 10 min
+- 🍳Cook Time: 2 hours
+- 🍽️Servings: 4
+
+## Ingredients
+
+- 1lb of **Fillet** Beef
+- Extra Virgin Olive Oil
+- 1lb of mushrooms
+- 4 Thinly Cut Slices of Ham
+- 2tbsp of Yellow Mustard
+- 7oz of Puff Pastry
+- 2 Egg Yolks Beaten
+
+Side note: Fillet beef is preferred.  It gives the beef wellington a soft, tender and juicy flavour.  Trust me, using fillet is worth it.
+
+## Directions
+
+1. Season the fillet with salt and black pepper.
+2. With a nicely-oiled pan on high heat, sear the fillet on all sides, including the ends.  For the standard medium-rare beef wellington, do not cook the fillet, just sear it, tough if you want something more cooked than medium-rare, it's wise to give it more heat here.  Put it aside on a plate.
+3. Brush the fillet with yellow mustard *immediatly* after taking it out of the pan.  This allows the musturd's flavour to be absorbed by the fillet and thus preserve a mildly hot flavor.
+4. Chop the mushrooms. Put them in a food processor. Transfer the purée to a sauté pan that has been heated to medium high heat to cook. Allow the mushrooms to release their moisture; once the moisture has been boiled away take the mushrooms out of pan to cool.
+5. Lay out the slices of ham on plastic wrap and spread the mushroom mixture over the ham.  Place the fillet in the middle.  Wrap the fillet into a tight barrel shape twist the end of the plastic wrap to secure the wrap and the refrigerate the whole thing for 20 minutes.
+6. Preheat the oven to 302°F/150°C.
+7. On a lightly floured surface, roll out a sheet of puff pastry to a size that will fit the fillet.  Preserve a little excess pastry. Unwrap the fillet-mushroom-ham from the plastic wrap and place in the middle of the pastry dough.  Brush the edges of the pastry with the beaten egg yolks.
+8. Place the pastry-wrapped thing on a baking tray. Brush the exposed surface again with the beaten eggs. Optionally, score the top of the pastry with a knife, to give it a better presentation.  Scratch the surface of it but don't cut it through.  Season it through with coarse salt.
+9. Bake at 302°F/105°C for 35-42 minutes. The pastry should be nicely golden when done.  Let it rest for about 10 minutes and cut it into 1in/2.54cm-thick slices for presentation.
+>>>

@@ -1,0 +1,10 @@
+id: red-curry-paste
+kind: ingredient
+names:
+  en: red curry paste
+observed_forms:
+- syntax: red curry paste
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

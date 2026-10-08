@@ -1,0 +1,34 @@
+{
+  "title": "Zopf",
+  "source_url": "https://publicdomainrecipes.com/zopf/",
+  "source_author": "thijs-wester",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/zopf.md",
+  "original_sha256": "9c3e6527935d792d891c4ecc3a62448005e76effba078c6f871a60742d6b168b",
+  "original_front_matter": {
+    "title": "Zopf",
+    "date": "2021-03-15",
+    "tags": [
+      "swiss",
+      "bread",
+      "cheesefare"
+    ],
+    "author": "thijs-wester"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "30 min (plus one hour rising)",
+    "Cook time": "30 min"
+  },
+  "ingredients_source_markdown": "- 1kg white wheat flour\n- ½L milk\n- 125g butter\n- 14g dry yeast\n- 1½T salt\n- 1 egg",
+  "directions_source_markdown": "1. Cut or tear up butter and put in skillet with milk on low heat (This is so the ingredients are not too clod, temperature should not exceed 31 C).\n2. Put the flour in a large bow with the yeast, salt, milk and butter.\n3. Mix and kneed for at least 15 minutes making sure to stretch the dough a lot.\n4. Let the dough rest in a warm spot for at least one hour (temperature should not be higher than 31 C).\n5. Start heating an oven at 200 C (no need to preheat, it will be a good temperature once you are done braiding)\n6. Cut the dough in two or three sections (different according to region), then stretch and roll into long pieces.\n7. Braid the strips, place on a parchment lined baking sheet and brush down with a beaten egg.\n8. Bake for 30 minutes testing with a wooden skewer in the widest part when done. IF the skewer comes out clean, you are done, if not add 5 minutes and repeat.\n9. Wait for the bread to cool before cutting.",
+  "images": [],
+  "coverage_group": "bread-dough"
+}

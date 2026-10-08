@@ -1,0 +1,88 @@
+::recipe
+
+name: Ketchup
+source: https://publicdomainrecipes.com/ketchup/
+# Source author not stated.
+source license: Public domain (Unlicense)
+units: source
+tags: basic, sauce, fasting
+
+# Original source: ../../../source/public-domain-recipes/ketchup/ketchup.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Pour into hot, sterile jars, fill jars to top, and seal. No tested canning schedule or shelf-life is supplied; do not infer shelf stability.
+
+::ingredients
+
+(tomato, sliced, medium-sized) 2 1/2 quart / 15-17 tomatoes
+(garlic, large, chopped) 1 clove
+(vinegar) 1 cup
+(onion, chopped) 1/4 cup
+(sugar) 1/2 cup
+(cinnamon, stick) 3in piece
+(salt) 1 1/4tsp
+(paprika) 1tsp
+(cloves, whole) 1tsp
+(cayenne pepper) a dash
+
+::equipment
+
+(sieve)
+(cloth, clean, thin, white)
+(jar, hot, sterile)
+
+::instructions
+
+{tomato mixture} = (tomato) + (onion)
+{tomato mixture} <simmer, 20-30m>
+    <press, through sieve>
+{spice bag} = (cinnamon) + (cloves) + (garlic)
+{spice bag} <place, loosely in clean thin white cloth>
+    <tie, top tightly>
+{spiced vinegar} = (vinegar) + {spice bag}
+{spiced vinegar} <simmer, 30m>
+{spice bag} <remove>
+{tomato mixture} <boil, rapidly, until half original amount, stir frequently against sticking>
+{ketchup} = {tomato mixture} + {spiced vinegar} + (sugar) + (salt) + (paprika) + (cayenne pepper)
+{ketchup} <boil, rapidly, constantly stirring, ~10m or until slightly thickened>
+    <pour, hot sterile jars, fill to top>
+    <seal>
+# Source provides no further preservation process or storage duration.
+
+::story
+
+Ketchup/Catsup
+
+::source
+<<<
+---
+title: "Ketchup"
+date: 2021-03-12
+tags: ['basic', 'sauce', 'fasting']
+---
+
+- Ketchup/Catsup
+
+## Ingredients
+
+* 2 1/2 quart (15 to 17 medium-sized) sliced tomatoes
+* 1 large garlic clove, chopped
+* 1 cup vinegar
+* 1/4 cup chopped onion
+* 1/2 cup sugar
+* 3 - inch piece stick cinnamon
+* 1 1/4 teaspoon salt
+* 1 teaspoon paprika
+* 1 teaspoon whole cloves
+* a dash cayenne pepper
+
+## Directions
+
+1. Simmer together tomatoes and onion for 20 to 30 minutes; press through a sieve.
+2. Put the cinnamon, cloves, and garlic loosely in a clean, thin, white cloth; tie top tightly; add to vinegar and simmer 30 minutes.
+3. Remove spice bag.
+4. Boil tomato mixture rapidly until you have but one-half the original amount.
+5. Stir frequently to prevent sticking.
+6. Add spiced vinegar, sugar, salt, paprika, and cayenne pepper to tomato mixture.
+7. Boil rapidly, stirring constantly, about 10 minutes or until slightly thickened.
+8. Pour into hot, sterile jars, fill jars to top, and seal.
+>>>

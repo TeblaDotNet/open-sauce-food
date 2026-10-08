@@ -1,0 +1,40 @@
+id: peel
+kind: process
+canonical_name: peel
+names:
+  en: peel
+status: canonical-seed
+evidence:
+  current_recipe_count: 12
+  current_observation_count: 14
+  legacy_observation_count: 4
+  observed_terms:
+  - term: peel
+    count: 14
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+  - examples/public-domain-recipes/limoncello/limoncello.opensauce
+  - examples/public-domain-recipes/orange-jam/orange-jam.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+  - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+  - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+  - term: peel
+    count: 4
+observed_parameters:
+- value: avoid white pith
+  count: 1
+- value: remove white albedo
+  count: 1
+- value: seeds may remain
+  count: 1
+- value: split skin or cut X on top if needed
+  count: 1
+- value: thin brown skin with knife
+  count: 1

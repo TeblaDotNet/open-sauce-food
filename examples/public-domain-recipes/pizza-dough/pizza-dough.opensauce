@@ -1,0 +1,66 @@
+::recipe
+
+name: Pizza Dough
+source: https://publicdomainrecipes.com/pizza-dough/
+source author: BeFe
+source license: Public domain (Unlicense)
+units: source
+tags: basic, pizza, dough
+
+# Original source: ../../../source/public-domain-recipes/pizza-dough/pizza-dough.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: 1 spoon olive oil; a teensy bit of sugar. Neither spoon capacity nor a numeric sugar amount is known.
+
+::ingredients
+
+(flour, basic wheat) 400g
+(water, lukewarm) 200ml
+(yeast, dry) 1 pkg / 7g
+(olive oil) 1 spoon
+(salt) 1tsp
+(sugar) a teensy bit
+(flour, for rolling) some
+
+::equipment
+
+(bowl)
+
+::instructions
+
+{dough} = (flour, basic wheat) + (water) + (yeast) + (olive oil) + (salt) + (sugar)
+{dough} <knead, bowl>
+    <rest, ~30m, somewhere lukewarm>
+(flour, for rolling) <dust, table>
+{dough} <roll, floured table>
+
+::notes
+Here is a simple pizza dough recipe. Basically you use a 2/1 ratio of
+flour/liquid. If you use other flour like rye, you may need more liquid.
+
+::source
+<<<
+---
+title: "Pizza Dough"
+date: 2021-03-11
+tags: ['basic', 'pizza', 'dough']
+author: "BeFe"
+---
+
+Here is a simple pizza dough recipe. Basically you use a 2/1 ratio of
+flour/liquid. If you use other flour like rye, you may need more liquid.
+
+## Ingredients
+
+- 400g flour (basic wheat flour)
+- 200ml lukewarm water
+- 1 pkg (7g) dry yeast
+- 1 spoon olive oil
+- 1 teaspoon salt
+- a teensy bit of sugar (to feed the yeast)
+
+## Directions
+
+1. Combine all the ingredients in a bowl and knead into a dough.
+2. Let it rest for about 30 minutes somewhere lukewarm
+3. Add some flour to a table and roll the dough out there.
+>>>

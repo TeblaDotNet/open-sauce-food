@@ -1,0 +1,109 @@
+::recipe
+
+name: Apple Pie
+source: https://publicdomainrecipes.com/apple-pie/
+source author: mfed3
+source license: Public domain (Unlicense)
+ingredients: US
+units: mixed
+category: dessert
+tags: pie, apple, baking
+serves: 8
+active time: ~30m
+total time: ~1h15m
+image: apple-pie.webp
+
+::ingredients
+
+# Filling
+(apple, Golden Delicious) 900g / 4-5
+(lemon juice) 15g / 1tbsp
+(sugar; white) 50g
+(sugar; brown) 65g
+(cinnamon) 5g / 1tsp
+(nutmeg) 1-2g
+(cornstarch) 15g
+(water, ice-cold) 15g
+
+# Present in the source ingredient list but not used by the source method.
+(butter, cold, sliced) 226g / 2 sticks
+
+# Crust
+(flour) 350g
+(salt) 5g
+(sugar; white, for crust) 30g
+(butter, for crust) 225g
+(water, ice-cold, for crust) 50-100ml
+
+# Egg wash
+(egg, optional) 1
+(water, optional, for egg wash) 15g
+
+::equipment
+
+(bowl)
+(saucepan)
+(food processor)
+(oven)
+(rolling pin)
+(pie dish, ~9in)
+(knife)
+(fork)
+
+::instructions
+
+(apple) <peel>
+    <cut, 1-2in strips>
+
+{filling} =
+    (apple) +
+    (lemon juice) +
+    (sugar; white) +
+    (sugar; brown) +
+    (cinnamon) +
+    (nutmeg) +
+    (cornstarch)
+
+{filling} <mix, bowl>
+    <rest, 15m>
+
+Meanwhile [
+    {crust} =
+        (flour) +
+        (salt) +
+        (sugar; white, for crust) +
+        (butter, for crust)
+
+    {crust} <process, food processor, 5-10s>
+        + (water, ice-cold, for crust) enough to make dough hold together
+]
+
+{filling} <reduce, saucepan, medium-low heat, ~15m, stirring regularly>
+
+(oven) <heat, 350f>
+
+{crust} <divide, half>
+    <roll, both halves, large enough for pie dish>
+
+{crust} <line, pie dish>
+    <trim, excess>
+
+{pie} =
+    {crust} +
+    {filling}
+
+{pie} <cover, remaining crust>
+    <fold and tuck, excess crust>
+    <seal, fork or fingers>
+
+Optional [
+    {egg wash} = (egg) + (water, for egg wash)
+    {pie} + {egg wash} <brush>
+]
+
+{pie} <cut, a few vents in top crust>
+    <bake, 350f, ~45m, until crust is browned and filling is bubbling>
+
+# Imported from Public Domain Recipes. The source ingredient list includes an extra quantity of
+# cold butter under the filling which is not referenced by the method; it is preserved above
+# rather than silently discarded.

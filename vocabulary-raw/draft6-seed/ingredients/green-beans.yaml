@@ -1,0 +1,12 @@
+id: green-beans
+kind: ingredient
+names:
+  en: green beans
+observed_forms:
+- syntax: green beans, flat
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce
+observed_qualifiers:
+- value: flat
+  count: 1

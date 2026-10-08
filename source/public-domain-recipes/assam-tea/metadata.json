@@ -1,0 +1,39 @@
+{
+  "title": "Assam Tea",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/assam-tea.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "edb67c492fe11b879cc7a71a9e38d8141aa4b09c3aa9119efe12a675ca80799b",
+  "original_front_matter": {
+    "title": "Assam Tea",
+    "date": "2021-03-21",
+    "tags": [
+      "drink",
+      "quick"
+    ],
+    "author": "chandra-kiran"
+  },
+  "source_url": "https://publicdomainrecipes.com/assam-tea/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Assam Tea",
+      "url": "/pix/assam-tea.webp",
+      "upstreamPath": "static/pix/assam-tea.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "aebdb762cdad4e1b0af4c77cd22c0a14e7208edd7358f9f017870ed9f3c6e7df",
+      "sourcePath": "source/public-domain-recipes/assam-tea/assam-tea.webp",
+      "promotedPath": "examples/public-domain-recipes/assam-tea/assam-tea.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

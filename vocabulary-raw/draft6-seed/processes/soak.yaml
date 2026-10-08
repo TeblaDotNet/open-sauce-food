@@ -1,0 +1,16 @@
+id: soak
+kind: process
+names:
+  en: soak
+observed_forms:
+- syntax: soak
+  count: 1
+- syntax: soak, coffee
+  count: 1
+seen_in:
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: coffee
+  count: 1
+legacy_observation: true

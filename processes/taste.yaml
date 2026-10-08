@@ -1,0 +1,28 @@
+id: taste
+kind: process
+canonical_name: taste
+names:
+  en: taste
+status: canonical-seed
+evidence:
+  current_recipe_count: 7
+  current_observation_count: 7
+  legacy_observation_count: 0
+  observed_terms:
+  - term: taste
+    count: 7
+  seen_in:
+  - examples/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+  - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
+observed_parameters:
+- value: adjust time to preference
+  count: 1
+- value: after 10-14 days
+  count: 1
+- value: ready when carbonation has started and sugar mostly gone
+  count: 1

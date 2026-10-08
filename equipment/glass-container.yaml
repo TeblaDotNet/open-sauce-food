@@ -1,0 +1,15 @@
+id: glass-container
+kind: equipment
+canonical_name: glass container
+names:
+  en: glass container
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: glass container
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

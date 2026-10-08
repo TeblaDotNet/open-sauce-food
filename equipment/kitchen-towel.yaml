@@ -1,0 +1,18 @@
+id: kitchen-towel
+kind: equipment
+canonical_name: kitchen towel
+names:
+  en: kitchen towel
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: kitchen towel
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+observed_qualifiers:
+- value: clean
+  count: 1

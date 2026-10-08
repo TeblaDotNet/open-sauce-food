@@ -1,0 +1,17 @@
+id: worcestershire-sauce
+kind: ingredient
+canonical_name: Worcestershire sauce
+names:
+  en: Worcestershire sauce
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: Worcestershire sauce
+      count: 4
+  seen_in:
+    - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.

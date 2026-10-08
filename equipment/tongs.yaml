@@ -1,0 +1,20 @@
+id: tongs
+kind: equipment
+canonical_name: tongs
+names:
+  en: tongs
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: tongs
+      count: 2
+  seen_in:
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: optional
+    count: 1
+  - value: rubber
+    count: 1

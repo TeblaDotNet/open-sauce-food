@@ -1,0 +1,284 @@
+{
+  "_ingredients": {
+    "Peels of five onions": "(onion: peel) of five onions",
+    "3/4 Bowls fusilli pasta": "(fusilli pasta) 3/4 Bowls",
+    "1/3 Mug whole milk": "(milk; whole) 1/3 Mug",
+    "1/2 Block of feta (Washed)": "(feta, washed) 1/2 Block",
+    "1 (8-ounce) package shredded Mexican four-cheese blend": "(Mexican four-cheese blend, shredded) 1 package （8-ounce）",
+    "Water 3 dl": "(water) 3 dl",
+    "Pama porridge rice 180 g": "(Pama porridge rice) 180 g",
+    "Whole milk 1 liter": "(milk; whole) 1 liter",
+    "Salt 2 pinches": "(salt) 2 pinches",
+    "Sugar 4 tablespoons": "(sugar) 4 tablespoons",
+    "Cinnamon 2 teaspoons": "(cinnamon) 2 teaspoons",
+    "Butter 50 g": "(butter) 50 g",
+    "Extra virgin olive oil 1/4 cup (40g)": "(olive oil, extra virgin) 1/4 cup / 40g",
+    "Guanciale preferably or Bacon 3.5oz (100g)": "(guanciale or bacon, guanciale preferred) 3.5oz / 100g",
+    "White wine 1/4 cup (60g)": "(white wine) 1/4 cup / 60g",
+    "Tomato passata 10oz (300g)": "(tomato passata) 10oz / 300g",
+    "Spaghetti or similar long pasta 12oz (350g)": "(spaghetti or similar long pasta) 12oz / 350g",
+    "Tomato Paste 2 ts": "(tomato paste) 2 ts",
+    "Juice from 1 lime": "(lime: juice) from 1 lime",
+    "Juice of 2-3 limes": "(lime: juice) of 2-3 limes",
+    "Zest of 1 clementine": "(clementine: zest) of 1 clementine",
+    "Zest of 1 lemon": "(lemon: zest) of 1 lemon",
+    "2 x 400g tinned chopped tomatoes": "(tomatoes, tinned; chopped) 2 x 400g",
+    "340 g (1 package) soft tofu cut into 1.5cm (1/2 inch cubes)": "(tofu, soft, cut into 1.5cm cubes / 1/2 inch cubes as stated) 340 g / 1 package",
+    "8 to 10 radishes, julienned or striped.": "(radishes, julienned or striped) 8 to 10",
+    ".5 TB ground allspice": "(allspice, ground, for Meat layer) .5 TB",
+    ".5 TB ground cinnamon": "(cinnamon, ground, for Meat layer) .5 TB",
+    "Overfilled Teaspoon Mixed Spice": "(mixed spice) Overfilled Teaspoon",
+    "Overfilled tablespoon Creme Cheese": "(Creme Cheese) Overfilled tablespoon",
+    "1/2 metric cup (~125ml) buckwheat": "(buckwheat) 1/2 metric cup / ~125ml",
+    "1 1/5 metric cup (~300ml) water": "(water) 1 1/5 metric cup / ~300ml",
+    "Half a teaspoon of baking soda": "(baking soda) Half a teaspoon",
+    "Half a cup of diced chives": "(chives, diced) Half a cup",
+    "1 table spoon of cinnamon powder (optional)": "(cinnamon powder, optional) 1 table spoon",
+    "1 table spoon of honey (optional)": "(honey, optional) 1 table spoon",
+    "beef stock ~1 pint": "(beef stock) ~1 pint",
+    "chouriço negro or firm type of blood sausage": "(chouriço negro) -OR- (blood sausage, firm type)",
+    "mixed meat chouriço or mediterranean smoked sausage": "(chouriço, mixed meat) -OR- (smoked sausage, mediterranean)",
+    "1 tbsp Chinese rice vinegar or alternatively white wine vinegar": "(rice vinegar, Chinese, for Sauce) 1 tbsp -OR- (white wine vinegar, for Sauce) 1 tbsp",
+    "~70g of cheese; I have made with different cheese types, but usually I use Gouda": "(cheese, different types possible; author usually uses Gouda) ~70g",
+    "(Optional) More mozzarella and parmesan for fans of cheese.": "(mozzarella, optional) More\n(parmesan, optional) More",
+    "Seasoning: salt and pepper with cayenne or paprika (optional)": "(seasoning, salt and pepper with cayenne or paprika, optional)",
+    "Any extra herbs or spices to your taste": "(herbs or spices, extra) Any; to your taste",
+    "2 kg of pork loin or ribs cut into 5 cm pieces, it can be mixture of the two.": "(pork, loin or ribs or a mixture of the two, cut into 5 cm pieces) 2 kg",
+    "Yucatan style tomato sauce or Chiltomate to taste (optional)": "(Yucatan style tomato sauce or Chiltomate, optional) to taste",
+    "5 oregano sprigs / heavy sprinkle of oregano leaves": "(oregano, sprigs) 5 -OR- (oregano: leaves) heavy sprinkle # Source slash interpreted as the explicitly different forms; not a numeric equivalence.",
+    "8 oz uncooked pasta (spaghetti or any other long noodle will work. Stroganov can also be served over rice.)": "(pasta, uncooked; spaghetti or any other long noodle, source also allows serving Stroganov over rice) 8 oz",
+    "1 1/2 Cups Cooking oil Used to fry the chicken": "(cooking oil, used to fry the chicken) 1 1/2 Cups",
+    "1kg cooked fusilli noodles or small square flat noodles (=Fleckerl)": "(noodles, cooked fusilli or small square flat noodles — Fleckerl) 1kg",
+    "1/2 tsp paprika or cayenne pepper if you want some heat": "(paprika, for Spice Blend) 1/2 tsp -OR- (cayenne pepper, for Spice Blend; if you want some heat) 1/2 tsp",
+    "2 Tbsp Peanut Oil or other suitable frying oil": "(peanut oil) 2 Tbsp -OR- (frying oil, other suitable oil) 2 Tbsp",
+    "1/2 cup of water mixed with a teaspoon of salt.": "(water) 1/2 cup\n(salt, mixed with the water) a teaspoon",
+    "Oil or grease of choice for frying. (Modern Argentines use refined tallow or sunflower seed oil, but for the real gaucho way, unrefined lard or tallow is the right choice)": "(oil or grease, for frying, source suggests refined tallow or sunflower seed oil; or unrefined lard or tallow for the gaucho version)",
+    "30g+ Butter": "(butter) 30g+",
+    "One spoon of butter (Actual butter and preferably unsalted. No margarine!)": "(butter, actual butter; preferably unsalted; no margarine) One spoon",
+    "(Optional) a bottle of stout or porter for some extra flavour.": "(beer, stout or porter, optional; for some extra flavour) a bottle",
+    "2 big spoons of sour creme or creme fraiche": "(sour creme or creme fraiche) 2 big spoons",
+    "1 5 quart pot (5 litre pot) with a lid": "(pot, 5 quart; source also says 5 litre; with a lid) 1",
+    "~150g (1/3 lb) medium soft cheese. Appenzeller works best. Gruyère would be my go-to alternative.": "(cheese, medium soft, Appenzeller works best; Gruyère would be the author's go-to alternative) ~150g / 1/3 lb",
+    "Around 120g of ground beef meat per person": "(beef meat, ground) Around 120g per person",
+    "Around 14 ounces or 400 grams of chicken breast": "(chicken: breast) Around 14 ounces or 400 grams",
+    "Around 5 tbsp of sesame oil for frying the chicken": "(sesame oil, for frying the chicken) Around 5 tbsp",
+    "Other common seasonings may include (¼ tsp. of) cayenne pepper, cheese powder, and/or white pepper": "(seasonings, may include cayenne pepper; cheese powder; and/or white pepper) ¼ tsp. as source suggests",
+    "1/4 of an onion": "(onion) 1/4",
+    "½ an onion": "(onion) ½",
+    "3/4 of a cup of warm water": "(water, warm) 3/4 of a cup",
+    "6g of of citric acid (contained in 130ml of lemon juice)": "(citric acid, source says contained in 130ml of lemon juice) 6g # Source typo: of of; equivalence retained as a claim, not validated.",
+    "As much bacon as you want to garnish": "(bacon, to garnish) As much as you want",
+    "A whole ckicken weighing close to 2,5kg (roughly 3 pounds). Avoid industrially grown birds, as those can make the stew very greasy and flavorless.": "(ckicken, whole, source spelling; source advises avoiding industrially grown birds) close to 2,5kg / roughly 3 pounds # Source equivalence is inconsistent; neither amount corrected.",
+    "Mace (Optional): Mace is a dried flower originating from the Nutmeg plant. Use no more than 3 strands of this flower.": "(mace, optional) no more than 3 strands # Source describes mace as a dried flower; botanical claim not validated.",
+    "One medium sized squash that is easy to peel (butternut squash is usually best)": "(squash, medium sized, easy to peel; butternut squash is usually best) One",
+    "1 bottle 700ml red wine (I prefer Primitivo/Zinfandel), don't buy a cheap cooking wine, you want to drink it :)": "(red wine, author prefers Primitivo/Zinfandel; not cheap cooking wine) 1 bottle 700ml",
+    "4 tablespoons of a 40% a.b.v. spirit. Cachaça is the main one, Rum or Grappa will do.": "(spirit, 40% a.b.v., Cachaça preferred; Rum or Grappa will do) 4 tablespoons",
+    "Juice of 1/2 Lemon or 1 tsp of Vinegar": "(lemon: juice) of 1/2 lemon -OR- (vinegar) 1 tsp",
+    "5cm piece of Ginger": "(ginger) 5cm piece",
+    "Fresh Bolognese sauce — /bolognese-sauce or about 1 litre worth of store-bought sauce": "(bolognese sauce, fresh; see /bolognese-sauce) -OR- (sauce, store-bought) about 1 litre",
+    "Béchamel sauce — /classic-bechamel-sauce or ricotta lasagna filling — /ricotta-lasagna-filling": "(béchamel sauce, see /classic-bechamel-sauce) -OR- (ricotta lasagna filling, see /ricotta-lasagna-filling)",
+    "1lbs./500g liver (chicken, beef, poultry etc.)": "(liver, chicken; beef; poultry etc.) 1lbs. / 500g",
+    "1/4 of a cauliflower.": "(cauliflower) 1/4",
+    "4 ¼ inch thick boneless pork shoulder steaks": "(pork shoulder steaks, boneless, ¼ inch thick) 4",
+    "1 tablespoon 18% sour cream": "(sour cream, 18%) 1 tablespoon",
+    "topping: for example orange jam — /orange-jam from 4 oranges": "(topping, for example orange jam; see /orange-jam) from 4 oranges",
+    "Pinch salt to taste": "(salt) Pinch; to taste",
+    "Hint of Chilli Powder (Spicy option)/ Hint of sugar (Sweet option)": "(chilli powder, spicy option) Hint -OR- (sugar, sweet option) Hint",
+    "Chicken fillet(s); I normally use chicken breasts": "(chicken: fillet, author normally uses chicken breasts)",
+    "~4 small pinches of (Mozzarella, Oaxaca, or Montery Jack cheese).": "(cheese, Mozzarella; Oaxaca; or Montery Jack as source spells it) ~4 small pinches",
+    "A thin coating of oil on the pan. It will be more traditional, but also more unhealthy. (Optional)": "(oil, optional, for the pan) A thin coating # Source's health comparison is not validated.",
+    "For the Baking Tin: More Butter and Flour": "(butter, for the baking tin) More\n(flour, for the baking tin) More",
+    "Pecorino romano cheese preferably or Parmesan 1.5oz (40g)": "(cheese, Pecorino romano preferably or Parmesan) 1.5oz / 40g",
+    "½ lb. fresh bulk Italian style pork sausage": "(pork sausage, fresh bulk Italian style, for the meatballs) ½ lb.",
+    "2 33cl bottles of brown beer": "(beer, brown) 2 bottles of 33cl",
+    "A few dashes each - Nutmeg; Cayenne; Paprika": "(nutmeg) A few dashes\n(cayenne) A few dashes\n(paprika) A few dashes",
+    "Any toppings if desired (chocolate chips, ...) although it is very enjoyable on its own.": "(toppings, if desired; chocolate chips or others) Any # Source says also enjoyable on its own.",
+    "1 serving Wholemeal Wheat Flour Pizza Dough — /wholemeal-wheat-flour-pizza-dough": "(wholemeal wheat flour pizza dough, see /wholemeal-wheat-flour-pizza-dough) 1 serving",
+    "Roasted rapeseed oil (caizi you) or Chinese peanut oil, 2/3 cup": "(oil, roasted rapeseed oil — caizi you — or Chinese peanut oil, for Yibin Chili Oil) 2/3 cup",
+    "1 heaping tbsp cumin": "(cumin) 1 heaping tbsp",
+    "1 heaping tbsp ground coriander": "(coriander, ground) 1 heaping tbsp"
+  },
+  "air-fryer-zucchini": {
+    "instructions": [
+      "(zucchini) <chop, into medium-sized squares>",
+      "(zucchini) <put, into a bowl>",
+      "    <add, olive oil; season salt; garlic powder and onion powder if using, lightly>",
+      "    <cook, in air fryer, 8 minutes, 400 F or until crispy>"
+    ],
+    "caveats": [
+      {
+        "category": "culinary interpretation",
+        "evidence": "Source alternates zucchinis/zucchini and makes garlic/onion powder optional.",
+        "decision": "Use one local zucchini identity; preserve optional seasonings and the authored time/temperature condition."
+      }
+    ]
+  },
+  "aelplermagronen": {
+    "intro": "story",
+    "caveats": [
+      {
+        "category": "source ambiguity",
+        "evidence": "Method adds butter if needed, salt and optional nutmeg, absent from the formal ingredient list; source numbering skips 6.",
+        "decision": "Retain method wording without inventing amounts or a missing step."
+      }
+    ]
+  },
+  "eggs": {
+    "caveats": [
+      {
+        "category": "syntax/representation question",
+        "evidence": "Four independent egg preparations are presented as subsections.",
+        "decision": "Keep the four methods as alternative blocks, not one sequential recipe."
+      }
+    ],
+    "alternativeSubsections": true
+  },
+  "greek-yogurt": {
+    "ingredients": [
+      "(milk) 1l",
+      "(yogurt) 100ml"
+    ],
+    "equipment": [
+      "(thermos, ½l capacity each) 2",
+      "(thermometer)",
+      "(cheesecloth) 1",
+      "(oven, or any other place without air flow)"
+    ],
+    "caveats": [
+      {
+        "category": "source ambiguity",
+        "evidence": "Near-duplicate of yogurt; adds cheesecloth straining for 30 minutes to 4 hours.",
+        "decision": "Keep as a distinct authored preparation; do not silently merge. Equipment was listed among ingredients and is separated here."
+      },
+      {
+        "category": "safety",
+        "evidence": "12h incubation, 45°C target, thermos washing and refrigeration directions.",
+        "decision": "Preserve source instructions without independently endorsing fermentation safety."
+      }
+    ]
+  },
+  "yogurt": {
+    "ingredients": [
+      "(milk) 1l",
+      "(yogurt) 100ml"
+    ],
+    "equipment": [
+      "(thermos, ½l capacity each) 2",
+      "(thermometer)",
+      "(oven, or any other place without air flow)"
+    ],
+    "caveats": [
+      {
+        "category": "source ambiguity",
+        "evidence": "Shares most steps with greek-yogurt, which additionally strains the yogurt.",
+        "decision": "Retain both with an explicit near-duplicate relationship."
+      },
+      {
+        "category": "safety",
+        "evidence": "12h incubation, 45°C target, thermos washing and refrigeration directions.",
+        "decision": "Preserve source instructions without independently endorsing fermentation safety."
+      }
+    ]
+  },
+  "wholemeal-wheat-flour-pizza-dough": {
+    "intro": "notes",
+    "caveats": [
+      {
+        "category": "source ambiguity",
+        "evidence": "Near-duplicate of existing pizza-dough, with different flour, quantities and resting time.",
+        "decision": "Keep distinct; amounts and flour choice are materially different."
+      }
+    ]
+  },
+  "modern-borscht": {
+    "caveats": [
+      {
+        "category": "syntax/representation question",
+        "evidence": "Prep Directions and Cooking Directions overlap in time; source delays potatoes and cabbage until later simmer stages.",
+        "decision": "Preserve both subsection headings and timing instructions; do not execute all preparation up front."
+      }
+    ],
+    "intro": "notes"
+  },
+  "garam-masala": {
+    "caveats": [
+      {
+        "category": "quantity/unit oddity",
+        "evidence": "5/6 Bayleaf, 5/6 Black pepper pods and storage for 2/3 months.",
+        "decision": "Retain slash spellings; do not decide fraction versus range."
+      },
+      {
+        "category": "culinary interpretation",
+        "evidence": "Source calls mace a dried flower.",
+        "decision": "Retain in original source and flag the botanical statement; do not promote it as vocabulary knowledge."
+      }
+    ]
+  },
+  "galinha-caipira": {
+    "caveats": [
+      {
+        "category": "quantity/unit oddity",
+        "evidence": "Source calls close to 2,5kg roughly 3 pounds and spells chicken ckicken.",
+        "decision": "Preserve discrepancy and source spelling rather than silently repairing either."
+      }
+    ]
+  },
+  "coleslaw": {
+    "intro": "notes",
+    "caveats": [
+      {
+        "category": "source ambiguity",
+        "evidence": "Mustard powder is listed but not explicitly added in the method; dressing yield exceeds the salad's need.",
+        "decision": "Keep the ingredient and source method without inventing an addition point or using all dressing."
+      },
+      {
+        "category": "provenance/licensing",
+        "evidence": "Contributor says the recipe came from a closed local chili restaurant, without identifying copied text.",
+        "decision": "Record attribution for review; rely on contributor's upstream dedication, with no asserted independent rights verification."
+      }
+    ]
+  },
+  "russian-1000-islands-sauce": {
+    "caveats": [
+      {
+        "category": "provenance/licensing",
+        "evidence": "Source says recipe taken from a Russian monastery; no identified publication or copying claim.",
+        "decision": "Retain provenance note; upstream dedication is the available redistribution evidence."
+      }
+    ]
+  },
+  "roasted-chicken-breast": {
+    "caveats": [
+      {
+        "category": "safety",
+        "evidence": "Source links to Reddit for cooking chicken below 165°F if carryover temperature does not reach its target.",
+        "decision": "Preserve the wording/link as an unvalidated source claim; flag for human safety review, not authoritative advice."
+      }
+    ]
+  },
+  "dou-sha-bao": {
+    "ingredients": [
+      "(wheat flour) 350g （~12 oz）",
+      "(baker’s yeast) 1 sachet （~4g / 0.14 oz）",
+      "(baking powder) 1 teaspoon",
+      "(sugar) 200g （7 oz）",
+      "(water) 20cl （~0,05 gal）",
+      "(sunflower oil) 1 teaspoon",
+      "(red beans, Azuki, soak 24h before recipe) 250g （~9 oz）",
+      "(salt)"
+    ],
+    "equipment": [
+      "(baking paper, square 7x7cm; source also says ~3x3inches) 6",
+      "(pan)",
+      "(salad bowl)",
+      "(steaming basket, covered)"
+    ],
+    "caveats": [
+      {
+        "category": "syntax/representation question",
+        "evidence": "Baking paper appears in the ingredient list; package and parenthetical alternate measures are mixed.",
+        "decision": "Separate paper as equipment; preserve parenthetical measures without asserting exact equivalence."
+      }
+    ]
+  }
+}

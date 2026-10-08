@@ -1,0 +1,41 @@
+{
+  "title": "Rösti",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/roesti.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "14ebcbe7ce1144e6b9eed8e27966d4e5b7e01961a78d4f21110c33810778fb1e",
+  "original_front_matter": {
+    "title": "Rösti",
+    "date": "2021-03-12",
+    "tags": [
+      "swiss",
+      "potato",
+      "side",
+      "cheesefare"
+    ],
+    "author": "elias-pahls"
+  },
+  "source_url": "https://publicdomainrecipes.com/roesti/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Rösti",
+      "url": "/pix/roesti.webp",
+      "upstreamPath": "static/pix/roesti.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "e4a9ec9bb90ef6a527204f3fc7eadf37070fd672ba6fc77b7e5debcd09d7c3eb",
+      "sourcePath": "source/public-domain-recipes/roesti/roesti.webp",
+      "promotedPath": "examples/public-domain-recipes/roesti/roesti.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

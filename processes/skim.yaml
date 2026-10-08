@@ -1,0 +1,21 @@
+id: skim
+kind: process
+canonical_name: skim
+names:
+  en: skim
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: skim
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+observed_parameters:
+- value: all surface fat
+  count: 1
+- value: remove most scum
+  count: 1

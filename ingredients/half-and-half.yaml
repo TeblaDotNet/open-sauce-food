@@ -1,0 +1,15 @@
+id: half-and-half
+kind: ingredient
+canonical_name: half and half
+names:
+  en: half and half
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: half and half
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce

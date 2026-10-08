@@ -1,0 +1,101 @@
+id: flour
+kind: ingredient
+canonical_name: flour
+names:
+  en: flour
+status: canonical-seed
+evidence:
+  legacy_observation_count: 14
+  observed_terms:
+    - term: flour
+      count: 42
+  seen_in:
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+    - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+    - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+    - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+    - examples/public-domain-recipes/castagnole/castagnole.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+    - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+    - examples/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce
+    - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+    - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+    - examples/public-domain-recipes/lavacake/lavacake.opensauce
+    - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+    - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+    - examples/public-domain-recipes/pizza-dough/pizza-dough.opensauce
+    - examples/public-domain-recipes/pretzels/pretzels.opensauce
+    - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+    - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+    - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+    - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+    - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+    - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+    - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+    - term: flour
+      count: 14
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: all purpose
+    count: 1
+  - value: all-purpose
+    count: 3
+  - value: avoid bleached and enriched
+    count: 1
+  - value: basic wheat
+    count: 1
+  - value: bread
+    count: 4
+  - value: enriched
+    count: 1
+  - value: extra
+    count: 1
+  - value: for optional fruit
+    count: 1
+  - value: for rolling
+    count: 2
+  - value: plain
+    count: 4
+  - value: rye
+    count: 2
+  - value: self-raising
+    count: 3
+  - value: sifted
+    count: 2
+  - value: unbleached all-purpose
+    count: 1
+  - value: wheat
+    count: 5
+  - value: white wheat
+    count: 1
+  - value: whole wheat
+    count: 1
+variants:
+  plain:
+    names:
+      en: plain
+  all-purpose:
+    names:
+      en: all-purpose
+    aliases:
+      - all purpose
+  self-raising:
+    names:
+      en: self-raising
+    aliases:
+      - self raising

@@ -1,0 +1,13 @@
+id: sesame-seeds
+kind: ingredient
+names:
+  en: sesame seeds
+observed_forms:
+- syntax: sesame seeds, toasted
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: toasted
+  count: 1
+legacy_observation: true

@@ -1,0 +1,35 @@
+{
+  "title": "Sand Tarts",
+  "source_url": "https://publicdomainrecipes.com/sand-tarts/",
+  "source_author": "Pennsylvania Dutch Cooking",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sand-tarts.md",
+  "original_sha256": "5378ba3eedd4466655e8b6c3261f1b61e12b604b7e03e0e382950b20e7aa2885",
+  "original_front_matter": {
+    "title": "Sand Tarts",
+    "tags": [
+      "cookies",
+      "baking",
+      "dutch",
+      "pennsylvania"
+    ],
+    "date": "2008-09-08",
+    "author": "Pennsylvania Dutch Cooking"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "15 min",
+    "Cook time": "10 min"
+  },
+  "ingredients_source_markdown": "- 2 cups sugar\n- 1 cup butter\n- 4 eggs\n- flour",
+  "directions_source_markdown": "1. Work butter and part of the sugar together, then the remainder of the sugar and the eggs should be mixed in. Use enough flour to make very stiff.\n2. Roll thin, cut out in small squares, wet top with two eggs beaten, sprinkle with sugar, cinnamon and chopped almonds.\n3. Bake in moderate oven, 10 minutes.",
+  "images": [],
+  "coverage_group": "dessert-historical"
+}

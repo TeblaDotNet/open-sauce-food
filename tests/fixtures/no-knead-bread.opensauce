@@ -1,0 +1,61 @@
+::recipe
+
+name: No-knead Bread
+source: https://publicdomainrecipes.com/no-knead-bread/
+source author: enthdegree
+source license: Public domain (Unlicense)
+ingredients: US
+units: mixed
+category: baking
+tags: bread, no-knead
+dietary: vegan
+yield: 8-12 slices
+total time: ~13h50m
+image: no-knead-bread.webp
+
+::ingredients
+
+(flour) 3 cups
+(salt) 1tsp
+
+(yeast) =
+    (instant yeast) 1/4tsp
+    -OR-
+    (active dry yeast) 1.25/4tsp
+
+(water, warm) 1 1/2 cups
+
+::equipment
+
+(oven)
+(pan, oven-safe)
+(cover, oven-safe)
+
+::instructions
+
+{dry} =
+    (flour) +
+    (salt) +
+    (yeast)
+
+{dough} =
+    {dry} +
+    (water)
+
+{dough} <mix, until firm>
+    <rest, room temperature, 12h>
+
+Optional [
+    {dough} <refrigerate, up to 48h, before baking>
+]
+
+(oven) <heat, 450f / 230c>
+(pan) <preheat, oven>
+
+{dough} <place, pan>
+
+{bread} <bake, covered, 30m>
+    <bake, uncovered, 20m>
+
+# The active-dry-yeast quantity is preserved exactly from the source ("1.25/4 tsp"),
+# which appears unusual and may be a source typo.

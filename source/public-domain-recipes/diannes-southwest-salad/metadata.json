@@ -1,0 +1,38 @@
+{
+  "title": "Dianne's Southwestern Cornbread Salad",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/diannes-southwest-salad.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "cc896115a697b06c8b823b2389c4e947376d3061569cbe441a2933ac72b4ae4d",
+  "original_front_matter": {
+    "title": "Dianne's Southwestern Cornbread Salad",
+    "date": "2021-04-20",
+    "tags": [
+      "salad",
+      "mexican"
+    ]
+  },
+  "source_url": "https://publicdomainrecipes.com/diannes-southwest-salad/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Dianne's Southwestern Cornbread Salad",
+      "url": "/pix/diannes-cornbread-salad.webp",
+      "upstreamPath": "static/pix/diannes-cornbread-salad.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "ca2e495d2d08c60b77fe0a3b3cd8fb6927dc90d3f2c526eedf5e1bcedae901ba",
+      "sourcePath": "source/public-domain-recipes/diannes-southwest-salad/diannes-cornbread-salad.webp",
+      "promotedPath": "examples/public-domain-recipes/diannes-southwest-salad/diannes-cornbread-salad.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

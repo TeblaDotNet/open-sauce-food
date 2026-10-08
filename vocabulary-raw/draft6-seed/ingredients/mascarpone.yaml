@@ -1,0 +1,9 @@
+id: mascarpone
+kind: ingredient
+names:
+  en: mascarpone
+observed_forms:
+- syntax: mascarpone
+  count: 1
+seen_in:
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce

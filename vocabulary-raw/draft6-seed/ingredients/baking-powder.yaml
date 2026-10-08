@@ -1,0 +1,12 @@
+id: baking-powder
+kind: ingredient
+names:
+  en: baking powder
+observed_forms:
+- syntax: baking powder
+  count: 3
+seen_in:
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+- legacy-corpus:bbc-food-10
+legacy_observation: true

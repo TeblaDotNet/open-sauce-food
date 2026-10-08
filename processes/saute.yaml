@@ -1,0 +1,76 @@
+id: saute
+kind: process
+canonical_name: sauté
+names:
+  en: sauté
+status: canonical-seed
+evidence:
+  current_recipe_count: 11
+  current_observation_count: 16
+  legacy_observation_count: 0
+  observed_terms:
+  - term: sauté
+    count: 16
+  seen_in:
+  - examples/public-domain-recipes/aljotta/aljotta.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+observed_parameters:
+- value: 10m
+  count: 1
+- value: 2m
+  count: 1
+- value: 5m
+  count: 1
+- value: 5m more
+  count: 2
+- value: 7-8m
+  count: 1
+- value: a few minutes
+  count: 1
+- value: fragrant and soft
+  count: 1
+- value: medium-high
+  count: 2
+- value: oil
+  count: 1
+- value: retain crunch
+  count: 1
+- value: skillet
+  count: 1
+- value: slowly
+  count: 1
+- value: small skillet
+  count: 1
+- value: softened
+  count: 1
+- value: softened and lightly golden
+  count: 1
+- value: soup pan
+  count: 1
+- value: soup pot at least 5.5 QT
+  count: 1
+- value: stir
+  count: 1
+- value: until brown
+  count: 1
+- value: until raw flavour fades
+  count: 1
+- value: until translucent
+  count: 1
+- value: very briefly
+  count: 1
+- value: wok
+  count: 1
+- value: ~10m
+  count: 1
+- value: ~1m
+  count: 1

@@ -1,0 +1,83 @@
+::recipe
+
+name: Fritatem pomeranciis
+source: https://publicdomainrecipes.com/fritatem-pomeranciis/
+source author: pestanzul
+source license: Public domain (Unlicense)
+units: source
+tags: cream, dessert, eggs, fasting, italian, medieval
+serves: 2
+image: fritatem-pomeranciis.webp
+
+# Original source: ../../../source/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 10 min
+# Source Cook time: 5 min
+# Source Servings: 2
+# Conversion note: Ingredients list olive oil, method says frying oil; intro claims eggs do not coagulate. No temperature, duration or coagulation endpoint is supplied in directions.
+
+::ingredients
+
+(egg) 2
+(orange) 1
+(sugar) 1tsp
+(olive oil) 1tsp
+(salt) a pinch
+(lemon juice, optional) a few drops
+
+::equipment
+
+(bowl)
+(pan)
+
+::instructions
+
+(egg) + (sugar) + (orange: juice) + (salt) <beat, bowl>
+# Orange juice refers to the listed orange; no yield is stated.
+Optional [
+    (lemon juice) <add, a few drops as suggested in introduction>
+]
+(olive oil) <heat, frying pan>
+    + {egg mixture} <cook>
+    <serve, warm>
+
+::story
+
+Fritatem pomeranciis means "orange omelette" in Latin, but in fact it is a cream made by cooking eggs, which do not coagulate because of orange juice.
+
+It is a medieval recipe, so it had to adapted because some ingredients are no longer available.
+Some versions include the juice of half a lemon, but the result is rather sour: if you like it, I recommend adding only a few drops thereof.
+
+::source
+<<<
+---
+title: Fritatem pomeranciis
+tags: ['cream', 'dessert', 'eggs', 'fasting', 'italian', 'medieval']
+date: 2026-01-01
+author: "pestanzul"
+---
+
+![Fritatem pomeranciis](/pix/fritatem-pomeranciis.webp)
+
+_Fritatem pomeranciis_ means "orange omelette" in Latin, but in fact it is a cream made by cooking eggs, which do not coagulate because of orange juice.
+
+It is a medieval recipe, so it had to adapted because some ingredients are no longer available.
+Some versions include the juice of half a lemon, but the result is rather sour: if you like it, I recommend adding only a few drops thereof.
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 5 min
+- 🍽️ Servings: 2
+
+## Ingredients
+
+- 2 eggs
+- 1 orange
+- 1 teaspoon sugar
+- 1 teaspoon olive oil
+
+## Directions
+
+1. In a bowl, beat the eggs with sugar, orange juice, and a pinch of salt.
+2. Cook in a pan with frying oil.
+3. Serve warm.
+>>>

@@ -1,0 +1,18 @@
+id: vinegar
+kind: ingredient
+names:
+  en: vinegar
+observed_forms:
+- syntax: vinegar, apple cider
+  count: 1
+- syntax: vinegar, white
+  count: 1
+seen_in:
+- examples/public-domain-recipes/pavlova/pavlova.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: apple cider
+  count: 1
+- value: white
+  count: 1
+legacy_observation: true

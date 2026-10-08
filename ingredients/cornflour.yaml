@@ -1,0 +1,27 @@
+id: cornflour
+kind: ingredient
+canonical_name: cornflour
+names:
+  en-GB: cornflour
+  en-US: cornstarch
+  en-AU: cornflour
+status: reviewed-merge
+aliases:
+- name: cornstarch
+  type: regional-name
+  observed_count: 3
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cornflour
+    count: 2
+  - term: cornstarch
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/pavlova/pavlova.opensauce

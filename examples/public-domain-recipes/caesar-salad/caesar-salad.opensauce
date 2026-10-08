@@ -1,0 +1,67 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Caesar Salad
+source: https://publicdomainrecipes.com/caesar-salad/
+source author: gucko
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: italian, salad, cheesefare
+image: csalad.webp
+
+# Imported from content/caesar-salad.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(romaine lettuce)
+(parmesan cheese, Grated)
+(croutons)
+(caesar salad dressing)
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<prepare, a whole head of Romaine Lettuce by chopping off the root and rising thoroughly with water. Dry completely>
+Once the lettuce is fully dry, put in a mixing bowl with lettuce and the Caesar Salad dressing. Toss to cover each leaf completely.
+(croutons) <add>
+<grate, Parmesan over salad>
+Eat with hands.
+
+::story
+
+Caesar Salad is an easy and delicious meal for lunch or dinner.
+
+
+::source
+<<<
+---
+title: "Caesar Salad"
+date: 2021-03-11
+tags: ['italian', 'salad', 'cheesefare']
+author: "gucko"
+---
+
+![caesar_salad](/pix/csalad.webp)
+
+Caesar Salad is an easy and delicious meal for lunch or dinner.
+
+## Ingredients
+
+- Romaine Lettuce
+- Grated Parmesan Cheese
+- Croutons
+- Caesar Salad Dressing
+
+## Directions
+
+1. Prepare a whole head of Romaine Lettuce by chopping off the root and rising thoroughly with water.  Dry completely.
+2. Once the lettuce is fully dry, put in a mixing bowl with lettuce and the Caesar Salad dressing.  Toss to cover each leaf completely.
+3. Add croutons.
+4. Grate Parmesan over salad.
+5. Eat with hands.
+>>>

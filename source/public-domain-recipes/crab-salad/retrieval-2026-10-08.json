@@ -1,0 +1,33 @@
+{
+  "title": "Crab salad",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/crab-salad.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "529a65f267e086fc87491ad284a691cf4dd78ee9bb498362ef16b2a1a16a2bdb",
+  "original_front_matter": {
+    "title": "Crab salad",
+    "date": "2021-03-22",
+    "tags": [
+      "salad",
+      "russian"
+    ]
+  },
+  "source_url": "https://publicdomainrecipes.com/crab-salad/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Crab salad",
+      "url": "/pix/crab-salad.webp",
+      "upstreamPath": "static/pix/crab-salad.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

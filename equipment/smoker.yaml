@@ -1,0 +1,15 @@
+id: smoker
+kind: equipment
+canonical_name: smoker
+names:
+  en: smoker
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: smoker
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce

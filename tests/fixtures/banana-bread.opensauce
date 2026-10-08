@@ -1,0 +1,93 @@
+::recipe
+
+name: Banana Bread
+source: https://publicdomainrecipes.com/banana-bread/
+source author: martin-chrzanowski
+source license: Public domain (Unlicense)
+units: source
+tags: bread, dessert, sweet, fasting
+
+# Original source: ../../../source/public-domain-recipes/banana-bread/banana-bread.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Walnuts appear in the ingredient list but not in the directions. Source does not state when to add them.
+
+::ingredients
+
+(flour; all purpose) 2 cups
+(baking powder) 1 1/2tsp
+(baking soda) 1/2tsp
+# Spices
+(cinnamon) 1tsp
+(nutmeg) 1/4tsp
+(ginger) 1/4tsp
+(salt) 1/4tsp
+(banana, mashed) 1 1/2 cups / ~4-5 bananas
+(egg) 2
+(sugar, brown or white) 1 cup
+(butter) 1/2 cup
+(walnuts, crushed) 1/4 cup
+(greasing fat) = (butter) as needed -OR- (oil) as needed
+
+::equipment
+
+(oven)
+(bowl) 2
+(loaf tin)
+(skewer) -OR- (chopstick)
+
+::instructions
+
+(oven) <preheat, 350f / 175c>
+{wet} = (egg) + (banana) + (butter) + (sugar)
+{wet} <mix, bowl>
+{dry} = (flour) + (baking soda) + (baking powder) + (cinnamon) + (nutmeg) + (ginger) + (salt)
+{dry} <mix, another bowl>
+{batter} = {dry} + {wet}
+{batter} <mix, adding wet slowly, until no dry flour remains>
+(loaf tin) + (greasing fat) <grease, lightly>
+{batter} <pour, loaf tin>
+    <bake, ~1h, until wooden skewer or chopstick comes out clean>
+
+::story
+
+Not too sweet. Great for when you have friends over for tea.
+
+::source
+<<<
+---
+title: "Banana Bread"
+date: 2021-03-11
+tags: ['bread', 'dessert', 'sweet', 'fasting']
+author: martin-chrzanowski
+---
+
+Not too sweet. Great for when you have friends over for tea.
+
+## Ingredients
+
+- 2 cups all purpose flour
+- 1 1/2 teaspoon baking powder
+- 1/2 teaspoon baking soda
+- Spices:
+    - 1 teaspoon cinnamon
+    - 1/4 teaspoon nutmeg
+    - 1/4 teaspoon ginger
+- 1/4 teaspoon salt
+- 1 1/2 cups mashed bananas (this is around 4-5 bananas)
+- 2 eggs
+- 1 cup sugar (brown or white is fine)
+- 1/2 cup butter
+- 1/4 cup crushed walnuts
+
+## Directions
+
+1. Preheat oven to 350°F (175°C)
+2. Mix the wet ingredients (eggs, bananas, butter, sugar) in one bowl.
+3. Mix the dry ingredients (flour, baking soda/powder, spices, salt) in another
+   bowl.
+4. Slowly add the wet to the dry while mixing.
+5. Mix until dry bits of flour are gone.
+6. Pour into lightly buttered or oiled loaf pan.
+7. Bake for around an hour (it's definitely ready when a wooden skewer or
+   chopstick poked inside comes out clean).
+>>>

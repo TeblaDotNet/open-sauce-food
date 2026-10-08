@@ -1,0 +1,15 @@
+id: rub-in
+kind: process
+names:
+  en: rub in
+observed_forms:
+- syntax: rub in
+  count: 1
+- syntax: rub in, until crumbly
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: until crumbly
+  count: 1
+legacy_observation: true

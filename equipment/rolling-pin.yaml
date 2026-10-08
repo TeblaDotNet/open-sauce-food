@@ -1,0 +1,17 @@
+id: rolling-pin
+kind: equipment
+canonical_name: rolling pin
+names:
+  en: rolling pin
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: rolling pin
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+  - examples/public-domain-recipes/schnitzel/schnitzel.opensauce

@@ -1,0 +1,51 @@
+id: mix
+kind: process
+names:
+  en: mix
+observed_forms:
+- syntax: mix
+  count: 11
+- syntax: mix, bowl
+  count: 1
+- syntax: mix, glass container
+  count: 1
+- syntax: mix, gradually
+  count: 1
+- syntax: mix, mixer, high speed, until smooth
+  count: 1
+- syntax: mix, thoroughly
+  count: 1
+- syntax: mix, until firm
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/guacamole/guacamole.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- examples/public-domain-recipes/lavacake/lavacake.opensauce
+- examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: bowl
+  count: 1
+- value: glass container
+  count: 1
+- value: gradually
+  count: 1
+- value: high speed
+  count: 1
+- value: mixer
+  count: 1
+- value: thoroughly
+  count: 1
+- value: until firm
+  count: 1
+- value: until smooth
+  count: 1
+legacy_observation: true

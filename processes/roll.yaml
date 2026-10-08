@@ -1,0 +1,92 @@
+id: roll
+kind: process
+canonical_name: roll
+names:
+  en: roll
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: roll
+      count: 22
+  seen_in:
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/castagnole/castagnole.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/crostata/crostata.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/pizza-dough/pizza-dough.opensauce
+    - examples/public-domain-recipes/pretzels/pretzels.opensauce
+    - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+    - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+    - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+    - examples/public-domain-recipes/zopf/zopf.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: baking paper
+    count: 1
+  - value: both halves
+    count: 1
+  - value: corn flakes
+    count: 1
+  - value: counter without flour
+    count: 1
+  - value: desired thickness
+    count: 1
+  - value: do not let butter break through
+    count: 1
+  - value: fit fillet
+    count: 1
+  - value: floured board
+    count: 1
+  - value: floured table
+    count: 1
+  - value: for use
+    count: 1
+  - value: large enough for pie dish
+    count: 1
+  - value: large rectangle ~1/2in thick
+    count: 1
+  - value: lightly floured surface
+    count: 2
+  - value: like jelly roll
+    count: 1
+  - value: logs
+    count: 1
+  - value: long pieces
+    count: 1
+  - value: long snakes ~4cm / 1.5in in girth
+    count: 1
+  - value: long thin snakes
+    count: 1
+  - value: near edge away from you into tight loaf
+    count: 1
+  - value: not too thin because it will not rise and would burn
+    count: 1
+  - value: preserve little excess
+    count: 1
+  - value: rectangle 8 by 12in
+    count: 1
+  - value: size of small tortilla
+    count: 1
+  - value: slightly larger than tray
+    count: 1
+  - value: thicker central belly
+    count: 1
+  - value: thin
+    count: 1
+  - value: tightly toward gap
+    count: 1
+  - value: until covered
+    count: 1
+  - value: ~1.5cm thick
+    count: 1
+  - value: ~1/2in thick
+    count: 1
+  - value: ~1/4in thin
+    count: 1

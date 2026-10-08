@@ -1,0 +1,47 @@
+id: butter
+kind: ingredient
+names:
+  en: butter
+observed_forms:
+- syntax: butter
+  count: 7
+- syntax: butter, cold, sliced
+  count: 1
+- syntax: butter, for crust
+  count: 1
+- syntax: butter, melted
+  count: 2
+- syntax: butter, melted, slightly cooled
+  count: 1
+- syntax: butter, unsalted
+  count: 1
+- syntax: butter, unsalted, melted
+  count: 1
+- syntax: butter, unsalted, softened
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/lavacake/lavacake.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: cold
+  count: 1
+- value: for crust
+  count: 1
+- value: melted
+  count: 4
+- value: sliced
+  count: 1
+- value: slightly cooled
+  count: 1
+- value: softened
+  count: 1
+- value: unsalted
+  count: 3
+legacy_observation: true

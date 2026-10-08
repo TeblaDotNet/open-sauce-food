@@ -1,0 +1,27 @@
+id: toss
+kind: process
+canonical_name: toss
+names:
+  en: toss
+status: canonical-seed
+evidence:
+  legacy_observation_count: 4
+  observed_terms:
+    - term: toss
+      count: 2
+  seen_in:
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  legacy_terms:
+    - term: toss
+      count: 4
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 1-2m
+    count: 1
+  - value: clean hands
+    count: 1
+  - value: medium-high heat
+    count: 1
+  - value: to coat
+    count: 1

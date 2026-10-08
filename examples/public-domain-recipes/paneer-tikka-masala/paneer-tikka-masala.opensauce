@@ -1,0 +1,102 @@
+::recipe
+
+name: Paneer Tikka Masala
+source: https://publicdomainrecipes.com/paneer-tikka-masala/
+source author: arth-patel
+source license: Public domain (Unlicense)
+ingredients: mixed
+units: metric
+category: main
+tags: paneer, curry, Indian-inspired
+dietary: vegetarian
+total time: >1h
+image: paneer-tikka-masala.webp
+
+::ingredients
+
+(paneer, cubes) 250g
+(onion) 1
+(capsicum) 1
+(tomato puree) 200ml
+(red chilli powder) 1tsp
+(turmeric powder) 1tsp
+(coriander powder) 1tsp
+(garam masala powder) 1/2tsp
+(yogurt, thick) 100ml
+(fenugreek powder) 1tsp
+(fenugreek leaves, dried) as needed
+(cardamom) as needed
+(cumin seeds) as needed
+(ginger, shaved) as needed
+(garlic paste) 20ml
+(corn) 1 bowl
+
+# Used by the source method but not quantified in the source ingredient list.
+(tomato) as needed
+(oil) as needed
+(water) as needed
+(vegetables, choice) as desired
+(lemon juice) as needed
+(coriander, fresh) as needed
+(bread, for serving) as desired
+
+::equipment
+
+(glass container)
+(oven)
+(skewer)
+(pan)
+
+::instructions
+
+{marinade} =
+    (red chilli powder) 1/2tsp +
+    (turmeric powder) +
+    (coriander powder) +
+    (garam masala powder) +
+    (fenugreek powder) +
+    (yogurt) ~50ml
+
+(paneer) + {marinade}
+    <mix, glass container>
+    <marinate, at least 1h>
+
+{skewers} =
+    (paneer) +
+    (onion) +
+    (capsicum) +
+    (tomato)
+
+{skewers} <grill, oven, 200c / 392f, turn every 5m, until outside is crisp>
+
+(oil) <heat, pan>
+    + (cardamom)
+    + (cumin seeds)
+    <cook, 1-2m, until fragrant>
+    + (onion)
+    + (tomato)
+    + (ginger)
+    + (garlic paste)
+    <sauté, until raw flavour fades>
+
+{sauce} =
+    (tomato puree) +
+    (fenugreek leaves)
+
+{sauce} <cook, ~15m>
+    + (water)
+    <cook, until sauce thickens>
+
+{curry} =
+    {sauce} +
+    {skewers} +
+    (vegetables) +
+    (corn)
+
+{curry} <stir>
+    <cook, until added water evaporates and mixture thickens>
+    <remove from heat>
+    + (lemon juice)
+    + (coriander)
+    <garnish>
+    <serve, bread>

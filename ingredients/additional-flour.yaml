@@ -1,0 +1,15 @@
+id: additional-flour
+kind: ingredient
+canonical_name: additional flour
+names:
+  en: additional flour
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: additional flour
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce

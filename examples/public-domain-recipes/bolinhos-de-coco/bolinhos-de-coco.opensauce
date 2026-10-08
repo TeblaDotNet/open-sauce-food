@@ -1,0 +1,72 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Bolinhos de Coco
+source: https://publicdomainrecipes.com/bolinhos-de-coco/
+source author: Mealwhiles
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: portuguese, quick, sweet, dessert, cheesefare
+
+# Imported from content/bolinhos-de-coco.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 10 min
+
+::ingredients
+
+(coconut) 300 g
+(sugar) 150 g
+(egg: yolk) 3
+(whole egg) 1
+(powdered sugar, optional)
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<mix, the non-optional ingredients in a medium bowl>
+<scoop, tablespoons of the batter into a cookie sheet or cupcake pan>
+<cook, for around 10 minutes or until slightly brown on top>
+<top, with powdered sugar if desired>
+<let, cool and enjoy>
+
+::story
+
+This is a Portuguese dish that translates to "coconut cupcakes," though there are probably lots of equivalent dishes from other cultures. Its simplicity and short preparation time make it perfect for a snack or dessert.
+
+
+::source
+<<<
+---
+title: "Bolinhos de Coco"
+date: 2021-03-16
+tags: ['portuguese', 'quick', 'sweet', 'dessert', 'cheesefare']
+author: "Mealwhiles"
+---
+
+This is a Portuguese dish that translates to "coconut cupcakes," though there are probably lots of equivalent dishes from other cultures.
+Its simplicity and short preparation time make it perfect for a snack or dessert.
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 10 min
+
+## Ingredients
+
+- 300 g coconut
+- 150 g sugar
+- 3 egg yolks
+- 1 whole egg
+- Powdered sugar (optional)
+
+## Directions
+
+1. Mix the non-optional ingredients in a medium bowl.
+2. Scoop tablespoons of the batter into a cookie sheet or cupcake pan.
+3. Cook for around 10 minutes or until slightly brown on top.
+4. Top with powdered sugar if desired.
+5. Let cool and enjoy!
+>>>

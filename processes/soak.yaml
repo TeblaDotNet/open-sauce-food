@@ -1,0 +1,32 @@
+id: soak
+kind: process
+canonical_name: soak
+names:
+  en: soak
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 2
+  observed_terms:
+  - term: soak
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/ceviche/ceviche.opensauce
+  - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+  legacy_terms:
+  - term: soak
+    count: 2
+observed_parameters:
+- value: a few minutes
+  count: 1
+- value: a while to mellow flavour
+  count: 1
+- value: bowl of cold water
+  count: 1
+- value: coffee
+  count: 2
+- value: overnight
+  count: 1

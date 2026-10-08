@@ -1,0 +1,24 @@
+id: tofu
+kind: ingredient
+canonical_name: tofu
+names:
+  en: tofu
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: tofu
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
+  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+observed_qualifiers:
+- value: extra firm
+  count: 1
+- value: firm or extra firm
+  count: 1
+- value: optional
+  count: 1

@@ -1,0 +1,25 @@
+id: extra-virgin-olive-oil
+kind: ingredient
+canonical_name: extra virgin olive oil
+names:
+  en: extra virgin olive oil
+status: canonical-seed
+evidence:
+  current_recipe_count: 8
+  current_observation_count: 8
+  legacy_observation_count: 0
+  observed_terms:
+  - term: extra virgin olive oil
+    count: 8
+  seen_in:
+  - examples/public-domain-recipes/aljotta/aljotta.opensauce
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/lentejas/lentejas.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+observed_qualifiers:
+- value: conditional
+  count: 1

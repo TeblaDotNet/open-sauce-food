@@ -1,0 +1,35 @@
+{
+  "title": "Brown Butter Cinnamon Sugar Biscuits",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/cinnamon-biscuits.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "3cc5c222a956e41982d5a33a641b68913552652addd2c6ffb0f955d296bc2dbd",
+  "original_front_matter": {
+    "title": "Brown Butter Cinnamon Sugar Biscuits",
+    "tags": [
+      "biscuit",
+      "dessert",
+      "breakfast",
+      "pastry"
+    ],
+    "date": "2023-10-26",
+    "author": "walktheearth"
+  },
+  "source_url": "https://publicdomainrecipes.com/cinnamon-biscuits/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

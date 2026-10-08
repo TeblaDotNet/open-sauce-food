@@ -1,0 +1,40 @@
+{
+  "title": "Creamy Mashed Potatoes",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/creamy-mashed-potatoes.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "429735d48a9c3c73f1eb3a645b8a0b3b0cd58f2767950c51fa72bf57016a9ef8",
+  "original_front_matter": {
+    "title": "Creamy Mashed Potatoes",
+    "date": "2021-03-12",
+    "tags": [
+      "potato",
+      "side",
+      "cheesefare"
+    ],
+    "author": "yaroslav-smirnov"
+  },
+  "source_url": "https://publicdomainrecipes.com/creamy-mashed-potatoes/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Creamy Mashed Potatoes",
+      "url": "/pix/creamy-mashed-potatoes.webp",
+      "upstreamPath": "static/pix/creamy-mashed-potatoes.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "bd30ec11910a158fee0474b10c5601e8fa0aef055f9f99a8a5fda2f0c5c79ba8",
+      "sourcePath": "source/public-domain-recipes/creamy-mashed-potatoes/creamy-mashed-potatoes.webp",
+      "promotedPath": "examples/public-domain-recipes/creamy-mashed-potatoes/creamy-mashed-potatoes.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

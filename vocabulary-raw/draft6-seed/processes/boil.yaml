@@ -1,0 +1,26 @@
+id: boil
+kind: process
+names:
+  en: boil
+observed_forms:
+- syntax: boil
+  count: 2
+- syntax: boil, 10m
+  count: 2
+- syntax: boil, 6m
+  count: 1
+- syntax: boil, salted water
+  count: 1
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 10m
+  count: 2
+- value: 6m
+  count: 1
+- value: salted water
+  count: 1
+legacy_observation: true

@@ -1,0 +1,33 @@
+{
+  "title": "Oat Milk",
+  "source_url": "https://publicdomainrecipes.com/oat-milk/",
+  "source_author": "machocam",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/oat-milk.md",
+  "original_sha256": "cdbf2814c6fbcdc6c28a0b2a80386f25b8c4d663469b8af5bc294113465cd78d",
+  "original_front_matter": {
+    "title": "Oat Milk",
+    "date": "2025-09-20",
+    "tags": [
+      "oat",
+      "drink",
+      "breakfast"
+    ],
+    "author": "machocam"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "7-10 min"
+  },
+  "ingredients_source_markdown": "This is for 1L of oat milk.\n\n- 250 ml of oat\n- 0.5 teaspoon of salt\n- 0.7 tablespoon of peanut butter",
+  "directions_source_markdown": "1. Put your water in the fridge so that it's at roughly 4 °C. You can also add ice to make it colder.\n2. Add all ingredients into blender.\n3. Blend for 15 seconds at high speed.\n4. Pass result through cheese cloth.\n\nYou want to avoid the mix getting hot, otherwise the proteins will denaturate and make the drink slimy.\nYou can add or reduce water content to reach desired consistency.\nThe oat left in the cheese cloth can be used to bake, it's mainly just fibre.",
+  "images": [],
+  "coverage_group": "mixed"
+}

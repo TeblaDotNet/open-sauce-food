@@ -1,0 +1,42 @@
+id: egg
+kind: ingredient
+names:
+  en: egg
+observed_forms:
+  - syntax: egg
+    count: 8
+  - syntax: egg, free-range
+    count: 2
+  - syntax: egg, free-range, beaten
+    count: 1
+  - syntax: egg, large, lightly beaten
+    count: 1
+  - syntax: egg, medium
+    count: 1
+  - syntax: egg, optional
+    count: 1
+seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/lavacake/lavacake.opensauce
+  - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+  - legacy-corpus:bbc-food-10
+observed_qualifiers:
+  - value: beaten
+    count: 1
+  - value: free-range
+    count: 3
+  - value: large
+    count: 1
+  - value: lightly beaten
+    count: 1
+  - value: medium
+    count: 1
+  - value: optional
+    count: 1
+legacy_observation: true

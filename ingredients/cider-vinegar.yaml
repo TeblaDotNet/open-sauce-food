@@ -1,0 +1,15 @@
+id: cider-vinegar
+kind: ingredient
+canonical_name: cider vinegar
+names:
+  en: cider vinegar
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cider vinegar
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce

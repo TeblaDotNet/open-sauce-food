@@ -1,0 +1,55 @@
+::recipe
+
+name: Shakshouka
+source: https://publicdomainrecipes.com/shakshouka/
+source author: jakub-korsak
+source license: Public domain (Unlicense)
+units: source
+category: breakfast
+tags: eggs, tomato, shakshouka
+dietary: vegetarian
+serves: 2
+active time: ~10m
+total time: ~20m
+image: shakshouka.webp
+
+::ingredients
+
+(tomato, small) 5
+(egg) 5
+(onion; white, peeled) 1
+(chives) some
+(cumin) to taste
+(powdered sweet pepper) to taste
+
+# Used by the method but omitted from the source ingredient list.
+(oil) as needed
+(salt) to taste
+
+::equipment
+
+(frying pan)
+(lid)
+
+::instructions
+
+(tomato) <scald, to loosen skin>
+    <peel>
+    <cut, cubes>
+
+(onion) <chop>
+    <glaze, frying pan, oil>
+
+{shakshouka} =
+    (onion) +
+    (tomato)
+
+{shakshouka} <season, cumin + powdered sweet pepper + salt>
+    <stir>
+    <cook, until denser>
+    + (egg)
+    <season>
+    <cover, lid>
+    <cook, until eggs are set>
+    + (chives)
+    <serve>

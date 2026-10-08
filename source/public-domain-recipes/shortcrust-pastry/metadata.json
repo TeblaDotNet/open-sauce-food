@@ -1,0 +1,36 @@
+{
+  "title": "Shortcrust pastry",
+  "source_url": "https://publicdomainrecipes.com/shortcrust-pastry/",
+  "source_author": "pestanzul",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/shortcrust-pastry.md",
+  "original_sha256": "4994418b0da811e124ee981401a586b0f27514cb19300301a99c85d493aff4fc",
+  "original_front_matter": {
+    "title": "Shortcrust pastry",
+    "tags": [
+      "baking",
+      "basic",
+      "dough",
+      "sweet"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_timing_and_servings": {
+    "servings": "are reduced if the dough is used alone (e. g. for biscuits).",
+    "Prep time": "30 min",
+    "Servings": "8"
+  },
+  "ingredients_source_markdown": "- 500 g flour\n- 250 g butter\n- 150 g powdered sugar\n- 2 eggs",
+  "directions_source_markdown": "1. Cut the butter in slices, put it in a large bowl and leave it at room temperature until it's easy to knead.\n2. Add the powdered sugar and knead until uniform.\n   From now on, pay attention to knead fast enough so that the butter doesn't melt.\n   If it does, place the dough in the fridge for 15-30 minutes before going on.\n3. Add the eggs and knead.\n   It's not necessary that the dough is perfectly uniform.\n4. Add all the flour and knead.\n   Don't knead too much after adding the flour, or the dough won't reach its typical crumbliness.\n   The dough is ready when it's uniform and the surface cracks when you bend it.\n5. Roll out the dough on baking paper.\n   Don't make it too thin: it's not supposed to rise, so it would burn during cooking.\n6. Keep in the fridge for 15-30 minutes before use.",
+  "images": [],
+  "coverage_group": "bread-dough"
+}

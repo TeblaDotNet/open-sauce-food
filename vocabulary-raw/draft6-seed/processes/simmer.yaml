@@ -1,0 +1,40 @@
+id: simmer
+kind: process
+names:
+  en: simmer
+observed_forms:
+- syntax: simmer, medium heat, stirring occasionally, 5m
+  count: 1
+- syntax: simmer, medium-high heat, until potatoes are tender
+  count: 1
+- syntax: simmer, very gentle, 2-3h, until beef pulls apart easily
+  count: 1
+- syntax: simmer, ~5m, stirring occasionally, until thick and deep brown-red
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 2-3h
+  count: 1
+- value: 5m
+  count: 1
+- value: medium heat
+  count: 1
+- value: medium-high heat
+  count: 1
+- value: stirring occasionally
+  count: 2
+- value: until beef pulls apart easily
+  count: 1
+- value: until potatoes are tender
+  count: 1
+- value: until thick and deep brown-red
+  count: 1
+- value: very gentle
+  count: 1
+- value: ~5m
+  count: 1
+legacy_observation: true

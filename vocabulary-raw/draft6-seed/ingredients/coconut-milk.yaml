@@ -1,0 +1,10 @@
+id: coconut-milk
+kind: ingredient
+names:
+  en: coconut milk
+observed_forms:
+- syntax: coconut milk
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

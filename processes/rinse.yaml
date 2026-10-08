@@ -1,0 +1,34 @@
+id: rinse
+kind: process
+canonical_name: rinse
+names:
+  en: rinse
+status: canonical-seed
+evidence:
+  current_recipe_count: 7
+  current_observation_count: 8
+  legacy_observation_count: 0
+  observed_terms:
+  - term: rinse
+    count: 8
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+  - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+observed_parameters:
+- value: all dishes used
+  count: 1
+- value: at least 30s
+  count: 1
+- value: cold water
+  count: 3
+- value: remaining water off as source states
+  count: 1
+- value: thoroughly
+  count: 1
+- value: with boiling water
+  count: 1

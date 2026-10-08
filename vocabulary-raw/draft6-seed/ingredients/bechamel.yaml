@@ -1,0 +1,9 @@
+id: bechamel
+kind: ingredient
+names:
+  en: béchamel
+observed_forms:
+- syntax: béchamel
+  count: 1
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce

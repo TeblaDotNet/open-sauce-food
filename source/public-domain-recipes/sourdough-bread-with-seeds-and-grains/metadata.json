@@ -1,0 +1,42 @@
+{
+  "title": "Sourdough bread with seeds and grains",
+  "source_url": "https://publicdomainrecipes.com/sourdough-bread-with-seeds-and-grains/",
+  "source_author": "SirStark",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sourdough-bread-with-seeds-and-grains.md",
+  "original_sha256": "224209dc8fb2a75cdcba754484766c5038a92cae3d7e416f4c6206d6d454b5da",
+  "original_front_matter": {
+    "title": "Sourdough bread with seeds and grains",
+    "date": "2021-03-23",
+    "tags": [
+      "sourdough",
+      "bread"
+    ],
+    "author": "SirStark"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "15 min",
+    "Cook time": "120 min"
+  },
+  "ingredients_source_markdown": "### For the preparation\n\n- 100g grain of choice (e.g. rye, spelt and wheat)\n- 40g linseed\n- 30g sesame\n- 30g sunflower seeds\n- 600g water\n\n### For the bread\n\n- 400g sourdough\n- 200g water (25-35°C)\n- 200g rye flour\n- 300g wheat flour\n- 20g sea salt\n- 2tsp bread spice\n- soaked seeds and grains",
+  "directions_source_markdown": "### Preparations (the day before)\n\n1. Feed your sourdough starter for the next day.\n2. Boil the grain in 500g water for 45 minutes.\n3. Put the seeds and 100g water into a bowl.\n4. Store everything in a locked bowl overnight (13-16h).\n\n### Bread\n\n1. Remove leftover water from the seeds and grains\n2. Stir all ingredients for the bread and knead them well.\n3. Let the dough rest for 5 hours in warm (25-30°C) conditions.\n4. Preheat the oven to 250°C.\n5. Bake for up to 20 minute with steam.\n6. Release the steam and turn the heat down to 150°C.\n7. Bake for another 50-60 minutes",
+  "images": [
+    {
+      "alt": "Sourdough bread with seeds and grains",
+      "source_url": "https://publicdomainrecipes.com/pix/sourdough-bread-with-seeds-and-grains.webp",
+      "source_reference": "/pix/sourdough-bread-with-seeds-and-grains.webp",
+      "status": "retrieved",
+      "filename": "sourdough-bread-with-seeds-and-grains.webp",
+      "sha256": "e3f9d1c528ee190053c78ee9c88b4871262746a0a874a04df2360fb7e737fc51"
+    }
+  ],
+  "coverage_group": "mixed"
+}

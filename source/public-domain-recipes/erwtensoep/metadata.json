@@ -1,0 +1,35 @@
+{
+  "title": "Erwtensoep (Dutch pea soup)",
+  "source_url": "https://publicdomainrecipes.com/erwtensoep/",
+  "source_author": "rijk",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/erwtensoep.md",
+  "original_sha256": "06e14acdf9831542888b2619a00d17e10ca3a5c2c4757673dd1b775cab84fd2e",
+  "original_front_matter": {
+    "title": "Erwtensoep (Dutch pea soup)",
+    "date": "2021-03-23",
+    "tags": [
+      "dutch",
+      "soup",
+      "vegetables"
+    ],
+    "author": "rijk"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "15 min",
+    "Cook time": "90 min",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "- 7 1/2 cups / 1.75 liters water\n- 1 1/2 cups / 300 grams peas (dried green split)\n- 3 1/2 ounces / 100 grams pork belly (Dutch speklapjes or thick-cut bacon)\n- 1 pork chop\n- 1 bouillon cube (vegetable, pork or chicken)\n- 2 ribs celery\n- 2 to 3 carrots (peeled and sliced)\n- 1 large potato (peeled and cubed)\n- 1 small onion (chopped)\n- 1 small leek (sliced)\n- 1 cup celeriac (cubed)\n- 1 pound sausage (chopped rookworst, smoked sausage)\n- Salt and pepper",
+  "directions_source_markdown": "1. In a large soup pot, bring water, split peas, pork belly or bacon, pork chop, and bouillon cube to a boil.\n2. Reduce the heat to a simmer, cover and let cook for 45 minutes, stirring occasionally and skimming off any foam that rises to the top.\n3. Remove the pork chop, debone, and thinly slice the meat. Set aside.\n4. Add the celery, carrots, potato, onion, leek, and celeriac to the soup.\n5. Return to the boil, reduce the heat to a simmer and let cook, uncovered, for another 30 minutes\n6. Add the smoked sausage for the last 15 minutes of cooking time.\n7. When the vegetables are tender, remove the bacon and smoked sausage, slice thinly, and set aside.\n8. If you prefer a smooth consistency, purée the soup with a stick blender.\n9. Season to taste with salt and pepper.\n10. Add the meat back to the soup, setting some slices of sausage aside.\n11. Serve in heated bowls or soup plates, garnished with slices of rookworst and chopped celery leaf. Enjoy!",
+  "images": [],
+  "coverage_group": "soups"
+}

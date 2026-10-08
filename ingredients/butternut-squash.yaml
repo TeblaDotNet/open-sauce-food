@@ -1,0 +1,22 @@
+id: butternut-squash
+kind: ingredient
+canonical_name: butternut squash
+names:
+  en: butternut squash
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: butternut squash
+    count: 1
+observed_qualifiers:
+- value: 3cm cubes
+  count: 1
+- value: deseeded
+  count: 1
+- value: peeled
+  count: 1

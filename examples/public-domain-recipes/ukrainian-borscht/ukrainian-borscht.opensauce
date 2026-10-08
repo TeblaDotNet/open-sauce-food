@@ -1,0 +1,113 @@
+::recipe
+
+name: Ukrainian Borscht
+source: https://publicdomainrecipes.com/ukrainian-borscht/
+source author: stanislav
+source license: Public domain (Unlicense)
+units: source
+tags: ukrainian, soup, beetroot, russian
+serves: 10
+image: borscht.webp
+
+# Original source: ../../../source/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 25 mins
+# Source Cook time: 40 mins
+# Source Servings: 10
+# Conversion note: Optional ingredients collectively added at end include sour cream also used for serving. Allocation of sour cream and dill is not explicit.
+
+::ingredients
+
+(beetroot, red) 3
+(extra virgin olive oil) 4tbsp
+(chicken broth) 8 cups
+(water) 2 cups
+(Yukon potato) 3
+(carrot) 2
+(celery) 2 ribs
+(onion) 1
+(tomato choice) = (ketchup) 4tbsp -OR- (tomato sauce) 3tbsp
+(red bell pepper, optional) 1
+(white cannelini beans, with juice, optional) 1 can
+(bay leaf, optional) 2
+(garlic, pressed, optional) 1 clove
+(sour cream, optional) 1 cup
+(dill, fresh, optional) to taste
+(spices) to taste
+(water, cold, for potatoes) as needed
+
+::equipment
+
+(soup pot, at least 5.5 QT)
+(skillet)
+
+::instructions
+
+(beetroot) + (Yukon potato) + (carrot) + (celery) + (onion) + (red bell pepper, if using) <peel> <grate or slice>
+(Yukon potato) <keep, cold water> <drain>
+(extra virgin olive oil) 2tbsp + (beetroot, grated) <sauté, soup pot at least 5.5 QT, medium-high, 10m, stir, softened>
+    + (chicken broth) + (water) + (Yukon potato, sliced) + (carrot, sliced) <cook, 10-15m, until easily pierced with fork>
+Meanwhile [
+    (extra virgin olive oil) remaining 2tbsp + (onion, chopped) + (celery, chopped) + (red bell pepper, chopped, if using) <sauté, skillet, medium-high, 7-8m, softened and lightly golden>
+        + (tomato choice) <stir-fry, 30s> <add, to soup pot>
+]
+{soup} <cook, until vegetables reach desired softness>
+    + (white cannelini beans, if using) + (bay leaf, if using) + (garlic, if using) + (sour cream, if using) + (dill, if using) <simmer, 2-3m>
+    + (spices) <season, to taste>
+<serve, dollop of sour cream if using>
+# Source says to add optional ingredients collectively, then also uses sour cream at serving.
+
+::story
+
+Borscht is a beet soup that originates from Ukraine and is common in Eastern Europe and North Asia.
+Depending on the recipe, borscht may be purely vegetarian; it may be served either hot or cold; and it may range from a hearty one-pot meal to a clear broth or a smooth drink.
+
+::source
+<<<
+---
+title: "Ukrainian Borscht"
+date: 2021-04-02
+tags: ['ukrainian', 'soup', 'beetroot', 'russian']
+author: stanislav
+---
+
+![Borscht in a bowl](/pix/borscht.webp)
+
+Borscht is a beet soup that originates from Ukraine and is common in Eastern Europe and North Asia.
+Depending on the recipe, borscht may be purely vegetarian; it may be served either hot or cold; and it may range from a hearty one-pot meal to a clear broth or a smooth drink.
+
+- ⏲️ Prep time: 25 mins
+- 🍳 Cook time: 40 mins
+- 🍽️ Servings: 10
+
+## Ingredients
+
+- 3 red beetroots
+- 4 Tbsp extra virgin olive oil
+- 8 cups chicken broth + 2 cups water
+- 3 yukon potatoes
+- 2 carrots
+- 2 celery ribs
+- 1 onion
+- 4 Tbsp ketchup or 3 Tbsp tomato sauce
+- 1 red bell pepper (optional)
+- 1 can white cannelini beans with their juice (optional)
+- 2 bay leaves (optional)
+- 1 pressed garlic clove (optional)
+- 1 cup sour cream (optional)
+- fresh dill to taste (optional)
+
+## Directions
+
+1. Peel, grate and/or slice all vegetables (keeping sliced potatoes in cold water to prevent browning until ready to use then drain).
+2. Heat a large soup pot (5 1/2 Qt or larger) over medium/high heat and add 2 Tbsp olive oil.
+3. Add grated beets and sauté 10 minutes, stirring occasionally until beets are softened.
+4. Add 8 cups broth and 2 cups water.
+5. Add sliced potatoes and sliced carrots then cook for 10-15 minutes or until easily pierced with a fork.
+6. While potatoes are cooking, place a large skillet over medium/high heat and add 2 Tbsp oil.
+7. Add chopped onion, celery and bell pepper. Saute stirring occasionally until softened and lightly golden (7-8 minutes).
+8. Add 4 Tbsp Ketchup and stir fry for 30 seconds then transfer to the soup pot to continue cooking with the potatoes.
+9. When potatoes and carrots reach desired softness, add optional ingredients from the list.
+10. Simmer for an additional 2-3 minutes and add more spices to taste.
+11. Serve with a dollop of sour cream on top.
+>>>

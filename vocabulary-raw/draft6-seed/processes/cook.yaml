@@ -1,0 +1,134 @@
+id: cook
+kind: process
+names:
+  en: cook
+observed_forms:
+- syntax: cook
+  count: 1
+- syntax: cook, 1-2m, until fragrant
+  count: 1
+- syntax: cook, 1m less than packet instructions
+  count: 1
+- syntax: cook, 5-10m, until chicken is cooked
+  count: 1
+- syntax: cook, a few seconds, do not burn
+  count: 1
+- syntax: cook, covered, stirring occasionally, ~10m, until vegetables soften
+  count: 1
+- syntax: cook, high heat, 10m, do not stir
+  count: 1
+- syntax: cook, medium heat, ~20m
+  count: 1
+- syntax: cook, medium-low heat, 8-10m, until rice absorbs broth
+  count: 1
+- syntax: cook, saucepan, ~5m, until beginning to soften
+  count: 1
+- syntax: cook, stirring frequently, ~5m, until vegetables are tender and liquid evaporates
+  count: 1
+- syntax: cook, stirring, 1m
+  count: 1
+- syntax: cook, stirring, 2m
+  count: 1
+- syntax: cook, until added water evaporates and mixture thickens
+  count: 1
+- syntax: cook, until denser
+  count: 1
+- syntax: cook, until eggs are set
+  count: 1
+- syntax: cook, until reduced and oil separates
+  count: 1
+- syntax: cook, until sauce thickens
+  count: 1
+- syntax: cook, ~15m
+  count: 1
+- syntax: cook, ~20m, until skins fall off and beans are very soft
+  count: 1
+- syntax: cook, ~2m
+  count: 1
+- syntax: cook, ~3m, until bubbles appear and edges set
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 1-2m
+  count: 1
+- value: 10m
+  count: 1
+- value: 1m
+  count: 1
+- value: 1m less than packet instructions
+  count: 1
+- value: 2m
+  count: 1
+- value: 5-10m
+  count: 1
+- value: 8-10m
+  count: 1
+- value: a few seconds
+  count: 1
+- value: covered
+  count: 1
+- value: do not burn
+  count: 1
+- value: do not stir
+  count: 1
+- value: high heat
+  count: 1
+- value: medium heat
+  count: 1
+- value: medium-low heat
+  count: 1
+- value: saucepan
+  count: 1
+- value: stirring
+  count: 2
+- value: stirring frequently
+  count: 1
+- value: stirring occasionally
+  count: 1
+- value: until added water evaporates and mixture thickens
+  count: 1
+- value: until beginning to soften
+  count: 1
+- value: until bubbles appear and edges set
+  count: 1
+- value: until chicken is cooked
+  count: 1
+- value: until denser
+  count: 1
+- value: until eggs are set
+  count: 1
+- value: until fragrant
+  count: 1
+- value: until reduced and oil separates
+  count: 1
+- value: until rice absorbs broth
+  count: 1
+- value: until sauce thickens
+  count: 1
+- value: until skins fall off and beans are very soft
+  count: 1
+- value: until vegetables are tender and liquid evaporates
+  count: 1
+- value: until vegetables soften
+  count: 1
+- value: ~10m
+  count: 1
+- value: ~15m
+  count: 1
+- value: ~20m
+  count: 2
+- value: ~2m
+  count: 1
+- value: ~3m
+  count: 1
+- value: ~5m
+  count: 2
+legacy_observation: true

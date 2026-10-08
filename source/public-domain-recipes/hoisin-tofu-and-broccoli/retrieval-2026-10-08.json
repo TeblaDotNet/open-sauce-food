@@ -1,0 +1,32 @@
+{
+  "title": "Hoisin Tofu and Broccoli",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/hoisin-tofu-and-broccoli.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "f01d8b1b9f0a415166e3a759e30caa8c7a5cc9f9d122c3fffc27fc694d2ae661",
+  "original_front_matter": {
+    "title": "Hoisin Tofu and Broccoli",
+    "tags": [
+      "tofu",
+      "vegan",
+      "chinese"
+    ],
+    "date": "2023-04-04",
+    "author": "Mark Erickson"
+  },
+  "source_url": "https://publicdomainrecipes.com/hoisin-tofu-and-broccoli/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

@@ -1,0 +1,33 @@
+id: rice
+kind: ingredient
+canonical_name: rice
+names:
+  en: rice
+status: canonical-seed
+evidence:
+  current_recipe_count: 8
+  current_observation_count: 8
+  legacy_observation_count: 0
+  observed_terms:
+  - term: rice
+    count: 8
+  seen_in:
+  - examples/public-domain-recipes/aljotta/aljotta.opensauce
+  - examples/public-domain-recipes/crab-salad/crab-salad.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+  - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+observed_qualifiers:
+- value: bomba
+  count: 1
+- value: cooked
+  count: 1
+- value: optional
+  count: 1
+- value: regular
+  count: 1
+- value: white or brown
+  count: 1

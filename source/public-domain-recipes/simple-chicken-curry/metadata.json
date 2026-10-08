@@ -1,0 +1,34 @@
+{
+  "title": "Simple Chicken Curry",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/simple-chicken-curry.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "6f47abbc4341d41302dee8805f30787eb80d2782893e1ecd9e7a1fdb67043668",
+  "original_front_matter": {
+    "title": "Simple Chicken Curry",
+    "date": "2021-03-21",
+    "tags": [
+      "chicken",
+      "curry",
+      "stew"
+    ],
+    "author": "lsma"
+  },
+  "source_url": "https://publicdomainrecipes.com/simple-chicken-curry/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

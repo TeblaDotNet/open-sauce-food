@@ -1,0 +1,15 @@
+id: vanilla-flavouring
+kind: ingredient
+canonical_name: vanilla flavouring
+names:
+  en: vanilla flavouring
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: vanilla flavouring
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce

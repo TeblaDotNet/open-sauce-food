@@ -1,0 +1,33 @@
+{
+  "title": "Cheese",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/cheese.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "ebc3b0d7734ed4c92377b6771a7a89a6aa5d8e215c7c08fcbce457f402d403de",
+  "original_front_matter": {
+    "title": "Cheese",
+    "date": "2022-04-16",
+    "tags": [
+      "basic",
+      "cheesefare"
+    ],
+    "author": "SuperDuperDeou"
+  },
+  "source_url": "https://publicdomainrecipes.com/cheese/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

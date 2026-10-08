@@ -1,0 +1,47 @@
+{
+  "title": "Fritatem pomeranciis",
+  "source_url": "https://publicdomainrecipes.com/fritatem-pomeranciis/",
+  "source_author": "pestanzul",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/fritatem-pomeranciis.md",
+  "original_sha256": "8cb0c4a46508bfd5683b23a14824fc74dc456fd9ad5ea87076af26dcd1ca4ea9",
+  "original_front_matter": {
+    "title": "Fritatem pomeranciis",
+    "tags": [
+      "cream",
+      "dessert",
+      "eggs",
+      "fasting",
+      "italian",
+      "medieval"
+    ],
+    "date": "2026-01-01",
+    "author": "pestanzul"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Cook time": "5 min",
+    "Servings": "2"
+  },
+  "ingredients_source_markdown": "- 2 eggs\n- 1 orange\n- 1 teaspoon sugar\n- 1 teaspoon olive oil",
+  "directions_source_markdown": "1. In a bowl, beat the eggs with sugar, orange juice, and a pinch of salt.\n2. Cook in a pan with frying oil.\n3. Serve warm.",
+  "images": [
+    {
+      "alt": "Fritatem pomeranciis",
+      "source_url": "https://publicdomainrecipes.com/pix/fritatem-pomeranciis.webp",
+      "source_reference": "/pix/fritatem-pomeranciis.webp",
+      "status": "retrieved",
+      "filename": "fritatem-pomeranciis.webp",
+      "sha256": "83324aef480575557f87b00ce1819c637f5451e330954edf2f29ad968bc816f2"
+    }
+  ],
+  "coverage_group": "dessert-historical"
+}

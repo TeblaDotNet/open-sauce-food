@@ -1,0 +1,15 @@
+id: toothpick
+kind: equipment
+canonical_name: toothpick
+names:
+  en: toothpick
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: toothpick
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce

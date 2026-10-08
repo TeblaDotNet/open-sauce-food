@@ -1,0 +1,79 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Aussie Snags (sausage sizzle)
+source: https://publicdomainrecipes.com/aussie-snags/
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: basic, snack, australian, pork
+serves: Depends
+
+# Imported from content/aussie-snags.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 2 min
+# Source metadata: - 🍳 Cook time: 20 min
+# Source metadata: - 🍽️ Servings: Depends
+
+::ingredients
+
+(sausages, thin)
+(onion, 4g per sausage)
+(tomato sauce)
+(mustard, optional)
+(white sliced bread)
+(butter)
+(oil)
+(wood chips, optional, fuel for smokey flavour)
+
+::instructions
+
+<chop, up the onions into rings>
+(sausages) <bring, to the grill, turning once every 5 mins>
+<add, oil of your choice to the hotplate then add the onions>
+<use, your tongs to toss the onions until they are golden brown>
+When the onions are golden brown turn off the hotplate
+When the sausages are cooked, butter the bread, then the onions, and add a sausage （optionally split）
+Finally tomato sauce on top
+
+::story
+
+An Australian BBQ classic tradition that is simple and very easy to make. Great for parties and outdoor events especially national events. Sometimes served at hardware chains.
+
+
+::source
+<<<
+---
+title: "Aussie Snags (sausage sizzle)"
+date: 2021-06-05
+tags: ['basic', 'snack', 'australian', 'pork']
+---
+
+An Australian BBQ classic tradition that is simple and very easy to make. Great for parties and outdoor events
+especially national events. Sometimes served at hardware chains.
+
+- ⏲️ Prep time: 2 min
+- 🍳 Cook time: 20 min
+- 🍽️ Servings: Depends
+
+## Ingredients
+
+- Sausages (thin)
+- Onions (4g per sausage)
+- Tomato sauce
+- Mustard (optional)
+- White sliced bread
+- Butter
+- Oil
+- Wood chips (optional, fuel for smokey flavour)
+
+## Directions
+
+1. Chop up the onions into rings
+2. Bring the sausages to the grill, turning once every 5 mins
+3. Add oil of your choice to the hotplate then add the onions
+4. Use your tongs to toss the onions until they are golden brown
+5. When the onions are golden brown turn off the hotplate
+6. When the sausages are cooked, butter the bread, then the onions, and add a sausage (optionally split)
+7. Finally tomato sauce on top
+>>>

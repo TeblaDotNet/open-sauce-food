@@ -1,0 +1,9 @@
+id: smooth-surface
+kind: process
+names:
+  en: smooth surface
+observed_forms:
+- syntax: smooth surface
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce

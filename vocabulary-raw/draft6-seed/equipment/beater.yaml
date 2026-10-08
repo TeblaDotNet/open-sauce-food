@@ -1,0 +1,9 @@
+id: beater
+kind: equipment
+names:
+  en: beater
+observed_forms:
+- syntax: beater
+  count: 1
+seen_in:
+- examples/public-domain-recipes/pavlova/pavlova.opensauce

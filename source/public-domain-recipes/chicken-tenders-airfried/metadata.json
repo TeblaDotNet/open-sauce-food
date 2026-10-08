@@ -1,0 +1,33 @@
+{
+  "title": "Chicken Tenders Airfried",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/chicken-tenders-airfried.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "0025d18c6691063e58e573757e922639df51e0b619d4bff73b897cb5ad070c79",
+  "original_front_matter": {
+    "title": "Chicken Tenders Airfried",
+    "date": "2021-05-08",
+    "tags": [
+      "chicken",
+      "fry"
+    ],
+    "author": "mental-outlaw"
+  },
+  "source_url": "https://publicdomainrecipes.com/chicken-tenders-airfried/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

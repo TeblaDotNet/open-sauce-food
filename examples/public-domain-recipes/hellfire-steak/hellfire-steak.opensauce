@@ -1,0 +1,58 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Hellfire Steak
+source: https://publicdomainrecipes.com/hellfire-steak/
+source author: jacob-smith
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: beef, quick
+
+# Imported from content/hellfire-steak.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(steak)
+(kosher salt)
+(mustard powder)
+(tabasco sauce)
+
+::instructions
+
+<rub, a generous amount of salt all over the steak>
+<coat, the entire steak with mustard powder>
+(tabasco sauce) <pour, onto both sides of the steak, don't be afraid to put more on than you think you might otherwise be comfortable with the salt will cancel out a lot of the spice while grilling>
+<grill, over low heat until steak is cooked to your preference>
+
+::story
+
+I first learned this recipe from a Bishop I had growing up. It produces quite a good steak despite the unconventional ingredients.
+
+
+::source
+<<<
+---
+title: "Hellfire Steak"
+date: 2021-03-13
+tags: ['beef', 'quick']
+author: jacob-smith
+---
+
+I first learned this recipe from a Bishop I had growing up. It produces quite a good steak despite the unconventional ingredients.
+
+## Ingredients
+
+- Steak
+- Kosher Salt
+- Mustard Powder
+- Tabasco Sauce
+
+## Directions
+
+1. Rub a generous amount of salt all over the steak
+2. Coat the entire steak with mustard powder
+3. Pour Tabasco Sauce onto both sides of the steak, don't be afraid to put more on than you think you might otherwise be comfortable with the salt will cancel out a lot of the spice while grilling.
+4. Grill over low heat until steak is cooked to your preference.
+>>>

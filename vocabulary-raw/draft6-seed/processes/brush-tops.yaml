@@ -1,0 +1,15 @@
+id: brush-tops
+kind: process
+names:
+  en: brush tops
+observed_forms:
+- syntax: brush tops, glaze, avoid sides
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: avoid sides
+  count: 1
+- value: glaze
+  count: 1
+legacy_observation: true

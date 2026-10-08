@@ -1,0 +1,20 @@
+id: smoked-pancetta
+kind: ingredient
+canonical_name: smoked pancetta
+names:
+  en: smoked pancetta
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: smoked pancetta
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+observed_qualifiers:
+- value: cleaned
+  count: 1
+- value: cubed
+  count: 1

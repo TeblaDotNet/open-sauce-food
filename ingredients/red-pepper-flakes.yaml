@@ -1,0 +1,15 @@
+id: red-pepper-flakes
+kind: ingredient
+canonical_name: red pepper flakes
+names:
+  en: red pepper flakes
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: red pepper flakes
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce

@@ -1,0 +1,13 @@
+id: peel
+kind: process
+names:
+  en: peel
+observed_forms:
+- syntax: peel
+  count: 4
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+- legacy-corpus:bbc-food-10
+legacy_observation: true

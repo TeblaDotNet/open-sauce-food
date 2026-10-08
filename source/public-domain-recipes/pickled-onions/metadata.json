@@ -1,0 +1,44 @@
+{
+  "title": "Pickled Red Onions",
+  "source_url": "https://publicdomainrecipes.com/pickled-onions/",
+  "source_author": "aj",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pickled-onions.md",
+  "original_sha256": "3c6b1d289e68f93560a0f59fb6f2b270a53e78dd47f9fa23c25dc0a9cfbd7908",
+  "original_front_matter": {
+    "title": "Pickled Red Onions",
+    "date": "2021-03-16",
+    "tags": [
+      "quick",
+      "side",
+      "basic"
+    ],
+    "author": "aj"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Cook time": "10 min",
+    "Servings": "Varies"
+  },
+  "ingredients_source_markdown": "- Red Onions\n- Vinegar\n- Water",
+  "directions_source_markdown": "1. Cut onion in half and slice root to stem and place in a jar\n2. Mix equal parts of water and vinegar in a pot and bring to a boil. Add salt to taste\n3. As soon as it begins to boil, turn off and pour the mix into the jar and allow to cool.\n4. Seal and place in fridge for a few hours until vibrant pink.",
+  "images": [
+    {
+      "alt": "Pickled Red Onions in  a Jar",
+      "source_url": "https://publicdomainrecipes.com/pix/pickled-onions.webp",
+      "source_reference": "/pix/pickled-onions.webp",
+      "status": "retrieved",
+      "filename": "pickled-onions.webp",
+      "sha256": "480ecbca9aae353939a258e83d9b1f7bcad17648e9dbf06a2e8d6169296acad3"
+    }
+  ],
+  "coverage_group": "drinks-preserves-fermentation"
+}

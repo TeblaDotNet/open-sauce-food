@@ -1,0 +1,12 @@
+id: scamorza-cheese
+kind: ingredient
+names:
+  en: scamorza cheese
+observed_forms:
+- syntax: scamorza cheese, diced
+  count: 1
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+observed_qualifiers:
+- value: diced
+  count: 1

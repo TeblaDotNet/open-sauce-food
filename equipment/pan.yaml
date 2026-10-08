@@ -1,0 +1,58 @@
+id: pan
+kind: equipment
+canonical_name: pan
+names:
+  en: pan
+status: canonical-seed
+evidence:
+  legacy_observation_count: 6
+  observed_terms:
+    - term: pan
+      count: 26
+  seen_in:
+    - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+    - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce
+    - examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce
+    - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+    - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+    - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+    - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+    - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+    - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
+    - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+    - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+    - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+    - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+  legacy_terms:
+    - term: pan
+      count: 6
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: cast iron
+    count: 1
+  - value: deep
+    count: 1
+  - value: iron or non-stick
+    count: 2
+  - value: large
+    count: 2
+  - value: metal
+    count: 1
+  - value: non-stick
+    count: 1
+  - value: oven-safe
+    count: 2
+  - value: smaller
+    count: 1

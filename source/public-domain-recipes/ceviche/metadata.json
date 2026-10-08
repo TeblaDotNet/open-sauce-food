@@ -1,0 +1,41 @@
+{
+  "title": "Ceviche",
+  "source_url": "https://publicdomainrecipes.com/ceviche/",
+  "source_author": "jacob-smith",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/ceviche.md",
+  "original_sha256": "44cf7ea8a4ccfba14751ba7b1f297bfbc6102d5d89b41c9dc5950706146eb6cb",
+  "original_front_matter": {
+    "title": "Ceviche",
+    "tags": [
+      "seafood",
+      "peruvian"
+    ],
+    "author": "jacob-smith",
+    "date": "2022-04-16"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min"
+  },
+  "ingredients_source_markdown": "- Seafood\n- Red Onion\n- Lime Juice",
+  "directions_source_markdown": "1.  Slice your onion as thinly as you can then let them all sit in a\n    bowl of cold water for a while. Soaking your onion slices like this\n    will make it so that their flavor is not as strong so that it won't\n    overpower everything.\n2.  While your onion is soaking cut your chosen seafood into cubes.\n    Ceviche can be made with any type of seafood but fish with white\n    meat native to South America, or things like shrimp and octopus are best. Season your cubed seafood generously with salt\n    and pepper and place in a bowl.\n3.  Squeeze the juice of several limes onto your seafood, remember when\n    shopping for limes the softer ones will have the most juice. You\n    want to get good coverage over all your meat but it is important to\n    remember that there is such a thing as too much lime.\n4.  Add the onion slices then cover and let sit in the fridge. You can\n    get away with eating it after only an hour but ceviche gets better\n    as it ages so it may be best to have more patience and let it sit\n    overnight.",
+  "images": [
+    {
+      "alt": "tilapia ceviche on rice",
+      "source_url": "https://publicdomainrecipes.com/pix/ceviche.webp",
+      "source_reference": "/pix/ceviche.webp",
+      "status": "retrieved",
+      "filename": "ceviche.webp",
+      "sha256": "bd6a1fc733ae3279d911daa1a920b26c2aff6a14d544f5c3725611f1ef5cb52a"
+    }
+  ],
+  "coverage_group": "fish-seafood"
+}

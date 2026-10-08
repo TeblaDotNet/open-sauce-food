@@ -1,0 +1,79 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Spinach-Rice Casserole
+source: https://publicdomainrecipes.com/spinach-rice-casserole/
+source author: joel-maxuel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: spinach, rice
+serves: 6
+
+# Imported from content/spinach-rice-casserole.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 40 min
+# Source metadata: - 🍽️ Servings: 6
+
+::ingredients
+
+(brown rice, cooked) 4 cups
+(raw spinach, chopped) 2 lbs
+(onion, chopped) 1 cup
+(garlic, minced) 2 cloves
+(butter) 3 Tbsp
+(egg, beaten) 4
+(milk) 1 cup
+(cheddar, grated) 1 1/2 cups
+(parsley, chopped) 1/4 cup
+(tamari) 2 Tbsp
+(salt, or more, to taste) 1/2 tsp
+(sunflower seeds) 1/4 cup
+(nutmeg) A few dashes
+(cayenne) A few dashes
+(paprika) A few dashes
+
+::instructions
+
+<saute, onions and garlic with salt in butter. When onions are soft, add spinach. Cook 2 minutes>
+<combine, with all ingredients except sunflower seeds and paprika>
+<spread, into buttered casserole dish and sprinkle sunflower seeds and paprika on top>
+<bake, , covered, 35 minutes at 350F>
+
+::source
+<<<
+---
+title: Spinach-Rice Casserole
+tags: ['spinach', 'rice']
+date: 2022-08-04
+author: joel-maxuel
+---
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 40 min
+- 🍽️ Servings: 6
+
+## Ingredients
+
+- 4 cups Brown Rice, cooked
+- 2 lbs raw Spinach, chopped
+- 1 cup Onion, chopped
+- 2 cloves Garlic, minced
+- 3 Tbsp Butter
+- 4 Eggs, beaten
+- 1 cup Milk
+- 1 1/2 cups Cheddar, grated
+- 1/4 cup Parsley, chopped
+- 2 Tbsp Tamari
+- 1/2 tsp Salt (or more, to taste)
+- 1/4 cup Sunflower Seeds
+- A few dashes each - Nutmeg; Cayenne; Paprika
+
+## Directions
+
+1. Saute onions and garlic with salt in butter.  When onions are soft, add spinach. Cook 2 minutes.
+2. Combine with all ingredients except sunflower seeds and paprika.
+3. Spread into buttered casserole dish and sprinkle sunflower seeds and paprika on top.
+4. Bake, covered, 35 minutes at 350F.
+>>>

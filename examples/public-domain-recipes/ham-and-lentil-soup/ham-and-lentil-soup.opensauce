@@ -1,0 +1,72 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Ham and Lentil Soup
+source: https://publicdomainrecipes.com/ham-and-lentil-soup/
+source author: joel-maxuel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: pork, soup, easy
+serves: 6
+
+# Imported from content/ham-and-lentil-soup.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 8 hour
+# Source metadata: - 🍽️ Servings: 6
+
+::ingredients
+
+(lentils) 2 cup
+(ham, diced) 1/2 lb
+(onion, chopped) 1
+(bay leaf) 1
+(ribs celery, chopped) 2
+(garlic, minced) 1 clove
+
+::equipment
+
+(pot)
+
+::instructions
+
+<combine, all ingredients with 2 quarts water in the Crock Pot>
+<cook, on low, covered, 8 to 10 hours>
+Adjust seasonings and serve.
+
+::story
+
+For more flavour, boil down a soup bone and use the broth when filling the crock pot.
+
+
+::source
+<<<
+---
+title: Ham and Lentil Soup
+tags: ['pork', 'soup', 'easy']
+date: 2022-08-09
+author: joel-maxuel
+---
+
+For more flavour, boil down a soup bone and use the broth when filling the crock pot.
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 8 hour
+- 🍽️ Servings: 6
+
+## Ingredients
+
+- 2 cup Lentils
+- 1/2 lb Ham, diced
+- 1 Onion, chopped
+- 1 Bay leaf
+- 2 ribs Celery, chopped
+- 1 clove Garlic, minced
+
+## Directions
+
+1. Combine all ingredients with 2 quarts water in the Crock Pot.
+2. Cook on low, covered, 8 to 10 hours.
+3. Adjust seasonings and serve.
+>>>

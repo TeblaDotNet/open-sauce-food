@@ -1,0 +1,17 @@
+id: curry-powder
+kind: ingredient
+canonical_name: curry powder
+names:
+  en: curry powder
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: curry powder
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+  - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+  - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce

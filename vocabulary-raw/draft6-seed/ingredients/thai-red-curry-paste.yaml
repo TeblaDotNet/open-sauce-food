@@ -1,0 +1,9 @@
+id: thai-red-curry-paste
+kind: ingredient
+names:
+  en: Thai red curry paste
+observed_forms:
+- syntax: Thai red curry paste
+  count: 1
+seen_in:
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce

@@ -1,0 +1,10 @@
+id: air-fryer
+kind: equipment
+names:
+  en: air fryer
+observed_forms:
+- syntax: air fryer
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

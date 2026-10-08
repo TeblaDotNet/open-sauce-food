@@ -1,0 +1,40 @@
+id: chilli
+kind: ingredient
+canonical_name: chilli
+names:
+  en-GB: chilli
+  en-US: chili pepper
+status: reviewed-merge
+aliases:
+- name: chili
+  type: regional-spelling
+  observed_count: 1
+- name: chili pepper
+  type: regional-name
+  observed_count: 1
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 1
+  observed_terms:
+  - term: chili
+    count: 1
+  - term: chili pepper
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+  legacy_terms:
+  - term: chilli
+    count: 1
+observed_qualifiers:
+- value: fresh
+  count: 1
+- value: halved
+  count: 1
+- value: optional
+  count: 1
+- value: Thai red
+  count: 1
+plural_names:
+  en: chillies

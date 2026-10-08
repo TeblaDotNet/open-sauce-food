@@ -1,0 +1,19 @@
+id: rub
+kind: process
+canonical_name: rub
+names:
+  en: rub
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: rub
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+observed_parameters:
+- value: under skin using fingers
+  count: 1

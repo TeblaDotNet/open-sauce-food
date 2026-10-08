@@ -1,0 +1,33 @@
+id: oregano
+kind: ingredient
+canonical_name: oregano
+names:
+  en: oregano
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 2
+  observed_terms:
+  - term: oregano
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+  legacy_terms:
+  - term: oregano
+    count: 2
+observed_qualifiers:
+- value: dried
+  count: 1
+- value: dry
+  count: 1
+parts:
+  leaf:
+    names:
+      en: leaf
+    plural_names:
+      en: leaves

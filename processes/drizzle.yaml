@@ -1,0 +1,34 @@
+id: drizzle
+kind: process
+canonical_name: drizzle
+names:
+  en: drizzle
+status: reviewed-merge
+aliases:
+  - name: drizzle in
+    type: phrase-alias
+    observed_count: 2
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: drizzle
+      count: 3
+    - term: drizzle in
+      count: 2
+  seen_in:
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: food processor on high
+    count: 1
+  - value: lemon juice
+    count: 1
+  - value: muffin tin
+    count: 1
+  - value: slowly
+    count: 1
+  - value: source final step
+    count: 1

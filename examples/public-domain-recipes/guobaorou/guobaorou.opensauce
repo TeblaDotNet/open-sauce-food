@@ -1,0 +1,78 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Guobaorou (sweet-and-sour pork)
+source: https://publicdomainrecipes.com/guobaorou/
+source author: Psyrow
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: fry, pork, easy, chinese, sweet, rice
+serves: 2
+
+# Imported from content/guobaorou.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15 min + 30 min marinating
+# Source metadata: - 🍳 Cook time: 30 min
+# Source metadata: - 🍽️ Servings: 2
+
+::ingredients
+
+(pork tenderloin or loin) 400g
+(potato starch or cornstarch) 250g
+(carrot) 1/2
+(tomato paste) 2 tbsp
+(sugar) 2 tbsp
+(vinegar, rice one ideally. 1 teaspoon if high %) 1 tbsp
+(oil, to fry) 1L
+(salt) 1/2 tsp
+
+::instructions
+
+<cut, pork into thin slices about 2x2cm wide. They must be grabbable with chopsticks>
+<mix, starch with water into thick cream-like batter. Coat pork slices, massage the batter into the meat. Marinate for 30 minutes. Massage it from time to time>
+<heat, the oil. Fry pork in batches until golden and crispy. Drain on paper towels>
+Julienne that carrot
+<mix, 2 tbsp starch with 1 cup cold water>
+In a deep pan, combine tomato paste, sugar, and a splash （not more） of water. Cook on high heat, stir until bubbly.
+When the tomato-sugar mix boils, add vinegar and starch slurry. Stir until thickened a little.
+<toss, fried pork. Stir. Add carrot in a bit. Fry until sauce clings to the pork and caramelizes slightly>
+<serve, while hot, ideally with rice :)>
+
+::source
+<<<
+---
+title: Guobaorou (sweet-and-sour pork)
+tags: ['fry', 'pork', 'easy', 'chinese', 'sweet', 'rice']
+date: 2025-02-18
+author: "Psyrow"
+---
+
+- ⏲️ Prep time: 15 min + 30 min marinating
+- 🍳 Cook time: 30 min
+- 🍽️ Servings: 2
+
+## Ingredients
+
+- 400g pork tenderloin or loin
+- 250g potato starch or cornstarch
+- 1/2 carrot
+- 2 tbsp tomato paste
+- 2 tbsp sugar
+- 1 tbsp vinegar (rice one ideally. 1 teaspoon if high %)
+- 1L oil (to fry)
+- 1/2 tsp salt
+
+## Directions
+
+1. Cut pork into thin slices about 2x2cm wide. They must be grabbable with chopsticks.
+2. Mix starch with water into thick cream-like batter. Coat pork slices, massage the batter into the meat. Marinate for 30 minutes. Massage it from time to time
+3. Heat the oil. Fry pork in batches until golden and crispy. Drain on paper towels.
+4. Julienne that carrot
+5. Mix 2 tbsp starch with 1 cup cold water.
+6. In a deep pan, combine tomato paste, sugar, and a splash (not more) of water. Cook on high heat, stir until bubbly.
+7. When the tomato-sugar mix boils, add vinegar and starch slurry. Stir until thickened a little.
+8. Toss fried pork. Stir. Add carrot in a bit. Fry until sauce clings to the pork and caramelizes slightly.
+
+Serve while hot, ideally with rice :)
+>>>

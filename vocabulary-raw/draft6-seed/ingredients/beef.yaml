@@ -1,0 +1,12 @@
+id: beef
+kind: ingredient
+names:
+  en: beef
+observed_forms:
+- syntax: beef, small pieces
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+observed_qualifiers:
+- value: small pieces
+  count: 1

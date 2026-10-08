@@ -1,0 +1,62 @@
+::recipe
+
+name: Baked pasta with broccoli, boiled eggs and scamorza cheese
+source: https://publicdomainrecipes.com/baked-pasta-with-broccoli/
+source author: davide-costa
+source license: Public domain (Unlicense)
+ingredients: UK
+units: metric
+category: main
+tags: pasta, broccoli, baked pasta
+serves: 4
+active time: ~15m
+total time: ~45m
+image: baked-pasta-with-broccoli.webp
+
+::ingredients
+
+(pasta) 500g
+(broccoli) 500g
+(egg) 4
+(scamorza cheese, diced) 200g
+(béchamel) 400g
+(sage, optional) as needed
+(parmesan cheese, optional) as needed
+(salt) as needed
+(black pepper) to taste
+
+::equipment
+
+(saucepan)
+(pan)
+(oven)
+
+::instructions
+
+(pasta) <boil, salted water>
+
+Meanwhile [
+    (broccoli) <boil, 10m>
+    (egg) <boil, 10m>
+    (scamorza cheese) <dice>
+]
+
+(oven) <heat, 180c>
+
+Repeat [
+    (pan) <layer, béchamel>
+        <layer, pasta>
+        <layer, broccoli + scamorza cheese + black pepper + salt>
+]
+until ingredients used
+
+Optional [
+    (sage) <add, top>
+]
+
+{pasta bake} <bake, 180c, 15-20m>
+    <grill, 5-10m>
+
+Optional [
+    (parmesan cheese) <serve with>
+]

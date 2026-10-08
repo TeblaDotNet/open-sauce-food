@@ -1,0 +1,35 @@
+id: black-pepper
+kind: ingredient
+canonical_name: black pepper
+names:
+  en: black pepper
+status: canonical-seed
+evidence:
+  legacy_observation_count: 9
+  observed_terms:
+    - term: black pepper
+      count: 12
+  seen_in:
+    - examples/public-domain-recipes/aljotta/aljotta.opensauce
+    - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+    - examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce
+    - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/guacamole/guacamole.opensauce
+    - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+    - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  legacy_terms:
+    - term: black pepper
+      count: 9
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: freshly ground
+    count: 2
+  - value: ground
+    count: 2
+  - value: optional
+    count: 5

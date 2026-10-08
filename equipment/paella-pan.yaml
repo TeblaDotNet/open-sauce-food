@@ -1,0 +1,15 @@
+id: paella-pan
+kind: equipment
+canonical_name: paella pan
+names:
+  en: paella pan
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: paella pan
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/paella/paella.opensauce

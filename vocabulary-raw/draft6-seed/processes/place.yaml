@@ -1,0 +1,27 @@
+id: place
+kind: process
+names:
+  en: place
+observed_forms:
+- syntax: place, baking dish
+  count: 1
+- syntax: place, baking paper on tray
+  count: 1
+- syntax: place, colander over bowl
+  count: 1
+- syntax: place, pan
+  count: 1
+seen_in:
+- examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+- examples/public-domain-recipes/pavlova/pavlova.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: baking dish
+  count: 1
+- value: baking paper on tray
+  count: 1
+- value: colander over bowl
+  count: 1
+- value: pan
+  count: 1
+legacy_observation: true

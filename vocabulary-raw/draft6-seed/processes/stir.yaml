@@ -1,0 +1,47 @@
+id: stir
+kind: process
+names:
+  en: stir
+observed_forms:
+- syntax: stir
+  count: 7
+- syntax: stir, continuously while combining
+  count: 1
+- syntax: stir, continuously, with as much rendered pork fat as desired
+  count: 1
+- syntax: stir, do not burn
+  count: 1
+- syntax: stir, until leeks are sweated
+  count: 1
+- syntax: stir, until thick
+  count: 1
+- syntax: stir, until uniform
+  count: 1
+seen_in:
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: continuously
+  count: 1
+- value: continuously while combining
+  count: 1
+- value: do not burn
+  count: 1
+- value: until leeks are sweated
+  count: 1
+- value: until thick
+  count: 1
+- value: until uniform
+  count: 1
+- value: with as much rendered pork fat as desired
+  count: 1
+legacy_observation: true

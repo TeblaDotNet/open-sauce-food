@@ -1,0 +1,35 @@
+{
+  "title": "French Crêpes",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/french-crepes.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "e4e083fd6c9d1a53bfe13cbc5685997a5999a5a51a64714612d1e33999244861",
+  "original_front_matter": {
+    "title": "French Crêpes",
+    "date": "2021-03-14",
+    "tags": [
+      "french",
+      "dessert",
+      "breakfast",
+      "cheesefare"
+    ],
+    "author": "aeredren"
+  },
+  "source_url": "https://publicdomainrecipes.com/french-crepes/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

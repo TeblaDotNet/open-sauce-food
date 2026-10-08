@@ -1,0 +1,34 @@
+{
+  "title": "Chicken Stock or Bone Broth",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/chicken-stock-bone-broth.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "197fa4389b7a85fdf1697b405bbefcb796daf5379219433aec8cbddec1e00aba",
+  "original_front_matter": {
+    "title": "Chicken Stock or Bone Broth",
+    "date": "2021-03-10",
+    "tags": [
+      "chicken",
+      "stock",
+      "basic"
+    ],
+    "author": "luke-smith"
+  },
+  "source_url": "https://publicdomainrecipes.com/chicken-stock-bone-broth/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

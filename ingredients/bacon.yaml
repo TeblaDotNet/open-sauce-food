@@ -1,0 +1,20 @@
+id: bacon
+kind: ingredient
+canonical_name: bacon
+names:
+  en: bacon
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: bacon
+      count: 5
+  seen_in:
+    - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+    - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+    - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: thick
+    count: 1

@@ -1,0 +1,17 @@
+id: lard
+kind: ingredient
+canonical_name: lard
+names:
+  en: lard
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: lard
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/aljotta/aljotta.opensauce
+  - examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce
+  - examples/public-domain-recipes/castagnole/castagnole.opensauce

@@ -1,0 +1,22 @@
+id: dip
+kind: process
+canonical_name: dip
+names:
+  en: dip
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: dip
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/french-toast/french-toast.opensauce
+observed_parameters:
+- value: cover entire surface
+  count: 1
+- value: one side into egg mixture
+  count: 1
+- value: other side
+  count: 1

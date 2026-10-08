@@ -1,0 +1,96 @@
+::recipe
+
+name: Egyptian Lentils
+source: https://publicdomainrecipes.com/egyptian-lentils/
+source author: joel-maxuel
+source license: Public domain (Unlicense)
+units: source
+tags: rice, pasta
+serves: 5
+
+# Original source: ../../../source/public-domain-recipes/egyptian-lentils/egyptian-lentils.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 5 min
+# Source Cook time: 40 min
+# Source Servings: 5
+# Conversion note: Cook macaroni until tender. Add to lentils; draining not explicit. Source omits an action; preserve rather than silently supply it.
+
+::ingredients
+
+(lentils) 1 cup
+(macaroni, elbow) 1 cup
+(pepper choice) = (chili, fresh) 2 -OR- (bell pepper) 2
+(lime juice) 2tbsp
+(rice, regular) 1 1/2 cups
+(oil) 3tbsp
+(tomato, medium, chopped) 2
+(onion, large, diced) 1
+(water) method quantities: cover lentils by at least 1in; 3 cups rice; 2 quarts macaroni; 1/2 cup sauce
+
+::equipment
+
+(saucepan)
+(bowl, large)
+(fork)
+(skillet, small)
+(skillet)
+
+::instructions
+
+(lentils) <cover, saucepan, water at least 1in above>
+    <bring to boil, high heat>
+    <simmer, covered, 35m or until tender>
+    <drain>
+    <transfer, large bowl>
+    <set aside>
+(water) 3 cups <bring to boil>
+(rice) <add>
+    <simmer, 20m>
+    <fluff, fork>
+{lentil mixture} = (lentils) + (rice)
+(water) 2 quarts <boil>
+(macaroni) <cook, water, until tender>
+{lentil mixture} + (macaroni)
+(oil) 1tbsp + (pepper choice, finely chopped) <sauté, small skillet, 2m>
+{sauce} = (oil) 1tbsp + (pepper choice) + (tomato) + (water) 1/2 cup
+{sauce} <bring to boil>
+    <simmer, 5m>
+    + (lime juice)
+{lentil mixture} + {sauce} <fold in>
+(oil) 2tbsp <heat, another skillet>
+(onion) <sauté, oil, until brown>
+{lentil mixture} + (onion) <garnish>
+
+::source
+<<<
+---
+title: Egyptian Lentils
+tags: ['rice', 'pasta']
+date: 2022-09-10
+author: joel-maxuel
+---
+
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 40 min
+- 🍽️ Servings: 5
+
+## Ingredients
+
+- 1 cup Lentils
+- 1 cup Elbow Macaroni
+- 2 Fresh Chili or Bell Peppers
+- 2 Tbsp Lime Juice
+- 1 1/2 cup Regular Rice
+- 3 Tbsp Oil
+- 2 medium Tomatoes, chopped
+- 1 large Onion, diced
+
+## Directions
+
+1. Place lentils in a saucepan and cover by 1" or more of water. Turn heat to high and bring to a boil, then turn down heat to simmer, and cook covered for 35 minutes or until tender. Drain and transfer to a large bowl. Set aside.
+2. Bring 3 cups of water to a boil, add rice. Turn down to simmer for 20 minutes and fluff up rice with a fork and add to lentils.
+3. Boil 2 quarts of water, add elbow macaroni and cook until tender. Add to lentils.
+4. In a small skillet add 1 Tbsp of oil and saute chopped peppers finely for two minutes. Add the tomato, 1/2 cup of water, bring to a boil and simmer for 5 minutes. Add the lime juice. Fold this sauce into the lentils.
+5. In another skillet heat 2 Tbsp oil, add onions and saute until brown. Garnish lentil mixture with the browned onions.
+>>>

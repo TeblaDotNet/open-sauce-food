@@ -1,0 +1,17 @@
+id: lime
+kind: ingredient
+names:
+  en: lime
+observed_forms:
+- syntax: lime
+  count: 2
+- syntax: lime, wedges
+  count: 1
+seen_in:
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/guacamole/guacamole.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: wedges
+  count: 1
+legacy_observation: true

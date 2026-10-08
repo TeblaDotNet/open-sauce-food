@@ -1,0 +1,28 @@
+{
+  "title": "Baked Trout",
+  "source_url": "https://publicdomainrecipes.com/baked-trout/",
+  "source_author": null,
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/baked-trout.md",
+  "original_sha256": "3bb0f3529e1ab437ab3f28acda79ed32f6a49389b12d93c4579493b53b4959c2",
+  "original_front_matter": {
+    "title": "Baked Trout",
+    "date": "2025-11-09",
+    "tags": [
+      "fish"
+    ]
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- cleaned trout\n- bacon\n- garlic (or garlic power)\n- butter\n- cayenne (optional)",
+  "directions_source_markdown": "1. Clean the trout and wrap each fish in a very thin slice of bacon, sprinkled with minced garlic (or garlic powder), and seasoned with cayenne (optional).\n2. Cut a thin slice of butter and set in the middle of the trout.\n3. Enclose each fish in foil, cut larger than to fit so there is some overlap.\n4. Lay the trout in a pan, and bake them in the foil at 350 F/175 C for 15 minutes.\n5. To confirm the fish is finished, the skin of the trout should peel easily from the meat.\n6. Remove from foil and serve.",
+  "images": [],
+  "coverage_group": "fish-seafood"
+}

@@ -1,0 +1,83 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Tabouleh
+source: https://publicdomainrecipes.com/tabouleh/
+source author: joel-maxuel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: salad, mediterranean
+serves: 12
+
+# Imported from content/tabouleh.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15 min
+# Source metadata: - 🍳 Cook time: 30 min
+# Source metadata: - 🍽️ Servings: 12
+# safety: 5. Serve chilled or at room temperature. — Preserve source wording; no safety assurance inferred. Human safety review before practical reliance.
+
+::ingredients
+
+(cracked wheat, bulghur) 2 cups
+(very hot water, or as directed) 2 cups
+(cucumber, chopped) 1
+(tomatoes, small, chopped) 2
+(green onion, sliced) 1 bunch
+(mint, fresh, chopped) 1/2 cup
+(parsley, fresh, chopped) 2 cup
+(garlic, minced) 1 clove
+(lemon: juice, fresh) 1/2 cup
+(olive oil) 3/4 cup
+(pepper) 1 Tbsp
+(salt) 2 tsp
+
+::equipment
+
+(bowl)
+
+::instructions
+
+(cracked wheat) <soak, in the hot water until the water is absorbed, about 30 minutes>
+<drain, any excess water, if necessary, and squeeze dry>
+<combine, the salad ingredients (all but the oil, lemon juice, salt and pepper dressing ingredients) in a medium bowl>
+<mix, the dressing ingredients together and stir into the salad mix>
+<serve, chilled or at room temperature>
+
+::source
+<<<
+---
+title: Tabouleh
+tags: ['salad', 'mediterranean']
+date: 2022-09-10
+author: joel-maxuel
+---
+
+
+- ⏲️ Prep time: 15 min
+- 🍳 Cook time: 30 min
+- 🍽️ Servings: 12
+
+## Ingredients
+
+- 2 cups Cracked Wheat (bulghur)
+- 2 cups Very Hot Water (or as directed)
+- 1 Cucumber, chopped
+- 2 small Tomatoes, chopped
+- 1 bunch Green Onions, sliced
+- 1/2 cup Mint (fresh), chopped
+- 2 cup Parsley (fresh), chopped
+- 1 clove Garlic, minced
+- 1/2 cup Lemon Juice (fresh)
+- 3/4 cup Olive Oil
+- 1 Tbsp Pepper
+- 2 tsp Salt
+
+## Directions
+
+1. Soak the cracked wheat in the hot water until the water is absorbed, about 30 minutes.
+2. Drain any excess water, if necessary, and squeeze dry.
+3. Combine the salad ingredients (all but the oil, lemon juice, salt and pepper dressing ingredients) in a medium bowl.
+4. Mix the dressing ingredients together and stir into the salad mix
+5. Serve chilled or at room temperature.
+>>>

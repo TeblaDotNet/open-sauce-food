@@ -1,0 +1,90 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Easy Pizza Sauce
+source: https://publicdomainrecipes.com/easy-pizza-sauce/
+source author: leo-meinel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: pizza, sauce, italian
+serves: 8
+image: easy-pizza-sauce.webp
+
+# Imported from content/easy-pizza-sauce.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 60 min
+# Source metadata: - 🍽️ Servings: 8
+
+::ingredients
+
+(onion) 2
+(garlic cloves) 3
+(olive oil)
+(tomato sauce) 700g
+(tomato concentrate) 6 spoon
+(sugar) 0.5 spoon
+(salt) 1 spoon
+(pepper) 1 spoon
+(thyme/rosemary, finely chopped) 1 spoon
+(oregano, finely chopped) 1 spoon
+(basil, finely chopped) 2 spoon
+
+::equipment
+
+(pot)
+
+::instructions
+
+Finely chop onions and garlic into a pot.
+<cover, them with olive oil>
+<cook, mixture on medium heat (~4/10) until glazed>
+<add, tomato sauce, tomato concentrate, sugar, salt, pepper, thyme/rosemary, oregano and basil to the mixture>
+<let, the mixture boil on low heat (~2.5/10) for ~60min>
+
+::notes
+
+One serving should be enough to cover a pizza. The sauce can be stored in the refrigerator for ~16 days if put into a conserving jar.
+
+
+::source
+<<<
+---
+title: Easy Pizza Sauce
+tags: ['pizza', 'sauce', 'italian']
+date: 2022-07-15
+author: "leo-meinel"
+---
+
+![Easy-Pizza-Sauce](/pix/easy-pizza-sauce.webp)
+
+One serving should be enough to cover a pizza.
+The sauce can be stored in the refrigerator for ~16 days if put into a conserving jar.
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 60 min
+- 🍽️ Servings: 8
+
+## Ingredients
+
+- 2 onions
+- 3 garlic cloves
+- olive oil
+- 700g tomato sauce
+- 6 spoon tomato concentrate
+- 0.5 spoon sugar
+- 1 spoon salt
+- 1 spoon pepper
+- 1 spoon thyme/rosemary (finely chopped)
+- 1 spoon oregano (finely chopped)
+- 2 spoon basil (finely chopped)
+
+## Directions
+
+1. Finely chop onions and garlic into a pot.
+2. Cover them with olive oil.
+3. Cook mixture on medium heat (~4/10) until glazed.
+4. Add tomato sauce, tomato concentrate, sugar, salt, pepper, thyme/rosemary, oregano and basil to the mixture.
+5. Let the mixture boil on low heat (~2.5/10) for ~60min.
+>>>

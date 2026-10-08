@@ -1,0 +1,20 @@
+id: use
+kind: process
+canonical_name: use
+names:
+  en: use
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: use
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+observed_parameters:
+- value: for sourdough baking
+  count: 1
+- value: retain some and feed remainder
+  count: 1

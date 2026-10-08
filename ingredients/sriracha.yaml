@@ -1,0 +1,15 @@
+id: sriracha
+kind: ingredient
+canonical_name: sriracha
+names:
+  en: sriracha
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: sriracha
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce

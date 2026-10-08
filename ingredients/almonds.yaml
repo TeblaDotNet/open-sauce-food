@@ -1,0 +1,18 @@
+id: almonds
+kind: ingredient
+canonical_name: almonds
+names:
+  en: almonds
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: almonds
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+observed_qualifiers:
+- value: chopped
+  count: 1

@@ -1,0 +1,33 @@
+{
+  "title": "Matcha Cookies",
+  "source_url": "https://publicdomainrecipes.com/matcha-cookies/",
+  "source_author": "Hamza Masood",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/matcha-cookies.md",
+  "original_sha256": "805386e015077b366f908de7bf71ca86d9d44f1483e52333b114dc98d0bf8847",
+  "original_front_matter": {
+    "title": "Matcha Cookies",
+    "date": "2021-03-11",
+    "tags": [
+      "snack",
+      "cookies",
+      "sweet",
+      "dessert",
+      "cheesefare"
+    ],
+    "author": "Hamza Masood"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "(for 13 cookies, 8 ~ 9cm in diameter)\n\n- 115g Unsalted butter\n- 60g Caster sugar\n- 115g Brown sugar\n- 55g Egg\n- 153g Plain flour\n- 12g Matcha powder\n- 2g Baking soda\n- 1g Salt\n- 3g Vanilla extract\n- 70g White coverture chocolate\n- 45g Macadamia nut",
+  "directions_source_markdown": "1. Melt butter in a bath or microwave.\n2. Add white sugar, brown sugar and salt and mix with a whisk\n3. Add egg and vanilla extract and mix with a whisk until well mixed.\n4. Add flour, matcha powder and baking soda and mix with a whisk until you can hardly see the powder.\n5. Add white coverture chocolate  and macadamia and mix evenly with spatula.\n6. Allow 30 minutes to 1 hour in the refrigerator until the dough hardens.\n7. Pan with a 5cm diameter cookie and bake at 170°C (338°F) for 9 minutes. (Unox convection oven)\n\n* Preheat the oven beforehand. My oven is very hot, so raise the oven temperature a little bit higher if you have common oven.\n* If you bake too little, it will not be cooked. If you bake too long, it will become hard.\n* The white coverture chocolate melts smoothly in your mouth, and the white chocolate chip has a more chewy texture. So you can choose anything to your taste.",
+  "images": [],
+  "coverage_group": "baking"
+}

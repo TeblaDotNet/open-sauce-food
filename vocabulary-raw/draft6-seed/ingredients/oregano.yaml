@@ -1,0 +1,16 @@
+id: oregano
+kind: ingredient
+names:
+  en: oregano
+observed_forms:
+- syntax: oregano
+  count: 1
+- syntax: oregano, dried
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: dried
+  count: 1
+legacy_observation: true

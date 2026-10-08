@@ -1,0 +1,21 @@
+id: sweetener
+kind: ingredient
+canonical_name: sweetener
+names:
+  en: sweetener
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: sweetener
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+observed_qualifiers:
+- value: sugar or honey or barley syrup or molasses etc.
+  count: 1

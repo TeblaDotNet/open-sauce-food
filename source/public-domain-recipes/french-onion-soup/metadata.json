@@ -1,0 +1,34 @@
+{
+  "title": "French Onion Soup",
+  "source_url": "https://publicdomainrecipes.com/french-onion-soup/",
+  "source_author": "joe-powerhouse",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/french-onion-soup.md",
+  "original_sha256": "1fa57c923d969be23c96523c941af990c363a966b3e7d758214c3af128c03fe6",
+  "original_front_matter": {
+    "title": "French Onion Soup",
+    "date": "2021-03-23",
+    "tags": [
+      "french",
+      "soup"
+    ],
+    "author": "joe-powerhouse"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "30 min",
+    "Cook time": "3 hours",
+    "Servings": "5"
+  },
+  "ingredients_source_markdown": "- 6-7 Onions, cut into quarter moons\n- 1 stick of butter\n- 1/2 cup Olive oil\n- Salt, to taste\n- 1 Baguette Loaf, sliced\n- 1 Can of Chicken Broth\n- 3 Garlic cloves, finely chopped\n- 1/4 cup brown sugar\n- Balsamic vinegar, to taste\n- Worcestershire Sauce, to taste\n- Soy Sauce, to taste\n- 64oz Beef Broth\n- 2-3 Bay Leaves\n- Melty cheese, preferably guereye or swiss",
+  "directions_source_markdown": "1. Sweat the onions in a covered Dutch oven over med-low heat, salt them, with 1 whole stick of butter and some olive oil for about 2 hours stirring occasionally but increasing in frequency as the heat gets raised over time.\n2. When the onions are soft and mostly shrunken down, and mostly covered by the butter, oil, and onion juice, strain and collect the juice in a bowl. Brush the onion juice over each side of slices of baguette bread.\n3. Return the strained onions to med-high heat, uncovered, stirring and deglazing with chicken broth frequently but not so frequent that they turn to mush. When the entire can of chicken broth has been added for deglazing, add 3 finely chopped garlic cloves, 1/4 cup brown sugar, balsamic vinegar, Worcestershire sauce, soy sauce. Wait until the pot dries and a fond is formed in between adding each liquid ingredient slowly. Keep slowly deglazing with the wooden spoon and caramelizing those onions.\n4. After onions are thoroughly caramelized and there are no more liquid ingredients to add, pour in 64oz beef broth and 2-3 Bay leaves. Cover on medium heat until it simmers. It is now ready to serve!\n5. Put sliced (and onion-juice brushed) bread in 400F oven until toasted, then under the broiler covered in cheese until melted. Soup can be served poured over the bread slices or the bread floating on top.",
+  "images": [],
+  "coverage_group": "soups"
+}

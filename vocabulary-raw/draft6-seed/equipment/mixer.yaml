@@ -1,0 +1,9 @@
+id: mixer
+kind: equipment
+names:
+  en: mixer
+observed_forms:
+- syntax: mixer
+  count: 1
+seen_in:
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce

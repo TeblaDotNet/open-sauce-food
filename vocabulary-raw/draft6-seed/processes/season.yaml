@@ -1,0 +1,22 @@
+id: season
+kind: process
+names:
+  en: season
+observed_forms:
+  - syntax: season
+    count: 3
+  - syntax: season, cumin + powdered sweet pepper + salt
+    count: 1
+  - syntax: season, salt, black pepper
+    count: 1
+seen_in:
+  - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+  - legacy-corpus:bbc-food-10
+observed_parameters:
+  - value: black pepper
+    count: 1
+  - value: cumin + powdered sweet pepper + salt
+    count: 1
+  - value: salt
+    count: 1
+legacy_observation: true

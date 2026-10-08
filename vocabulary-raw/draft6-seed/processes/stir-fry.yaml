@@ -1,0 +1,17 @@
+id: stir-fry
+kind: process
+names:
+  en: stir-fry
+observed_forms:
+- syntax: stir-fry, high heat, 2 batches, 3-4m per batch
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 2 batches
+  count: 1
+- value: 3-4m per batch
+  count: 1
+- value: high heat
+  count: 1
+legacy_observation: true

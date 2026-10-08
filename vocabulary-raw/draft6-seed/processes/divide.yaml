@@ -1,0 +1,18 @@
+id: divide
+kind: process
+names:
+  en: divide
+observed_forms:
+- syntax: divide, 2
+  count: 1
+- syntax: divide, half
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: '2'
+  count: 1
+- value: half
+  count: 1
+legacy_observation: true

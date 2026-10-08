@@ -1,0 +1,29 @@
+id: sweat
+kind: process
+canonical_name: sweat
+names:
+  en: sweat
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: sweat
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+observed_parameters:
+- value: 1m
+  count: 1
+- value: covered
+  count: 1
+- value: Dutch oven
+  count: 1
+- value: medium-low
+  count: 1
+- value: stir and gradually increase heat and stirring
+  count: 1
+- value: ~2h
+  count: 1

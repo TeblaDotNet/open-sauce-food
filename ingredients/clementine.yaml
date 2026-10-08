@@ -1,0 +1,16 @@
+id: clementine
+kind: ingredient
+canonical_name: clementine
+names:
+  en: clementine
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/tarta-de-santiago/tarta-de-santiago.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.
+parts:
+  zest:
+    names:
+      en: zest

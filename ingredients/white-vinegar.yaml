@@ -1,0 +1,15 @@
+id: white-vinegar
+kind: ingredient
+canonical_name: white vinegar
+names:
+  en: white vinegar
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: white vinegar
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce

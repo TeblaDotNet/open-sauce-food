@@ -1,0 +1,27 @@
+id: scoop
+kind: process
+canonical_name: scoop
+names:
+  en: scoop
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: scoop
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+observed_parameters:
+- value: preferred size
+  count: 1
+- value: reserve core
+  count: 1
+- value: small balls
+  count: 1
+- value: uniform balls
+  count: 1

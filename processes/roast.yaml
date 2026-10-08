@@ -1,0 +1,43 @@
+id: roast
+kind: process
+canonical_name: roast
+names:
+  en: roast
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 2
+  observed_terms:
+  - term: roast
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  legacy_terms:
+  - term: roast
+    count: 2
+observed_parameters:
+- value: 40-45m
+  count: 1
+- value: 5-10m
+  count: 2
+- value: crisp skin and thermometer in thickest breast reads 165f
+  count: 1
+- value: medium temperature
+  count: 2
+- value: move with spatula
+  count: 1
+- value: oven
+  count: 2
+- value: pan
+  count: 1
+- value: until about three-quarters cooked
+  count: 2
+- value: until soft and browned at edges
+  count: 1
+- value: ~1m
+  count: 1
+- value: ~35m
+  count: 1

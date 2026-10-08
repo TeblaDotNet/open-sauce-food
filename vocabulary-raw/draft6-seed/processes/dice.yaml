@@ -1,0 +1,9 @@
+id: dice
+kind: process
+names:
+  en: dice
+observed_forms:
+- syntax: dice
+  count: 1
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce

@@ -1,0 +1,43 @@
+{
+  "title": "Schnitzel",
+  "source_url": "https://publicdomainrecipes.com/schnitzel/",
+  "source_author": "Tobias & Alexandra Grimm",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/schnitzel.md",
+  "original_sha256": "eca1a11111f65c6b318e2fd179f5e8c85ab6e86c26580b69c24b58092ad86632",
+  "original_front_matter": {
+    "title": "Schnitzel",
+    "date": "2021-03-18",
+    "tags": [
+      "austrian",
+      "beef"
+    ],
+    "author": "Tobias & Alexandra Grimm"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "15 min",
+    "Cook time": "6 min",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "- 4 veal cutlets (1 ~ 150g)\n- 2 eggs\n- 1 lemon\n- 100g flour\n- 150g bread crumbs\n- 100g butter (or even better clarified butter)",
+  "directions_source_markdown": "1. Prepare 3 bowls. (One with flour, one with beaten eggs, one with bread crumbs seasoned with salt and paprika)\n2. Wash the veal and gently dry it with kitchen roll.\n3. Put the veal on a board and beat it with a meat tenderizer (or a rolling pin) to a thickness of 0.5 cm. (Beating the veal makes it tender)\n4. Season the veal with salt and pepper on both sides, dive it through the 3 bowls. (First flour, then eggs, finally bread crumbs)\n5. Melt the butter in a deep pan. (Attention: not too hot. Butter should not turn brown)\n6. Fry the veal on each side until it is gold brown. (e.g. 3 min on each side)\n7. Serve with a piece of lemon.",
+  "images": [
+    {
+      "alt": "schnitzel",
+      "source_url": "https://publicdomainrecipes.com/pix/schnitzel.webp",
+      "source_reference": "/pix/schnitzel.webp",
+      "status": "retrieved",
+      "filename": "schnitzel.webp",
+      "sha256": "77d61c09c38131f68cd1cdc715880b0aa05f343a4fa6c672c07b2ebd4fc9c14a"
+    }
+  ],
+  "coverage_group": "meat"
+}

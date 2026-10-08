@@ -1,0 +1,89 @@
+id: refrigerate
+kind: process
+canonical_name: refrigerate
+names:
+  en: refrigerate
+status: canonical-seed
+evidence:
+  current_recipe_count: 17
+  current_observation_count: 21
+  legacy_observation_count: 3
+  observed_terms:
+  - term: refrigerate
+    count: 21
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/ceviche/ceviche.opensauce
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+  - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+  - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+  - examples/public-domain-recipes/oat-milk/oat-milk.opensauce
+  - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+  - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+  - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+  legacy_terms:
+  - term: refrigerate
+    count: 3
+observed_parameters:
+- value: 12-24h
+  count: 1
+- value: 15-30m before continuing
+  count: 2
+- value: 15-30m before use
+  count: 1
+- value: 20m
+  count: 1
+- value: 30m
+  count: 2
+- value: 30m as butter warms
+  count: 1
+- value: 30m-1h
+  count: 1
+- value: 3h
+  count: 2
+- value: at least 1h before serving
+  count: 1
+- value: at least 2h
+  count: 1
+- value: before baking
+  count: 2
+- value: few hours
+  count: 1
+- value: if butter melts
+  count: 1
+- value: if sticky
+  count: 1
+- value: leftovers
+  count: 1
+- value: longer gives more sourness; source does not recommend more than 24h
+  count: 1
+- value: rectangular food container also suitable to submerge with less marinade
+  count: 1
+- value: roughly 4°C
+  count: 1
+- value: source permits 1h and prefers overnight
+  count: 1
+- value: stir occasionally
+  count: 1
+- value: until firm
+  count: 2
+- value: until hardened
+  count: 1
+- value: until vibrant pink
+  count: 1
+- value: up to 48h
+  count: 2
+- value: when satisfied with carbonation and flavour
+  count: 1
+- value: ~20m
+  count: 1
+- value: ~30m
+  count: 1

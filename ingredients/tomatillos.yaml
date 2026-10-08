@@ -1,0 +1,18 @@
+id: tomatillos
+kind: ingredient
+canonical_name: tomatillos
+names:
+  en: tomatillos
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: tomatillos
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+observed_qualifiers:
+- value: husks removed
+  count: 1

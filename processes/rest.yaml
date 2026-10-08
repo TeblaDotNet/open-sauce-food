@@ -1,0 +1,122 @@
+id: rest
+kind: process
+canonical_name: rest
+names:
+  en: rest
+status: canonical-seed
+evidence:
+  current_recipe_count: 24
+  current_observation_count: 30
+  legacy_observation_count: 8
+  observed_terms:
+  - term: rest
+    count: 30
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+  - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+  - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/pizza-dough/pizza-dough.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+  - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+  - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+  - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+  - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+  - term: rest
+    count: 8
+observed_parameters:
+- value: 10-30m before serving
+  count: 1
+- value: 12h
+  count: 2
+- value: 15m
+  count: 3
+- value: 2-3h
+  count: 1
+- value: 20m
+  count: 1
+- value: 25-30°C
+  count: 1
+- value: 3-5m
+  count: 1
+- value: 30m
+  count: 2
+- value: 45-60m
+  count: 1
+- value: 5h
+  count: 1
+- value: 5m
+  count: 4
+- value: 5m before serving
+  count: 1
+- value: a couple of minutes
+  count: 2
+- value: at least 10m
+  count: 3
+- value: at least 1h
+  count: 1
+- value: at least 30m
+  count: 1
+- value: at least 5m
+  count: 1
+- value: at least doubled in size
+  count: 1
+- value: autolyse
+  count: 1
+- value: autolyze
+  count: 1
+- value: briefly
+  count: 1
+- value: covered with clean cloth
+  count: 2
+- value: covered with saran wrap
+  count: 1
+- value: not above 31c
+  count: 1
+- value: optionally overnight
+  count: 1
+- value: oven or draft-free area
+  count: 1
+- value: pan
+  count: 1
+- value: room temperature
+  count: 6
+- value: same water
+  count: 1
+- value: somewhere lukewarm
+  count: 1
+- value: stir very gently occasionally
+  count: 1
+- value: until easy to knead
+  count: 2
+- value: until settled
+  count: 1
+- value: until water-balloon feel with resistance and spring
+  count: 1
+- value: warm
+  count: 1
+- value: warm spot
+  count: 1
+- value: ~10m
+  count: 2
+- value: ~15m
+  count: 1
+- value: ~1m if too hot
+  count: 2
+- value: ~30m
+  count: 2

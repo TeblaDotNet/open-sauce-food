@@ -1,0 +1,20 @@
+id: gooseberries
+kind: ingredient
+canonical_name: gooseberries
+names:
+  en: gooseberries
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: gooseberries
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+observed_qualifiers:
+- value: stewed
+  count: 1
+- value: with all juice
+  count: 1

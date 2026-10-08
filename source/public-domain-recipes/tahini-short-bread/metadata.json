@@ -1,0 +1,43 @@
+{
+  "title": "Tahini short bread",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tahini-short-bread.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "db9e0f8a97166c348b7d83a0c06a2684601022d3243a11c923032e3818c1a500",
+  "original_front_matter": {
+    "title": "Tahini short bread",
+    "author": "Arnaud Poittevin",
+    "tags": [
+      "dessert",
+      "side",
+      "snack",
+      "cheesefare",
+      "eggs",
+      "dough"
+    ],
+    "date": "2022-06-29"
+  },
+  "source_url": "https://publicdomainrecipes.com/tahini-short-bread/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Tahini biscuits",
+      "url": "/pix/tahini-short-bread.webp",
+      "upstreamPath": "static/pix/tahini-short-bread.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "c785cbda7c865de744be3d7fc30e68927e19fda66246dbd553d5b42a62268b7e",
+      "sourcePath": "source/public-domain-recipes/tahini-short-bread/tahini-short-bread.webp",
+      "promotedPath": "examples/public-domain-recipes/tahini-short-bread/tahini-short-bread.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

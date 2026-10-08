@@ -1,0 +1,16 @@
+id: rinse
+kind: process
+names:
+  en: rinse
+observed_forms:
+- syntax: rinse
+  count: 1
+- syntax: rinse, cold water, at least 30s
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce
+observed_parameters:
+- value: at least 30s
+  count: 1
+- value: cold water
+  count: 1

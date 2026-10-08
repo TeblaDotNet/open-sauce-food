@@ -1,0 +1,12 @@
+id: trim
+kind: process
+names:
+  en: trim
+observed_forms:
+- syntax: trim, excess
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+observed_parameters:
+- value: excess
+  count: 1

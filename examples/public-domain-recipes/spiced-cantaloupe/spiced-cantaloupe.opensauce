@@ -1,0 +1,79 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Spiced cantaloupe
+source: https://publicdomainrecipes.com/spiced-cantaloupe/
+source author: Pennsylvania Dutch Cooking
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: cantaloupe, dutch, spiced, pennsylvania
+serves: 6
+
+# Imported from content/spiced-cantaloupe.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 20 min
+# Source metadata: - 🍳 Cook time: 1.5 hours
+# Source metadata: - 🍽️ Servings: 6
+# safety: 6. Place in hot sterilized jars and seal. — Preserve source wording; no safety assurance inferred. Human safety review before practical reliance.
+
+::ingredients
+
+(cantaloupe) 3 lbs
+(alum) 1/2 tbsp
+(qts water) 2
+(sugar) 3 cups
+(pt vinegar) 1
+(cinnamon) 2 sticks
+(whole cloves) 1/2 tbsp
+(allspice) 1 tsp
+
+::instructions
+
+Pare the cantaloupe, remove seeds and cut into strips, 1x2 inch or squares.
+(alum) <dissolve, in the water and bring to a boil>
+<add, the cantaloupe and cook for 15 minutes>
+<drain, well>
+<combine, vinegar, sugar and spices. Add the cantaloupe and simmer slowly until fruit is transparent (about 45 minutes)>
+<place, in hot sterilized jars and seal>
+
+::story
+
+This is a simple spiced cantaloupe recipe.
+
+
+::source
+<<<
+---
+title: Spiced cantaloupe
+tags: ['cantaloupe', 'dutch', 'spiced', 'pennsylvania']
+date: 2008-09-08
+author: "Pennsylvania Dutch Cooking"
+---
+
+This is a simple spiced cantaloupe recipe.
+
+- ⏲️ Prep time: 20 min
+- 🍳 Cook time: 1.5 hours
+- 🍽️ Servings: 6
+
+## Ingredients
+
+- 3 lbs cantaloupe
+- 1/2 tbsp alum
+- 2 qts water
+- 3 cups sugar
+- 1 pt vinegar
+- 2 sticks cinnamon
+- 1/2 tbsp whole cloves
+- 1 tsp allspice
+
+## Directions
+
+1. Pare the cantaloupe, remove seeds and cut into strips, 1x2 inch or squares.
+2. Dissolve the alum in the water and bring to a boil.
+3. Add the cantaloupe and cook for 15 minutes.
+4. Drain well.
+5. Combine vinegar, sugar and spices. Add the cantaloupe and simmer slowly until fruit is transparent (about 45 minutes).
+6. Place in hot sterilized jars and seal.
+>>>

@@ -1,0 +1,18 @@
+id: grain-alcohol
+kind: ingredient
+canonical_name: grain alcohol
+names:
+  en: grain alcohol
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: grain alcohol
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/limoncello/limoncello.opensauce
+observed_qualifiers:
+- value: 95% ABV
+  count: 1

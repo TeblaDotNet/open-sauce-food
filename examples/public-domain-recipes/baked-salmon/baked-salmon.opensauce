@@ -1,0 +1,74 @@
+::recipe
+
+name: Baked Salmon
+source: https://publicdomainrecipes.com/baked-salmon/
+source author: carl-zimmerman
+source license: Public domain (Unlicense)
+units: source
+tags: basic, fish
+
+# Original source: ../../../source/public-domain-recipes/baked-salmon/baked-salmon.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 5 min
+# Source Cook time: 19 min
+# Conversion note: Salmon steaks unquantified; aluminum foil appears as an ingredient. No count inferred and non-food item retyped.
+
+::ingredients
+
+(salmon, steaks) quantity unspecified
+(red pepper flakes) to taste
+(lemon juice) as needed
+(butter) 1tsp per steak in method
+(cooking fat) = (cooking oil) as needed -OR- (cooking spray) as needed
+# Method-only seasoning
+(salt) to taste
+(black pepper) to taste
+
+::equipment
+
+(aluminum foil)
+(cookie sheet) -OR- (baking pan)
+
+::instructions
+
+(salmon) + (salt) + (black pepper) + (red pepper flakes) <season, to taste>
+(aluminum foil) + (cooking fat) <coat, spray or rub>
+    <place, cookie sheet or baking pan>
+(salmon) + (lemon juice) <squeeze>
+    + (butter) 1tsp per steak <place>
+    <bake, 400f / 200c, 19m>
+
+::story
+
+Simple method for making a good serving of salmon. Goes well with just about anything.
+
+::source
+<<<
+---
+title: "Baked Salmon"
+date: 2021-03-17
+tags: ['basic', 'fish']
+author: carl-zimmerman
+---
+
+Simple method for making a good serving of salmon. Goes well with just about anything.
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 19 min
+
+## Ingredients
+
+- Salmon Steaks
+- Red Pepper Flakes
+- Lemon Juice
+- Butter
+- Cooking oil / spray
+- Aluminum Foil
+
+## Directions
+
+1. Season salmon with salt, black pepper, and red pepper to taste.
+2. Spray or rub in cooking oil on aluminum foil and place on cookie sheet or in baking pan.
+3. Squeeze lemon juice and place a teaspoon of butter on each salmon steak.
+4. Bake at 400°F / 200°C for 19 mins.
+>>>

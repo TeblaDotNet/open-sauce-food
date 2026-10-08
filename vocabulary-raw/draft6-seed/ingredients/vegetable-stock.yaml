@@ -1,0 +1,11 @@
+id: vegetable-stock
+kind: ingredient
+names:
+  en: vegetable stock
+observed_forms:
+- syntax: vegetable stock
+  count: 2
+seen_in:
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- legacy-corpus:bbc-food-10
+legacy_observation: true

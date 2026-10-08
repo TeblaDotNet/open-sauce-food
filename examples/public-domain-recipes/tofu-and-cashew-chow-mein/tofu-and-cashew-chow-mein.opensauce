@@ -1,0 +1,89 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Tofu and Cashew Chow Mein
+source: https://publicdomainrecipes.com/tofu-and-cashew-chow-mein/
+source author: joel-maxuel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: tofu, asian
+serves: 3
+
+# Imported from content/tofu-and-cashew-chow-mein.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15 min
+# Source metadata: - 🍳 Cook time: 10 min
+# Source metadata: - 🍽️ Servings: 3
+
+::ingredients
+
+(precooked thick wheat noodles) 10 oz
+(soy sauce) 3 Tbsp
+(oyster sauce) 2 Tbsp
+(sesame oil) 2 tsp
+(peanut oil) 2 Tbsp -OR- (frying oil, other suitable oil) 2 Tbsp
+(firm tofu, cut into cubes) 6 oz
+(carrot, julienned) 1
+(broccoli florets, Small) 2 cups
+(garlic, minced) 2 cloves
+(ginger, finely grated) 2 tsp
+(roasted cashews) 1/2 cup
+
+::equipment
+
+(frying pan)
+(bowl)
+
+::instructions
+
+Loosen the precooked noodles by soaking in a bowl of hot water for 2-3 minutes, then drain and set aside.
+<mix, together the soy sauce, oyster sauce, sesame oil and 2 Tbsp water in a bowl>
+<heat, a wok or large frying pan over a high heat, add the oil and stir-fry the carrot and broccoli for 2 minutes>
+<add, the tofu and stir-fry for 4 minutes>
+<add, the garlic and ginger and stir-fry for a minute>
+<stir, through the noodles and then add the sauce mixture and cashews and mix until thoroughly combined and heated through>
+
+::story
+
+Precooked thick wheat noodles are typically found in the refrigerated section of the supermarket. Preparing soba noodles is a worthy substitute.
+
+
+::source
+<<<
+---
+title: Tofu and Cashew Chow Mein
+tags: ['tofu', 'asian']
+date: 2022-09-10
+author: joel-maxuel
+---
+
+Precooked thick wheat noodles are typically found in the refrigerated section of the supermarket. Preparing soba noodles is a worthy substitute.
+
+- ⏲️ Prep time: 15 min
+- 🍳 Cook time: 10 min
+- 🍽️ Servings: 3
+
+## Ingredients
+
+- 10 oz Precooked Thick Wheat Noodles
+- 3 Tbsp Soy Sauce
+- 2 Tbsp Oyster Sauce
+- 2 tsp Sesame Oil
+- 2 Tbsp Peanut Oil or other suitable frying oil
+- 6 oz Firm Tofu, cut into cubes
+- 1 Carrot, julienned
+- 2 cups Small Broccoli Florets
+- 2 cloves Garlic, minced
+- 2 tsp Ginger, finely grated
+- 1/2 cup Roasted Cashews
+
+## Directions
+
+1. Loosen the precooked noodles by soaking in a bowl of hot water for 2-3 minutes, then drain and set aside.
+2. Mix together the soy sauce, oyster sauce, sesame oil and 2 Tbsp water in a bowl.
+3. Heat a wok or large frying pan over a high heat, add the oil and stir-fry the carrot and broccoli for 2 minutes.
+4. Add the tofu and stir-fry for 4 minutes.
+5. Add the garlic and ginger and stir-fry for a minute.
+6. Stir through the noodles and then add the sauce mixture and cashews and mix until thoroughly combined and heated through.
+>>>

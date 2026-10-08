@@ -1,0 +1,18 @@
+id: ramekin
+kind: equipment
+canonical_name: ramekin
+names:
+  en: ramekin
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: ramekin
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+observed_qualifiers:
+- value: fireproof
+  count: 1

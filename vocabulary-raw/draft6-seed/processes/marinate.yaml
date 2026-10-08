@@ -1,0 +1,17 @@
+id: marinate
+kind: process
+names:
+  en: marinate
+observed_forms:
+- syntax: marinate, 1h
+  count: 1
+- syntax: marinate, at least 1h
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_parameters:
+- value: 1h
+  count: 1
+- value: at least 1h
+  count: 1

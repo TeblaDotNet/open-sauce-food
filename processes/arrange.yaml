@@ -1,0 +1,23 @@
+id: arrange
+kind: process
+canonical_name: arrange
+names:
+  en: arrange
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: arrange
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+observed_parameters:
+- value: baking sheet
+  count: 1
+- value: lidded oven-safe pot or sided roasting tray tightly sealed with foil
+  count: 1
+- value: vegetables underneath and around meat
+  count: 1

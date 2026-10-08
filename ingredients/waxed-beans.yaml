@@ -1,0 +1,18 @@
+id: waxed-beans
+kind: ingredient
+canonical_name: waxed beans
+names:
+  en: waxed beans
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: waxed beans
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+observed_qualifiers:
+- value: cut
+  count: 1

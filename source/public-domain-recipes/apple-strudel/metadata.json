@@ -1,0 +1,39 @@
+{
+  "title": "Apple strudel",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/apple-strudel.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "efae19d45035c9e0247a96b3ee76acfc7d5ef5c90e3c119ee1013ff903cdb9b8",
+  "original_front_matter": {
+    "title": "Apple strudel",
+    "date": "2021-03-22",
+    "tags": [
+      "dessert",
+      "breakfast"
+    ],
+    "author": "Lorenzo Iuri"
+  },
+  "source_url": "https://publicdomainrecipes.com/apple-strudel/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "apple-strudel-1",
+      "url": "/pix/apple-strudel.webp",
+      "upstreamPath": "static/pix/apple-strudel.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "d7ece0b44c9289f51ad271107d6add7ab46ee758743c0949d88e3acf0036a4db",
+      "sourcePath": "source/public-domain-recipes/apple-strudel/apple-strudel.webp",
+      "promotedPath": "examples/public-domain-recipes/apple-strudel/apple-strudel.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

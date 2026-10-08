@@ -1,0 +1,105 @@
+::recipe
+
+name: Blueberry Muffins
+source: https://publicdomainrecipes.com/blueberry-muffins/
+source author: Marcus Howser
+source license: Public domain (Unlicense)
+units: source
+tags: berries, muffins, baking
+serves: 12
+
+# Original source: ../../../source/public-domain-recipes/blueberry-muffins/blueberry-muffins.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 10 min
+# Source Cook time: 30 min
+# Source Servings: 12
+# Conversion note: Cook time: 30 min; directions say 20-25 minutes. Do not resolve the source timing discrepancy.
+
+::ingredients
+
+(flour; all-purpose) 2 cups
+(sugar; granulated) 1 cup
+(baking powder) 1tbsp
+(salt) 1/2tsp
+(butter; unsalted, melted) 1/2 cup
+(milk) 1 cup
+(egg, large) 2
+(vanilla, extract) 1tsp
+(blueberries, fresh) 1 1/2 cups
+
+::equipment
+
+(oven)
+(muffin tin)
+(bowl, large)
+(bowl)
+(cooling rack)
+(toothpick)
+
+::instructions
+
+(oven) <preheat, 375f / 190c>
+[
+    (muffin tin) <line, paper liners>
+]
+-OR-
+[
+    (muffin tin) <grease, directly; fat unspecified>
+]
+{dry} = (flour) + (sugar) + (baking powder) + (salt)
+{dry} <mix, large mixing bowl>
+{wet} = (butter) + (milk) + (egg) + (vanilla)
+{wet} <whisk, separate bowl>
+{batter} = {dry} + {wet}
+{batter} <stir, just combined; do not overmix>
+    + (blueberries) <fold in, gently>
+{batter} <spoon, prepared muffin tin, each cup ~3/4 full>
+    <bake, preheated oven, 20-25m, or until toothpick in centre comes out clean>
+{muffins} <remove, oven>
+    <cool, tin, a few minutes>
+    <transfer, wire rack>
+    <cool, completely, before serving>
+
+::story
+
+Enjoy your homemade blueberry muffins!
+
+::source
+<<<
+---
+title: Blueberry Muffins
+tags: ['berries', 'muffins', 'baking']
+date: 2022-06-10
+author: "Marcus Howser"
+---
+
+⏲️ Prep time: 10 min
+🍳 Cook time: 30 min
+🍽️ Servings: 12
+
+## Ingredients
+
+- 2 cups all-purpose flour
+- 1 cup granulated sugar
+- 1 tablespoon baking powder
+- 1/2 teaspoon salt
+- 1/2 cup unsalted butter, melted
+- 1 cup milk
+- 2 large eggs
+- 1 teaspoon vanilla extract
+- 1 1/2 cups fresh blueberries
+
+## Directions
+
+1. Preheat the oven to 375°F (190°C). Line a muffin tin with paper liners or just grease the tin directly.
+2. In a large mixing bowl, combine the dry ingredients: flour, sugar, baking powder, and salt.
+3. In a separate bowl, whisk together the wet ingredients: melted butter, milk, eggs, and vanilla extract.
+4. Pour the wet ingredients into the dry ingredients and stir until just combined. Do not overmix.
+5. Gently fold in the fresh blueberries.
+6. Spoon the batter into the prepared muffin tin, filling each cup about three-quarters full.
+7. Bake in the preheated oven for 20-25 minutes, or until a toothpick inserted into the center of a muffin comes out clean.
+8. Remove the muffins from the oven and allow them to cool in the tin for a few minutes.
+9. Transfer the muffins to a wire rack to cool completely before serving.
+
+Enjoy your homemade blueberry muffins!
+>>>

@@ -1,0 +1,31 @@
+{
+  "title": "Tomato and Grilled Bell Pepper soup",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tomato-and-grilled-paprika-soup.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "dff2eb151227d33640052da09c52197eb8e4881d949d22a0f51495b715a9d858",
+  "original_front_matter": {
+    "title": "Tomato and Grilled Bell Pepper soup",
+    "date": "2021-03-15",
+    "tags": [
+      "soup",
+      "cheesefare"
+    ],
+    "author": "thijs-wester"
+  },
+  "source_url": "https://publicdomainrecipes.com/tomato-and-grilled-paprika-soup/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

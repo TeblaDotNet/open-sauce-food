@@ -1,0 +1,81 @@
+::recipe
+
+name: Chocolate Chip Cookies
+source: https://publicdomainrecipes.com/chocolate-chip-cookies/
+source author: mfed3
+source license: Public domain (Unlicense)
+ingredients: US
+units: mixed
+category: baking
+tags: cookies, chocolate
+yield: as many cookies as the chosen scoop size produces
+active time: ~10m
+total time: ~20m
+image: chocolate-chip-cookies.webp
+
+::ingredients
+
+(butter, melted) 230g / 2 sticks
+(flour; bread) 330g
+(salt) 5g
+(baking soda) 5g
+(sugar; white) 100-200g
+(sugar; brown) 100-200g
+(egg) 1
+(milk) 15g
+(vanilla) 5g
+
+(chocolate chips) =
+    (chocolate chips, dark, 50-70%) 225g
+    -OR-
+    (chocolate chips, semi-sweet milk) 225g
+
+::equipment
+
+(oven)
+(bowl) 2
+(mixer or whisk)
+(ice cream scoop or spoon)
+(baking sheet)
+(parchment paper)
+(cooling rack)
+
+::instructions
+
+(oven) <heat, 375f>
+
+{dry} =
+    (flour) +
+    (baking soda) +
+    (salt)
+
+{wet} =
+    (butter) +
+    (sugar; white) +
+    (sugar; brown) +
+    (egg) +
+    (vanilla) +
+    (milk)
+
+{wet} <beat, mixer or whisk, a few minutes>
+
+{dough} =
+    {wet} +
+    {dry} +
+    (chocolate chips)
+
+{dough} <stir>
+
+Repeat [
+    {dough} <scoop, uniform balls, preferred size>
+        <space, evenly, parchment-lined baking sheet>
+]
+until {dough} used
+
+Repeat [
+    {cookies} <bake, one baking sheet at a time, 8-10m, until starting to brown>
+]
+until baking sheets cooked
+
+{cookies} <cool, a few minutes>
+    <transfer, cooling rack>

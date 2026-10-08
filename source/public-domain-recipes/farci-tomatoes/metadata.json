@@ -1,0 +1,40 @@
+{
+  "title": "Farci tomatoes",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/farci-tomatoes.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "ca25b4a6cda7e3f0198dfd42b691b545d8ace6a83c11d4a680364b5b8c8ebb3e",
+  "original_front_matter": {
+    "title": "Farci tomatoes",
+    "tags": [
+      "french",
+      "tomato",
+      "oven"
+    ],
+    "date": "2022-07-11",
+    "author": "miraunpajaro"
+  },
+  "source_url": "https://publicdomainrecipes.com/farci-tomatoes/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Farci tomatoes",
+      "url": "/pix/farci-tomatoes.webp",
+      "upstreamPath": "static/pix/farci-tomatoes.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "e22eb0adaaceee5dc11a009cb86888acc43dd39a01af36988fc990060e6b9be4",
+      "sourcePath": "source/public-domain-recipes/farci-tomatoes/farci-tomatoes.webp",
+      "promotedPath": "examples/public-domain-recipes/farci-tomatoes/farci-tomatoes.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

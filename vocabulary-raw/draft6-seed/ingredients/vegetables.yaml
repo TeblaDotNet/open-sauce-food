@@ -1,0 +1,12 @@
+id: vegetables
+kind: ingredient
+names:
+  en: vegetables
+observed_forms:
+- syntax: vegetables, choice
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_qualifiers:
+- value: choice
+  count: 1

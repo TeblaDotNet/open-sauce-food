@@ -1,0 +1,12 @@
+id: seal
+kind: process
+names:
+  en: seal
+observed_forms:
+- syntax: seal, fork or fingers
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+observed_parameters:
+- value: fork or fingers
+  count: 1

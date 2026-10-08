@@ -1,0 +1,46 @@
+::recipe
+
+name: Lavacake
+source: https://publicdomainrecipes.com/lavacake/
+source author: benjamin-h
+source license: Public domain (Unlicense)
+units: metric
+category: dessert
+tags: chocolate, lava cake
+dietary: vegetarian
+serves: 4
+active time: ~15m
+total time: ~22m
+image: lavacake.webp
+
+::ingredients
+
+(egg) 1
+(flour) 25g
+(butter) 25g + extra for greasing
+(chocolate) 75g
+(berries, for serving) as desired
+(vanilla ice cream, for serving) as desired
+
+::equipment
+
+(oven)
+(cupcake tin)
+
+::instructions
+
+(cupcake tin) <grease, butter>
+(oven) <heat, 200c>
+
+{batter} =
+    (egg) +
+    (flour) +
+    (butter) +
+    (chocolate)
+
+{batter} <mix>
+    <fill, cupcake tin>
+    <bake, 200c, 7m>
+
+{lava cakes} + (berries) + (vanilla ice cream)
+    <serve, hot>

@@ -1,0 +1,84 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Lebanese Lentil Soup
+source: https://publicdomainrecipes.com/lebanese-lentil-soup/
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: soup, mediterranean, lebanese
+serves: 8
+
+# Imported from content/lebanese-lentil-soup.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 30 min
+# Source metadata: - 🍽️ Servings: 8
+
+::ingredients
+
+(red lentils) 3 cups
+(water) 12 cups
+(red onion, large, diced) 1
+(yukon gold potatoes, small, diced) 2
+(zucchini, medium, diced) 1
+(swiss chard, chopped) 4 cups
+(cilantro, chopped) 1 bunch
+(lemon: juice, more to taste) ¼ cup
+(cumin) 1 teaspoon
+
+::equipment
+
+(pot)
+
+::instructions
+
+In a large pot, add lentils and water and place on medium heat to boil.
+In a pan, sauté onions until pink, about 5 minutes. Add chopped Swiss chard and sauté together until chard is wilted, 2-3 minutes.
+After lentils have cooked about 8 minutes, add onion chard mixture, along with diced potatoes and zucchini to the boiling water.
+<add, salt and pepper to taste>
+<reduce, heat to medium-low, cover the pot, and cook until the potatoes and lentils are completely cooked, about 12 minutes>
+<add, the chopped cilantro. Stir and cook for about 5 minutes>
+<add, lemon juice and cumin before serving>
+
+::story
+
+author: skipper-davies Lebanese-Style Lentil Soup with Swiss Chard and Lemon
+
+
+::source
+<<<
+---
+title: "Lebanese Lentil Soup"
+date: 2021-03-30
+tags: ['soup', 'mediterranean', 'lebanese']
+---
+author: skipper-davies
+Lebanese-Style Lentil Soup with Swiss Chard and Lemon
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 30 min
+- 🍽️ Servings: 8
+
+## Ingredients
+
+- 3 cups red lentils
+- 12 cups water
+- 1 large red onion, diced
+- 2 small Yukon gold potatoes, diced
+- 1 medium zucchini, diced
+- 4 cups Swiss chard, chopped
+- 1 bunch of cilantro, chopped
+- ¼ cup of lemon juice, more to taste
+- 1 teaspoon cumin
+
+## Directions
+
+1. In a large pot, add lentils and water and place on medium heat to boil.
+2. In a pan, sauté onions until pink, about 5 minutes. Add chopped Swiss chard and sauté together until chard is wilted, 2-3 minutes.
+3. After lentils have cooked about 8 minutes, add onion chard mixture, along with diced potatoes and zucchini to the boiling water.
+4. Add salt and pepper to taste.
+5. Reduce heat to medium-low, cover the pot, and cook until the potatoes and lentils are completely cooked, about 12 minutes.
+6. Add the chopped cilantro. Stir and cook for about 5 minutes.
+7. Add lemon juice and cumin before serving.
+>>>

@@ -1,0 +1,32 @@
+id: garlic
+kind: ingredient
+names:
+  en: garlic
+observed_forms:
+- syntax: garlic
+  count: 1
+- syntax: garlic, crushed
+  count: 1
+- syntax: garlic, minced or crushed
+  count: 1
+- syntax: garlic, roughly chopped
+  count: 1
+- syntax: garlic, small, finely grated
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: crushed
+  count: 1
+- value: finely grated
+  count: 1
+- value: minced or crushed
+  count: 1
+- value: roughly chopped
+  count: 1
+- value: small
+  count: 1
+legacy_observation: true

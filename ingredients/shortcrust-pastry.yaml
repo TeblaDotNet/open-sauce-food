@@ -1,0 +1,15 @@
+id: shortcrust-pastry
+kind: ingredient
+canonical_name: shortcrust pastry
+names:
+  en: shortcrust pastry
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: shortcrust pastry
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/crostata/crostata.opensauce

@@ -1,0 +1,34 @@
+{
+  "title": "Ceviche",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/ceviche.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "1ae0afc7cdcfaf78509549d1c77c8f61cae1588e2914c8d35992fd71aef2dbb8",
+  "original_front_matter": {
+    "title": "Ceviche",
+    "tags": [
+      "seafood",
+      "peruvian"
+    ],
+    "author": "jacob-smith",
+    "date": "2022-04-16"
+  },
+  "source_url": "https://publicdomainrecipes.com/ceviche/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "tilapia ceviche on rice",
+      "url": "/pix/ceviche.webp",
+      "upstreamPath": "static/pix/ceviche.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

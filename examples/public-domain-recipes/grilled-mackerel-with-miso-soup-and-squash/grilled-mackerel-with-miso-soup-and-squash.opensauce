@@ -1,0 +1,85 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Grilled Mackerel with Miso Soup and Squash
+source: https://publicdomainrecipes.com/grilled-mackerel-with-miso-soup-and-squash/
+source author: Elsie Bee
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: fish, soup, japanese
+serves: 2
+
+# Imported from content/grilled-mackerel-with-miso-soup-and-squash.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 45 min
+# Source metadata: - 🍳 Cook time: 15 min
+# Source metadata: - 🍽️ Servings: 2
+# safety: 1. Place the mackerel fillets in a small container at room temperature. Pour sake on both sides of the fillets and let rest in the container, covered, for 30 min. — Preserve source wording; no safety assurance inferred. Human safety review before practical reliance.
+
+::ingredients
+
+(norwegian mackerel fillets) 2
+(sake) 1 tbsp
+(miso paste) 2 tbsp
+(onion) 1/2
+(summer squash) 1
+(butter) 1 tbsp
+(jasmine rice, optional) 1 cup
+(soy sauce, optional)
+
+::equipment
+
+(saucepan)
+
+::instructions
+
+<place, the mackerel fillets in a small container at room temperature. Pour sake on both sides of the fillets and let rest in the container, covered, for 30 min>
+(onion) <cut, into large slices>
+To a saucepan, add two cups of water, sliced onions, and miso paste. Whisk the solution until the miso paste is fully dissolved.
+<bring to a boil, Let the miso soup boil for about 10-15 min, then bring to a simmer>
+While the miso boils, peel the summer squash. Cut squash into 1/4 in half moons.
+In a large pan, melt 1 tbsp butter at medium-high heat.
+<grill, squash in the pan for 5-10 min, until both sides of the squash are golden brown. Add salt and pepper to taste>
+Push squash one side of the pan.
+<season, each fillet with about 1 tsp of salt>
+<place, the fillets in the pan with the squash. Grill each side of the mackerel for about 4 min>
+<serve, with rice and soy sauce>
+
+::source
+<<<
+---
+title: Grilled Mackerel with Miso Soup and Squash
+tags: ['fish', 'soup', 'japanese']
+date: 2022-11-16
+author: "Elsie Bee"
+---
+- ⏲️ Prep time: 45 min
+- 🍳 Cook time: 15 min
+- 🍽️ Servings: 2
+
+## Ingredients
+
+- 2 Norwegian Mackerel Fillets
+- 1 tbsp Sake
+- 2 tbsp Miso paste
+- 1/2 Onion
+- 1 Summer Squash
+- 1 tbsp butter
+- 1 cup Jasmine Rice (optional)
+- Soy Sauce (optional)
+
+## Directions
+
+1. Place the mackerel fillets in a small container at room temperature. Pour sake on both sides of the fillets and let rest in the container, covered, for 30 min.
+2. Cut onion into large slices.
+3. To a saucepan, add two cups of water, sliced onions, and miso paste. Whisk the solution until the miso paste is fully dissolved.
+4. Bring to a boil. Let the miso soup boil for about 10-15 min, then bring to a simmer.
+5. While the miso boils, peel the summer squash. Cut squash into 1/4 in half moons.
+6. In a large pan, melt 1 tbsp butter at medium-high heat.
+7. Grill squash in the pan for 5-10 min, until both sides of the squash are golden brown. Add salt and pepper to taste.
+8. Push squash one side of the pan.
+9. Season each fillet with about 1 tsp of salt.
+10. Place the fillets in the pan with the squash. Grill each side of the mackerel for about 4 min.
+11. Serve with rice and soy sauce.
+>>>

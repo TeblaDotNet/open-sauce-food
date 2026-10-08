@@ -1,0 +1,117 @@
+::recipe
+
+name: Sardine Cakes
+source: https://publicdomainrecipes.com/sardine-cakes/
+source author: tom-fasano
+source license: Public domain (Unlicense)
+units: source
+tags: seafood, fish, american, spicy
+serves: 15
+
+# Original source: ../../../source/public-domain-recipes/sardine-cakes/sardine-cakes.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 10 min
+# Source Cook time: 10 min
+# Source Servings: 15
+# Conversion note: 2 tins sardines (~4oz); lemon juice optional in list but final drizzle imperative. Cannot know if ~4oz is per tin or total; optionality conflict retained.
+
+::ingredients
+
+# Fish cakes
+(sardines, tinned) 2 tins (~4oz as stated)
+(mayonnaise) 1/2 cup
+(bread crumbs, Panko) 1/2 cup
+(Old Bay seasoning) 2tsp
+(egg) 1
+(lemon juice, optional) as desired
+# Sauce
+(yogurt, plain, whole milk) 1/2 cup
+(sriracha) 1tbsp
+(mustard, Dijon) 1tbsp
+(Worcestershire sauce) 1tsp
+(garlic, minced, optional) as desired
+
+::equipment
+
+(bowl)
+(fork)
+(baking sheet, rimmed) -OR- (pan, large, cast iron) -OR- (casserole dish)
+(refrigerator)
+(oven)
+
+::instructions
+
+(sardines) <remove, tins, reserve oil>
+{cake mix} = (sardines) + (mayonnaise) + (bread crumbs) + (Old Bay seasoning) + (egg) + (sardines, oil) from one tin / ~2TB
+Optional [
+    {cake mix} + (lemon juice)
+]
+{cake mix} <mix, gently, fork, incorporated not puréed>
+    <scoop, small balls>
+    <flatten, patties 2in across and ~1/2in thick>
+    <place, rimmed baking sheet or large cast iron pan or casserole dish>
+    <refrigerate, ~30m>
+Meanwhile [
+    {yogurt sauce} = (yogurt) + (sriracha) + (mustard) + (Worcestershire sauce)
+    Optional [
+        {yogurt sauce} + (garlic)
+    ]
+    {yogurt sauce} <mix>
+]
+(oven) <adjust, rack top third>
+{fish cakes} <broil, 5m>
+    <turn>
+    <broil, 3-5m more, until golden brown>
+    <drizzle, lemon juice, source final step>
+    <serve, hot, yogurt sauce>
+
+::notes
+Can be served with a Spicy Yogurt Sauce as Tapas or Hors D’Oeuvres.
+🧊 Chill time: 30 min
+
+::source
+<<<
+---
+title: Sardine Cakes
+tags: ['seafood', 'fish', 'american', 'spicy']
+date: 2022-04-16
+author: "tom-fasano"
+---
+
+Can be served with a Spicy Yogurt Sauce as Tapas or Hors D’Oeuvres.
+
+- ⏲️ Prep time: 10 min
+- 🧊 Chill time: 30 min
+- 🍳 Cook time: 10 min
+- 🍽️ Servings: 15
+
+## Ingredients
+
+### Sardine Fish Cakes
+
+- 2 tins sardines (~4oz)
+- ½ cup mayonnaise
+- ½ cup Panko breadcrumbs
+- 2 teaspoons Old Bay seasoning
+- 1 egg
+- lemon juice (optional)
+
+### Spicy Yogurt Sauce
+
+- ½ cup plain yogurt (whole milk)
+- 1 tablespoon sriracha
+- 1 tablespoon Dijon mustard
+- 1 teaspoon Worcestershire sauce
+- minced garlic (optional)
+
+## Directions
+
+1. Remove sardines from tin, reserving oil, and place fish in a mixing bowl.  Add remaining fish cake ingredients, along with the oil from one tin (about 2 TB) to the bowl.
+2. Gently mix all the ingredients together with a fork.  Mix until incorporated, but don't purée.
+3. Use something to scoop the fish cake mix into small balls. Flatten into small patties 2" across, and about ½" thick.
+4. Set patties on a rimmed baking sheet, large cast iron pan, or casserole dish.
+5. Refrigerate patties for about 30 minutes.
+6. While fish cakes chill, mix together all the ingredients for the yogurt sauce.
+7. Move oven rack to the top 3rd of the oven. Broil for 5 minutes, flip, and broil 3-5 minutes more, until cakes are golden brown.
+8. Drizzle some lemon juice on cakes. Serve while still hot with the yogurt sauce. Enjoy!
+>>>

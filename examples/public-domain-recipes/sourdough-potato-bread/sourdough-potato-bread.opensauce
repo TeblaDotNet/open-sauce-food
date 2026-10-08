@@ -1,0 +1,75 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Potato sourdough bread
+source: https://publicdomainrecipes.com/sourdough-potato-bread/
+source author: SirStart
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: sourdough, bread, potato
+image: sourdough-potato-bread.webp
+
+# Imported from content/sourdough-potato-bread.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15 min
+# Source metadata: - 🍳 Cook time: 45 min
+
+::ingredients
+
+(boiled potatoes in there skin) 150g
+(wheat flour) 350g
+(whole rye flour) 50g
+(salt) 11g
+(water) 150g
+(sourdough) 250g
+
+::equipment
+
+(oven)
+
+::instructions
+
+<boil, the potatoes>
+<peel, of the skin of the potatoes (let them cool down a bit)>
+<stir, all ingredients and knead them well>
+<let, the dough rest for 5 hours in warm (25-30°C) conditions>
+<preheat, the oven to 250°C>
+<bake, for up to 10 minute with steam>
+Release the steam and turn the heat down to 220°C.
+<bake, for another 35 minutes>
+
+::source
+<<<
+---
+title: "Potato sourdough bread"
+date: 2021-03-23
+tags: ['sourdough', 'bread', 'potato']
+author: "SirStart"
+---
+
+![Potato sourdough bread](/pix/sourdough-potato-bread.webp)
+
+- ⏲️ Prep time: 15 min
+- 🍳 Cook time: 45 min
+
+## Ingredients
+
+- 150g boiled potatoes in there skin
+- 350g wheat flour
+- 50g whole rye flour
+- 11g salt
+- 150g water
+- 250g sourdough
+
+## Directions
+
+1. Boil the potatoes
+2. Peel of the skin of the potatoes (let them cool down a bit)
+3. Stir all ingredients and knead them well.
+4. Let the dough rest for 5 hours in warm (25-30°C) conditions.
+5. Preheat the oven to 250°C.
+6. Bake for up to 10 minute with steam.
+7. Release the steam and turn the heat down to 220°C.
+8. Bake for another 35 minutes
+>>>

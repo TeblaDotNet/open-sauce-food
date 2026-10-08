@@ -1,0 +1,105 @@
+::recipe
+
+name: Pho Soup
+source: https://publicdomainrecipes.com/pho-soup/
+source author: jon-burga
+source license: Public domain (Unlicense)
+units: source
+tags: vietnamese, beef
+serves: 4
+image: pho-soup.webp
+
+# Original source: ../../../source/public-domain-recipes/pho-soup/pho-soup.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 20 min
+# Source Cook time: 2 hours
+# Source Servings: 4
+# Conversion note: Lime unused; oven temperature and several quantities absent. Recipe relies on cook judgement.
+# Conversion note: Fish/Oyster Sauce in ingredients and fish/oyster sauce in method. Slash interpreted as alternatives for readability; source does not explicitly exclude using both.
+
+::ingredients
+
+(garlic, large) 4-8 cloves
+(spring onion) as needed
+(cardamom seeds) ~10
+(star anise) 4-5
+(ginger) as needed
+(cinnamon) 3-5 sticks
+(beef, diced) 300g
+(beef marrow bones) 3
+(beef bouillon) 1-3 cubes
+(coriander) to taste
+(lime) 1, to taste
+(sauce choice) = (fish sauce) to taste -OR- (oyster sauce) to taste
+(sweetener) = (honey) to taste -OR- (brown sugar) to taste
+(rice noodles) as needed
+(water) as needed
+
+::equipment
+
+(oven)
+(tray)
+(pot)
+(tea strainer, optional)
+
+::instructions
+
+(oven) <heat, temperature not stated>
+(garlic) + (cardamom seeds) + (cinnamon) + (star anise) + (ginger) <toast, oven tray, until browned>
+(beef marrow bones) + (water) <boil> <skim, remove most scum>
+    + {toasted spices} <add, optionally in tea strainer>
+    + (beef bouillon) + (beef) + (sauce choice) + (sweetener) <simmer, covered, couple of hours>
+(rice noodles) <cook, few minutes, al dente>
+{spices} <remove, from broth>
+(coriander) + (spring onion) <chop>
+<serve, noodles and broth contents in bowls, garnish with coriander and spring onion>
+# Lime is listed but not explicitly assigned a method step.
+
+::story
+
+Vietnamese Pho Soup is a tea-like, beef based soup with a flavor profile that differentiates it from the traditional Western palette. This recipe is designed to be as easy to make as possible, while simultaneously being as based as possible.
+
+::source
+<<<
+---
+title: "Pho Soup"
+date: 2021-03-23
+tags: ['vietnamese', 'beef']
+author: jon-burga
+---
+
+![Based Beef Pho](/pix/pho-soup.webp)
+
+Vietnamese Pho Soup is a tea-like, beef based soup with a flavor profile that differentiates it from the traditional Western palette. This recipe is designed to be as easy to make as possible, while simultaneously being as based as possible.
+
+- ⏲️ Prep time: 20 min
+- 🍳 Cook time: 2 hours
+- 🍽️ Servings:4
+
+## Ingredients
+
+- Garlic (4-8 large cloves)
+- Spring Onions
+- Cardamom Seeds (10 or so)
+- Star Anise (4-5)
+- Ginger
+- Cinnamon Sticks (3-5 sticks)
+- Diced Beef (300g)
+- Beef Bones with marrow (3x)
+- Beef bouillon cubes (1-3)
+- Coriander (to taste)
+- 1 Lime (to taste)
+- Fish/Oyster Sauce
+- Honey or Brown Sugar
+- Rice noodles
+
+## Directions
+
+1. Heat your oven and place the spices (garlic, cardamom seeds, cinnamon sticks, star anise and ginger) on a tray and bake them until browned or decently toasted.
+2. Boil bones until you remove most of the scum, and transfer the spices from the oven into the pot. Life will be easier if you can place the spices in a tea strainer of sorts, otherwise, it's not the worst thing in the world fishing them out later on.
+3. Add beef bouillon cubes, diced beef, fish/oyster sauce, and honey/sugar, then simmer for a couple hours with the lid on.
+4. Cook the rice noodles (should only take a few minutes, just until the texture is al dente enough).
+5. Once the broth is done cooking, fish out the spices that you added at step 2. It's worth doing this rather than accidentally chewing on a bit of star anise, trust me.
+6. Cut up coriander and spring onions as garnish.
+7. Add rice noodles to bowl, followed by the broth and its contents, followed by the garnish. This can be made and eaten within 1 hour if you want it quickly, but typically with broths the longer you simmer the tastier it'll be.
+>>>

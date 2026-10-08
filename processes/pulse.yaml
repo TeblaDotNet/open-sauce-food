@@ -1,0 +1,20 @@
+id: pulse
+kind: process
+canonical_name: pulse
+names:
+  en: pulse
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: pulse
+      count: 2
+  seen_in:
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: a few times
+    count: 2
+  - value: food processor
+    count: 1

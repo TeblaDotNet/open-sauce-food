@@ -1,0 +1,12 @@
+id: steaming-basket
+kind: equipment
+canonical_name: steaming basket
+names:
+  en: steaming basket
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/dou-sha-bao/dou-sha-bao.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

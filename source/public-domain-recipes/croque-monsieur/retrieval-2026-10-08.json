@@ -1,0 +1,35 @@
+{
+  "title": "Croque-monsieur bites",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/croque-monsieur.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "257e83fbba51fceaec1ae0c0a8fa92e3a69b5aa3bd49702c4f22d5053af05979",
+  "original_front_matter": {
+    "title": "Croque-monsieur bites",
+    "tags": [
+      "quick",
+      "cheese",
+      "french"
+    ],
+    "date": "2022-06-24",
+    "author": "SofianeHamlaoui"
+  },
+  "source_url": "https://publicdomainrecipes.com/croque-monsieur/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "croquemsr",
+      "url": "/pix/croque-monsieur.webp",
+      "upstreamPath": "static/pix/croque-monsieur.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

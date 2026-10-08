@@ -1,0 +1,13 @@
+id: remove-from-heat
+kind: process
+names:
+  en: remove from heat
+observed_forms:
+- syntax: remove from heat
+  count: 4
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- legacy-corpus:bbc-food-10
+legacy_observation: true

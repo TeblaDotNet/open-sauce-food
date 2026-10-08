@@ -1,0 +1,85 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Danish Pancake
+source: https://publicdomainrecipes.com/danish-pancake/
+source author: jesper
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: quick, breakfast, sweet, pancake, cheesefare
+image: danish-pancake.webp
+
+# Imported from content/danish-pancake.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(wheat flour) 375g
+(salt, 1/3 of a teaspoon) a little bit
+(sugar) 1 ½ tablespoon
+(milk) 9 dl
+(egg) 4
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<put, all the ingredients in a bowl and stir until it's all mixed up>
+<preheat, a pan with butter or margarine>
+<turn, when one side starts turning brown>
+They are done when both sides start turning brown.
+<add, Butter or Margarine when needed>
+
+::notes
+
+- Sugar
+
+- Syrup
+
+- Powdered sugar
+
+- Marmalade (Jam)
+
+
+::story
+
+Danish Pancake recipe
+
+
+::source
+<<<
+---
+title: "Danish Pancake"
+date: 2021-03-18
+tags: ['quick', 'breakfast', 'sweet', 'pancake', 'cheesefare']
+author: jesper
+---
+
+![pancake](/pix/danish-pancake.webp)
+
+Danish Pancake recipe
+
+## Ingredients
+
+- 375g wheat flour
+- a little bit of salt (1/3 of a teaspoon)
+- 1 ½ tablespoon sugar
+- 9 dl milk
+- 4 eggs
+
+## Directions
+1. Put all the ingredients in a bowl and stir until it's all mixed up.
+2. Preheat a pan with butter or margarine.
+3. Turn when one side starts turning brown.
+4. They are done when both sides start turning brown.
+5. Add Butter or Margarine when needed.
+
+## Served With
+- Sugar
+- Syrup
+- Powdered sugar
+- Marmalade (Jam)
+>>>

@@ -1,0 +1,28 @@
+id: aubergine
+kind: ingredient
+canonical_name: aubergine
+names:
+  en-GB: aubergine
+  en-US: eggplant
+  en-AU: eggplant
+status: reviewed-merge
+aliases:
+- name: eggplant
+  type: regional-name
+  observed_count: 3
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: eggplant
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+observed_qualifiers:
+- value: aubergine
+  count: 1
+- value: large
+  count: 1

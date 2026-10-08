@@ -1,0 +1,18 @@
+id: blowtorch
+kind: equipment
+canonical_name: blowtorch
+names:
+  en: blowtorch
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: blowtorch
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

@@ -1,0 +1,20 @@
+id: yeast
+kind: ingredient
+canonical_name: yeast
+names:
+  en: yeast
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: yeast
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/pizza-dough/pizza-dough.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+observed_qualifiers:
+- value: dry
+  count: 3

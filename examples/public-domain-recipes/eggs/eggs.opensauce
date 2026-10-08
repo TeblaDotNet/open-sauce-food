@@ -1,0 +1,130 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Eggs
+source: https://publicdomainrecipes.com/eggs/
+source author: martin-chrzanowski
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: eggs, basic, cheesefare
+
+# Imported from content/eggs.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# safety: You're pushing the cooked egg towards the center while letting the raw egg spill out to be cooked. — Preserve source wording; no safety assurance inferred. Human safety review before practical reliance.
+# syntax/representation question: Four independent egg preparations are presented as subsections. — Keep the four methods as alternative blocks, not one sequential recipe.
+
+::ingredients
+
+(egg)
+(butter)
+(cheese, optional)
+(milk, optional)
+
+::instructions
+
+[
+Boiled eggs
+<bring, water to boil (about enough to cover the eggs when submerged)>
+(egg) <place, in water>
+<keep, heat high enough to keep a rolling boil, boil until desired consistency (about 5 or less minutes for soft boiled and very runny, 8 minutes for medium runny, 10+ for hard boiled)>
+]
+-OR-
+[
+Sunny-side up
+<heat, up butter or oil on small pan>
+<crack, egg(s) into pan>
+<cook, on low heat for an evenly cooked white and runny yolk>
+<serve, seasoned with salt and pepper>
+]
+-OR-
+[
+Scrambled
+<heat, up butter or oil on pan>
+(egg) <crack, into pan>
+Start scrambling with wooden spatula.
+<cook, until desired dryness>
+<season, with salt and pepper>
+]
+-OR-
+[
+Scrambled and fluffy
+<prepare, as normal>
+(egg) <crack, into pan and let them coagulate maybe twenty or thirty seconds before scrambling>
+<use, a rubber spatula to sort of scrape the egg towards the center of the pan. You're pushing the cooked egg towards the center while letting the raw egg spill out to be cooked. Give the egg a couple seconds to cook before pushing it back towards the center. The more you scramble the less fluffy the egg will be>
+Finish as normal.
+Scrambled eggs are easy to customize. E.g. start by frying any of: onions, bits of ham, mushrooms, chopped tomatoes, etc., before cracking the eggs in.
+]
+
+::notes
+
+Tip: if your eggs are cracking when you put them in boiling water, you might improve your chances of them not doing so by first warming them up in warm water for a few minutes beforehand.
+
+
+::story
+
+Eggs are great. This page will contain all sorts of "basic" ways of having an egg. Feel free to suggest more, as per the instructions on the homepage — /index.html.
+
+
+::source
+<<<
+---
+title: "Eggs"
+date: 2021-03-10
+tags: ['eggs', 'basic', 'cheesefare']
+author: martin-chrzanowski
+---
+
+Eggs are great. This page will contain all sorts of "basic" ways of having an
+egg. Feel free to suggest more, as per the instructions on the
+[homepage](/index.html).
+
+## Ingredients
+
+- eggs
+- butter
+- cheese(optional)
+- milk (optional)
+
+## Directions
+
+### Boiled eggs
+
+1. Bring water to boil (about enough to cover the eggs when submerged).
+2. Place eggs in water.
+3. Keep heat high enough to keep a rolling boil, boil until desired consistency
+   (about 5 or less minutes for soft boiled and very runny, 8 minutes for medium
+   runny, 10+ for hard boiled).
+
+Tip: if your eggs are cracking when you put them in boiling water, you might
+improve your chances of them not doing so by first warming them up in warm water
+for a few minutes beforehand.
+
+### Sunny-side up
+
+1. Heat up butter or oil on small pan.
+2. Crack egg(s) into pan.
+3. Cook on low heat for an evenly cooked white and runny yolk.
+4. Serve seasoned with salt and pepper.
+
+### Scrambled
+
+1. Heat up butter or oil on pan.
+2. Crack eggs into pan.
+3. Start scrambling with wooden spatula.
+4. Cook until desired dryness.
+5. Season with salt and pepper.
+
+### Scrambled and fluffy
+
+1. Prepare as normal.
+2. Crack eggs into pan and let them coagulate maybe twenty or thirty seconds before scrambling.
+3. Use a rubber spatula to sort of scrape the egg towards the center of the pan.
+You're pushing the cooked egg towards the center while letting the raw egg spill out to be cooked.
+Give the egg a couple seconds to cook before pushing it back towards the center.
+The more you scramble the less fluffy the egg will be.
+4. Finish as normal.
+
+Scrambled eggs are easy to customize. E.g. start by frying any of: onions, bits
+of ham, mushrooms, chopped tomatoes, etc., before cracking the eggs in.
+>>>

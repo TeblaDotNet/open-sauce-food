@@ -1,0 +1,13 @@
+id: oats
+kind: ingredient
+names:
+  en: oats
+observed_forms:
+- syntax: oats, rolled
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: rolled
+  count: 1
+legacy_observation: true

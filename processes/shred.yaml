@@ -1,0 +1,21 @@
+id: shred
+kind: process
+canonical_name: shred
+names:
+  en: shred
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 2
+  observed_terms:
+  - term: shred
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+  legacy_terms:
+  - term: shred
+    count: 2
+observed_parameters:
+- value: 2 forks
+  count: 1

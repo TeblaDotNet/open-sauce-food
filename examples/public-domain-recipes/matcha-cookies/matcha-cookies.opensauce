@@ -1,0 +1,98 @@
+::recipe
+
+name: Matcha Cookies
+source: https://publicdomainrecipes.com/matcha-cookies/
+source author: Hamza Masood
+source license: Public domain (Unlicense)
+units: source
+tags: snack, cookies, sweet, dessert, cheesefare
+yield: 13 cookies, 8-9cm in diameter
+
+# Original source: ../../../source/public-domain-recipes/matcha-cookies/matcha-cookies.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Yield note: 13 cookies, 8 ~ 9cm in diameter; method: Pan with a 5cm diameter cookie. Possibly raw versus baked size, but not explicitly established.
+# Conversion note: Source says coverture; notes offer white chocolate chips. Preserve spelling and substitution context rather than asserting equivalence.
+
+::ingredients
+
+(butter; unsalted) 115g
+(sugar; caster) 60g
+(sugar; brown) 115g
+(egg) 55g
+(flour; plain) 153g
+(matcha powder) 12g
+(baking soda) 2g
+(salt) 1g
+(vanilla, extract) 3g
+(chocolate, white coverture) 70g
+(macadamia nut) 45g
+
+::equipment
+
+(whisk)
+(spatula)
+(refrigerator)
+(oven)
+(pan)
+
+::instructions
+
+(butter) <melt, bath or microwave>
+{mix} = (butter) + (sugar; caster) + (sugar; brown) + (salt)
+{mix} <mix, whisk>
+    + (egg) + (vanilla) <mix, whisk, well mixed>
+    + (flour) + (matcha powder) + (baking soda) <mix, whisk, until powder barely visible>
+    + (chocolate) + (macadamia nut) <mix, evenly, spatula>
+{dough} <refrigerate, 30m-1h, until hardened>
+(oven) <preheat, beforehand, 170c / 338f Unox convection; source suggests a little higher for a common oven>
+{cookies} <place, pan, 5cm diameter as stated in method>
+    <bake, 170c / 338f, 9m, Unox convection oven>
+
+::story
+Matcha is a type of tea leaf powder that has a beautiful vivid green color. However, it’s different from the “green tea” that you drink with Japanese meals. That’s green tea too, but matcha green tea leaves are grown and harvested differently. The leaves are grown under shade.
+
+::notes
+Preheat the oven beforehand. My oven is very hot, so raise the oven temperature a little bit higher if you have common oven.
+If you bake too little, it will not be cooked. If you bake too long, it will become hard.
+The white coverture chocolate melts smoothly in your mouth, and the white chocolate chip has a more chewy texture. So you can choose anything to your taste.
+
+::source
+<<<
+---
+title: "Matcha Cookies"
+date: 2021-03-11
+tags: ['snack', 'cookies', 'sweet', 'dessert', 'cheesefare']
+author: "Hamza Masood"
+---
+
+Matcha is a type of tea leaf powder that has a beautiful vivid green color. However, it’s different from the “green tea” that you drink with Japanese meals. That’s green tea too, but matcha green tea leaves are grown and harvested differently. The leaves are grown under shade.
+
+## Ingredients
+(for 13 cookies, 8 ~ 9cm in diameter)
+
+- 115g Unsalted butter
+- 60g Caster sugar
+- 115g Brown sugar
+- 55g Egg
+- 153g Plain flour
+- 12g Matcha powder
+- 2g Baking soda
+- 1g Salt
+- 3g Vanilla extract
+- 70g White coverture chocolate
+- 45g Macadamia nut
+
+## Directions
+
+1. Melt butter in a bath or microwave.
+2. Add white sugar, brown sugar and salt and mix with a whisk
+3. Add egg and vanilla extract and mix with a whisk until well mixed.
+4. Add flour, matcha powder and baking soda and mix with a whisk until you can hardly see the powder.
+5. Add white coverture chocolate  and macadamia and mix evenly with spatula.
+6. Allow 30 minutes to 1 hour in the refrigerator until the dough hardens.
+7. Pan with a 5cm diameter cookie and bake at 170°C (338°F) for 9 minutes. (Unox convection oven)
+
+* Preheat the oven beforehand. My oven is very hot, so raise the oven temperature a little bit higher if you have common oven.
+* If you bake too little, it will not be cooked. If you bake too long, it will become hard.
+* The white coverture chocolate melts smoothly in your mouth, and the white chocolate chip has a more chewy texture. So you can choose anything to your taste.
+>>>

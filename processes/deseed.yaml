@@ -1,0 +1,15 @@
+id: deseed
+kind: process
+canonical_name: deseed
+names:
+  en: deseed
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: deseed
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce

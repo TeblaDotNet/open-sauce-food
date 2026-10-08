@@ -1,0 +1,20 @@
+id: fresh-fruit
+kind: ingredient
+canonical_name: fresh fruit
+names:
+  en: fresh fruit
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: fresh fruit
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/pavlova/pavlova.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1
+- value: optional
+  count: 1

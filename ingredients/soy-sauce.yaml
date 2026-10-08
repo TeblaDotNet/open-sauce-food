@@ -1,0 +1,29 @@
+id: soy-sauce
+kind: ingredient
+canonical_name: soy sauce
+names:
+  en: soy sauce
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 6
+  legacy_observation_count: 1
+  observed_terms:
+  - term: soy sauce
+    count: 6
+  seen_in:
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+  legacy_terms:
+  - term: soy sauce
+    count: 1
+observed_qualifiers:
+- value: dark
+  count: 1
+- value: light
+  count: 1
+- value: optional
+  count: 1

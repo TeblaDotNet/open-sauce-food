@@ -1,0 +1,24 @@
+id: cucumber
+kind: ingredient
+canonical_name: cucumber
+names:
+  en: cucumber
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 1
+  observed_terms:
+  - term: cucumber
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/crab-salad/crab-salad.opensauce
+  - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+  legacy_terms:
+  - term: cucumber
+    count: 1
+observed_qualifiers:
+- value: fine matchsticks
+  count: 1
+plural_names:
+  en: cucumbers

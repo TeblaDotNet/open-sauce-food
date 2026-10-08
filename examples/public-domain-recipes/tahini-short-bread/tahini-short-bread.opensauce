@@ -1,0 +1,84 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Tahini short bread
+source: https://publicdomainrecipes.com/tahini-short-bread/
+source author: Arnaud Poittevin
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: dessert, side, snack, cheesefare, eggs, dough
+serves: 4
+image: tahini-short-bread.webp
+
+# Imported from content/tahini-short-bread.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15min
+# Source metadata: - ⏲️ Wait time: 1h
+# Source metadata: - 🍳 Cook time: 15min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(butter) 125g
+(from 30g to 70g of sugar)
+(tahini) 75g
+(egg) 1
+(flour, T45) 200g
+(baking powder) 3g
+(toppings, if desired; chocolate chips or others) Any # Source says also enjoyable on its own.
+
+::instructions
+
+Thoroughly mix the egg, sugar and Tahini
+<warm, the butter so it is "pommade" meaning not liquide but soft enough so you can mix it with the preparation>
+Have a good mixing of the butter and the preparation so it gets a bit airy.
+<add, the flour slowly so the preparation stays homogenous>
+(baking powder) <add>
+<let, the dough sit and then cook it as described in butter-based biscuits recipe — /butter-based-biscuit>
+<enjoy, with tea>
+
+::notes
+
+This short bread recipe uses sesame paste called Tahini, a minimal amount of white sugar is necessary in order to get a crunchy/caramelized short-bread. For better results, a food processor is welcome for this recipe. IMPORTANT Butter is what makes this recipe complicated when cooking the dough, make sure it is not liquid or that the room is not to warm and make sure that the shortbreads are cold before putting in the oven.
+
+
+::source
+<<<
+---
+title: 'Tahini short bread'
+author: 'Arnaud Poittevin'
+tags: ['dessert', 'side', 'snack', 'cheesefare', 'eggs', 'dough']
+date: 2022-06-29
+---
+
+![Tahini biscuits](/pix/tahini-short-bread.webp)
+
+This short bread recipe uses sesame paste called Tahini, a minimal amount of white sugar is necessary in order to get a crunchy/caramelized short-bread.
+For better results, a food processor is welcome for this recipe.  **IMPORTANT** Butter is what makes this recipe complicated when cooking the dough, make sure it is not liquid or that the room is not to warm and make sure that the shortbreads are cold before putting in the oven.
+
+- ⏲️ Prep time: 15min
+- ⏲️ Wait time: 1h
+- 🍳 Cook time: 15min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 125g of butter
+- from 30g to 70g of sugar
+- 75g of Tahini
+- 1 egg
+- 200g of flour (T45)
+- 3g of baking powder
+- Any toppings if desired (chocolate chips, ...) although it is very enjoyable on its own.
+
+## Directions
+
+1. Thoroughly mix the egg, sugar and Tahini
+2. Warm the butter so it is "pommade" meaning not liquide but soft enough so you can mix it with the preparation
+3. Have a good mixing of the butter and the preparation so it gets a bit airy.
+4. Add the flour slowly so the preparation stays homogenous.
+5. Add the baking powder
+6. Let the dough sit and then cook it as described in [butter-based biscuits recipe](/butter-based-biscuit)
+7. Enjoy with tea
+>>>

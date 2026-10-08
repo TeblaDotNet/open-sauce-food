@@ -1,0 +1,41 @@
+{
+  "title": "Simple Tuna Salad",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tuna-salad.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "26804dd9b25ecbc2fa7c9f0d80f4ddd4d73c4a9d42d326b59f42c709564091ba",
+  "original_front_matter": {
+    "title": "Simple Tuna Salad",
+    "date": "2021-03-15",
+    "tags": [
+      "quick",
+      "basic",
+      "tuna",
+      "fish"
+    ],
+    "author": "scary90"
+  },
+  "source_url": "https://publicdomainrecipes.com/tuna-salad/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Tuna Salad",
+      "url": "/pix/tuna-salad.webp",
+      "upstreamPath": "static/pix/tuna-salad.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "344f97573f90aad74c38401b2d97ec771545431e3412e9b3d018cf439f0e6780",
+      "sourcePath": "source/public-domain-recipes/tuna-salad/tuna-salad.webp",
+      "promotedPath": "examples/public-domain-recipes/tuna-salad/tuna-salad.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

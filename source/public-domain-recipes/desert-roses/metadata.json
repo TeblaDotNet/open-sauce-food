@@ -1,0 +1,46 @@
+{
+  "title": "Desert roses",
+  "source_url": "https://publicdomainrecipes.com/desert-roses/",
+  "source_author": "pestanzul",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/desert-roses.md",
+  "original_sha256": "ccce7da57ca5b684971636fa1e95c66d09c3ca00dc563c729841fc93085876b9",
+  "original_front_matter": {
+    "title": "Desert roses",
+    "tags": [
+      "biscuit",
+      "breakfast",
+      "cheesefare",
+      "cookies",
+      "oven"
+    ],
+    "date": "2026-08-31",
+    "author": "pestanzul"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "20 min",
+    "Cook time": "40 min",
+    "Servings": "6"
+  },
+  "ingredients_source_markdown": "- 100 g butter\n- 120 g powdered sugar\n- 30 g more powdered sugar (optional)\n- 2 eggs\n- 250 g flour\n- 2 cups corn flakes",
+  "directions_source_markdown": "1. Cut the butter in slices, put in in a bowl and leave it at room temperature until it's easy to knead.\n2. Add 120 g powdered sugar and knead until uniform.\n2. Add eggs and knead.\n   If the dough becomes sticky, keep in the fridge for 15-30 minutes before going on.\n3. Add flour and knead until uniform.\n4. Pour corn flakes in a plate.\n5. Make dough balls about a tablespoon in size and roll them on corn flakes until they are covered.\n   Press until corn flakes don't fall when you raise the ball, then flatten slightly.\n6. If you want, sprinkle powdered sugar on the biscuits.\n7. Preheat the oven to 180 °C.\n8. Bake for about 30 minutes.\n\nSome people add chocolate, raisins or other ingredients in the dough.\nThey are nice additions but they don't belong the original recipe, which is intended to resemble crystal formations called desert roses.",
+  "images": [
+    {
+      "alt": "Desert roses",
+      "source_url": "https://publicdomainrecipes.com/pix/desert-roses.webp",
+      "source_reference": "/pix/desert-roses.webp",
+      "status": "retrieved",
+      "filename": "desert-roses.webp",
+      "sha256": "bba992a7949b90cf12e4de2eff253b9d391d9eb9301a1bbf76c7817e19a6189c"
+    }
+  ],
+  "coverage_group": "baking"
+}

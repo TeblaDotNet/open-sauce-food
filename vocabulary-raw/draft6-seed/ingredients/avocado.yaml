@@ -1,0 +1,12 @@
+id: avocado
+kind: ingredient
+names:
+  en: avocado
+observed_forms:
+- syntax: avocado, Hass
+  count: 1
+seen_in:
+- examples/public-domain-recipes/guacamole/guacamole.opensauce
+observed_qualifiers:
+- value: Hass
+  count: 1

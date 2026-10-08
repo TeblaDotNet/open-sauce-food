@@ -1,0 +1,21 @@
+id: shallot
+kind: ingredient
+canonical_name: shallot
+names:
+  en: shallot
+aliases:
+- name: shallots
+  type: review-pass-1-lexical
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/lobster-bisque/lobster-bisque.opensauce
+  - examples/public-domain-recipes/mushroom-risotto/mushroom-risotto.opensauce
+  - examples/public-domain-recipes/bebek-mropol/bebek-mropol.opensauce
+  - examples/public-domain-recipes/beef-kidney/beef-kidney.opensauce
+  - examples/public-domain-recipes/chicken-in-red-wine-vinegar-sauce/chicken-in-red-wine-vinegar-sauce.opensauce
+  - examples/public-domain-recipes/french-mustard-sauce-porkchops/french-mustard-sauce-porkchops.opensauce
+  - examples/public-domain-recipes/lemon-and-oregano-chicken-traybake/lemon-and-oregano-chicken-traybake.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

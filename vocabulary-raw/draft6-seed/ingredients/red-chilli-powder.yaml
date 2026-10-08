@@ -1,0 +1,9 @@
+id: red-chilli-powder
+kind: ingredient
+names:
+  en: red chilli powder
+observed_forms:
+- syntax: red chilli powder
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

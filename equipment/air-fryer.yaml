@@ -1,0 +1,15 @@
+id: air-fryer
+kind: equipment
+canonical_name: air fryer
+names:
+  en: air fryer
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: air fryer
+    count: 1

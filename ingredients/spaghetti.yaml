@@ -1,0 +1,15 @@
+id: spaghetti
+kind: ingredient
+canonical_name: spaghetti
+names:
+  en: spaghetti
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: spaghetti
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce

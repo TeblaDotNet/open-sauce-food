@@ -1,0 +1,19 @@
+id: toast
+kind: process
+names:
+  en: toast
+observed_forms:
+- syntax: toast, dry pan
+  count: 1
+- syntax: toast, dry, ~30s
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: dry
+  count: 1
+- value: dry pan
+  count: 1
+- value: ~30s
+  count: 1
+legacy_observation: true

@@ -1,0 +1,46 @@
+{
+  "title": "Stuffed Round Squash",
+  "source_url": "https://publicdomainrecipes.com/stuffed-round-squash/",
+  "source_author": "Marco Fleres",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/stuffed-round-squash.md",
+  "original_sha256": "83bff5452a8dbedfe1bd03b256cf04f31c06da26960a6934a227f66c94777a41",
+  "original_front_matter": {
+    "title": "Stuffed Round Squash",
+    "date": "2021-03-13",
+    "tags": [
+      "supper",
+      "rice",
+      "vegetables",
+      "cheesefare",
+      "fasting"
+    ],
+    "author": "Marco Fleres"
+  },
+  "source_timing_and_servings": {
+    "servings": "per person) or as accompaniment. The amount of squash should be adjusted according to their size. This recipe uses ones the size of a fist.",
+    "Prep time": "50 min",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "- 2 Onions\n- 1 Carrot\n- 4 Round squash\n- 1 Cup of rice\n- 100gr of Cheese (optional)",
+  "directions_source_markdown": "1. Cook the rice. This usually takes 20 minutes. In the meantime, cut the onion into small cubes, grate the carrot, and cut the squash in halves. Scoop the squash halves, and cut the core in small cubes. Save them for later.\n2. Strain the rice and let it cool. On an oiled pan, mix the onion, carrot and squash core, and cook them for 10 minutes. You may now add seasoning.\n3. Place the squash halves facing down on a metal griddle in the oven. Add the rice to the vegetables, stir, and cook for 10 more minutes.\n4. Flip the squash, stuff them with cheese and the vegetables mixture, and put them again in the oven for 10 minutes at max heat.\n5. Serve.",
+  "images": [
+    {
+      "alt": "",
+      "source_url": "https://publicdomainrecipes.com/pix/stuffed-round-squash.webp",
+      "source_reference": "/pix/stuffed-round-squash.webp",
+      "status": "retrieved",
+      "filename": "stuffed-round-squash.webp",
+      "sha256": "6a8b1e951ec37baa735f7c90bcc51bba24032895b3c5dd2f207cd47cfdc468c6"
+    }
+  ],
+  "coverage_group": "mixed"
+}

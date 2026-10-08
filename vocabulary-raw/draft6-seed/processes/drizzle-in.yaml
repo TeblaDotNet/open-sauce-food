@@ -1,0 +1,16 @@
+id: drizzle-in
+kind: process
+names:
+  en: drizzle in
+observed_forms:
+- syntax: drizzle in, food processor on high
+  count: 1
+- syntax: drizzle in, slowly
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce
+observed_parameters:
+- value: food processor on high
+  count: 1
+- value: slowly
+  count: 1

@@ -1,0 +1,34 @@
+{
+  "title": "Pepper Sauce",
+  "source_url": "https://publicdomainrecipes.com/pepper-sauce/",
+  "source_author": "Vili Kangas",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pepper-sauce.md",
+  "original_sha256": "bec0089d795b416dd3849748ae76d634ab3bb413c78f11e51680d5fd2cad492b",
+  "original_front_matter": {
+    "title": "Pepper Sauce",
+    "date": "2021-03-23",
+    "tags": [
+      "sauce",
+      "steak"
+    ],
+    "author": "Vili Kangas"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "2 min",
+    "Cook time": "20 min",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "- 1 tablespoon freshy ground rose pepper, green pepper and black pepper\n- 1 teaspoon dijon mustard\n- 1dl bouillon\n- 2dl cream\n- Salt if needed",
+  "directions_source_markdown": "1. Ground the peppers and put them on the pan and roast them for about one minute while moving the peppers with your spatula\n2. Mix in the mustard and bouillon and bring to a boil\n3. Add in the cream and let the sauce thicken on medium heat for about 10-20 minutes\n4. Taste the sauce and add salt if needed",
+  "images": [],
+  "coverage_group": "sauces"
+}

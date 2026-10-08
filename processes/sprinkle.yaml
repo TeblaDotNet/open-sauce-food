@@ -1,0 +1,49 @@
+id: sprinkle
+kind: process
+canonical_name: sprinkle
+names:
+  en: sprinkle
+status: canonical-seed
+evidence:
+  current_recipe_count: 14
+  current_observation_count: 18
+  legacy_observation_count: 0
+  observed_terms:
+  - term: sprinkle
+    count: 18
+  seen_in:
+  - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+  - examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+  - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+  - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+observed_parameters:
+- value: all over
+  count: 1
+- value: as meat browns
+  count: 1
+- value: generously
+  count: 1
+- value: gradually into mixture
+  count: 1
+- value: immediately
+  count: 1
+- value: minced garlic or powder
+  count: 1
+- value: soup
+  count: 1
+- value: stir hard
+  count: 1
+- value: top
+  count: 1
+- value: tops
+  count: 1

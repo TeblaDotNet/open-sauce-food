@@ -1,0 +1,51 @@
+id: strain
+kind: process
+canonical_name: strain
+names:
+  en: strain
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: strain
+      count: 11
+  seen_in:
+    - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/kombucha/kombucha.opensauce
+    - examples/public-domain-recipes/kvass/kvass.opensauce
+    - examples/public-domain-recipes/limoncello/limoncello.opensauce
+    - examples/public-domain-recipes/oat-milk/oat-milk.opensauce
+    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+    - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: cheese cloth
+    count: 1
+  - value: clean kitchen towel
+    count: 1
+  - value: collect juice
+    count: 1
+  - value: into another pan
+    count: 1
+  - value: into resealable glass bottles
+    count: 1
+  - value: into separate sterilized container
+    count: 1
+  - value: into sugar water
+    count: 1
+  - value: remove all solids
+    count: 1
+  - value: remove tea leaves
+    count: 1
+  - value: reserve oil
+    count: 1
+  - value: sieve
+    count: 1
+  - value: squeeze herbs
+    count: 1
+  - value: thoroughly
+    count: 1
+  - value: when soft and shrunken and covered with juices
+    count: 1

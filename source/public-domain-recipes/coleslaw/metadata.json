@@ -1,0 +1,45 @@
+{
+  "title": "Coleslaw",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/coleslaw.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "36e7e0a85ae4cbdd4006b68ca47bf6996d3b5c7837e88ce6fed2d6d5e03dc57f",
+  "original_front_matter": {
+    "title": "Coleslaw",
+    "date": "2021-05-08",
+    "tags": [
+      "side",
+      "cabbage",
+      "american",
+      "salad"
+    ],
+    "author": "declan-cash"
+  },
+  "source_url": "https://publicdomainrecipes.com/coleslaw/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    {
+      "category": "source ambiguity",
+      "evidence": "Mustard powder is listed but not explicitly added in the method; dressing yield exceeds the salad's need.",
+      "decision": "Keep the ingredient and source method without inventing an addition point or using all dressing."
+    },
+    {
+      "category": "provenance/licensing",
+      "evidence": "Contributor says the recipe came from a closed local chili restaurant, without identifying copied text.",
+      "decision": "Record attribution for review; rely on contributor's upstream dedication, with no asserted independent rights verification."
+    },
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

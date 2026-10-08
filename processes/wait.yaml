@@ -1,0 +1,16 @@
+id: wait
+kind: process
+canonical_name: wait
+names:
+  en: wait
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/babas-feta-pasta/babas-feta-pasta.opensauce
+  - examples/public-domain-recipes/pasta/pasta.opensauce
+  - examples/public-domain-recipes/rice/rice.opensauce
+  - examples/public-domain-recipes/turkish-yogurt-soup/turkish-yogurt-soup.opensauce
+  - examples/public-domain-recipes/zaatar/zaatar.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

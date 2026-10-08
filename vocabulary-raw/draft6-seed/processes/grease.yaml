@@ -1,0 +1,16 @@
+id: grease
+kind: process
+names:
+  en: grease
+observed_forms:
+- syntax: grease
+  count: 1
+- syntax: grease, butter
+  count: 2
+seen_in:
+- examples/public-domain-recipes/lavacake/lavacake.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: butter
+  count: 2
+legacy_observation: true

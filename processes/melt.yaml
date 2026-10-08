@@ -1,0 +1,46 @@
+id: melt
+kind: process
+canonical_name: melt
+names:
+  en: melt
+status: canonical-seed
+evidence:
+  current_recipe_count: 8
+  current_observation_count: 8
+  legacy_observation_count: 4
+  observed_terms:
+  - term: melt
+    count: 8
+  seen_in:
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+  - examples/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+  - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+  - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+  - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+  legacy_terms:
+  - term: melt
+    count: 4
+observed_parameters:
+- value: bath or microwave
+  count: 1
+- value: deep pan
+  count: 1
+- value: heavy-bottomed saucepan
+  count: 1
+- value: large saucepan
+  count: 1
+- value: medium heat
+  count: 1
+- value: medium-low heat
+  count: 3
+- value: not too hot; butter must not brown
+  count: 1
+- value: pan
+  count: 1
+- value: pot
+  count: 3
+- value: slowly
+  count: 1

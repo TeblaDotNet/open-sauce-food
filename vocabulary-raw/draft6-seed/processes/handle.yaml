@@ -1,0 +1,15 @@
+id: handle
+kind: process
+names:
+  en: handle
+observed_forms:
+- syntax: handle, briefly, floured surface
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: briefly
+  count: 1
+- value: floured surface
+  count: 1
+legacy_observation: true

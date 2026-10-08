@@ -1,0 +1,73 @@
+::recipe
+
+name: Cocoa-nut Pudding
+source: https://publicdomainrecipes.com/cocoanut-pudding/
+source author: Miss Leslie
+source license: Public domain (Unlicense)
+units: source
+tags: cocoa, dessert, pudding
+
+# Original source: ../../../source/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Moderate oven; whites stand alone on rods; wine/brandy blend ratio absent. No modern temperature or blend ratio inferred.
+
+::ingredients
+
+(cocoa-nut, grated) 1/4lb
+(white sugar, powdered) 1/4lb
+(butter, fresh) 3 1/2oz
+(egg white) 6
+(wine and brandy, mixed) 1 table-spoonful
+(rose-water) 1/2 tea-spoonful
+(puff-paste) enough to cover bottom and sides and edges of soup-plate
+(granulated sugar) as needed for top
+(water, cold) as needed for washing
+
+::equipment
+
+(knife)
+(towel, clean)
+(soup-plate)
+(oven)
+
+::instructions
+
+(cocoa-nut) <break> <peel, thin brown skin with knife> <wash, cold water> <dry, clean towel>
+    <weigh, 1/4lb> <grate, very fine, into soup-plate>
+{butter mixture} = (butter) + (white sugar) <cream>
+    + (wine and brandy) + (rose-water) <add, gradually>
+(egg white) <beat, until they stand alone on the rods>
+    <stir, gradually into butter mixture>
+(cocoa-nut) <sprinkle, gradually into mixture, stir hard>
+{mixture} <stir, very well>
+(puff-paste) <line, bottom and sides and edges of soup-plate>
+    + {mixture} <fill> <bake, moderate oven, ~30m>
+    <cool>
+    + (granulated sugar) <sprinkle>
+
+::source
+<<<
+---
+title: "Cocoa-nut Pudding"
+tags: ['cocoa', 'dessert', 'pudding']
+date: 1832-01-01
+author: "Miss Leslie"
+---
+
+## Ingredients
+
+- A quarter of a pound of cocoa-nut, grated.
+- A quarter of a pound of powdered white sugar.
+- Three ounces and a half of fresh butter.
+- The whites only of six eggs.
+- A table-spoonful of wine and brandy mixed.
+- Half a tea-spoonful of rose-water.
+
+## Directions
+
+1. Break up a cocoa-nut, and take the thin brown skin carefully off, with a knife. Wash all the pieces in cold water, and then wipe them dry, with a clean towel. Weigh a quarter of a pound of cocoa-nut, and grate it very fine, into a soup-plate.
+2. Stir the butter and sugar to a cream, and add the liquor and rose-water gradually to them.
+3. Beat the whites only, of six eggs, till they stand alone on the rods; and then stir the beaten white of egg, gradually, into the butter and sugar. Afterwards, sprinkle in, by degrees, the grated cocoa-nut, stirring hard all the time. Then stir all very well at the last.
+4. Have ready a puff-paste, sufficient to cover the bottom, sides, and edges of a soup-plate. Put in the mixture, and bake it in a moderate oven, about half an hour.
+5. Sprinkle granulated sugar over it, when cool.
+>>>

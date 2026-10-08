@@ -1,0 +1,39 @@
+{
+  "title": "Baked Mostaccioli",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/baked-mostaccioli.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "97a4f901f2559b20145154b18c1dbf5ff22ddfea103f0617d60ba57ddf8c68b2",
+  "original_front_matter": {
+    "title": "Baked Mostaccioli",
+    "date": "2021-03-21",
+    "tags": [
+      "pasta",
+      "italian"
+    ],
+    "author": "zyansheep"
+  },
+  "source_url": "https://publicdomainrecipes.com/baked-mostaccioli/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "baked mostaccioli in bowl",
+      "url": "/pix/baked-mostaccioli.webp",
+      "upstreamPath": "static/pix/baked-mostaccioli.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "82f3e6055ab3081ccbb69362c50f8312b381d901044d29f4f28b80153cccab70",
+      "sourcePath": "source/public-domain-recipes/baked-mostaccioli/baked-mostaccioli.webp",
+      "promotedPath": "examples/public-domain-recipes/baked-mostaccioli/baked-mostaccioli.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

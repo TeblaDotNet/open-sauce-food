@@ -1,0 +1,40 @@
+{
+  "title": "Caesar Salad",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/caesar-salad.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "f702f61d1981c915997843bbcda230c5d283c1409a991cb553286bc79874a27f",
+  "original_front_matter": {
+    "title": "Caesar Salad",
+    "date": "2021-03-11",
+    "tags": [
+      "italian",
+      "salad",
+      "cheesefare"
+    ],
+    "author": "gucko"
+  },
+  "source_url": "https://publicdomainrecipes.com/caesar-salad/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "caesar_salad",
+      "url": "/pix/csalad.webp",
+      "upstreamPath": "static/pix/csalad.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "d67ba83ac237250025a598b7d9188b9cef115d3c43fdf44d004e6ab7e0b0d924",
+      "sourcePath": "source/public-domain-recipes/caesar-salad/csalad.webp",
+      "promotedPath": "examples/public-domain-recipes/caesar-salad/csalad.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

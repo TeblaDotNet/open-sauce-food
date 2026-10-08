@@ -1,0 +1,291 @@
+id: cook
+kind: process
+canonical_name: cook
+names:
+  en: cook
+status: canonical-seed
+evidence:
+  legacy_observation_count: 22
+  observed_terms:
+    - term: cook
+      count: 76
+  seen_in:
+    - examples/public-domain-recipes/aljotta/aljotta.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+    - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+    - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+    - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+    - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+    - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+    - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+    - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+    - examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce
+    - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+    - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+    - examples/public-domain-recipes/jam/jam.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/lentejas/lentejas.opensauce
+    - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+    - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+    - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+    - examples/public-domain-recipes/paella/paella.opensauce
+    - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+    - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
+    - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+    - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+    - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+    - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+    - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+    - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+    - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+    - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+    - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+    - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+    - term: cook
+      count: 22
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 1-2m
+    count: 5
+  - value: 10-15m
+    count: 2
+  - value: 10m
+    count: 3
+  - value: 10m more
+    count: 1
+  - value: 10m or until thickened
+    count: 1
+  - value: 1m
+    count: 2
+  - value: 1m less than packet instructions
+    count: 2
+  - value: 1m to remove metallic taste
+    count: 1
+  - value: 2 1/2-3h
+    count: 1
+  - value: 2-2 1/2h or until turnip and meat soft and tender
+    count: 1
+  - value: 20-30m
+    count: 1
+  - value: 20m
+    count: 1
+  - value: 2m
+    count: 2
+  - value: 35-40m or longer until soft when pierced
+    count: 1
+  - value: 4m
+    count: 1
+  - value: 5-10m
+    count: 4
+  - value: 5m
+    count: 4
+  - value: 6-8m
+    count: 1
+  - value: 8-10m
+    count: 2
+  - value: a few seconds
+    count: 2
+  - value: according to packet
+    count: 1
+  - value: add just before onion done
+    count: 1
+  - value: al dente
+    count: 1
+  - value: another 15-30m
+    count: 1
+  - value: another 15m
+    count: 1
+  - value: check halfway and add water if needed to prevent burning
+    count: 1
+  - value: constantly stirring
+    count: 1
+  - value: covered
+    count: 2
+  - value: do not burn
+    count: 2
+  - value: do not stir
+    count: 2
+  - value: few minutes
+    count: 1
+  - value: further 5m or until reduced
+    count: 1
+  - value: high
+    count: 1
+  - value: high heat
+    count: 2
+  - value: hot pan
+    count: 1
+  - value: longer is better
+    count: 1
+  - value: low fire
+    count: 1
+  - value: low heat
+    count: 3
+  - value: medium
+    count: 3
+  - value: medium heat
+    count: 4
+  - value: medium-high
+    count: 4
+  - value: medium-low fire
+    count: 1
+  - value: medium-low heat
+    count: 2
+  - value: more oil if needed to prevent burning
+    count: 1
+  - value: not arborio or sushi rice
+    count: 1
+  - value: not starchy
+    count: 1
+  - value: oil
+    count: 1
+  - value: once pan somewhat dry
+    count: 1
+  - value: other side
+    count: 1
+  - value: oven
+    count: 1
+  - value: pan
+    count: 1
+  - value: pot
+    count: 2
+  - value: potatoes ready
+    count: 1
+  - value: preferably white short-grain
+    count: 1
+  - value: release aroma
+    count: 1
+  - value: render drippings
+    count: 1
+  - value: repeat on other side
+    count: 1
+  - value: retain crunch
+    count: 1
+  - value: return to pot
+    count: 1
+  - value: same pan
+    count: 1
+  - value: saucepan
+    count: 1
+  - value: sauté pan
+    count: 1
+  - value: season as desired
+    count: 1
+  - value: skillet
+    count: 1
+  - value: softened
+    count: 1
+  - value: some minutes
+    count: 1
+  - value: stir a few times
+    count: 1
+  - value: stir often especially bottom
+    count: 1
+  - value: stir very often to avoid burning
+    count: 1
+  - value: stirring
+    count: 4
+  - value: stirring frequently
+    count: 4
+  - value: stirring occasionally
+    count: 4
+  - value: stirring occasionally until water starts boiling
+    count: 1
+  - value: stirring slowly
+    count: 1
+  - value: together until sauce thickens
+    count: 1
+  - value: uncovered
+    count: 1
+  - value: until added water evaporates and mixture thickens
+    count: 2
+  - value: until beginning to brown
+    count: 1
+  - value: until beginning to soften
+    count: 1
+  - value: until bottom golden brown
+    count: 1
+  - value: until bubbles appear and edges set
+    count: 1
+  - value: until cabbage softens
+    count: 1
+  - value: until chicken is cooked
+    count: 2
+  - value: until denser
+    count: 2
+  - value: until done
+    count: 1
+  - value: until easily pierced with fork
+    count: 1
+  - value: until eggs are set
+    count: 2
+  - value: until everything looks cooked
+    count: 1
+  - value: until fragrant
+    count: 2
+  - value: until puré gets oily
+    count: 1
+  - value: until reduced and oil separates
+    count: 2
+  - value: until released moisture boiled away
+    count: 1
+  - value: until rice absorbs broth
+    count: 2
+  - value: until sauce thickens
+    count: 2
+  - value: until skins fall off and beans are very soft
+    count: 2
+  - value: until slightly browned
+    count: 1
+  - value: until soft
+    count: 1
+  - value: until softened; reserve cabbage if using
+    count: 1
+  - value: until somewhat thickened
+    count: 1
+  - value: until tender
+    count: 1
+  - value: until thickened
+    count: 1
+  - value: until vegetables are tender and liquid evaporates
+    count: 2
+  - value: until vegetables reach desired softness
+    count: 1
+  - value: until vegetables soften
+    count: 2
+  - value: until wilted
+    count: 1
+  - value: usually 20m
+    count: 1
+  - value: water
+    count: 2
+  - value: ~10-20m
+    count: 1
+  - value: ~10m
+    count: 2
+  - value: ~10m or until edges begin to brown
+    count: 1
+  - value: ~15m
+    count: 2
+  - value: ~20m
+    count: 5
+  - value: ~2m
+    count: 1
+  - value: ~30m
+    count: 1
+  - value: ~3m
+    count: 1
+  - value: ~5-6m
+    count: 1
+  - value: ~5m
+    count: 4

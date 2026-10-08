@@ -1,0 +1,99 @@
+id: heat
+kind: process
+names:
+  en: heat
+observed_forms:
+  - syntax: heat
+    count: 1
+  - syntax: heat, 160c / 320f
+    count: 1
+  - syntax: heat, 180c
+    count: 1
+  - syntax: heat, 180c / 160c fan
+    count: 1
+  - syntax: heat, 180c / 350-360f
+    count: 1
+  - syntax: heat, 200c
+    count: 1
+  - syntax: heat, 200c / 180c fan
+    count: 2
+  - syntax: heat, 220c / 200c fan
+    count: 1
+  - syntax: heat, 230c / gas mark 8
+    count: 1
+  - syntax: heat, 350f
+    count: 1
+  - syntax: heat, 375f
+    count: 1
+  - syntax: heat, 450f / 230c
+    count: 1
+  - syntax: heat, frying pan, medium-high heat
+    count: 1
+  - syntax: heat, medium
+    count: 1
+  - syntax: heat, oven
+    count: 1
+  - syntax: heat, packet instructions
+    count: 1
+  - syntax: heat, paella pan, medium-high heat
+    count: 1
+  - syntax: heat, pan
+    count: 2
+  - syntax: heat, ~5m, until thickened
+    count: 1
+seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - examples/public-domain-recipes/lavacake/lavacake.opensauce
+  - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/pavlova/pavlova.opensauce
+  - legacy-corpus:bbc-food-10
+observed_parameters:
+  - value: 160c / 320f
+    count: 1
+  - value: 180c
+    count: 1
+  - value: 180c / 160c fan
+    count: 1
+  - value: 180c / 350-360f
+    count: 1
+  - value: 200c
+    count: 1
+  - value: 200c / 180c fan
+    count: 2
+  - value: 220c / 200c fan
+    count: 1
+  - value: 230c / gas mark 8
+    count: 1
+  - value: 350f
+    count: 1
+  - value: 375f
+    count: 1
+  - value: 450f / 230c
+    count: 1
+  - value: frying pan
+    count: 1
+  - value: medium
+    count: 1
+  - value: medium-high heat
+    count: 2
+  - value: oven
+    count: 1
+  - value: packet instructions
+    count: 1
+  - value: paella pan
+    count: 1
+  - value: pan
+    count: 2
+  - value: until thickened
+    count: 1
+  - value: ~5m
+    count: 1
+legacy_observation: true

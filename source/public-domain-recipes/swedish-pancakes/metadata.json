@@ -1,0 +1,40 @@
+{
+  "title": "Swedish Pancakes",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/swedish-pancakes.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "80d6d5b4dd7ad00201b417b3b11762dcaafcf06f7ea37e108efd7eeba321d9a5",
+  "original_front_matter": {
+    "title": "Swedish Pancakes",
+    "date": "2021-03-21",
+    "tags": [
+      "breakfast",
+      "swedish",
+      "pancake"
+    ],
+    "author": "Matt Bogenhagen"
+  },
+  "source_url": "https://publicdomainrecipes.com/swedish-pancakes/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Swedish Pancakes",
+      "url": "/pix/swedish-pancakes.webp",
+      "upstreamPath": "static/pix/swedish-pancakes.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "c5b209e2985c0f1c8700a33e93e91c4fb223dcb1499745b04e72bb3c6762dd27",
+      "sourcePath": "source/public-domain-recipes/swedish-pancakes/swedish-pancakes.webp",
+      "promotedPath": "examples/public-domain-recipes/swedish-pancakes/swedish-pancakes.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

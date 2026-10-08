@@ -1,0 +1,33 @@
+{
+  "title": "Potato and Eggplant (Aubergine) Curry",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/potato-and-eggplant-curry.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "f6c687efac1729ee1867dc4fda40420ab01c0eb557776a2d0be366f58de90e60",
+  "original_front_matter": {
+    "title": "Potato and Eggplant (Aubergine) Curry",
+    "date": "2021-03-11",
+    "tags": [
+      "indian",
+      "curry",
+      "potato",
+      "fasting"
+    ],
+    "author": "luke-chadwick"
+  },
+  "source_url": "https://publicdomainrecipes.com/potato-and-eggplant-curry/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

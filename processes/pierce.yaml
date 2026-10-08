@@ -1,0 +1,25 @@
+id: pierce
+kind: process
+canonical_name: pierce
+names:
+  en: pierce
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 1
+  observed_terms:
+  - term: pierce
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+  legacy_terms:
+  - term: pierce
+    count: 1
+observed_parameters:
+- value: sharp knife
+  count: 1
+- value: small holes
+  count: 1
+- value: top
+  count: 1

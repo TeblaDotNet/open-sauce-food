@@ -1,0 +1,49 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Peanut Butter
+source: https://publicdomainrecipes.com/peanut-butter/
+source author: jacob-smith
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: spread, snack, basic, fasting
+
+# Imported from content/peanut-butter.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(raw pre-shelled peanuts) 1 lb.
+
+::equipment
+
+(food processor)
+(baking sheet)
+(oven)
+
+::instructions
+
+<spread, peanuts on a large baking sheet and roast in the oven at 350°F (175°C) for ten to twelve minutes>
+While the peanuts are still hot remove any skins from them. This is best done by wrapping a few handfuls at a time in a dish towel and rolling them against each other for several seconds.
+<put, all your roasted and skinned peanuts in a food processor, add salt if desired, and chop until you have reached your desired thickness of peanut butter. (This may take a few minutes)>
+
+::source
+<<<
+---
+title: "Peanut Butter"
+date: 2021-03-13
+tags: ['spread', 'snack', 'basic', 'fasting']
+author: jacob-smith
+---
+
+## Ingredients
+
+- 1 lb. of raw pre-shelled peanuts
+
+## Directions
+
+1. Spread peanuts on a large baking sheet and roast in the oven at 350°F (175°C) for ten to twelve minutes
+2. While the peanuts are still hot remove any skins from them. This is best done by wrapping a few handfuls at a time in a dish towel and rolling them against each other for several seconds.
+3. Put all your roasted and skinned peanuts in a food processor, add salt if desired, and chop until you have reached your desired thickness of peanut butter. (This may take a few minutes)
+>>>

@@ -1,0 +1,31 @@
+{
+  "title": "Pepper Sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pepper-sauce.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "69ae6b732e17ba1f6965ba582c070f746e5713d54bf23892e124406f197c6e2d",
+  "original_front_matter": {
+    "title": "Pepper Sauce",
+    "date": "2021-03-23",
+    "tags": [
+      "sauce",
+      "steak"
+    ],
+    "author": "Vili Kangas"
+  },
+  "source_url": "https://publicdomainrecipes.com/pepper-sauce/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

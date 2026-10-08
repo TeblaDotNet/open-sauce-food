@@ -1,0 +1,10 @@
+id: lid
+kind: equipment
+names:
+  en: lid
+observed_forms:
+- syntax: lid
+  count: 2
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce

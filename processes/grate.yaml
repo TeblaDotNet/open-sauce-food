@@ -1,0 +1,30 @@
+id: grate
+kind: process
+canonical_name: grate
+names:
+  en: grate
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: grate
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+  - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+  - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+observed_parameters:
+- value: finely
+  count: 1
+- value: into soup-plate
+  count: 1
+- value: over top
+  count: 1
+- value: very fine
+  count: 2
+- value: weigh 2oz
+  count: 1

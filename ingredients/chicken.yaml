@@ -1,0 +1,44 @@
+id: chicken
+kind: ingredient
+canonical_name: chicken
+names:
+  en: chicken
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: chicken
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+observed_qualifiers:
+- value: boneless
+  count: 1
+- value: cubed
+  count: 1
+- value: free-range
+  count: 1
+- value: pieces
+  count: 1
+- value: whole
+  count: 1
+- value: wings and drums
+  count: 1
+- value: wingtips removed
+  count: 1
+parts:
+  breast:
+    names:
+      en: breast
+    plural_names:
+      en: breasts
+  thigh:
+    names:
+      en: thigh
+    plural_names:
+      en: thighs

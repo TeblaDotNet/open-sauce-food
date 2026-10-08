@@ -1,0 +1,137 @@
+id: pour
+kind: process
+canonical_name: pour
+names:
+  en: pour
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: pour
+      count: 37
+  seen_in:
+    - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+    - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+    - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+    - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+    - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+    - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+    - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+    - examples/public-domain-recipes/crostata/crostata.opensauce
+    - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+    - examples/public-domain-recipes/french-toast/french-toast.opensauce
+    - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+    - examples/public-domain-recipes/granita/granita.opensauce
+    - examples/public-domain-recipes/jam/jam.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/ketchup/ketchup.opensauce
+    - examples/public-domain-recipes/kombucha/kombucha.opensauce
+    - examples/public-domain-recipes/kvass/kvass.opensauce
+    - examples/public-domain-recipes/limoncello/limoncello.opensauce
+    - examples/public-domain-recipes/party-mimosa/party-mimosa.opensauce
+    - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+    - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+    - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+    - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+    - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+    - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+    - examples/public-domain-recipes/sunday-milkshake/sunday-milkshake.opensauce
+    - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 1 litre mason jar
+    count: 1
+  - value: 4-6 fireproof ramekins
+    count: 1
+  - value: boiling-hot into glass jars
+    count: 1
+  - value: cake tin
+    count: 1
+  - value: carefully into lower pan
+    count: 1
+  - value: coat basin
+    count: 1
+  - value: cooking pot
+    count: 1
+  - value: copper wok
+    count: 1
+  - value: cover bottom
+    count: 1
+  - value: drench toast stack
+    count: 1
+  - value: evenly and carefully
+    count: 1
+  - value: expect steam and bubbling; close oven quickly
+    count: 1
+  - value: fill to top
+    count: 1
+  - value: freezer-suitable container
+    count: 1
+  - value: good splash
+    count: 1
+  - value: good squirt of olive oil
+    count: 1
+  - value: hot sterile jars
+    count: 1
+  - value: include cocoa batter if made
+    count: 1
+  - value: into grease pan
+    count: 1
+  - value: into onion jar
+    count: 1
+  - value: into pan
+    count: 1
+  - value: just before serving
+    count: 1
+  - value: large bowl
+    count: 1
+  - value: large pot
+    count: 1
+  - value: little by little
+    count: 1
+  - value: loaf tin
+    count: 1
+  - value: medium-low heat
+    count: 1
+  - value: muffin tin
+    count: 2
+  - value: pan or wok
+    count: 1
+  - value: pastry container
+    count: 1
+  - value: plate
+    count: 1
+  - value: slow cooker
+    count: 1
+  - value: slowly while blending
+    count: 1
+  - value: small saucepan
+    count: 1
+  - value: sterile mason jar if not already in one
+    count: 1
+  - value: surface liquid away when next used
+    count: 1
+  - value: until mixture fills 1 litre of blender volume
+    count: 1
+  - value: until sauce thickens
+    count: 1
+  - value: until thick and creamy
+    count: 1
+  - value: waffle maker
+    count: 1
+  - value: whisk each time
+    count: 1
+  - value: wide-mouthed jar
+    count: 1
+  - value: ~1/2in / 1.57cm as source states
+    count: 1
+  - value: ~1/2in at bottom
+    count: 1

@@ -1,0 +1,18 @@
+id: razor-blade
+kind: equipment
+canonical_name: razor blade
+names:
+  en: razor blade
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: razor blade
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

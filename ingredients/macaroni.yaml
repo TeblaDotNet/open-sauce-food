@@ -1,0 +1,18 @@
+id: macaroni
+kind: ingredient
+canonical_name: macaroni
+names:
+  en: macaroni
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: macaroni
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+observed_qualifiers:
+- value: elbow
+  count: 1

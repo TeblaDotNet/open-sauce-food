@@ -1,0 +1,13 @@
+id: soy-sauce
+kind: ingredient
+names:
+  en: soy sauce
+observed_forms:
+- syntax: soy sauce, optional
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: optional
+  count: 1
+legacy_observation: true

@@ -1,0 +1,17 @@
+id: heavy-cream
+kind: ingredient
+canonical_name: heavy cream
+names:
+  en: heavy cream
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: heavy cream
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+  - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce

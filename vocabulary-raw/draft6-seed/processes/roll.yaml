@@ -1,0 +1,14 @@
+id: roll
+kind: process
+names:
+  en: roll
+observed_forms:
+- syntax: roll, both halves, large enough for pie dish
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+observed_parameters:
+- value: both halves
+  count: 1
+- value: large enough for pie dish
+  count: 1

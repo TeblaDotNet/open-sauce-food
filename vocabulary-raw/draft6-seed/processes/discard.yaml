@@ -1,0 +1,9 @@
+id: discard
+kind: process
+names:
+  en: discard
+observed_forms:
+- syntax: discard
+  count: 1
+seen_in:
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce

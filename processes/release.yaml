@@ -1,0 +1,18 @@
+id: release
+kind: process
+canonical_name: release
+names:
+  en: release
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: release
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+observed_parameters:
+- value: steam
+  count: 1

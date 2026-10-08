@@ -1,0 +1,41 @@
+id: process
+kind: process
+canonical_name: process
+names:
+  en: process
+status: canonical-seed
+evidence:
+  legacy_observation_count: 7
+  observed_terms:
+    - term: process
+      count: 7
+  seen_in:
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+  legacy_terms:
+    - term: process
+      count: 7
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 1-3m
+    count: 2
+  - value: 5-10s
+    count: 2
+  - value: briefly
+    count: 1
+  - value: food processor
+    count: 7
+  - value: high
+    count: 2
+  - value: purée
+    count: 1
+  - value: smooth
+    count: 1
+  - value: until fine and uniform
+    count: 2
+  - value: until lighter and thick
+    count: 2
+  - value: until smooth
+    count: 2

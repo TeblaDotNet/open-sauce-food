@@ -1,0 +1,91 @@
+::recipe
+
+name: Butter Chicken Masala Curry
+source: https://publicdomainrecipes.com/butter-chicken-masala/
+source author: nihar-samantaray
+source license: Public domain (Unlicense)
+ingredients: mixed
+units: mixed
+category: main
+tags: curry, chicken, Indian-inspired
+serves: 2
+active time: ~30m
+total time: ~2h
+image: butter-chicken-masala.webp
+
+::ingredients
+
+(chicken, boneless, cubed) 1/2lb
+(butter, melted) 2tbsp
+(onion, medium, minced) 2
+(tomato, medium, pureed) 2
+(oil) 2tbsp
+(lemon juice) 1tbsp
+(garlic, minced or crushed) 3 cloves
+(ginger, minced or paste) 1tbsp
+(masala) =
+    (garam masala) 1tbsp
+    -OR-
+    (chicken masala) 1tbsp
+(cream choice) =
+    (cream) 4tbsp
+    -OR-
+    (cashew paste) 4tbsp
+(chilli powder) 1tbsp
+(turmeric powder) 1/4tbsp
+(fenugreek leaves, crushed) 1/4tbsp
+(coriander leaves, for garnish) 1 small bunch
+(salt) to taste
+(black pepper) to taste
+
+::equipment
+
+(bowl)
+(oven)
+(pan)
+
+::instructions
+
+{marinade} =
+    (salt) +
+    (black pepper) +
+    (ginger) ~1/2tbsp +
+    (garlic) some +
+    (chilli powder) 1/2tbsp +
+    (turmeric powder) +
+    (lemon juice)
+
+(chicken) + {marinade}
+    <mix>
+    <marinate, 1h>
+
+(chicken) <roast, oven, medium temperature, 5-10m, until about three-quarters cooked>
+
+(butter) <heat, pan>
+    + (onion)
+    <fry, until translucent>
+    + (garlic)
+    + (ginger)
+    <sauté, ~1m>
+    + (masala)
+    <cook, a few seconds, do not burn>
+
+{sauce} =
+    (tomato) +
+    (salt) +
+    (chilli powder) rest of
+
+{sauce} <simmer, ~5m, stirring occasionally, until thick and deep brown-red>
+
+{curry} =
+    {sauce} +
+    (chicken) +
+    (butter) +
+    (cream choice) +
+    (fenugreek leaves)
+
+{curry} <cook, 5-10m, until chicken is cooked>
+    <adjust, salt>
+    + (coriander leaves)
+    <garnish>
+    <serve, rice or naan>

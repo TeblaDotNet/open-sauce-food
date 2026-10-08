@@ -1,0 +1,27 @@
+id: turmeric
+kind: ingredient
+canonical_name: turmeric
+names:
+  en: turmeric
+status: reviewed-merge
+aliases:
+- name: tumeric
+  type: source-spelling
+  observed_count: 1
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: tumeric
+    count: 1
+  - term: turmeric
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+  - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+observed_qualifiers:
+- value: ground
+  count: 1

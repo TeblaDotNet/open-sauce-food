@@ -1,0 +1,13 @@
+id: baking-dish
+kind: equipment
+names:
+  en: baking dish
+observed_forms:
+- syntax: baking dish, shallow
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: shallow
+  count: 1
+legacy_observation: true

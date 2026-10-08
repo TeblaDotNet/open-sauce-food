@@ -1,0 +1,74 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Air Fryer Zucchini
+source: https://publicdomainrecipes.com/air-fryer-zucchini/
+source author: Ronald L
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: zucchini, easy, quick
+serves: 2
+
+# Imported from content/air-fryer-zucchini.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 8 min
+# Source metadata: - 🍽️ Servings: 2
+# culinary interpretation: Source alternates zucchinis/zucchini and makes garlic/onion powder optional. — Use one local zucchini identity; preserve optional seasonings and the authored time/temperature condition.
+
+::ingredients
+
+(zucchini) 2
+(season salt) Pinch
+(olive oil)
+(garlic powder, optional)
+(onion powder, optional)
+
+::equipment
+
+(air fryer)
+(bowl)
+
+::instructions
+
+(zucchini) <chop, into medium-sized squares>
+(zucchini) <put, into a bowl>
+    <add, olive oil; season salt; garlic powder and onion powder if using, lightly>
+    <cook, in air fryer, 8 minutes, 400 F or until crispy>
+
+::story
+
+This is a quick and easy zucchini recipe for the air fryer.
+
+
+::source
+<<<
+---
+title: Air Fryer Zucchini
+tags: ['zucchini', 'easy', 'quick']
+date: 2023-04-28
+author: "Ronald L"
+---
+
+This is a quick and easy zucchini recipe for the air fryer.
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 8 min
+- 🍽️ Servings: 2
+
+## Ingredients
+
+- 2 zucchinis
+- Pinch of season salt
+- Olive oil
+- Garlic powder (optional)
+- Onion powder (optional)
+
+## Directions
+
+1. Chop the zucchinis into medium-sized squares
+2. Put zucchini into a bowl and lightly add olive oil, season salt, garlic powder (optional), and onion powder (optional)
+3. Cook in air fryer for 8 minutes at 400 F or until crispy.
+
+>>>

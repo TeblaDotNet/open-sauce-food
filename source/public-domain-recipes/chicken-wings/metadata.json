@@ -1,0 +1,30 @@
+{
+  "title": "Chicken Wings",
+  "source_url": "https://publicdomainrecipes.com/chicken-wings/",
+  "source_author": "kyle-steger",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/chicken-wings.md",
+  "original_sha256": "98551f6a4f215c7210611495875930e0017ba39e798bbfd29b35c5d2c67788b4",
+  "original_front_matter": {
+    "title": "Chicken Wings",
+    "date": "2021-03-10",
+    "tags": [
+      "chicken",
+      "american"
+    ],
+    "author": "kyle-steger"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- Chicken wings and drums\n- Enough Frank's RedHot Sauce to marinate and top dress*\n- Reynold's Oven Bag",
+  "directions_source_markdown": "1. Soak your wings in Franks RedHot overnight\n2. Preheat your oven to 350°F (175°C)\n3. Transfer wings to the Reynold's bag, seal it, and put it in the oven for an hour\n4. Crank up your grill† to high heat\n5. Throw the wings on the grill to char the skin and dress with a light top coat of Franks\n\n\\* **Not** the \"wing sauce\" version\n\n† A pan might work, but I've only ever used a grill",
+  "images": [],
+  "coverage_group": "meat"
+}

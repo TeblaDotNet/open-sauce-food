@@ -1,0 +1,15 @@
+id: pineapple-juice
+kind: ingredient
+canonical_name: pineapple juice
+names:
+  en: pineapple juice
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: pineapple juice
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/party-mimosa/party-mimosa.opensauce

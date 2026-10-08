@@ -1,0 +1,30 @@
+{
+  "title": "Broiled Venison Steaks",
+  "source_url": "https://publicdomainrecipes.com/broiled-venison-steaks/",
+  "source_author": "Miss Leslie",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/broiled-venison-steaks.md",
+  "original_sha256": "0e424aa3f3f85feda1aa08477a16ea287daff00302ffffe69e4d652c4f900ccb",
+  "original_front_matter": {
+    "title": "Broiled Venison Steaks",
+    "date": "1857-03-11",
+    "tags": [
+      "venison",
+      "meat"
+    ],
+    "author": "Miss Leslie"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- venison\n- butter\n- wine\n- jelly (cranberry, peach, or grape)",
+  "directions_source_markdown": "1. Cut the steaks not quite an inch thick.\n2. Trim them nicely, and season them with a little black pepper and salt.\n3. Have ready, over a bed of clear bright hot coals from a wood fire (or a stove), a gridiron with grooved bars to catch the gravy.\n4. Put down the steaks, and when one side is quite done turn the other, and broil that. (Venison should always be very thoroughly done.)\n5. Before you take up the steaks, lay a bit of nice fresh butter upon each.\n6. Take them up on a hot dish, and keep them warm.\n7. Pour off the gravy into a small saucepan. Give it a boil over the fire, and skim off all the fat from the surface.\n8. Stir into it some nice wine, and serve up with the steaks a deep dish of cranberry, or peach sauce, or a large cup of grape jelly.",
+  "images": [],
+  "coverage_group": "meat"
+}

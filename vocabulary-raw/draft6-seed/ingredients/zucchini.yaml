@@ -1,0 +1,14 @@
+id: zucchini
+kind: ingredient
+names:
+  en: zucchini
+observed_forms:
+- syntax: zucchini, small, 1/2in chunks
+  count: 1
+seen_in:
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+observed_qualifiers:
+- value: 1/2in chunks
+  count: 1
+- value: small
+  count: 1

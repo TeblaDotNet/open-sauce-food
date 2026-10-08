@@ -1,0 +1,15 @@
+id: granulated-sugar
+kind: ingredient
+canonical_name: granulated sugar
+names:
+  en: granulated sugar
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: granulated sugar
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce

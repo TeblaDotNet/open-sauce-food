@@ -1,0 +1,31 @@
+{
+  "title": "Egyptian Lentils",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/egyptian-lentils.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "b5aecbc76991c9b3a0e2e11cc9463c8fff4a108e313dca2933dd2dc11476183b",
+  "original_front_matter": {
+    "title": "Egyptian Lentils",
+    "tags": [
+      "rice",
+      "pasta"
+    ],
+    "date": "2022-09-10",
+    "author": "joel-maxuel"
+  },
+  "source_url": "https://publicdomainrecipes.com/egyptian-lentils/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

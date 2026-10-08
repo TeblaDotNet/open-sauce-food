@@ -1,0 +1,25 @@
+id: halve
+kind: process
+canonical_name: halve
+names:
+  en: halve
+status: canonical-seed
+evidence:
+  legacy_observation_count: 2
+  observed_terms:
+    - term: halve
+      count: 6
+  seen_in:
+    - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+    - examples/public-domain-recipes/guacamole/guacamole.opensauce
+    - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+    - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+  legacy_terms:
+    - term: halve
+      count: 2
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: muffins
+    count: 1

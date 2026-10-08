@@ -1,0 +1,70 @@
+::recipe
+
+name: Gooseberry Pudding
+source: https://publicdomainrecipes.com/gooseberry-pudding/
+source author: Miss Leslie
+source license: Public domain (Unlicense)
+units: source
+tags: berries, dessert, pudding
+
+# Original source: ../../../source/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Ingredients already say stewed gooseberries, method stews them; no oven temperature. Prepared ingredient state and first operation overlap.
+
+::ingredients
+
+(gooseberries, stewed, with all juice) 1 pint
+(sugar; powdered) 1/4lb
+(butter, fresh) 2oz
+(bread, stale, grated) 2oz
+(egg) 3
+(puff-paste) enough to line a soup plate
+
+::equipment
+
+(spoon)
+(grater)
+(soup plate)
+(oven)
+
+::instructions
+
+(gooseberries) <stew, until quite soft> <cool> <mash, finely with back of spoon>
+    + (sugar) 2oz <stir>
+{butter mixture} = (sugar) remaining 2oz + (butter) <cream>
+(bread) <grate, very fine, weigh 2oz>
+(egg) <beat>
+{butter mixture} + (egg) + (gooseberries) + (bread) <stir, eggs alternating with gooseberries and bread>
+(puff-paste) <line, soup plate>
+    + {mixture} <fill> <bake, 30m, temperature not stated>
+# Do not grate sugar over it.
+
+::notes
+Do not grate sugar over it.
+
+::source
+<<<
+---
+title: "Gooseberry Pudding"
+tags: ['berries', 'dessert', 'pudding']
+date: 1832-01-01
+author: "Miss Leslie"
+---
+
+## Ingredients
+
+- A pint of stewed gooseberries, with all their juice.
+- A quarter of a pound of powdered sugar.
+- Two ounces of fresh butter.
+- Two ounces of grated bread.
+- Three eggs.
+
+## Directions
+
+1. Stew the gooseberries till quite soft. When they are cold, mash them fine with the back of a spoon, and stir into them two ounces of sugar. Take two ounces more of sugar, and stir it to a cream with two ounces of butter.
+2. Grate very fine as much stale bread as will weigh two ounces.
+3. Beat three eggs, and stir them into the butter and sugar, in turn with the gooseberries and bread.
+4. Lay puff-paste in a soup plate. Put in the mixture, and bake it half an hour.
+
+Do not grate sugar over it.
+>>>

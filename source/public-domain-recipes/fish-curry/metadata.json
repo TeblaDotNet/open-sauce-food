@@ -1,0 +1,33 @@
+{
+  "title": "Fish Curry",
+  "source_url": "https://publicdomainrecipes.com/fish-curry/",
+  "source_author": "thijs-wester",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/fish-curry.md",
+  "original_sha256": "5208db4b76bdcd024a25358ab406740484920c10c3b20043b701de69e0dc1715",
+  "original_front_matter": {
+    "title": "Fish Curry",
+    "date": "2021-03-15",
+    "tags": [
+      "thai",
+      "fish"
+    ],
+    "author": "thijs-wester"
+  },
+  "source_timing_and_servings": {
+    "Cook time": "30 min",
+    "Servings": "5"
+  },
+  "ingredients_source_markdown": "- 3T neutral oil\n- 1 onion\n- 1 red onion\n- 2 cloves of garlic\n- 4cm ginger\n- 1 red pepper\n- 1t curry powder\n- 250g green beans\n- 4 tomatoes\n- 200ml fish broth\n- 200ml coconut milk\n- 400g fish fillet (white fish)",
+  "directions_source_markdown": "1. Boil green beans for 10 minutes\n2. Cut onions, tomato, garlic and fish.\n3. Heat oil on a wok and sauté the onion and garlic\n4. Add beans, tomato, broth and spices and boil for 6 minutes\n5. Add coconut milk, fish and pepper (whole) and boil for an additional 6 minutes.",
+  "images": [],
+  "coverage_group": "fish-seafood"
+}

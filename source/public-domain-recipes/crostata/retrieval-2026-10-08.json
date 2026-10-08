@@ -1,0 +1,38 @@
+{
+  "title": "Crostata",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/crostata.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "aac5dbc6efdc28705c40788a242ea1f08bcd16ee1893291e83674dedccae4680",
+  "original_front_matter": {
+    "title": "Crostata",
+    "tags": [
+      "baking",
+      "cake",
+      "cheesefare",
+      "dessert",
+      "italian",
+      "jam"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/crostata/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Crostata",
+      "url": "/pix/crostata.webp",
+      "upstreamPath": "static/pix/crostata.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

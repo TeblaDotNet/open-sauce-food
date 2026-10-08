@@ -1,0 +1,85 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Beef Jerky
+source: https://publicdomainrecipes.com/beef-jerky/
+source author: elias-howell
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: beef, snack
+
+# Imported from content/beef-jerky.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(salt) ¾ tsp.
+(pepper) ¼ tsp.
+(sugar; brown) 1 tbsp.
+(garlic) ¼ tsp.
+(worcestershire sauce or teriyaki sauce) 2 tbsp.
+(liquid smoke) ¼ tsp.
+(beef, flank or skirt steak is ideal) 1 Lb. （450 g）
+(seasonings, may include cayenne pepper; cheese powder; and/or white pepper) ¼ tsp. as source suggests
+
+::equipment
+
+(oven)
+
+::instructions
+
+<mince, or press garlic>
+<mix, all ingredients except beef to make brine>
+(beef) <slice, into ¼" (½ cm) thick strips. Small chunks, about ¾" (2 cm), of stewing beef may also be used. If possible, cut along the grain of the meat rather than across it. It may be easier to freeze the meat before attempting to cut it, as this will stop the meat pulling and deforming so easily>
+Marinate meat in overnight, or at least for an hour or two.
+<place, meat on racks and dry in a food dehydrator at 145 °F (63 °C) for 6-8 hours. May be dried in a 150 °F (65 °C) oven with foil-covered racks. In oven, turn meat over 3-4 hours into drying time and reduce temperature to 130 °F (55 °C)>
+Meat should bend but not break when properly dried.
+
+::notes
+
+Other meats may be substituted instead of beef, but use caution.
+
+
+::story
+
+Beef Jerky is ideal for road trips and camping, as it will not perish as readily as fresh meat. It is suitable not only as a snack but also as a meal. This recipe for jerky is not heavily brined and flavored as commercial jerky is.
+
+
+::source
+<<<
+---
+title: "Beef Jerky"
+date: 2021-03-11
+tags: ['beef', 'snack']
+author: elias-howell
+---
+
+Beef Jerky is ideal for road trips and camping, as it will not perish as readily as fresh meat.
+It is suitable not only as a snack but also as a meal.
+This recipe for jerky is not heavily brined and flavored as commercial jerky is.
+
+## Ingredients
+
+- ¾ tsp. salt
+- ¼ tsp. pepper
+- 1 tbsp. brown sugar
+- ¼ tsp. garlic
+- 2 tbsp. Worcestershire sauce or Teriyaki sauce
+- ¼ tsp. Liquid Smoke
+- 1 Lb. (450 g) beef (flank or skirt steak is ideal)
+- Other common seasonings may include (¼ tsp. of) cayenne pepper, cheese powder, and/or white pepper
+
+## Directions
+
+1. Mince or press garlic.
+2. Mix all ingredients except beef to make brine.
+3. Slice beef into ¼" (½ cm) thick strips. Small chunks, about ¾" (2 cm), of stewing beef may also be used. If possible, cut along the grain of the meat rather than across it. It may be easier to freeze the meat before attempting to cut it, as this will stop the meat pulling and deforming so easily.
+4. Marinate meat in overnight, or at least for an hour or two.
+5. Place meat on racks and dry in a food dehydrator at 145 °F (63 °C) for 6-8 hours. May be dried in a 150 °F (65 °C) oven with foil-covered racks. In oven, turn meat over 3-4 hours into drying time and reduce temperature to 130 °F (55 °C).
+6. Meat should bend but not break when properly dried.
+
+## Note
+
+Other meats may be substituted instead of beef, but use caution.
+>>>

@@ -1,0 +1,23 @@
+id: flatten
+kind: process
+canonical_name: flatten
+names:
+  en: flatten
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: flatten
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+observed_parameters:
+- value: patties 2in across and ~1/2in thick
+  count: 1
+- value: slightly
+  count: 1

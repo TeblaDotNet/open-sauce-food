@@ -1,0 +1,19 @@
+id: salmon
+kind: ingredient
+canonical_name: salmon
+names:
+  en: salmon
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: salmon
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce
+  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+observed_qualifiers:
+- value: steaks
+  count: 1

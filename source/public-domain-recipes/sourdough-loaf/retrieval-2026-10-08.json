@@ -1,0 +1,34 @@
+{
+  "title": "Sourdough Table Loaf",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sourdough-loaf.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "1f7e1205c40a86cd6f8d3e3f98adc0625c09074faf127d8bdd58664f81e41127",
+  "original_front_matter": {
+    "title": "Sourdough Table Loaf",
+    "date": "2021-03-21",
+    "tags": [
+      "bread",
+      "sourdough"
+    ],
+    "author": "Quinn & Alison"
+  },
+  "source_url": "https://publicdomainrecipes.com/sourdough-loaf/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Sourdough Table Loaf",
+      "url": "/pix/sourdough-loaf.webp",
+      "upstreamPath": "static/pix/sourdough-loaf.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

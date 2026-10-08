@@ -1,0 +1,34 @@
+{
+  "title": "Challah Bread",
+  "source_url": "https://publicdomainrecipes.com/challah-bread/",
+  "source_author": "siggines",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/challah-bread.md",
+  "original_sha256": "f4132cf5e9958eba4e23d54a5245f92fc895a6e3aec96248e10db8ae001ca201",
+  "original_front_matter": {
+    "title": "Challah Bread",
+    "date": "2021-04-15",
+    "tags": [
+      "israeli",
+      "bread"
+    ],
+    "author": "siggines"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "does not account for the 3-4 hours the dough must be left to rise and cool (see directions 5, 10, & 12).",
+    "Cook time": "40 min",
+    "Servings": "2-4"
+  },
+  "ingredients_source_markdown": "- 600ml ( 1 Pint ) warm water\n- 1 tablespoon dry active baking yeast\n- 7 tablespoons honey\n- 1.5kg flour\n- 3 eggs\n- 1 tablespoon salt\n- 1 tablespoon poppy seeds\n- 4 tablespoons olive oil",
+  "directions_source_markdown": "1. Fill a large bowl with the water, and sprinkle with the yeast.\n2. Whisk together: honey, oil, 2 eggs, and salt. Add to bowl.\n3. Add flour to bowl in small amounts, beating/whisking after each addition.\n4. Once the mixtures becomes a viscous dough, begin kneading until smooth and elastic, and no longer sticky.\n5. Cover bowl with a damp cloth and let rise for 1-2 hours, or until dough has doubled in size.\n6. Sprinkle flour onto a chopping board, place the dough onto it and divide in half.\n7. Knead each half, adding flour as needed to keep the dough non-sticky.\n8. Divide each half into thirds and roll into a long snake about 4cm (1.5in) in girth.\n9. Pinch the ends of the each three snakes together firmly and plait them together, making two items of braided dough.\n10. Grease two baking trays or use baking paper, cover with dry cloth and let rise for one hour. Preheat oven to 190°C / Gas mark 5.\n11. Whisk an egg and brush onto each plait, sprinkle with seeds.\n12. Bake until bread has a hollow sound when tapped, cool on a rack for an hour before slicing.",
+  "images": [],
+  "coverage_group": "bread-dough"
+}

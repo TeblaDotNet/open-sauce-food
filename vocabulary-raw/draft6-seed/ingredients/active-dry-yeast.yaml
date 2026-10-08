@@ -1,0 +1,9 @@
+id: active-dry-yeast
+kind: ingredient
+names:
+  en: active dry yeast
+observed_forms:
+- syntax: active dry yeast
+  count: 1
+seen_in:
+- examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce

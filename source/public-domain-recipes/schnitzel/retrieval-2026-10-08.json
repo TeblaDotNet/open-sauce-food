@@ -1,0 +1,34 @@
+{
+  "title": "Schnitzel",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/schnitzel.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "61325253366f3bfc8ed215308af45001cfc68cbd02b556dca448fc927d815342",
+  "original_front_matter": {
+    "title": "Schnitzel",
+    "date": "2021-03-18",
+    "tags": [
+      "austrian",
+      "beef"
+    ],
+    "author": "Tobias & Alexandra Grimm"
+  },
+  "source_url": "https://publicdomainrecipes.com/schnitzel/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "schnitzel",
+      "url": "/pix/schnitzel.webp",
+      "upstreamPath": "static/pix/schnitzel.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

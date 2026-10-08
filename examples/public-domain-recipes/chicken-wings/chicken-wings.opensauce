@@ -1,0 +1,72 @@
+::recipe
+
+name: Chicken Wings
+source: https://publicdomainrecipes.com/chicken-wings/
+source author: kyle-steger
+source license: Public domain (Unlicense)
+units: source
+tags: chicken, american
+
+# Original source: ../../../source/public-domain-recipes/chicken-wings/chicken-wings.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Reynold's Oven Bag occurs under Ingredients. Physical non-food item moved by type; exact source list preserved separately.
+
+::ingredients
+
+(chicken, wings and drums) quantity unspecified
+(Frank’s RedHot Sauce, not wing sauce version) enough to marinate and top dress
+
+::equipment
+
+(oven)
+(Reynold’s Oven Bag)
+(grill)
+
+::instructions
+
+(chicken) + (Frank’s RedHot Sauce) <soak, overnight>
+(oven) <preheat, 350f / 175c>
+(chicken) <transfer, Reynold’s Oven Bag>
+    <seal, bag>
+    <bake, oven, 1h>
+(grill) <heat, high>
+(chicken) <grill, char skin>
+    + (Frank’s RedHot Sauce) <coat, lightly>
+
+::story
+
+Perfectly cooked fall off the bone buffalo wings.
+
+\* Not the "wing sauce" version
+
+† A pan might work, but I've only ever used a grill
+
+::source
+<<<
+---
+title: "Chicken Wings"
+date: 2021-03-10
+tags: ['chicken', 'american']
+author: kyle-steger
+---
+
+Perfectly cooked fall off the bone buffalo wings.
+
+## Ingredients
+
+- Chicken wings and drums
+- Enough Frank's RedHot Sauce to marinate and top dress*
+- Reynold's Oven Bag
+
+## Directions
+
+1. Soak your wings in Franks RedHot overnight
+2. Preheat your oven to 350°F (175°C)
+3. Transfer wings to the Reynold's bag, seal it, and put it in the oven for an hour
+4. Crank up your grill† to high heat
+5. Throw the wings on the grill to char the skin and dress with a light top coat of Franks
+
+\* **Not** the "wing sauce" version
+
+† A pan might work, but I've only ever used a grill
+>>>

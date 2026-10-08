@@ -1,0 +1,20 @@
+id: white-beans
+kind: ingredient
+canonical_name: white beans
+names:
+  en: white beans
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: white beans
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/paella/paella.opensauce
+observed_qualifiers:
+- value: garrofó
+  count: 1
+- value: large
+  count: 1

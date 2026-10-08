@@ -1,0 +1,39 @@
+{
+  "title": "Pan pizza",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pan-pizza.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "95cd4747335fbaa9c0da87b95a7139751fe2a36ecd63a4e9c3aaf6e3c5cb75a8",
+  "original_front_matter": {
+    "title": "Pan pizza",
+    "date": "2021-03-21",
+    "tags": [
+      "basic",
+      "pizza"
+    ],
+    "author": "brox"
+  },
+  "source_url": "https://publicdomainrecipes.com/pan-pizza/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Pan pizza",
+      "url": "/pix/pan-pizza.webp",
+      "upstreamPath": "static/pix/pan-pizza.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "59618eecabb7115380ffdbb7d540a13c2fd51bc65a912cab9994c022dc39d690",
+      "sourcePath": "source/public-domain-recipes/pan-pizza/pan-pizza.webp",
+      "promotedPath": "examples/public-domain-recipes/pan-pizza/pan-pizza.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

@@ -1,0 +1,85 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Cheesy Pasta Bake
+source: https://publicdomainrecipes.com/cheesy-pasta-bake/
+source author: techiedamien
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: bacon, cheese, italian, pasta
+serves: 4
+
+# Imported from content/cheesy-pasta-bake.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15 min
+# Source metadata: - 🍳 Cook time: 1 hr
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(pasta, Fusilli recommended but not essential) 300-400g
+(butter) 50g
+(flour) 100g
+(milk) 200ml
+(cheddar cheese) 400g
+(rashers of bacon, optional) 6
+
+::equipment
+
+(saucepan)
+
+::instructions
+
+<grate, the cheese>
+<chop, up the bacon into roughly 2cm x 2cm squares>
+Start cooking the pasta — /pasta.
+Start melting the butter in another saucepan.
+Once melted, add flour and mix until the mixture forms a paste that does not stick to the sides. The quantity of flour required may vary.
+Now start adding the milk slowly, while mixing, as to avoid lumps.
+<heat, on low heat while stirring until the sauce becomes thick. If unsure, taste the sauce, and if you cannot taste the flour, it is ready for the next step>
+<add, 80% of the cheese and stir until melted in>
+<drain, the pasta and add to baking dish>
+<add, the sauce and mix in>
+If using bacon, fry it up and mix into the dish, making sure to include any fat that comes out of the bacon for extra flavour.
+<use, the rest of the cheese to cover the top>
+<bake, at gas mark 6 for about 30 minutes>
+
+::source
+<<<
+---
+title: "Cheesy Pasta Bake"
+date: 2021-03-21
+tags: ['bacon', 'cheese', 'italian', 'pasta']
+author: techiedamien
+---
+
+- ⏲️ Prep time: 15 min
+- 🍳 Cook time: 1 hr
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 300-400g Pasta (Fusilli recommended but not essential)
+- 50g Butter
+- 100g Flour
+- 200ml Milk
+- 400g Cheddar Cheese
+- 6 Rashers of bacon (optional)
+
+## Directions
+
+1. Grate the cheese.
+2. Chop up the bacon into roughly 2cm x 2cm squares.
+3. Start [cooking the pasta](/pasta).
+4. Start melting the butter in another saucepan.
+5. Once melted, add flour and mix until the mixture forms a paste that does not stick to the sides. The quantity of flour required may vary.
+6. Now start adding the milk slowly, while mixing, as to avoid lumps.
+7. Heat on low heat while stirring until the sauce becomes thick. If unsure, taste the sauce, and if you cannot taste the flour, it is ready for the next step.
+8. Add 80% of the cheese and stir until melted in.
+9. Drain the pasta and add to baking dish.
+10. Add the sauce and mix in.
+11. If using bacon, fry it up and mix into the dish, making sure to include any fat that comes out of the bacon for extra flavour.
+12. Use the rest of the cheese to cover the top.
+13. Bake at gas mark 6 for about 30 minutes.
+>>>

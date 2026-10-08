@@ -1,0 +1,18 @@
+id: champignon-mushroom
+kind: ingredient
+canonical_name: champignon mushroom
+names:
+  en: champignon mushroom
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: champignon mushroom
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

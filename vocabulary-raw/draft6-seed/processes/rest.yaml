@@ -1,0 +1,51 @@
+id: rest
+kind: process
+names:
+  en: rest
+observed_forms:
+- syntax: rest, 15m
+  count: 1
+- syntax: rest, a couple of minutes
+  count: 1
+- syntax: rest, at least 10m
+  count: 1
+- syntax: rest, briefly
+  count: 1
+- syntax: rest, covered with clean cloth, 5m
+  count: 1
+- syntax: rest, room temperature, 12h
+  count: 1
+- syntax: rest, until settled
+  count: 1
+- syntax: rest, ~1m if too hot
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 12h
+  count: 1
+- value: 15m
+  count: 1
+- value: 5m
+  count: 1
+- value: a couple of minutes
+  count: 1
+- value: at least 10m
+  count: 1
+- value: briefly
+  count: 1
+- value: covered with clean cloth
+  count: 1
+- value: room temperature
+  count: 1
+- value: until settled
+  count: 1
+- value: ~1m if too hot
+  count: 1
+legacy_observation: true

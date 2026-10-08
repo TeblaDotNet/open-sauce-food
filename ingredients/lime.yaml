@@ -1,0 +1,33 @@
+id: lime
+kind: ingredient
+canonical_name: lime
+names:
+  en: lime
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 3
+  observed_terms:
+  - term: lime
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - examples/public-domain-recipes/guacamole/guacamole.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  legacy_terms:
+  - term: lime
+    count: 3
+observed_qualifiers:
+- value: wedges
+  count: 1
+parts:
+  juice:
+    names:
+      en: juice
+  zest:
+    names:
+      en: zest
+  peel:
+    names:
+      en: peel

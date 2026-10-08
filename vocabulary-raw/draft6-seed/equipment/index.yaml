@@ -1,0 +1,128 @@
+schema: open-sauce-equipment-vocabulary-seed
+schema_version: '0.2'
+status: corpus-derived raw seed; not yet canonicalised
+raw_concept_count: 40
+entries:
+- id: air-fryer
+  name: air fryer
+  file: air-fryer.yaml
+- id: baking-dish
+  name: baking dish
+  file: baking-dish.yaml
+- id: baking-paper
+  name: baking paper
+  file: baking-paper.yaml
+- id: baking-sheet
+  name: baking sheet
+  file: baking-sheet.yaml
+- id: baking-tray
+  name: baking tray
+  file: baking-tray.yaml
+- id: beater
+  name: beater
+  file: beater.yaml
+- id: blender
+  name: blender
+  file: blender.yaml
+- id: bowl
+  name: bowl
+  file: bowl.yaml
+- id: cooling-rack
+  name: cooling rack
+  file: cooling-rack.yaml
+- id: cover
+  name: cover
+  file: cover.yaml
+- id: cupcake-tin
+  name: cupcake tin
+  file: cupcake-tin.yaml
+- id: cutter
+  name: cutter
+  file: cutter.yaml
+- id: food-processor
+  name: food processor
+  file: food-processor.yaml
+- id: fork
+  name: fork
+  file: fork.yaml
+- id: frying-pan
+  name: frying pan
+  file: frying-pan.yaml
+- id: glass-container
+  name: glass container
+  file: glass-container.yaml
+- id: ice-cream-scoop-or-spoon
+  name: ice cream scoop or spoon
+  file: ice-cream-scoop-or-spoon.yaml
+- id: immersion-blender
+  name: immersion blender
+  file: immersion-blender.yaml
+- id: jug
+  name: jug
+  file: jug.yaml
+- id: knife
+  name: knife
+  file: knife.yaml
+- id: lid
+  name: lid
+  file: lid.yaml
+- id: loaf-tin
+  name: loaf tin
+  file: loaf-tin.yaml
+- id: mesh-strainer
+  name: mesh strainer
+  file: mesh-strainer.yaml
+- id: mixer
+  name: mixer
+  file: mixer.yaml
+- id: mixer-or-whisk
+  name: mixer or whisk
+  file: mixer-or-whisk.yaml
+- id: muffin-tin
+  name: muffin tin
+  file: muffin-tin.yaml
+- id: oven
+  name: oven
+  file: oven.yaml
+- id: paella-pan
+  name: paella pan
+  file: paella-pan.yaml
+- id: pan
+  name: pan
+  file: pan.yaml
+- id: parchment-paper
+  name: parchment paper
+  file: parchment-paper.yaml
+- id: pie-dish
+  name: pie dish
+  file: pie-dish.yaml
+- id: pot
+  name: pot
+  file: pot.yaml
+- id: refrigerator
+  name: refrigerator
+  file: refrigerator.yaml
+- id: roasting-tin
+  name: roasting tin
+  file: roasting-tin.yaml
+- id: rolling-pin
+  name: rolling pin
+  file: rolling-pin.yaml
+- id: saucepan
+  name: saucepan
+  file: saucepan.yaml
+- id: serving-bowl
+  name: serving bowl
+  file: serving-bowl.yaml
+- id: skewer
+  name: skewer
+  file: skewer.yaml
+- id: waffle-maker
+  name: waffle maker
+  file: waffle-maker.yaml
+- id: whisk
+  name: whisk
+  file: whisk.yaml
+current_example_recipe_count: 20
+vocabulary_evidence_recipe_count: 30
+legacy_corpus_note: Vocabulary retains extracted observations from the removed 10-recipe BBC Food stress-test corpus; the recipe texts themselves are no longer included.

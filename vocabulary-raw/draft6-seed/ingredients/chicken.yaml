@@ -1,0 +1,21 @@
+id: chicken
+kind: ingredient
+names:
+  en: chicken
+observed_forms:
+- syntax: chicken, boneless, cubed
+  count: 1
+- syntax: chicken, free-range, pieces
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+observed_qualifiers:
+- value: boneless
+  count: 1
+- value: cubed
+  count: 1
+- value: free-range
+  count: 1
+- value: pieces
+  count: 1

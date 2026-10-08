@@ -1,0 +1,24 @@
+id: scald
+kind: process
+canonical_name: scald
+names:
+  en: scald
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: scald
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+observed_parameters:
+- value: 2m
+  count: 1
+- value: boiling water
+  count: 1
+- value: to loosen skin
+  count: 1

@@ -1,0 +1,33 @@
+{
+  "title": "Stoemp",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/stoemp.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "288e636e39ac7d03e3d9a46617a31a4b383ad3295a035b1d9b09e896ec9af104",
+  "original_front_matter": {
+    "title": "Stoemp",
+    "date": "2021-03-21",
+    "tags": [
+      "belgian",
+      "potato"
+    ],
+    "author": "alpo"
+  },
+  "source_url": "https://publicdomainrecipes.com/stoemp/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

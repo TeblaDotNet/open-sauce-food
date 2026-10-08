@@ -1,0 +1,29 @@
+id: layer
+kind: process
+names:
+  en: layer
+observed_forms:
+- syntax: layer, baking tray
+  count: 2
+- syntax: layer, broccoli + scamorza cheese + black pepper + salt
+  count: 1
+- syntax: layer, béchamel
+  count: 1
+- syntax: layer, cream
+  count: 1
+- syntax: layer, pasta
+  count: 1
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+observed_parameters:
+- value: baking tray
+  count: 2
+- value: broccoli + scamorza cheese + black pepper + salt
+  count: 1
+- value: béchamel
+  count: 1
+- value: cream
+  count: 1
+- value: pasta
+  count: 1

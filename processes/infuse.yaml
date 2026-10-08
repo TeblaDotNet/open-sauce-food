@@ -1,0 +1,21 @@
+id: infuse
+kind: process
+canonical_name: infuse
+names:
+  en: infuse
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: infuse
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+  - examples/public-domain-recipes/limoncello/limoncello.opensauce
+observed_parameters:
+- value: 20 days
+  count: 1
+- value: 5-10m
+  count: 1

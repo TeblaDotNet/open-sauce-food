@@ -1,0 +1,21 @@
+id: vegetables
+kind: ingredient
+canonical_name: vegetables
+names:
+  en: vegetables
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: vegetables
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+observed_qualifiers:
+- value: choice
+  count: 2
+- value: examples sugar snap peas / chopped cabbage / sliced carrots / broccoli / cauliflower
+  count: 1

@@ -1,0 +1,33 @@
+{
+  "title": "Sausage Rolls",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sausage-rolls.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "dbed8baf0b76f8625958ff53d940c249ec8889317a91cc88282dcd6f53146cdf",
+  "original_front_matter": {
+    "title": "Sausage Rolls",
+    "date": "2021-03-22",
+    "tags": [
+      "pork",
+      "pastry"
+    ],
+    "author": "siggines"
+  },
+  "source_url": "https://publicdomainrecipes.com/sausage-rolls/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

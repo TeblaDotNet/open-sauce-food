@@ -1,0 +1,12 @@
+id: dust
+kind: process
+names:
+  en: dust
+observed_forms:
+- syntax: dust, flour
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+observed_parameters:
+- value: flour
+  count: 1

@@ -1,0 +1,24 @@
+id: melt
+kind: process
+names:
+  en: melt
+observed_forms:
+- syntax: melt
+  count: 2
+- syntax: melt, pan
+  count: 1
+- syntax: melt, pot, medium-low heat
+  count: 1
+seen_in:
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: medium-low heat
+  count: 1
+- value: pan
+  count: 1
+- value: pot
+  count: 1
+legacy_observation: true

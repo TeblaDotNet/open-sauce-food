@@ -1,0 +1,9 @@
+id: cashew-paste
+kind: ingredient
+names:
+  en: cashew paste
+observed_forms:
+- syntax: cashew paste
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce

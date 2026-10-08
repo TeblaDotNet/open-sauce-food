@@ -1,0 +1,41 @@
+id: water
+kind: ingredient
+names:
+  en: water
+observed_forms:
+- syntax: water
+  count: 5
+- syntax: water, boiling
+  count: 1
+- syntax: water, ice-cold
+  count: 2
+- syntax: water, ice-cold, for crust
+  count: 1
+- syntax: water, optional, for egg wash
+  count: 1
+- syntax: water, warm
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- examples/public-domain-recipes/pavlova/pavlova.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: boiling
+  count: 1
+- value: for crust
+  count: 1
+- value: for egg wash
+  count: 1
+- value: ice-cold
+  count: 3
+- value: optional
+  count: 1
+- value: warm
+  count: 1
+legacy_observation: true

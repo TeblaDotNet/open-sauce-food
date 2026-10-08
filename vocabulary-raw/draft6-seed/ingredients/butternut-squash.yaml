@@ -1,0 +1,17 @@
+id: butternut-squash
+kind: ingredient
+names:
+  en: butternut squash
+observed_forms:
+- syntax: butternut squash, peeled, deseeded, 3cm cubes
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: 3cm cubes
+  count: 1
+- value: deseeded
+  count: 1
+- value: peeled
+  count: 1
+legacy_observation: true

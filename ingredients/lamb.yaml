@@ -1,0 +1,20 @@
+id: lamb
+kind: ingredient
+canonical_name: lamb
+names:
+  en: lamb
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: lamb
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+observed_qualifiers:
+- value: preferably bone-in
+  count: 1
+- value: shoulder or similar such as shank
+  count: 1

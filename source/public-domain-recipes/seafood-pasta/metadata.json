@@ -1,0 +1,36 @@
+{
+  "title": "Garlic Butter Seafood Pasta",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/seafood-pasta.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "8e0163a00d41d6aa5960b9517954d1cd974b250a6af1d22ce8078a54e7daca72",
+  "original_front_matter": {
+    "title": "Garlic Butter Seafood Pasta",
+    "date": "2022-07-18",
+    "tags": [
+      "italian",
+      "pasta",
+      "quick",
+      "seafood",
+      "shrimp"
+    ],
+    "author": "nelson-morrow"
+  },
+  "source_url": "https://publicdomainrecipes.com/seafood-pasta/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

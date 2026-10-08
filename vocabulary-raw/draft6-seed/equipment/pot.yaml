@@ -1,0 +1,10 @@
+id: pot
+kind: equipment
+names:
+  en: pot
+observed_forms:
+- syntax: pot
+  count: 2
+seen_in:
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce

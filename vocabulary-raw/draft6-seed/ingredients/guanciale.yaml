@@ -1,0 +1,14 @@
+id: guanciale
+kind: ingredient
+names:
+  en: guanciale
+observed_forms:
+- syntax: guanciale, cleaned, cubed
+  count: 1
+seen_in:
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+observed_qualifiers:
+- value: cleaned
+  count: 1
+- value: cubed
+  count: 1

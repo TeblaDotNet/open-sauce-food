@@ -1,0 +1,15 @@
+id: matcha-powder
+kind: ingredient
+canonical_name: matcha powder
+names:
+  en: matcha powder
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: matcha powder
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce

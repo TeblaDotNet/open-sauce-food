@@ -1,0 +1,41 @@
+{
+  "title": "Quarkbällchen – Fried curd balls",
+  "source_url": "https://publicdomainrecipes.com/quarkbaellchen/",
+  "source_author": "kirill-schmidt",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/quarkbaellchen.md",
+  "original_sha256": "2a987851599633b0436b2bd9a3196fd16c09ff9ded2aa7706c4a96b553d08572",
+  "original_front_matter": {
+    "title": "Quarkbällchen – Fried curd balls",
+    "date": "2021-04-15",
+    "tags": [
+      "german",
+      "fry",
+      "sweet",
+      "cheesefare"
+    ],
+    "author": "kirill-schmidt"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- 420ml quark (plain yoghurt can be used as a replacement)\n- 2 eggs\n- 6 or 7 tbsp of sugar\n- 2 packets of vanilla sugar\n- 400g flour (500g if using yoghurt)\n- 2 packets of baking powder\n- 1L sunflower oil for frying\n- (Optional) icing sugar\n- (Optional) Alcohol by eye so that they do not soak up so much oil",
+  "directions_source_markdown": "1. Mix ingredients (quark, eggs, sugar, flour, baking powder) in one bowl.\n2. Pour the sunflower oil into a cooking pot and heat up the hotplate\n3. Form balls from the dough and put them into the cooking pot\n4. Once they are brown-ish, put them onto a plate\n5. (Optional) add icing sugar\n6. Enjoy!",
+  "images": [
+    {
+      "alt": "An image of my finished curd balls",
+      "source_url": "https://publicdomainrecipes.com/pix/quarkbaellchen.webp",
+      "source_reference": "/pix/quarkbaellchen.webp",
+      "status": "retrieved",
+      "filename": "quarkbaellchen.webp",
+      "sha256": "32641fab26b9d41d09e844418ab72f49dbeba2c140c709c4562a8b000bcb55a1"
+    }
+  ],
+  "coverage_group": "mixed"
+}

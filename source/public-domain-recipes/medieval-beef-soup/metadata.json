@@ -1,0 +1,40 @@
+{
+  "title": "Medieval Beef Soup",
+  "source_url": "https://publicdomainrecipes.com/medieval-beef-soup/",
+  "source_author": "LogSuperMulti",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/medieval-beef-soup.md",
+  "original_sha256": "554308db39cf274b2577e20acf4f54ba995d19e354985ff94d0405f1e07224a8",
+  "original_front_matter": {
+    "title": "Medieval Beef Soup",
+    "date": "2022-04-15",
+    "author": "LogSuperMulti",
+    "tags": [
+      "beef",
+      "soup",
+      "roast"
+    ]
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- One beef roast\n- Around three to four large turnips with their greens attached\n- Two cups of chicken stock\n- 1/10 grams of Saffron\n- 1/4 a stick of butter\n- A slow cooker\n- A bowl of warm water.",
+  "directions_source_markdown": "1. Cube the roast into bite sized pieces and place them in a large skillet with the butter.\n2. Heat the pan on medium-high heat and brown the meat with the melted butter until the outside is evenly cooked, sprinkle with pepper as it browns.\n3. While the meat is browning, cut the greens off the turnips and set them aside. Cut the turnips into bite sized pieces making sure to cut the top and bottom ends off first. If you can not find turnips with their greens still attached Mustard greens can be substituted.\n4. Put the cut up turnips in the slow cooker and pour in the chicken stock.\n5. Take the meat and dump it into the slow cooker drippings and all. If the amount of liquid looks a bit low to you, you can pour in another cup or so of water at your discretion.\n6. Sprinkle more pepper over the soup and put the saffron in the bowl of warm water and let it seep for five minutes. Then dump it and the warm water into the soup.\n7. Cut the stems off of the greens and then chop the greens vertically.\n8. Cook the soup on high for 2 to 2 1/2 hours or until the turnip and meat are soft and tender. About 20 minutes before it is to be done take the chopped greens and put them in the soup. Don't worry if it overfills the slow cooker, the greens will shrink a ton. Cook for about 20 minutes until done.\n9. Taste the soup, if it's still too bland you can add spices of your choice and season to your taste.",
+  "images": [
+    {
+      "alt": "Medieval Beef Soup",
+      "source_url": "https://publicdomainrecipes.com/pix/medieval-beef-soup.webp",
+      "source_reference": "/pix/medieval-beef-soup.webp",
+      "status": "retrieved",
+      "filename": "medieval-beef-soup.webp",
+      "sha256": "de78a86fea165a914e60f193101c7492fb5d431847a622744a10018bfb4898b2"
+    }
+  ],
+  "coverage_group": "dessert-historical"
+}

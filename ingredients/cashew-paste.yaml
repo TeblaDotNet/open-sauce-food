@@ -1,0 +1,15 @@
+id: cashew-paste
+kind: ingredient
+canonical_name: cashew paste
+names:
+  en: cashew paste
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cashew paste
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce

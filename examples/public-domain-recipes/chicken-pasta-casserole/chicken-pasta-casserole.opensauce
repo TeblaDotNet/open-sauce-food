@@ -1,0 +1,84 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Chicken Pasta Casserole
+source: https://publicdomainrecipes.com/chicken-pasta-casserole/
+source author: miika-nissi
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: chicken, italian, pasta
+serves: 4-6
+image: chicken-pasta-casserole.webp
+
+# Imported from content/chicken-pasta-casserole.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 35 min
+# Source metadata: - 🍽️ Servings: 4-6
+
+::ingredients
+
+(macaroni, elbow, penne) 16oz （450g）
+(raw chicken breast, diced) 24oz （700g）
+(mozzarella cheese, shredded) 9oz （250g）
+(parmesan cheese, grated) 1.5oz （40g）
+(bread crumbs) 1.5oz （40g）
+(tomatoes, diced) 16oz （450g）
+(oil and butter) Some
+(mozzarella, optional) More
+(parmesan, optional) More
+
+::equipment
+
+(oven)
+
+::instructions
+
+<preheat, oven to 400F/200C>
+<dice, chicken and pan cook with oil until fully cooked>
+<cook, the pasta — /pasta for a few minutes less than usual (about 7-8 minutes)>
+<add, chicken and pasta into a casserole dish. Mix together. Add diced tomato and shredded mozzarella cheese and keep mixing. Top with parmesan cheese and bread crumbs for an even coat. Add about a spoonful of butter evenly on the top>
+<cook, in the oven for 22-25 minutes, until the top looks golden>
+
+::story
+
+Easy to throw together and transport for the working fellow. High in protein!
+
+
+::source
+<<<
+---
+title: "Chicken Pasta Casserole"
+date: 2021-03-12
+tags: ['chicken', 'italian', 'pasta']
+author: miika-nissi
+---
+
+![Chicken Pasta Casserole](/pix/chicken-pasta-casserole.webp)
+
+Easy to throw together and transport for the working fellow. High in protein!
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 35 min
+- 🍽️ Servings: 4-6
+
+## Ingredients
+
+- 16oz (450g) macaroni (elbow, penne)
+- 24oz (700g) raw chicken breast, diced
+- 9oz (250g) mozzarella cheese, shredded
+- 1.5oz (40g) parmesan cheese, grated
+- 1.5oz (40g) bread crumbs
+- 16oz (450g) diced tomatoes
+- Some oil and butter
+- (Optional) More mozzarella and parmesan for fans of cheese.
+
+## Directions
+
+1. Preheat oven to 400F/200C.
+2. Dice chicken and pan cook with oil until fully cooked.
+3. [Cook the pasta](/pasta) for a few minutes less than usual (about 7-8 minutes).
+4. Add chicken and pasta into a casserole dish. Mix together. Add diced tomato and shredded mozzarella cheese and keep mixing. Top with parmesan cheese and bread crumbs for an even coat. Add about a spoonful of butter evenly on the top.
+5. Cook in the oven for 22-25 minutes, until the top looks golden.
+>>>

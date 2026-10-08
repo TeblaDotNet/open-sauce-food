@@ -1,0 +1,21 @@
+id: parmesan-cheese
+kind: ingredient
+canonical_name: parmesan cheese
+names:
+  en: parmesan cheese
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: parmesan cheese
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1
+aliases:
+- name: parmesan
+  type: review-pass-1-lexical

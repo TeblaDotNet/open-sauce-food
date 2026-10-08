@@ -1,0 +1,9 @@
+id: garlic-paste
+kind: ingredient
+names:
+  en: garlic paste
+observed_forms:
+- syntax: garlic paste
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

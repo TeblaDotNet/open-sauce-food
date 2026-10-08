@@ -1,0 +1,19 @@
+id: radish
+kind: ingredient
+canonical_name: radish
+names:
+  en: radish
+aliases:
+- name: radishes
+  type: review-pass-1-lexical
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/lithuanian-cold-borscht/lithuanian-cold-borscht.opensauce
+  - examples/public-domain-recipes/corn-salsa/corn-salsa.opensauce
+  - examples/public-domain-recipes/frijol-con-puerco/frijol-con-puerco.opensauce
+  - examples/public-domain-recipes/okroshka/okroshka.opensauce
+  - examples/public-domain-recipes/perfect-potato-salad/perfect-potato-salad.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

@@ -1,0 +1,35 @@
+{
+  "title": "Pickled Red Onions",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pickled-onions.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "c9e0bf100302b2c2b121afc5e77e7849e54a569f5b8505d8f8c485ae9f1aeb30",
+  "original_front_matter": {
+    "title": "Pickled Red Onions",
+    "date": "2021-03-16",
+    "tags": [
+      "quick",
+      "side",
+      "basic"
+    ],
+    "author": "aj"
+  },
+  "source_url": "https://publicdomainrecipes.com/pickled-onions/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Pickled Red Onions in  a Jar",
+      "url": "/pix/pickled-onions.webp",
+      "upstreamPath": "static/pix/pickled-onions.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

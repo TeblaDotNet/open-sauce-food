@@ -1,0 +1,21 @@
+id: potato
+kind: ingredient
+names:
+  en: potato
+observed_forms:
+- syntax: potato, small pieces
+  count: 1
+- syntax: potato, waxy, peeled, sliced
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+observed_qualifiers:
+- value: peeled
+  count: 1
+- value: sliced
+  count: 1
+- value: small pieces
+  count: 1
+- value: waxy
+  count: 1

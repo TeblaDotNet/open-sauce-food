@@ -1,0 +1,23 @@
+id: braid
+kind: process
+canonical_name: braid
+names:
+  en-GB: plait
+  en-US: braid
+status: reviewed-merge
+aliases:
+- name: plait
+  type: regional-name
+  observed_count: 1
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: braid
+    count: 1
+  - term: plait
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce

@@ -1,0 +1,21 @@
+id: chop
+kind: process
+names:
+  en: chop
+observed_forms:
+- syntax: chop
+  count: 4
+- syntax: chop, moderate pieces
+  count: 1
+- syntax: chop, small
+  count: 2
+seen_in:
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+observed_parameters:
+- value: moderate pieces
+  count: 1
+- value: small
+  count: 2

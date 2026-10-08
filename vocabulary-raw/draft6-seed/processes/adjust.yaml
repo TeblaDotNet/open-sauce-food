@@ -1,0 +1,19 @@
+id: adjust
+kind: process
+names:
+  en: adjust
+observed_forms:
+- syntax: adjust, lemon juice and salt
+  count: 1
+- syntax: adjust, salt
+  count: 3
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+observed_parameters:
+- value: lemon juice and salt
+  count: 1
+- value: salt
+  count: 3

@@ -1,0 +1,9 @@
+id: pasta
+kind: ingredient
+names:
+  en: pasta
+observed_forms:
+- syntax: pasta
+  count: 1
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce

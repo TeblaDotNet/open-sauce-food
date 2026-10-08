@@ -1,0 +1,19 @@
+id: parsley
+kind: ingredient
+names:
+  en: parsley
+observed_forms:
+- syntax: parsley
+  count: 1
+- syntax: parsley, fresh, optional, for serving
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1
+- value: fresh
+  count: 1
+- value: optional
+  count: 1

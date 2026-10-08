@@ -1,0 +1,18 @@
+id: open
+kind: process
+canonical_name: open
+names:
+  en: open
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: open
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+observed_parameters:
+- value: like book
+  count: 1

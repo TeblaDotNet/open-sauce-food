@@ -1,0 +1,9 @@
+id: taste
+kind: process
+names:
+  en: taste
+observed_forms:
+- syntax: taste
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce

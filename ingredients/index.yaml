@@ -1,0 +1,1739 @@
+schema: open-sauce-ingredient-vocabulary
+schema_version: '0.3'
+status: draft8-vocabulary-review-pass-1
+current_recipe_count: 410
+legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
+canonical_concept_count: 433
+entries:
+- id: acid
+  canonical_name: acid
+  file: acid.yaml
+  aliases: 0
+- id: active-dry-yeast
+  canonical_name: active dry yeast
+  file: active-dry-yeast.yaml
+  aliases: 0
+- id: add-ins
+  canonical_name: add-ins
+  file: add-ins.yaml
+  aliases: 0
+- id: additional-flour
+  canonical_name: additional flour
+  file: additional-flour.yaml
+  aliases: 0
+- id: additional-mince
+  canonical_name: additional mince
+  file: additional-mince.yaml
+  aliases: 0
+- id: additional-teas
+  canonical_name: additional teas
+  file: additional-teas.yaml
+  aliases: 0
+- id: adobo-seasoning
+  canonical_name: adobo seasoning
+  file: adobo-seasoning.yaml
+  aliases: 0
+- id: agave
+  canonical_name: agave
+  file: agave.yaml
+  aliases: 0
+- id: alcohol
+  canonical_name: alcohol
+  file: alcohol.yaml
+  aliases: 0
+- id: almonds
+  canonical_name: almonds
+  file: almonds.yaml
+  aliases: 0
+- id: apple
+  canonical_name: apple
+  file: apple.yaml
+  aliases: 0
+- id: apple-juice
+  canonical_name: apple juice
+  file: apple-juice.yaml
+  aliases: 0
+- id: apricot-mango-nectar
+  canonical_name: apricot-mango nectar
+  file: apricot-mango-nectar.yaml
+  aliases: 0
+- id: artichoke
+  canonical_name: artichoke
+  file: artichoke.yaml
+  aliases: 0
+- id: aubergine
+  canonical_name: aubergine
+  file: aubergine.yaml
+  aliases: 1
+- id: avocado
+  canonical_name: avocado
+  file: avocado.yaml
+  aliases: 0
+- id: bacon
+  canonical_name: bacon
+  file: bacon.yaml
+  aliases: 0
+- id: baguette
+  canonical_name: baguette
+  file: baguette.yaml
+  aliases: 0
+- id: bakers-ammonium
+  canonical_name: baker’s ammonium
+  file: bakers-ammonium.yaml
+  aliases: 0
+- id: baking-powder
+  canonical_name: baking powder
+  file: baking-powder.yaml
+  aliases: 0
+- id: baking-soda
+  canonical_name: baking soda
+  file: baking-soda.yaml
+  aliases: 0
+- id: balsamic-vinegar
+  canonical_name: balsamic vinegar
+  file: balsamic-vinegar.yaml
+  aliases: 0
+- id: banana
+  canonical_name: banana
+  file: banana.yaml
+  aliases: 0
+- id: barbecue-rub
+  canonical_name: barbecue rub
+  file: barbecue-rub.yaml
+  aliases: 0
+- id: barbecue-sauce
+  canonical_name: barbecue sauce
+  file: barbecue-sauce.yaml
+  aliases: 0
+- id: basil
+  canonical_name: basil
+  file: basil.yaml
+  aliases: 0
+- id: bay-leaf
+  canonical_name: bay leaf
+  file: bay-leaf.yaml
+  aliases: 2
+- id: beans
+  canonical_name: beans
+  file: beans.yaml
+  aliases: 0
+- id: beans-choice
+  canonical_name: beans choice
+  file: beans-choice.yaml
+  aliases: 0
+- id: beef
+  canonical_name: beef
+  file: beef.yaml
+  aliases: 1
+- id: beef-bouillon
+  canonical_name: beef bouillon
+  file: beef-bouillon.yaml
+  aliases: 0
+- id: beef-brisket
+  canonical_name: beef brisket
+  file: beef-brisket.yaml
+  aliases: 0
+- id: beef-broth
+  canonical_name: beef broth
+  file: beef-broth.yaml
+  aliases: 0
+- id: beef-marrow-bones
+  canonical_name: beef marrow bones
+  file: beef-marrow-bones.yaml
+  aliases: 0
+- id: beef-roast
+  canonical_name: beef roast
+  file: beef-roast.yaml
+  aliases: 0
+- id: beef-stock
+  canonical_name: beef stock
+  file: beef-stock.yaml
+  aliases: 0
+- id: beetroot
+  canonical_name: beetroot
+  file: beetroot.yaml
+  aliases: 1
+- id: berries
+  canonical_name: berries
+  file: berries.yaml
+  aliases: 0
+- id: black-bread
+  canonical_name: black bread
+  file: black-bread.yaml
+  aliases: 0
+- id: black-pepper
+  canonical_name: black pepper
+  file: black-pepper.yaml
+  aliases: 0
+- id: black-tea
+  canonical_name: black tea
+  file: black-tea.yaml
+  aliases: 0
+- id: blueberries
+  canonical_name: blueberries
+  file: blueberries.yaml
+  aliases: 0
+- id: bouillon
+  canonical_name: bouillon
+  file: bouillon.yaml
+  aliases: 0
+- id: bouillon-cube
+  canonical_name: bouillon cube
+  file: bouillon-cube.yaml
+  aliases: 0
+- id: bread
+  canonical_name: bread
+  file: bread.yaml
+  aliases: 0
+- id: bread-choice
+  canonical_name: bread choice
+  file: bread-choice.yaml
+  aliases: 0
+- id: bread-crumbs
+  canonical_name: bread crumbs
+  file: bread-crumbs.yaml
+  aliases: 1
+- id: bread-spice
+  canonical_name: bread spice
+  file: bread-spice.yaml
+  aliases: 0
+- id: broccoli
+  canonical_name: broccoli
+  file: broccoli.yaml
+  aliases: 1
+- id: broth
+  canonical_name: broth
+  file: broth.yaml
+  aliases: 0
+- id: broth-choice
+  canonical_name: broth choice
+  file: broth-choice.yaml
+  aliases: 0
+- id: brown-lentils
+  canonical_name: brown lentils
+  file: brown-lentils.yaml
+  aliases: 0
+- id: brown-sugar
+  canonical_name: brown sugar
+  file: brown-sugar.yaml
+  aliases: 0
+- id: bruschetta-herbs
+  canonical_name: bruschetta herbs
+  file: bruschetta-herbs.yaml
+  aliases: 0
+- id: brushing-fat
+  canonical_name: brushing fat
+  file: brushing-fat.yaml
+  aliases: 0
+- id: butter
+  canonical_name: butter
+  file: butter.yaml
+  aliases: 0
+- id: butternut-squash
+  canonical_name: butternut squash
+  file: butternut-squash.yaml
+  aliases: 0
+- id: bechamel
+  canonical_name: béchamel
+  file: bechamel.yaml
+  aliases: 0
+- id: cabbage
+  canonical_name: cabbage
+  file: cabbage.yaml
+  aliases: 0
+- id: canadian-bacon
+  canonical_name: Canadian bacon
+  file: canadian-bacon.yaml
+  aliases: 0
+- id: cannellini-beans
+  canonical_name: cannellini beans
+  file: cannellini-beans.yaml
+  aliases: 1
+- id: caraway
+  canonical_name: caraway
+  file: caraway.yaml
+  aliases: 0
+- id: cardamom
+  canonical_name: cardamom
+  file: cardamom.yaml
+  aliases: 0
+- id: cardamom-seeds
+  canonical_name: cardamom seeds
+  file: cardamom-seeds.yaml
+  aliases: 0
+- id: carrot
+  canonical_name: carrot
+  file: carrot.yaml
+  aliases: 0
+- id: cashew-paste
+  canonical_name: cashew paste
+  file: cashew-paste.yaml
+  aliases: 0
+- id: cayenne-pepper
+  canonical_name: cayenne pepper
+  file: cayenne-pepper.yaml
+  aliases: 1
+- id: celeriac
+  canonical_name: celeriac
+  file: celeriac.yaml
+  aliases: 0
+- id: celery
+  canonical_name: celery
+  file: celery.yaml
+  aliases: 0
+- id: celery-leaves
+  canonical_name: celery leaves
+  file: celery-leaves.yaml
+  aliases: 0
+- id: celery-seed
+  canonical_name: celery seed
+  file: celery-seed.yaml
+  aliases: 0
+- id: champagne
+  canonical_name: champagne
+  file: champagne.yaml
+  aliases: 0
+- id: champignon-mushroom
+  canonical_name: champignon mushroom
+  file: champignon-mushroom.yaml
+  aliases: 0
+- id: cheddar-cheese
+  canonical_name: cheddar cheese
+  file: cheddar-cheese.yaml
+  aliases: 0
+- id: cheese
+  canonical_name: cheese
+  file: cheese.yaml
+  aliases: 0
+- id: chicken
+  canonical_name: chicken
+  file: chicken.yaml
+  aliases: 0
+- id: chicken-bouillon
+  canonical_name: chicken bouillon
+  file: chicken-bouillon.yaml
+  aliases: 0
+- id: chicken-breast
+  canonical_name: chicken breast
+  file: chicken-breast.yaml
+  aliases: 0
+- id: chicken-broth
+  canonical_name: chicken broth
+  file: chicken-broth.yaml
+  aliases: 0
+- id: chicken-choice
+  canonical_name: chicken choice
+  file: chicken-choice.yaml
+  aliases: 0
+- id: chicken-masala
+  canonical_name: chicken masala
+  file: chicken-masala.yaml
+  aliases: 0
+- id: chicken-stock
+  canonical_name: chicken stock
+  file: chicken-stock.yaml
+  aliases: 0
+- id: chicken-thigh
+  canonical_name: chicken thigh
+  file: chicken-thigh.yaml
+  aliases: 0
+- id: chickpeas
+  canonical_name: chickpeas
+  file: chickpeas.yaml
+  aliases: 0
+- id: chilli
+  canonical_name: chilli
+  file: chilli.yaml
+  aliases: 2
+- id: chilli-flakes
+  canonical_name: chilli flakes
+  file: chilli-flakes.yaml
+  aliases: 1
+- id: chilli-powder
+  canonical_name: chilli powder
+  file: chilli-powder.yaml
+  aliases: 1
+- id: chillies-choice
+  canonical_name: chillies choice
+  file: chillies-choice.yaml
+  aliases: 0
+- id: chinese-five-spice
+  canonical_name: Chinese five spice
+  file: chinese-five-spice.yaml
+  aliases: 0
+- id: chipotle-paste
+  canonical_name: chipotle paste
+  file: chipotle-paste.yaml
+  aliases: 0
+- id: chipotle-peppers
+  canonical_name: chipotle peppers
+  file: chipotle-peppers.yaml
+  aliases: 0
+- id: chives
+  canonical_name: chives
+  file: chives.yaml
+  aliases: 0
+- id: chocolate
+  canonical_name: chocolate
+  file: chocolate.yaml
+  aliases: 0
+- id: chocolate-chips
+  canonical_name: chocolate chips
+  file: chocolate-chips.yaml
+  aliases: 0
+- id: chorizo
+  canonical_name: chorizo
+  file: chorizo.yaml
+  aliases: 0
+- id: cider-vinegar
+  canonical_name: cider vinegar
+  file: cider-vinegar.yaml
+  aliases: 0
+- id: cinnamon
+  canonical_name: cinnamon
+  file: cinnamon.yaml
+  aliases: 0
+- id: clam-juice
+  canonical_name: clam juice
+  file: clam-juice.yaml
+  aliases: 0
+- id: clam-liquid
+  canonical_name: clam liquid
+  file: clam-liquid.yaml
+  aliases: 0
+- id: clams
+  canonical_name: clams
+  file: clams.yaml
+  aliases: 0
+- id: cloves
+  canonical_name: cloves
+  file: cloves.yaml
+  aliases: 0
+- id: cocoa-powder
+  canonical_name: cocoa powder
+  file: cocoa-powder.yaml
+  aliases: 0
+- id: coconut
+  canonical_name: coconut
+  file: coconut.yaml
+  aliases: 1
+- id: coconut-milk
+  canonical_name: coconut milk
+  file: coconut-milk.yaml
+  aliases: 0
+- id: coconut-oil
+  canonical_name: coconut oil
+  file: coconut-oil.yaml
+  aliases: 0
+- id: coffee
+  canonical_name: coffee
+  file: coffee.yaml
+  aliases: 0
+- id: coffee-beans
+  canonical_name: coffee beans
+  file: coffee-beans.yaml
+  aliases: 0
+- id: confectioners-sugar-icing
+  canonical_name: confectioners’ sugar icing
+  file: confectioners-sugar-icing.yaml
+  aliases: 0
+- id: cooking-fat
+  canonical_name: cooking fat
+  file: cooking-fat.yaml
+  aliases: 0
+- id: cooking-oil
+  canonical_name: cooking oil
+  file: cooking-oil.yaml
+  aliases: 0
+- id: cooking-spray
+  canonical_name: cooking spray
+  file: cooking-spray.yaml
+  aliases: 0
+- id: coriander
+  canonical_name: coriander
+  file: coriander.yaml
+  aliases: 0
+- id: coriander-leaves
+  canonical_name: coriander leaves
+  file: coriander-leaves.yaml
+  aliases: 1
+- id: coriander-powder
+  canonical_name: coriander powder
+  file: coriander-powder.yaml
+  aliases: 0
+- id: corn
+  canonical_name: corn
+  file: corn.yaml
+  aliases: 0
+- id: corn-flakes
+  canonical_name: corn flakes
+  file: corn-flakes.yaml
+  aliases: 0
+- id: cornflour
+  canonical_name: cornflour
+  file: cornflour.yaml
+  aliases: 1
+- id: courgette
+  canonical_name: courgette
+  file: courgette.yaml
+  aliases: 1
+- id: crab-meat
+  canonical_name: crab meat
+  file: crab-meat.yaml
+  aliases: 0
+- id: cream
+  canonical_name: cream
+  file: cream.yaml
+  aliases: 0
+- id: cream-and-milk
+  canonical_name: cream and milk
+  file: cream-and-milk.yaml
+  aliases: 0
+- id: crumpet
+  canonical_name: crumpet
+  file: crumpet.yaml
+  aliases: 0
+- id: creme-fraiche
+  canonical_name: crème fraîche
+  file: creme-fraiche.yaml
+  aliases: 1
+- id: cucumber
+  canonical_name: cucumber
+  file: cucumber.yaml
+  aliases: 0
+- id: cumin
+  canonical_name: cumin
+  file: cumin.yaml
+  aliases: 0
+- id: cumin-seeds
+  canonical_name: cumin seeds
+  file: cumin-seeds.yaml
+  aliases: 0
+- id: cured-pork
+  canonical_name: cured pork
+  file: cured-pork.yaml
+  aliases: 0
+- id: currants
+  canonical_name: currants
+  file: currants.yaml
+  aliases: 0
+- id: curry-powder
+  canonical_name: curry powder
+  file: curry-powder.yaml
+  aliases: 0
+- id: dairy-choice
+  canonical_name: dairy choice
+  file: dairy-choice.yaml
+  aliases: 0
+- id: dashi
+  canonical_name: dashi
+  file: dashi.yaml
+  aliases: 0
+- id: dill
+  canonical_name: dill
+  file: dill.yaml
+  aliases: 0
+- id: dill-weed
+  canonical_name: dill weed
+  file: dill-weed.yaml
+  aliases: 0
+- id: dry-cherry
+  canonical_name: dry cherry
+  file: dry-cherry.yaml
+  aliases: 0
+- id: dukkah
+  canonical_name: dukkah
+  file: dukkah.yaml
+  aliases: 0
+- id: egg
+  canonical_name: egg
+  file: egg.yaml
+  aliases: 0
+- id: egg-choice
+  canonical_name: egg choice
+  file: egg-choice.yaml
+  aliases: 0
+- id: egg-noodles
+  canonical_name: egg noodles
+  file: egg-noodles.yaml
+  aliases: 0
+- id: egg-white
+  canonical_name: egg white
+  file: egg-white.yaml
+  aliases: 0
+- id: egg-yolk
+  canonical_name: egg yolk
+  file: egg-yolk.yaml
+  aliases: 0
+- id: english-muffins
+  canonical_name: English muffins
+  file: english-muffins.yaml
+  aliases: 0
+- id: extra-virgin-olive-oil
+  canonical_name: extra virgin olive oil
+  file: extra-virgin-olive-oil.yaml
+  aliases: 0
+- id: fajita-seasoning-mix
+  canonical_name: fajita seasoning mix
+  file: fajita-seasoning-mix.yaml
+  aliases: 0
+- id: fenugreek-leaves
+  canonical_name: fenugreek leaves
+  file: fenugreek-leaves.yaml
+  aliases: 0
+- id: fenugreek-powder
+  canonical_name: fenugreek powder
+  file: fenugreek-powder.yaml
+  aliases: 0
+- id: filling
+  canonical_name: filling
+  file: filling.yaml
+  aliases: 0
+- id: fish
+  canonical_name: fish
+  file: fish.yaml
+  aliases: 0
+- id: fish-bones
+  canonical_name: fish bones
+  file: fish-bones.yaml
+  aliases: 0
+- id: fish-broth
+  canonical_name: fish broth
+  file: fish-broth.yaml
+  aliases: 0
+- id: fish-fillet
+  canonical_name: fish fillet
+  file: fish-fillet.yaml
+  aliases: 0
+- id: fish-sauce
+  canonical_name: fish sauce
+  file: fish-sauce.yaml
+  aliases: 0
+- id: fish-stock
+  canonical_name: fish stock
+  file: fish-stock.yaml
+  aliases: 0
+- id: flour
+  canonical_name: flour
+  file: flour.yaml
+  aliases: 0
+- id: flour-choice
+  canonical_name: flour choice
+  file: flour-choice.yaml
+  aliases: 0
+- id: franks-redhot-sauce
+  canonical_name: Frank’s RedHot Sauce
+  file: franks-redhot-sauce.yaml
+  aliases: 0
+- id: fresh-fruit
+  canonical_name: fresh fruit
+  file: fresh-fruit.yaml
+  aliases: 0
+- id: fruit
+  canonical_name: fruit
+  file: fruit.yaml
+  aliases: 0
+- id: fruit-choice
+  canonical_name: fruit choice
+  file: fruit-choice.yaml
+  aliases: 0
+- id: frying-fat
+  canonical_name: frying fat
+  file: frying-fat.yaml
+  aliases: 0
+- id: garam-masala
+  canonical_name: garam masala
+  file: garam-masala.yaml
+  aliases: 1
+- id: garlic
+  canonical_name: garlic
+  file: garlic.yaml
+  aliases: 0
+- id: garlic-choice
+  canonical_name: garlic choice
+  file: garlic-choice.yaml
+  aliases: 0
+- id: garlic-paste
+  canonical_name: garlic paste
+  file: garlic-paste.yaml
+  aliases: 0
+- id: garlic-powder
+  canonical_name: garlic powder
+  file: garlic-powder.yaml
+  aliases: 0
+- id: garnish
+  canonical_name: garnish
+  file: garnish.yaml
+  aliases: 0
+- id: giant-trevally
+  canonical_name: giant trevally
+  file: giant-trevally.yaml
+  aliases: 0
+- id: giner-syrup
+  canonical_name: giner syrup
+  file: giner-syrup.yaml
+  aliases: 0
+- id: ginger
+  canonical_name: ginger
+  file: ginger.yaml
+  aliases: 0
+- id: gooseberries
+  canonical_name: gooseberries
+  file: gooseberries.yaml
+  aliases: 0
+- id: grain
+  canonical_name: grain
+  file: grain.yaml
+  aliases: 0
+- id: grain-alcohol
+  canonical_name: grain alcohol
+  file: grain-alcohol.yaml
+  aliases: 0
+- id: granulated-sugar
+  canonical_name: granulated sugar
+  file: granulated-sugar.yaml
+  aliases: 0
+- id: greasing-fat
+  canonical_name: greasing fat
+  file: greasing-fat.yaml
+  aliases: 0
+- id: green-beans
+  canonical_name: green beans
+  file: green-beans.yaml
+  aliases: 0
+- id: green-bell-pepper
+  canonical_name: green bell pepper
+  file: green-bell-pepper.yaml
+  aliases: 0
+- id: green-tea
+  canonical_name: green tea
+  file: green-tea.yaml
+  aliases: 0
+- id: grits
+  canonical_name: grits
+  file: grits.yaml
+  aliases: 0
+- id: guanciale
+  canonical_name: guanciale
+  file: guanciale.yaml
+  aliases: 0
+- id: half-and-half
+  canonical_name: half and half
+  file: half-and-half.yaml
+  aliases: 0
+- id: ham
+  canonical_name: ham
+  file: ham.yaml
+  aliases: 0
+- id: heat-seasoning
+  canonical_name: heat seasoning
+  file: heat-seasoning.yaml
+  aliases: 0
+- id: heavy-cream
+  canonical_name: heavy cream
+  file: heavy-cream.yaml
+  aliases: 0
+- id: herbes-de-provence
+  canonical_name: herbes de Provence
+  file: herbes-de-provence.yaml
+  aliases: 0
+- id: hoisin-sauce
+  canonical_name: hoisin sauce
+  file: hoisin-sauce.yaml
+  aliases: 0
+- id: honey
+  canonical_name: honey
+  file: honey.yaml
+  aliases: 0
+- id: hot-sauce
+  canonical_name: hot sauce
+  file: hot-sauce.yaml
+  aliases: 0
+- id: ice
+  canonical_name: ice
+  file: ice.yaml
+  aliases: 0
+- id: ice-cream
+  canonical_name: ice cream
+  file: ice-cream.yaml
+  aliases: 0
+- id: ice-cubes
+  canonical_name: ice cubes
+  file: ice-cubes.yaml
+  aliases: 0
+- id: icing-sugar
+  canonical_name: icing sugar
+  file: icing-sugar.yaml
+  aliases: 0
+- id: instant-yeast
+  canonical_name: instant yeast
+  file: instant-yeast.yaml
+  aliases: 0
+- id: jalapeno
+  canonical_name: jalapeño
+  file: jalapeno.yaml
+  aliases: 0
+- id: jam
+  canonical_name: jam
+  file: jam.yaml
+  aliases: 0
+- id: jelly
+  canonical_name: jelly
+  file: jelly.yaml
+  aliases: 0
+- id: juice
+  canonical_name: juice
+  file: juice.yaml
+  aliases: 0
+- id: ketchup
+  canonical_name: ketchup
+  file: ketchup.yaml
+  aliases: 0
+- id: kidney-beans
+  canonical_name: kidney beans
+  file: kidney-beans.yaml
+  aliases: 0
+- id: kombucha-scoby
+  canonical_name: kombucha scoby
+  file: kombucha-scoby.yaml
+  aliases: 0
+- id: laksa-paste
+  canonical_name: laksa paste
+  file: laksa-paste.yaml
+  aliases: 0
+- id: lamb
+  canonical_name: lamb
+  file: lamb.yaml
+  aliases: 0
+- id: lard
+  canonical_name: lard
+  file: lard.yaml
+  aliases: 0
+- id: leek
+  canonical_name: leek
+  file: leek.yaml
+  aliases: 0
+- id: lemon
+  canonical_name: lemon
+  file: lemon.yaml
+  aliases: 0
+- id: lemon-garnish
+  canonical_name: lemon garnish
+  file: lemon-garnish.yaml
+  aliases: 0
+- id: lemon-juice
+  canonical_name: lemon juice
+  file: lemon-juice.yaml
+  aliases: 0
+- id: lemon-peel
+  canonical_name: lemon peel
+  file: lemon-peel.yaml
+  aliases: 0
+- id: lemon-wedge
+  canonical_name: lemon wedge
+  file: lemon-wedge.yaml
+  aliases: 0
+- id: lentils
+  canonical_name: lentils
+  file: lentils.yaml
+  aliases: 0
+- id: lime
+  canonical_name: lime
+  file: lime.yaml
+  aliases: 0
+- id: lime-juice
+  canonical_name: lime juice
+  file: lime-juice.yaml
+  aliases: 0
+- id: linseed
+  canonical_name: linseed
+  file: linseed.yaml
+  aliases: 0
+- id: liquid
+  canonical_name: liquid
+  file: liquid.yaml
+  aliases: 0
+- id: liquid-choice
+  canonical_name: liquid choice
+  file: liquid-choice.yaml
+  aliases: 0
+- id: macadamia-nut
+  canonical_name: macadamia nut
+  file: macadamia-nut.yaml
+  aliases: 0
+- id: macaroni
+  canonical_name: macaroni
+  file: macaroni.yaml
+  aliases: 0
+- id: maple-syrup
+  canonical_name: maple syrup
+  file: maple-syrup.yaml
+  aliases: 0
+- id: margarine
+  canonical_name: margarine
+  file: margarine.yaml
+  aliases: 0
+- id: marjoram
+  canonical_name: marjoram
+  file: marjoram.yaml
+  aliases: 0
+- id: marmalade
+  canonical_name: marmalade
+  file: marmalade.yaml
+  aliases: 0
+- id: mascarpone
+  canonical_name: mascarpone
+  file: mascarpone.yaml
+  aliases: 0
+- id: massaman-curry-paste
+  canonical_name: massaman curry paste
+  file: massaman-curry-paste.yaml
+  aliases: 0
+- id: matcha-powder
+  canonical_name: matcha powder
+  file: matcha-powder.yaml
+  aliases: 0
+- id: mayonnaise
+  canonical_name: mayonnaise
+  file: mayonnaise.yaml
+  aliases: 0
+- id: meat-choice
+  canonical_name: meat choice
+  file: meat-choice.yaml
+  aliases: 0
+- id: milk
+  canonical_name: milk
+  file: milk.yaml
+  aliases: 0
+- id: milk-choice
+  canonical_name: milk choice
+  file: milk-choice.yaml
+  aliases: 0
+- id: mint
+  canonical_name: mint
+  file: mint.yaml
+  aliases: 0
+- id: miso
+  canonical_name: miso
+  file: miso.yaml
+  aliases: 1
+- id: mistra
+  canonical_name: mistrà
+  file: mistra.yaml
+  aliases: 0
+- id: mixed-spice
+  canonical_name: mixed spice
+  file: mixed-spice.yaml
+  aliases: 0
+- id: msg
+  canonical_name: MSG
+  file: msg.yaml
+  aliases: 0
+- id: mushroom-seasoning
+  canonical_name: mushroom seasoning
+  file: mushroom-seasoning.yaml
+  aliases: 0
+- id: mushrooms
+  canonical_name: mushrooms
+  file: mushrooms.yaml
+  aliases: 0
+- id: mustard
+  canonical_name: mustard
+  file: mustard.yaml
+  aliases: 0
+- id: mustard-greens
+  canonical_name: mustard greens
+  file: mustard-greens.yaml
+  aliases: 0
+- id: non-citrus-fruit
+  canonical_name: non-citrus fruit
+  file: non-citrus-fruit.yaml
+  aliases: 0
+- id: nonstick-spray
+  canonical_name: nonstick spray
+  file: nonstick-spray.yaml
+  aliases: 0
+- id: noodle-choice
+  canonical_name: noodle choice
+  file: noodle-choice.yaml
+  aliases: 0
+- id: nori
+  canonical_name: nori
+  file: nori.yaml
+  aliases: 0
+- id: nutmeg
+  canonical_name: nutmeg
+  file: nutmeg.yaml
+  aliases: 0
+- id: oat
+  canonical_name: oat
+  file: oat.yaml
+  aliases: 0
+- id: oats
+  canonical_name: oats
+  file: oats.yaml
+  aliases: 0
+- id: octopus
+  canonical_name: octopus
+  file: octopus.yaml
+  aliases: 0
+- id: oil
+  canonical_name: oil
+  file: oil.yaml
+  aliases: 0
+- id: old-bay-seasoning
+  canonical_name: Old Bay seasoning
+  file: old-bay-seasoning.yaml
+  aliases: 0
+- id: olive-oil
+  canonical_name: olive oil
+  file: olive-oil.yaml
+  aliases: 0
+- id: onion
+  canonical_name: onion
+  file: onion.yaml
+  aliases: 0
+- id: onion-powder
+  canonical_name: onion powder
+  file: onion-powder.yaml
+  aliases: 0
+- id: orange
+  canonical_name: orange
+  file: orange.yaml
+  aliases: 0
+- id: orange-juice
+  canonical_name: orange juice
+  file: orange-juice.yaml
+  aliases: 0
+- id: orange-juice-concentrate
+  canonical_name: orange juice concentrate
+  file: orange-juice-concentrate.yaml
+  aliases: 0
+- id: oregano
+  canonical_name: oregano
+  file: oregano.yaml
+  aliases: 0
+- id: other-stock
+  canonical_name: other stock
+  file: other-stock.yaml
+  aliases: 0
+- id: oyster-sauce
+  canonical_name: oyster sauce
+  file: oyster-sauce.yaml
+  aliases: 0
+- id: pancetta
+  canonical_name: pancetta
+  file: pancetta.yaml
+  aliases: 0
+- id: paneer
+  canonical_name: paneer
+  file: paneer.yaml
+  aliases: 0
+- id: paprika
+  canonical_name: paprika
+  file: paprika.yaml
+  aliases: 1
+- id: parmesan-cheese
+  canonical_name: parmesan cheese
+  file: parmesan-cheese.yaml
+  aliases: 1
+- id: parmigiano-reggiano
+  canonical_name: parmigiano-reggiano
+  file: parmigiano-reggiano.yaml
+  aliases: 0
+- id: parsley
+  canonical_name: parsley
+  file: parsley.yaml
+  aliases: 0
+- id: pasta
+  canonical_name: pasta
+  file: pasta.yaml
+  aliases: 0
+- id: peanut-butter
+  canonical_name: peanut butter
+  file: peanut-butter.yaml
+  aliases: 0
+- id: peanut-oil
+  canonical_name: peanut oil
+  file: peanut-oil.yaml
+  aliases: 0
+- id: pecorino-romano
+  canonical_name: pecorino romano
+  file: pecorino-romano.yaml
+  aliases: 0
+- id: pepper
+  canonical_name: pepper
+  file: pepper.yaml
+  aliases: 0
+- id: pepper-choice
+  canonical_name: pepper choice
+  file: pepper-choice.yaml
+  aliases: 0
+- id: peppers
+  canonical_name: peppers
+  file: peppers.yaml
+  aliases: 0
+- id: pickle-juice
+  canonical_name: pickle juice
+  file: pickle-juice.yaml
+  aliases: 0
+- id: pickling-herbs-or-spices
+  canonical_name: pickling herbs or spices
+  file: pickling-herbs-or-spices.yaml
+  aliases: 0
+- id: pineapple-juice
+  canonical_name: pineapple juice
+  file: pineapple-juice.yaml
+  aliases: 0
+- id: plain-yoghurt
+  canonical_name: plain yoghurt
+  file: plain-yoghurt.yaml
+  aliases: 0
+- id: plum-tomato
+  canonical_name: plum tomato
+  file: plum-tomato.yaml
+  aliases: 0
+- id: poppy-seeds
+  canonical_name: poppy seeds
+  file: poppy-seeds.yaml
+  aliases: 0
+- id: pork
+  canonical_name: pork
+  file: pork.yaml
+  aliases: 0
+- id: pork-belly
+  canonical_name: pork belly
+  file: pork-belly.yaml
+  aliases: 0
+- id: pork-belly-choice
+  canonical_name: pork belly choice
+  file: pork-belly-choice.yaml
+  aliases: 0
+- id: pork-chop
+  canonical_name: pork chop
+  file: pork-chop.yaml
+  aliases: 1
+- id: pork-roast
+  canonical_name: pork roast
+  file: pork-roast.yaml
+  aliases: 0
+- id: pork-shoulder
+  canonical_name: pork shoulder
+  file: pork-shoulder.yaml
+  aliases: 0
+- id: potato
+  canonical_name: potato
+  file: potato.yaml
+  aliases: 0
+- id: powdered-sweet-pepper
+  canonical_name: powdered sweet pepper
+  file: powdered-sweet-pepper.yaml
+  aliases: 0
+- id: puff-pastry
+  canonical_name: puff pastry
+  file: puff-pastry.yaml
+  aliases: 1
+- id: quark
+  canonical_name: quark
+  file: quark.yaml
+  aliases: 0
+- id: rabbit
+  canonical_name: rabbit
+  file: rabbit.yaml
+  aliases: 0
+- id: raisins
+  canonical_name: raisins
+  file: raisins.yaml
+  aliases: 0
+- id: ramen-noodles
+  canonical_name: ramen noodles
+  file: ramen-noodles.yaml
+  aliases: 0
+- id: red-bell-pepper
+  canonical_name: red bell pepper
+  file: red-bell-pepper.yaml
+  aliases: 0
+- id: red-chilli
+  canonical_name: red chilli
+  file: red-chilli.yaml
+  aliases: 1
+- id: red-chilli-powder
+  canonical_name: red chilli powder
+  file: red-chilli-powder.yaml
+  aliases: 0
+- id: red-chillies
+  canonical_name: red chillies
+  file: red-chillies.yaml
+  aliases: 0
+- id: red-curry-paste
+  canonical_name: red curry paste
+  file: red-curry-paste.yaml
+  aliases: 0
+- id: red-onion
+  canonical_name: red onion
+  file: red-onion.yaml
+  aliases: 0
+- id: red-pepper
+  canonical_name: red pepper
+  file: red-pepper.yaml
+  aliases: 0
+- id: red-pepper-flakes
+  canonical_name: red pepper flakes
+  file: red-pepper-flakes.yaml
+  aliases: 0
+- id: rice
+  canonical_name: rice
+  file: rice.yaml
+  aliases: 0
+- id: rice-noodles
+  canonical_name: rice noodles
+  file: rice-noodles.yaml
+  aliases: 0
+- id: rice-vinegar
+  canonical_name: rice vinegar
+  file: rice-vinegar.yaml
+  aliases: 0
+- id: rookworst
+  canonical_name: rookworst
+  file: rookworst.yaml
+  aliases: 0
+- id: rose-water
+  canonical_name: rose-water
+  file: rose-water.yaml
+  aliases: 0
+- id: rosemary
+  canonical_name: rosemary
+  file: rosemary.yaml
+  aliases: 0
+- id: round-squash
+  canonical_name: round squash
+  file: round-squash.yaml
+  aliases: 0
+- id: rye-flour
+  canonical_name: rye flour
+  file: rye-flour.yaml
+  aliases: 0
+- id: saffron
+  canonical_name: saffron
+  file: saffron.yaml
+  aliases: 0
+- id: sage
+  canonical_name: sage
+  file: sage.yaml
+  aliases: 0
+- id: salad-oil
+  canonical_name: salad oil
+  file: salad-oil.yaml
+  aliases: 0
+- id: salmon
+  canonical_name: salmon
+  file: salmon.yaml
+  aliases: 0
+- id: salt
+  canonical_name: salt
+  file: salt.yaml
+  aliases: 0
+- id: salt-pork
+  canonical_name: salt pork
+  file: salt-pork.yaml
+  aliases: 0
+- id: sardines
+  canonical_name: sardines
+  file: sardines.yaml
+  aliases: 0
+- id: sauce
+  canonical_name: sauce
+  file: sauce.yaml
+  aliases: 0
+- id: sauce-choice
+  canonical_name: sauce choice
+  file: sauce-choice.yaml
+  aliases: 0
+- id: savoiardi-biscuits
+  canonical_name: savoiardi biscuits
+  file: savoiardi-biscuits.yaml
+  aliases: 0
+- id: sazon
+  canonical_name: sazon
+  file: sazon.yaml
+  aliases: 0
+- id: scamorza-cheese
+  canonical_name: scamorza cheese
+  file: scamorza-cheese.yaml
+  aliases: 0
+- id: sea-salt
+  canonical_name: sea salt
+  file: sea-salt.yaml
+  aliases: 0
+- id: seafood
+  canonical_name: seafood
+  file: seafood.yaml
+  aliases: 0
+- id: seasoning
+  canonical_name: seasoning
+  file: seasoning.yaml
+  aliases: 0
+- id: seasoning-choice
+  canonical_name: seasoning choice
+  file: seasoning-choice.yaml
+  aliases: 0
+- id: seaweed
+  canonical_name: seaweed
+  file: seaweed.yaml
+  aliases: 0
+- id: serrano-chilies
+  canonical_name: serrano chilies
+  file: serrano-chilies.yaml
+  aliases: 0
+- id: sesame
+  canonical_name: sesame
+  file: sesame.yaml
+  aliases: 0
+- id: sesame-oil
+  canonical_name: sesame oil
+  file: sesame-oil.yaml
+  aliases: 0
+- id: sesame-seeds
+  canonical_name: sesame seeds
+  file: sesame-seeds.yaml
+  aliases: 0
+- id: shaoxing-wine
+  canonical_name: Shaoxing wine
+  file: shaoxing-wine.yaml
+  aliases: 0
+- id: sherry
+  canonical_name: sherry
+  file: sherry.yaml
+  aliases: 0
+- id: shortcrust-pastry
+  canonical_name: shortcrust pastry
+  file: shortcrust-pastry.yaml
+  aliases: 0
+- id: shortening
+  canonical_name: shortening
+  file: shortening.yaml
+  aliases: 0
+- id: shrimp
+  canonical_name: shrimp
+  file: shrimp.yaml
+  aliases: 0
+- id: smoked-pancetta
+  canonical_name: smoked pancetta
+  file: smoked-pancetta.yaml
+  aliases: 0
+- id: snail
+  canonical_name: snail
+  file: snail.yaml
+  aliases: 0
+- id: sodium-hydroxide
+  canonical_name: sodium hydroxide
+  file: sodium-hydroxide.yaml
+  aliases: 0
+- id: sour-cream
+  canonical_name: sour cream
+  file: sour-cream.yaml
+  aliases: 0
+- id: sourdough
+  canonical_name: sourdough
+  file: sourdough.yaml
+  aliases: 0
+- id: sourdough-starter
+  canonical_name: sourdough starter
+  file: sourdough-starter.yaml
+  aliases: 0
+- id: soured-cream
+  canonical_name: soured cream
+  file: soured-cream.yaml
+  aliases: 0
+- id: soy-sauce
+  canonical_name: soy sauce
+  file: soy-sauce.yaml
+  aliases: 0
+- id: spaghetti
+  canonical_name: spaghetti
+  file: spaghetti.yaml
+  aliases: 0
+- id: spices
+  canonical_name: spices
+  file: spices.yaml
+  aliases: 0
+- id: spinach
+  canonical_name: spinach
+  file: spinach.yaml
+  aliases: 0
+- id: split-peas
+  canonical_name: split peas
+  file: split-peas.yaml
+  aliases: 0
+- id: spring-onion
+  canonical_name: spring onion
+  file: spring-onion.yaml
+  aliases: 3
+- id: squash
+  canonical_name: squash
+  file: squash.yaml
+  aliases: 0
+- id: squash-choice
+  canonical_name: squash choice
+  file: squash-choice.yaml
+  aliases: 0
+- id: sriracha
+  canonical_name: sriracha
+  file: sriracha.yaml
+  aliases: 0
+- id: star-anise
+  canonical_name: star anise
+  file: star-anise.yaml
+  aliases: 0
+- id: stock
+  canonical_name: stock
+  file: stock.yaml
+  aliases: 0
+- id: stock-choice
+  canonical_name: stock choice
+  file: stock-choice.yaml
+  aliases: 0
+- id: sugar
+  canonical_name: sugar
+  file: sugar.yaml
+  aliases: 0
+- id: sumac
+  canonical_name: sumac
+  file: sumac.yaml
+  aliases: 0
+- id: sunflower-oil
+  canonical_name: sunflower oil
+  file: sunflower-oil.yaml
+  aliases: 0
+- id: sunflower-seeds
+  canonical_name: sunflower seeds
+  file: sunflower-seeds.yaml
+  aliases: 0
+- id: sweet-pepper
+  canonical_name: sweet pepper
+  file: sweet-pepper.yaml
+  aliases: 2
+- id: sweet-potato
+  canonical_name: sweet potato
+  file: sweet-potato.yaml
+  aliases: 0
+- id: sweetcorn
+  canonical_name: sweetcorn
+  file: sweetcorn.yaml
+  aliases: 0
+- id: sweetener
+  canonical_name: sweetener
+  file: sweetener.yaml
+  aliases: 0
+- id: tahini
+  canonical_name: tahini
+  file: tahini.yaml
+  aliases: 0
+- id: tarragon
+  canonical_name: tarragon
+  file: tarragon.yaml
+  aliases: 0
+- id: tea-choice
+  canonical_name: tea choice
+  file: tea-choice.yaml
+  aliases: 0
+- id: teriyaki-sauce
+  canonical_name: teriyaki sauce
+  file: teriyaki-sauce.yaml
+  aliases: 0
+- id: thai-red-curry-paste
+  canonical_name: Thai red curry paste
+  file: thai-red-curry-paste.yaml
+  aliases: 0
+- id: thinning-liquid
+  canonical_name: thinning liquid
+  file: thinning-liquid.yaml
+  aliases: 0
+- id: thyme
+  canonical_name: thyme
+  file: thyme.yaml
+  aliases: 0
+- id: toast
+  canonical_name: toast
+  file: toast.yaml
+  aliases: 0
+- id: tofu
+  canonical_name: tofu
+  file: tofu.yaml
+  aliases: 0
+- id: tomatillos
+  canonical_name: tomatillos
+  file: tomatillos.yaml
+  aliases: 0
+- id: tomato
+  canonical_name: tomato
+  file: tomato.yaml
+  aliases: 0
+- id: tomato-choice
+  canonical_name: tomato choice
+  file: tomato-choice.yaml
+  aliases: 0
+- id: tomato-paste
+  canonical_name: tomato paste
+  file: tomato-paste.yaml
+  aliases: 0
+- id: tomato-puree
+  canonical_name: tomato puree
+  file: tomato-puree.yaml
+  aliases: 1
+- id: tomato-sauce
+  canonical_name: tomato sauce
+  file: tomato-sauce.yaml
+  aliases: 0
+- id: tomato-sauce-choice
+  canonical_name: tomato sauce choice
+  file: tomato-sauce-choice.yaml
+  aliases: 0
+- id: tortilla-wrap
+  canonical_name: tortilla wrap
+  file: tortilla-wrap.yaml
+  aliases: 0
+- id: totopos
+  canonical_name: totopos
+  file: totopos.yaml
+  aliases: 0
+- id: trout
+  canonical_name: trout
+  file: trout.yaml
+  aliases: 0
+- id: turmeric
+  canonical_name: turmeric
+  file: turmeric.yaml
+  aliases: 1
+- id: turmeric-powder
+  canonical_name: turmeric powder
+  file: turmeric-powder.yaml
+  aliases: 0
+- id: turnip
+  canonical_name: turnip
+  file: turnip.yaml
+  aliases: 0
+- id: vanilla
+  canonical_name: vanilla
+  file: vanilla.yaml
+  aliases: 0
+- id: vanilla-bean
+  canonical_name: vanilla bean
+  file: vanilla-bean.yaml
+  aliases: 0
+- id: vanilla-choice
+  canonical_name: vanilla choice
+  file: vanilla-choice.yaml
+  aliases: 0
+- id: vanilla-essence
+  canonical_name: vanilla essence
+  file: vanilla-essence.yaml
+  aliases: 0
+- id: vanilla-extract
+  canonical_name: vanilla extract
+  file: vanilla-extract.yaml
+  aliases: 0
+- id: vanilla-flavouring
+  canonical_name: vanilla flavouring
+  file: vanilla-flavouring.yaml
+  aliases: 0
+- id: vanilla-ice-cream
+  canonical_name: vanilla ice cream
+  file: vanilla-ice-cream.yaml
+  aliases: 0
+- id: vanilla-sugar
+  canonical_name: vanilla sugar
+  file: vanilla-sugar.yaml
+  aliases: 0
+- id: veal
+  canonical_name: veal
+  file: veal.yaml
+  aliases: 0
+- id: veal-cutlet
+  canonical_name: veal cutlet
+  file: veal-cutlet.yaml
+  aliases: 0
+- id: vegetable-oil
+  canonical_name: vegetable oil
+  file: vegetable-oil.yaml
+  aliases: 0
+- id: vegetable-stock
+  canonical_name: vegetable stock
+  file: vegetable-stock.yaml
+  aliases: 0
+- id: vegetables
+  canonical_name: vegetables
+  file: vegetables.yaml
+  aliases: 0
+- id: venison
+  canonical_name: venison
+  file: venison.yaml
+  aliases: 0
+- id: vermicelli
+  canonical_name: vermicelli
+  file: vermicelli.yaml
+  aliases: 0
+- id: vermicelli-noodles
+  canonical_name: vermicelli noodles
+  file: vermicelli-noodles.yaml
+  aliases: 0
+- id: vinegar
+  canonical_name: vinegar
+  file: vinegar.yaml
+  aliases: 0
+- id: walnuts
+  canonical_name: walnuts
+  file: walnuts.yaml
+  aliases: 0
+- id: water
+  canonical_name: water
+  file: water.yaml
+  aliases: 0
+- id: waxed-beans
+  canonical_name: waxed beans
+  file: waxed-beans.yaml
+  aliases: 0
+- id: wheat-flour
+  canonical_name: wheat flour
+  file: wheat-flour.yaml
+  aliases: 0
+- id: whipped-cream
+  canonical_name: whipped cream
+  file: whipped-cream.yaml
+  aliases: 0
+- id: white-beans
+  canonical_name: white beans
+  file: white-beans.yaml
+  aliases: 0
+- id: white-onion
+  canonical_name: white onion
+  file: white-onion.yaml
+  aliases: 0
+- id: white-pepper
+  canonical_name: white pepper
+  file: white-pepper.yaml
+  aliases: 0
+- id: white-sugar
+  canonical_name: white sugar
+  file: white-sugar.yaml
+  aliases: 0
+- id: white-vinegar
+  canonical_name: white vinegar
+  file: white-vinegar.yaml
+  aliases: 0
+- id: white-wine
+  canonical_name: white wine
+  file: white-wine.yaml
+  aliases: 0
+- id: wine
+  canonical_name: wine
+  file: wine.yaml
+  aliases: 0
+- id: wine-and-brandy
+  canonical_name: wine and brandy
+  file: wine-and-brandy.yaml
+  aliases: 0
+- id: wine-choice
+  canonical_name: wine choice
+  file: wine-choice.yaml
+  aliases: 0
+- id: worcestershire-sauce
+  canonical_name: Worcestershire sauce
+  file: worcestershire-sauce.yaml
+  aliases: 0
+- id: yeast
+  canonical_name: yeast
+  file: yeast.yaml
+  aliases: 0
+- id: yellow-curry
+  canonical_name: yellow curry
+  file: yellow-curry.yaml
+  aliases: 0
+- id: yoghurt
+  canonical_name: yoghurt
+  file: yoghurt.yaml
+  aliases: 1
+- id: yukon-potato
+  canonical_name: Yukon potato
+  file: yukon-potato.yaml
+  aliases: 0
+- id: za-atar
+  canonical_name: za'atar
+  file: za-atar.yaml
+  aliases: 0
+- id: 4oz-as-stated
+  canonical_name: ~4oz as stated
+  file: 4oz-as-stated.yaml
+  aliases: 0
+- id: allspice
+  canonical_name: allspice
+  file: allspice.yaml
+  aliases: 0
+- id: beer
+  canonical_name: beer
+  file: beer.yaml
+  aliases: 0
+- id: shallot
+  canonical_name: shallot
+  file: shallot.yaml
+  aliases: 1
+- id: radish
+  canonical_name: radish
+  file: radish.yaml
+  aliases: 1
+- id: arugula
+  canonical_name: arugula
+  file: arugula.yaml
+  aliases: 1
+- id: buttermilk
+  canonical_name: buttermilk
+  file: buttermilk.yaml
+  aliases: 0
+- id: liquid-smoke
+  canonical_name: liquid smoke
+  file: liquid-smoke.yaml
+  aliases: 0
+- id: fennel-seeds
+  canonical_name: fennel seeds
+  file: fennel-seeds.yaml
+  aliases: 0
+- id: peanut
+  canonical_name: peanut
+  file: peanut.yaml
+  aliases: 1
+- id: pecan
+  canonical_name: pecan
+  file: pecan.yaml
+  aliases: 1
+- id: ricotta
+  canonical_name: ricotta
+  file: ricotta.yaml
+  aliases: 0
+- id: turkey
+  canonical_name: turkey
+  file: turkey.yaml
+  aliases: 0
+- id: asparagus
+  canonical_name: asparagus
+  file: asparagus.yaml
+  aliases: 0
+- id: buckwheat
+  canonical_name: buckwheat
+  file: buckwheat.yaml
+  aliases: 0
+- id: brandy
+  canonical_name: brandy
+  file: brandy.yaml
+  aliases: 0
+- id: bourbon
+  canonical_name: bourbon
+  file: bourbon.yaml
+  aliases: 0
+- id: feta
+  canonical_name: feta
+  file: feta.yaml
+  aliases: 1
+- id: clementine
+  canonical_name: clementine
+  file: clementine.yaml
+  aliases: 0

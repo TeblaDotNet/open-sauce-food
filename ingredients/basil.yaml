@@ -1,0 +1,19 @@
+id: basil
+kind: ingredient
+canonical_name: basil
+names:
+  en: basil
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: basil
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

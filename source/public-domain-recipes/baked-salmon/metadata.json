@@ -1,0 +1,33 @@
+{
+  "title": "Baked Salmon",
+  "source_url": "https://publicdomainrecipes.com/baked-salmon/",
+  "source_author": "carl-zimmerman",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/baked-salmon.md",
+  "original_sha256": "a4f4629ee2bd5ef85493d9ca3da18b0cf519b1d4ab6388696cd627a23a36ba99",
+  "original_front_matter": {
+    "title": "Baked Salmon",
+    "date": "2021-03-17",
+    "tags": [
+      "basic",
+      "fish"
+    ],
+    "author": "carl-zimmerman"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "5 min",
+    "Cook time": "19 min"
+  },
+  "ingredients_source_markdown": "- Salmon Steaks\n- Red Pepper Flakes\n- Lemon Juice\n- Butter\n- Cooking oil / spray\n- Aluminum Foil",
+  "directions_source_markdown": "1. Season salmon with salt, black pepper, and red pepper to taste.\n2. Spray or rub in cooking oil on aluminum foil and place on cookie sheet or in baking pan.\n3. Squeeze lemon juice and place a teaspoon of butter on each salmon steak.\n4. Bake at 400°F / 200°C for 19 mins.",
+  "images": [],
+  "coverage_group": "fish-seafood"
+}

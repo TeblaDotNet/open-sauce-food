@@ -1,0 +1,41 @@
+{
+  "title": "Italian Mulled Wine",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/italian-mulled-wine.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "cd5477c6214cecd2c8bfc43c10b1aaffbee7f8111008eb190dd481dd3bc03975",
+  "original_front_matter": {
+    "title": "Italian Mulled Wine",
+    "date": "2021-05-13",
+    "tags": [
+      "alcohol",
+      "wine",
+      "liquor",
+      "drink"
+    ],
+    "author": "mfed3"
+  },
+  "source_url": "https://publicdomainrecipes.com/italian-mulled-wine/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Italian Mulled Wine",
+      "url": "/pix/italian-mulled-wine.webp",
+      "upstreamPath": "static/pix/italian-mulled-wine.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "4b8c7efe62a2b7988805e85e3082f4306d4abe8a2c3b16bf7c8e0001fd989590",
+      "sourcePath": "source/public-domain-recipes/italian-mulled-wine/italian-mulled-wine.webp",
+      "promotedPath": "examples/public-domain-recipes/italian-mulled-wine/italian-mulled-wine.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

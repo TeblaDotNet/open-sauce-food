@@ -1,0 +1,69 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Stracciatella soup
+source: https://publicdomainrecipes.com/stracciatella-soup/
+source author: pestanzul
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: eggs, soup
+serves: 1
+image: stracciatella-soup.webp
+
+# Imported from content/stracciatella-soup.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15 min
+# Source metadata: - 🍽️ Servings: 1
+
+::ingredients
+
+(egg) 2
+(broth) 500 ml
+(olive oil, optional)
+
+::equipment
+
+(bowl)
+
+::instructions
+
+(egg) <beat, in a bowl>
+(broth) <heat, to boiling>
+(egg) <pour, in the broth without removing from the stovetop>
+<stir, with a whip until eggs coagulate>
+<serve, broth and eggs together>
+If you want, you may season the dish with some olive oil.
+This dish is best accompanied with toasted bread.
+
+::source
+<<<
+---
+title: Stracciatella soup
+tags: ['eggs', 'soup']
+date: 2025-09-25
+author: "pestanzul"
+---
+
+![Stracciatella soup](/pix/stracciatella-soup.webp)
+
+- ⏲️ Prep time: 15 min
+- 🍽️ Servings: 1
+
+## Ingredients
+
+- 2 eggs
+- 500 ml broth
+- Olive oil (optional)
+
+## Directions
+
+1. Beat the eggs in a bowl.
+2. Heat broth to boiling.
+3. Pour the eggs in the broth without removing from the stovetop.
+4. Stir with a whip until eggs coagulate.
+5. Serve broth and eggs together.
+6. If you want, you may season the dish with some olive oil.
+
+This dish is best accompanied with toasted bread.
+>>>

@@ -1,0 +1,41 @@
+{
+  "title": "Brigadeiro",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/brigadeiro.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "6ac61569f27957be6ff76a1bcdeaf4e3c86ffb9eacec3fc7e0d5f0f2dfef4de6",
+  "original_front_matter": {
+    "title": "Brigadeiro",
+    "date": "2021-03-16",
+    "tags": [
+      "dessert",
+      "quick",
+      "brazilian",
+      "cheesefare"
+    ],
+    "author": "daniel-kemmerich"
+  },
+  "source_url": "https://publicdomainrecipes.com/brigadeiro/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Brigadeiro",
+      "url": "/pix/brigadeiro.webp",
+      "upstreamPath": "static/pix/brigadeiro.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "832b843ee5c64cf61812a1780221fdbf1facb1551a2ab6b6289b842cb621d32f",
+      "sourcePath": "source/public-domain-recipes/brigadeiro/brigadeiro.webp",
+      "promotedPath": "examples/public-domain-recipes/brigadeiro/brigadeiro.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

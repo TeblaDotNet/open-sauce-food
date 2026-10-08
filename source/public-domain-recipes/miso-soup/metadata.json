@@ -1,0 +1,30 @@
+{
+  "title": "Miso-soup",
+  "source_url": "https://publicdomainrecipes.com/miso-soup/",
+  "source_author": "yakatan",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/miso-soup.md",
+  "original_sha256": "7f3edc5ed0bfba86d8fa770508b9dff2f975bff346e205dd9e8d2b2447323132",
+  "original_front_matter": {
+    "title": "Miso-soup",
+    "date": "2021-03-23",
+    "tags": [
+      "japanese",
+      "soup"
+    ],
+    "author": "yakatan"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- dashi stock\n- miso paste\n- tofu(optional)\n- seaweed(optional)\n- green onion(optional)",
+  "directions_source_markdown": "1. put about half of the water in the pot and bring the water to a boil.\n2. put the dashi stock in the pot.\n3. if you use tofu or seaweed, cut the ingredients into bite-sized pieces, place the ingredients in the pot and bring to a boil.\n4. Melt the miso in the water and bring the water to a boil.\n6. serve into small bowls.\n7. if you use green onion, slice them and put in a small bowls.",
+  "images": [],
+  "coverage_group": "soups"
+}

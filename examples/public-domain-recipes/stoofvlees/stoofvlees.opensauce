@@ -1,0 +1,106 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Stoofvlees
+source: https://publicdomainrecipes.com/stoofvlees/
+source author: yiusa
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: beef, stew, belgian
+serves: 4
+
+# Imported from content/stoofvlees.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 30 min
+# Source metadata: - 🍳 Cook time: 2 to 4 hours
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(onion, Large) 2
+(butter) 1 tablespoon
+(chuck roast, cut in bite-sized pieces) 1kg
+(beer, brown) 2 bottles of 33cl
+(bayleaves) 2
+(twigs of thyme) 2
+(ingredient described in source, spice) 1 clove
+(belgian apple/pear syrup, optional, ill write up a recipe for this soon) 2 tablespoons
+(vinegar) 2 teaspoons
+(bread) 1 slice
+(mustard)
+
+::equipment
+
+(saucepan)
+(frying pan)
+(oven)
+(pot)
+
+::instructions
+
+<peel, the onions and cut them into medium sized pieces, don't cut the onion too small>
+<place, a large saucepan or dutch oven on low heat and add 1 tbsp butter. Once melted add your onions, cook until translucent>
+While your onions are cooking place a large frying pan on medium high heat and melt your second spoon of butter.
+<fry, up your beef until it has a nice brown crust, to prevent overcrowding the pan you should sear the meat in separate batches, be careful to not burn the fond on the bottom of the pan.season the meat with salt and pepper while its cooking>
+When a piece of beef is done searing add it to the pot with the onions, once you're done searing all of your meat add your beer to the frying pan and use it to deglaze, scrape off all the pieces stuck to the frying pan.
+<add, the beer you used to deglaze to the pot with the onions and beef>
+<add, the bayleaf and thyme, optionally you can bind them together with some kitchen twine so they are easier to pick out later>
+<add, your clove and if you have it the syrup>
+<take, your piece of preferably brown bread and generously spread it with mustard on both sides, place it in the sauce>
+<let, it simmer on low heat, stirring once every 10-15 minutes. when the sauce has reached your desired thickness place a lid on the pot>
+The cooking time will depend on the quality of your meat, start checking the if your meat is done once its been simmering for about 2 hours.
+The meat is done when the pieces hold together when gently stirring the sauce, but are easily cut with a fork or spoon.
+Finish the sauce by gently stirring in the vinegar to brighten up the flavors and serve.
+
+::story
+
+This is a traditional belgian stew made with cheap, though beef cuts, beer and onions. Traditionally eaten with fries and chicory salad.
+
+
+::source
+<<<
+---
+title: "Stoofvlees"
+date: 2021-03-21
+tags: ['beef', 'stew', 'belgian']
+author: yiusa
+---
+
+This is a traditional belgian stew made with cheap, though beef cuts, beer and onions.
+Traditionally eaten with fries and chicory salad.
+
+- ⏲️ Prep time: 30 min
+- 🍳 Cook time: 2 to 4 hours
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 2 Large onions
+- 1 tablespoon butter
+- 1kg chuck roast, cut in bite-sized pieces
+- 2 33cl bottles of brown beer
+- 2 bayleaves
+- 2 twigs of thyme
+- 1 clove (spice)
+- 2 tablespoons of belgian apple/pear syrup (optional, ill write up a recipe for this soon)
+- 2 teaspoons of vinegar
+- 1 slice of bread
+- mustard
+
+## Directions
+
+1. Peel the onions and cut them into medium sized pieces, don't cut the onion too small.
+2. Place a large saucepan or dutch oven on low heat and add 1 tbsp butter. Once melted add your onions, cook until translucent.
+3. While your onions are cooking place a large frying pan on medium high heat and melt your second spoon of butter.
+4. Fry up your beef until it has a nice brown crust, to prevent overcrowding the pan you should sear the meat in separate batches, be careful to not burn the fond on the bottom of the pan.season the meat with salt and pepper while its cooking.
+5. When a piece of beef is done searing add it to the pot with the onions, once you're done searing all of your meat add your beer to the frying pan and use it to deglaze, scrape off all the pieces stuck to the frying pan.
+6. Add the beer you used to deglaze to the pot with the onions and beef.
+7. Add the bayleaf and thyme, optionally you can bind them together with some kitchen twine so they are easier to pick out later.
+8. Add your clove and if you have it the syrup.
+9. Take your piece of preferably brown bread and generously spread it with mustard on both sides, place it in the sauce.
+10. let it simmer on low heat, stirring once every 10-15 minutes. when the sauce has reached your desired thickness place a lid on the pot.
+11. The cooking time will depend on the quality of your meat, start checking the if your meat is done once its been simmering for about 2 hours.
+12. The meat is done when the pieces hold together when gently stirring the sauce, but are easily cut with a fork or spoon.
+13. Finish the sauce by gently stirring in the vinegar to brighten up the flavors and serve.
+>>>

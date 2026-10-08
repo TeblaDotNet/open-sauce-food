@@ -1,0 +1,13 @@
+id: pat
+kind: process
+names:
+  en: pat
+observed_forms:
+- syntax: pat, ~2cm thick
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: ~2cm thick
+  count: 1
+legacy_observation: true

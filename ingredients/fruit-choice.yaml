@@ -1,0 +1,18 @@
+id: fruit-choice
+kind: ingredient
+canonical_name: fruit choice
+names:
+  en: fruit choice
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: fruit choice
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

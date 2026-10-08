@@ -1,0 +1,14 @@
+id: allspice
+kind: ingredient
+canonical_name: allspice
+names:
+  en: allspice
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/pastitsio/pastitsio.opensauce
+  - examples/public-domain-recipes/soleier/soleier.opensauce
+  - examples/public-domain-recipes/spiced-cantaloupe/spiced-cantaloupe.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

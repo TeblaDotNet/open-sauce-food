@@ -1,0 +1,55 @@
+::recipe
+
+name: Fresh Guacamole
+source: https://publicdomainrecipes.com/guacamole/
+source author: yaroslav-smirnov
+source license: Public domain (Unlicense)
+ingredients: mixed
+category: dip
+tags: avocado, fresh, Mexican-inspired
+dietary: vegan
+serves: ~2
+image: guacamole.webp
+
+::ingredients
+
+(avocado, Hass) 2
+(onion, medium) 1/4
+(tomato, small) 1
+(cilantro) as needed
+(lime) 1
+(salt) to taste
+(black pepper) to taste
+(totopos, for serving) as desired
+
+::equipment
+
+(bowl)
+
+::instructions
+
+(avocado) <halve>
+    <remove pulp, bowl>
+    <mash>
+    + (lime: juice)
+    <mix>
+    <mash, some more>
+
+(cilantro) <mince>
+(tomato) <mince>
+(onion) <mince>
+
+{guacamole} =
+    (avocado) +
+    (cilantro) +
+    (tomato) +
+    (onion) +
+    (salt) +
+    (black pepper)
+
+{guacamole} <mix, thoroughly>
+    <serve, fresh, with totopos>
+
+::notes
+The source recommends eating the guacamole fresh because avocado oxidises quickly and can
+lose colour and texture within a few hours.

@@ -1,0 +1,12 @@
+id: fold-and-tuck
+kind: process
+names:
+  en: fold and tuck
+observed_forms:
+- syntax: fold and tuck, excess crust
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+observed_parameters:
+- value: excess crust
+  count: 1

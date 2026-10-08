@@ -1,0 +1,18 @@
+id: pie-dish
+kind: equipment
+canonical_name: pie dish
+names:
+  en: pie dish
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: pie dish
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+observed_qualifiers:
+- value: ~9in
+  count: 1

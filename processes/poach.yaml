@@ -1,0 +1,31 @@
+id: poach
+kind: process
+canonical_name: poach
+names:
+  en: poach
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 1
+  observed_terms:
+  - term: poach
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+  legacy_terms:
+  - term: poach
+    count: 1
+observed_parameters:
+- value: 10-12m
+  count: 1
+- value: 3-4m
+  count: 1
+- value: covered
+  count: 1
+- value: medium heat
+  count: 1
+- value: stir water with spoon into small whirlpool
+  count: 1
+- value: until cooked through
+  count: 1

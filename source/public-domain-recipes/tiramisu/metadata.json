@@ -1,0 +1,35 @@
+{
+  "title": "Tiramisù",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tiramisu.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "3e2ea8aee9148b555aac2f26c7ebfa4f2e4810867dfbdbc792dd94378de25009",
+  "original_front_matter": {
+    "title": "Tiramisù",
+    "tags": [
+      "dessert",
+      "italian",
+      "sweet"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/tiramisu/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Tiramisù",
+      "url": "/pix/tiramisu.webp",
+      "upstreamPath": "static/pix/tiramisu.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

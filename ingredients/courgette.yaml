@@ -1,0 +1,37 @@
+id: courgette
+kind: ingredient
+canonical_name: courgette
+names:
+  en-GB: courgette
+  en-US: zucchini
+  en-AU: zucchini
+status: reviewed-merge
+aliases:
+- name: zucchini
+  type: regional-name
+  observed_count: 3
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 1
+  observed_terms:
+  - term: zucchini
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  legacy_terms:
+  - term: courgette
+    count: 1
+observed_qualifiers:
+- value: 1/2in chunks
+  count: 1
+- value: medium
+  count: 1
+- value: small
+  count: 1
+- value: ~6cm sticks
+  count: 1
+plural_names:
+  en: courgettes

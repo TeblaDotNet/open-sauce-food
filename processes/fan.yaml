@@ -1,0 +1,18 @@
+id: fan
+kind: process
+canonical_name: fan
+names:
+  en: fan
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: fan
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+observed_parameters:
+- value: slices slightly to side
+  count: 1

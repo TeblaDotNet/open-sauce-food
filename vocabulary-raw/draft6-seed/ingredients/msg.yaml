@@ -1,0 +1,10 @@
+id: msg
+kind: ingredient
+names:
+  en: MSG
+observed_forms:
+- syntax: MSG
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

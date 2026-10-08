@@ -1,0 +1,22 @@
+id: bread-crumbs
+kind: ingredient
+canonical_name: bread crumbs
+names:
+  en: bread crumbs
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: bread crumbs
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+observed_qualifiers:
+- value: Panko
+  count: 1
+aliases:
+- name: breadcrumbs
+  type: review-pass-1-lexical

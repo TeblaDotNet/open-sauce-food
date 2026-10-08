@@ -1,0 +1,15 @@
+id: discard
+kind: process
+canonical_name: discard
+names:
+  en: discard
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: discard
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce

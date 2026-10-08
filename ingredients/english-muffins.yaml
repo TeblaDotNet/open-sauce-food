@@ -1,0 +1,18 @@
+id: english-muffins
+kind: ingredient
+canonical_name: English muffins
+names:
+  en: English muffins
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: English muffins
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+observed_qualifiers:
+- value: split
+  count: 1

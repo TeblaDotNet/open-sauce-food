@@ -1,0 +1,108 @@
+::recipe
+
+name: Slow-cooked Lamb with Lemon
+source: https://publicdomainrecipes.com/slow-cooked-lamb-with-lemon/
+source author: ben-stox
+source license: Public domain (Unlicense)
+units: source
+tags: lamb, roast, lemon, mediterranean
+image: slow-cooked-lamb-with-lemon.webp
+
+# Original source: ../../../source/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: 2 lemons; half a lemon in marinade; remaining lemon in directions. Source singular remaining lemon conflicts with apparent 1½ remainder; do not silently reconcile.
+
+::ingredients
+
+(lamb, shoulder or similar such as shank, preferably bone-in) fits pot with space for vegetables; example half shoulder 2-3lb / 1-1.5kg
+(garlic) 1 whole head
+(carrot) 2
+(leek) 1
+(onion) 1
+(lemon) 2
+(oregano) as needed
+(rosemary) as needed
+(potato, optional) as desired
+(yoghurt, optional, for serving) as desired
+(bread, fresh, optional, for serving) as desired
+# Method-only items
+(olive oil) some
+(salt) as needed
+(pepper) as needed
+(water) 1 cup; more if needed
+
+::equipment
+
+(pot, lidded, oven-safe) -OR- (roasting tray, sided, foil cover)
+(oven)
+(refrigerator)
+
+::instructions
+
+# Night before
+{marinade} = (olive oil) + (lemon: juice) of half a lemon + (oregano) + (rosemary) + (salt) + (pepper)
+{marinade} <mix>
+(lamb) + {marinade} <rub>
+    <marinate, refrigerator, overnight>
+# Next day
+(oven) <heat, 375f / 190c / gas mark 5>
+(garlic) <separate, cloves, leave skin or peel as preferred>
+(carrot) + (leek) + (onion) + (lemon) remaining <chop, chunks>
+Optional [
+    (potato) <chop, chunks>
+]
+{lamb pot} = (lamb) + (garlic) + (carrot) + (leek) + (onion) + (lemon) remaining
+{lamb pot} <arrange, vegetables underneath and around meat, lidded oven-safe pot or sided roasting tray tightly sealed with foil>
+Optional [
+    {lamb pot} + (potato)
+]
+{lamb pot} + {marinade} juices + (water) 1 cup
+    <cook, oven, 2 1/2-3h, check halfway and add water if needed to prevent burning>
+Optional [
+    {lamb pot} <uncover>
+        <brown, a few minutes if needed>
+]
+(lamb) <pull apart>
+    <serve, optional yoghurt and bread; juices may be gravy>
+
+::story
+
+You'll need a good-sized lidded pot that can go in the oven for this. But if you don't have that then you can use a large roasting tray with sides and cover it with foil, sealing it as best you can. It's an excellent celebration or Sunday meal.
+
+::source
+<<<
+---
+title: "Slow-cooked Lamb with Lemon"
+author: ben-stox
+tags: ['lamb', 'roast', 'lemon', 'mediterranean']
+date: 2022-04-16
+---
+
+![Slow-cooked Lamb with Lemon](/pix/slow-cooked-lamb-with-lemon.webp)
+
+You'll need a good-sized lidded pot that can go in the oven for this. But if you don't have that then you can use a large roasting tray with sides and cover it with foil, sealing it as best you can. It's an excellent celebration or Sunday meal.
+
+## Ingredients
+
+- Lamb shoulder, or something similar, like lamb shank, preferably on the bone. Get something that will fit in your pot, with room for vegetables around it. For example, I usually get half a shoulder, 2 – 3 lbs, 1 – 1.5kg.
+- a whole head of garlic
+- 2 carrots
+- 1 leek
+- 1 onion
+- 2 lemons
+- oregano
+- rosemary
+- potatoes (optional)
+- yoghurt (optional, to serve)
+- fresh bread (optional, to serve)
+
+## Directions
+
+1. _On the night before:_ Mix up some olive oil, the juice of half a lemon, the oregano, the rosemary, and some salt and pepper. Rub this mixture into the meat and leave it in the fridge overnight to marinate.
+2. _The next day:_ Heat the oven to 375°F/190°C/gas mark 5.
+3. Break apart the garlic. You can leave the skin on the cloves, or you can peel them, as you prefer. Chop the carrots, leek, onion, the remaining lemon, and the potatoes into chunks.
+4. Arrange the meat in the pot with the vegetables underneath and around it. Pour in any marinating juices, as well as a cup of water.
+5. Cook for 2½ – 3 hours. Half way through it's a good idea to check and see if it needs some more water to keep things from burning.
+6. Remove the lid and let the meat brown for a few minutes if you think it needs it.
+7. Pull the meat apart and serve, with yoghurt and fresh bread. You can use the juices as a gravy.
+>>>

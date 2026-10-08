@@ -1,0 +1,40 @@
+{
+  "title": "Wholemeal Pizza",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/wholemeal-pizza.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "d5c6b3bf3f8e3d4604db1134563a8e1be1168c2952696c1f906e2916594acc03",
+  "original_front_matter": {
+    "title": "Wholemeal Pizza",
+    "tags": [
+      "wholemeal",
+      "pizza",
+      "italian"
+    ],
+    "date": "2022-07-15",
+    "author": "leo-meinel"
+  },
+  "source_url": "https://publicdomainrecipes.com/wholemeal-pizza/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Wholemeal-Pizza",
+      "url": "/pix/wholemeal-pizza.webp",
+      "upstreamPath": "static/pix/wholemeal-pizza.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "37c6821ad71f7c282121336b9d04139f7909cfc7f6cf48ce438ab7c19ea2c936",
+      "sourcePath": "source/public-domain-recipes/wholemeal-pizza/wholemeal-pizza.webp",
+      "promotedPath": "examples/public-domain-recipes/wholemeal-pizza/wholemeal-pizza.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

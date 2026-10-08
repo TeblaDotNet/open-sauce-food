@@ -1,0 +1,82 @@
+id: cover
+kind: process
+canonical_name: cover
+names:
+  en: cover
+status: canonical-seed
+evidence:
+  legacy_observation_count: 5
+  observed_terms:
+    - term: cover
+      count: 30
+  seen_in:
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+    - examples/public-domain-recipes/ceviche/ceviche.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+    - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+    - examples/public-domain-recipes/kombucha/kombucha.opensauce
+    - examples/public-domain-recipes/lentejas/lentejas.opensauce
+    - examples/public-domain-recipes/limoncello/limoncello.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/pretzels/pretzels.opensauce
+    - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+    - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+    - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+    - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+  legacy_terms:
+    - term: cover
+      count: 5
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: a few inches
+    count: 2
+  - value: allow scoby to breathe and exclude dirt and insects
+    count: 1
+  - value: boiling water
+    count: 1
+  - value: damp cloth
+    count: 1
+  - value: dry cloth
+    count: 1
+  - value: foil
+    count: 1
+  - value: lid
+    count: 2
+  - value: loosely
+    count: 1
+  - value: loosely with plastic wrap
+    count: 1
+  - value: pan
+    count: 1
+  - value: plastic wrap
+    count: 1
+  - value: remaining crust
+    count: 2
+  - value: retain moisture
+    count: 1
+  - value: saucepan
+    count: 1
+  - value: soft cloth
+    count: 1
+  - value: tight lid or airlock lid or coffee filter secured with rubber band
+    count: 1
+  - value: tight lid when finished
+    count: 1
+  - value: tightly with cloth or paper towel and rubber band
+    count: 1
+  - value: water
+    count: 3
+  - value: water 1 inch above lentils
+    count: 1
+  - value: water at least 1in above
+    count: 1

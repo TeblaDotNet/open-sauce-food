@@ -1,0 +1,27 @@
+id: press
+kind: process
+canonical_name: press
+names:
+  en: press
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: press
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/crostata/crostata.opensauce
+  - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+  - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+observed_parameters:
+- value: each side of breast until crack heard
+  count: 1
+- value: through jam to bottom
+  count: 1
+- value: through sieve
+  count: 1
+- value: until flakes adhere when lifted
+  count: 1

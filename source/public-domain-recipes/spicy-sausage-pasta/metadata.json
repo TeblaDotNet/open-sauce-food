@@ -1,0 +1,43 @@
+{
+  "title": "Spicy Sausage Pasta",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/spicy-sausage-pasta.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "520f5d01cb5082fadce05697b10d82cd7984443f92bacb5fa6469d5b373ab58b",
+  "original_front_matter": {
+    "title": "Spicy Sausage Pasta",
+    "author": "tom-cotter",
+    "date": "2022-05-31",
+    "tags": [
+      "italian",
+      "sausage",
+      "pork",
+      "pasta",
+      "cream",
+      "spicy"
+    ]
+  },
+  "source_url": "https://publicdomainrecipes.com/spicy-sausage-pasta/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Spicy Sausage Pasta",
+      "url": "/pix/spicy-sausage-pasta.webp",
+      "upstreamPath": "static/pix/spicy-sausage-pasta.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "8699607952ad18bd0217b21aaf1cd7b17286886070ea65ab56c26caa4c8cacb6",
+      "sourcePath": "source/public-domain-recipes/spicy-sausage-pasta/spicy-sausage-pasta.webp",
+      "promotedPath": "examples/public-domain-recipes/spicy-sausage-pasta/spicy-sausage-pasta.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

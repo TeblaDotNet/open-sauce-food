@@ -1,0 +1,13 @@
+id: pierce
+kind: process
+names:
+  en: pierce
+observed_forms:
+- syntax: pierce, top
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: top
+  count: 1
+legacy_observation: true

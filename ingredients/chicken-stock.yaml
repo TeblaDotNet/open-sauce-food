@@ -1,0 +1,22 @@
+id: chicken-stock
+kind: ingredient
+canonical_name: chicken stock
+names:
+  en: chicken stock
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 2
+  observed_terms:
+  - term: chicken stock
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+  legacy_terms:
+  - term: chicken stock
+    count: 2

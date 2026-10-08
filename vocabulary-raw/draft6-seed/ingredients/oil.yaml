@@ -1,0 +1,14 @@
+id: oil
+kind: ingredient
+names:
+  en: oil
+observed_forms:
+- syntax: oil
+  count: 5
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+- legacy-corpus:bbc-food-10
+legacy_observation: true

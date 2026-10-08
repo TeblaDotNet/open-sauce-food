@@ -1,0 +1,32 @@
+id: orange
+kind: ingredient
+canonical_name: orange
+names:
+  en: orange
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: orange
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+  - examples/public-domain-recipes/orange-jam/orange-jam.opensauce
+observed_qualifiers:
+- value: medium
+  count: 1
+- value: zest
+  count: 1
+parts:
+  juice:
+    names:
+      en: juice
+  zest:
+    names:
+      en: zest
+  peel:
+    names:
+      en: peel

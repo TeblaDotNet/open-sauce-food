@@ -1,0 +1,26 @@
+id: parsley
+kind: ingredient
+canonical_name: parsley
+names:
+  en: parsley
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: parsley
+      count: 5
+  seen_in:
+    - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+    - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: chopped
+    count: 1
+  - value: for serving
+    count: 1
+  - value: fresh
+    count: 3
+  - value: optional
+    count: 2

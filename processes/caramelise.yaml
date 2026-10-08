@@ -1,0 +1,25 @@
+id: caramelise
+kind: process
+canonical_name: caramelise
+names:
+  en: caramelise
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: caramelise
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+observed_parameters:
+- value: allow drying and fond between liquid additions
+  count: 1
+- value: alternatively oven grill may work
+  count: 1
+- value: blowtorch
+  count: 1
+- value: slowly deglaze with wooden spoon
+  count: 1

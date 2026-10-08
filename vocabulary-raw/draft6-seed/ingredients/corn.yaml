@@ -1,0 +1,9 @@
+id: corn
+kind: ingredient
+names:
+  en: corn
+observed_forms:
+- syntax: corn
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

@@ -1,0 +1,17 @@
+id: nutmeg
+kind: ingredient
+names:
+  en: nutmeg
+observed_forms:
+- syntax: nutmeg
+  count: 1
+- syntax: nutmeg, ground, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+observed_qualifiers:
+- value: ground
+  count: 1
+- value: optional
+  count: 1

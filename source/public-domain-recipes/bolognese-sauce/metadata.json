@@ -1,0 +1,43 @@
+{
+  "title": "Bolognese Sauce",
+  "source_url": "https://publicdomainrecipes.com/bolognese-sauce/",
+  "source_author": "tait",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/bolognese-sauce.md",
+  "original_sha256": "1f288eb37ec7266e1082f89593edad84457e48b974cf98f5c987e213ec7f9f72",
+  "original_front_matter": {
+    "title": "Bolognese Sauce",
+    "date": "2021-03-23",
+    "tags": [
+      "sauce",
+      "italian",
+      "pasta"
+    ],
+    "author": "tait"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "45 min",
+    "Cook time": "at least 4 hours"
+  },
+  "ingredients_source_markdown": "- extra virgin olive oil\n- 2 carrots\n- 2 celery sticks\n- 1 large onion\n- 2 garlic cloves (optional, but not traditional)\n- 200 grams pancetta (optional)\n- 300 grams beef mince\n- 350 grams pork mince\n- 350 grams veal mince (if you cant find veal replace with pork)\n- 140 grams concentrated tomato paste\n- 690 grams diced tomatoes\n- water\n- 1 can peeled tomatoes\n- 1-2 glasses wine (whatever you have open)\n- 1 glass of milk (optional)\n- 1 glass of beef/vegetable stock (optional)",
+  "directions_source_markdown": "1. Finely dice the carrots, celery, onion and pancetta, if your blender can handle it you can optionally blend all this to speed it up.\n2. Heat up a large saucepan or dutch oven on medium low heat and put enough olive oil in to cover the bottom of the pan.\n3. Put in your diced veggies and pancetta and let it slowly sauté for about 10 minutes until everything is fragrant and soft.\n4. If you are using garlic add it here and let it sweat for a minute\n5. Add in your minced meat and break it up into small clumps about the size of a rice grain with a spoon, keep stiring until all your meat is lightly cooked.\n6. Once all your meat is cooked and looks a bit grey add your wine, add enough to fully deglaze the pan (I usually add a little bit extra for the flavor)\nstir it through until it has completely evaporated. (If you are using it you can also add the stock at this point)\n6. Once your pan is somewhat dry you can add the tomato paste to the beef, let it cook for a minute to remove the slight metallic taste.\n7. Add your canned and peeled tomatoes and use your spoon to break them up, you don't have to be too thorough since they will soften up while the sauce cooks.\n8. add the diced tomatoes, fill the jar your tomatoes came in with water give it a shake and add that to the pot, do the same with your can of peeled tomatoes.\n9. lower your heat to the lowest setting and slightly cover the pan with your lid.\n10. let it simmer for as long as you can wait, preferably at least 4 hours, if it starts getting a bit too dry you can add a bit more water to make sure the sauce doesn't burn.\n11. Once it's done simmering for as long as you can muster and its nice and thick, the liquid should not come above your meat and should be pretty concentrated\n12. You can add your glass of milk, let it simmer for 10 more minutes and serve.",
+  "images": [
+    {
+      "alt": "Bolognese sauce",
+      "source_url": "https://publicdomainrecipes.com/pix/bolognese-sauce.webp",
+      "source_reference": "/pix/bolognese-sauce.webp",
+      "status": "retrieved",
+      "filename": "bolognese-sauce.webp",
+      "sha256": "d9a532fd7136581ea62f3571051a4c94d945409a0c0b279257bb8d37edcddd72"
+    }
+  ],
+  "coverage_group": "sauces"
+}

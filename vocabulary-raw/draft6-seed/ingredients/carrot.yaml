@@ -1,0 +1,20 @@
+id: carrot
+kind: ingredient
+names:
+  en: carrot
+observed_forms:
+- syntax: carrot
+  count: 1
+- syntax: carrot, medium, peeled, chopped
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: chopped
+  count: 1
+- value: medium
+  count: 1
+- value: peeled
+  count: 1
+legacy_observation: true

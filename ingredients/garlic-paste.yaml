@@ -1,0 +1,15 @@
+id: garlic-paste
+kind: ingredient
+canonical_name: garlic paste
+names:
+  en: garlic paste
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: garlic paste
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

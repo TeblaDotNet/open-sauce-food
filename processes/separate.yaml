@@ -1,0 +1,29 @@
+id: separate
+kind: process
+canonical_name: separate
+names:
+  en: separate
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: separate
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/aljotta/aljotta.opensauce
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+observed_parameters:
+- value: bowl
+  count: 1
+- value: cloves
+  count: 1
+- value: leave skin or peel as preferred
+  count: 1
+- value: loose chunks customary in soup
+  count: 1
+- value: meat as it starts to cook
+  count: 1

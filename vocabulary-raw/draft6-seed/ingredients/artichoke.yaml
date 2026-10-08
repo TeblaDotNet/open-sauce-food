@@ -1,0 +1,14 @@
+id: artichoke
+kind: ingredient
+names:
+  en: artichoke
+observed_forms:
+- syntax: artichoke, chopped, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce
+observed_qualifiers:
+- value: chopped
+  count: 1
+- value: optional
+  count: 1

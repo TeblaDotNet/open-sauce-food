@@ -1,0 +1,20 @@
+id: orange-juice-concentrate
+kind: ingredient
+canonical_name: orange juice concentrate
+names:
+  en: orange juice concentrate
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: orange juice concentrate
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/party-mimosa/party-mimosa.opensauce
+observed_qualifiers:
+- value: frozen
+  count: 1
+- value: thawed and undiluted
+  count: 1

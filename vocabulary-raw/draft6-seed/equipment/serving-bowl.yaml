@@ -1,0 +1,9 @@
+id: serving-bowl
+kind: equipment
+names:
+  en: serving bowl
+observed_forms:
+- syntax: serving bowl
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce

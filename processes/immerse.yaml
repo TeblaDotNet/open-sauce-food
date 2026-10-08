@@ -1,0 +1,18 @@
+id: immerse
+kind: process
+canonical_name: immerse
+names:
+  en: immerse
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: immerse
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+observed_parameters:
+- value: boiling water
+  count: 1

@@ -1,0 +1,36 @@
+{
+  "title": "Lenten Lentil Curry",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/lenten-lentil-curry.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "dd8047e17bfaf9531ed09352306ad88b131f3c79f8a8ac7d583382d0146e1d80",
+  "original_front_matter": {
+    "title": "Lenten Lentil Curry",
+    "date": "2021-04-06",
+    "tags": [
+      "spicy",
+      "curry",
+      "lentil",
+      "fasting"
+    ],
+    "author": "sinan-kurtulmuş"
+  },
+  "source_url": "https://publicdomainrecipes.com/lenten-lentil-curry/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Lenten Lentil Curry",
+      "url": "/pix/lenten-lentil-curry.webp",
+      "upstreamPath": "static/pix/lenten-lentil-curry.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

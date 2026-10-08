@@ -1,0 +1,38 @@
+id: toast
+kind: process
+canonical_name: toast
+names:
+  en: toast
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 2
+  observed_terms:
+  - term: toast
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+  - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+  - examples/public-domain-recipes/kvass/kvass.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  legacy_terms:
+  - term: toast
+    count: 2
+observed_parameters:
+- value: 400°F
+  count: 1
+- value: dry
+  count: 1
+- value: dry pan
+  count: 1
+- value: oven tray
+  count: 1
+- value: thoroughly scorched to blackness outside
+  count: 1
+- value: toaster or oven
+  count: 1
+- value: until browned
+  count: 1
+- value: ~30s
+  count: 1

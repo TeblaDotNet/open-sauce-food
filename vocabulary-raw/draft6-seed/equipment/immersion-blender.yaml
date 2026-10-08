@@ -1,0 +1,9 @@
+id: immersion-blender
+kind: equipment
+names:
+  en: immersion blender
+observed_forms:
+- syntax: immersion blender
+  count: 1
+seen_in:
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce

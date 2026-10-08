@@ -1,0 +1,23 @@
+id: tomato-puree
+kind: ingredient
+canonical_name: tomato puree
+names:
+  en: tomato puree
+status: reviewed-merge
+aliases:
+- name: tomato puré
+  type: spelling
+  observed_count: 1
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: tomato puree
+    count: 2
+  - term: tomato puré
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce

@@ -1,0 +1,33 @@
+{
+  "title": "Lenten Chili",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/lenten-chili.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "a272d62af285c5d623953770674e9c8a29e5a3869eb3103cfa6e4d4b2395f04f",
+  "original_front_matter": {
+    "title": "Lenten Chili",
+    "date": "2021-03-18",
+    "tags": [
+      "fasting"
+    ],
+    "author": "yorge-z"
+  },
+  "source_url": "https://publicdomainrecipes.com/lenten-chili/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Lenten chili",
+      "url": "/pix/lenten-chili.webp",
+      "upstreamPath": "static/pix/lenten-chili.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

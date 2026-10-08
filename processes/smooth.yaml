@@ -1,0 +1,19 @@
+id: smooth
+kind: process
+canonical_name: smooth
+names:
+  en: smooth
+status: reviewed-merge
+aliases:
+- name: smooth surface
+  type: phrase-specialisation
+  observed_count: 1
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: smooth surface
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/hummus/hummus.opensauce

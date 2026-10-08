@@ -1,0 +1,12 @@
+id: rice
+kind: ingredient
+names:
+  en: rice
+observed_forms:
+- syntax: rice, bomba
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce
+observed_qualifiers:
+- value: bomba
+  count: 1

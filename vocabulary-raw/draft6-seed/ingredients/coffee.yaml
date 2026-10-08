@@ -1,0 +1,12 @@
+id: coffee
+kind: ingredient
+names:
+  en: coffee
+observed_forms:
+- syntax: coffee, room temperature
+  count: 1
+seen_in:
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+observed_qualifiers:
+- value: room temperature
+  count: 1

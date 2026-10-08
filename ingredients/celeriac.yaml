@@ -1,0 +1,18 @@
+id: celeriac
+kind: ingredient
+canonical_name: celeriac
+names:
+  en: celeriac
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: celeriac
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+observed_qualifiers:
+- value: cubed
+  count: 1

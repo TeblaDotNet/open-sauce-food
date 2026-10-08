@@ -1,0 +1,35 @@
+{
+  "title": "Bolognese Sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/bolognese-sauce.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "790e19497b9f5ddfe93460502b27eae58f070c609ae2d6a5310729ece49a4261",
+  "original_front_matter": {
+    "title": "Bolognese Sauce",
+    "date": "2021-03-23",
+    "tags": [
+      "sauce",
+      "italian",
+      "pasta"
+    ],
+    "author": "tait"
+  },
+  "source_url": "https://publicdomainrecipes.com/bolognese-sauce/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Bolognese sauce",
+      "url": "/pix/bolognese-sauce.webp",
+      "upstreamPath": "static/pix/bolognese-sauce.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

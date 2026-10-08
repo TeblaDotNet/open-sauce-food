@@ -1,0 +1,20 @@
+id: pack
+kind: process
+canonical_name: pack
+names:
+  en: pack
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: pack
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+observed_parameters:
+- value: glass jar
+  count: 1
+- value: press beneath liquid
+  count: 1

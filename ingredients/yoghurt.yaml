@@ -1,0 +1,39 @@
+id: yoghurt
+kind: ingredient
+canonical_name: yoghurt
+names:
+  en-GB: yoghurt
+  en-US: yogurt
+status: reviewed-merge
+aliases:
+- name: yogurt
+  type: spelling-regional
+  observed_count: 4
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: yoghurt
+    count: 1
+  - term: yogurt
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 2
+- value: Greek
+  count: 1
+- value: optional
+  count: 2
+- value: plain
+  count: 1
+- value: thick
+  count: 1
+- value: whole milk
+  count: 1

@@ -1,0 +1,94 @@
+::recipe
+
+name: Beef Goulash
+source: https://publicdomainrecipes.com/beef-goulash/
+source author: yaroslav-smirnov
+source license: Public domain (Unlicense)
+units: metric
+category: main
+tags: beef, stew
+serves: 2-3
+active time: ~20m
+total time: ~1h50m
+image: beef-goulash.webp
+
+::ingredients
+
+(beef, small pieces) 500g
+(potato, small pieces) 300-400g
+(carrot) 1
+(onion, medium) 1
+(tomato paste) 12tbsp
+(water) 500ml
+(garlic) 3-4 cloves
+(bay leaf) 3-4
+(turmeric) to taste
+(paprika) to taste
+(oregano) to taste
+(parsley) to taste
+(caraway) to taste
+(basil, optional) to taste
+(coriander, optional) to taste
+(champignon mushroom, optional) 2-3
+(flour) as needed
+(oil) as needed
+(salt) to taste
+(black pepper) to taste
+
+::equipment
+
+(frying pan)
+(lid)
+
+::instructions
+
+(frying pan) <heat>
+    + (oil)
+
+(potato) <cut, small>
+    <fry, frying pan, medium heat, ~15m>
+    + (salt)
+
+Meanwhile [
+    (onion) <chop>
+    (beef) <cut, small>
+        <dust, flour>
+]
+
+(potato) + (onion) + (beef)
+    <fry, 10-15m, until brown>
+
+Meanwhile [
+    (carrot) <cut>
+    Optional [
+        (champignon mushroom) <cut>
+    ]
+    (parsley) <chop>
+    Optional [
+        (coriander) <chop>
+    ]
+]
+
+{goulash} =
+    (beef) +
+    (potato) +
+    (onion) +
+    (water) +
+    (carrot) +
+    (garlic) +
+    (bay leaf) +
+    (turmeric) +
+    (paprika) +
+    (oregano) +
+    (parsley) +
+    (caraway) +
+    (salt) +
+    (black pepper)
+
+Optional [
+    {goulash} + (basil) + (coriander) + (champignon mushroom)
+        <mix>
+]
+
+{goulash} <stew, covered, low heat, 60-80m>
+    <serve, hot>

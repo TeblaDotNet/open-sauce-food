@@ -1,0 +1,9 @@
+id: mince
+kind: process
+names:
+  en: mince
+observed_forms:
+- syntax: mince
+  count: 3
+seen_in:
+- examples/public-domain-recipes/guacamole/guacamole.opensauce

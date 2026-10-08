@@ -1,0 +1,105 @@
+::recipe
+
+name: Aljotta
+source: https://publicdomainrecipes.com/aljotta/
+source author: shou-ganai
+source license: Public domain (Unlicense)
+units: source
+tags: fish, soup, mediterranean
+
+# Original source: ../../../source/public-domain-recipes/aljotta/aljotta.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: No ingredient amounts; stock prepared in step 2 but no addition in step 4. No invented stock volume or assembly step; implicit soup result remains imperfect.
+
+::ingredients
+
+(fish stock) as needed, made in method
+(fish, raw) quantity unspecified
+(onion, roughly chopped) as needed
+(garlic, sliced or diced) as needed
+(tomato, chopped) as needed
+(frying fat) = (oil) as needed -OR- (lard) as needed
+(extra virgin olive oil) as needed
+(marjoram, fresh) as needed
+(black pepper, optional) as desired
+(mint, fresh, optional) small amount
+(lemon garnish, optional) = (lemon wedge) as desired -OR- (lemon juice) as desired
+(rice, optional) as desired
+# Method-only stock material and optional seasoning
+(fish bones) as needed
+(salt, optional) as desired
+
+::equipment
+
+(stock pot, tall)
+(pot)
+
+::instructions
+
+Optional [
+    (rice) <cook, preferably white short-grain, not starchy, not arborio or sushi rice>
+        <set aside>
+]
+{fish stock} = (fish) + (fish bones)
+{fish stock} <boil, tall stock pot, medium heat, 1-2h, possibly day before>
+Optional [
+    (fish) <separate, meat as it starts to cook, loose chunks customary in soup>
+]
+(frying fat) <heat, pot, low>
+(onion) <sauté, until translucent>
+{base} = (frying fat) + (onion) + (garlic) + (tomato) + (marjoram)
+Optional [
+    {base} + (mint) + (salt)
+]
+{base} <cook, medium heat, stirring occasionally until water starts boiling>
+# Source prepares stock but does not explicitly state when to add it to the pot.
+(fish) <simmer, pot, low, thoroughly cooked, do not break fish>
+    <remove from heat>
+    + (extra virgin olive oil)
+(fish) <remove, serve separately; traditionally olive oil and lemon with steamed vegetables>
+Optional [
+    {soup} + (lemon garnish) + (rice) <add, to individual servings as preferred>
+]
+{soup} <reserve, some for tomorrow as source suggests>
+
+::story
+
+Aljotta ("jo" as in "Yo!") is a traditional Maltese light fish soup with roots in french bouillabaisse and similarly refers to the method of serving the fish that are cooked in it. The most appropriate fish to use for both the stock and the accompanying meal are 'clean' white fish that don't turn the broth cloudy, ideally stargazers, monkfish, red gurnard, and moray eels but also hake, mullets, cod and haddock. There are a some variants; restaurant versions could very well include lemon juice and shellfish which I don't associate with aljotta. Rice eventually became a staple with it and how much you put in is up to you. I recommend just a little. In fact, there are no ingredient amounts; the picture should give you an idea of the density you're going for. Fresh herbs are a must.
+
+::source
+<<<
+---
+title: "Aljotta"
+date: 2021-03-16
+tags: ['fish', 'soup', 'mediterranean']
+author: shou-ganai
+---
+
+Aljotta ("jo" as in "Yo!") is a traditional Maltese light fish soup with roots in french bouillabaisse and similarly refers to the method of serving the fish that are cooked in it. The most appropriate fish to use for both the stock and the accompanying meal are 'clean' white fish that don't turn the broth cloudy, ideally stargazers, monkfish, red gurnard, and moray eels but also hake, mullets, cod and haddock. There are a some variants; restaurant versions could very well include lemon juice and shellfish which I don't associate with aljotta. Rice eventually became a staple with it and how much you put in is up to you. I recommend just a little. In fact, there are no ingredient amounts; the picture should give you an idea of the density you're going for. **Fresh herbs are a must**.
+
+## Ingredients
+
+- Fish stock (see 2.)
+- Fish, raw
+- Onion, roughly chopped
+- Garlic, sliced or diced
+- Tomatos, chopped
+- frying oil/lard
+- Extra virgin olive oil
+- Marjoram
+- Black pepper (optional)
+- Mint, small amount (optional, I never use it myself as it's too overpowering)
+- Lemon wedge/juice (optional, also overpowering)
+- Rice (optional)
+
+## Directions
+
+1. Cook some rice and set aside. White short-grain is best but other types will do as long as it's not starchy. Don't use arborio or sushi rice.
+2. Prepare the stock, possibly the day before, by boiling fish and fish bones in a tall stock pot on medium heat for 1-2 hours. It's customary to have loose chunks of fish in the soup so you can boil the fish and separate the meat as it starts to cook. As an example, the head, tail, skin and spine from the [anglerfish fillet recipe](/fried-anglerfish-fillet) were used to make stock, then half a fillet and meat that separated from the offal became part of the soup.
+3. In a pot, heat some oil on low heat and add in the onions. Saute until translucent.
+4. Add the garlic, tomato, herbs and salt if desired. Switch to medium heat, stirring occasionally until the water starts to boil.
+5. Add the fish and let simmer on low heat until the fish are cooked thoroughly, being careful not to break them. Turn the heat off and add the olive oil.
+6. Take the fish out to be served separately. They are traditionally served topped with olive oil and a squeeze of lemon with steamed vegetables.
+7. If you are using lemon juice or rice, add them to each serving according to your preference.
+8. Leave some for tomorrow. It always tastes better the next day.
+>>>

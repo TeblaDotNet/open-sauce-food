@@ -1,0 +1,21 @@
+id: paneer
+kind: ingredient
+canonical_name: paneer
+names:
+  en: paneer
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: paneer
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+observed_qualifiers:
+- value: cubes
+  count: 1
+- value: optional
+  count: 1

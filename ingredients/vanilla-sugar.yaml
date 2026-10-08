@@ -1,0 +1,20 @@
+id: vanilla-sugar
+kind: ingredient
+canonical_name: vanilla sugar
+names:
+  en: vanilla sugar
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: vanilla sugar
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+  - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

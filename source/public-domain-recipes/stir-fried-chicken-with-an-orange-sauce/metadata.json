@@ -1,0 +1,33 @@
+{
+  "title": "Stir Fried Chicken with an Orange Sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/stir-fried-chicken-with-an-orange-sauce.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "34e61046f77668f862d8d63996766a81ac8640870896ce02e29908df7478c59a",
+  "original_front_matter": {
+    "title": "Stir Fried Chicken with an Orange Sauce",
+    "date": "2021-03-16",
+    "tags": [
+      "asian",
+      "chicken"
+    ],
+    "author": "jacob-smith"
+  },
+  "source_url": "https://publicdomainrecipes.com/stir-fried-chicken-with-an-orange-sauce/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

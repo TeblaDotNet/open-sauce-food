@@ -1,0 +1,39 @@
+{
+  "title": "Hearty Breakfast Oatmeal ",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/hearty-breakfast-oatmeal.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "162b8817578fae937fc3f8a9cf42949b98bebc4fa917503281b5609906eb67f2",
+  "original_front_matter": {
+    "title": "Hearty Breakfast Oatmeal ",
+    "date": "2021-03-29",
+    "tags": [
+      "breakfast",
+      "quick"
+    ],
+    "author": "joel-farthing"
+  },
+  "source_url": "https://publicdomainrecipes.com/hearty-breakfast-oatmeal/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "hearty-breakfast-oatmeal-00",
+      "url": "/pix/hearty-breakfast-oatmeal.webp",
+      "upstreamPath": "static/pix/hearty-breakfast-oatmeal.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "9108c51176273a57650923087cf21577b5d4573ee0f5e2ce671670a204e8347d",
+      "sourcePath": "source/public-domain-recipes/hearty-breakfast-oatmeal/hearty-breakfast-oatmeal.webp",
+      "promotedPath": "examples/public-domain-recipes/hearty-breakfast-oatmeal/hearty-breakfast-oatmeal.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

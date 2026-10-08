@@ -1,0 +1,12 @@
+id: remove-pulp
+kind: process
+names:
+  en: remove pulp
+observed_forms:
+- syntax: remove pulp, bowl
+  count: 1
+seen_in:
+- examples/public-domain-recipes/guacamole/guacamole.opensauce
+observed_parameters:
+- value: bowl
+  count: 1

@@ -1,0 +1,101 @@
+id: fry
+kind: process
+canonical_name: fry
+names:
+  en: fry
+status: canonical-seed
+evidence:
+  legacy_observation_count: 7
+  observed_terms:
+    - term: fry
+      count: 18
+  seen_in:
+    - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/castagnole/castagnole.opensauce
+    - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+    - examples/public-domain-recipes/french-toast/french-toast.opensauce
+    - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/paella/paella.opensauce
+    - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+    - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+    - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+  legacy_terms:
+    - term: fry
+      count: 7
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 10-15m
+    count: 2
+  - value: 15m
+    count: 1
+  - value: 1m
+    count: 2
+  - value: 2-3m
+    count: 1
+  - value: another pan
+    count: 1
+  - value: bacon fat
+    count: 1
+  - value: both sides until golden brown
+    count: 1
+  - value: each side until golden brown
+    count: 1
+  - value: example 3m each side
+    count: 1
+  - value: frying fat
+    count: 1
+  - value: frying pan
+    count: 2
+  - value: hot pan
+    count: 1
+  - value: low
+    count: 1
+  - value: low fire
+    count: 1
+  - value: low-medium heat
+    count: 2
+  - value: medium
+    count: 1
+  - value: medium heat
+    count: 2
+  - value: medium-high
+    count: 1
+  - value: pan
+    count: 2
+  - value: saucepan
+    count: 1
+  - value: slowly
+    count: 1
+  - value: until brown
+    count: 2
+  - value: until brown-ish
+    count: 1
+  - value: until cooked
+    count: 1
+  - value: until crisp outside and chewy inside
+    count: 2
+  - value: until golden brown on all sides
+    count: 2
+  - value: until onion darkens
+    count: 1
+  - value: until onion soft
+    count: 1
+  - value: until slightly golden
+    count: 1
+  - value: until translucent
+    count: 2
+  - value: until white on each side
+    count: 1
+  - value: ~15m
+    count: 2
+  - value: ~20m
+    count: 1
+  - value: ~5-7m total
+    count: 1
+  - value: ~5m
+    count: 1

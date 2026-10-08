@@ -1,0 +1,41 @@
+{
+  "title": "Oatmeal Pancakes",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/oatmeal-pancakes.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "5bd83df9ba000b00afa65a20e5c48253403f2c2baaa603791faf29a9f5a393e6",
+  "original_front_matter": {
+    "title": "Oatmeal Pancakes",
+    "date": "2021-04-15",
+    "tags": [
+      "breakfast",
+      "sweet",
+      "dessert",
+      "pancake"
+    ],
+    "author": "wpnwbn"
+  },
+  "source_url": "https://publicdomainrecipes.com/oatmeal-pancakes/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "oatmeal-pancakes",
+      "url": "/pix/oatmeal-pancakes.webp",
+      "upstreamPath": "static/pix/oatmeal-pancakes.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "3db6b800e92046f4c13a7a086d207e87423f987fb00b8452749d8ad62cbdc687",
+      "sourcePath": "source/public-domain-recipes/oatmeal-pancakes/oatmeal-pancakes.webp",
+      "promotedPath": "examples/public-domain-recipes/oatmeal-pancakes/oatmeal-pancakes.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

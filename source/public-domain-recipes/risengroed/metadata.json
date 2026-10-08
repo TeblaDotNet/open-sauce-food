@@ -1,0 +1,39 @@
+{
+  "title": "Risengrød",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/risengroed.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "f743c13676e9e5ddca76e90ca12719216a5e2aa63a2ba94c505887658b0e864a",
+  "original_front_matter": {
+    "title": "Risengrød",
+    "tags": [
+      "danish",
+      "christmas"
+    ],
+    "date": "2022-11-16",
+    "author": "Vilhelm Bergsøe"
+  },
+  "source_url": "https://publicdomainrecipes.com/risengroed/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "risen groed",
+      "url": "/pix/risengroed.webp",
+      "upstreamPath": "static/pix/risengroed.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "4a32e336b863bbf6cf4769f719e5ee15af9a07a7f9db69e6d8f7591c8ac5aed7",
+      "sourcePath": "source/public-domain-recipes/risengroed/risengroed.webp",
+      "promotedPath": "examples/public-domain-recipes/risengroed/risengroed.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

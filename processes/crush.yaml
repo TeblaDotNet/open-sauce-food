@@ -1,0 +1,22 @@
+id: crush
+kind: process
+canonical_name: crush
+names:
+  en: crush
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: crush
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+  - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+observed_parameters:
+- value: mortar and pestle
+  count: 1
+- value: spatula
+  count: 1

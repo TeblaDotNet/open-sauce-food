@@ -1,0 +1,36 @@
+{
+  "title": "Fumé sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/fume-sauce.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "ee12b07a3a2a7ab1ab0d44db769f02bd95e69704890e2cf69423a4dfa5444adb",
+  "original_front_matter": {
+    "title": "Fumé sauce",
+    "tags": [
+      "cheesefare",
+      "italian",
+      "pasta",
+      "sauce"
+    ],
+    "date": "2025-11-15",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/fume-sauce/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "fume-sauce",
+      "url": "/pix/fume-sauce.webp",
+      "upstreamPath": "static/pix/fume-sauce.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Sourdough Table Loaf",
+  "source_url": "https://publicdomainrecipes.com/sourdough-loaf/",
+  "source_author": "Quinn & Alison",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sourdough-loaf.md",
+  "original_sha256": "744946cd77d48b73e8a41328e1f0852a3767336c2617541195fb36b81788d305",
+  "original_front_matter": {
+    "title": "Sourdough Table Loaf",
+    "date": "2021-03-21",
+    "tags": [
+      "bread",
+      "sourdough"
+    ],
+    "author": "Quinn & Alison"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "* 100g fed [sourdough starter](/sourdough-starter) (levain)\n* 330g warm water\n* 137g bread flour\n* 250g all-purpose flour (avoid bleached and enriched)\n* 87g rye or whole wheat flour\n* 7g sea salt",
+  "directions_source_markdown": "1. Combine sourdough starter with warm water, break apart and dissolve.\n2. Add flour and mix together gently to hydrate. Mixture will be very wet and sticky.\n3. Once there is no dry flour, let stand for 30 minutes (autolyze).\n4. Add sea salt.\n5. Wet hands and begin to stretch and fold dough to combine salt and to begin gluten formation.\n6. Add drops of water until dough becomes cohesive and supple with no toughness or resistance.\n7. Dough will prove on the counter top for 4 - 5 hours. About every 30 minutes, perform a stretch and fold. This involves grabbing the dough with a wet hand, folding over the top of itself, and repeating this step by turning the bowl and making your way around the dough. It will take some practice to work with a dough of this level of hydration, but will get easier!\n8. You will know fermentation is complete when small bubbles are seen on the surface around the edge of your dough. You can also perform a window pane test by grasping a pinch of dough and pulling it between your fingers. The dough should stretch enough to become see-through. This means enough gluten has formed that the dough is strong enough to hold large air bubbles as it bakes.\n9. Turn onto generously floured surface using a bowl scraper or spatula to protect the dough. Handling the dough gently will prevent deflation.\n10. Shape the dough: Take the two sides and fold them into the center of the wet dough. Then, take the top and bottom and fold them also over the center of the wet dough. Optional: grasp the edge of the dough closest to you and roll dough away from you into a tight loaf shape. Generously flour.\n11. Place into a dish about the size of the dough, a proving basket is ideal. Use a lot of flour in the bowl and on the loaf. The sides of the container should not be shallow, the goal here is to let the bread rest in the shape you want it to bake in.\n12. Refrigerate 12 - 24 hours, the longer the dough rests, the more sour your final product. I don't recommend going over 24 hours but sour dough is fun to experiment with!\n13. Bring dough to room temperature, it should feel like a water balloon, giving resistance to touch with some spring.\n14. Put one oven rack in the center and another below it, place a pan of water on the lower rack. Preheat oven to 475 - 500 degrees F, depending on oven capability. The pan of water should create steam to help the bread expand.\n15. When oven is hot, turn bread into a baking vessel. I use a 8 inch springform pan, but a dutch oven is ideal. You can use any vessel that is rated for high temperatures. If using a dutch oven, keep it covered for the first 15 minutes, and you don't need to use the pan of water.\n16. Flour the top of the loaf and score the bread with a razor blade (this is optional but creates an artisan look)\n17. Bake covered/steamed for 15 minutes, then reduce oven temperature to 425 F. If using steam, remove the water pan now.\n18. Bake for another 25 - 30 minutes until crust is a rusty color and sounds hollow when tapped.\n19. Let bread cool completely before slicing. (if you can wait!)",
+  "images": [
+    {
+      "alt": "Sourdough Table Loaf",
+      "source_url": "https://publicdomainrecipes.com/pix/sourdough-loaf.webp",
+      "source_reference": "/pix/sourdough-loaf.webp",
+      "status": "retrieved",
+      "filename": "sourdough-loaf.webp",
+      "sha256": "1129e32bcea53745cbfd84aef3ef11e22a40eab3e86d1dbd2d6389bdb979298a"
+    }
+  ],
+  "coverage_group": "bread-dough"
+}

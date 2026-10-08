@@ -1,0 +1,61 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Orange Pudding
+source: https://publicdomainrecipes.com/orange-pudding/
+source author: Miss Leslie
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: orange, dessert, pudding, fruit
+
+# Imported from content/orange-pudding.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(orange, large, of a deep colour, and smooth thin rind.) One
+(lime) One
+(powdered white sugar) A quarter of a pound
+(butter, fresh) A quarter of a pound
+(egg) Three
+(mixed wine and brandy) A table-spoonful
+(rose-water) A tea-spoonful
+
+::equipment
+
+(oven)
+
+::instructions
+
+<grate, the yellow rind of the orange and lime, and squeeze the juice into a saucer or soup-plate, taking out all the seeds>
+<stir, the butter and sugar to a cream>
+<beat, the eggs as light as possible, and then stir them by degrees into the pan of butter and sugar. Add, gradually, the liquor and rose-water, and then by degrees, the orange and lime. Stir all well together>
+Have ready a sheet of puff-paste made of five ounces of sifted flour, and a quarter of a pound of fresh butter. Lay the paste in a buttered soup-plate. Trim and notch the edges, and then put in the mixture. Bake it about half an hour, in a moderate oven. Grate loaf-sugar over it, before you send it to table.
+
+::source
+<<<
+---
+title: "Orange Pudding"
+tags: ['orange', 'dessert', 'pudding', 'fruit']
+date: 1832-01-01
+author: "Miss Leslie"
+---
+
+## Ingredients
+
+- One large orange, of a deep colour, and smooth thin rind.
+- One lime.
+- A quarter of a pound of powdered white sugar.
+- A quarter of a pound of fresh butter.
+- Three eggs.
+- A table-spoonful of mixed wine and brandy.
+- A tea-spoonful of rose-water.
+
+## Directions
+
+1. Grate the yellow rind of the orange and lime, and squeeze the juice into a saucer or soup-plate, taking out all the seeds.
+2. Stir the butter and sugar to a cream.
+3. Beat the eggs as light as possible, and then stir them by degrees into the pan of butter and sugar. Add, gradually, the liquor and rose-water, and then by degrees, the orange and lime. Stir all well together.
+4. Have ready a sheet of puff-paste made of five ounces of sifted flour, and a quarter of a pound of fresh butter. Lay the paste in a buttered soup-plate. Trim and notch the edges, and then put in the mixture. Bake it about half an hour, in a moderate oven. Grate loaf-sugar over it, before you send it to table.
+>>>

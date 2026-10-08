@@ -1,0 +1,83 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Fondue
+source: https://publicdomainrecipes.com/fondue/
+source author: sekthor
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: swiss, cheese
+serves: 4
+
+# Imported from content/fondue.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 30 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(garlic clove) 1
+(white wine) 4 dl （1.5 cups）
+(swiss cheese, 50/50 mix of Gruyère and Emmentaler recommended) 800 g （1.7 lbs）
+(shot of kirsch, cherry brandy) 1
+(lemon: juice) 1 tsp
+(starch flour) 1-2 tbsp
+(loaf of white bread, ~800g/~1.7 lbs) 1
+(nutmeg) A pinch
+
+::equipment
+
+(pot)
+
+::instructions
+
+<rub, the Pot with garlic clove>
+<cut, bread into small squares>
+<put, cheese, starch, wine and lemon juice in pot and melt while stiring constantly>
+<season, with a bit of pepper and nutmeg>
+<serve, right away>
+Stick bread squares on fondue fork one by one and stir them in the fondue.
+
+::story
+
+A swiss classic for cold winter dinners. Traditionally cooked in a "Caquelon" pot and served on a candle heated stove, to keep the cheese from going solid again.
+
+
+::source
+<<<
+---
+title: "Fondue"
+date: 2021-03-24
+tags: ['swiss', 'cheese']
+author: sekthor
+---
+
+A swiss classic for cold winter dinners.
+Traditionally cooked in a "Caquelon" pot and served on a candle heated stove, to keep the cheese from going solid again.
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 30 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 1 garlic clove
+- 4 dl (1.5 cups) white wine
+- 800 g (1.7 lbs) swiss cheese (50/50 mix of Gruyère and Emmentaler recommended)
+- 1 shot of kirsch (cherry brandy)
+- 1 tsp lemon juice
+- 1-2 tbsp starch flour
+- 1 loaf (~800g/~1.7 lbs) of white bread
+- A pinch of nutmeg
+
+## Directions
+
+1. Rub the Pot with garlic clove.
+2. Cut bread into small squares.
+3. Put cheese, starch, wine and lemon juice in pot and melt while stiring constantly.
+4. Season with a bit of pepper and nutmeg.
+5. Serve right away.
+6. Stick bread squares on fondue fork one by one and stir them in the fondue.
+>>>

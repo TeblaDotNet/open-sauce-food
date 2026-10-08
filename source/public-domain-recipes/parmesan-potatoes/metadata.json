@@ -1,0 +1,39 @@
+{
+  "title": "Parmesan potatoes",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/parmesan-potatoes.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "f95bbaed50f2376d50c5e49d30d08e7a8ce109fbca754bac377195afa676fad4",
+  "original_front_matter": {
+    "title": "Parmesan potatoes",
+    "date": "2021-03-12",
+    "tags": [
+      "potato",
+      "side"
+    ],
+    "author": "yaroslav-smirnov"
+  },
+  "source_url": "https://publicdomainrecipes.com/parmesan-potatoes/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Parmesan potatoes",
+      "url": "/pix/parmesan-potatoes.webp",
+      "upstreamPath": "static/pix/parmesan-potatoes.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "d049510c95aaacf8d3d969e3ef086031b7827526b69ce0f13b13fc9a586c768d",
+      "sourcePath": "source/public-domain-recipes/parmesan-potatoes/parmesan-potatoes.webp",
+      "promotedPath": "examples/public-domain-recipes/parmesan-potatoes/parmesan-potatoes.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

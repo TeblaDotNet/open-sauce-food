@@ -1,0 +1,16 @@
+id: peanut
+kind: ingredient
+canonical_name: peanut
+names:
+  en: peanut
+aliases:
+- name: peanuts
+  type: review-pass-1-lexical
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/panang-style-beef-curry/panang-style-beef-curry.opensauce
+  - examples/public-domain-recipes/spicy-kung-pao-style-chicken/spicy-kung-pao-style-chicken.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

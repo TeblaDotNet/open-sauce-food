@@ -1,0 +1,18 @@
+id: assemble
+kind: process
+canonical_name: assemble
+names:
+  en: assemble
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: assemble
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+observed_parameters:
+- value: meat slice then egg then generous sauce on each muffin half
+  count: 1

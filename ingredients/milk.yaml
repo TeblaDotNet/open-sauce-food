@@ -1,0 +1,53 @@
+id: milk
+kind: ingredient
+canonical_name: milk
+names:
+  en: milk
+status: canonical-seed
+evidence:
+  legacy_observation_count: 8
+  observed_terms:
+    - term: milk
+      count: 20
+  seen_in:
+    - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+    - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+    - examples/public-domain-recipes/castagnole/castagnole.opensauce
+    - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+    - examples/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce
+    - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+    - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+    - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+    - examples/public-domain-recipes/french-toast/french-toast.opensauce
+    - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+    - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+    - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/sunday-milkshake/sunday-milkshake.opensauce
+    - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+    - term: milk
+      count: 8
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: any type
+    count: 1
+  - value: optional
+    count: 1
+  - value: warm
+    count: 1
+  - value: warmed
+    count: 1
+  - value: whole
+    count: 2
+  - value: whole recommended
+    count: 1
+variants:
+  whole:
+    names:
+      en: whole

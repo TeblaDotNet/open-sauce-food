@@ -1,0 +1,71 @@
+id: transfer
+kind: process
+canonical_name: transfer
+names:
+  en: transfer
+status: canonical-seed
+evidence:
+  legacy_observation_count: 4
+  observed_terms:
+    - term: transfer
+      count: 17
+  seen_in:
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+    - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
+    - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+    - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+    - examples/public-domain-recipes/french-toast/french-toast.opensauce
+    - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/pretzels/pretzels.opensauce
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+    - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+    - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+    - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  legacy_terms:
+    - term: transfer
+      count: 4
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: baking sheet
+    count: 1
+  - value: blender or food processor
+    count: 1
+  - value: carefully
+    count: 1
+  - value: cooling rack
+    count: 4
+  - value: foiled baking tray
+    count: 1
+  - value: generously floured surface
+    count: 1
+  - value: gently to avoid deflation
+    count: 1
+  - value: hot dish
+    count: 1
+  - value: jug
+    count: 2
+  - value: large bowl
+    count: 1
+  - value: lightly floured surface
+    count: 1
+  - value: plate
+    count: 2
+  - value: Reynold’s Oven Bag
+    count: 1
+  - value: scrape sides with silicone spatula if desired
+    count: 1
+  - value: scraper or spatula
+    count: 1
+  - value: serving bowl
+    count: 2
+  - value: short end of baking sheet
+    count: 1
+  - value: swiftly to container
+    count: 1
+  - value: wire rack
+    count: 1

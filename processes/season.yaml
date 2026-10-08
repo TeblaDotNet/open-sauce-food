@@ -1,0 +1,59 @@
+id: season
+kind: process
+canonical_name: season
+names:
+  en: season
+status: canonical-seed
+evidence:
+  legacy_observation_count: 5
+  observed_terms:
+    - term: season
+      count: 28
+  seen_in:
+    - examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce
+    - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+    - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+    - examples/public-domain-recipes/ceviche/ceviche.opensauce
+    - examples/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce
+    - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+    - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+    - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+    - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+    - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
+    - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+    - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+    - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+    - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+    - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+    - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+    - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+    - term: season
+      count: 5
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: black pepper
+    count: 1
+  - value: both sides
+    count: 3
+  - value: cumin + powdered sweet pepper + salt
+    count: 2
+  - value: generously
+    count: 1
+  - value: if needed
+    count: 1
+  - value: if still too bland
+    count: 1
+  - value: salt
+    count: 1
+  - value: to liking
+    count: 1
+  - value: to taste
+    count: 6
+  - value: usually 1tsp / 6g
+    count: 1

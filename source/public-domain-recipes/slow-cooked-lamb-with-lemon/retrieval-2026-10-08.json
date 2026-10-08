@@ -1,0 +1,36 @@
+{
+  "title": "Slow-cooked Lamb with Lemon",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/slow-cooked-lamb-with-lemon.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "37ee7c5ff2d954dc8c32980f024fc56155202a37799b31cd48e003e217aedc7b",
+  "original_front_matter": {
+    "title": "Slow-cooked Lamb with Lemon",
+    "author": "ben-stox",
+    "tags": [
+      "lamb",
+      "roast",
+      "lemon",
+      "mediterranean"
+    ],
+    "date": "2022-04-16"
+  },
+  "source_url": "https://publicdomainrecipes.com/slow-cooked-lamb-with-lemon/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Slow-cooked Lamb with Lemon",
+      "url": "/pix/slow-cooked-lamb-with-lemon.webp",
+      "upstreamPath": "static/pix/slow-cooked-lamb-with-lemon.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

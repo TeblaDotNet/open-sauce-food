@@ -1,0 +1,9 @@
+id: garam-masala
+kind: ingredient
+names:
+  en: garam masala
+observed_forms:
+- syntax: garam masala
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce

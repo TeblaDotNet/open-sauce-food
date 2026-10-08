@@ -1,0 +1,85 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Greek Salad
+source: https://publicdomainrecipes.com/greek-salad/
+source author: joel-maxuel
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: salad, greek, mediterranean, tomato
+serves: 4-6
+
+# Imported from content/greek-salad.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15 min
+# Source metadata: - 🍽️ Servings: 4-6
+# safety: - 1/2 cup pitted Black Olives (preferably brine-cured), coarsely chopped — Preserve source wording; no safety assurance inferred. Human safety review before practical reliance.
+
+::ingredients
+
+(assorted lettuce, chopped or torn) 2 cup
+(whole tomatoes, wedged or sliced) 4
+(whole cucumber, seeded and sliced) 1
+(bell pepper, seeded and sliced) 1
+(onion, small, sliced) 1
+(pitted black olives, preferably brine-cured, coarsely chopped) 1/2 cup
+(feta cheese, crumbled) 3/5 cup
+(olive oil) 6 Tbsp
+(red wine vinegar) 1 tsp
+(garlic, Fresh, chopped) 1/2 tsp
+(oregano) 1/2 tsp
+(dill weed) 1/2 tsp
+(parsley, chopped) 1/4 cup
+(salt and freshly ground black pepper)
+(lemon: juice, fresh) 2 Tbsp
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<combine, the lettuce, tomatoes, cucumber, onion, bell pepper, olives in a bowl>
+In the small bowl, whisk together oil, vinegar, herbs, spices, and the lemon juice.
+Drizzle dressing over the salad.
+<sprinkle, cheese over and serve>
+
+::source
+<<<
+---
+title: Greek Salad
+tags: ['salad', 'greek', 'mediterranean', 'tomato']
+date: 2022-08-04
+author: joel-maxuel
+---
+
+- ⏲️ Prep time: 15 min
+- 🍽️ Servings: 4-6
+
+## Ingredients
+
+- 2 cup assorted Lettuce, chopped or torn
+- 4 whole Tomatoes, wedged or sliced
+- 1 whole Cucumber, seeded and sliced
+- 1 Bell Pepper, seeded and sliced
+- 1 small Onion, sliced
+- 1/2 cup pitted Black Olives (preferably brine-cured), coarsely chopped
+- 3/5 cup Feta Cheese, crumbled
+- 6 Tbsp Olive Oil
+- 1 tsp Red Wine Vinegar
+- 1/2 tsp Fresh Garlic, chopped
+- 1/2 tsp Oregano
+- 1/2 tsp dill weed
+- 1/4 cup Parsley, chopped
+- Salt and freshly ground Black Pepper
+- 2 Tbsp Lemon juice, fresh
+
+
+## Directions
+
+1. Combine the lettuce, tomatoes, cucumber, onion, bell pepper, olives in a bowl.
+2. In the small bowl, whisk together oil, vinegar, herbs, spices, and the lemon juice.
+3. Drizzle dressing over the salad.
+4. Sprinkle cheese over and serve.
+>>>

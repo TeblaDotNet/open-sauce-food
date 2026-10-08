@@ -1,0 +1,22 @@
+id: tie
+kind: process
+canonical_name: tie
+names:
+  en: tie
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: tie
+      count: 2
+  seen_in:
+    - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: butcher’s twine
+    count: 1
+  - value: knot every ~1in
+    count: 1
+  - value: top tightly
+    count: 1

@@ -1,0 +1,31 @@
+id: baking-paper
+kind: equipment
+canonical_name: baking paper
+names:
+  en-GB: baking paper
+  en-US: parchment paper
+status: reviewed-merge
+aliases:
+- name: parchment paper
+  type: regional-name
+  observed_count: 5
+evidence:
+  current_recipe_count: 7
+  current_observation_count: 7
+  legacy_observation_count: 2
+  observed_terms:
+  - term: baking paper
+    count: 2
+  - term: parchment paper
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+  - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+  - examples/public-domain-recipes/pavlova/pavlova.opensauce
+  - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+  - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+  - term: baking paper
+    count: 2

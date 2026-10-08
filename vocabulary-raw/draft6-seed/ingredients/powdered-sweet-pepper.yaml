@@ -1,0 +1,9 @@
+id: powdered-sweet-pepper
+kind: ingredient
+names:
+  en: powdered sweet pepper
+observed_forms:
+- syntax: powdered sweet pepper
+  count: 1
+seen_in:
+- examples/public-domain-recipes/shakshouka/shakshouka.opensauce

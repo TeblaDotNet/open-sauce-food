@@ -1,0 +1,15 @@
+id: air-fry
+kind: process
+names:
+  en: air-fry
+observed_forms:
+- syntax: air-fry, 180c, 5-6m
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 180c
+  count: 1
+- value: 5-6m
+  count: 1
+legacy_observation: true

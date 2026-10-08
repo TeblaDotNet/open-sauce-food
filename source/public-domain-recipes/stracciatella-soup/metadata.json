@@ -1,0 +1,39 @@
+{
+  "title": "Stracciatella soup",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/stracciatella-soup.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "a7c6402fb1aabb8e73b641f11edef7f2c579f92532ac0139026e2cc4545451c3",
+  "original_front_matter": {
+    "title": "Stracciatella soup",
+    "tags": [
+      "eggs",
+      "soup"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/stracciatella-soup/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Stracciatella soup",
+      "url": "/pix/stracciatella-soup.webp",
+      "upstreamPath": "static/pix/stracciatella-soup.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "f4c797c4e55458ad7c729299d9ba727f3f3d691045821e1a4f2311e66eb947dc",
+      "sourcePath": "source/public-domain-recipes/stracciatella-soup/stracciatella-soup.webp",
+      "promotedPath": "examples/public-domain-recipes/stracciatella-soup/stracciatella-soup.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

@@ -1,0 +1,20 @@
+id: fork
+kind: equipment
+canonical_name: fork
+names:
+  en: fork
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: fork
+      count: 7
+  seen_in:
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+    - examples/public-domain-recipes/granita/granita.opensauce
+    - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.

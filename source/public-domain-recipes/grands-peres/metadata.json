@@ -1,0 +1,39 @@
+{
+  "title": "Grands-pères au sirop d'érable (Maple Dumplings)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/grands-peres.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "00d68c06e8952ab9d6a0af1f5a59d54f8ffe0bdcce89ae1cb903d9a8e0adfc38",
+  "original_front_matter": {
+    "title": "Grands-pères au sirop d'érable (Maple Dumplings)",
+    "tags": [
+      "quebec",
+      "dessert"
+    ],
+    "date": "2022-06-28",
+    "author": "prox"
+  },
+  "source_url": "https://publicdomainrecipes.com/grands-peres/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Grands-pères",
+      "url": "/pix/grands-peres.webp",
+      "upstreamPath": "static/pix/grands-peres.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "11bdb21738dfc1fc66895b505eb28a1f8db4f3d5a97a2dbc2f929da94fc95c9e",
+      "sourcePath": "source/public-domain-recipes/grands-peres/grands-peres.webp",
+      "promotedPath": "examples/public-domain-recipes/grands-peres/grands-peres.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

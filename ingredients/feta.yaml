@@ -1,0 +1,17 @@
+id: feta
+kind: ingredient
+canonical_name: feta
+names:
+  en: feta
+aliases:
+- name: feta cheese
+  type: review-pass-1-lexical
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/babas-feta-pasta/babas-feta-pasta.opensauce
+  - examples/public-domain-recipes/greek-salad/greek-salad.opensauce
+  - examples/public-domain-recipes/zaatar-chicken-bulgur-bowls/zaatar-chicken-bulgur-bowls.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

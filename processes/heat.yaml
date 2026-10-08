@@ -1,0 +1,142 @@
+id: heat
+kind: process
+canonical_name: heat
+names:
+  en: heat
+status: canonical-seed
+evidence:
+  legacy_observation_count: 21
+  observed_terms:
+    - term: heat
+      count: 37
+  seen_in:
+    - examples/public-domain-recipes/aljotta/aljotta.opensauce
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+    - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+    - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+    - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce
+    - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
+    - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+    - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+    - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+    - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+    - examples/public-domain-recipes/french-toast/french-toast.opensauce
+    - examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce
+    - examples/public-domain-recipes/lavacake/lavacake.opensauce
+    - examples/public-domain-recipes/lentejas/lentejas.opensauce
+    - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+    - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+    - examples/public-domain-recipes/paella/paella.opensauce
+    - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+    - examples/public-domain-recipes/pavlova/pavlova.opensauce
+    - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+    - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+    - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+    - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+    - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+    - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+    - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+    - term: heat
+      count: 21
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 160c / 320f
+    count: 2
+  - value: 180c
+    count: 2
+  - value: 180c / 160c fan
+    count: 1
+  - value: 180c / 350-360f
+    count: 2
+  - value: 200c
+    count: 3
+  - value: 200c / 180c fan
+    count: 2
+  - value: 220c / 200c fan
+    count: 1
+  - value: 230c / gas mark 8
+    count: 2
+  - value: 350f
+    count: 2
+  - value: 375f
+    count: 2
+  - value: 375f / 190c / gas mark 5
+    count: 1
+  - value: 450f / 230c
+    count: 2
+  - value: another skillet
+    count: 1
+  - value: bath-water heat
+    count: 1
+  - value: cast iron skillet
+    count: 1
+  - value: enough for all potato slices
+    count: 1
+  - value: for frying
+    count: 1
+  - value: frying pan
+    count: 3
+  - value: high
+    count: 2
+  - value: hot not smoking
+    count: 1
+  - value: hotplate
+    count: 1
+  - value: large tall pot
+    count: 1
+  - value: low
+    count: 2
+  - value: low-medium
+    count: 1
+  - value: medium
+    count: 3
+  - value: medium saucepan
+    count: 1
+  - value: medium-high heat
+    count: 4
+  - value: medium-low
+    count: 2
+  - value: nonstick frying pan
+    count: 1
+  - value: not above 31c
+    count: 1
+  - value: oven
+    count: 2
+  - value: packet instructions
+    count: 1
+  - value: paella pan
+    count: 2
+  - value: pan
+    count: 5
+  - value: pot
+    count: 2
+  - value: ripping hot
+    count: 1
+  - value: skillet
+    count: 1
+  - value: soup pot
+    count: 1
+  - value: start before braiding; source says no need to preheat
+    count: 1
+  - value: temperature not stated
+    count: 1
+  - value: turn up to medium
+    count: 1
+  - value: until thickened
+    count: 1
+  - value: wok
+    count: 1
+  - value: ~110f / 43c
+    count: 1
+  - value: ~200c / 392f
+    count: 1
+  - value: ~5m
+    count: 1

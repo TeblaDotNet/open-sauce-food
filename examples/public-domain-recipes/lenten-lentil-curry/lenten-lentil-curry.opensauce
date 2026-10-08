@@ -1,0 +1,92 @@
+::recipe
+
+name: Lenten Lentil Curry
+source: https://publicdomainrecipes.com/lenten-lentil-curry/
+source author: sinan-kurtulmuş
+source license: Public domain (Unlicense)
+units: source
+tags: spicy, curry, lentil, fasting
+serves: 2
+image: lenten-lentil-curry.webp
+
+# Original source: ../../../source/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 5 min
+# Source Cook time: 30-35 min
+# Source Servings: 2
+
+::ingredients
+
+(lentils, green) 200g / 7oz
+(vermicelli) 50g / 1 3/4oz
+(curry powder) 1tsp
+(paprika, powder) 1/2tsp
+(cinnamon, powder) 1/2tsp
+(sumac, ground) 1/2tsp
+# Method-only quantities
+(water, initial boil) 1l / 0.26gal
+(water, boiling, final simmer) 0.5l / 0.13gal
+(salt) 1 1/2-2tsp
+(black pepper, ground) a little bit
+
+::equipment
+
+(pot)
+
+::instructions
+
+(lentils) <rinse, thoroughly>
+    <drain>
+    <place, pot>
+    + (water, initial boil)
+    <bring to boil>
+    <boil, gently, ~15-20m>
+    <drain>
+{curry} = (lentils) + (vermicelli) + (curry powder) + (paprika) + (cinnamon) + (sumac) + (salt) + (black pepper) + (water, final simmer)
+{curry} <simmer, ~10m>
+
+::story
+
+Simple green lentil recipe. Suitable for Lent.
+
+Have a blessed Lent.
+
+::source
+<<<
+---
+title: "Lenten Lentil Curry"
+date: 2021-04-06
+tags: ['spicy', 'curry', 'lentil', 'fasting']
+author: sinan-kurtulmuş
+---
+
+Simple green lentil recipe. Suitable for Lent.
+
+![Lenten Lentil Curry](/pix/lenten-lentil-curry.webp)
+
+- Prep time: 5 min
+- Cook time: 30-35 min
+- Servings : 2
+
+## Ingredients
+
+- 200 g (7 oz) green lentils
+- 50 g (1¾ oz) vermicelli
+- 1 tsp curry powder
+- ½ tsp paprika powder
+- ½ tsp cinnamon powder
+- ½ tsp ground sumac
+
+## Directions
+
+1. Thoroughly rinse the lentils and drain the water.
+2. Put the lentils in the pot, and add 1 L (0.26 gal) of water.
+3. Bring to a boil, and gently boil for about 15-20 minutes.
+4. Drain the water.
+5. Add the other ingredients to the pot.
+6. Add 1½-2 tsp of salt and a little bit of ground black pepper.
+7. Add 0.5 L (0.13 gal) of boiling water.
+8. Simmer for about 10 minutes.
+
+Have a blessed Lent.
+>>>

@@ -1,0 +1,80 @@
+id: preheat
+kind: process
+canonical_name: preheat
+names:
+  en: preheat
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: preheat
+      count: 21
+  seen_in:
+    - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+    - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+    - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
+    - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+    - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+    - examples/public-domain-recipes/crostata/crostata.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+    - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+    - examples/public-domain-recipes/pretzels/pretzels.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+    - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+    - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 150°C
+    count: 1
+  - value: 170c / 338f Unox convection; source suggests a little higher for a common
+      oven
+    count: 1
+  - value: 180c
+    count: 2
+  - value: 180f
+    count: 1
+  - value: 190c / Gas mark 5
+    count: 1
+  - value: 250°C
+    count: 1
+  - value: 275f / 135c
+    count: 1
+  - value: 302f / 150c
+    count: 1
+  - value: 350f / 175c
+    count: 2
+  - value: 375f / 190c
+    count: 2
+  - value: 425f / 218c
+    count: 1
+  - value: 425°F / 220°C
+    count: 1
+  - value: 450f / 230c
+    count: 2
+  - value: 475-500f depending on capability
+    count: 1
+  - value: applewood or other sweet cooking wood
+    count: 1
+  - value: beforehand
+    count: 1
+  - value: centre rack and another below
+    count: 1
+  - value: grease pan on middle rail
+    count: 1
+  - value: moderate
+    count: 1
+  - value: near end of rest
+    count: 1
+  - value: oven
+    count: 1
+  - value: th. 6 / 180°
+    count: 1

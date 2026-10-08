@@ -1,0 +1,13 @@
+id: sesame-oil
+kind: ingredient
+names:
+  en: sesame oil
+observed_forms:
+- syntax: sesame oil, toasted
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: toasted
+  count: 1
+legacy_observation: true

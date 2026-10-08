@@ -1,0 +1,51 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Rabbits with Onions
+source: https://publicdomainrecipes.com/rabbit-onions/
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: rabbit, meat
+
+# Imported from content/rabbit-onions.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(cleaned rabbits) 2
+(onion, large) 6
+(nutmeg)
+(butter or lard)
+(flour)
+(cayenne, optional)
+
+::instructions
+
+<peel, , boil, and slice six (or more) large onions, and season them with nutmeg, and a very little cayenne. Cover them, and set them aside till wanted>
+<cut, the meat from two rabbits into pieces, and fry them in fresh butter or lard. When browned, and nearly done, cover them with the sliced onions, and brown them, having laid among them some bits of fresh butter rolled in flour>
+Dish the rabbits, with the pieces entirely hidden under the onions.
+
+::source
+<<<
+---
+title: "Rabbits with Onions"
+date: 1857-03-11
+tags: ['rabbit', 'meat']
+---
+
+## Ingredients
+
+- 2 cleaned rabbits
+- 6 large onions
+- nutmeg
+- butter or lard
+- flour
+- cayenne (optional)
+
+## Directions
+
+1. Peel, boil, and slice six (or more) large onions, and season them with nutmeg, and a very little cayenne. Cover them, and set them aside till wanted.
+2. Cut the meat from two rabbits into pieces, and fry them in fresh butter or lard. When browned, and nearly done, cover them with the sliced onions, and brown them, having laid among them some bits of fresh butter rolled in flour.
+3. Dish the rabbits, with the pieces entirely hidden under the onions.
+>>>

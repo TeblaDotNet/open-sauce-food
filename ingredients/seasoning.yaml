@@ -1,0 +1,22 @@
+id: seasoning
+kind: ingredient
+canonical_name: seasoning
+names:
+  en: seasoning
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: seasoning
+      count: 2
+  seen_in:
+    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_qualifiers:
+  - value: Creole / Cajun
+    count: 1
+  - value: optional
+    count: 1
+plural_names:
+  en: seasonings

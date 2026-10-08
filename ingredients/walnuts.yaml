@@ -1,0 +1,21 @@
+id: walnuts
+kind: ingredient
+canonical_name: walnuts
+names:
+  en: walnuts
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: walnuts
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+observed_qualifiers:
+- value: chopped
+  count: 1
+- value: crushed
+  count: 1

@@ -1,0 +1,78 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Onion Raitha (Indian Tzatziki)
+source: https://publicdomainrecipes.com/onion-raitha/
+source author: ram-pari
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: quick, sauce, indian
+serves: 4
+
+# Imported from content/onion-raitha.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 2 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(greek yogurt) 500 gm
+(red onion) One
+(cucumber) 50 gm
+(sprigs of mint)
+(dash of honey)
+(chilli powder, spicy option) Hint -OR- (sugar, sweet option) Hint
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<chop, the onion into tiny cubes (0.5-1cm or 3/8 inches sized cubes)>
+(cucumber) <slice, into tiny strips (Julienne). Hand crush the mint>
+Prep the serving bowl with yogurt and add the onions and cucumber.
+<add, the mint, honey, 1 tsp of salt and the sugar/chilli powder (Depending on the sweet/spicy choice)>
+<mix, well and serve. Garnish with additional mint as required>
+
+::story
+
+Raitha is an yogurt-based Indian style sauce that goes great with rice dishes such as Pilau and Biriyani. It's quite similar to a greek Tzatziki and is quick and quite easy to make. It's great especially with super spicy indian dishes as it provides as a sweet and cooling effect.
+
+
+::source
+<<<
+---
+title: "Onion Raitha (Indian Tzatziki)"
+date: 2021-03-21
+tags: ['quick', 'sauce', 'indian']
+author: ram-pari
+---
+
+Raitha is an yogurt-based Indian style sauce that goes great with rice dishes such as Pilau and Biriyani. It's quite similar to
+a greek Tzatziki and is quick and quite easy to make. It's great especially with super spicy indian dishes as it
+provides as a sweet and cooling effect.
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 2 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 500 gm of Greek Yogurt
+- One Red onion
+- 50 gm of Cucumber
+- Sprigs of Mint
+- Dash of Honey
+- Hint of Chilli Powder (Spicy option)/ Hint of sugar (Sweet option)
+
+## Directions
+
+1. Chop the onion into tiny cubes (0.5-1cm or 3/8 inches sized cubes)
+2. Slice the cucumber into tiny strips (Julienne). Hand crush the mint.
+3. Prep the serving bowl with yogurt and add the onions and cucumber.
+4. Add the mint, honey, 1 tsp of salt and the sugar/chilli powder (Depending on the sweet/spicy choice)
+5. Mix well and serve. Garnish with additional mint as required.
+>>>

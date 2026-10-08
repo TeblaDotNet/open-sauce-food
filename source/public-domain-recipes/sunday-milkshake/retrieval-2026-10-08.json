@@ -1,0 +1,36 @@
+{
+  "title": "Sunday Morning Milkshake",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sunday-milkshake.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "8abf51ddb92d5ee2d614afebee20b9797fd02f4838fb8fc51293c4d9d76834b6",
+  "original_front_matter": {
+    "title": "Sunday Morning Milkshake",
+    "date": "2021-03-12",
+    "tags": [
+      "sweet",
+      "breakfast",
+      "drink",
+      "cheesefare"
+    ],
+    "author": "yaroslav-smirnov"
+  },
+  "source_url": "https://publicdomainrecipes.com/sunday-milkshake/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Sunday Morning Milkshake",
+      "url": "/pix/sunday-milkshake.webp",
+      "upstreamPath": "static/pix/sunday-milkshake.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

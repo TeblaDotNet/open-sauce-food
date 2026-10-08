@@ -1,0 +1,15 @@
+id: courgette
+kind: ingredient
+names:
+  en: courgette
+observed_forms:
+- syntax: courgette, medium, ~6cm sticks
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: medium
+  count: 1
+- value: ~6cm sticks
+  count: 1
+legacy_observation: true

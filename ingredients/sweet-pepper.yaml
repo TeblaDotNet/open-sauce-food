@@ -1,0 +1,29 @@
+id: sweet-pepper
+kind: ingredient
+canonical_name: sweet pepper
+names:
+  en-GB: sweet pepper
+  en-US: bell pepper
+  en-AU: capsicum
+status: reviewed-merge
+aliases:
+- name: bell pepper
+  type: regional-name
+  observed_count: 3
+- name: capsicum
+  type: regional-name
+  observed_count: 1
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: bell pepper
+    count: 3
+  - term: capsicum
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce

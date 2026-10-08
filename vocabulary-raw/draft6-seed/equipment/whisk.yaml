@@ -1,0 +1,10 @@
+id: whisk
+kind: equipment
+names:
+  en: whisk
+observed_forms:
+- syntax: whisk
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

@@ -1,0 +1,16 @@
+id: colander
+kind: equipment
+canonical_name: colander
+names:
+  en: colander
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: colander
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce

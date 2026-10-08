@@ -1,0 +1,23 @@
+id: dissolve
+kind: process
+canonical_name: dissolve
+names:
+  en: dissolve
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: dissolve
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/limoncello/limoncello.opensauce
+  - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+observed_parameters:
+- value: break apart
+  count: 1
+- value: in soup
+  count: 1

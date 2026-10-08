@@ -1,0 +1,79 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Pancake
+source: https://publicdomainrecipes.com/pancake/
+source author: BeFe
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: quick, breakfast, sweet, pancake, cheesefare
+serves: 1
+image: pancake.webp
+
+# Imported from content/pancake.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 20 min
+# Source metadata: - 🍳 Cook time: 10 min
+# Source metadata: - 🍽️ Servings: 1
+
+::ingredients
+
+(wheat flour or 100g glutenfree flour) 200g
+(milk) 200 ml
+(egg) 2
+(sugar) 2 tsp
+(baking soda) 1 tsp
+(salt) a little bit
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<mix, all ingredients in a bowl>
+<let, the dough rest for ~15 mins>
+<heat, a pan with a bit butter or oil>
+For each pancake spread a ladle of dough in the pan and bake them at lower medium temperature until they are brown on both sides.
+
+::notes
+
+- Syrup
+
+- Cinnamon and sugar
+
+
+::source
+<<<
+---
+title: "Pancake"
+date: 2021-03-11
+tags: ['quick', 'breakfast', 'sweet', 'pancake', 'cheesefare']
+author: "BeFe"
+---
+
+![Pancakes made at home](/pix/pancake.webp)
+
+- ⏲️ Prep time: 20 min
+- 🍳 Cook time: 10 min
+- 🍽️ Servings: 1
+
+## Ingredients
+- 200g wheat flour or 100g glutenfree flour
+- 200 ml milk
+- 2 eggs
+- 2 tsp sugar
+- 1 tsp baking soda
+- a little bit of salt
+
+## Directions
+1. Mix all ingredients in a bowl.
+2. Let the dough rest for ~15 mins.
+3. Heat a pan with a bit butter or oil.
+4. For each pancake spread a ladle of dough in the pan and bake them at lower medium temperature until they are brown on both sides.
+
+## Served with
+- Syrup
+- Cinnamon and sugar
+>>>

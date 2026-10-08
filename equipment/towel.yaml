@@ -1,0 +1,18 @@
+id: towel
+kind: equipment
+canonical_name: towel
+names:
+  en: towel
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: towel
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+observed_qualifiers:
+- value: clean
+  count: 1

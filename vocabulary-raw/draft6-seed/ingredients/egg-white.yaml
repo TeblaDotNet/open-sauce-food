@@ -1,0 +1,9 @@
+id: egg-white
+kind: ingredient
+names:
+  en: egg white
+observed_forms:
+- syntax: egg white
+  count: 1
+seen_in:
+- examples/public-domain-recipes/pavlova/pavlova.opensauce

@@ -1,0 +1,18 @@
+id: wine-and-brandy
+kind: ingredient
+canonical_name: wine and brandy
+names:
+  en: wine and brandy
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: wine and brandy
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+observed_qualifiers:
+- value: mixed
+  count: 1

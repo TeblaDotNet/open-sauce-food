@@ -1,0 +1,72 @@
+::recipe
+
+name: Sand Tarts
+source: https://publicdomainrecipes.com/sand-tarts/
+source author: Pennsylvania Dutch Cooking
+source license: Public domain (Unlicense)
+units: source
+tags: cookies, baking, dutch, pennsylvania
+
+# Original source: ../../../source/public-domain-recipes/sand-tarts/sand-tarts.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 15 min
+# Source Cook time: 10 min
+# Conversion note: 4 eggs listed, then dough eggs and 2 beaten topping eggs; flour unquantified. Cannot determine whether topping eggs are included in four or additional; do not infer total six.
+# Conversion note: Cinnamon, chopped almonds and sugar for sprinkling occur only in directions. Not an inferred quantity; source does not allocate topping sugar from its two cups.
+
+::ingredients
+
+(sugar) 2 cups
+(butter) 1 cup
+(egg) 4
+(flour) enough to make very stiff
+(egg, for top) 2, allocation from listed eggs unclear
+(sugar, for top) as needed
+(cinnamon) as needed
+(almonds, chopped) as needed
+
+::equipment
+
+(oven)
+
+::instructions
+
+(butter) + (sugar) part of <work together>
+    + (sugar) rest of + (egg) <mix>
+    + (flour) <mix, enough to make very stiff>
+    <roll, thin> <cut, small squares>
+(egg, for top) <beat> <brush, tops>
+(sugar, for top) + (cinnamon) + (almonds) <sprinkle, tops>
+{tarts} <bake, moderate oven, 10m>
+
+::story
+
+This is a simple sand tarts dutch recipe.
+
+::source
+<<<
+---
+title: Sand Tarts
+tags: ['cookies', 'baking', 'dutch', 'pennsylvania']
+date: 2008-09-08
+author: "Pennsylvania Dutch Cooking"
+---
+
+This is a simple sand tarts dutch recipe.
+
+- ⏲️ Prep time: 15 min
+- 🍳 Cook time: 10 min
+
+## Ingredients
+
+- 2 cups sugar
+- 1 cup butter
+- 4 eggs
+- flour
+
+## Directions
+
+1. Work butter and part of the sugar together, then the remainder of the sugar and the eggs should be mixed in. Use enough flour to make very stiff.
+2. Roll thin, cut out in small squares, wet top with two eggs beaten, sprinkle with sugar, cinnamon and chopped almonds.
+3. Bake in moderate oven, 10 minutes.
+>>>

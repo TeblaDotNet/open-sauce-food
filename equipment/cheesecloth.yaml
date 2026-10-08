@@ -1,0 +1,19 @@
+id: cheesecloth
+kind: equipment
+canonical_name: cheesecloth
+names:
+  en: cheesecloth
+status: reviewed-merge
+aliases:
+- name: cheese cloth
+  type: spelling
+  observed_count: 1
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cheese cloth
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/oat-milk/oat-milk.opensauce

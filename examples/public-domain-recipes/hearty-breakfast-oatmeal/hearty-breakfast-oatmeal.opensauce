@@ -1,0 +1,92 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Hearty Breakfast Oatmeal 
+source: https://publicdomainrecipes.com/hearty-breakfast-oatmeal/
+source author: joel-farthing
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: breakfast, quick
+image: hearty-breakfast-oatmeal.webp
+
+# Imported from content/hearty-breakfast-oatmeal.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳Cook time: 10 min
+
+::ingredients
+
+(flake oats, Large, no partially cooked quick-oats allowed!) 1/2 cup
+(almonds)
+(pecans)
+(roasted flax seed) 1 Tbsp
+(hemp hearts) 1 Tbsp
+(cranberries, adjust amount to preference)
+(banana, mashed) 1/2
+(milk, 3.25% if possible) 1 cup
+(cinnamon, adjust amount to preference)
+(egg) 1
+(on vanilla ice cream protein powder, optional)
+
+::equipment
+
+(saucepan)
+
+::instructions
+
+<chop, or mash nuts and fruit>
+<combine, nuts, fruit, and other dry ingredients in a saucepan>
+<add, milk and cook mixture over medium heat until oats are desired tenderness (5-10 mins)>
+<add, egg and protein powder and cook for a few more minutes>
+<enjoy>
+
+::notes
+
+- 🍽️ Serving: 1 hearty serving
+
+
+::story
+
+If your Oatmeal isn't Hearty Breakfast Oatmeal... Is it even Oatmeal?
+
+
+::source
+<<<
+---
+title: "Hearty Breakfast Oatmeal "
+date: 2021-03-29
+tags: ['breakfast', 'quick']
+author: joel-farthing
+---
+
+![hearty-breakfast-oatmeal-00](/pix/hearty-breakfast-oatmeal.webp)
+
+If your Oatmeal isn't Hearty Breakfast Oatmeal... Is it even Oatmeal?
+
+- ⏲️ Prep time: 5 min
+- 🍳Cook time: 10 min
+- 🍽️ Serving: 1 hearty serving
+
+## Ingredients
+
+- 1/2 cup Large Flake Oats (no partially cooked quick-oats allowed!)
+- Almonds
+- Pecans
+- 1 Tbsp Roasted Flax Seed
+- 1 Tbsp Hemp Hearts
+- Cranberries (adjust amount to preference)
+- 1/2 Banana (mashed)
+- 1 cup Milk (3.25% if possible)
+- Cinnamon (adjust amount to preference)
+- 1 Egg
+- ON Vanilla Ice Cream Protein Powder (optional)
+
+## Directions
+
+1. Chop or mash nuts and fruit.
+2. Combine nuts, fruit, and other dry ingredients in a saucepan
+3. Add milk and cook mixture over medium heat until oats are desired tenderness (5-10 mins)
+4. Add egg and protein powder and cook for a few more minutes
+5. Enjoy
+>>>

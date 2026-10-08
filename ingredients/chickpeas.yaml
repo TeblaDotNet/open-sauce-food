@@ -1,0 +1,23 @@
+id: chickpeas
+kind: ingredient
+canonical_name: chickpeas
+names:
+  en: chickpeas
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: chickpeas
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+observed_qualifiers:
+- value: canned
+  count: 2
+- value: drained
+  count: 1
+- value: rinsed
+  count: 1

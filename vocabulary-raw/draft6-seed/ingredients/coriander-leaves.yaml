@@ -1,0 +1,12 @@
+id: coriander-leaves
+kind: ingredient
+names:
+  en: coriander leaves
+observed_forms:
+- syntax: coriander leaves, for garnish
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+observed_qualifiers:
+- value: for garnish
+  count: 1

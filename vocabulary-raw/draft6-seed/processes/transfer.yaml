@@ -1,0 +1,23 @@
+id: transfer
+kind: process
+names:
+  en: transfer
+observed_forms:
+  - syntax: transfer, cooling rack
+    count: 2
+  - syntax: transfer, jug
+    count: 1
+  - syntax: transfer, serving bowl
+    count: 1
+seen_in:
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - legacy-corpus:bbc-food-10
+observed_parameters:
+  - value: cooling rack
+    count: 2
+  - value: jug
+    count: 1
+  - value: serving bowl
+    count: 1
+legacy_observation: true

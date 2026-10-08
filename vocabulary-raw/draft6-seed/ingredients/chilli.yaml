@@ -1,0 +1,15 @@
+id: chilli
+kind: ingredient
+names:
+  en: chilli
+observed_forms:
+- syntax: chilli, Thai red, halved
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: halved
+  count: 1
+- value: Thai red
+  count: 1
+legacy_observation: true

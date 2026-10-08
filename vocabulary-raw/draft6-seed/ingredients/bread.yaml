@@ -1,0 +1,12 @@
+id: bread
+kind: ingredient
+names:
+  en: bread
+observed_forms:
+- syntax: bread, for serving
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1

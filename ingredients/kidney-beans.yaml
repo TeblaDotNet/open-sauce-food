@@ -1,0 +1,21 @@
+id: kidney-beans
+kind: ingredient
+canonical_name: kidney beans
+names:
+  en: kidney beans
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: kidney beans
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+observed_qualifiers:
+- value: canned
+  count: 1
+- value: red
+  count: 1

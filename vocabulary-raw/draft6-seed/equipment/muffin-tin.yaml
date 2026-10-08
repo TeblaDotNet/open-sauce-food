@@ -1,0 +1,14 @@
+id: muffin-tin
+kind: equipment
+names:
+  en: muffin tin
+observed_forms:
+  - syntax: muffin tin
+    count: 1
+  - syntax: muffin tin, 24-hole
+    count: 1
+seen_in:
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+observed_qualifiers:
+  - value: 24-hole
+    count: 1

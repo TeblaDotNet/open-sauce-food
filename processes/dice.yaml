@@ -1,0 +1,26 @@
+id: dice
+kind: process
+canonical_name: dice
+names:
+  en: dice
+status: canonical-seed
+evidence:
+  current_recipe_count: 7
+  current_observation_count: 10
+  legacy_observation_count: 0
+  observed_terms:
+  - term: dice
+    count: 10
+  seen_in:
+  - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+  - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+  - examples/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce
+  - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+observed_parameters:
+- value: finely
+  count: 2
+- value: small
+  count: 2

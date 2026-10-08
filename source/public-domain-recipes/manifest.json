@@ -1,0 +1,2186 @@
+{
+  "retrieved_on": "2026-10-07",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "license": "Public domain (Unlicense)",
+  "recipe_count": 100,
+  "image_count": 38,
+  "records": [
+    {
+      "slug": "banana-bread",
+      "coverage": "baking",
+      "title": "Banana Bread",
+      "author": "martin-chrzanowski",
+      "url": "https://publicdomainrecipes.com/banana-bread/",
+      "images": [],
+      "notes": [
+        [
+          "Walnuts appear in the ingredient list but not in the directions.",
+          "(walnuts, crushed) 1/4 cup; no invented addition step.",
+          "Source does not state when to add them."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/banana-bread/banana-bread.opensauce",
+      "source": "source/public-domain-recipes/banana-bread/banana-bread.md",
+      "source_sha256": "38c7311949b619791a6a1225fb27863c3e9e6490c35bf8d4f456ebe61d2350a2",
+      "opensauce_sha256": "0e35f79564da9c943057c125d15e3d089c0c93612118cef7f4e7c99c339bc368"
+    },
+    {
+      "slug": "butter-cake",
+      "coverage": "baking",
+      "title": "Butter Cake",
+      "author": "Michael",
+      "url": "https://publicdomainrecipes.com/butter-cake/",
+      "images": [],
+      "notes": [
+        [
+          "Optional cocoa batter changes the later meringue allocation.",
+          "Optional block plus a conditional fold parameter.",
+          "Draft 6 has no formal branch-dependent portion accounting; preserve the condition in prose."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/butter-cake/butter-cake.opensauce",
+      "source": "source/public-domain-recipes/butter-cake/butter-cake.md",
+      "source_sha256": "ac1c635ffe29b4f503035f382fdfc436ba223b0d34dd1efbd396b02e50bebe09",
+      "opensauce_sha256": "47b3b903cffcdad6db1ca9c7ff9fd31ae5ce2c01bc9d96211e6265b4cc4f4e26"
+    },
+    {
+      "slug": "blueberry-muffins",
+      "coverage": "baking",
+      "title": "Blueberry Muffins",
+      "author": "Marcus Howser",
+      "url": "https://publicdomainrecipes.com/blueberry-muffins/",
+      "images": [],
+      "notes": [
+        [
+          "Cook time: 30 min; directions say 20-25 minutes.",
+          "Keep cook-time source comment and <bake, 20-25m, ...>.",
+          "Do not resolve the source timing discrepancy."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce",
+      "source": "source/public-domain-recipes/blueberry-muffins/blueberry-muffins.md",
+      "source_sha256": "2385ecc7f07fe0f391a86e7afc3db6c7ba35671b341ec890219f1f4a3fd06e5f",
+      "opensauce_sha256": "39b090fa161c85941c75cddd2fe76cc8d08f074fe81a15033f1f68cf6b59415f"
+    },
+    {
+      "slug": "oatmeal-cookies",
+      "coverage": "baking",
+      "title": "Oatmeal Cookies",
+      "author": "hoehlrich",
+      "url": "https://publicdomainrecipes.com/oatmeal-cookies/",
+      "images": [],
+      "notes": [
+        [
+          "Cook for ~10 minutes or until edges begin to brown; no temperature given.",
+          "<cook, ~10m or until edges begin to brown>",
+          "No oven setting or precise heat source invented."
+        ],
+        [
+          "cranberries/raisins/coconut/nuts (optional)",
+          "(add-ins, optional, cranberries/raisins/coconut/nuts) as desired",
+          "Slash may mean a choice or a mix; retain source ambiguity rather than forcing -OR-."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce",
+      "source": "source/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.md",
+      "source_sha256": "cbbebd1db48754559f162d635a8544fae4ce94447d44be097da40867adb3782f",
+      "opensauce_sha256": "ccf4084d134c5f16191bbfb1382f8ca4102ffaa1839ac72ef12db74c634930a1"
+    },
+    {
+      "slug": "matcha-cookies",
+      "coverage": "baking",
+      "title": "Matcha Cookies",
+      "author": "Hamza Masood",
+      "url": "https://publicdomainrecipes.com/matcha-cookies/",
+      "images": [],
+      "notes": [
+        [
+          "Yield note: 13 cookies, 8 ~ 9cm in diameter; method: Pan with a 5cm diameter cookie.",
+          "yield: 13 cookies, 8-9cm in diameter; method retains 5cm.",
+          "Possibly raw versus baked size, but not explicitly established."
+        ],
+        [
+          "Source says coverture; notes offer white chocolate chips.",
+          "(chocolate, white coverture); original substitution note retained in story.",
+          "Preserve spelling and substitution context rather than asserting equivalence."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce",
+      "source": "source/public-domain-recipes/matcha-cookies/matcha-cookies.md",
+      "source_sha256": "805386e015077b366f908de7bf71ca86d9d44f1483e52333b114dc98d0bf8847",
+      "opensauce_sha256": "cdf1d94a9292ef19a27575ed545b4250d26a2a3e673e574d7e9f449753f0fbf6"
+    },
+    {
+      "slug": "greek-easter-cookies",
+      "coverage": "baking",
+      "title": "Greek Easter Cookies",
+      "author": "Rufflikerex",
+      "url": "https://publicdomainrecipes.com/greek-easter-cookies/",
+      "images": [],
+      "notes": [
+        [
+          "Method adds salt and uses oil on hands; baking soda is listed but not mentioned in directions.",
+          "Unquantified method-only declarations; no baking-soda addition invented.",
+          "Source omission and unused ingredient preserved."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce",
+      "source": "source/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.md",
+      "source_sha256": "50481e82a4bba0f1eff1ba5ef9d224ab5d7e5a21d9f9d22f97f1a7648df34988",
+      "opensauce_sha256": "87910cc6a1285d9f41a216e14f47cae13d7f4835da3f33cc638a0618e50188bd"
+    },
+    {
+      "slug": "crostata",
+      "coverage": "baking",
+      "title": "Crostata",
+      "author": "pestanzul",
+      "url": "https://publicdomainrecipes.com/crostata/",
+      "images": [
+        {
+          "alt": "Crostata",
+          "source_url": "https://publicdomainrecipes.com/pix/crostata.webp",
+          "source_reference": "/pix/crostata.webp",
+          "status": "retrieved",
+          "filename": "crostata.webp",
+          "sha256": "a15285f3670cabe9824dbd0d9a4e5fb46b90c7d879ca092f39befc97d3d06c53"
+        }
+      ],
+      "notes": [
+        [
+          "8 servings shortcrust pastry links to /shortcrust-pastry.",
+          "(shortcrust pastry) 8 servings; linked dependency preserved in source.",
+          "No formal cross-recipe inclusion or scaling syntax; serving mass remains unspecified."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/crostata/crostata.opensauce",
+      "source": "source/public-domain-recipes/crostata/crostata.md",
+      "source_sha256": "e247246ae03f8d17a3f6e9491e5d683423b4ad053806de1322714bc65ac03dc4",
+      "opensauce_sha256": "c2814c00c3e2b40afc75574f56363b47367e2ace44f4da8d9eff980ecdea638d"
+    },
+    {
+      "slug": "castagnole",
+      "coverage": "baking",
+      "title": "Castagnole",
+      "author": "pestanzul",
+      "url": "https://publicdomainrecipes.com/castagnole/",
+      "images": [
+        {
+          "alt": "Castagnole",
+          "source_url": "https://publicdomainrecipes.com/pix/castagnole.webp",
+          "source_reference": "/pix/castagnole.webp",
+          "status": "retrieved",
+          "filename": "castagnole.webp",
+          "sha256": "0d24472fbd898ed30e548e5cc167c3f745dede21abc563ae85a93f046d42af1a"
+        }
+      ],
+      "notes": [
+        [
+          "3 tablespoons olive oil is listed but not used by the directions; final sugar is unquantified.",
+          "Retain olive oil declaration and <sweeten, sugar or honey>.",
+          "No invented addition step or allocation of the stated five tablespoons."
+        ],
+        [
+          "1 glass milk; half a glass mistrà; flour and instant yeast unquantified.",
+          "Human-readable glass quantities; as needed for missing amounts.",
+          "Glass capacity and yeast dose cannot be inferred."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/castagnole/castagnole.opensauce",
+      "source": "source/public-domain-recipes/castagnole/castagnole.md",
+      "source_sha256": "39a2302bf30953d9ff11dec000d723d7c89547e0153e2acf19d1be621fc9883c",
+      "opensauce_sha256": "66e2ef3cfee330c634f63b7f1deeb5cca222a2fcae004a4a3b258150a9753e4e"
+    },
+    {
+      "slug": "desert-roses",
+      "coverage": "baking",
+      "title": "Desert roses",
+      "author": "pestanzul",
+      "url": "https://publicdomainrecipes.com/desert-roses/",
+      "images": [
+        {
+          "alt": "Desert roses",
+          "source_url": "https://publicdomainrecipes.com/pix/desert-roses.webp",
+          "source_reference": "/pix/desert-roses.webp",
+          "status": "retrieved",
+          "filename": "desert-roses.webp",
+          "sha256": "bba992a7949b90cf12e4de2eff253b9d391d9eb9301a1bbf76c7817e19a6189c"
+        }
+      ],
+      "notes": [
+        [
+          "Cook time: 40 min; bake for about 30 minutes.",
+          "Source timing comment plus <bake, ~30m>.",
+          "Keep both stated timings without silently reconciling them."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/desert-roses/desert-roses.opensauce",
+      "source": "source/public-domain-recipes/desert-roses/desert-roses.md",
+      "source_sha256": "ccce7da57ca5b684971636fa1e95c66d09c3ca00dc563c729841fc93085876b9",
+      "opensauce_sha256": "b8f964ecd0b2d518bb76942666af3ff9de86f8de1708ef452925b032e2278473"
+    },
+    {
+      "slug": "scandinavian-coffee-cake",
+      "coverage": "baking",
+      "title": "Scandinavian Coffee Cake",
+      "author": null,
+      "url": "https://publicdomainrecipes.com/scandinavian-coffee-cake/",
+      "images": [],
+      "notes": [
+        [
+          "No author in source front matter.",
+          "Omit source author metadata; retain explicit missing-author comment.",
+          "Do not invent an author."
+        ],
+        [
+          "While warm spread with confectioners' sugar icing; no icing recipe given.",
+          "(confectioners’ sugar icing) as needed",
+          "Compound ingredient remains unexpanded; composition and quantity not supplied."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce",
+      "source": "source/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.md",
+      "source_sha256": "44b56916614739fd13201f4440681327a1f0fddf12644e72532f7b6bd1f296d3",
+      "opensauce_sha256": "caad43607f81e2aebd3b36921d36f7869cdcd49da758050769323eafd405c5fc"
+    },
+    {
+      "slug": "bread",
+      "coverage": "bread-dough",
+      "title": "Bread",
+      "author": "alex-selimov",
+      "url": "https://publicdomainrecipes.com/bread/",
+      "images": [
+        {
+          "alt": "Finished bread in its baking mold",
+          "source_url": "https://publicdomainrecipes.com/pix/bread.webp",
+          "source_reference": "/pix/bread.webp",
+          "status": "retrieved",
+          "filename": "bread.webp",
+          "sha256": "7993d529fcb5139eb64b3b651ff1e42b5aa3f1121e2bfd5fb4fbc6dd30193f6f"
+        }
+      ],
+      "notes": [
+        [
+          "Whole wheat note says 2 cups of whole wheat bread.",
+          "Original note retained in story with comment.",
+          "Likely flour typo, but no ingredient substitution silently corrected."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/bread/bread.opensauce",
+      "source": "source/public-domain-recipes/bread/bread.md",
+      "source_sha256": "7a33906e3356b92081b94a40b924040df5178d3edabf9c8da410e19ecfbe44a5",
+      "opensauce_sha256": "8fd326554f0a5623c532eee341f8a6606937fd8496ae99f97b3cba411c1858c6"
+    },
+    {
+      "slug": "challah-bread",
+      "coverage": "bread-dough",
+      "title": "Challah Bread",
+      "author": "siggines",
+      "url": "https://publicdomainrecipes.com/challah-bread/",
+      "images": [],
+      "notes": [
+        [
+          "600ml (1 Pint); prep time excludes 3-4 hours rise and cooling.",
+          "Retain 600ml / 1 Pint and source timing comments; no total time.",
+          "Pint locale and rounding are unresolved; prep time is not active or total time."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/challah-bread/challah-bread.opensauce",
+      "source": "source/public-domain-recipes/challah-bread/challah-bread.md",
+      "source_sha256": "f4132cf5e9958eba4e23d54a5245f92fc895a6e3aec96248e10db8ae001ca201",
+      "opensauce_sha256": "484e7cacf0a7ab5bf32558ac6533e039a5f74c6d6aea7f25a062b777da6adb2a"
+    },
+    {
+      "slug": "naan-bread",
+      "coverage": "bread-dough",
+      "title": "Naan Bread",
+      "author": "nihar-samantaray",
+      "url": "https://publicdomainrecipes.com/naan-bread/",
+      "images": [
+        {
+          "alt": "Naan Bread",
+          "source_url": "https://publicdomainrecipes.com/pix/naan-bread.webp",
+          "source_reference": "/pix/naan-bread.webp",
+          "status": "retrieved",
+          "filename": "naan-bread.webp",
+          "sha256": "d360a7e3a774109187f27d14fd56aa1ed655824fb0ff78e3e009308fdfa42140"
+        }
+      ],
+      "notes": [
+        [
+          "Introduction calls naan unleavened; yeast is listed. Step 2 does not explicitly combine milk mixture with flour.",
+          "Preserve yeast declaration and comment at implicit dough transition.",
+          "Source contradictions are not resolved by adding an unmentioned mixing step."
+        ],
+        [
+          "Prep 90 min / cook 30 min versus rest 2-3h and bake 30-35m.",
+          "Preserve source timing comments and method times separately.",
+          "Do not compute a misleading total."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/naan-bread/naan-bread.opensauce",
+      "source": "source/public-domain-recipes/naan-bread/naan-bread.md",
+      "source_sha256": "6dbf3ebe16b6a64dfcf3d0219741bfb705d60f8f7cce70d0c36ef22d63ae3257",
+      "opensauce_sha256": "0000f4f03bf69d41eb9028c8525109215af3a749cbbee51b3b9559ba2993cf1d"
+    },
+    {
+      "slug": "pizza-dough",
+      "coverage": "bread-dough",
+      "title": "Pizza Dough",
+      "author": "BeFe",
+      "url": "https://publicdomainrecipes.com/pizza-dough/",
+      "images": [],
+      "notes": [
+        [
+          "1 spoon olive oil; a teensy bit of sugar.",
+          "Literal human-readable quantities.",
+          "Neither spoon capacity nor a numeric sugar amount is known."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/pizza-dough/pizza-dough.opensauce",
+      "source": "source/public-domain-recipes/pizza-dough/pizza-dough.md",
+      "source_sha256": "a2f4c3345b453319b0e537a638ab0accb84aacebd261fc05e7bdbcb1f6c88ac2",
+      "opensauce_sha256": "3678a788038621500a7abc09b60061689dac05e87ec2ed670bf1a732ede1f565"
+    },
+    {
+      "slug": "puff-pastry",
+      "coverage": "bread-dough",
+      "title": "Puff Pastry",
+      "author": "Nic Trib",
+      "url": "https://publicdomainrecipes.com/puff-pastry/",
+      "images": [],
+      "notes": [
+        [
+          "Repeat two or more times until the dough was rolled roughly 6 times.",
+          "Readable Repeat condition, retaining roughly six.",
+          "Loop count is approximate and source counting scope unclear."
+        ],
+        [
+          "Cook time: 25 min; directions only specify 400 degrees F.",
+          "Header cook time stays a comment, not an invented mandatory bake duration.",
+          "Baking depends on the eventual pastry use."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/puff-pastry/puff-pastry.opensauce",
+      "source": "source/public-domain-recipes/puff-pastry/puff-pastry.md",
+      "source_sha256": "dda0117db065425b6cd06e595dd705c50518f4ce493666063d463facaf79eb62",
+      "opensauce_sha256": "74e25526cfd75e204dd1f81947c279adfc94dc58d73fe6511acc936cbf33094f"
+    },
+    {
+      "slug": "shortcrust-pastry",
+      "coverage": "bread-dough",
+      "title": "Shortcrust pastry",
+      "author": "pestanzul",
+      "url": "https://publicdomainrecipes.com/shortcrust-pastry/",
+      "images": [],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce",
+      "source": "source/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.md",
+      "source_sha256": "4994418b0da811e124ee981401a586b0f27514cb19300301a99c85d493aff4fc",
+      "opensauce_sha256": "83b4e972d82e6af0f5bf85e2aa88e19627587cd3cec001e7d352673fc5950c5d"
+    },
+    {
+      "slug": "sourdough-starter",
+      "coverage": "bread-dough",
+      "title": "Sourdough starter",
+      "author": "Vili Kangas",
+      "url": "https://publicdomainrecipes.com/sourdough-starter/",
+      "images": [],
+      "notes": [
+        [
+          "Day 2: if no bubbles wait another day; days 3-4 repeat feeding.",
+          "Day comments, conditional check and Repeat block.",
+          "Calendar labels shift conditionally; no fixed total flour or water can be inferred."
+        ],
+        [
+          "Almost indefinitely; surface liquid protects from microbes.",
+          "Source claims retained with explicit not-validated comment.",
+          "Preservation claims are source assertions, not guarantees established by conversion."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce",
+      "source": "source/public-domain-recipes/sourdough-starter/sourdough-starter.md",
+      "source_sha256": "c065444e9125c04426431d01b244b5d2c6d99415580e4f4f72177c9dd0d425a9",
+      "opensauce_sha256": "a43ea4dd294e5cac3aea64d3ee4d73c939482c883682f9424f28712c43509d05"
+    },
+    {
+      "slug": "sourdough-loaf",
+      "coverage": "bread-dough",
+      "title": "Sourdough Table Loaf",
+      "author": "Quinn & Alison",
+      "url": "https://publicdomainrecipes.com/sourdough-loaf/",
+      "images": [
+        {
+          "alt": "Sourdough Table Loaf",
+          "source_url": "https://publicdomainrecipes.com/pix/sourdough-loaf.webp",
+          "source_reference": "/pix/sourdough-loaf.webp",
+          "status": "retrieved",
+          "filename": "sourdough-loaf.webp",
+          "sha256": "1129e32bcea53745cbfd84aef3ef11e22a40eab3e86d1dbd2d6389bdb979298a"
+        }
+      ],
+      "notes": [
+        [
+          "Baking vessel alternatives govern steam and first 15 minutes covered.",
+          "Alternative blocks with conditional later removal of water pan.",
+          "The branch state remains readable prose; no new conditional syntax introduced."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce",
+      "source": "source/public-domain-recipes/sourdough-loaf/sourdough-loaf.md",
+      "source_sha256": "744946cd77d48b73e8a41328e1f0852a3767336c2617541195fb36b81788d305",
+      "opensauce_sha256": "ddce8f7b0467a6ea722b93c4654f4b79a779a705e5de2e1ad31e2167c1203895"
+    },
+    {
+      "slug": "pretzels",
+      "coverage": "bread-dough",
+      "title": "Pretzels",
+      "author": "ihalseide",
+      "url": "https://publicdomainrecipes.com/pretzels/",
+      "images": [],
+      "notes": [
+        [
+          "1 1/5 (355mL) cups water.",
+          "(water, for dough) 1 1/5 cups / 355ml",
+          "Stated equivalence appears inconsistent; neither amount silently corrected."
+        ],
+        [
+          "Source says sodium hydroxide harmlessly evaporates, describes drain disposal, and calls skin exposure minor irritation.",
+          "Cooking method preserved; these ancillary chemical-handling claims remain in original source and are flagged here.",
+          "They are not reliable culinary facts to strengthen or endorse; independent safety review required before publication as practical guidance."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/pretzels/pretzels.opensauce",
+      "source": "source/public-domain-recipes/pretzels/pretzels.md",
+      "source_sha256": "e422da82dbe991716bf7ea8bbdc4056995d733a96afba30d889cee0343da4960",
+      "opensauce_sha256": "8706e7bcdd63e8553bac9ad576bb2ec41d7c4318eaea84f2ba47090dbd5f9e7e"
+    },
+    {
+      "slug": "zopf",
+      "coverage": "bread-dough",
+      "title": "Zopf",
+      "author": "thijs-wester",
+      "url": "https://publicdomainrecipes.com/zopf/",
+      "images": [],
+      "notes": [
+        [
+          "1½T salt.",
+          "(salt) 1 1/2T",
+          "Uppercase T left unexpanded; exact unit convention not declared."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/zopf/zopf.opensauce",
+      "source": "source/public-domain-recipes/zopf/zopf.md",
+      "source_sha256": "9c3e6527935d792d891c4ecc3a62448005e76effba078c6f871a60742d6b168b",
+      "opensauce_sha256": "74d9d311e4fbf9878dbe82f26d0182beb7bc241e77a2ec4aa369713e6210e383"
+    },
+    {
+      "slug": "classic-bechamel-sauce",
+      "coverage": "sauces",
+      "title": "Classic béchamel sauce",
+      "author": "yiusa",
+      "url": "https://publicdomainrecipes.com/classic-bechamel-sauce/",
+      "images": [],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce",
+      "source": "source/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.md",
+      "source_sha256": "0a12eeabe9318b896f4244fc316017fdedeff9329686762aeb351ddf2e0cbdfb",
+      "opensauce_sha256": "d96e75138bb8204521252f58e0b1c7529bda9330797a44d8c9e12ccbfe56c1e2"
+    },
+    {
+      "slug": "mayonnaise-or-aioli",
+      "coverage": "sauces",
+      "title": "Mayonnaise or aioli",
+      "author": "brox",
+      "url": "https://publicdomainrecipes.com/mayonnaise-or-aioli/",
+      "images": [
+        {
+          "alt": "Aioli",
+          "source_url": "https://publicdomainrecipes.com/pix/mayonnaise-or-aioli.webp",
+          "source_reference": "/pix/mayonnaise-or-aioli.webp",
+          "status": "retrieved",
+          "filename": "mayonnaise-or-aioli.webp",
+          "sha256": "008b5e9531ca42a9b96acbc38585b80e5c486d7f26036e150f2a9cf668483b0d"
+        }
+      ],
+      "notes": [
+        [
+          "Pickle juice is optional in ingredients but not mentioned in directions.",
+          "Retain declaration without inventing an addition point.",
+          "Source leaves its use unspecified."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce",
+      "source": "source/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.md",
+      "source_sha256": "13bc74141e512bcfb66db6e28965a2c4cda5aae07a912438e9276669cc4f67d0",
+      "opensauce_sha256": "828db2b0a256ccbb597788381146b07471f3d48c3e19fc07d0f0a02f2e99be6e"
+    },
+    {
+      "slug": "ketchup",
+      "coverage": "sauces",
+      "title": "Ketchup",
+      "author": null,
+      "url": "https://publicdomainrecipes.com/ketchup/",
+      "images": [],
+      "notes": [
+        [
+          "Pour into hot, sterile jars, fill jars to top, and seal.",
+          "Source filling/sealing directions retained; no storage claim added.",
+          "No tested canning schedule or shelf-life is supplied; do not infer shelf stability."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/ketchup/ketchup.opensauce",
+      "source": "source/public-domain-recipes/ketchup/ketchup.md",
+      "source_sha256": "b69591c8572f2707745b6357f9393c876f7c6b659ab5178910305197e1437f89",
+      "opensauce_sha256": "cb92d741aaee5d9cc61e83b1a69d5ff1b96606e3fc5ca251b833855afc7b34ed"
+    },
+    {
+      "slug": "pepper-sauce",
+      "coverage": "sauces",
+      "title": "Pepper Sauce",
+      "author": "Vili Kangas",
+      "url": "https://publicdomainrecipes.com/pepper-sauce/",
+      "images": [],
+      "notes": [
+        [
+          "1 tablespoon ... rose pepper, green pepper and black pepper.",
+          "One pepper-mixture declaration, 1tbsp.",
+          "Source does not specify ratio; do not assign a tablespoon to each."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce",
+      "source": "source/public-domain-recipes/pepper-sauce/pepper-sauce.md",
+      "source_sha256": "bec0089d795b416dd3849748ae76d634ab3bb413c78f11e51680d5fd2cad492b",
+      "opensauce_sha256": "363971ea8b2e4afeeedc069e27acddb7577ac418c7e5aa673a398adbe6bebc2a"
+    },
+    {
+      "slug": "curry-sauce",
+      "coverage": "sauces",
+      "title": "Curry sauce",
+      "author": "Fiddelate",
+      "url": "https://publicdomainrecipes.com/curry-sauce/",
+      "images": [],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/curry-sauce/curry-sauce.opensauce",
+      "source": "source/public-domain-recipes/curry-sauce/curry-sauce.md",
+      "source_sha256": "78f48d1552ed189c26101ae4e585c87172e43e23d065edadcd10411e3e7cbc11",
+      "opensauce_sha256": "390c06a7865bd53799ee89ab0624ec58cff4a193fc4432963779540dba08029f"
+    },
+    {
+      "slug": "bolognese-sauce",
+      "coverage": "sauces",
+      "title": "Bolognese Sauce",
+      "author": "tait",
+      "url": "https://publicdomainrecipes.com/bolognese-sauce/",
+      "images": [
+        {
+          "alt": "Bolognese sauce",
+          "source_url": "https://publicdomainrecipes.com/pix/bolognese-sauce.webp",
+          "source_reference": "/pix/bolognese-sauce.webp",
+          "status": "retrieved",
+          "filename": "bolognese-sauce.webp",
+          "sha256": "d9a532fd7136581ea62f3571051a4c94d945409a0c0b279257bb8d37edcddd72"
+        }
+      ],
+      "notes": [
+        [
+          "Fill tomato jar and can with water; 1-2 glasses wine.",
+          "Container-based quantities preserved in method and ingredient declarations.",
+          "Container volumes are unspecified, so no water total or glass volume calculated."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce",
+      "source": "source/public-domain-recipes/bolognese-sauce/bolognese-sauce.md",
+      "source_sha256": "1f288eb37ec7266e1082f89593edad84457e48b974cf98f5c987e213ec7f9f72",
+      "opensauce_sha256": "45ff453b4127357e1145e87911da9c95fa88ae13669d099df1e74c334f02a580"
+    },
+    {
+      "slug": "red-sauce",
+      "coverage": "sauces",
+      "title": "Red Sauce (Ragu all'Italiana)",
+      "author": "laurent-micheli",
+      "url": "https://publicdomainrecipes.com/red-sauce/",
+      "images": [],
+      "notes": [
+        [
+          "Cook time: Simmer all day; method: a few hours; simmer meat in oil until browned.",
+          "Retain qualitative timing and source simmer wording with comment.",
+          "Do not impose a duration or silently replace simmer with fry."
+        ],
+        [
+          "Sweet onion; Large carrot.",
+          "Quantity unspecified rather than inventing 1 each.",
+          "Singular wording does not establish an explicit measured count."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/red-sauce/red-sauce.opensauce",
+      "source": "source/public-domain-recipes/red-sauce/red-sauce.md",
+      "source_sha256": "f9e09894d5018b65f0af7c52c48fed0fadab67628dbb3c8cfa64447abed728f6",
+      "opensauce_sha256": "1de258cd43b3593c33b85987ee63454ec46ee57f7d2df86521c4fc83f18bb2bc"
+    },
+    {
+      "slug": "salsa-verde",
+      "coverage": "sauces",
+      "title": "Salsa Verde",
+      "author": "Nathan",
+      "url": "https://publicdomainrecipes.com/salsa-verde/",
+      "images": [],
+      "notes": [
+        [
+          "1/2 cup (26g) chopped onion; 3 Tbsp (40ml) oil.",
+          "Keep both source equivalents.",
+          "Apparent measurement discrepancies are not converted or corrected."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/salsa-verde/salsa-verde.opensauce",
+      "source": "source/public-domain-recipes/salsa-verde/salsa-verde.md",
+      "source_sha256": "3e4f7200f7d48549df2578b3b78dc453a657bea3e16347019930a54b343845a2",
+      "opensauce_sha256": "09555e27b698ccf3b4931d19ead27842f582288fa73b8fd83636425d17bb0add"
+    },
+    {
+      "slug": "tzatziki",
+      "coverage": "sauces",
+      "title": "Tzatziki",
+      "author": null,
+      "url": "https://publicdomainrecipes.com/tzatziki/",
+      "images": [
+        {
+          "alt": "Tzatziki",
+          "source_url": "https://publicdomainrecipes.com/pix/tzatziki.webp",
+          "source_reference": "/pix/tzatziki.webp",
+          "status": "unavailable",
+          "reason": "Absent in pinned upstream snapshot. Live URL retrieved on 2026-10-07 returned HTML, not image bytes."
+        }
+      ],
+      "notes": [
+        [
+          "Garlic, 1 clove/teaspoon; add all three to yogurt after cucumber, dill and garlic-oil preparation.",
+          "Literal garlic quantity; combine the described prepared components.",
+          "Slash meaning and referent count are ambiguous; no measured equivalence assumed."
+        ],
+        [
+          "Image reference /pix/tzatziki.webp has no image in upstream snapshot; live retrieval returned HTML.",
+          "Omit image metadata and retain unavailable-image record in metadata.json.",
+          "No image substituted or fabricated."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/tzatziki/tzatziki.opensauce",
+      "source": "source/public-domain-recipes/tzatziki/tzatziki.md",
+      "source_sha256": "43cc13c518bdfe50796ddc52a3fea0d9abe321d046d242a3bf45be272e0da49c",
+      "opensauce_sha256": "76a5065e5512d02cb49253ebf9ad8514fbfaa1ad2eebcf531e18beeac5b98a3c"
+    },
+    {
+      "slug": "fume-sauce",
+      "coverage": "sauces",
+      "title": "Fumé sauce",
+      "author": "pestanzul",
+      "url": "https://publicdomainrecipes.com/fume-sauce/",
+      "images": [
+        {
+          "alt": "fume-sauce",
+          "source_url": "https://publicdomainrecipes.com/pix/fume-sauce.webp",
+          "source_reference": "/pix/fume-sauce.webp",
+          "status": "retrieved",
+          "filename": "fume-sauce.webp",
+          "sha256": "31b68981c03be377d4cf5b292607fc38df4abaeac8ceb1c794982b76ab98b109"
+        }
+      ],
+      "notes": [
+        [
+          "Olive oil is listed, but frying step does not explicitly add it.",
+          "Retain declaration without specifying an extra method action.",
+          "Keep source omission; paprica spelling retained for later vocabulary review."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/fume-sauce/fume-sauce.opensauce",
+      "source": "source/public-domain-recipes/fume-sauce/fume-sauce.md",
+      "source_sha256": "936c9939068f46065fee9e3b463d27081e602cd4ca5d8f12452bdb4d9d7ecabc",
+      "opensauce_sha256": "f9a908f48a9cbf7f96dcaeee829a3a10cd4c827970f265972e1cc7aabe495791"
+    },
+    {
+      "slug": "baby-back-ribs",
+      "coverage": "meat",
+      "title": "Baby Back Ribs",
+      "author": "crazywillbear",
+      "url": "https://publicdomainrecipes.com/baby-back-ribs/",
+      "images": [],
+      "notes": [
+        [
+          "Bag of brown sugar; Bottle of honey; 1 container of barbecue rub.",
+          "Container quantities retained; method uses generous or small amounts.",
+          "Package size and consumed amount are not specified."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce",
+      "source": "source/public-domain-recipes/baby-back-ribs/baby-back-ribs.md",
+      "source_sha256": "5c7cf8b09a782c965b42af869491590e8d1609a90b068f4be758c334d6d2bd3e",
+      "opensauce_sha256": "e9ab646332fde6c53dd4b45355ac1d23dcb54bb0514de51a709de920b8cb1f1a"
+    },
+    {
+      "slug": "beef-wellington",
+      "coverage": "meat",
+      "title": "Beef Wellington",
+      "author": "HiddenSquid321",
+      "url": "https://publicdomainrecipes.com/beef-wellington/",
+      "images": [],
+      "notes": [
+        [
+          "Preheat 302°F/150°C; bake 302°F/105°C.",
+          "Both settings retained, second explicitly marked source states.",
+          "Contradictory Celsius values and false equivalence cannot be resolved without changing source meaning."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/beef-wellington/beef-wellington.opensauce",
+      "source": "source/public-domain-recipes/beef-wellington/beef-wellington.md",
+      "source_sha256": "75c638a4b0dc08ea63ffde152d70b7351600e82bfe7780c591ca627e4495ed4a",
+      "opensauce_sha256": "e51c0a0b944f96972659d5a01c8973beb0511ef2019845e90c65ccc61f18a813"
+    },
+    {
+      "slug": "chicken-satay",
+      "coverage": "meat",
+      "title": "Chicken Satay with Peanut Sauce",
+      "author": "Eric Lindberg",
+      "url": "https://publicdomainrecipes.com/chicken-satay/",
+      "images": [],
+      "notes": [
+        [
+          "Prep 10 min and cook 15 min exclude at least an hour marinating.",
+          "Source comments plus explicit <marinate, at least 1h>.",
+          "Do not calculate total as 25m. Source tumeric spelling retained."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/chicken-satay/chicken-satay.opensauce",
+      "source": "source/public-domain-recipes/chicken-satay/chicken-satay.md",
+      "source_sha256": "d569f3231c418fca97917d36cf7295d1f494b4eeb21879a0dd9e877fa4a49894",
+      "opensauce_sha256": "9ee7436feee25008d294d32406ece85f79861f0352243aed1d1529f3be8274d8"
+    },
+    {
+      "slug": "pork-carnitas",
+      "coverage": "meat",
+      "title": "Slow-cooked Pork Carnitas",
+      "author": "sam",
+      "url": "https://publicdomainrecipes.com/pork-carnitas/",
+      "images": [],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce",
+      "source": "source/public-domain-recipes/pork-carnitas/pork-carnitas.md",
+      "source_sha256": "35cc7b68834ecac747c0cbefd571259bfb2d7a9e317333b6f1112a09cd78ae28",
+      "opensauce_sha256": "ba8bd1ee63e5018cecd9b36734156098a153b7b513a7d7d30d0245694f08928c"
+    },
+    {
+      "slug": "slow-cooked-lamb-with-lemon",
+      "coverage": "meat",
+      "title": "Slow-cooked Lamb with Lemon",
+      "author": "ben-stox",
+      "url": "https://publicdomainrecipes.com/slow-cooked-lamb-with-lemon/",
+      "images": [
+        {
+          "alt": "Slow-cooked Lamb with Lemon",
+          "source_url": "https://publicdomainrecipes.com/pix/slow-cooked-lamb-with-lemon.webp",
+          "source_reference": "/pix/slow-cooked-lamb-with-lemon.webp",
+          "status": "retrieved",
+          "filename": "slow-cooked-lamb-with-lemon.webp",
+          "sha256": "426e65244b4985b611c784e74bdb90c316251eec05be6008f228eafd2190be47"
+        }
+      ],
+      "notes": [
+        [
+          "2 lemons; half a lemon in marinade; remaining lemon in directions.",
+          "Use remaining lemon without a computed count.",
+          "Source singular remaining lemon conflicts with apparent 1½ remainder; do not silently reconcile."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce",
+      "source": "source/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.md",
+      "source_sha256": "fac418e0b5606defd7b68c0e9f3975ebba7350c2a8081b0c64c8d5734c954c98",
+      "opensauce_sha256": "daa9bc4c8a701ca22e69ee534ee624006266b763ca3293f35b4c13fedb723c64"
+    },
+    {
+      "slug": "schnitzel",
+      "coverage": "meat",
+      "title": "Schnitzel",
+      "author": "Tobias & Alexandra Grimm",
+      "url": "https://publicdomainrecipes.com/schnitzel/",
+      "images": [
+        {
+          "alt": "schnitzel",
+          "source_url": "https://publicdomainrecipes.com/pix/schnitzel.webp",
+          "source_reference": "/pix/schnitzel.webp",
+          "status": "retrieved",
+          "filename": "schnitzel.webp",
+          "sha256": "77d61c09c38131f68cd1cdc715880b0aa05f343a4fa6c672c07b2ebd4fc9c14a"
+        }
+      ],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/schnitzel/schnitzel.opensauce",
+      "source": "source/public-domain-recipes/schnitzel/schnitzel.md",
+      "source_sha256": "eca1a11111f65c6b318e2fd179f5e8c85ab6e86c26580b69c24b58092ad86632",
+      "opensauce_sha256": "b8ae1ab5404579e9c7a8f82e9b2d08d211e407206d53239cd7ce181b1721d3dd"
+    },
+    {
+      "slug": "chicken-wings",
+      "coverage": "meat",
+      "title": "Chicken Wings",
+      "author": "kyle-steger",
+      "url": "https://publicdomainrecipes.com/chicken-wings/",
+      "images": [],
+      "notes": [
+        [
+          "Reynold's Oven Bag occurs under Ingredients.",
+          "Declare it in ::equipment.",
+          "Physical non-food item moved by type; exact source list preserved separately."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/chicken-wings/chicken-wings.opensauce",
+      "source": "source/public-domain-recipes/chicken-wings/chicken-wings.md",
+      "source_sha256": "98551f6a4f215c7210611495875930e0017ba39e798bbfd29b35c5d2c67788b4",
+      "opensauce_sha256": "a117903d6cff8740fac0841536f2cfaacd775206bb3884fd03b1aac1cbb9bcca"
+    },
+    {
+      "slug": "broiled-venison-steaks",
+      "coverage": "meat",
+      "title": "Broiled Venison Steaks",
+      "author": "Miss Leslie",
+      "url": "https://publicdomainrecipes.com/broiled-venison-steaks/",
+      "images": [],
+      "notes": [
+        [
+          "Ingredients say jelly (cranberry, peach, or grape); method says cranberry or peach sauce or grape jelly.",
+          "Preserve both descriptions and serving quantities.",
+          "Do not force sauces and jelly into an artificial equivalent ingredient concept."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce",
+      "source": "source/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.md",
+      "source_sha256": "0e424aa3f3f85feda1aa08477a16ea287daff00302ffffe69e4d652c4f900ccb",
+      "opensauce_sha256": "3967bdb4862e2aa0f38c8410cd88022fa565052930e8dc4711dcfc362298058f"
+    },
+    {
+      "slug": "spatchcock-chicken",
+      "coverage": "meat",
+      "title": "Spatchcock Chicken",
+      "author": "front3ndninja",
+      "url": "https://publicdomainrecipes.com/spatchcock-chicken/",
+      "images": [],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce",
+      "source": "source/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.md",
+      "source_sha256": "752491eb1491ca3f8f8d59ad39d4adf106eb688e72b24794490949197fc5c0e6",
+      "opensauce_sha256": "166476e86afb361f87dda5d48f0ca02bbc1b824b665d5926f13ccbcdb9add717"
+    },
+    {
+      "slug": "baked-salmon",
+      "coverage": "fish-seafood",
+      "title": "Baked Salmon",
+      "author": "carl-zimmerman",
+      "url": "https://publicdomainrecipes.com/baked-salmon/",
+      "images": [],
+      "notes": [
+        [
+          "Salmon steaks unquantified; aluminum foil appears as an ingredient.",
+          "Quantity unspecified; foil declared as equipment.",
+          "No count inferred and non-food item retyped."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/baked-salmon/baked-salmon.opensauce",
+      "source": "source/public-domain-recipes/baked-salmon/baked-salmon.md",
+      "source_sha256": "a4f4629ee2bd5ef85493d9ca3da18b0cf519b1d4ab6388696cd627a23a36ba99",
+      "opensauce_sha256": "158755539986f91cca933be5594cfd47267296376600116ca9b990944ca631fa"
+    },
+    {
+      "slug": "baked-trout",
+      "coverage": "fish-seafood",
+      "title": "Baked Trout",
+      "author": null,
+      "url": "https://publicdomainrecipes.com/baked-trout/",
+      "images": [],
+      "notes": [
+        [
+          "Ingredient list says garlic power; method says garlic powder.",
+          "(garlic powder) following explicit method wording.",
+          "Likely typo documented instead of silently disregarded."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/baked-trout/baked-trout.opensauce",
+      "source": "source/public-domain-recipes/baked-trout/baked-trout.md",
+      "source_sha256": "3bb0f3529e1ab437ab3f28acda79ed32f6a49389b12d93c4579493b53b4959c2",
+      "opensauce_sha256": "0863f13a0406ebe80d44baec46d4bb4b4aaeec672c4b224fb73dc107d502935d"
+    },
+    {
+      "slug": "ceviche",
+      "coverage": "fish-seafood",
+      "title": "Ceviche",
+      "author": "jacob-smith",
+      "url": "https://publicdomainrecipes.com/ceviche/",
+      "images": [
+        {
+          "alt": "tilapia ceviche on rice",
+          "source_url": "https://publicdomainrecipes.com/pix/ceviche.webp",
+          "source_reference": "/pix/ceviche.webp",
+          "status": "retrieved",
+          "filename": "ceviche.webp",
+          "sha256": "bd6a1fc733ae3279d911daa1a920b26c2aff6a14d544f5c3725611f1ef5cb52a"
+        }
+      ],
+      "notes": [
+        [
+          "Source permits eating after one hour and prefers overnight; generic Seafood.",
+          "Retain timing and generic ingredient with source-limitation comment.",
+          "Do not imply acid marination establishes safety or invent a species or pretreatment."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/ceviche/ceviche.opensauce",
+      "source": "source/public-domain-recipes/ceviche/ceviche.md",
+      "source_sha256": "44cf7ea8a4ccfba14751ba7b1f297bfbc6102d5d89b41c9dc5950706146eb6cb",
+      "opensauce_sha256": "290944b288734eec8c7154b159464586dfdd26d1da5d1ba9cda92b24f5ab7e99"
+    },
+    {
+      "slug": "fish-curry",
+      "coverage": "fish-seafood",
+      "title": "Fish Curry",
+      "author": "thijs-wester",
+      "url": "https://publicdomainrecipes.com/fish-curry/",
+      "images": [],
+      "notes": [
+        [
+          "Ginger listed, method only says spices; quantities use 3T and 1t.",
+          "Retain ginger without an invented explicit addition; retain unit letter case.",
+          "Do not infer how ginger is prepared or which step uses it."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/fish-curry/fish-curry.opensauce",
+      "source": "source/public-domain-recipes/fish-curry/fish-curry.md",
+      "source_sha256": "5208db4b76bdcd024a25358ab406740484920c10c3b20043b701de69e0dc1715",
+      "opensauce_sha256": "e39f1c726ed7bbc1012532925eda2b270517df9ec159abc94b85fbbc86dc8687"
+    },
+    {
+      "slug": "aljotta",
+      "coverage": "fish-seafood",
+      "title": "Aljotta",
+      "author": "shou-ganai",
+      "url": "https://publicdomainrecipes.com/aljotta/",
+      "images": [],
+      "notes": [
+        [
+          "No ingredient amounts; stock prepared in step 2 but no addition in step 4.",
+          "Unquantified declarations and explicit omission comment.",
+          "No invented stock volume or assembly step; implicit soup result remains imperfect."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/aljotta/aljotta.opensauce",
+      "source": "source/public-domain-recipes/aljotta/aljotta.md",
+      "source_sha256": "14ab20851b0507cbc5d9f1ab48d2d4863eaf61a3d8623792efe1431cafa519df",
+      "opensauce_sha256": "a6f4bb09646c9f385760593f1fae92d4c5becc4e69ad01f6bb862041604eb442"
+    },
+    {
+      "slug": "pulpo-gallega",
+      "coverage": "fish-seafood",
+      "title": "Pulpo a la gallega",
+      "author": "ivn1s",
+      "url": "https://publicdomainrecipes.com/pulpo-gallega/",
+      "images": [
+        {
+          "alt": "pulpo a la gallega",
+          "source_url": "https://publicdomainrecipes.com/pix/pulpo-gallega.webp",
+          "source_reference": "/pix/pulpo-gallega.webp",
+          "status": "retrieved",
+          "filename": "pulpo-gallega.webp",
+          "sha256": "d3145a0556b6783ee5ad1179805ef0186f0ec1f73d3a4c52f299deca04c50ba1"
+        }
+      ],
+      "notes": [
+        [
+          "Servings field is present but empty.",
+          "Omit serves and record empty field in source metadata.",
+          "No yield inferred from octopus weight."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce",
+      "source": "source/public-domain-recipes/pulpo-gallega/pulpo-gallega.md",
+      "source_sha256": "2489d0a8d3107485ff130d1a0f989d5142bb8057790cd2f272bd34d35a03871e",
+      "opensauce_sha256": "a13dd54aa1340185e73cf64976eba8816688040e01b9667134a3f164a41e363e"
+    },
+    {
+      "slug": "crab-salad",
+      "coverage": "fish-seafood",
+      "title": "Crab salad",
+      "author": null,
+      "url": "https://publicdomainrecipes.com/crab-salad/",
+      "images": [
+        {
+          "alt": "Crab salad",
+          "source_url": "https://publicdomainrecipes.com/pix/crab-salad.webp",
+          "source_reference": "/pix/crab-salad.webp",
+          "status": "retrieved",
+          "filename": "crab-salad.webp",
+          "sha256": "46ef4f36e103e4ad28c4a5d670e2b26293133314cc5bc0ad0311318a2e7a8a60"
+        }
+      ],
+      "notes": [
+        [
+          "Chop crab meat and all other ingredients; combine all ingredients then add mayonnaise.",
+          "Mayonnaise added at its explicit later step; retain broad chopping phrase.",
+          "Literal all is imprecise; avoid interpreting it as chopping liquids or inventing preparation detail."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/crab-salad/crab-salad.opensauce",
+      "source": "source/public-domain-recipes/crab-salad/crab-salad.md",
+      "source_sha256": "8c9d60e5ac1bc052a82723853016aee0ff0866e634fd8de4c9bf1072a1a735c6",
+      "opensauce_sha256": "d048ff285af4da05cc4a7204bd582590800a4a55ba8289a7d81b0134fa373993"
+    },
+    {
+      "slug": "sardine-cakes",
+      "coverage": "fish-seafood",
+      "title": "Sardine Cakes",
+      "author": "tom-fasano",
+      "url": "https://publicdomainrecipes.com/sardine-cakes/",
+      "images": [],
+      "notes": [
+        [
+          "2 tins sardines (~4oz); lemon juice optional in list but final drizzle imperative.",
+          "Keep ambiguous tin weight and comment at final drizzle.",
+          "Cannot know if ~4oz is per tin or total; optionality conflict retained."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce",
+      "source": "source/public-domain-recipes/sardine-cakes/sardine-cakes.md",
+      "source_sha256": "014d0be1b71daac909dfd0d60ecb3e05e64c3f89cfbad6029b0e53e657ffec66",
+      "opensauce_sha256": "21258a76dc0e2b73c6ab0325c7bc6b7c3f041f366a0a37ed9857e1e058eec777"
+    },
+    {
+      "slug": "broiled-trevally",
+      "coverage": "fish-seafood",
+      "title": "Broiled Trevally",
+      "author": "oq-olarte",
+      "url": "https://publicdomainrecipes.com/broiled-trevally/",
+      "images": [],
+      "notes": [
+        [
+          "Title Broiled Trevally; covered pan method; butter unused; squash doneness judges everything.",
+          "Use <cook, medium-low fire> rather than invented broiling; retain butter and source test.",
+          "Title and method differ; doneness heuristic is source wording, not independently validated."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce",
+      "source": "source/public-domain-recipes/broiled-trevally/broiled-trevally.md",
+      "source_sha256": "29cf17f87de57548cdc2bfdc5e6dfc47328b28afa20092056ecbfa4c491e3810",
+      "opensauce_sha256": "10187f244512d4d292745ef98b6acca96d543cf797f006962c3da3d274d3e81a"
+    },
+    {
+      "slug": "ratatouille",
+      "coverage": "vegetable-pulses",
+      "title": "Ratatouille",
+      "author": "joel-maxuel",
+      "url": "https://publicdomainrecipes.com/ratatouille/",
+      "images": [],
+      "notes": [
+        [
+          "Salt and pepper appear only in ingredients.",
+          "Declarations retained without invented seasoning step.",
+          "Source does not state when they are used."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/ratatouille/ratatouille.opensauce",
+      "source": "source/public-domain-recipes/ratatouille/ratatouille.md",
+      "source_sha256": "e603897db186d100060094e5c59ca60c7a67ba49d36371360f20cdf134adc8fe",
+      "opensauce_sha256": "542b6044c10c09f2da5075426af1d3fbb0f3e21bbb26faef3a2c245fac615e01"
+    },
+    {
+      "slug": "lenten-chili",
+      "coverage": "vegetable-pulses",
+      "title": "Lenten Chili",
+      "author": "yorge-z",
+      "url": "https://publicdomainrecipes.com/lenten-chili/",
+      "images": [
+        {
+          "alt": "Lenten chili",
+          "source_url": "https://publicdomainrecipes.com/pix/lenten-chili.webp",
+          "source_reference": "/pix/lenten-chili.webp",
+          "status": "retrieved",
+          "filename": "lenten-chili.webp",
+          "sha256": "058207bb0ad5a8639cec6071ff5c48bba97e7a9c9c815a27e662935d9ad7ab84"
+        }
+      ],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/lenten-chili/lenten-chili.opensauce",
+      "source": "source/public-domain-recipes/lenten-chili/lenten-chili.md",
+      "source_sha256": "bc59d88766ae0c8b377863052886f642a7f8e9a79ef2081337d9863ceebf4bfc",
+      "opensauce_sha256": "5cd092e5f424d45d1ef3a17e24ce65f28119b7a3f8cbca8790861cb7bf2b5ab4"
+    },
+    {
+      "slug": "red-lentil-dahl",
+      "coverage": "vegetable-pulses",
+      "title": "Red Lentil Dahl",
+      "author": "joel-maxuel",
+      "url": "https://publicdomainrecipes.com/red-lentil-dahl/",
+      "images": [],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce",
+      "source": "source/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.md",
+      "source_sha256": "89407524f5c57e58a059afaa0ff0c6ff50f6154b7b78fd567cc4d8de76b275a9",
+      "opensauce_sha256": "ccf4771de6edbfdfc2ffd1150e83f0a2aefceea99b4fd331453f59b307166668"
+    },
+    {
+      "slug": "tofu-stir-fry",
+      "coverage": "vegetable-pulses",
+      "title": "Tofu Stir Fry",
+      "author": "kelvin-shadewing",
+      "url": "https://publicdomainrecipes.com/tofu-stir-fry/",
+      "images": [],
+      "notes": [
+        [
+          "Eggs mandatory in list but method says if non-vegan; cabbage is one suggested vegetable.",
+          "Conditional ingredient qualifier and Optional block; conditional cabbage parameter.",
+          "Preserve source-dependent choices without inferring an unconditional dietary label."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce",
+      "source": "source/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.md",
+      "source_sha256": "c6066ce078f62add057f51260e53051e564392c6df7590a855d8bafded18ca37",
+      "opensauce_sha256": "8f255d77a3f0715b75c1aefc66733b7ebeec0592a7ccdf25fc67ed0c7eda0806"
+    },
+    {
+      "slug": "hoisin-tofu-and-broccoli",
+      "coverage": "vegetable-pulses",
+      "title": "Hoisin Tofu and Broccoli",
+      "author": "Mark Erickson",
+      "url": "https://publicdomainrecipes.com/hoisin-tofu-and-broccoli/",
+      "images": [],
+      "notes": [
+        [
+          "1 cup dark soy sauce listed; marinade uses 1/2 teaspoon; remaining soy sauce unspecified.",
+          "Keep declared quantities, exact marinade amounts and unqualified remaining soy sauce reference.",
+          "Possible quantity typo and ambiguous remainder cannot be resolved."
+        ],
+        [
+          "dry cherry; prepared sauce never explicitly added in directions.",
+          "Preserve dry cherry spelling and omission comment.",
+          "Do not silently change to sherry or invent addition point."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce",
+      "source": "source/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.md",
+      "source_sha256": "d832e379f88093e713799fb6901eda933831f05a9dfdba6d750950f39a259b0a",
+      "opensauce_sha256": "563a42e48e360f9ea8355bca93530b2311bc0a3e9048fe725983ca98ee137815"
+    },
+    {
+      "slug": "potato-and-eggplant-curry",
+      "coverage": "vegetable-pulses",
+      "title": "Potato and Eggplant (Aubergine) Curry",
+      "author": "luke-chadwick",
+      "url": "https://publicdomainrecipes.com/potato-and-eggplant-curry/",
+      "images": [],
+      "notes": [
+        [
+          "3 tbsp oil used for coating eggplant and cooking onions; no split stated.",
+          "Repeated oil references without invented portions.",
+          "No amount allocated to either step."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce",
+      "source": "source/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.md",
+      "source_sha256": "bbdfc2a94de5d144750018435139dee80aa7f913dc113f51416b9f1dc4777c95",
+      "opensauce_sha256": "a8246c017b3aa515460398ab70879fc67da7c555cde694bf79e0b301f2a66359"
+    },
+    {
+      "slug": "egyptian-lentils",
+      "coverage": "vegetable-pulses",
+      "title": "Egyptian Lentils",
+      "author": "joel-maxuel",
+      "url": "https://publicdomainrecipes.com/egyptian-lentils/",
+      "images": [],
+      "notes": [
+        [
+          "Cook macaroni until tender. Add to lentils; draining not explicit.",
+          "No invented drainage step for macaroni.",
+          "Source omits an action; preserve rather than silently supply it."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce",
+      "source": "source/public-domain-recipes/egyptian-lentils/egyptian-lentils.md",
+      "source_sha256": "6f8d5b90ab19e4c122928188231dfbef41c61328f3c23277dd59337ca1054048",
+      "opensauce_sha256": "53eff34d9ff27d0f1a56954d2e4b08b8ac6e667ed94c5651165cc8b35d123f61"
+    },
+    {
+      "slug": "lenten-lentil-curry",
+      "coverage": "vegetable-pulses",
+      "title": "Lenten Lentil Curry",
+      "author": "sinan-kurtulmuş",
+      "url": "https://publicdomainrecipes.com/lenten-lentil-curry/",
+      "images": [
+        {
+          "alt": "Lenten Lentil Curry",
+          "source_url": "https://publicdomainrecipes.com/pix/lenten-lentil-curry.webp",
+          "source_reference": "/pix/lenten-lentil-curry.webp",
+          "status": "retrieved",
+          "filename": "lenten-lentil-curry.webp",
+          "sha256": "45a9b3493ebf35689a505beb8534030b4c6f8d7fa60bd3f70811e812d9189478"
+        }
+      ],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce",
+      "source": "source/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.md",
+      "source_sha256": "e67c692dc82bcdf9cff30f2895de53f792cbee800d87fd2216c6bd9b5570085f",
+      "opensauce_sha256": "b4cba1100e2d9dff21399a09e858dad0675ce076fed8cf68e5b7657cb68de01e"
+    },
+    {
+      "slug": "bean-salad",
+      "coverage": "vegetable-pulses",
+      "title": "Three Bean Salad",
+      "author": "joel-maxuel",
+      "url": "https://publicdomainrecipes.com/bean-salad/",
+      "images": [],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/bean-salad/bean-salad.opensauce",
+      "source": "source/public-domain-recipes/bean-salad/bean-salad.md",
+      "source_sha256": "4edd61215f78eec1de53075537116c4ab91cc4b7ed0d010c9277b1825e903153",
+      "opensauce_sha256": "2900adf7c5e5ba69495fefe164f385f5611ceff1963a40125ca869d825a5af54"
+    },
+    {
+      "slug": "ginger-garlic-broccoli",
+      "coverage": "vegetable-pulses",
+      "title": "Broccoli with Ginger and Garlic Sauce",
+      "author": "mjt91",
+      "url": "https://publicdomainrecipes.com/ginger-garlic-broccoli/",
+      "images": [],
+      "notes": [
+        [
+          "Half inch (1.57cm); chicken stock option despite fasting tag.",
+          "Keep inconsistent depth equivalents and liquid choice; no inferred vegan dietary claim.",
+          "Source unit mismatch and diet-dependent option require review."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce",
+      "source": "source/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.md",
+      "source_sha256": "5e47b0642a6b071e47dae3bfdd7cc0e0c0486f5f292ad31864101884c335bf87",
+      "opensauce_sha256": "21dbae1bae20aaeff07cb87fa51ff07d42a6418b1ef9728bd8a68c37870f52d7"
+    },
+    {
+      "slug": "french-onion-soup",
+      "coverage": "soups",
+      "title": "French Onion Soup",
+      "author": "joe-powerhouse",
+      "url": "https://publicdomainrecipes.com/french-onion-soup/",
+      "images": [],
+      "notes": [
+        [
+          "Cheese is spelled guereye; only some of the half-cup oil is explicitly used.",
+          "Keep spelling and unspecified allocation.",
+          "No inferred correction or oil distribution."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce",
+      "source": "source/public-domain-recipes/french-onion-soup/french-onion-soup.md",
+      "source_sha256": "1fa57c923d969be23c96523c941af990c363a966b3e7d758214c3af128c03fe6",
+      "opensauce_sha256": "b2509ac39efb26b53cdeb7c67f1742b9af4112a8852b4410e88926b30cbe4d76"
+    },
+    {
+      "slug": "clam-chowder",
+      "coverage": "soups",
+      "title": "Clam Chowder",
+      "author": "Tim L",
+      "url": "https://publicdomainrecipes.com/clam-chowder/",
+      "images": [],
+      "notes": [
+        [
+          "Bacon is to be added back later, but no step states when; garnish not identified.",
+          "Set bacon aside with comment; generic garnish as desired.",
+          "Missing timing and ingredient identity cannot be made precise."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/clam-chowder/clam-chowder.opensauce",
+      "source": "source/public-domain-recipes/clam-chowder/clam-chowder.md",
+      "source_sha256": "30d4b02665ac38e0d514611a20f932def8bc89fda1a7035219e15dbe25f134d7",
+      "opensauce_sha256": "431cc5614f090580fdd611002092e7fe136fd15d707c16342f4f81b3e7a01033"
+    },
+    {
+      "slug": "finnish-salmon-soup",
+      "coverage": "soups",
+      "title": "Finnish Salmon Soup",
+      "author": "tara-brennan",
+      "url": "https://publicdomainrecipes.com/finnish-salmon-soup/",
+      "images": [],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce",
+      "source": "source/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.md",
+      "source_sha256": "05ca07c128537c99c829db017a864680b4c49c9c9bf1b20ed1ec04b2b6495f0b",
+      "opensauce_sha256": "fc3bd4084ac02779f6a8f62dbddb25beed757350df59686795d643b75f835f5e"
+    },
+    {
+      "slug": "lentejas",
+      "coverage": "soups",
+      "title": "Sopa de Lentejas",
+      "author": "nacchofer31",
+      "url": "https://publicdomainrecipes.com/lentejas/",
+      "images": [
+        {
+          "alt": "Lentejas",
+          "source_url": "https://publicdomainrecipes.com/pix/lentejas.webp",
+          "source_reference": "/pix/lentejas.webp",
+          "status": "retrieved",
+          "filename": "lentejas.webp",
+          "sha256": "44696551e97b56358c296e9e9914174677fa317332cbae3f76cbd2d0969462e0"
+        }
+      ],
+      "notes": [
+        [
+          "Optional chorizo quantity is 1/4 without a unit; paprika unused.",
+          "Retain unit-not-stated quantity and comment.",
+          "Cannot infer sausage size or paprika timing."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/lentejas/lentejas.opensauce",
+      "source": "source/public-domain-recipes/lentejas/lentejas.md",
+      "source_sha256": "8e66b7f6303bccb1ee5d3f376fd3945bda6ef39c0d88e4d33274642fadbd3ece",
+      "opensauce_sha256": "a82e9d43f29f763c4a0cc52267e56661e6dad6025365d3386a019507d60b1e52"
+    },
+    {
+      "slug": "erwtensoep",
+      "coverage": "soups",
+      "title": "Erwtensoep (Dutch pea soup)",
+      "author": "rijk",
+      "url": "https://publicdomainrecipes.com/erwtensoep/",
+      "images": [],
+      "notes": [
+        [
+          "Sausage is chopped in ingredients then thinly sliced in method.",
+          "Retain both source preparations.",
+          "Redundant preparation may be a source inconsistency."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/erwtensoep/erwtensoep.opensauce",
+      "source": "source/public-domain-recipes/erwtensoep/erwtensoep.md",
+      "source_sha256": "06e14acdf9831542888b2619a00d17e10ca3a5c2c4757673dd1b775cab84fd2e",
+      "opensauce_sha256": "51e22ed8e89087a88b6a07fab12e0e2017f07b6f801a3364f79d1d0044a62daa"
+    },
+    {
+      "slug": "miso-soup",
+      "coverage": "soups",
+      "title": "Miso-soup",
+      "author": "yakatan",
+      "url": "https://publicdomainrecipes.com/miso-soup/",
+      "images": [],
+      "notes": [
+        [
+          "Put about half of the water in the pot; no total or remaining-water step.",
+          "Water quantity not stated; about half in method.",
+          "The denominator and fate of remaining water are unknown."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/miso-soup/miso-soup.opensauce",
+      "source": "source/public-domain-recipes/miso-soup/miso-soup.md",
+      "source_sha256": "7f3edc5ed0bfba86d8fa770508b9dff2f975bff346e205dd9e8d2b2447323132",
+      "opensauce_sha256": "9925dfda11df3c9695e85d40321aab83488bb14348a91f9b4ba33c7808216a7a"
+    },
+    {
+      "slug": "pho-soup",
+      "coverage": "soups",
+      "title": "Pho Soup",
+      "author": "jon-burga",
+      "url": "https://publicdomainrecipes.com/pho-soup/",
+      "images": [
+        {
+          "alt": "Based Beef Pho",
+          "source_url": "https://publicdomainrecipes.com/pix/pho-soup.webp",
+          "source_reference": "/pix/pho-soup.webp",
+          "status": "retrieved",
+          "filename": "pho-soup.webp",
+          "sha256": "ec48c57e7d4f34e62e0bbd64b6174bb85caa079b0db34dada1400a946f408dd2"
+        }
+      ],
+      "notes": [
+        [
+          "Lime unused; oven temperature and several quantities absent.",
+          "Retain lime and flag absence; no inferred oven setting.",
+          "Recipe relies on cook judgement."
+        ],
+        [
+          "Fish/Oyster Sauce in ingredients and fish/oyster sauce in method.",
+          "Named choice between fish sauce and oyster sauce.",
+          "Slash interpreted as alternatives for readability; source does not explicitly exclude using both."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/pho-soup/pho-soup.opensauce",
+      "source": "source/public-domain-recipes/pho-soup/pho-soup.md",
+      "source_sha256": "8301e4a96238df20fa98b678f2b9c41fa63e6222e29a87cd7d6c28b0c314fe82",
+      "opensauce_sha256": "1e46da5bb6405ab4375682b8da96e9f3709cca39834f09b8654beb2748afa63a"
+    },
+    {
+      "slug": "ukrainian-borscht",
+      "coverage": "soups",
+      "title": "Ukrainian Borscht",
+      "author": "stanislav",
+      "url": "https://publicdomainrecipes.com/ukrainian-borscht/",
+      "images": [
+        {
+          "alt": "Borscht in a bowl",
+          "source_url": "https://publicdomainrecipes.com/pix/borscht.webp",
+          "source_reference": "/pix/borscht.webp",
+          "status": "retrieved",
+          "filename": "borscht.webp",
+          "sha256": "5b117387cc968f6c1f651261483691842e4b3b57940654bb773ad86afae662eb"
+        }
+      ],
+      "notes": [
+        [
+          "Optional ingredients collectively added at end include sour cream also used for serving.",
+          "Keep collective optional addition and flag serving overlap.",
+          "Allocation of sour cream and dill is not explicit."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce",
+      "source": "source/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.md",
+      "source_sha256": "b7ec94f742393196ea02f7b786621fff51280c6b1b9affda06960dc2480e7681",
+      "opensauce_sha256": "3711df5d5101634c11d9ed300c0e32485b86202a5589fe3fd4a4cf452b921738"
+    },
+    {
+      "slug": "tomato-and-grilled-paprika-soup",
+      "coverage": "soups",
+      "title": "Tomato and Grilled Bell Pepper soup",
+      "author": "thijs-wester",
+      "url": "https://publicdomainrecipes.com/tomato-and-grilled-paprika-soup/",
+      "images": [],
+      "notes": [
+        [
+          "Giner syrup spelling; no explicit boil after stock addition.",
+          "Preserve source term and omit invented boiling stage.",
+          "Likely typo and abbreviated method left for review."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce",
+      "source": "source/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.md",
+      "source_sha256": "b695518688ee0fffe7e666b87a36b53fb1f77a6070d5ac7b8ea13506bd34abb5",
+      "opensauce_sha256": "3ef8feedf8f04092a6777db3e077ef0f6de889f729a86b516d1f87b6796be027"
+    },
+    {
+      "slug": "japanese-noodle-soup",
+      "coverage": "soups",
+      "title": "Japanese Noodle Soup",
+      "author": "jake-keast",
+      "url": "https://publicdomainrecipes.com/japanese-noodle-soup/",
+      "images": [
+        {
+          "alt": "Japanese Noodle Soup",
+          "source_url": "https://publicdomainrecipes.com/pix/japanese-noodle-soup.webp",
+          "source_reference": "/pix/japanese-noodle-soup.webp",
+          "status": "retrieved",
+          "filename": "japanese-noodle-soup.webp",
+          "sha256": "fb435bfb04ed7ef9cc708cfd5bf4f8789fc5bf601acdb8a4769582457c22a9d5"
+        }
+      ],
+      "notes": [
+        [
+          "750ml stock listed, 700ml used; honey and Worcestershire never used; eggs optional but method assumes them.",
+          "Retain listed total and method amount, optional egg block, comment on meat alternative.",
+          "No allocation for 50ml or unused seasonings; optional list governs conditional components."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce",
+      "source": "source/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.md",
+      "source_sha256": "19070e246cbb9e6af9ce47c8a3d3272bbda2bfa3df24c7bc54710ab93d303afd",
+      "opensauce_sha256": "65a20b76639311134aff3c66ba54218cb56ebc819dd7fb1c51f34cc0e5e9d361"
+    },
+    {
+      "slug": "kombucha",
+      "coverage": "drinks-preserves-fermentation",
+      "title": "Kombucha",
+      "author": "elias-pahls",
+      "url": "https://publicdomainrecipes.com/kombucha/",
+      "images": [],
+      "notes": [
+        [
+          "Jar listed as 5l (1 gallon); 4l dilution plus 3-5 cups tea may exceed it.",
+          "Keep both jar measures and water amounts without adjustment.",
+          "Capacity and conversion inconsistency. Source storage and fermentation claims are retained in reference text, not validated."
+        ],
+        [
+          "Boil 1-2l, rinse dishes, then steep in 3-5 cups; source does not state whether these water portions overlap.",
+          "Keep initial boil and tea quantities, flag uncertain allocation.",
+          "Do not sum them into an inferred total water requirement."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/kombucha/kombucha.opensauce",
+      "source": "source/public-domain-recipes/kombucha/kombucha.md",
+      "source_sha256": "310aad1d4eb93b094c8eda3a7ab99886a7bf59be10ab31fb3ccb0db589236430",
+      "opensauce_sha256": "46bcffb853e8645707a7367463df4c418aa0d6dc1f15a923d277dfbbb54fc3f8"
+    },
+    {
+      "slug": "kvass",
+      "coverage": "drinks-preserves-fermentation",
+      "title": "Kvass",
+      "author": "holsterbau",
+      "url": "https://publicdomainrecipes.com/kvass/",
+      "images": [],
+      "notes": [
+        [
+          "Source predicts 1.0%-2.5% alcohol and calls for sealed fermentation without pressure-management detail.",
+          "Keep original procedure; preserve claim in source reference.",
+          "Alcohol prediction and sealed-vessel handling require review; no invented pressure schedule."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/kvass/kvass.opensauce",
+      "source": "source/public-domain-recipes/kvass/kvass.md",
+      "source_sha256": "9e82c64af1494d45cb8a0742070d422bcc4db164c7aaf734a6e2ca1318ed0aa0",
+      "opensauce_sha256": "1856d40e4d6d354b2936499dc7dbefed2f7e5bba2bb88f924fe52d658cf32219"
+    },
+    {
+      "slug": "sauerkraut",
+      "coverage": "drinks-preserves-fermentation",
+      "title": "Sauerkraut",
+      "author": "andrej-kirchmaier",
+      "url": "https://publicdomainrecipes.com/sauerkraut/",
+      "images": [
+        {
+          "alt": "Sauerkraut",
+          "source_url": "https://publicdomainrecipes.com/pix/sauerkraut.webp",
+          "source_reference": "/pix/sauerkraut.webp",
+          "status": "retrieved",
+          "filename": "sauerkraut.webp",
+          "sha256": "2e2b753e537048c1f66b6f22b7e3ce6935bcaf1d06b1bfc7357df7714c611ed3"
+        }
+      ],
+      "notes": [
+        [
+          "Salt expressed as 2-4% of cabbage weight; fermentation terminates by preference.",
+          "Preserve relative quantity and qualitative endpoint.",
+          "No numeric cabbage mass, pH or fixed finish time inferred."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/sauerkraut/sauerkraut.opensauce",
+      "source": "source/public-domain-recipes/sauerkraut/sauerkraut.md",
+      "source_sha256": "d434f16de52a7c366063094b0abf5aafd70877ed56ba7b48f948842300b2217e",
+      "opensauce_sha256": "3ae86773ba0483692e60cecc01e254781898b288affd0ab4ee956e1f1fe069c6"
+    },
+    {
+      "slug": "pickled-onions",
+      "coverage": "drinks-preserves-fermentation",
+      "title": "Pickled Red Onions",
+      "author": "aj",
+      "url": "https://publicdomainrecipes.com/pickled-onions/",
+      "images": [
+        {
+          "alt": "Pickled Red Onions in  a Jar",
+          "source_url": "https://publicdomainrecipes.com/pix/pickled-onions.webp",
+          "source_reference": "/pix/pickled-onions.webp",
+          "status": "retrieved",
+          "filename": "pickled-onions.webp",
+          "sha256": "480ecbca9aae353939a258e83d9b1f7bcad17648e9dbf06a2e8d6169296acad3"
+        }
+      ],
+      "notes": [
+        [
+          "No onion, water or vinegar amounts; Servings Varies.",
+          "Equal-volume liquid quantities, onions as needed.",
+          "Dependent ratios cannot yield a numeric shopping list."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/pickled-onions/pickled-onions.opensauce",
+      "source": "source/public-domain-recipes/pickled-onions/pickled-onions.md",
+      "source_sha256": "3c6b1d289e68f93560a0f59fb6f2b270a53e78dd47f9fa23c25dc0a9cfbd7908",
+      "opensauce_sha256": "3086cf53efbacf71b7788099b41267e67b341c7c20d79f0ca5c10e8ac52270c0"
+    },
+    {
+      "slug": "jam",
+      "coverage": "drinks-preserves-fermentation",
+      "title": "Jam",
+      "author": "pestanzul",
+      "url": "https://publicdomainrecipes.com/jam/",
+      "images": [
+        {
+          "alt": "Jam",
+          "source_url": "https://publicdomainrecipes.com/pix/jam.webp",
+          "source_reference": "/pix/jam.webp",
+          "status": "retrieved",
+          "filename": "jam.webp",
+          "sha256": "e32f0117f6e842e6483f51d09b772d5ce548e47fde69466cd9e3e4d4f90ecdac"
+        }
+      ],
+      "notes": [
+        [
+          "Boil at least 2 hours to inactivate botulinum spores; hot-fill and store many months.",
+          "Preserve cooking and filling steps; flag claims explicitly and retain original text.",
+          "Unsafe-sounding preservation claims must not become validated storage metadata. No alternative canning method invented."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/jam/jam.opensauce",
+      "source": "source/public-domain-recipes/jam/jam.md",
+      "source_sha256": "b6e2c7388fd350bebde37d92740a8094384e0bc0469a08ab055cf084982e6211",
+      "opensauce_sha256": "e51c80ecdf77636904c0d850159ceaeaed758f1ef88df93a25e66a1fda424d30"
+    },
+    {
+      "slug": "orange-jam",
+      "coverage": "drinks-preserves-fermentation",
+      "title": "Orange jam",
+      "author": "martin-chrzanowski",
+      "url": "https://publicdomainrecipes.com/orange-jam/",
+      "images": [],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/orange-jam/orange-jam.opensauce",
+      "source": "source/public-domain-recipes/orange-jam/orange-jam.md",
+      "source_sha256": "3a6e0dd263be58502113612eda2a68bc7c42eedf01fe502b639ac7cfacee0b4c",
+      "opensauce_sha256": "19a64bfd8356faa5b5d70e101c5ca72da13da2c0f3a39fe37c33d7cea688648b"
+    },
+    {
+      "slug": "limoncello",
+      "coverage": "drinks-preserves-fermentation",
+      "title": "Limoncello",
+      "author": "mfed3",
+      "url": "https://publicdomainrecipes.com/limoncello/",
+      "images": [
+        {
+          "alt": "Limoncello",
+          "source_url": "https://publicdomainrecipes.com/pix/limoncello.webp",
+          "source_reference": "/pix/limoncello.webp",
+          "status": "retrieved",
+          "filename": "limoncello.webp",
+          "sha256": "7c0df78da6a49f11b0a4d8a518fcb49a514169a3c0f9db49ffa1f96f13191dd2"
+        }
+      ],
+      "notes": [
+        [
+          "Sugar is measured in ml; ABV target 28-30%; jar capacity 1 litre.",
+          "Keep volume sugar and source ABV claim as comment.",
+          "No mass conversion or inferred final volume/alcohol strength."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/limoncello/limoncello.opensauce",
+      "source": "source/public-domain-recipes/limoncello/limoncello.md",
+      "source_sha256": "6529c117104a4dac3adf1dd445ae591ebb54c50bb7be045c68baf465f3021dcf",
+      "opensauce_sha256": "40675cd3ffad349d40e50455e345dde59e5a8f40f6dd45bfd4630a4f06962338"
+    },
+    {
+      "slug": "indian-tea",
+      "coverage": "drinks-preserves-fermentation",
+      "title": "Indian tea",
+      "author": "pestanzul",
+      "url": "https://publicdomainrecipes.com/indian-tea/",
+      "images": [],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/indian-tea/indian-tea.opensauce",
+      "source": "source/public-domain-recipes/indian-tea/indian-tea.md",
+      "source_sha256": "33b46298b486b6f35d0e93cba72fce71f8049bd0bc1cceed1291618e8f07416e",
+      "opensauce_sha256": "d2f8f35023df1ff4908c39198cf94b293d41a76d9c09f116ac818a18665bc8fe"
+    },
+    {
+      "slug": "party-mimosa",
+      "coverage": "drinks-preserves-fermentation",
+      "title": "Party Mimosa",
+      "author": "front3ndninja",
+      "url": "https://publicdomainrecipes.com/party-mimosa/",
+      "images": [],
+      "notes": [
+        [
+          "Ingredients say apricot-mango nectar and champagne; method says apricot nectar and sparkling wine.",
+          "Use listed ingredients as corresponding references.",
+          "Treat contextual shorter/generic wording as same ingredient, not new choices."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/party-mimosa/party-mimosa.opensauce",
+      "source": "source/public-domain-recipes/party-mimosa/party-mimosa.md",
+      "source_sha256": "386d857ad6b14545e16b6c2f9877fa6a76c893287ab28fc2ebbf70e76dcbe8a0",
+      "opensauce_sha256": "b5c6848b1c0ebe8905d8f21a42bf66011142d849be365b5c317f6ff779163a4b"
+    },
+    {
+      "slug": "sunday-milkshake",
+      "coverage": "drinks-preserves-fermentation",
+      "title": "Sunday Morning Milkshake",
+      "author": "yaroslav-smirnov",
+      "url": "https://publicdomainrecipes.com/sunday-milkshake/",
+      "images": [
+        {
+          "alt": "Sunday Morning Milkshake",
+          "source_url": "https://publicdomainrecipes.com/pix/sunday-milkshake.webp",
+          "source_reference": "/pix/sunday-milkshake.webp",
+          "status": "retrieved",
+          "filename": "sunday-milkshake.webp",
+          "sha256": "048163f555530ccbd2985e649d9a1cc454f115ebcdf73c966c764be8c05e0fed"
+        }
+      ],
+      "notes": [
+        [
+          "Milk amount is dependent on total mixture volume, not 1 litre milk.",
+          "Quantity less than 1 litre, topping mixture up to 1 litre.",
+          "Cannot calculate fixed milk volume from source."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/sunday-milkshake/sunday-milkshake.opensauce",
+      "source": "source/public-domain-recipes/sunday-milkshake/sunday-milkshake.md",
+      "source_sha256": "8bc1914cd86c9de7ffd430b9103df85f5698a92501742801bbbffcc2b8d881a5",
+      "opensauce_sha256": "76eb8ecaeaca720ca983ab65502060eacde5aec1bde2a6f994ae7fc87eb5bbfb"
+    },
+    {
+      "slug": "honey-vanilla-ice-cream",
+      "coverage": "dessert-historical",
+      "title": "Honey Vanilla Ice Cream",
+      "author": "Ruby-Dragon",
+      "url": "https://publicdomainrecipes.com/honey-vanilla-ice-cream/",
+      "images": [],
+      "notes": [
+        [
+          "Source labels churning plus overnight chilling as Cook time.",
+          "Keep source timing label in comments; represent churn and freeze separately.",
+          "Not a reliable active-time or total-time field."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce",
+      "source": "source/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.md",
+      "source_sha256": "ff61a4a7596eaaa6369636ca0e60f8e26f9d711bebbb82b4ec0d7b272dc8406f",
+      "opensauce_sha256": "1793b215c5b8fad992bbf16358e335f883c6648a597aa178ceeff23d070cf5c2"
+    },
+    {
+      "slug": "creme-brulee",
+      "coverage": "dessert-historical",
+      "title": "Crème brûlée",
+      "author": "jan-kremer",
+      "url": "https://publicdomainrecipes.com/creme-brulee/",
+      "images": [],
+      "notes": [
+        [
+          "Cook time 30m but bake step 55m; serves4 but 4-6 ramekins; vanilla mark.",
+          "Retain both timing facts, source vessel range and wording.",
+          "No reconciliation or assumed essence quantity."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/creme-brulee/creme-brulee.opensauce",
+      "source": "source/public-domain-recipes/creme-brulee/creme-brulee.md",
+      "source_sha256": "2f40fac96b499efff773b2de7c8b7db62e6dce9f219b5c1854663e20c754dc56",
+      "opensauce_sha256": "0c3676302267cd2c507053a50d847eef7438827966c67b7436b55e0252f0e344"
+    },
+    {
+      "slug": "granita",
+      "coverage": "dessert-historical",
+      "title": "Granita",
+      "author": "pestanzul",
+      "url": "https://publicdomainrecipes.com/granita/",
+      "images": [
+        {
+          "alt": "Granita",
+          "source_url": "https://publicdomainrecipes.com/pix/granita.webp",
+          "source_reference": "/pix/granita.webp",
+          "status": "retrieved",
+          "filename": "granita.webp",
+          "sha256": "720f296a9f0d9465561a9503c82a375059d70ce91494f4dd80e45454733cf3d7"
+        }
+      ],
+      "notes": [
+        [
+          "Three lemons listed, but method uses exactly 175g juice and pulp; variable freezing schedule.",
+          "Retain whole-fruit list and measured derived portion; readable Repeat block.",
+          "No assumed yield per lemon; repeat termination is qualitative."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/granita/granita.opensauce",
+      "source": "source/public-domain-recipes/granita/granita.md",
+      "source_sha256": "3cf010bbb6b64c80e25ae5b6b8cc6668242c7d9a953efed6acac13d03065d95c",
+      "opensauce_sha256": "ac31710ead549994c4d6863133d131d4438158e90e15c8d8706553b6ebf11de5"
+    },
+    {
+      "slug": "rice-pudding",
+      "coverage": "dessert-historical",
+      "title": "Rice Pudding",
+      "author": "Miss Leslie",
+      "url": "https://publicdomainrecipes.com/rice-pudding/",
+      "images": [],
+      "notes": [
+        [
+          "Half wine-glass; milk or cream and milk; no baking temperature or duration.",
+          "Retain historical measure and combined dairy option without invented ratio.",
+          "Measure capacity and bake settings unknown; fruit addition placed before bake from at the last."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/rice-pudding/rice-pudding.opensauce",
+      "source": "source/public-domain-recipes/rice-pudding/rice-pudding.md",
+      "source_sha256": "bc1552a46ec5c96a5d6d175b021ec0682ce875ebdc9789343d605e5fef3f419e",
+      "opensauce_sha256": "ac797da38a9cbeeef468e50b104ba1cf8c415fc9351b1bd6718089f4b2fba23e"
+    },
+    {
+      "slug": "cocoanut-pudding",
+      "coverage": "dessert-historical",
+      "title": "Cocoa-nut Pudding",
+      "author": "Miss Leslie",
+      "url": "https://publicdomainrecipes.com/cocoanut-pudding/",
+      "images": [],
+      "notes": [
+        [
+          "Moderate oven; whites stand alone on rods; wine/brandy blend ratio absent.",
+          "Keep qualitative temperature, historical endpoint and combined ingredient.",
+          "No modern temperature or blend ratio inferred."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce",
+      "source": "source/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.md",
+      "source_sha256": "828a27895d7734903846576bac595a4fae03969d7ee14425437ab9aa933b4556",
+      "opensauce_sha256": "c76264f76dda146ebbd60d7d9350e7d1e6d62fc0052b68b88febe245caa12286"
+    },
+    {
+      "slug": "gooseberry-pudding",
+      "coverage": "dessert-historical",
+      "title": "Gooseberry Pudding",
+      "author": "Miss Leslie",
+      "url": "https://publicdomainrecipes.com/gooseberry-pudding/",
+      "images": [],
+      "notes": [
+        [
+          "Ingredients already say stewed gooseberries, method stews them; no oven temperature.",
+          "Retain source preparation and stew step; no temperature inferred.",
+          "Prepared ingredient state and first operation overlap."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce",
+      "source": "source/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.md",
+      "source_sha256": "1b6a6ae4b4c01ed4960f6b0562df5b4a477e6ce192704bacbf6b0b2e32a7ded9",
+      "opensauce_sha256": "d11723cb8ecf1d2b29c5fe74f377d5fe477d662c65933b84df790d4e3f8cf565"
+    },
+    {
+      "slug": "sand-tarts",
+      "coverage": "dessert-historical",
+      "title": "Sand Tarts",
+      "author": "Pennsylvania Dutch Cooking",
+      "url": "https://publicdomainrecipes.com/sand-tarts/",
+      "images": [],
+      "notes": [
+        [
+          "4 eggs listed, then dough eggs and 2 beaten topping eggs; flour unquantified.",
+          "Separate explicitly ambiguous topping declaration and comment; stiff-dough endpoint.",
+          "Cannot determine whether topping eggs are included in four or additional; do not infer total six."
+        ],
+        [
+          "Cinnamon, chopped almonds and sugar for sprinkling occur only in directions.",
+          "Add unquantified method-only declarations.",
+          "Not an inferred quantity; source does not allocate topping sugar from its two cups."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/sand-tarts/sand-tarts.opensauce",
+      "source": "source/public-domain-recipes/sand-tarts/sand-tarts.md",
+      "source_sha256": "5378ba3eedd4466655e8b6c3261f1b61e12b604b7e03e0e382950b20e7aa2885",
+      "opensauce_sha256": "18df06ff1b4cb01f87b5c35d2292c0acac3547beaba507ced301393432dba45d"
+    },
+    {
+      "slug": "medieval-beef-soup",
+      "coverage": "dessert-historical",
+      "title": "Medieval Beef Soup",
+      "author": "LogSuperMulti",
+      "url": "https://publicdomainrecipes.com/medieval-beef-soup/",
+      "images": [
+        {
+          "alt": "Medieval Beef Soup",
+          "source_url": "https://publicdomainrecipes.com/pix/medieval-beef-soup.webp",
+          "source_reference": "/pix/medieval-beef-soup.webp",
+          "status": "retrieved",
+          "filename": "medieval-beef-soup.webp",
+          "sha256": "de78a86fea165a914e60f193101c7492fb5d431847a622744a10018bfb4898b2"
+        }
+      ],
+      "notes": [
+        [
+          "One roast and one bowl water have no size; title medieval but modern source date.",
+          "Keep count and vessel quantity; historical classification means theme, not verified provenance.",
+          "No roast mass, bowl volume or historical attribution invented."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce",
+      "source": "source/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.md",
+      "source_sha256": "554308db39cf274b2577e20acf4f54ba995d19e354985ff94d0405f1e07224a8",
+      "opensauce_sha256": "9c56166826f95216a58f3bcf60fc2eec6472176ae66c97cbb6144b91bb606c00"
+    },
+    {
+      "slug": "fritatem-pomeranciis",
+      "coverage": "dessert-historical",
+      "title": "Fritatem pomeranciis",
+      "author": "pestanzul",
+      "url": "https://publicdomainrecipes.com/fritatem-pomeranciis/",
+      "images": [
+        {
+          "alt": "Fritatem pomeranciis",
+          "source_url": "https://publicdomainrecipes.com/pix/fritatem-pomeranciis.webp",
+          "source_reference": "/pix/fritatem-pomeranciis.webp",
+          "status": "retrieved",
+          "filename": "fritatem-pomeranciis.webp",
+          "sha256": "83324aef480575557f87b00ce1819c637f5451e330954edf2f29ad968bc816f2"
+        }
+      ],
+      "notes": [
+        [
+          "Ingredients list olive oil, method says frying oil; intro claims eggs do not coagulate.",
+          "Use listed olive oil; preserve explanatory claim in original source.",
+          "No temperature, duration or coagulation endpoint is supplied in directions."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce",
+      "source": "source/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.md",
+      "source_sha256": "8cb0c4a46508bfd5683b23a14824fc74dc456fd9ad5ea87076af26dcd1ca4ea9",
+      "opensauce_sha256": "1d6d86f8be4c3f3b85fefa8c962be4288ff73ff36033a3fd325e4846ed30dd81"
+    },
+    {
+      "slug": "casio-in-pastelletto",
+      "coverage": "dessert-historical",
+      "title": "Casio in pastelletto",
+      "author": "pestanzul",
+      "url": "https://publicdomainrecipes.com/casio-in-pastelletto/",
+      "images": [
+        {
+          "alt": "Casio in pastelletto",
+          "source_url": "https://publicdomainrecipes.com/pix/casio-in-pastelletto.webp",
+          "source_reference": "/pix/casio-in-pastelletto.webp",
+          "status": "retrieved",
+          "filename": "casio-in-pastelletto.webp",
+          "sha256": "3b5761b61b22dd6b75e9bd60b7f6b1a8c00b7138fe0c9bea9bf55f06616092bf"
+        }
+      ],
+      "notes": [
+        [
+          "No exact quantities beyond two cheese slices; source uncertain whether main or sweet.",
+          "Qualitative seasonings and fat; no exclusive dish-type claim.",
+          "Cheese identity and amounts intentionally depend on preference."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce",
+      "source": "source/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.md",
+      "source_sha256": "ace2e6b082926feb622bfc9206a0e5ec3129f1419b266d2a1f03ce176f2c183e",
+      "opensauce_sha256": "b6ecc0c81a2ab8d1634c3e2e392a9200fbeb76ebedf5aac4697ad5946633b667"
+    },
+    {
+      "slug": "french-toast",
+      "coverage": "mixed",
+      "title": "French Toast",
+      "author": "ryan-wilson",
+      "url": "https://publicdomainrecipes.com/french-toast/",
+      "images": [
+        {
+          "alt": "French Toast",
+          "source_url": "https://publicdomainrecipes.com/pix/french-toast.webp",
+          "source_reference": "/pix/french-toast.webp",
+          "status": "retrieved",
+          "filename": "french-toast.webp",
+          "sha256": "f85946b7f315dac8c9d27dd0028a33d0219d08ddf52bdb0499acb9c1dc7ec431"
+        }
+      ],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/french-toast/french-toast.opensauce",
+      "source": "source/public-domain-recipes/french-toast/french-toast.md",
+      "source_sha256": "db0ffe7adb4bdc77eeb24140086f235a56da91d034582ef3dbba40894c429d40",
+      "opensauce_sha256": "baa0227fd290d7733f315e582d0da1f4fe2385de9cd4e40df3afa55aa2e27a16"
+    },
+    {
+      "slug": "eggs-benedict",
+      "coverage": "mixed",
+      "title": "Eggs Benedict",
+      "author": "Enzo Stever",
+      "url": "https://publicdomainrecipes.com/eggs-benedict/",
+      "images": [
+        {
+          "alt": "eggs-benedict",
+          "source_url": "https://publicdomainrecipes.com/pix/eggs-benedict.webp",
+          "source_reference": "/pix/eggs-benedict.webp",
+          "status": "retrieved",
+          "filename": "eggs-benedict.webp",
+          "sha256": "6c6517805d61402a84d13805693ada3d557e847791014996251f49e49e7593c0"
+        }
+      ],
+      "notes": [
+        [
+          "Blender or double-boiler sauce; ingredient list allows toast without quantity.",
+          "Alternative process in free-text parameters; toast as needed.",
+          "No invented bread count or separate sauce yield."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+      "source": "source/public-domain-recipes/eggs-benedict/eggs-benedict.md",
+      "source_sha256": "923e0499760624fd467c87020fe4b12880b51fca3f345b114ab1eb3f58e8e37e",
+      "opensauce_sha256": "d689e2f12d2a8e9ad728ebd1ce1228bb7d5a448db48a95b514be29bc0d954982"
+    },
+    {
+      "slug": "spanish-tortilla",
+      "coverage": "mixed",
+      "title": "Spanish Tortilla",
+      "author": "octopusonfire",
+      "url": "https://publicdomainrecipes.com/spanish-tortilla/",
+      "images": [
+        {
+          "alt": "Spanish Tortilla",
+          "source_url": "https://publicdomainrecipes.com/pix/spanish-tortilla.webp",
+          "source_reference": "/pix/spanish-tortilla.webp",
+          "status": "retrieved",
+          "filename": "spanish-tortilla.webp",
+          "sha256": "d461eac3d3bbc04c66b96b9b0612669d7a003c72e2884750ac8762003029e9b8"
+        }
+      ],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce",
+      "source": "source/public-domain-recipes/spanish-tortilla/spanish-tortilla.md",
+      "source_sha256": "ee13e11be4dff6501b5814da1b987d38766594feeee131ea6c14c48f56b1d53c",
+      "opensauce_sha256": "78191510ef8263148646a6a872abcf9599b5c31424f0198eb2b2d5edc0f0db65"
+    },
+    {
+      "slug": "quarkbaellchen",
+      "coverage": "mixed",
+      "title": "Quarkbällchen – Fried curd balls",
+      "author": "kirill-schmidt",
+      "url": "https://publicdomainrecipes.com/quarkbaellchen/",
+      "images": [
+        {
+          "alt": "An image of my finished curd balls",
+          "source_url": "https://publicdomainrecipes.com/pix/quarkbaellchen.webp",
+          "source_reference": "/pix/quarkbaellchen.webp",
+          "status": "retrieved",
+          "filename": "quarkbaellchen.webp",
+          "sha256": "32641fab26b9d41d09e844418ab72f49dbeba2c140c709c4562a8b000bcb55a1"
+        }
+      ],
+      "notes": [
+        [
+          "Flour depends on dairy choice; packet sizes absent; vanilla sugar and alcohol never assigned steps.",
+          "Conditional quantity in prose, packets unchanged, comment on unused ingredients.",
+          "No machine-resolved dependency or packet weights; do not silently insert ingredients."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce",
+      "source": "source/public-domain-recipes/quarkbaellchen/quarkbaellchen.md",
+      "source_sha256": "2a987851599633b0436b2bd9a3196fd16c09ff9ded2aa7706c4a96b553d08572",
+      "opensauce_sha256": "e46112932d1c118b5406e5e0b9c368b39328808d7c832cc117dc99ead334dcdf"
+    },
+    {
+      "slug": "croque-monsieur",
+      "coverage": "mixed",
+      "title": "Croque-monsieur bites",
+      "author": "SofianeHamlaoui",
+      "url": "https://publicdomainrecipes.com/croque-monsieur/",
+      "images": [
+        {
+          "alt": "croquemsr",
+          "source_url": "https://publicdomainrecipes.com/pix/croque-monsieur.webp",
+          "source_reference": "/pix/croque-monsieur.webp",
+          "status": "retrieved",
+          "filename": "croque-monsieur.webp",
+          "sha256": "b406cf6391df25ffc4ce82805aa3f352d0131abdeb209761225fef720e513664"
+        }
+      ],
+      "notes": [
+        [
+          "12 ham slices listed, method uses one on each of six sandwiches; 180° has no explicit scale.",
+          "Retain listed count and per-sandwich method; th.6 / 180° as written.",
+          "No invented use for remaining ham or explicit Celsius attribution."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce",
+      "source": "source/public-domain-recipes/croque-monsieur/croque-monsieur.md",
+      "source_sha256": "1b22796ad0a7ad279f60de4f3ccea9dc1371b17441d3c6e82f7c122123aebbbd",
+      "opensauce_sha256": "b831ee968d3d93b731b0116b8c587749d150ad589dd65df84cd5c92c20537412"
+    },
+    {
+      "slug": "stuffed-round-squash",
+      "coverage": "mixed",
+      "title": "Stuffed Round Squash",
+      "author": "Marco Fleres",
+      "url": "https://publicdomainrecipes.com/stuffed-round-squash/",
+      "images": [
+        {
+          "alt": "",
+          "source_url": "https://publicdomainrecipes.com/pix/stuffed-round-squash.webp",
+          "source_reference": "/pix/stuffed-round-squash.webp",
+          "status": "retrieved",
+          "filename": "stuffed-round-squash.webp",
+          "sha256": "6a8b1e951ec37baa735f7c90bcc51bba24032895b3c5dd2f207cd47cfdc468c6"
+        }
+      ],
+      "notes": [
+        [
+          "Oven initially unspecified, final maximum heat; squash size alters serving interpretation.",
+          "Keep maximum heat and fist-sized qualifier; source serves4.",
+          "No numeric oven setting or revised serving count."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce",
+      "source": "source/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.md",
+      "source_sha256": "83bff5452a8dbedfe1bd03b256cf04f31c06da26960a6934a227f66c94777a41",
+      "opensauce_sha256": "90261ee90bab476d65381aa0921757e2e5b26c7a953934e1dd9fecfc943d1028"
+    },
+    {
+      "slug": "sourdough-bread-with-seeds-and-grains",
+      "coverage": "mixed",
+      "title": "Sourdough bread with seeds and grains",
+      "author": "SirStark",
+      "url": "https://publicdomainrecipes.com/sourdough-bread-with-seeds-and-grains/",
+      "images": [
+        {
+          "alt": "Sourdough bread with seeds and grains",
+          "source_url": "https://publicdomainrecipes.com/pix/sourdough-bread-with-seeds-and-grains.webp",
+          "source_reference": "/pix/sourdough-bread-with-seeds-and-grains.webp",
+          "status": "retrieved",
+          "filename": "sourdough-bread-with-seeds-and-grains.webp",
+          "sha256": "e3f9d1c528ee190053c78ee9c88b4871262746a0a874a04df2360fb7e737fc51"
+        }
+      ],
+      "notes": [
+        [
+          "Feed starter without quantities; no shaping step; locked bowl; steam method absent.",
+          "Retain terms and process, do not infer feeding ratio or loaf shape.",
+          "Prepared starter amount distinct from an unspecified feeding subrecipe."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce",
+      "source": "source/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.md",
+      "source_sha256": "224209dc8fb2a75cdcba754484766c5038a92cae3d7e416f4c6206d6d454b5da",
+      "opensauce_sha256": "14f4b3e5837f5c1199c7708d56bc213b65e1deba4dcecff09b3ce3de80eafdba"
+    },
+    {
+      "slug": "sweet-potato-fries",
+      "coverage": "mixed",
+      "title": "Basic Sweet Potato Fries Recipe",
+      "author": "shane-kunz",
+      "url": "https://publicdomainrecipes.com/sweet-potato-fries/",
+      "images": [
+        {
+          "alt": "cooked sweet pototo fries in pan",
+          "source_url": "https://publicdomainrecipes.com/pix/sweet-potato-fries.webp",
+          "source_reference": "/pix/sweet-potato-fries.webp",
+          "status": "retrieved",
+          "filename": "sweet-potato-fries.webp",
+          "sha256": "c307ee454941ee8d2fca2df0dc220315266d47b669b8212478ccf1300bc2edc1"
+        }
+      ],
+      "notes": [],
+      "recipe": "recipes/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce",
+      "source": "source/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.md",
+      "source_sha256": "596cefd2c133aaa3115d7166bf505d06048f65874f9056db9c13d2c77a45d6a9",
+      "opensauce_sha256": "424e9c52c87d984b48007e7a1514a917816c8780a4a813875613caea164a1552"
+    },
+    {
+      "slug": "pizza-sauce",
+      "coverage": "mixed",
+      "title": "Pizza sauce",
+      "author": "brox",
+      "url": "https://publicdomainrecipes.com/pizza-sauce/",
+      "images": [],
+      "notes": [
+        [
+          "Headline cook time 0.5-2h but method only longer the better.",
+          "Keep headline in source timing comment and qualitative method endpoint.",
+          "Do not change method to a precise duration."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/pizza-sauce/pizza-sauce.opensauce",
+      "source": "source/public-domain-recipes/pizza-sauce/pizza-sauce.md",
+      "source_sha256": "b94e5b230482e0a31aa6e98bdc555bd71f25e90d307280cf5c14a00fb96a8d7f",
+      "opensauce_sha256": "ad81268e8ce6bfc9d39a44997222c361805e82565a6dce6f60bb97e969da1a85"
+    },
+    {
+      "slug": "oat-milk",
+      "coverage": "mixed",
+      "title": "Oat Milk",
+      "author": "machocam",
+      "url": "https://publicdomainrecipes.com/oat-milk/",
+      "images": [],
+      "notes": [
+        [
+          "Yield 1L, but water quantity missing; oats measured by volume.",
+          "Yield1 litre, water amount explicitly unknown, oats250ml.",
+          "Cannot infer 1L water or oat mass from final yield."
+        ]
+      ],
+      "recipe": "recipes/public-domain-recipes/oat-milk/oat-milk.opensauce",
+      "source": "source/public-domain-recipes/oat-milk/oat-milk.md",
+      "source_sha256": "cdbf2814c6fbcdc6c28a0b2a80386f25b8c4d663469b8af5bc294113465cd78d",
+      "opensauce_sha256": "b1fc9529020997fd006cddf4244b4df093252d4530c9b1f763eac9c3da71ae31"
+    }
+  ]
+}

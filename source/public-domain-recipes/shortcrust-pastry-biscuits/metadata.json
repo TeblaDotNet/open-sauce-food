@@ -1,0 +1,41 @@
+{
+  "title": "Shortcrust pastry biscuits",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/shortcrust-pastry-biscuits.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "1dd742aff5c0337d70a53c1466592269733eabb691a997336d1722bbc2e4398a",
+  "original_front_matter": {
+    "title": "Shortcrust pastry biscuits",
+    "tags": [
+      "baking",
+      "basic",
+      "breakfast",
+      "cookies"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/shortcrust-pastry-biscuits/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Shortcrust pastry biscuits",
+      "url": "/pix/shortcrust-pastry-biscuits.webp",
+      "upstreamPath": "static/pix/shortcrust-pastry-biscuits.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "678a3bef1954faaa354dc09cc756469bbc060beb6998d0117bf815bee980c613",
+      "sourcePath": "source/public-domain-recipes/shortcrust-pastry-biscuits/shortcrust-pastry-biscuits.webp",
+      "promotedPath": "examples/public-domain-recipes/shortcrust-pastry-biscuits/shortcrust-pastry-biscuits.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

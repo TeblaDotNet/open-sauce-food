@@ -1,0 +1,61 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Bloody Mary Mix
+source: https://publicdomainrecipes.com/bloody-mary-mix/
+source author: front3ndninja
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: drink, sweet, breakfast
+serves: 8
+
+# Imported from content/bloody-mary-mix.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 5 min
+# Source metadata: - 🍽️ Servings: 8
+
+::ingredients
+
+(bottle tomato-vegetable juice cocktail) 1 （46 fluid ounce）
+(fruit, without seeds lemons, juiced) 1
+(sugar; brown) 1 teaspoon
+(steak sauce) 1 tablespoon
+(worcestershire sauce) 1 tablespoon
+(prepared horseradish) 1 teaspoon
+(hot pepper sauce) 1 teaspoon
+(celery salt) 1/2 teaspoon
+
+::instructions
+
+In a large pitcher, combine juice cocktail, lemon juice and brown sugar. Season with Worcestershire sauce, horseradish, hot sauce and celery salt. Cover, and refrigerate 8 to 12 hours to allow flavors to meld.
+
+::source
+<<<
+---
+title: "Bloody Mary Mix"
+date: 2022-04-14
+tags: ['drink', 'sweet', 'breakfast']
+author: front3ndninja
+---
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 5 min
+- 🍽️ Servings: 8
+
+## Ingredients
+
+- 1 (46 fluid ounce) bottle tomato-vegetable juice cocktail
+- 1 fruit, without seeds lemons, juiced
+- 1 teaspoon brown sugar
+- 1 tablespoon steak sauce
+- 1 tablespoon Worcestershire sauce
+- 1 teaspoon prepared horseradish
+- 1 teaspoon hot pepper sauce
+- 1/2 teaspoon celery salt
+
+## Directions
+
+1. In a large pitcher, combine juice cocktail, lemon juice and brown sugar. Season with Worcestershire sauce, horseradish, hot sauce and celery salt. Cover, and refrigerate 8 to 12 hours to allow flavors to meld.
+>>>

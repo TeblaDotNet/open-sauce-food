@@ -1,0 +1,10 @@
+id: remove-from-soup
+kind: process
+names:
+  en: remove from soup
+observed_forms:
+- syntax: remove from soup
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

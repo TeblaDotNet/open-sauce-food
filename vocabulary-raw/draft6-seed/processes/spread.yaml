@@ -1,0 +1,15 @@
+id: spread
+kind: process
+names:
+  en: spread
+observed_forms:
+- syntax: spread, roasting tin, single layer
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: roasting tin
+  count: 1
+- value: single layer
+  count: 1
+legacy_observation: true

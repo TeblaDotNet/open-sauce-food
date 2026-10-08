@@ -1,0 +1,64 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Russian 1000 Islands Sauce
+source: https://publicdomainrecipes.com/russian-1000-islands-sauce/
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: basic, spread, quick, russian, sauce
+
+# Imported from content/russian-1000-islands-sauce.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(ketchup, Sir Kensington's recommended)
+(mayonnaise)
+(horseradish)
+(worchestershire sauce)
+(paprika)
+(dijon mustard)
+(onion powder)
+(pickle relish, optional)
+
+::equipment
+
+(bowl)
+
+::instructions
+
+<put, ingredients into bowl or cup>
+<mix, together thoroughly>
+
+::story
+
+A tasty sauce that goes well with salads or rice. Recipe taken from a Russian monastery.
+
+
+::source
+<<<
+---
+title: "Russian 1000 Islands Sauce"
+date: 2021-03-19
+tags: ['basic', 'spread', 'quick', 'russian', 'sauce']
+---
+
+A tasty sauce that goes well with salads or rice. Recipe taken from a Russian monastery.
+
+## Ingredients
+
+- Ketchup (Sir Kensington's recommended)
+- Mayonnaise
+- Horseradish
+- Worchestershire sauce
+- Paprika
+- Dijon mustard
+- Onion powder
+- Pickle relish (optional)
+
+## Directions
+
+1. Put ingredients into bowl or cup.
+2. Mix together thoroughly.
+>>>

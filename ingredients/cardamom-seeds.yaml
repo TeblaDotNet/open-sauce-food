@@ -1,0 +1,16 @@
+id: cardamom-seeds
+kind: ingredient
+canonical_name: cardamom seeds
+names:
+  en: cardamom seeds
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cardamom seeds
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce

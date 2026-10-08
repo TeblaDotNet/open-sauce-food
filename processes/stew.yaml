@@ -1,0 +1,25 @@
+id: stew
+kind: process
+canonical_name: stew
+names:
+  en: stew
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: stew
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+observed_parameters:
+- value: 60-80m
+  count: 1
+- value: covered
+  count: 1
+- value: low heat
+  count: 1
+- value: until quite soft
+  count: 1

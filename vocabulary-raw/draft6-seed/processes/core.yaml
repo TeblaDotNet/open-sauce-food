@@ -1,0 +1,10 @@
+id: core
+kind: process
+names:
+  en: core
+observed_forms:
+- syntax: core
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

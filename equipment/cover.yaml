@@ -1,0 +1,18 @@
+id: cover
+kind: equipment
+canonical_name: cover
+names:
+  en: cover
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cover
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+observed_qualifiers:
+- value: oven-safe
+  count: 1

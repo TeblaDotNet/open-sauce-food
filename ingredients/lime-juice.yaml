@@ -1,0 +1,17 @@
+id: lime-juice
+kind: ingredient
+canonical_name: lime juice
+names:
+  en: lime juice
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: lime juice
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/ceviche/ceviche.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/tzatziki/tzatziki.opensauce

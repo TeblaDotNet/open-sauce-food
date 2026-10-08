@@ -1,0 +1,37 @@
+{
+  "title": "Greek Easter Cookies",
+  "source_url": "https://publicdomainrecipes.com/greek-easter-cookies/",
+  "source_author": "Rufflikerex",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/greek-easter-cookies.md",
+  "original_sha256": "50481e82a4bba0f1eff1ba5ef9d224ab5d7e5a21d9f9d22f97f1a7648df34988",
+  "original_front_matter": {
+    "title": "Greek Easter Cookies",
+    "date": "2021-03-21",
+    "tags": [
+      "dessert",
+      "cookies",
+      "snack",
+      "greek",
+      "easter"
+    ],
+    "author": "Rufflikerex"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "30-45 min",
+    "Cook time": "18-22 min",
+    "Servings": "Five-dozen individual cookies"
+  },
+  "ingredients_source_markdown": "- 1 lb of unsalted butter\n- 3 cups of sugar\n- 10 eggs\n- 6 tsps baking powder\n- 2 tsps baker’s ammonium\n- 1 pinch of baking soda\n- 2 tsp powder vanilla\n- Zest of 3 oranges\n- Zest of 2 lemons\n- 1/2 cup orange juice\n- 1 cup warmed milk\n- 1 egg yolk whisked to brush cookies\n- Enough flour to make a soft pliable dough (about 9 cups or a bit more)",
+  "directions_source_markdown": "1. Cream butter and sugar together until fluffy.  Add eggs one at a time and blend well between each.\n2. Add ammonium to the warmed milk and add to the butter, sugar, and egg mixture.\n3. Start adding flour to the wet mixture and at this time also add the baking powder, vanilla, lemon/orange zest, salt and orange juice.\n4. Mix well and start adding flour slowly until you are able to roll the dough easily between your hands. (This is a big batch, if your mixer can’t handle the volume, then knead by hand).\n5. Form dough in a ball and place in a big bowl.  Let it rest for about 30 minutes, cover it with saran wrap and keep in oven or draft free area.\n6. Line pans with parchment paper.\n7. Form dough by hand in ½ inch thick 3 inch long strips and then twist together or any shape you like.  If the dough is sticky dip hands in oil.\n8. Brush with beaten egg yolks and bake at 350F for about 20 minutes or 325F convection.  Watch carefully as they can burn easily!",
+  "images": [],
+  "coverage_group": "baking"
+}

@@ -1,0 +1,20 @@
+id: pecorino-romano
+kind: ingredient
+canonical_name: pecorino romano
+names:
+  en: pecorino romano
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: pecorino romano
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+observed_qualifiers:
+- value: grated
+  count: 1
+- value: optional
+  count: 1

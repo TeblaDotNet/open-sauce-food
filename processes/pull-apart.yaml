@@ -1,0 +1,15 @@
+id: pull-apart
+kind: process
+canonical_name: pull apart
+names:
+  en: pull apart
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: pull apart
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce

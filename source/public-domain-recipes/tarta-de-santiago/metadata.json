@@ -1,0 +1,40 @@
+{
+  "title": "Tarta de Santiago",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tarta-de-santiago.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "bcb09e1b9695f61d2ae646265b1bbbe1dc66328079516da370e1aa43243339ea",
+  "original_front_matter": {
+    "title": "Tarta de Santiago",
+    "date": "2022-07-03",
+    "tags": [
+      "spanish",
+      "cake",
+      "galician"
+    ],
+    "author": "laura-alvarez"
+  },
+  "source_url": "https://publicdomainrecipes.com/tarta-de-santiago/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Tarta de Santiago",
+      "url": "/pix/tarta-de-santiago.webp",
+      "upstreamPath": "static/pix/tarta-de-santiago.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "a95cdc14ab74346ae4c7eff4f9b56fd04bdc485ce671bca07d14af3a703562f2",
+      "sourcePath": "source/public-domain-recipes/tarta-de-santiago/tarta-de-santiago.webp",
+      "promotedPath": "examples/public-domain-recipes/tarta-de-santiago/tarta-de-santiago.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

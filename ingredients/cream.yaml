@@ -1,0 +1,26 @@
+id: cream
+kind: ingredient
+canonical_name: cream
+names:
+  en: cream
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cream
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+  - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+  - examples/public-domain-recipes/pepper-sauce/pepper-sauce.opensauce
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+observed_qualifiers:
+- value: heavy
+  count: 1
+- value: high fat
+  count: 1
+- value: milk
+  count: 1

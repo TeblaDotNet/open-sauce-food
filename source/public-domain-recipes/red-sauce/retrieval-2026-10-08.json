@@ -1,0 +1,31 @@
+{
+  "title": "Red Sauce (Ragu all'Italiana)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/red-sauce.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "833bce048502ab4d2598927674e88da4aeb4407774a3f86c3d0267df9c18b402",
+  "original_front_matter": {
+    "title": "Red Sauce (Ragu all'Italiana)",
+    "date": "2021-03-16",
+    "tags": [
+      "italian",
+      "sauce"
+    ],
+    "author": "laurent-micheli"
+  },
+  "source_url": "https://publicdomainrecipes.com/red-sauce/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

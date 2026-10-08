@@ -1,0 +1,55 @@
+id: sugar
+kind: ingredient
+names:
+  en: sugar
+observed_forms:
+- syntax: sugar
+  count: 5
+- syntax: sugar, brown
+  count: 2
+- syntax: sugar, caster
+  count: 5
+- syntax: sugar, demerara
+  count: 1
+- syntax: sugar, golden caster, for coating
+  count: 1
+- syntax: sugar, golden caster, for sauce
+  count: 1
+- syntax: sugar, icing
+  count: 1
+- syntax: sugar, light brown
+  count: 1
+- syntax: sugar, white
+  count: 2
+- syntax: sugar, white, for crust
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+- examples/public-domain-recipes/pavlova/pavlova.opensauce
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: brown
+  count: 2
+- value: caster
+  count: 5
+- value: demerara
+  count: 1
+- value: for coating
+  count: 1
+- value: for crust
+  count: 1
+- value: for sauce
+  count: 1
+- value: golden caster
+  count: 2
+- value: icing
+  count: 1
+- value: light brown
+  count: 1
+- value: white
+  count: 3
+legacy_observation: true

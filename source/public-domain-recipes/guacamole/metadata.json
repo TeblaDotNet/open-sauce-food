@@ -1,0 +1,36 @@
+{
+  "title": "Fresh Guacamole",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/guacamole.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "453d2b9a3ff99c2f8ed321b42ad577657eaa73a9a53d89c80ac41a8e265d6cda",
+  "original_front_matter": {
+    "title": "Fresh Guacamole",
+    "date": "2021-03-12",
+    "tags": [
+      "mexican",
+      "spread",
+      "snack",
+      "fasting"
+    ],
+    "author": "yaroslav-smirnov"
+  },
+  "source_url": "https://publicdomainrecipes.com/guacamole/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Fresh Guacamole",
+      "url": "/pix/guacamole.webp",
+      "upstreamPath": "static/pix/guacamole.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

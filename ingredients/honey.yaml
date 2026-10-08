@@ -1,0 +1,32 @@
+id: honey
+kind: ingredient
+canonical_name: honey
+names:
+  en: honey
+status: canonical-seed
+evidence:
+  current_recipe_count: 8
+  current_observation_count: 8
+  legacy_observation_count: 1
+  observed_terms:
+  - term: honey
+    count: 8
+  seen_in:
+  - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/castagnole/castagnole.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  legacy_terms:
+  - term: honey
+    count: 1
+observed_qualifiers:
+- value: clear
+  count: 1
+- value: optional
+  count: 2
+- value: set
+  count: 1

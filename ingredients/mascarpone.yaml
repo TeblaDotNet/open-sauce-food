@@ -1,0 +1,15 @@
+id: mascarpone
+kind: ingredient
+canonical_name: mascarpone
+names:
+  en: mascarpone
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: mascarpone
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce

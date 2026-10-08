@@ -1,0 +1,21 @@
+id: oats
+kind: ingredient
+canonical_name: oats
+names:
+  en: oats
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 1
+  observed_terms:
+  - term: oats
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+  legacy_terms:
+  - term: oats
+    count: 1
+observed_qualifiers:
+- value: rolled
+  count: 1

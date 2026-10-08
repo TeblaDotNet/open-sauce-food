@@ -1,0 +1,42 @@
+{
+  "title": "Tarte Merengada de Limão",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tarte-merengada.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "35a9358c155cdd625ef4726d87c0422d26c540564290f107682928df2f2407a5",
+  "original_front_matter": {
+    "title": "Tarte Merengada de Limão",
+    "tags": [
+      "meringue",
+      "lemon",
+      "pie",
+      "portuguese",
+      "sweet"
+    ],
+    "date": "2023-03-27",
+    "author": "magikarp-salesman"
+  },
+  "source_url": "https://publicdomainrecipes.com/tarte-merengada/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Meringe Lemon Pie",
+      "url": "/pix/tarte-merengada.webp",
+      "upstreamPath": "static/pix/tarte-merengada.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "3828291e80ac64996079d26f42994d87f93977a64006d6f00205b7f162d2a1d8",
+      "sourcePath": "source/public-domain-recipes/tarte-merengada/tarte-merengada.webp",
+      "promotedPath": "examples/public-domain-recipes/tarte-merengada/tarte-merengada.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

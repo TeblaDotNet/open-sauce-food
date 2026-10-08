@@ -1,0 +1,31 @@
+{
+  "title": "Beef Wellington",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/beef-wellington.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "5c1cd2158c8a333a2ef7c2a822d8334f47f825bc07d72693fcede8468c3be53c",
+  "original_front_matter": {
+    "title": "Beef Wellington",
+    "date": "2022-04-15",
+    "tags": [
+      "english",
+      "beef"
+    ],
+    "author": "HiddenSquid321"
+  },
+  "source_url": "https://publicdomainrecipes.com/beef-wellington/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

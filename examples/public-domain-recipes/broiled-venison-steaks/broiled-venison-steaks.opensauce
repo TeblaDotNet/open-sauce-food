@@ -1,0 +1,72 @@
+::recipe
+
+name: Broiled Venison Steaks
+source: https://publicdomainrecipes.com/broiled-venison-steaks/
+source author: Miss Leslie
+source license: Public domain (Unlicense)
+units: source
+tags: venison, meat
+
+# Original source: ../../../source/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: Ingredients say jelly (cranberry, peach, or grape); method says cranberry or peach sauce or grape jelly. Do not force sauces and jelly into an artificial equivalent ingredient concept.
+
+::ingredients
+
+(venison) quantity unspecified
+(butter, fresh) a bit per steak
+(wine) some
+(jelly, cranberry or peach or grape) as needed
+# Method-only seasonings
+(black pepper) a little
+(salt) a little
+
+::equipment
+
+(gridiron, grooved bars)
+(dish, hot)
+(saucepan, small)
+
+::instructions
+
+(venison) <cut, steaks not quite 1in thick>
+    <trim>
+    + (black pepper) + (salt) <season>
+(gridiron, grooved bars) <prepare, over clear bright hot coals from wood fire or stove, catch gravy>
+(venison) <broil, first side quite done then turn and broil other, source says very thoroughly done>
+    + (butter) <place, bit on each steak before lifting>
+    <transfer, hot dish>
+    <keep warm>
+{gravy} <pour, small saucepan>
+    <boil, over fire>
+    <skim, all surface fat>
+    + (wine) <stir>
+{steaks} <serve, gravy, deep dish cranberry or peach sauce or large cup grape jelly>
+
+::source
+<<<
+---
+title: "Broiled Venison Steaks"
+date: 1857-03-11
+tags: ['venison', 'meat']
+author: "Miss Leslie"
+---
+
+## Ingredients
+
+- venison
+- butter
+- wine
+- jelly (cranberry, peach, or grape)
+
+## Directions
+
+1. Cut the steaks not quite an inch thick.
+2. Trim them nicely, and season them with a little black pepper and salt.
+3. Have ready, over a bed of clear bright hot coals from a wood fire (or a stove), a gridiron with grooved bars to catch the gravy.
+4. Put down the steaks, and when one side is quite done turn the other, and broil that. (Venison should always be very thoroughly done.)
+5. Before you take up the steaks, lay a bit of nice fresh butter upon each.
+6. Take them up on a hot dish, and keep them warm.
+7. Pour off the gravy into a small saucepan. Give it a boil over the fire, and skim off all the fat from the surface.
+8. Stir into it some nice wine, and serve up with the steaks a deep dish of cranberry, or peach sauce, or a large cup of grape jelly.
+>>>

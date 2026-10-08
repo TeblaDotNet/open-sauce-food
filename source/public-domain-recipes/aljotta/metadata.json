@@ -1,0 +1,31 @@
+{
+  "title": "Aljotta",
+  "source_url": "https://publicdomainrecipes.com/aljotta/",
+  "source_author": "shou-ganai",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/aljotta.md",
+  "original_sha256": "14ab20851b0507cbc5d9f1ab48d2d4863eaf61a3d8623792efe1431cafa519df",
+  "original_front_matter": {
+    "title": "Aljotta",
+    "date": "2021-03-16",
+    "tags": [
+      "fish",
+      "soup",
+      "mediterranean"
+    ],
+    "author": "shou-ganai"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- Fish stock (see 2.)\n- Fish, raw\n- Onion, roughly chopped\n- Garlic, sliced or diced\n- Tomatos, chopped\n- frying oil/lard\n- Extra virgin olive oil\n- Marjoram\n- Black pepper (optional)\n- Mint, small amount (optional, I never use it myself as it's too overpowering)\n- Lemon wedge/juice (optional, also overpowering)\n- Rice (optional)",
+  "directions_source_markdown": "1. Cook some rice and set aside. White short-grain is best but other types will do as long as it's not starchy. Don't use arborio or sushi rice.\n2. Prepare the stock, possibly the day before, by boiling fish and fish bones in a tall stock pot on medium heat for 1-2 hours. It's customary to have loose chunks of fish in the soup so you can boil the fish and separate the meat as it starts to cook. As an example, the head, tail, skin and spine from the [anglerfish fillet recipe](/fried-anglerfish-fillet) were used to make stock, then half a fillet and meat that separated from the offal became part of the soup.\n3. In a pot, heat some oil on low heat and add in the onions. Saute until translucent.\n4. Add the garlic, tomato, herbs and salt if desired. Switch to medium heat, stirring occasionally until the water starts to boil.\n5. Add the fish and let simmer on low heat until the fish are cooked thoroughly, being careful not to break them. Turn the heat off and add the olive oil.\n6. Take the fish out to be served separately. They are traditionally served topped with olive oil and a squeeze of lemon with steamed vegetables.\n7. If you are using lemon juice or rice, add them to each serving according to your preference.\n8. Leave some for tomorrow. It always tastes better the next day.",
+  "images": [],
+  "coverage_group": "fish-seafood"
+}

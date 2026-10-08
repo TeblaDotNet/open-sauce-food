@@ -1,0 +1,18 @@
+id: dill-weed
+kind: ingredient
+canonical_name: dill weed
+names:
+  en: dill weed
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: dill weed
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

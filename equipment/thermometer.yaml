@@ -1,0 +1,18 @@
+id: thermometer
+kind: equipment
+canonical_name: thermometer
+names:
+  en: thermometer
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: thermometer
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+observed_qualifiers:
+- value: instant-read
+  count: 1

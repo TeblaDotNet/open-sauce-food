@@ -1,0 +1,62 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Pulled Rabbit
+source: https://publicdomainrecipes.com/pulled-rabbit/
+source author: Miss Leslie
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: rabbit, meat
+
+# Imported from content/pulled-rabbit.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(cleaned rabbits) 2
+(butter)
+(hard-boiled egg yolks) 2
+(sweet herbs, minced, basil and/or rosemary)
+(lemon)
+(nutmeg)
+(cayenne, optional)
+
+::instructions
+
+<boil, 2 cleaned rabbits until very tender>
+<take, them out to cool>
+When cold, cut them in pieces as for carving, and peel off the skin. Then with a fork pull all the meat from the bones, first loosening it with a knife.
+<put, it into a stew-pan with plenty of cream, or some bits of fresh butter rolled in flour; some minced sweet herbs, some grated fresh lemon rind, and some hard-boiled yolks of eggs crumbled. Season with cayenne and nutmeg>
+<cover, it, and let it simmer till it comes to a boil. Then immediately take it off the stove, and transfer it to a deep dish>
+<serve, it up hot. This is a side dish at dinner>
+
+::source
+<<<
+---
+title: "Pulled Rabbit"
+date: 1857-03-11
+tags: ['rabbit', 'meat']
+author: "Miss Leslie"
+---
+
+## Ingredients
+
+- 2 cleaned rabbits
+- butter
+- 2 hard-boiled egg yolks
+- minced sweet herbs (basil and/or rosemary)
+- lemon
+- nutmeg
+- cayenne (optional)
+
+## Directions
+
+1. Boil 2 cleaned rabbits until very tender.
+2. Take them out to cool.
+3. When cold, cut them in pieces as for carving, and peel off the skin. Then with a fork pull all the meat from the bones, first loosening it with a knife.
+4. Put it into a stew-pan with plenty of cream, or some bits of fresh butter rolled in flour; some minced sweet herbs, some grated fresh lemon rind, and some hard-boiled yolks of eggs crumbled. Season with cayenne and nutmeg.
+5. Cover it, and let it simmer till it comes to a boil. Then immediately take it off the stove, and transfer it to a deep dish.
+
+Serve it up hot. This is a side dish at dinner.
+>>>

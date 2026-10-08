@@ -1,0 +1,32 @@
+{
+  "title": "Banana Bread",
+  "source_url": "https://publicdomainrecipes.com/banana-bread/",
+  "source_author": "martin-chrzanowski",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/banana-bread.md",
+  "original_sha256": "38c7311949b619791a6a1225fb27863c3e9e6490c35bf8d4f456ebe61d2350a2",
+  "original_front_matter": {
+    "title": "Banana Bread",
+    "date": "2021-03-11",
+    "tags": [
+      "bread",
+      "dessert",
+      "sweet",
+      "fasting"
+    ],
+    "author": "martin-chrzanowski"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- 2 cups all purpose flour\n- 1 1/2 teaspoon baking powder\n- 1/2 teaspoon baking soda\n- Spices:\n    - 1 teaspoon cinnamon\n    - 1/4 teaspoon nutmeg\n    - 1/4 teaspoon ginger\n- 1/4 teaspoon salt\n- 1 1/2 cups mashed bananas (this is around 4-5 bananas)\n- 2 eggs\n- 1 cup sugar (brown or white is fine)\n- 1/2 cup butter\n- 1/4 cup crushed walnuts",
+  "directions_source_markdown": "1. Preheat oven to 350°F (175°C)\n2. Mix the wet ingredients (eggs, bananas, butter, sugar) in one bowl.\n3. Mix the dry ingredients (flour, baking soda/powder, spices, salt) in another\n   bowl.\n4. Slowly add the wet to the dry while mixing.\n5. Mix until dry bits of flour are gone.\n6. Pour into lightly buttered or oiled loaf pan.\n7. Bake for around an hour (it's definitely ready when a wooden skewer or\n   chopstick poked inside comes out clean).",
+  "images": [],
+  "coverage_group": "baking"
+}

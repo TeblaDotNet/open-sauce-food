@@ -1,0 +1,15 @@
+id: beef-roast
+kind: ingredient
+canonical_name: beef roast
+names:
+  en: beef roast
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: beef roast
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce

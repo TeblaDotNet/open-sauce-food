@@ -1,0 +1,24 @@
+id: trim
+kind: process
+canonical_name: trim
+names:
+  en: trim
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: trim
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+observed_parameters:
+- value: excess
+  count: 1
+- value: remove greens and reserve
+  count: 1
+- value: remove top and bottom ends
+  count: 1

@@ -1,0 +1,91 @@
+::recipe
+
+name: Fumé sauce
+source: https://publicdomainrecipes.com/fume-sauce/
+source author: pestanzul
+source license: Public domain (Unlicense)
+units: source
+tags: cheesefare, italian, pasta, sauce
+serves: 2
+image: fume-sauce.webp
+
+# Original source: ../../../source/public-domain-recipes/fume-sauce/fume-sauce.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source servings: of 100 g pasta each.
+# Source Prep time: 10 min
+# Source Cook time: 10 min
+# Source Servings: 2
+# Conversion note: Olive oil is listed, but frying step does not explicitly add it. Keep source omission; paprica spelling retained for later vocabulary review.
+
+::ingredients
+
+(cream, milk) 200g
+(tomato sauce) 150g
+(pancetta) 100g
+(olive oil) as needed
+(onion) as needed
+(paprica) as needed
+(parsley, optional) as desired
+# Method-only ingredients
+(sugar) small pinch
+(salt) as needed
+
+::instructions
+
+(onion) <cut, small pieces>
+(pancetta) <cut, ~1cm cubes>
+{base} = (onion) + (pancetta)
+{base} <fry, low fire, until onion darkens>
+{sauce} = {base} + (cream) + (tomato sauce)
+{sauce} <stir>
+    + (sugar) <add>
+    + (salt) + (paprica) <season>
+Optional [
+    {sauce} + (parsley)
+]
+{sauce} <cook, low fire, stirring slowly, 10m or until thickened>
+
+::story
+
+Fumé is a sauce for pasta (/pasta), typical of central Italy.
+It is intended to be used in great amounts.
+
+::source
+<<<
+---
+title: Fumé sauce
+tags: ["cheesefare", "italian", "pasta", "sauce"]
+date: 2025-11-15
+author: "pestanzul"
+---
+
+![fume-sauce](/pix/fume-sauce.webp)
+
+Fumé is a sauce for [pasta](/pasta), typical of central Italy.
+It is intended to be used in great amounts.
+
+Quantities in this recipe are calculated for servings of 100 g pasta each.
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 10 min
+- 🍽️ Servings: 2
+
+## Ingredients
+
+- 200 g milk cream
+- 150 g tomato sauce
+- 100 g pancetta
+- olive oil
+- onion
+- paprica
+- parsley (optional)
+
+## Directions
+
+1. Cut onion to small pieces and pancetta to cubes about 1 cm long.
+2. Fry them on low fire until onion darkens.
+3. Add milk cream and tomato sauce and stir.
+4. Add a small pinch of sugar, then season with salt and paprica.
+   Also add parsely, if you like it.
+5. Cook stirring slowly on low fire for 10 minutes or until the sauce thickens.
+>>>

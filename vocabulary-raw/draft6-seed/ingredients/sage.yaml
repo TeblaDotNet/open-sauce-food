@@ -1,0 +1,12 @@
+id: sage
+kind: ingredient
+names:
+  en: sage
+observed_forms:
+- syntax: sage, optional
+  count: 1
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1

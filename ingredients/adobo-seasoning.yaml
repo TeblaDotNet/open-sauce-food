@@ -1,0 +1,18 @@
+id: adobo-seasoning
+kind: ingredient
+canonical_name: adobo seasoning
+names:
+  en: adobo seasoning
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: adobo seasoning
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+observed_qualifiers:
+- value: dry
+  count: 1

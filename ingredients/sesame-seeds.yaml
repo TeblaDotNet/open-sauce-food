@@ -1,0 +1,23 @@
+id: sesame-seeds
+kind: ingredient
+canonical_name: sesame seeds
+names:
+  en: sesame seeds
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 1
+  observed_terms:
+  - term: sesame seeds
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  legacy_terms:
+  - term: sesame seeds
+    count: 1
+observed_qualifiers:
+- value: optional
+  count: 1
+- value: toasted
+  count: 1

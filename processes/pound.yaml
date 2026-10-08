@@ -1,0 +1,24 @@
+id: pound
+kind: process
+canonical_name: pound
+names:
+  en: pound
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: pound
+      count: 2
+  seen_in:
+    - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: evenly level
+    count: 1
+  - value: flat disc
+    count: 1
+  - value: meat mallet
+    count: 1
+  - value: rolling pin or heavy object
+    count: 1

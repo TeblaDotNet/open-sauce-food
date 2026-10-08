@@ -1,0 +1,23 @@
+id: red-chilli
+kind: ingredient
+canonical_name: red chilli
+names:
+  en: red chilli
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: red chilli
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+observed_qualifiers:
+- value: optional
+  count: 1
+- value: sliced and deseeded
+  count: 1
+aliases:
+- name: red chilies
+  type: review-pass-1-lexical

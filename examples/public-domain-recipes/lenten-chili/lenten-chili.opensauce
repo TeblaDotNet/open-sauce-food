@@ -1,0 +1,104 @@
+::recipe
+
+name: Lenten Chili
+source: https://publicdomainrecipes.com/lenten-chili/
+source author: yorge-z
+source license: Public domain (Unlicense)
+units: source
+tags: fasting
+serves: 4
+image: lenten-chili.webp
+
+# Original source: ../../../source/public-domain-recipes/lenten-chili/lenten-chili.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 10 min
+# Source Cook time: 30 min
+# Source Servings: 4
+
+::ingredients
+
+(onion, large, chopped) 1
+(garlic, minced) 3 cloves
+(beans choice) = (kidney beans, canned) 4 cans of 15oz -OR- (beans, cooked) 6 cups
+(tomato sauce choice) = (tomato sauce, canned) 1 can of 29oz -OR- (tomato sauce, fresh) 4 cups
+(tomato choice) = (tomato, diced, canned) 1 can of 15oz -OR- (tomato, large, diced, skin removed) 1
+(corn, sweet) 1/2 can
+(rice, cooked, white or brown) 1 cup
+(cumin) 1tsp
+(paprika, smoked) 1tsp
+(garlic powder) 1tsp
+(onion powder) 1tsp
+(chili powder) 1tbsp
+(red pepper, crushed) 1tbsp
+(olive oil) 2-3tbsp
+
+::equipment
+
+(pot, large, tall)
+(serving bowl)
+
+::instructions
+
+(onion) <chop>
+(garlic) <mince>
+(olive oil) <heat, large tall pot, medium-low>
+(onion) <cook, oil, 5-10m, constantly stirring, until beginning to brown>
+    + (garlic) <cook, add just before onion done, 1-2m>
+{chili} = (onion) + (garlic) + (olive oil) + (tomato sauce choice) + (tomato choice) + (corn) + (beans choice) + (rice)
+{chili} <heat, turn up to medium>
+    + (cumin) + (paprika) + (garlic powder) + (onion powder) + (chili powder) + (red pepper)
+    <taste>
+    <adjust, flavouring accordingly>
+    <cook, 20-30m, stirring occasionally>
+    <cool, a few minutes>
+    <serve, bowls>
+
+::notes
+Let cool for a few minutes and then serve in bowls.
+
+::source
+<<<
+---
+title: "Lenten Chili"
+date: 2021-03-18
+tags: ['fasting']
+author: yorge-z
+---
+
+![Lenten chili](/pix/lenten-chili.webp)
+
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 30 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 1 large onion, chopped
+- 3 cloves garlic, minced
+- 4 15oz cans of kidney beans (or 6 cups cooked beans)
+- 1 29oz large can tomato sauce (or 4 cups fresh tomato sauce)
+- 1 15oz can diced tomatoes (or 1 large diced tomato with skin removed)
+- 1/2 can of sweet corn
+- 1 cup cooked white or brown rice
+- 1 tsp cumin
+- 1 tsp smoked paprika
+- 1 tsp garlic powder
+- 1 tsp onion powder
+- 1 tbsp chili powder
+- 1 tbsp crushed red pepper
+- 2-3 tbsp olive oil
+
+## Directions
+
+1. Chop the large onion and mince the garlic cloves.
+2. On medium-low heat in a large tall pot add 2-3 tbsp olive oil.
+3. Add the chopped onions into the pot with oil and constantly stir for 5-10 minutes until they begin to brown.
+4. Just before onions are done add the minced garlic to the pot and let cook for 1-2 minutes.
+5. Add the tomato sauce, diced tomatoes, sweet corn, beans, and rice.
+6. Turn up the heat to medium.
+6. Add each of the spices, taste the chili, and adjust flavoring accordingly.
+7. Let cook for 20-30 minutes, stirring occasionally.
+
+Let cool for a few minutes and then serve in bowls.
+>>>

@@ -1,0 +1,30 @@
+{
+  "title": "Tofu Stir Fry",
+  "source_url": "https://publicdomainrecipes.com/tofu-stir-fry/",
+  "source_author": "kelvin-shadewing",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tofu-stir-fry.md",
+  "original_sha256": "c6066ce078f62add057f51260e53051e564392c6df7590a855d8bafded18ca37",
+  "original_front_matter": {
+    "title": "Tofu Stir Fry",
+    "date": "2021-03-23",
+    "tags": [
+      "tofu",
+      "fasting"
+    ],
+    "author": "kelvin-shadewing"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- One block of extra firm tofu\n- Three eggs\n- Vegetables per your choice, recommendations include:\n  - Sugar snap peas\n  - Chopped cabbage\n  - Sliced carrots\n  - Broccoli\n  - Cauliflower\n- Soy or teriyaki sauce\n- 2 tbsp minced garlic\n- Coconut oil",
+  "directions_source_markdown": "1. (Optional) Deep freeze tofu at least 24 hours prior and then thaw. The freezing will crystalize the water inside and make the tofu spongey, giving it a more chewy texture, and aids in flavor absorption.\n2. Chop tofu into cubes or slabs per preference and carefully drain water.\n3. Allow tofu to soak in sauce for a few minutes.\n4. Pour cooking oil into a copper wok evenly to coat around the basin. Let it fill up about half an inch at the bottom.\n5. Heat oil at medium and place tofu, sauce, and minced garlic into pan. Adding sauce and herbs early helps tofu absorb the flavors.\n6. Shift and flip the tofu around, gradually turning up the heat as you go, until surface starts to turn brown.\n7. Add in hard vegetables. If using cabbage, save that for last. Cook until veggies soften.\n8. If non-vegan, scramble fry eggs in separate smaller pan until no longer runny, then add to stir fry.\n9. Once eggs are firm/brown to liking, add cabbage. Cabbage softens fast, so saving it for last lets it retain some crunch.\n10. Once cabbage softens, remove wok from heat. Serve on a plate with favorite sides.",
+  "images": [],
+  "coverage_group": "vegetable-pulses"
+}

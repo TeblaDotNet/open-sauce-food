@@ -1,0 +1,26 @@
+id: refrigerator
+kind: equipment
+canonical_name: refrigerator
+names:
+  en: refrigerator
+status: canonical-seed
+evidence:
+  current_recipe_count: 12
+  current_observation_count: 12
+  legacy_observation_count: 0
+  observed_terms:
+  - term: refrigerator
+    count: 12
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/ceviche/ceviche.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+  - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+  - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce

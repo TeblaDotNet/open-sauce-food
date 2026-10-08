@@ -1,0 +1,15 @@
+id: preheat
+kind: process
+names:
+  en: preheat
+observed_forms:
+- syntax: preheat
+  count: 1
+- syntax: preheat, oven
+  count: 1
+seen_in:
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+- examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+observed_parameters:
+- value: oven
+  count: 1

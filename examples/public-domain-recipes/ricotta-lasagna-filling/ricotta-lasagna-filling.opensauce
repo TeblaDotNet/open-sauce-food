@@ -1,0 +1,64 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Ricotta lasagna filling
+source: https://publicdomainrecipes.com/ricotta-lasagna-filling/
+source author: josiah
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: basic, italian, cheese
+serves: 5-6
+
+# Imported from content/ricotta-lasagna-filling.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 0 min
+# Source metadata: - 🍽️ Servings: 5-6
+
+::ingredients
+
+(ricotta cheese)
+(egg, large) One
+(parmesan cheese)
+(oregano, Optional)
+
+::instructions
+
+<mix, the ricotta cheese together with a handful of finely grated parmesan>
+<add, the oregano and the egg and mix>
+<add, salt and pepper to taste>
+
+::story
+
+A quick and easy filling for lasagna based on ricotta
+
+
+::source
+<<<
+---
+title: "Ricotta lasagna filling"
+date: 2021-03-24
+tags: ['basic', 'italian', 'cheese']
+author: josiah
+---
+
+A quick and easy filling for lasagna based on ricotta
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 0 min
+- 🍽️ Servings: 5-6
+
+## Ingredients
+
+- Ricotta cheese
+- One large egg
+- Parmesan cheese
+- Oregano (Optional)
+
+## Directions
+
+1. Mix the ricotta cheese together with a handful of finely grated parmesan.
+2. Add the oregano and the egg and mix.
+3. Add salt and pepper to taste.
+>>>

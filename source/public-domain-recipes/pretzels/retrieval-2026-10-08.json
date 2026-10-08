@@ -1,0 +1,31 @@
+{
+  "title": "Pretzels",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pretzels.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "8ca82c24054d86ddbde9de233e3cbc3f7ecffc4a69abcef87d0b44f8dba33f2f",
+  "original_front_matter": {
+    "title": "Pretzels",
+    "tags": [
+      "bread",
+      "fasting"
+    ],
+    "date": "2024-05-09",
+    "author": "ihalseide"
+  },
+  "source_url": "https://publicdomainrecipes.com/pretzels/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

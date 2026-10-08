@@ -1,0 +1,9 @@
+id: vanilla-flavouring
+kind: ingredient
+names:
+  en: vanilla flavouring
+observed_forms:
+- syntax: vanilla flavouring
+  count: 1
+seen_in:
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce

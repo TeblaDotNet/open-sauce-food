@@ -1,0 +1,15 @@
+id: clam-liquid
+kind: ingredient
+canonical_name: clam liquid
+names:
+  en: clam liquid
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: clam liquid
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce

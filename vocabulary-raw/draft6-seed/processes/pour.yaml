@@ -1,0 +1,21 @@
+id: pour
+kind: process
+names:
+  en: pour
+observed_forms:
+  - syntax: pour, muffin tin
+    count: 1
+  - syntax: pour, muffin tin, evenly and carefully
+    count: 1
+  - syntax: pour, waffle maker
+    count: 1
+seen_in:
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+observed_parameters:
+  - value: evenly and carefully
+    count: 1
+  - value: muffin tin
+    count: 2
+  - value: waffle maker
+    count: 1

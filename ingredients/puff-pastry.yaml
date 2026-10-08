@@ -1,0 +1,23 @@
+id: puff-pastry
+kind: ingredient
+canonical_name: puff pastry
+names:
+  en: puff pastry
+status: reviewed-merge
+aliases:
+- name: puff-paste
+  type: historical-name
+  observed_count: 2
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: puff pastry
+    count: 1
+  - term: puff-paste
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce

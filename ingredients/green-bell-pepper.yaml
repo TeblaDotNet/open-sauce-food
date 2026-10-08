@@ -1,0 +1,18 @@
+id: green-bell-pepper
+kind: ingredient
+canonical_name: green bell pepper
+names:
+  en: green bell pepper
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: green bell pepper
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/lentejas/lentejas.opensauce
+observed_qualifiers:
+- value: chopped
+  count: 1

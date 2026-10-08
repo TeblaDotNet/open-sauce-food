@@ -1,0 +1,103 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Simple Chicken Curry
+source: https://publicdomainrecipes.com/simple-chicken-curry/
+source author: lsma
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: chicken, curry, stew
+
+# Imported from content/simple-chicken-curry.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(coriander) 1 ½ tsp
+(cumin) 1 tsp
+(turmeric) ½ tsp
+(fennel seeds, Ground) ½ tsp
+(cinnamon) ½ tsp
+(black pepper) ½ tsp
+(ginger) ½ tsp
+(mustard) ¼ tsp
+(cloves, Ground) ¼ tsp
+(sriracha sauce, optional)
+(butter) ¼ cup （½ stick）
+(onion, large) 1
+(garlic) 4 cloves
+(chicken broth) 2-3 cups
+(or pureed tomatoes, Crushed) 2-3 cups
+(boneless skinless chicken breasts) 1 ½ lbs
+
+::equipment
+
+(pot)
+
+::instructions
+
+<mince, the garlic and dice the onion>
+<saute, onion and garlic with the butter in a pot>
+Once the onion is just beginning to brown, pour in the chicken broth and tomato and raise heat to high.
+<cut, the chicken breasts into bite-sized cubes>
+<add, the chicken and the spices>
+Once the pot reaches a boil, reduce heat and let simmer for 30 minutes.
+
+::notes
+
+Spices
+
+Main Ingredients
+
+
+::story
+
+An easy chicken curry recipe which scales very well (double it, triple it, etc.). Best served with rice.
+
+
+::source
+<<<
+---
+title: "Simple Chicken Curry"
+date: 2021-03-21
+tags: ['chicken', 'curry', 'stew']
+author: "lsma"
+
+---
+
+An easy chicken curry recipe which scales very well (double it, triple it, etc.).  Best served with rice.
+
+Servings: 3-4
+
+## Ingredients
+
+Spices
+- 1 ½ tsp Coriander
+- 1 tsp Cumin
+- ½ tsp Turmeric
+- ½ tsp Ground Fennel Seeds
+- ½ tsp Cinnamon
+- ½ tsp Black Pepper
+- ½ tsp Ginger
+- ¼ tsp Mustard
+- ¼ tsp Ground Cloves
+- Sriracha Sauce (optional)
+
+Main Ingredients
+- ¼ cup (½ stick) Butter
+- 1 large Onion
+- 4 cloves Garlic
+- 2-3 cups Chicken Broth
+- 2-3 cups Crushed or Pureed Tomatoes
+- 1 ½ lbs Boneless Skinless Chicken Breasts
+
+## Directions
+
+1. Mince the garlic and dice the onion.
+2. Saute onion and garlic with the butter in a pot.
+3. Once the onion is just beginning to brown, pour in the chicken broth and tomato and raise heat to high.
+4. Cut the chicken breasts into bite-sized cubes.
+5. Add the chicken and the spices.
+6. Once the pot reaches a boil, reduce heat and let simmer for 30 minutes.
+>>>

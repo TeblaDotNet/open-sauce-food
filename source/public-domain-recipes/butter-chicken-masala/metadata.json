@@ -1,0 +1,35 @@
+{
+  "title": "Butter Chicken Masala Curry",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/butter-chicken-masala.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "d405edca4cdbbf490256f797b8bf761edf287e4d384b5f94485c563da31ea2c3",
+  "original_front_matter": {
+    "title": "Butter Chicken Masala Curry",
+    "date": "2021-03-15",
+    "tags": [
+      "indian",
+      "curry",
+      "chicken"
+    ],
+    "author": "nihar-samantaray"
+  },
+  "source_url": "https://publicdomainrecipes.com/butter-chicken-masala/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Butter Chicken Masala",
+      "url": "/pix/butter-chicken-masala.webp",
+      "upstreamPath": "static/pix/butter-chicken-masala.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

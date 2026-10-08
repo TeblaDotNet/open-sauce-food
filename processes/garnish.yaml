@@ -1,0 +1,25 @@
+id: garnish
+kind: process
+canonical_name: garnish
+names:
+  en: garnish
+status: canonical-seed
+evidence:
+  current_recipe_count: 8
+  current_observation_count: 8
+  legacy_observation_count: 0
+  observed_terms:
+  - term: garnish
+    count: 8
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_parameters:
+- value: as desired
+  count: 1

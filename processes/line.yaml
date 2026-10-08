@@ -1,0 +1,44 @@
+id: line
+kind: process
+canonical_name: line
+names:
+  en: line
+status: canonical-seed
+evidence:
+  current_recipe_count: 8
+  current_observation_count: 8
+  legacy_observation_count: 2
+  observed_terms:
+  - term: line
+    count: 8
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+  - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  legacy_terms:
+  - term: line
+    count: 2
+observed_parameters:
+- value: aluminium foil
+  count: 1
+- value: baking paper
+  count: 1
+- value: bottom and sides and edges of soup-plate
+  count: 1
+- value: foil
+  count: 1
+- value: paper liners
+  count: 1
+- value: parchment paper
+  count: 1
+- value: parchment paper or aluminium foil
+  count: 1
+- value: pie dish
+  count: 2
+- value: soup plate
+  count: 1

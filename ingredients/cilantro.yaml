@@ -1,0 +1,9 @@
+id: cilantro
+kind: ingredient
+names:
+  en: cilantro
+observed_forms:
+- syntax: cilantro
+  count: 1
+seen_in:
+- examples/public-domain-recipes/guacamole/guacamole.opensauce

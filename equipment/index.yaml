@@ -1,0 +1,483 @@
+schema: open-sauce-equipment-vocabulary
+schema_version: '0.3'
+status: draft8-vocabulary-review-pass-1
+current_recipe_count: 410
+legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
+canonical_concept_count: 119
+entries:
+- id: air-fryer
+  canonical_name: air fryer
+  file: air-fryer.yaml
+  aliases: 0
+- id: airlock-lid
+  canonical_name: airlock lid
+  file: airlock-lid.yaml
+  aliases: 0
+- id: aluminium-foil
+  canonical_name: aluminium foil
+  file: aluminium-foil.yaml
+  aliases: 3
+- id: baking-dish
+  canonical_name: baking dish
+  file: baking-dish.yaml
+  aliases: 0
+- id: baking-mold
+  canonical_name: baking mold
+  file: baking-mold.yaml
+  aliases: 0
+- id: baking-pan
+  canonical_name: baking pan
+  file: baking-pan.yaml
+  aliases: 0
+- id: baking-paper
+  canonical_name: baking paper
+  file: baking-paper.yaml
+  aliases: 1
+- id: baking-tray
+  canonical_name: baking tray
+  file: baking-tray.yaml
+  aliases: 1
+- id: baking-vessel
+  canonical_name: baking vessel
+  file: baking-vessel.yaml
+  aliases: 0
+- id: beaker
+  canonical_name: beaker
+  file: beaker.yaml
+  aliases: 0
+- id: beater
+  canonical_name: beater
+  file: beater.yaml
+  aliases: 0
+- id: blender
+  canonical_name: blender
+  file: blender.yaml
+  aliases: 0
+- id: blowtorch
+  canonical_name: blowtorch
+  file: blowtorch.yaml
+  aliases: 0
+- id: board
+  canonical_name: board
+  file: board.yaml
+  aliases: 0
+- id: bottle
+  canonical_name: bottle
+  file: bottle.yaml
+  aliases: 0
+- id: bowl
+  canonical_name: bowl
+  file: bowl.yaml
+  aliases: 0
+- id: butchers-twine
+  canonical_name: butcher’s twine
+  file: butchers-twine.yaml
+  aliases: 0
+- id: butter-knife
+  canonical_name: butter knife
+  file: butter-knife.yaml
+  aliases: 0
+- id: cake-tin
+  canonical_name: cake tin
+  file: cake-tin.yaml
+  aliases: 0
+- id: casserole-dish
+  canonical_name: casserole dish
+  file: casserole-dish.yaml
+  aliases: 0
+- id: cheesecloth
+  canonical_name: cheesecloth
+  file: cheesecloth.yaml
+  aliases: 1
+- id: chopping-board
+  canonical_name: chopping board
+  file: chopping-board.yaml
+  aliases: 1
+- id: chopstick
+  canonical_name: chopstick
+  file: chopstick.yaml
+  aliases: 0
+- id: cloth
+  canonical_name: cloth
+  file: cloth.yaml
+  aliases: 0
+- id: coffee-filter
+  canonical_name: coffee filter
+  file: coffee-filter.yaml
+  aliases: 0
+- id: colander
+  canonical_name: colander
+  file: colander.yaml
+  aliases: 0
+- id: container
+  canonical_name: container
+  file: container.yaml
+  aliases: 0
+- id: cookie-sheet
+  canonical_name: cookie sheet
+  file: cookie-sheet.yaml
+  aliases: 0
+- id: cooking-wood
+  canonical_name: cooking wood
+  file: cooking-wood.yaml
+  aliases: 0
+- id: cooling-rack
+  canonical_name: cooling rack
+  file: cooling-rack.yaml
+  aliases: 0
+- id: cover
+  canonical_name: cover
+  file: cover.yaml
+  aliases: 0
+- id: cutter
+  canonical_name: cutter
+  file: cutter.yaml
+  aliases: 0
+- id: dish
+  canonical_name: dish
+  file: dish.yaml
+  aliases: 0
+- id: double-boiler
+  canonical_name: double boiler
+  file: double-boiler.yaml
+  aliases: 0
+- id: dutch-oven
+  canonical_name: dutch oven
+  file: dutch-oven.yaml
+  aliases: 1
+- id: food-container
+  canonical_name: food container
+  file: food-container.yaml
+  aliases: 0
+- id: food-processor
+  canonical_name: food processor
+  file: food-processor.yaml
+  aliases: 0
+- id: fork
+  canonical_name: fork
+  file: fork.yaml
+  aliases: 0
+- id: frying-pan
+  canonical_name: frying pan
+  file: frying-pan.yaml
+  aliases: 1
+- id: glass-bottles
+  canonical_name: glass bottles
+  file: glass-bottles.yaml
+  aliases: 0
+- id: glass-container
+  canonical_name: glass container
+  file: glass-container.yaml
+  aliases: 0
+- id: glass-jars
+  canonical_name: glass jars
+  file: glass-jars.yaml
+  aliases: 0
+- id: gloves
+  canonical_name: gloves
+  file: gloves.yaml
+  aliases: 0
+- id: grater
+  canonical_name: grater
+  file: grater.yaml
+  aliases: 0
+- id: grease-pan
+  canonical_name: grease pan
+  file: grease-pan.yaml
+  aliases: 0
+- id: gridiron
+  canonical_name: gridiron
+  file: gridiron.yaml
+  aliases: 0
+- id: grill
+  canonical_name: grill
+  file: grill.yaml
+  aliases: 0
+- id: hotplate
+  canonical_name: hotplate
+  file: hotplate.yaml
+  aliases: 0
+- id: ice-cream-maker
+  canonical_name: ice cream maker
+  file: ice-cream-maker.yaml
+  aliases: 0
+- id: ice-cream-scoop-or-spoon
+  canonical_name: ice cream scoop or spoon
+  file: ice-cream-scoop-or-spoon.yaml
+  aliases: 0
+- id: immersion-blender
+  canonical_name: immersion blender
+  file: immersion-blender.yaml
+  aliases: 0
+- id: jar
+  canonical_name: jar
+  file: jar.yaml
+  aliases: 0
+- id: jug
+  canonical_name: jug
+  file: jug.yaml
+  aliases: 0
+- id: kitchen-shears
+  canonical_name: kitchen shears
+  file: kitchen-shears.yaml
+  aliases: 0
+- id: kitchen-towel
+  canonical_name: kitchen towel
+  file: kitchen-towel.yaml
+  aliases: 0
+- id: knife
+  canonical_name: knife
+  file: knife.yaml
+  aliases: 0
+- id: lid
+  canonical_name: lid
+  file: lid.yaml
+  aliases: 0
+- id: loaf-tin
+  canonical_name: loaf tin
+  file: loaf-tin.yaml
+  aliases: 0
+- id: mason-jar
+  canonical_name: mason jar
+  file: mason-jar.yaml
+  aliases: 0
+- id: meat-mallet
+  canonical_name: meat mallet
+  file: meat-mallet.yaml
+  aliases: 0
+- id: meat-tenderizer
+  canonical_name: meat tenderizer
+  file: meat-tenderizer.yaml
+  aliases: 0
+- id: mesh-strainer
+  canonical_name: mesh strainer
+  file: mesh-strainer.yaml
+  aliases: 0
+- id: metal-griddle
+  canonical_name: metal griddle
+  file: metal-griddle.yaml
+  aliases: 0
+- id: mixer
+  canonical_name: mixer
+  file: mixer.yaml
+  aliases: 0
+- id: mixer-or-whisk
+  canonical_name: mixer or whisk
+  file: mixer-or-whisk.yaml
+  aliases: 0
+- id: mortar-and-pestle
+  canonical_name: mortar and pestle
+  file: mortar-and-pestle.yaml
+  aliases: 0
+- id: muffin-tin
+  canonical_name: muffin tin
+  file: muffin-tin.yaml
+  aliases: 1
+- id: oven
+  canonical_name: oven
+  file: oven.yaml
+  aliases: 0
+- id: paella-pan
+  canonical_name: paella pan
+  file: paella-pan.yaml
+  aliases: 0
+- id: pan
+  canonical_name: pan
+  file: pan.yaml
+  aliases: 0
+- id: paper-towel
+  canonical_name: paper towel
+  file: paper-towel.yaml
+  aliases: 0
+- id: pie-dish
+  canonical_name: pie dish
+  file: pie-dish.yaml
+  aliases: 0
+- id: pitcher
+  canonical_name: pitcher
+  file: pitcher.yaml
+  aliases: 0
+- id: plate
+  canonical_name: plate
+  file: plate.yaml
+  aliases: 0
+- id: pot
+  canonical_name: pot
+  file: pot.yaml
+  aliases: 1
+- id: proving-basket
+  canonical_name: proving basket
+  file: proving-basket.yaml
+  aliases: 0
+- id: ramekin
+  canonical_name: ramekin
+  file: ramekin.yaml
+  aliases: 0
+- id: razor-blade
+  canonical_name: razor blade
+  file: razor-blade.yaml
+  aliases: 0
+- id: refrigerator
+  canonical_name: refrigerator
+  file: refrigerator.yaml
+  aliases: 0
+- id: reynolds-oven-bag
+  canonical_name: Reynold’s Oven Bag
+  file: reynolds-oven-bag.yaml
+  aliases: 0
+- id: roasting-tin
+  canonical_name: roasting tin
+  file: roasting-tin.yaml
+  aliases: 0
+- id: roasting-tray
+  canonical_name: roasting tray
+  file: roasting-tray.yaml
+  aliases: 0
+- id: rolling-pin
+  canonical_name: rolling pin
+  file: rolling-pin.yaml
+  aliases: 0
+- id: rubber-band
+  canonical_name: rubber band
+  file: rubber-band.yaml
+  aliases: 0
+- id: saucepan
+  canonical_name: saucepan
+  file: saucepan.yaml
+  aliases: 0
+- id: saute-pan
+  canonical_name: sauté pan
+  file: saute-pan.yaml
+  aliases: 0
+- id: scissors
+  canonical_name: scissors
+  file: scissors.yaml
+  aliases: 0
+- id: scraper
+  canonical_name: scraper
+  file: scraper.yaml
+  aliases: 0
+- id: serving-bowl
+  canonical_name: serving bowl
+  file: serving-bowl.yaml
+  aliases: 0
+- id: sieve
+  canonical_name: sieve
+  file: sieve.yaml
+  aliases: 0
+- id: silicone-spatula
+  canonical_name: silicone spatula
+  file: silicone-spatula.yaml
+  aliases: 0
+- id: skewer
+  canonical_name: skewer
+  file: skewer.yaml
+  aliases: 0
+- id: slotted-spoon
+  canonical_name: slotted spoon
+  file: slotted-spoon.yaml
+  aliases: 0
+- id: slow-cooker
+  canonical_name: slow cooker
+  file: slow-cooker.yaml
+  aliases: 0
+- id: smoker
+  canonical_name: smoker
+  file: smoker.yaml
+  aliases: 0
+- id: soup-pan
+  canonical_name: soup pan
+  file: soup-pan.yaml
+  aliases: 0
+- id: soup-plate
+  canonical_name: soup plate
+  file: soup-plate.yaml
+  aliases: 1
+- id: soup-pot
+  canonical_name: soup pot
+  file: soup-pot.yaml
+  aliases: 0
+- id: spatula
+  canonical_name: spatula
+  file: spatula.yaml
+  aliases: 0
+- id: spoon
+  canonical_name: spoon
+  file: spoon.yaml
+  aliases: 0
+- id: stock-pot
+  canonical_name: stock pot
+  file: stock-pot.yaml
+  aliases: 0
+- id: strainer
+  canonical_name: strainer
+  file: strainer.yaml
+  aliases: 0
+- id: tea-strainer
+  canonical_name: tea strainer
+  file: tea-strainer.yaml
+  aliases: 0
+- id: thermometer
+  canonical_name: thermometer
+  file: thermometer.yaml
+  aliases: 0
+- id: toaster
+  canonical_name: toaster
+  file: toaster.yaml
+  aliases: 0
+- id: tongs
+  canonical_name: tongs
+  file: tongs.yaml
+  aliases: 0
+- id: toothpick
+  canonical_name: toothpick
+  file: toothpick.yaml
+  aliases: 0
+- id: towel
+  canonical_name: towel
+  file: towel.yaml
+  aliases: 0
+- id: tray
+  canonical_name: tray
+  file: tray.yaml
+  aliases: 0
+- id: vessel
+  canonical_name: vessel
+  file: vessel.yaml
+  aliases: 0
+- id: waffle-maker
+  canonical_name: waffle maker
+  file: waffle-maker.yaml
+  aliases: 0
+- id: whisk
+  canonical_name: whisk
+  file: whisk.yaml
+  aliases: 0
+- id: wok
+  canonical_name: wok
+  file: wok.yaml
+  aliases: 0
+- id: wooden-spoon
+  canonical_name: wooden spoon
+  file: wooden-spoon.yaml
+  aliases: 0
+- id: zester
+  canonical_name: zester
+  file: zester.yaml
+  aliases: 0
+- id: ziplock-bag
+  canonical_name: ziplock bag
+  file: ziplock-bag.yaml
+  aliases: 0
+- id: thermos
+  canonical_name: thermos
+  file: thermos.yaml
+  aliases: 0
+- id: steaming-basket
+  canonical_name: steaming basket
+  file: steaming-basket.yaml
+  aliases: 0
+- id: stand-mixer
+  canonical_name: stand mixer
+  file: stand-mixer.yaml
+  aliases: 0

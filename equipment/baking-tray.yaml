@@ -1,0 +1,45 @@
+id: baking-tray
+kind: equipment
+canonical_name: baking tray
+names:
+  en-GB: baking tray
+  en-US: baking sheet
+status: reviewed-merge
+aliases:
+- name: baking sheet
+  type: regional-name
+  observed_count: 8
+evidence:
+  current_recipe_count: 14
+  current_observation_count: 14
+  legacy_observation_count: 3
+  observed_terms:
+  - term: baking sheet
+    count: 8
+  - term: baking tray
+    count: 6
+  seen_in:
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+  - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+  - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+  - examples/public-domain-recipes/pavlova/pavlova.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+  - term: baking tray
+    count: 3
+observed_qualifiers:
+- value: foiled
+  count: 1
+- value: large
+  count: 1
+- value: rimmed
+  count: 2

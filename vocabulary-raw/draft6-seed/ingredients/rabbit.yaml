@@ -1,0 +1,12 @@
+id: rabbit
+kind: ingredient
+names:
+  en: rabbit
+observed_forms:
+- syntax: rabbit, pieces
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce
+observed_qualifiers:
+- value: pieces
+  count: 1

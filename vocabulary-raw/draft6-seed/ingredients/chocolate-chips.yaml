@@ -1,0 +1,18 @@
+id: chocolate-chips
+kind: ingredient
+names:
+  en: chocolate chips
+observed_forms:
+- syntax: chocolate chips, dark, 50-70%
+  count: 1
+- syntax: chocolate chips, semi-sweet milk
+  count: 1
+seen_in:
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+observed_qualifiers:
+- value: 50-70%
+  count: 1
+- value: dark
+  count: 1
+- value: semi-sweet milk
+  count: 1

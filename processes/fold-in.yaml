@@ -1,0 +1,14 @@
+id: fold-in
+kind: process
+names:
+  en: fold in
+observed_forms:
+- syntax: fold in, gradually, gently
+  count: 1
+seen_in:
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+observed_parameters:
+- value: gently
+  count: 1
+- value: gradually
+  count: 1

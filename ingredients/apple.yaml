@@ -1,0 +1,23 @@
+id: apple
+kind: ingredient
+canonical_name: apple
+names:
+  en: apple
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 2
+  observed_terms:
+  - term: apple
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  legacy_terms:
+  - term: apple
+    count: 2
+observed_qualifiers:
+- value: Bramley
+  count: 1
+- value: Golden Delicious
+  count: 2

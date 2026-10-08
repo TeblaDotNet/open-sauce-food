@@ -1,0 +1,31 @@
+{
+  "title": "Baked Salmon",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/baked-salmon.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "1e5692c175e01669d4ffa59dc3a00fb3940edbe88865f6dfb8e4d75280ba4be5",
+  "original_front_matter": {
+    "title": "Baked Salmon",
+    "date": "2021-03-17",
+    "tags": [
+      "basic",
+      "fish"
+    ],
+    "author": "carl-zimmerman"
+  },
+  "source_url": "https://publicdomainrecipes.com/baked-salmon/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

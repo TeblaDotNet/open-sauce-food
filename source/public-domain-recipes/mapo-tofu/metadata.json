@@ -1,0 +1,40 @@
+{
+  "title": "Mapo Tofu (麻婆豆腐)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/mapo-tofu.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "15554758632b901912ab798210921ddfe60ec69a4b477010aaf32335c87808fc",
+  "original_front_matter": {
+    "title": "Mapo Tofu (麻婆豆腐)",
+    "date": "2021-05-13",
+    "tags": [
+      "chinese",
+      "pork",
+      "tofu"
+    ],
+    "author": "mfed3"
+  },
+  "source_url": "https://publicdomainrecipes.com/mapo-tofu/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Mapo Tofu Over Rice",
+      "url": "/pix/mapo-tofu.webp",
+      "upstreamPath": "static/pix/mapo-tofu.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "f03a374e1c7452e8cf26b109b29da5280c11d9cc16e3a5b79c20c2147d3d62c8",
+      "sourcePath": "source/public-domain-recipes/mapo-tofu/mapo-tofu.webp",
+      "promotedPath": "examples/public-domain-recipes/mapo-tofu/mapo-tofu.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

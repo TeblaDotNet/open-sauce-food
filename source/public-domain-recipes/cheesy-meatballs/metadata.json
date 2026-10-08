@@ -1,0 +1,39 @@
+{
+  "title": "Cheesy Meatballs with Tomato Sauce",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/cheesy-meatballs.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "25e07337e539ff498e696b8a260222db0105131032c1985876cb2d5e504ba4f5",
+  "original_front_matter": {
+    "title": "Cheesy Meatballs with Tomato Sauce",
+    "date": "2021-03-12",
+    "tags": [
+      "beef",
+      "cheese"
+    ],
+    "author": "yaroslav-smirnov"
+  },
+  "source_url": "https://publicdomainrecipes.com/cheesy-meatballs/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Cheesy Meatballs with Tomato Sauce",
+      "url": "/pix/cheesy-meatballs.webp",
+      "upstreamPath": "static/pix/cheesy-meatballs.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "9b271020ac7eae5120280f34f97072ba9110861a9ebb1e1e9bfe6995a96b282c",
+      "sourcePath": "source/public-domain-recipes/cheesy-meatballs/cheesy-meatballs.webp",
+      "promotedPath": "examples/public-domain-recipes/cheesy-meatballs/cheesy-meatballs.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

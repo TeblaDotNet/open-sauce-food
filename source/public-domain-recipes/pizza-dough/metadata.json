@@ -1,0 +1,31 @@
+{
+  "title": "Pizza Dough",
+  "source_url": "https://publicdomainrecipes.com/pizza-dough/",
+  "source_author": "BeFe",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pizza-dough.md",
+  "original_sha256": "a2f4c3345b453319b0e537a638ab0accb84aacebd261fc05e7bdbcb1f6c88ac2",
+  "original_front_matter": {
+    "title": "Pizza Dough",
+    "date": "2021-03-11",
+    "tags": [
+      "basic",
+      "pizza",
+      "dough"
+    ],
+    "author": "BeFe"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- 400g flour (basic wheat flour)\n- 200ml lukewarm water\n- 1 pkg (7g) dry yeast\n- 1 spoon olive oil\n- 1 teaspoon salt\n- a teensy bit of sugar (to feed the yeast)",
+  "directions_source_markdown": "1. Combine all the ingredients in a bowl and knead into a dough.\n2. Let it rest for about 30 minutes somewhere lukewarm\n3. Add some flour to a table and roll the dough out there.",
+  "images": [],
+  "coverage_group": "bread-dough"
+}

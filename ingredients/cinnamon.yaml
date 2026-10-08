@@ -1,0 +1,35 @@
+id: cinnamon
+kind: ingredient
+canonical_name: cinnamon
+names:
+  en: cinnamon
+status: canonical-seed
+evidence:
+  current_recipe_count: 11
+  current_observation_count: 11
+  legacy_observation_count: 3
+  observed_terms:
+  - term: cinnamon
+    count: 11
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+  - examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce
+  - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+  - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+  - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  legacy_terms:
+  - term: cinnamon
+    count: 3
+observed_qualifiers:
+- value: ground
+  count: 3
+- value: powder
+  count: 1
+- value: stick
+  count: 1

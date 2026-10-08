@@ -1,0 +1,55 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Irish Coffee
+source: https://publicdomainrecipes.com/irish-coffee/
+source author: front3ndninja
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: drink, sweet, breakfast
+serves: 1
+
+# Imported from content/irish-coffee.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 5 min
+# Source metadata: - 🍽️ Servings: 1
+
+::ingredients
+
+(jigger irish cream liqueur) 1 （1.5 fluid ounce）
+(jigger irish whiskey) 1 （1.5 fluid ounce）
+(hot brewed coffee) 1 cup
+(whipped cream) 1 tablespoon
+(dash ground nutmeg) 1
+
+::instructions
+
+In a coffee mug, combine Irish cream and Irish whiskey. Fill mug with coffee. Top with a dab of whipped cream and a dash of nutmeg.
+
+::source
+<<<
+---
+title: "Irish Coffee"
+date: 2021-03-19
+tags: ['drink', 'sweet', 'breakfast']
+author: front3ndninja
+---
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 5 min
+- 🍽️ Servings: 1
+
+## Ingredients
+
+- 1 (1.5 fluid ounce) jigger Irish cream liqueur
+- 1 (1.5 fluid ounce) jigger Irish whiskey
+- 1 cup hot brewed coffee
+- 1 tablespoon whipped cream
+- 1 dash ground nutmeg
+
+## Directions
+
+1. In a coffee mug, combine Irish cream and Irish whiskey. Fill mug with coffee. Top with a dab of whipped cream and a dash of nutmeg.
+>>>

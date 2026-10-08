@@ -1,0 +1,30 @@
+id: reduce
+kind: process
+canonical_name: reduce
+names:
+  en: reduce
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: reduce
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+observed_parameters:
+- value: 425f
+  count: 1
+- value: medium-high
+  count: 1
+- value: medium-low heat
+  count: 1
+- value: saucepan
+  count: 1
+- value: stirring regularly
+  count: 1
+- value: ~15m
+  count: 1

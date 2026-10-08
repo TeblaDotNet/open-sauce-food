@@ -1,0 +1,15 @@
+id: mash
+kind: process
+names:
+  en: mash
+observed_forms:
+- syntax: mash
+  count: 2
+- syntax: mash, some more
+  count: 1
+seen_in:
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/guacamole/guacamole.opensauce
+observed_parameters:
+- value: some more
+  count: 1

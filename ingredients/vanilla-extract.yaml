@@ -1,0 +1,15 @@
+id: vanilla-extract
+kind: ingredient
+canonical_name: vanilla extract
+names:
+  en: vanilla extract
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: vanilla extract
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce

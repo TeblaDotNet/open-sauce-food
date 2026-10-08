@@ -1,0 +1,26 @@
+id: vanilla
+kind: ingredient
+canonical_name: vanilla
+names:
+  en: vanilla
+status: canonical-seed
+evidence:
+  current_recipe_count: 7
+  current_observation_count: 7
+  legacy_observation_count: 0
+  observed_terms:
+  - term: vanilla
+    count: 7
+  seen_in:
+  - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+  - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+  - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+  - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+  - examples/public-domain-recipes/sunday-milkshake/sunday-milkshake.opensauce
+observed_qualifiers:
+- value: extract
+  count: 3
+- value: powder
+  count: 1

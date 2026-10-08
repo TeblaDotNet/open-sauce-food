@@ -1,0 +1,31 @@
+{
+  "title": "Gooseberry Pudding",
+  "source_url": "https://publicdomainrecipes.com/gooseberry-pudding/",
+  "source_author": "Miss Leslie",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/gooseberry-pudding.md",
+  "original_sha256": "1b6a6ae4b4c01ed4960f6b0562df5b4a477e6ce192704bacbf6b0b2e32a7ded9",
+  "original_front_matter": {
+    "title": "Gooseberry Pudding",
+    "tags": [
+      "berries",
+      "dessert",
+      "pudding"
+    ],
+    "date": "1832-01-01",
+    "author": "Miss Leslie"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- A pint of stewed gooseberries, with all their juice.\n- A quarter of a pound of powdered sugar.\n- Two ounces of fresh butter.\n- Two ounces of grated bread.\n- Three eggs.",
+  "directions_source_markdown": "1. Stew the gooseberries till quite soft. When they are cold, mash them fine with the back of a spoon, and stir into them two ounces of sugar. Take two ounces more of sugar, and stir it to a cream with two ounces of butter.\n2. Grate very fine as much stale bread as will weigh two ounces.\n3. Beat three eggs, and stir them into the butter and sugar, in turn with the gooseberries and bread.\n4. Lay puff-paste in a soup plate. Put in the mixture, and bake it half an hour.\n\nDo not grate sugar over it.",
+  "images": [],
+  "coverage_group": "dessert-historical"
+}

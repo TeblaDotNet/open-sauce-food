@@ -1,0 +1,36 @@
+{
+  "title": "Apple Pie",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/apple-pie.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "b4248fe327fbaf84c5cc1f36f74e59f7ec17f50590daa098914a23536b4eb29c",
+  "original_front_matter": {
+    "title": "Apple Pie",
+    "date": "2021-05-13",
+    "tags": [
+      "dessert",
+      "pie",
+      "sweet",
+      "apple"
+    ],
+    "author": "mfed3"
+  },
+  "source_url": "https://publicdomainrecipes.com/apple-pie/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Apple Pie",
+      "url": "/pix/apple-pie.webp",
+      "upstreamPath": "static/pix/apple-pie.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

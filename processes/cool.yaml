@@ -1,0 +1,75 @@
+id: cool
+kind: process
+canonical_name: cool
+names:
+  en: cool
+status: canonical-seed
+evidence:
+  current_recipe_count: 23
+  current_observation_count: 25
+  legacy_observation_count: 6
+  observed_terms:
+  - term: cool
+    count: 25
+  seen_in:
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+  - examples/public-domain-recipes/crostata/crostata.opensauce
+  - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+  - examples/public-domain-recipes/granita/granita.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/kvass/kvass.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/limoncello/limoncello.opensauce
+  - examples/public-domain-recipes/pavlova/pavlova.opensauce
+  - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+  - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+  - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+  - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+  - term: cool
+    count: 6
+observed_parameters:
+- value: 1h before slicing
+  count: 1
+- value: a few minutes
+  count: 4
+- value: before cutting
+  count: 1
+- value: before serving
+  count: 1
+- value: below 40°C
+  count: 1
+- value: cold water
+  count: 1
+- value: completely
+  count: 2
+- value: completely before slicing
+  count: 2
+- value: lukewarm
+  count: 1
+- value: optional ice cubes to speed cooling
+  count: 1
+- value: oven turned off
+  count: 2
+- value: rack
+  count: 1
+- value: room temperature
+  count: 3
+- value: room temperature before removing from mold to prevent breakage
+  count: 1
+- value: slightly
+  count: 1
+- value: tin
+  count: 1
+- value: ~10m
+  count: 1

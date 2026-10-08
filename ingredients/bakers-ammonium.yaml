@@ -1,0 +1,15 @@
+id: bakers-ammonium
+kind: ingredient
+canonical_name: baker’s ammonium
+names:
+  en: baker’s ammonium
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: baker’s ammonium
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce

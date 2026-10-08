@@ -1,0 +1,39 @@
+id: brown
+kind: process
+canonical_name: brown
+names:
+  en: brown
+status: canonical-seed
+evidence:
+  legacy_observation_count: 1
+  observed_terms:
+    - term: brown
+      count: 4
+  seen_in:
+    - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+    - examples/public-domain-recipes/pork-carnitas/pork-carnitas.opensauce
+    - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+  legacy_terms:
+    - term: brown
+      count: 1
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: a few minutes if needed
+    count: 1
+  - value: all sides
+    count: 2
+  - value: batches
+    count: 1
+  - value: evenly cooked outside
+    count: 1
+  - value: large skillet
+    count: 1
+  - value: medium sauté pan
+    count: 1
+  - value: medium-high
+    count: 1
+  - value: medium-high heat
+    count: 1
+  - value: tongs
+    count: 1

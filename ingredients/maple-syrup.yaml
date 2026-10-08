@@ -1,0 +1,22 @@
+id: maple-syrup
+kind: ingredient
+canonical_name: maple syrup
+names:
+  en: maple syrup
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 1
+  observed_terms:
+  - term: maple syrup
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/french-toast/french-toast.opensauce
+  legacy_terms:
+  - term: maple syrup
+    count: 1
+observed_qualifiers:
+- value: optional
+  count: 1

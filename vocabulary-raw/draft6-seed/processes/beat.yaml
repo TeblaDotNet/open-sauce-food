@@ -1,0 +1,46 @@
+id: beat
+kind: process
+names:
+  en: beat
+observed_forms:
+- syntax: beat
+  count: 1
+- syntax: beat, fork, until liquid
+  count: 1
+- syntax: beat, mixer or whisk, a few minutes
+  count: 1
+- syntax: beat, until creamy
+  count: 1
+- syntax: beat, until smooth, stiff and shiny
+  count: 1
+- syntax: beat, until stiff
+  count: 1
+- syntax: beat, ~12m, until soft peaks form
+  count: 1
+seen_in:
+- examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+- examples/public-domain-recipes/pavlova/pavlova.opensauce
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+observed_parameters:
+- value: a few minutes
+  count: 1
+- value: fork
+  count: 1
+- value: mixer or whisk
+  count: 1
+- value: stiff and shiny
+  count: 1
+- value: until creamy
+  count: 1
+- value: until liquid
+  count: 1
+- value: until smooth
+  count: 1
+- value: until soft peaks form
+  count: 1
+- value: until stiff
+  count: 1
+- value: ~12m
+  count: 1

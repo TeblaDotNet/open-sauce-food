@@ -1,0 +1,74 @@
+::recipe
+
+name: Salsa Verde
+source: https://publicdomainrecipes.com/salsa-verde/
+source author: Nathan
+source license: Public domain (Unlicense)
+units: source
+tags: mexican, sauce
+yield: ~2 cups / 475ml
+
+# Original source: ../../../source/public-domain-recipes/salsa-verde/salsa-verde.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Conversion note: 1/2 cup (26g) chopped onion; 3 Tbsp (40ml) oil. Apparent measurement discrepancies are not converted or corrected.
+
+::ingredients
+
+(tomatillos, husks removed) 1lb / 450g
+(garlic) 1 clove
+(chillies choice) = (jalapeño) 2 -OR- (serrano chilies) 2
+(onion, chopped) 1/2 cup / 26g
+(oil) 3tbsp / 40ml
+(cilantro) as needed
+# Method-only items
+(water) enough to cover
+(salt) to taste; usually 1tsp / 6g
+
+::equipment
+
+(saucepan, medium)
+(blender) -OR- (food processor)
+
+::instructions
+
+(tomatillos) + (garlic) + (chillies choice) <place, medium saucepan>
+    <cover, water>
+    <simmer, ~10m, until tomatillos pale green>
+{salsa} = (tomatillos) + (garlic) + (chillies choice) + (onion) + (cilantro)
+{salsa} <transfer, blender or food processor>
+    <purée, smooth>
+    + (salt) <season, to taste, usually 1tsp / 6g>
+(oil) <heat, medium saucepan, hot not smoking>
+{salsa} <pour, into pan>
+    <cook, 6-8m, stirring occasionally, until somewhat thickened>
+    <refrigerate, leftovers>
+
+::notes
+Makes about 2 cups (475mL). Refrigerate leftovers
+
+::source
+<<<
+---
+title: "Salsa Verde"
+date: 2021-03-19
+tags: ['mexican', 'sauce']
+author: "Nathan"
+---
+
+## Ingredients
+
+* 1 pound (450g) tomatillos, husks removed
+* 1 clove garlic
+* 2 jalapeño or serrano chilies
+* 1/2 cup (26g) chopped onion
+* 3 Tbsp (40ml) oil
+* cilantro
+
+## Directions
+
+1. Place tomatillos, garlic, and chilies in a medium saucepan and cover with water. Simmer until tomatillos turn pale green, about 10 minutes.
+2. Transfer tomatillos, garlic, and chilies into a blender or food processor. Add the onion and cilantro. Puree until smooth, then salt to taste, usually a teaspoon (6g) will suffice.
+3. Heat oil in a medium saucepan until hot but not smoking. Pour puree into the pan and cook, stirring occasionally, until thickened somewhat, about 6-8 minutes.
+
+Makes about 2 cups (475mL). Refrigerate leftovers
+>>>

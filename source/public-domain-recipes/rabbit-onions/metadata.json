@@ -1,0 +1,32 @@
+{
+  "title": "Rabbits with Onions",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/rabbit-onions.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "e6a308f420f6e36eb051ee7ebbb48773034e7dd6e8de3c227b637b49ad3cfa52",
+  "original_front_matter": {
+    "title": "Rabbits with Onions",
+    "date": "1857-03-11",
+    "tags": [
+      "rabbit",
+      "meat"
+    ]
+  },
+  "source_url": "https://publicdomainrecipes.com/rabbit-onions/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

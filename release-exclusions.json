@@ -1,0 +1,68 @@
+{
+  "scope": "First public release; conservative provenance review pending, not a finding of infringement.",
+  "upstreamRevision": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "records": [
+    {
+      "slug": "beef-tips",
+      "sourceProject": "Public Domain Recipes",
+      "sourceUrl": "https://publicdomainrecipes.com/beef-tips/",
+      "reason": "provenance review pending",
+      "excludedPaths": [
+        "source/public-domain-recipes/beef-tips/beef-tips.md",
+        "source/public-domain-recipes/beef-tips/metadata.json"
+      ]
+    },
+    {
+      "slug": "gumbo-shrimp-and-sausage",
+      "sourceProject": "Public Domain Recipes",
+      "sourceUrl": "https://publicdomainrecipes.com/gumbo-shrimp-and-sausage/",
+      "reason": "provenance review pending",
+      "excludedPaths": [
+        "source/public-domain-recipes/gumbo-shrimp-and-sausage/gumbo-shrimp-and-sausage.md",
+        "source/public-domain-recipes/gumbo-shrimp-and-sausage/metadata.json"
+      ]
+    },
+    {
+      "slug": "shrimp-and-grits",
+      "sourceProject": "Public Domain Recipes",
+      "sourceUrl": "https://publicdomainrecipes.com/shrimp-and-grits/",
+      "reason": "provenance review pending",
+      "excludedPaths": [
+        "examples/public-domain-recipes/shrimp-and-grits/shrimp-and-grits.opensauce",
+        "source/public-domain-recipes/shrimp-and-grits/author.json",
+        "source/public-domain-recipes/shrimp-and-grits/metadata.json",
+        "source/public-domain-recipes/shrimp-and-grits/retrieval-2026-10-08.json",
+        "source/public-domain-recipes/shrimp-and-grits/shrimp-and-grits.md",
+        "source/public-domain-recipes/shrimp-and-grits/shrimp-and-grits.txt"
+      ]
+    },
+    {
+      "slug": "tuscan-style-pork-roast",
+      "sourceProject": "Public Domain Recipes",
+      "sourceUrl": "https://publicdomainrecipes.com/tuscan-style-pork-roast/",
+      "reason": "provenance review pending",
+      "excludedPaths": [
+        "examples/public-domain-recipes/tuscan-style-pork-roast/tuscan-style-pork-roast.opensauce",
+        "examples/public-domain-recipes/tuscan-style-pork-roast/tuscan-style-pork-roast.webp",
+        "source/public-domain-recipes/tuscan-style-pork-roast/author.json",
+        "source/public-domain-recipes/tuscan-style-pork-roast/metadata.json",
+        "source/public-domain-recipes/tuscan-style-pork-roast/retrieval-2026-10-08.json",
+        "source/public-domain-recipes/tuscan-style-pork-roast/tuscan-style-pork-roast.md",
+        "source/public-domain-recipes/tuscan-style-pork-roast/tuscan-style-pork-roast.txt",
+        "source/public-domain-recipes/tuscan-style-pork-roast/tuscan-style-pork-roast.webp"
+      ]
+    },
+    {
+      "slug": "yorkshire-puddings",
+      "sourceProject": "Public Domain Recipes",
+      "sourceUrl": "https://publicdomainrecipes.com/yorkshire-puddings/",
+      "reason": "provenance review pending",
+      "excludedPaths": [
+        "examples/public-domain-recipes/yorkshire-puddings/yorkshire-puddings.opensauce",
+        "examples/public-domain-recipes/yorkshire-puddings/yorkshire-puddings.webp",
+        "source/public-domain-recipes/yorkshire-puddings/metadata.json",
+        "source/public-domain-recipes/yorkshire-puddings/yorkshire-puddings.md"
+      ]
+    }
+  ]
+}

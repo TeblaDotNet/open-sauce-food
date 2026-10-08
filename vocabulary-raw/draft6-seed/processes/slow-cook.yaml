@@ -1,0 +1,17 @@
+id: slow-cook
+kind: process
+names:
+  en: slow cook
+observed_forms:
+- syntax: slow cook, low, 4-5h, until beef pulls apart easily
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 4-5h
+  count: 1
+- value: low
+  count: 1
+- value: until beef pulls apart easily
+  count: 1
+legacy_observation: true

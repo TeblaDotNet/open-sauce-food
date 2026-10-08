@@ -1,0 +1,31 @@
+{
+  "title": "Baby Back Ribs",
+  "source_url": "https://publicdomainrecipes.com/baby-back-ribs/",
+  "source_author": "crazywillbear",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/baby-back-ribs.md",
+  "original_sha256": "5c7cf8b09a782c965b42af869491590e8d1609a90b068f4be758c334d6d2bd3e",
+  "original_front_matter": {
+    "title": "Baby Back Ribs",
+    "date": "2022-04-15",
+    "tags": [
+      "pork",
+      "american",
+      "supper"
+    ],
+    "author": "crazywillbear"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "- Applewood (or other sweet cooking wood such as cherry or maple)\n- 2 baby back rib racks\n- 1 container of barbecue rub ([Traeger Pork and Poultry Rub](https://www.traeger.com/rubs-spices/pork-poultry) is recommended)\n- Tin foil\n- Bag of brown sugar\n- Bottle of honey\n- Barbecue Sauce\n- (Optional) A stick of butter",
+  "directions_source_markdown": "1. Preheat your smoker to 180 degrees Fahrenheit using applewood.\n2. Take the membrane off of the back of the ribs if your butcher hasn't already done so ([tutorial](https://www.youtube.com/watch?v=uQVIMKDpZfg))\n3. Cover both sides of the ribs heavily in your barbecue rub, and let sit at room temp for 30 minutes.\n4. Place the ribs bone down (meat up) on your smoker, and let smoke at 180 degrees Fahrenheit for 3 hours.\n5. Take the meat out and place on top of two sheets of tin foil. Then, apply a generous amount of brown sugar and honey to both sides of the ribs, followed by a small amount of the barbecue rub. If you have butter, cut it into slices and add it on the meat side (butter is optional).\n6. Wrap your ribs in the tin foil and place them back on the smoker at 225 degrees Fahrenheit for 2 hours.\n7. Take your ribs out of the foil and place them bone down (meat up) on your smoker.\n8. Apply a generous helping of your barbecue sauce to the ribs once every 30 minutes for an hour (twice).\n9. Take out of smoker and cover in tin foil, allow to sit for 10-30 minutes before serving.",
+  "images": [],
+  "coverage_group": "meat"
+}

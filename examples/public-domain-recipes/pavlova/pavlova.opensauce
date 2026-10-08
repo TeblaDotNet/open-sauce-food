@@ -1,0 +1,61 @@
+::recipe
+
+name: Pavlova
+source: https://publicdomainrecipes.com/pavlova/
+source author: u/Idzuna
+source license: Public domain (Unlicense)
+units: mixed
+category: dessert
+tags: meringue, pavlova
+dietary: vegetarian
+serves: 6-8
+active time: ~20m
+total time: ~1h15m + cooling
+image: pavlova.webp
+
+::ingredients
+
+(egg white) 2
+(sugar; caster) 1 1/2 cups
+(salt) 1/2tsp
+(vinegar, white) 1tsp
+(cornflour) 1tsp
+(water, boiling) 4tbsp
+(whipped cream, optional, for serving) as desired
+(fresh fruit, optional, for serving) as desired
+(ice cream, optional, for serving) as desired
+
+::equipment
+
+(oven)
+(beater)
+(baking tray)
+(baking paper)
+
+::instructions
+
+{meringue} =
+    (egg white) +
+    (sugar; caster) +
+    (salt) +
+    (vinegar, white) +
+    (cornflour) +
+    (water, boiling)
+
+{meringue} <beat, until smooth, stiff and shiny>
+    <beat, ~12m, until soft peaks form>
+    <place, baking paper on tray>
+
+(oven) <heat, 180c / 350-360f>
+
+{pavlova} <bake, 180c, 10m>
+    <bake, 150c / 300f, 45m>
+    <cool, oven turned off>
+
+Optional [
+    {pavlova} + (whipped cream) + (fresh fruit) + (ice cream)
+        <serve with>
+]
+
+# The source ingredient list suggests whipped cream and fresh fruit, while the final
+# source instruction mentions fruit salad and ice cream. Both serving ideas are retained.

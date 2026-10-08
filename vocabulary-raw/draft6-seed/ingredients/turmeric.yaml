@@ -1,0 +1,9 @@
+id: turmeric
+kind: ingredient
+names:
+  en: turmeric
+observed_forms:
+- syntax: turmeric
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce

@@ -1,0 +1,42 @@
+{
+  "title": "Danish Pancake",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/danish-pancake.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "0770faa200c62ac688971cdd02725874f2794a90492569f1a0c2ae83e4a6e1af",
+  "original_front_matter": {
+    "title": "Danish Pancake",
+    "date": "2021-03-18",
+    "tags": [
+      "quick",
+      "breakfast",
+      "sweet",
+      "pancake",
+      "cheesefare"
+    ],
+    "author": "jesper"
+  },
+  "source_url": "https://publicdomainrecipes.com/danish-pancake/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "pancake",
+      "url": "/pix/danish-pancake.webp",
+      "upstreamPath": "static/pix/danish-pancake.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "b05ad004c324adc4d64375aad613ce7a8c23534747b286be5da2b0956ab817df",
+      "sourcePath": "source/public-domain-recipes/danish-pancake/danish-pancake.webp",
+      "promotedPath": "examples/public-domain-recipes/danish-pancake/danish-pancake.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

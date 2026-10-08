@@ -1,0 +1,9 @@
+id: garam-masala-powder
+kind: ingredient
+names:
+  en: garam masala powder
+observed_forms:
+- syntax: garam masala powder
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

@@ -1,0 +1,19 @@
+id: chocolate
+kind: ingredient
+names:
+  en: chocolate
+observed_forms:
+- syntax: chocolate
+  count: 1
+- syntax: chocolate, dark
+  count: 1
+- syntax: chocolate, milk
+  count: 1
+seen_in:
+- examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+- examples/public-domain-recipes/lavacake/lavacake.opensauce
+observed_qualifiers:
+- value: dark
+  count: 1
+- value: milk
+  count: 1

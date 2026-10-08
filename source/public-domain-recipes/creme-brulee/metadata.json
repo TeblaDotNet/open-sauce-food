@@ -1,0 +1,35 @@
+{
+  "title": "Crème brûlée",
+  "source_url": "https://publicdomainrecipes.com/creme-brulee/",
+  "source_author": "jan-kremer",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/creme-brulee.md",
+  "original_sha256": "2f40fac96b499efff773b2de7c8b7db62e6dce9f219b5c1854663e20c754dc56",
+  "original_front_matter": {
+    "title": "Crème brûlée",
+    "tags": [
+      "dessert",
+      "french"
+    ],
+    "date": "2023-04-11",
+    "author": "jan-kremer"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "20 min",
+    "Rest time": "4 hour",
+    "Cook time": "30 min",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "- 400 ml high fat cream\n- 140 ml whole milk\n- 85 g sugar (preferred brown)\n- 5 egg yolk\n- 1 vanilla bean (mark, optionally essence)\n- Lemon peel, rubbed\n- Sugar for the top crust",
+  "directions_source_markdown": "1. Mix cream, milk and yolks.\n2. Add sugar, vanilla and lemon.\n3. Let rest for at least 30 min (optionally over night)\n4. Pour into 4-6 fireproof ramekins.\n5. Pre-heat oven to 150°C and put the grease pan on the middle rail.\n6. Put the ramekins onto the grease pan and fill it with boiling water.\n7. Let the crème cook for 55 min.\n8. Let the ramekins cool down to room temperature and put them in the fridge for at least 2 hours.\n9. Spread a teaspoon of sugar onto each ramekin.\n10. Use a blowtorch to flambé the sugar. Alternatively the grill of your oven may work too.",
+  "images": [],
+  "coverage_group": "dessert-historical"
+}

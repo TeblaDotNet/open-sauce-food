@@ -1,0 +1,33 @@
+{
+  "title": "Kvass",
+  "source_url": "https://publicdomainrecipes.com/kvass/",
+  "source_author": "holsterbau",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/kvass.md",
+  "original_sha256": "9e82c64af1494d45cb8a0742070d422bcc4db164c7aaf734a6e2ca1318ed0aa0",
+  "original_front_matter": {
+    "title": "Kvass",
+    "date": "2021-03-21",
+    "tags": [
+      "drink",
+      "bread"
+    ],
+    "author": "holsterbau"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "~30 min",
+    "Fermentation time": "~1 week"
+  },
+  "ingredients_source_markdown": "- 100 g of raisins\n- 100 g of sugar\n- 3 slices of black bread (e.g. pumpernickel bread, rye bread)\n- 1-2 lemons\n- 1 pkg (7 g) of active dry yeast\n- A handful of coffee beans (optional)\n- Non-citrus fruits, e.g. plums, apples, kiwi (optional)",
+  "directions_source_markdown": "1. Bring 1 L of water in a pot to a boil.\n2. Burn black bread in a toaster or in an oven until it is thoroughly scorched to blackness on the outside.\n3. Once the water has come to boil, remove off heat. Add burned black bread, a handful of raisins, a few slices of lemon, and coffee beans to the pot.\n4. Leave contents of the pot to cool down to room temperature.\n5. Filter out everything from the pot through a strainer, and pour contents into a separate, sterilized container. Add sugar and yeast into\nthe container, and stir until sugar is dissolved. This starts the fermentation process. The amount of sugar in this recipe should yield 1.0%-2.5% alcohol\nby total volume at the end of the fermentation process.\n6. Add rest of raisins, and non-citrus fruits of your choice. The fruits will positively impact flavour of the final product.\n7. If mixture is not already in a mason jar, pour the mixture into a sterile mason jar, and seal the lid. Place the jar in a warm place (26-30°C; 79-86°F),\nand let it ferment for a week, or until it stops bubbling.\n8. Remove all raisins and fruits from the jar.\n9. Squeeze lemon juice from lemons into the mixture. You may drink the now-complete kvass right away, or refrigerate it before drinking.",
+  "images": [],
+  "coverage_group": "drinks-preserves-fermentation"
+}

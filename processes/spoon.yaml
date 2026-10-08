@@ -1,0 +1,25 @@
+id: spoon
+kind: process
+canonical_name: spoon
+names:
+  en: spoon
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 1
+  observed_terms:
+  - term: spoon
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+  legacy_terms:
+  - term: spoon
+    count: 1
+observed_parameters:
+- value: each cup ~3/4 full
+  count: 1
+- value: loaf tin
+  count: 1
+- value: prepared muffin tin
+  count: 1

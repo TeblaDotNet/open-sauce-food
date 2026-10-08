@@ -1,0 +1,22 @@
+id: green-beans
+kind: ingredient
+canonical_name: green beans
+names:
+  en: green beans
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: green beans
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+  - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+observed_qualifiers:
+- value: cut
+  count: 1
+- value: flat
+  count: 1

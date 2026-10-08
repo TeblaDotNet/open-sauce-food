@@ -1,0 +1,22 @@
+id: saute
+kind: process
+names:
+  en: sauté
+observed_forms:
+- syntax: sauté, a few minutes
+  count: 1
+- syntax: sauté, until raw flavour fades
+  count: 1
+- syntax: sauté, ~1m
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_parameters:
+- value: a few minutes
+  count: 1
+- value: until raw flavour fades
+  count: 1
+- value: ~1m
+  count: 1

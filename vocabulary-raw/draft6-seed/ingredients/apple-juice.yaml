@@ -1,0 +1,10 @@
+id: apple-juice
+kind: ingredient
+names:
+  en: apple juice
+observed_forms:
+- syntax: apple juice
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

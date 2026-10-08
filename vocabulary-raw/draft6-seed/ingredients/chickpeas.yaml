@@ -1,0 +1,19 @@
+id: chickpeas
+kind: ingredient
+names:
+  en: chickpeas
+observed_forms:
+- syntax: chickpeas, canned
+  count: 1
+- syntax: chickpeas, canned, rinsed, drained
+  count: 1
+seen_in:
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+observed_qualifiers:
+- value: canned
+  count: 2
+- value: drained
+  count: 1
+- value: rinsed
+  count: 1

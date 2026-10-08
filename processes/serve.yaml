@@ -1,0 +1,136 @@
+id: serve
+kind: process
+canonical_name: serve
+names:
+  en: serve
+status: reviewed-merge
+aliases:
+  - name: serve with
+    type: phrase-alias
+    observed_count: 3
+  - name: serve alongside
+    type: phrase-alias
+    legacy_count: 1
+evidence:
+  legacy_observation_count: 19
+  observed_terms:
+    - term: serve
+      count: 41
+    - term: serve with
+      count: 3
+  seen_in:
+    - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+    - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+    - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+    - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+    - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+    - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+    - examples/public-domain-recipes/carbonara/carbonara.opensauce
+    - examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce
+    - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+    - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+    - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+    - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+    - examples/public-domain-recipes/french-onion-soup/french-onion-soup.opensauce
+    - examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce
+    - examples/public-domain-recipes/granita/granita.opensauce
+    - examples/public-domain-recipes/guacamole/guacamole.opensauce
+    - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce
+    - examples/public-domain-recipes/hummus/hummus.opensauce
+    - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+    - examples/public-domain-recipes/kombucha/kombucha.opensauce
+    - examples/public-domain-recipes/kvass/kvass.opensauce
+    - examples/public-domain-recipes/lavacake/lavacake.opensauce
+    - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+    - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/paella/paella.opensauce
+    - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+    - examples/public-domain-recipes/pavlova/pavlova.opensauce
+    - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce
+    - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+    - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+    - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+    - examples/public-domain-recipes/shakshouka/shakshouka.opensauce
+    - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+    - examples/public-domain-recipes/sunday-milkshake/sunday-milkshake.opensauce
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+    - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+    - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+    - examples/public-domain-recipes/tzatziki/tzatziki.opensauce
+    - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+    - term: serve
+      count: 18
+    - term: serve alongside
+      count: 1
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 1tsp sugar per cup
+    count: 1
+  - value: bowl
+    count: 1
+  - value: bowls
+    count: 1
+  - value: bread
+    count: 2
+  - value: cold or quite cool
+    count: 1
+  - value: deep dish cranberry or peach sauce or large cup grape jelly
+    count: 1
+  - value: dollop of sour cream if using
+    count: 1
+  - value: favourite sides
+    count: 1
+  - value: favourite snack
+    count: 1
+  - value: fresh
+    count: 3
+  - value: garnish with coriander and spring onion
+    count: 1
+  - value: garnish with reserved sausage and celery leaves
+    count: 1
+  - value: gravy
+    count: 1
+  - value: hot
+    count: 5
+  - value: immediately
+    count: 2
+  - value: immediately or refrigerate first
+    count: 1
+  - value: noodles and broth contents in bowls
+    count: 1
+  - value: optional yoghurt and bread; juices may be gravy
+    count: 1
+  - value: optionally sieve or allow particles to settle
+    count: 1
+  - value: peanut sauce for dipping
+    count: 1
+  - value: piece of lemon
+    count: 1
+  - value: plate
+    count: 1
+  - value: pour soup over bread or float bread on soup
+    count: 1
+  - value: rice
+    count: 1
+  - value: rice or naan
+    count: 2
+  - value: shrimp and bacon over grits
+    count: 1
+  - value: small bowls
+    count: 1
+  - value: spoon into small cups
+    count: 1
+  - value: warm
+    count: 2
+  - value: warm bowls
+    count: 1
+  - value: with totopos
+    count: 2
+  - value: yogurt sauce
+    count: 1

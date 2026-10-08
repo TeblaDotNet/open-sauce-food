@@ -1,0 +1,9 @@
+id: chilli-powder
+kind: ingredient
+names:
+  en: chilli powder
+observed_forms:
+- syntax: chilli powder
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce

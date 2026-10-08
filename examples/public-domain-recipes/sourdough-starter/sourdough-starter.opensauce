@@ -1,0 +1,87 @@
+::recipe
+
+name: Sourdough starter
+source: https://publicdomainrecipes.com/sourdough-starter/
+source author: Vili Kangas
+source license: Public domain (Unlicense)
+units: source
+tags: bread, sourdough, basic
+
+# Original source: ../../../source/public-domain-recipes/sourdough-starter/sourdough-starter.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 5 min/day
+# Source Wait time: 4 days
+# Conversion note: Day 2: if no bubbles wait another day; days 3-4 repeat feeding. Calendar labels shift conditionally; no fixed total flour or water can be inferred.
+# Conversion note: Almost indefinitely; surface liquid protects from microbes. Preservation claims are source assertions, not guarantees established by conversion.
+
+::ingredients
+
+(flour choice) = (flour; wheat) as needed -OR- (flour; rye) as needed
+(water) as needed
+# Source specifies quantities per feeding, not an overall batch total.
+
+::equipment
+
+(container, cover)
+(jar)
+(refrigerator)
+
+::instructions
+
+# Day 1
+{starter} = (water) 80g + (flour choice) 50g
+{starter} <mix>
+    <cover, loosely>
+    <store, warm>
+# Day 2
+{starter} <check, should be a bit bubbly; if no bubbles wait another day>
+    + (water) 80g + (flour choice) 50g
+    <feed>
+    <store, loosely covered>
+Repeat [
+    {starter} + (water) 80g + (flour choice) 50g <feed>
+]
+days 3-4, repeating the feeding process
+{starter} <use, for sourdough baking, retain some and feed remainder>
+    <store, closed container or jar, refrigerator>
+# Source asserts almost indefinite survival and a protective role for surface liquid; retained in original source, not validated.
+Optional [
+    {starter} <pour, surface liquid away when next used>
+]
+{starter} <feed, 1-2 times after long storage, check for bubbles>
+Optional [
+    {starter} small part <place, glass of water, source says active starter floats>
+]
+
+::story
+
+This recipe contains instructions for sourdough starter needed for all sourdough breads. The starter can be done with either wheat flour or rye flour for rye breads. Prefer organic flours as they contain most wild yeasts.
+
+::source
+<<<
+---
+title: "Sourdough starter"
+date: 2021-03-23
+tags: ['bread', 'sourdough', 'basic']
+author: "Vili Kangas"
+---
+
+This recipe contains instructions for sourdough starter needed for all sourdough breads. The starter can be done with either wheat flour or rye flour for rye breads. Prefer organic flours as they contain most wild yeasts.
+
+- ⏲️ Prep time: 5 min/day
+- ⏲️ Wait time: 4 days
+
+## Ingredients
+
+- Wheat or rye flour
+- Water
+
+## Directions
+
+1. Day 1: mix 80g of water to 50g of flour and put a cover on the container loosely. Store somewhere warm.
+2. Day 2: the starter should be a bit bubbly. Feed the starter with 80g of water and 50g of flour and store again with loosely covered. If the starter doesn't have bubbles yet, wait another day.
+3. Day 3-4: repeat the feeding process
+4. You can now use the starter for baking sourdough bread. Remember to not use all the starter at once and feed the remaining starter to always have it available.
+5. Storing the starter: store the starter in a closed container or jar in the fridge. The starter will survive almost indefinitely. After some time a vinegarish liquid forms on top of the starter. Don't be afraid of this, it is there to protect the starter from microbes. It can be poured away when you use the starter next time.
+6. When using the starter after long storage you need to activate it again. Feed it 1-2 times and see if bubbles form. You can also test the activity by placing small part into a glass of water. An active starter will float.
+>>>

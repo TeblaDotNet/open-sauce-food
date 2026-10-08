@@ -1,0 +1,37 @@
+{
+  "title": "Casio in pastelletto",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/casio-in-pastelletto.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "c8b66141e66f1c775a91451280abe0cf02656efcca176e51977fd76bd007fa1f",
+  "original_front_matter": {
+    "title": "Casio in pastelletto",
+    "tags": [
+      "cheese",
+      "cheesefare",
+      "easy",
+      "italian",
+      "medieval"
+    ],
+    "date": "2026-02-14",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/casio-in-pastelletto/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Casio in pastelletto",
+      "url": "/pix/casio-in-pastelletto.webp",
+      "upstreamPath": "static/pix/casio-in-pastelletto.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

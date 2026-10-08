@@ -1,0 +1,92 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Refried Beans
+source: https://publicdomainrecipes.com/refried-beans/
+source author: yaroslav-smirnov
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: mexican, beans, fasting
+image: refried-beans.webp
+
+# Imported from content/refried-beans.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(can of pre-cooked beans) 400-500g
+(onion) 1/4
+(garlic cloves) 3-4
+(cumin)
+(paprika)
+(spoonfuls butter) 2-4
+(cooking oil, can be olive oil)
+
+::equipment
+
+(frying pan)
+
+::instructions
+
+<add, the oil and the butter to the frying pan and heat to medium heat>
+<chop, the onion and mince the garlic>
+Once the frying pan is heated, add the onion and garlic to the pan, and fry them for about 3 minutes.
+<add, salt, cumin, and paprika to taste. Usually I add paprika until the mix is a brownish red. Mix with your spatula, and let fry for about 5 minutes>
+<open, the can of beans and pour the beans into the pan. Depending on how liquid you want the refried beans to be, you can use all or just some part of the liquid inside the can. I usually get rid of some of the liquid from the can before pouring the beans>
+<mash, the beans and mix. Let them fry at medium-low to medium heat for about 5 to 10 minutes, mixing from time to time>
+<serve, , and enjoy with some totopos>
+
+::notes
+
+As usual, the ingredients here are for about two adult portions:
+
+
+::story
+
+One of my favorite dishes that works either as an appetizer or side dish is refried beans. A classic from Mexican cuisine, that is best eaten with some totopos, or tortilla chips.
+
+
+::source
+<<<
+---
+title: "Refried Beans"
+date: 2021-03-12
+tags: ['mexican', 'beans', 'fasting']
+author: yaroslav-smirnov
+---
+
+![Refried Beans](/pix/refried-beans.webp)
+
+One of my favorite dishes that works either as an appetizer or side dish is
+refried beans. A classic from Mexican cuisine, that is best eaten with some
+totopos, or tortilla chips.
+
+## Ingredients
+
+As usual, the ingredients here are for about two adult portions:
+
+* 400-500g can of pre-cooked beans
+* 1/4 onion
+* 3-4 garlic cloves
+* Cumin
+* Paprika
+* 2-4 spoonfuls butter
+* Cooking oil (can be olive oil)
+
+## Directions
+
+1. Add the oil and the butter to the frying pan and heat to medium heat.
+2. Chop the onion and mince the garlic.
+3. Once the frying pan is heated, add the onion and garlic to the pan, and fry
+   them for about 3 minutes.
+4. Add salt, cumin, and paprika to taste. Usually I add paprika until the mix is
+   a brownish red. Mix with your spatula, and let fry for about 5 minutes.
+5. Open the can of beans and pour the beans into the pan. Depending on how
+   liquid you want the refried beans to be, you can use all or just some part of
+   the liquid inside the can. I usually get rid of some of the liquid from the
+   can before pouring the beans.
+6. Mash the beans and mix. Let them fry at medium-low to medium heat for about 5
+   to 10 minutes, mixing from time to time.
+7. Serve, and enjoy with some totopos.
+>>>

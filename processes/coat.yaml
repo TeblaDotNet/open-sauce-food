@@ -1,0 +1,43 @@
+id: coat
+kind: process
+canonical_name: coat
+names:
+  en: coat
+status: canonical-seed
+evidence:
+  current_recipe_count: 7
+  current_observation_count: 9
+  legacy_observation_count: 3
+  observed_terms:
+  - term: coat
+    count: 9
+  seen_in:
+  - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+  - examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce
+  - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
+  - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+  - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+  - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+  legacy_terms:
+  - term: coat
+    count: 3
+observed_parameters:
+- value: first flour then eggs then bread crumbs
+  count: 1
+- value: generous amount on both sides
+  count: 1
+- value: generously
+  count: 1
+- value: heavily on both sides
+  count: 1
+- value: if wanted
+  count: 1
+- value: layer
+  count: 1
+- value: lightly
+  count: 1
+- value: once soft and ready
+  count: 1
+- value: spray or rub
+  count: 1

@@ -1,0 +1,16 @@
+id: garlic-powder
+kind: ingredient
+canonical_name: garlic powder
+names:
+  en: garlic powder
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: garlic powder
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce

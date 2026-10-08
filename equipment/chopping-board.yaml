@@ -1,0 +1,21 @@
+id: chopping-board
+kind: equipment
+canonical_name: chopping board
+names:
+  en-GB: chopping board
+  en-US: cutting board
+status: reviewed-merge
+aliases:
+- name: cutting board
+  type: regional-name
+  observed_count: 2
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cutting board
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce

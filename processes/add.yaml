@@ -1,0 +1,132 @@
+id: add
+kind: process
+canonical_name: add
+names:
+  en: add
+status: canonical-seed
+evidence:
+  current_recipe_count: 36
+  current_observation_count: 50
+  legacy_observation_count: 4
+  observed_terms:
+  - term: add
+    count: 50
+  seen_in:
+  - examples/public-domain-recipes/aljotta/aljotta.opensauce
+  - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/classic-bechamel-sauce/classic-bechamel-sauce.opensauce
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+  - examples/public-domain-recipes/french-toast/french-toast.opensauce
+  - examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce
+  - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/kvass/kvass.opensauce
+  - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+  - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
+  - examples/public-domain-recipes/oat-milk/oat-milk.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+  - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+  - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+  - examples/public-domain-recipes/sunday-milkshake/sunday-milkshake.opensauce
+  - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+  - term: add
+    count: 4
+observed_parameters:
+- value: a few drops as suggested in introduction
+  count: 1
+- value: about 20m before finish
+  count: 1
+- value: above other ingredients to avoid separation
+  count: 1
+- value: all to soup
+  count: 1
+- value: at wine stage
+  count: 1
+- value: before sealing
+  count: 1
+- value: between slices if needed
+  count: 1
+- value: blender
+  count: 1
+- value: either or both as desired
+  count: 1
+- value: enough to completely cover cabbage if needed
+  count: 1
+- value: final 5m
+  count: 1
+- value: final few minutes
+  count: 2
+- value: for aioli; omit for mayonnaise
+  count: 1
+- value: for final 15m of simmering
+  count: 1
+- value: for further fermentation and flavour
+  count: 1
+- value: gradually
+  count: 1
+- value: if liquid looks low
+  count: 1
+- value: if tomatoes lack flavour
+  count: 1
+- value: if too thick
+  count: 1
+- value: once eggs firm/brown to liking when eggs used
+  count: 1
+- value: optionally in tea strainer
+  count: 1
+- value: pan
+  count: 2
+- value: preferably freshly grated
+  count: 1
+- value: same pan
+  count: 1
+- value: source says small can
+  count: 1
+- value: to bottled brew
+  count: 1
+- value: to bowls
+  count: 1
+- value: to egg and onion
+  count: 1
+- value: to eggs
+  count: 1
+- value: to individual servings as preferred
+  count: 1
+- value: to make colder
+  count: 1
+- value: to pot
+  count: 1
+- value: to soup
+  count: 1
+- value: to soup pot
+  count: 1
+- value: to tea concentrate
+  count: 1
+- value: top
+  count: 2
+- value: until cohesive and supple without resistance
+  count: 1
+- value: very last
+  count: 1
+- value: with garlic
+  count: 1

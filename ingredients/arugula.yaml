@@ -1,0 +1,16 @@
+id: arugula
+kind: ingredient
+canonical_name: arugula
+names:
+  en: arugula
+aliases:
+- name: rocket
+  type: review-pass-1-lexical
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/cannellini-bean-salad/cannellini-bean-salad.opensauce
+  - examples/public-domain-recipes/tuhu/tuhu.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

@@ -1,0 +1,473 @@
+schema: open-sauce-ingredient-vocabulary-seed
+schema_version: '0.2'
+status: corpus-derived raw seed; not yet canonicalised
+raw_concept_count: 155
+entries:
+- id: active-dry-yeast
+  name: active dry yeast
+  file: active-dry-yeast.yaml
+- id: apple
+  name: apple
+  file: apple.yaml
+- id: apple-juice
+  name: apple juice
+  file: apple-juice.yaml
+- id: artichoke
+  name: artichoke
+  file: artichoke.yaml
+- id: avocado
+  name: avocado
+  file: avocado.yaml
+- id: baking-powder
+  name: baking powder
+  file: baking-powder.yaml
+- id: baking-soda
+  name: baking soda
+  file: baking-soda.yaml
+- id: banana
+  name: banana
+  file: banana.yaml
+- id: basil
+  name: basil
+  file: basil.yaml
+- id: bay-leaf
+  name: bay leaf
+  file: bay-leaf.yaml
+- id: beef
+  name: beef
+  file: beef.yaml
+- id: beef-brisket
+  name: beef brisket
+  file: beef-brisket.yaml
+- id: beef-stock
+  name: beef stock
+  file: beef-stock.yaml
+- id: berries
+  name: berries
+  file: berries.yaml
+- id: black-pepper
+  name: black pepper
+  file: black-pepper.yaml
+- id: bread
+  name: bread
+  file: bread.yaml
+- id: broccoli
+  name: broccoli
+  file: broccoli.yaml
+- id: butter
+  name: butter
+  file: butter.yaml
+- id: butternut-squash
+  name: butternut squash
+  file: butternut-squash.yaml
+- id: bechamel
+  name: béchamel
+  file: bechamel.yaml
+- id: cabbage
+  name: cabbage
+  file: cabbage.yaml
+- id: capsicum
+  name: capsicum
+  file: capsicum.yaml
+- id: caraway
+  name: caraway
+  file: caraway.yaml
+- id: cardamom
+  name: cardamom
+  file: cardamom.yaml
+- id: carrot
+  name: carrot
+  file: carrot.yaml
+- id: cashew-paste
+  name: cashew paste
+  file: cashew-paste.yaml
+- id: champignon-mushroom
+  name: champignon mushroom
+  file: champignon-mushroom.yaml
+- id: chicken
+  name: chicken
+  file: chicken.yaml
+- id: chicken-bouillon
+  name: chicken bouillon
+  file: chicken-bouillon.yaml
+- id: chicken-breast
+  name: chicken breast
+  file: chicken-breast.yaml
+- id: chicken-masala
+  name: chicken masala
+  file: chicken-masala.yaml
+- id: chicken-stock
+  name: chicken stock
+  file: chicken-stock.yaml
+- id: chickpeas
+  name: chickpeas
+  file: chickpeas.yaml
+- id: chilli
+  name: chilli
+  file: chilli.yaml
+- id: chilli-flakes
+  name: chilli flakes
+  file: chilli-flakes.yaml
+- id: chilli-powder
+  name: chilli powder
+  file: chilli-powder.yaml
+- id: chipotle-paste
+  name: chipotle paste
+  file: chipotle-paste.yaml
+- id: chives
+  name: chives
+  file: chives.yaml
+- id: chocolate
+  name: chocolate
+  file: chocolate.yaml
+- id: chocolate-chips
+  name: chocolate chips
+  file: chocolate-chips.yaml
+- id: cilantro
+  name: cilantro
+  file: cilantro.yaml
+- id: cinnamon
+  name: cinnamon
+  file: cinnamon.yaml
+- id: cocoa-powder
+  name: cocoa powder
+  file: cocoa-powder.yaml
+- id: coconut-milk
+  name: coconut milk
+  file: coconut-milk.yaml
+- id: coffee
+  name: coffee
+  file: coffee.yaml
+- id: coriander
+  name: coriander
+  file: coriander.yaml
+- id: coriander-leaves
+  name: coriander leaves
+  file: coriander-leaves.yaml
+- id: coriander-powder
+  name: coriander powder
+  file: coriander-powder.yaml
+- id: corn
+  name: corn
+  file: corn.yaml
+- id: cornflour
+  name: cornflour
+  file: cornflour.yaml
+- id: cornstarch
+  name: cornstarch
+  file: cornstarch.yaml
+- id: courgette
+  name: courgette
+  file: courgette.yaml
+- id: cream
+  name: cream
+  file: cream.yaml
+- id: crumpet
+  name: crumpet
+  file: crumpet.yaml
+- id: creme-fraiche
+  name: crème fraîche
+  file: creme-fraiche.yaml
+- id: cucumber
+  name: cucumber
+  file: cucumber.yaml
+- id: cumin
+  name: cumin
+  file: cumin.yaml
+- id: cumin-seeds
+  name: cumin seeds
+  file: cumin-seeds.yaml
+- id: dill-weed
+  name: dill weed
+  file: dill-weed.yaml
+- id: dukkah
+  name: dukkah
+  file: dukkah.yaml
+- id: egg
+  name: egg
+  file: egg.yaml
+- id: egg-white
+  name: egg white
+  file: egg-white.yaml
+- id: extra-virgin-olive-oil
+  name: extra virgin olive oil
+  file: extra-virgin-olive-oil.yaml
+- id: fajita-seasoning-mix
+  name: fajita seasoning mix
+  file: fajita-seasoning-mix.yaml
+- id: fenugreek-leaves
+  name: fenugreek leaves
+  file: fenugreek-leaves.yaml
+- id: fenugreek-powder
+  name: fenugreek powder
+  file: fenugreek-powder.yaml
+- id: fish-sauce
+  name: fish sauce
+  file: fish-sauce.yaml
+- id: flour
+  name: flour
+  file: flour.yaml
+- id: fresh-fruit
+  name: fresh fruit
+  file: fresh-fruit.yaml
+- id: garam-masala
+  name: garam masala
+  file: garam-masala.yaml
+- id: garam-masala-powder
+  name: garam masala powder
+  file: garam-masala-powder.yaml
+- id: garlic
+  name: garlic
+  file: garlic.yaml
+- id: garlic-paste
+  name: garlic paste
+  file: garlic-paste.yaml
+- id: ginger
+  name: ginger
+  file: ginger.yaml
+- id: green-beans
+  name: green beans
+  file: green-beans.yaml
+- id: guanciale
+  name: guanciale
+  file: guanciale.yaml
+- id: honey
+  name: honey
+  file: honey.yaml
+- id: ice-cream
+  name: ice cream
+  file: ice-cream.yaml
+- id: instant-yeast
+  name: instant yeast
+  file: instant-yeast.yaml
+- id: laksa-paste
+  name: laksa paste
+  file: laksa-paste.yaml
+- id: leek
+  name: leek
+  file: leek.yaml
+- id: lemon
+  name: lemon
+  file: lemon.yaml
+- id: lemon-juice
+  name: lemon juice
+  file: lemon-juice.yaml
+- id: lime
+  name: lime
+  file: lime.yaml
+- id: maple-syrup
+  name: maple syrup
+  file: maple-syrup.yaml
+- id: mascarpone
+  name: mascarpone
+  file: mascarpone.yaml
+- id: milk
+  name: milk
+  file: milk.yaml
+- id: mint
+  name: mint
+  file: mint.yaml
+- id: msg
+  name: MSG
+  file: msg.yaml
+- id: mushroom-seasoning
+  name: mushroom seasoning
+  file: mushroom-seasoning.yaml
+- id: nutmeg
+  name: nutmeg
+  file: nutmeg.yaml
+- id: oats
+  name: oats
+  file: oats.yaml
+- id: oil
+  name: oil
+  file: oil.yaml
+- id: olive-oil
+  name: olive oil
+  file: olive-oil.yaml
+- id: onion
+  name: onion
+  file: onion.yaml
+- id: oregano
+  name: oregano
+  file: oregano.yaml
+- id: paneer
+  name: paneer
+  file: paneer.yaml
+- id: paprika
+  name: paprika
+  file: paprika.yaml
+- id: parmesan-cheese
+  name: parmesan cheese
+  file: parmesan-cheese.yaml
+- id: parmigiano-reggiano
+  name: parmigiano-reggiano
+  file: parmigiano-reggiano.yaml
+- id: parsley
+  name: parsley
+  file: parsley.yaml
+- id: pasta
+  name: pasta
+  file: pasta.yaml
+- id: pecorino-romano
+  name: pecorino romano
+  file: pecorino-romano.yaml
+- id: pepper
+  name: pepper
+  file: pepper.yaml
+- id: potato
+  name: potato
+  file: potato.yaml
+- id: powdered-sweet-pepper
+  name: powdered sweet pepper
+  file: powdered-sweet-pepper.yaml
+- id: rabbit
+  name: rabbit
+  file: rabbit.yaml
+- id: red-chilli-powder
+  name: red chilli powder
+  file: red-chilli-powder.yaml
+- id: red-curry-paste
+  name: red curry paste
+  file: red-curry-paste.yaml
+- id: red-pepper
+  name: red pepper
+  file: red-pepper.yaml
+- id: rice
+  name: rice
+  file: rice.yaml
+- id: rice-vinegar
+  name: rice vinegar
+  file: rice-vinegar.yaml
+- id: rosemary
+  name: rosemary
+  file: rosemary.yaml
+- id: saffron
+  name: saffron
+  file: saffron.yaml
+- id: sage
+  name: sage
+  file: sage.yaml
+- id: salt
+  name: salt
+  file: salt.yaml
+- id: savoiardi-biscuits
+  name: savoiardi biscuits
+  file: savoiardi-biscuits.yaml
+- id: scamorza-cheese
+  name: scamorza cheese
+  file: scamorza-cheese.yaml
+- id: sesame-oil
+  name: sesame oil
+  file: sesame-oil.yaml
+- id: sesame-seeds
+  name: sesame seeds
+  file: sesame-seeds.yaml
+- id: smoked-pancetta
+  name: smoked pancetta
+  file: smoked-pancetta.yaml
+- id: snail
+  name: snail
+  file: snail.yaml
+- id: soured-cream
+  name: soured cream
+  file: soured-cream.yaml
+- id: soy-sauce
+  name: soy sauce
+  file: soy-sauce.yaml
+- id: spaghetti
+  name: spaghetti
+  file: spaghetti.yaml
+- id: sugar
+  name: sugar
+  file: sugar.yaml
+- id: sumac
+  name: sumac
+  file: sumac.yaml
+- id: sunflower-oil
+  name: sunflower oil
+  file: sunflower-oil.yaml
+- id: sweet-potato
+  name: sweet potato
+  file: sweet-potato.yaml
+- id: tahini
+  name: tahini
+  file: tahini.yaml
+- id: thai-red-curry-paste
+  name: Thai red curry paste
+  file: thai-red-curry-paste.yaml
+- id: thyme
+  name: thyme
+  file: thyme.yaml
+- id: tomato
+  name: tomato
+  file: tomato.yaml
+- id: tomato-paste
+  name: tomato paste
+  file: tomato-paste.yaml
+- id: tomato-puree
+  name: tomato puree
+  file: tomato-puree.yaml
+- id: tortilla-wrap
+  name: tortilla wrap
+  file: tortilla-wrap.yaml
+- id: totopos
+  name: totopos
+  file: totopos.yaml
+- id: turmeric
+  name: turmeric
+  file: turmeric.yaml
+- id: turmeric-powder
+  name: turmeric powder
+  file: turmeric-powder.yaml
+- id: vanilla
+  name: vanilla
+  file: vanilla.yaml
+- id: vanilla-flavouring
+  name: vanilla flavouring
+  file: vanilla-flavouring.yaml
+- id: vanilla-ice-cream
+  name: vanilla ice cream
+  file: vanilla-ice-cream.yaml
+- id: vanilla-sugar
+  name: vanilla sugar
+  file: vanilla-sugar.yaml
+- id: vegetable-oil
+  name: vegetable oil
+  file: vegetable-oil.yaml
+- id: vegetable-stock
+  name: vegetable stock
+  file: vegetable-stock.yaml
+- id: vegetables
+  name: vegetables
+  file: vegetables.yaml
+- id: vermicelli-noodles
+  name: vermicelli noodles
+  file: vermicelli-noodles.yaml
+- id: vinegar
+  name: vinegar
+  file: vinegar.yaml
+- id: water
+  name: water
+  file: water.yaml
+- id: whipped-cream
+  name: whipped cream
+  file: whipped-cream.yaml
+- id: white-beans
+  name: white beans
+  file: white-beans.yaml
+- id: white-pepper
+  name: white pepper
+  file: white-pepper.yaml
+- id: yogurt
+  name: yogurt
+  file: yogurt.yaml
+- id: za-atar
+  name: za'atar
+  file: za-atar.yaml
+- id: zucchini
+  name: zucchini
+  file: zucchini.yaml
+current_example_recipe_count: 20
+vocabulary_evidence_recipe_count: 30
+legacy_corpus_note: Vocabulary retains extracted observations from the removed 10-recipe BBC Food stress-test corpus; the recipe texts themselves are no longer included.

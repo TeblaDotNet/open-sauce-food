@@ -1,0 +1,22 @@
+id: whisk
+kind: process
+names:
+  en: whisk
+observed_forms:
+  - syntax: whisk
+    count: 3
+  - syntax: whisk, after each addition, until no lumps
+    count: 1
+  - syntax: whisk, saucepan
+    count: 1
+seen_in:
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - legacy-corpus:bbc-food-10
+observed_parameters:
+  - value: after each addition
+    count: 1
+  - value: saucepan
+    count: 1
+  - value: until no lumps
+    count: 1
+legacy_observation: true

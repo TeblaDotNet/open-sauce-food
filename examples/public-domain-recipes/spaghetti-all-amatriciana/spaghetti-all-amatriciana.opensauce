@@ -1,0 +1,83 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Spaghetti all'amatriciana
+source: https://publicdomainrecipes.com/spaghetti-all-amatriciana/
+source author: Jebusthebus
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: italian, pasta
+serves: 4
+image: spaghetti-all-amatriciana.webp
+
+# Imported from content/spaghetti-all-amatriciana.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 25 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(cheese, Pecorino romano preferably or Parmesan) 1.5oz / 40g
+(chili pepper, Fresh, as many as you'd like)
+(olive oil, extra virgin) 1/4 cup / 40g
+(guanciale or bacon, guanciale preferred) 3.5oz / 100g
+(white wine) 1/4 cup / 60g
+(tomato passata) 10oz / 300g
+(spaghetti or similar long pasta) 12oz / 350g
+(extra pecorino romano or parmesan, optional)
+
+::instructions
+
+<grate, the pecorino and keep it aside>
+<mince, the chili pepper(s) and keep it/them aside>
+<cut, the guanciale in thin stripes and cook them in the oil with the minced pepper(s) for about 3 minutes on medium/high heat>
+Douse with the wine and turn up the heat. Cook until the alcohol has evaporated.
+Start cooking the pasta — /pasta.
+Lower the heat to medium and add the passata, some salt and plenty of pepper. Cook for about 15 minutes.
+Once finished, drain the pasta and add the sauce and the pecorino/parmesan, mix well and serve immediately. Optionally you can add some pecorino or parmesan on top.
+
+::story
+
+Ignore the fact that those in the photo are pennette and not spaghetti, that's all I had that day.
+
+
+::source
+<<<
+---
+title: "Spaghetti all'amatriciana"
+date: 2021-03-24
+tags: ['italian', 'pasta']
+author: "Jebusthebus"
+---
+
+Ignore the fact that those in the photo are pennette and not spaghetti, that's all I had that day.
+
+![Jebusthebus](/pix/spaghetti-all-amatriciana.webp)
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 25 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- Pecorino romano cheese preferably or Parmesan 1.5oz (40g)
+- Fresh chili pepper (as many as you'd like)
+- Extra virgin olive oil 1/4 cup (40g)
+- Guanciale preferably or Bacon 3.5oz (100g)
+- White wine 1/4 cup (60g)
+- Tomato passata 10oz (300g)
+- Spaghetti or similar long pasta 12oz (350g)
+- (optional) Extra pecorino romano or parmesan
+
+## Directions
+
+1. Grate the pecorino and keep it aside.
+2. Mince the chili pepper(s) and keep it/them aside.
+3. Cut the guanciale in thin stripes and cook them in the oil with the minced pepper(s) for about 3 minutes on medium/high heat.
+4. Douse with the wine and turn up the heat. Cook until the alcohol has evaporated.
+5. Start [cooking the pasta](/pasta).
+6. Lower the heat to medium and add the passata, some salt and plenty of pepper. Cook for about 15 minutes.
+7. Once finished, drain the pasta and add the sauce and the pecorino/parmesan, mix well and serve immediately. Optionally you can add some pecorino or parmesan on top.
+>>>

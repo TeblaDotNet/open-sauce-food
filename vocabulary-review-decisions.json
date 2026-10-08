@@ -1,0 +1,609 @@
+{
+  "baseline": "vocabulary-review-baseline.json",
+  "policy": "High-confidence lexical/structural additions. Existing IDs retained; no checked status assigned.",
+  "changes": [
+    {
+      "kind": "ingredient",
+      "id": "parmesan-cheese",
+      "action": "alias",
+      "term": "parmesan"
+    },
+    {
+      "kind": "ingredient",
+      "id": "bay-leaf",
+      "action": "alias",
+      "term": "bayleaf"
+    },
+    {
+      "kind": "ingredient",
+      "id": "bay-leaf",
+      "action": "alias",
+      "term": "bayleaves"
+    },
+    {
+      "kind": "ingredient",
+      "id": "beef",
+      "action": "alias",
+      "term": "beef meat"
+    },
+    {
+      "kind": "ingredient",
+      "id": "chilli-flakes",
+      "action": "alias",
+      "term": "chili flakes"
+    },
+    {
+      "kind": "ingredient",
+      "id": "bread-crumbs",
+      "action": "alias",
+      "term": "breadcrumbs"
+    },
+    {
+      "kind": "ingredient",
+      "id": "miso",
+      "action": "alias",
+      "term": "miso paste"
+    },
+    {
+      "kind": "ingredient",
+      "id": "broccoli",
+      "action": "alias",
+      "term": "broccli"
+    },
+    {
+      "kind": "ingredient",
+      "id": "beetroot",
+      "action": "alias",
+      "term": "beets"
+    },
+    {
+      "kind": "ingredient",
+      "id": "red-chilli",
+      "action": "alias",
+      "term": "red chilies"
+    },
+    {
+      "kind": "ingredient",
+      "id": "pork-chop",
+      "action": "alias",
+      "term": "porkchops"
+    },
+    {
+      "kind": "ingredient",
+      "id": "creme-fraiche",
+      "action": "alias",
+      "term": "creme fraiche"
+    },
+    {
+      "kind": "ingredient",
+      "id": "spring-onion",
+      "action": "alias",
+      "term": "scallion"
+    },
+    {
+      "kind": "ingredient",
+      "id": "spring-onion",
+      "action": "alias",
+      "term": "scallions"
+    },
+    {
+      "kind": "process",
+      "id": "whisk",
+      "action": "alias",
+      "term": "wisk"
+    },
+    {
+      "kind": "process",
+      "id": "boil",
+      "action": "alias",
+      "term": "bring to a boil"
+    },
+    {
+      "kind": "process",
+      "id": "shape",
+      "action": "alias",
+      "term": "form"
+    },
+    {
+      "kind": "ingredient",
+      "id": "potato",
+      "action": "plural",
+      "term": "potatoes"
+    },
+    {
+      "kind": "ingredient",
+      "id": "tomato",
+      "action": "plural",
+      "term": "tomatoes"
+    },
+    {
+      "kind": "ingredient",
+      "id": "sweet-potato",
+      "action": "plural",
+      "term": "sweet potatoes"
+    },
+    {
+      "kind": "ingredient",
+      "id": "chilli",
+      "action": "plural",
+      "term": "chillies"
+    },
+    {
+      "kind": "ingredient",
+      "id": "bay-leaf",
+      "action": "plural",
+      "term": "bay leaves"
+    },
+    {
+      "kind": "ingredient",
+      "id": "onion",
+      "action": "plural",
+      "term": "onions"
+    },
+    {
+      "kind": "ingredient",
+      "id": "carrot",
+      "action": "plural",
+      "term": "carrots"
+    },
+    {
+      "kind": "ingredient",
+      "id": "leek",
+      "action": "plural",
+      "term": "leeks"
+    },
+    {
+      "kind": "ingredient",
+      "id": "courgette",
+      "action": "plural",
+      "term": "courgettes"
+    },
+    {
+      "kind": "ingredient",
+      "id": "cucumber",
+      "action": "plural",
+      "term": "cucumbers"
+    },
+    {
+      "kind": "ingredient",
+      "id": "seasoning",
+      "action": "plural",
+      "term": "seasonings"
+    },
+    {
+      "kind": "ingredient",
+      "id": "pork-chop",
+      "action": "plural",
+      "term": "pork chops"
+    },
+    {
+      "kind": "equipment",
+      "id": "bowl",
+      "action": "plural",
+      "term": "bowls"
+    },
+    {
+      "kind": "ingredient",
+      "id": "allspice",
+      "action": "new-concept",
+      "term": "allspice",
+      "aliases": [],
+      "recipes": [
+        "pastitsio",
+        "soleier",
+        "spiced-cantaloupe"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "beer",
+      "action": "new-concept",
+      "term": "beer",
+      "aliases": [],
+      "recipes": [
+        "beef-stew",
+        "french-crepes",
+        "hangover-eggs",
+        "portuguese-steak-with-beer-sauce",
+        "stoofvlees"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "shallot",
+      "action": "new-concept",
+      "term": "shallot",
+      "aliases": [
+        "shallots"
+      ],
+      "recipes": [
+        "lobster-bisque",
+        "mushroom-risotto",
+        "bebek-mropol",
+        "beef-kidney",
+        "chicken-in-red-wine-vinegar-sauce",
+        "french-mustard-sauce-porkchops",
+        "lemon-and-oregano-chicken-traybake"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "radish",
+      "action": "new-concept",
+      "term": "radish",
+      "aliases": [
+        "radishes"
+      ],
+      "recipes": [
+        "lithuanian-cold-borscht",
+        "corn-salsa",
+        "frijol-con-puerco",
+        "okroshka",
+        "perfect-potato-salad"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "arugula",
+      "action": "new-concept",
+      "term": "arugula",
+      "aliases": [
+        "rocket"
+      ],
+      "recipes": [
+        "cannellini-bean-salad",
+        "tuhu"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "buttermilk",
+      "action": "new-concept",
+      "term": "buttermilk",
+      "aliases": [],
+      "recipes": [
+        "coleslaw",
+        "nashville-chicken"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "liquid-smoke",
+      "action": "new-concept",
+      "term": "liquid smoke",
+      "aliases": [],
+      "recipes": [
+        "beef-jerky",
+        "fajitas"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "fennel-seeds",
+      "action": "new-concept",
+      "term": "fennel seeds",
+      "aliases": [],
+      "recipes": [
+        "garam-masala",
+        "italian-mulled-wine",
+        "simple-chicken-curry"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "peanut",
+      "action": "new-concept",
+      "term": "peanut",
+      "aliases": [
+        "peanuts"
+      ],
+      "recipes": [
+        "panang-style-beef-curry",
+        "spicy-kung-pao-style-chicken"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "pecan",
+      "action": "new-concept",
+      "term": "pecan",
+      "aliases": [
+        "pecans"
+      ],
+      "recipes": [
+        "hearty-breakfast-oatmeal",
+        "mazurek"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "ricotta",
+      "action": "new-concept",
+      "term": "ricotta",
+      "aliases": [],
+      "recipes": [
+        "herbs-pizza",
+        "ravioli"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "turkey",
+      "action": "new-concept",
+      "term": "turkey",
+      "aliases": [],
+      "recipes": [
+        "eggroll-in-a-bowl",
+        "smoked-turkey"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "asparagus",
+      "action": "new-concept",
+      "term": "asparagus",
+      "aliases": [],
+      "recipes": [
+        "smoked-salmon-pasta-primavera"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "buckwheat",
+      "action": "new-concept",
+      "term": "buckwheat",
+      "aliases": [],
+      "recipes": [
+        "merchants-buckwheat"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "brandy",
+      "action": "new-concept",
+      "term": "brandy",
+      "aliases": [],
+      "recipes": [
+        "plum-pudding"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "bourbon",
+      "action": "new-concept",
+      "term": "bourbon",
+      "aliases": [],
+      "recipes": [
+        "italian-mulled-wine"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "feta",
+      "action": "new-concept",
+      "term": "feta",
+      "aliases": [
+        "feta cheese"
+      ],
+      "recipes": [
+        "babas-feta-pasta",
+        "greek-salad",
+        "zaatar-chicken-bulgur-bowls"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "clementine",
+      "action": "new-concept",
+      "term": "clementine",
+      "aliases": [],
+      "recipes": [
+        "tarta-de-santiago"
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "thermos",
+      "action": "new-concept",
+      "term": "thermos",
+      "aliases": [],
+      "recipes": [
+        "greek-yogurt",
+        "yogurt"
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "steaming-basket",
+      "action": "new-concept",
+      "term": "steaming basket",
+      "aliases": [],
+      "recipes": [
+        "dou-sha-bao"
+      ]
+    },
+    {
+      "kind": "equipment",
+      "id": "stand-mixer",
+      "action": "new-concept",
+      "term": "stand mixer",
+      "aliases": [],
+      "recipes": [
+        "ravioli",
+        "savory-squash"
+      ]
+    },
+    {
+      "kind": "process",
+      "id": "shake",
+      "action": "new-concept",
+      "term": "shake",
+      "aliases": [],
+      "recipes": [
+        "kettlecorn"
+      ]
+    },
+    {
+      "kind": "process",
+      "id": "tear",
+      "action": "new-concept",
+      "term": "tear",
+      "aliases": [],
+      "recipes": [
+        "chipolata-in-balsamic-vinegar"
+      ]
+    },
+    {
+      "kind": "process",
+      "id": "wait",
+      "action": "new-concept",
+      "term": "wait",
+      "aliases": [],
+      "recipes": [
+        "babas-feta-pasta",
+        "pasta",
+        "rice",
+        "turkish-yogurt-soup",
+        "zaatar"
+      ]
+    },
+    {
+      "kind": "ingredient",
+      "id": "lemon",
+      "action": "part",
+      "term": "juice"
+    },
+    {
+      "kind": "ingredient",
+      "id": "lemon",
+      "action": "part",
+      "term": "zest"
+    },
+    {
+      "kind": "ingredient",
+      "id": "lemon",
+      "action": "part",
+      "term": "peel"
+    },
+    {
+      "kind": "ingredient",
+      "id": "lime",
+      "action": "part",
+      "term": "juice"
+    },
+    {
+      "kind": "ingredient",
+      "id": "lime",
+      "action": "part",
+      "term": "zest"
+    },
+    {
+      "kind": "ingredient",
+      "id": "lime",
+      "action": "part",
+      "term": "peel"
+    },
+    {
+      "kind": "ingredient",
+      "id": "orange",
+      "action": "part",
+      "term": "juice"
+    },
+    {
+      "kind": "ingredient",
+      "id": "orange",
+      "action": "part",
+      "term": "zest"
+    },
+    {
+      "kind": "ingredient",
+      "id": "orange",
+      "action": "part",
+      "term": "peel"
+    },
+    {
+      "kind": "ingredient",
+      "id": "clementine",
+      "action": "part",
+      "term": "zest"
+    },
+    {
+      "kind": "ingredient",
+      "id": "garlic",
+      "action": "part",
+      "term": "clove"
+    },
+    {
+      "kind": "ingredient",
+      "id": "onion",
+      "action": "part",
+      "term": "peel"
+    },
+    {
+      "kind": "ingredient",
+      "id": "oregano",
+      "action": "part",
+      "term": "leaf"
+    },
+    {
+      "kind": "ingredient",
+      "id": "chicken",
+      "action": "part",
+      "term": "breast"
+    },
+    {
+      "kind": "ingredient",
+      "id": "chicken",
+      "action": "part",
+      "term": "thigh"
+    },
+    {
+      "kind": "ingredient",
+      "id": "flour",
+      "action": "variant",
+      "term": "plain"
+    },
+    {
+      "kind": "ingredient",
+      "id": "flour",
+      "action": "variant",
+      "term": "all-purpose"
+    },
+    {
+      "kind": "ingredient",
+      "id": "flour",
+      "action": "variant",
+      "term": "self-raising"
+    },
+    {
+      "kind": "ingredient",
+      "id": "butter",
+      "action": "variant",
+      "term": "salted"
+    },
+    {
+      "kind": "ingredient",
+      "id": "butter",
+      "action": "variant",
+      "term": "unsalted"
+    },
+    {
+      "kind": "ingredient",
+      "id": "sugar",
+      "action": "variant",
+      "term": "brown"
+    },
+    {
+      "kind": "ingredient",
+      "id": "sugar",
+      "action": "variant",
+      "term": "white"
+    },
+    {
+      "kind": "ingredient",
+      "id": "milk",
+      "action": "variant",
+      "term": "whole"
+    }
+  ]
+}

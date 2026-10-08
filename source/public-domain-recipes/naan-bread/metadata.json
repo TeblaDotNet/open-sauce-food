@@ -1,0 +1,44 @@
+{
+  "title": "Naan Bread",
+  "source_url": "https://publicdomainrecipes.com/naan-bread/",
+  "source_author": "nihar-samantaray",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/naan-bread.md",
+  "original_sha256": "6dbf3ebe16b6a64dfcf3d0219741bfb705d60f8f7cce70d0c36ef22d63ae3257",
+  "original_front_matter": {
+    "title": "Naan Bread",
+    "date": "2021-03-15",
+    "tags": [
+      "indian",
+      "bread",
+      "fasting"
+    ],
+    "author": "nihar-samantaray"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "90 min",
+    "Cook time": "30 min",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "- All-purpose flour 3 cups\n- Active dry yeast 1 tbsp\n- Sugar 2 tbsp\n- Warm Milk 1 cup\n- Butter melted 2 tbsp\n- Oil - little to grease\n- Salt - 1 1/2 teaspoons",
+  "directions_source_markdown": "1. Put the yeast and sugar to warm milk in a large mixing bowl and stir well. Leave it for 3-5 minutes.\n2. Put the flour and salt into a large mixing bowl and whisk to combine.  Sprinkle additional flour as needed to keep the dough from sticking to the sides.\n3. Once the dough is soft and ready, apply oil on it and cover it with a soft cloth. Rest it for 2–3 hours.\n4. Knead the dough again, sprinkle all-purpose flour, and knead until smooth.\n5. Divide dough into 4 equal pieces. Form pieces into balls. Roll out dough balls to desired thickness (about the size of a small tortilla).\n6. Now transfer the naan to the foiled baking tray and bake in preheated at 180 C for 30-35 minutes.\n7. After baking, brush the top with butter and cut it into four pieces and serve. Enjoy!",
+  "images": [
+    {
+      "alt": "Naan Bread",
+      "source_url": "https://publicdomainrecipes.com/pix/naan-bread.webp",
+      "source_reference": "/pix/naan-bread.webp",
+      "status": "retrieved",
+      "filename": "naan-bread.webp",
+      "sha256": "d360a7e3a774109187f27d14fd56aa1ed655824fb0ff78e3e009308fdfa42140"
+    }
+  ],
+  "coverage_group": "bread-dough"
+}

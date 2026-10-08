@@ -1,0 +1,18 @@
+id: bouillon-cube
+kind: ingredient
+canonical_name: bouillon cube
+names:
+  en: bouillon cube
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: bouillon cube
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+observed_qualifiers:
+- value: vegetable or pork or chicken
+  count: 1

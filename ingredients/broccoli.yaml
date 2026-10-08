@@ -1,0 +1,23 @@
+id: broccoli
+kind: ingredient
+canonical_name: broccoli
+names:
+  en: broccoli
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: broccoli
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+observed_qualifiers:
+- value: fresh preferred or frozen
+  count: 1
+aliases:
+- name: broccli
+  type: review-pass-1-lexical

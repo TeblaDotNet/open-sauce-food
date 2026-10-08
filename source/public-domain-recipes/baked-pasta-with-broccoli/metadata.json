@@ -1,0 +1,36 @@
+{
+  "title": "Baked pasta with broccoli, boiled eggs and scamorza cheese",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/baked-pasta-with-broccoli.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "74d24fa7715337d3422aa51fd2755120011c7605d2db2ed6b8dafb30dafa624f",
+  "original_front_matter": {
+    "title": "Baked pasta with broccoli, boiled eggs and scamorza cheese",
+    "date": "2021-04-15",
+    "tags": [
+      "italian",
+      "pasta",
+      "broccoli",
+      "cheesefare"
+    ],
+    "author": "davide-costa"
+  },
+  "source_url": "https://publicdomainrecipes.com/baked-pasta-with-broccoli/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "baked-pasta-with-broccoli",
+      "url": "/pix/baked-pasta-with-broccoli.webp",
+      "upstreamPath": "static/pix/baked-pasta-with-broccoli.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

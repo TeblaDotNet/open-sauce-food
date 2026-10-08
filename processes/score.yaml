@@ -1,0 +1,26 @@
+id: score
+kind: process
+canonical_name: score
+names:
+  en: score
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: score
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+observed_parameters:
+- value: belly
+  count: 1
+- value: knife
+  count: 2
+- value: razor blade
+  count: 1
+- value: scratch surface without cutting through
+  count: 1

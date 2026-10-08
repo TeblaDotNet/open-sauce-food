@@ -1,0 +1,87 @@
+::recipe
+
+name: Carbonara
+source: https://publicdomainrecipes.com/carbonara/
+source author: Peter Piontek, Ladislao Blanchi
+source license: Public domain (Unlicense)
+ingredients: mixed
+units: mixed
+category: main
+tags: pasta, Italian
+serves: 4
+active time: ~5m
+total time: ~30m
+image: carbonara.webp
+
+::ingredients
+
+(spaghetti) 320g / 11oz
+(egg, medium) 5
+
+(pork) =
+    (guanciale, cleaned, cubed) 150g / 5oz
+    -OR-
+    (smoked pancetta, cleaned, cubed) 150g / 5oz
+
+(cheese, grated, optional) =
+    (pecorino romano, grated, optional) ~35g + extra for serving
+    -OR-
+    (parmigiano-reggiano, grated, optional) ~35g + extra for serving
+
+(black pepper, optional) to taste
+(extra virgin olive oil, conditional) a dash
+(salt) as needed
+
+::equipment
+
+(bowl)
+(pot)
+(pan, iron or non-stick)
+(fork)
+
+::instructions
+
+(egg: yolk) <separate, bowl>
+
+Optional [
+    (egg: yolk) + (cheese) ~35g + (black pepper)
+        <mix>
+]
+
+(pot) <fill, water>
+    + (salt)
+    <boil>
+
+(spaghetti) <cook, 1m less than packet instructions>
+
+(pork) <fry, pan, low-medium heat, until crisp outside and chewy inside>
+
+# The source suggests a dash of olive oil only if using a different kind of pan.
+Optional [
+    (extra virgin olive oil) <add, pan>
+]
+
+Meanwhile [
+    (egg: yolk) <beat, fork, until liquid>
+]
+
+(spaghetti) <drain>
+    <rest, ~1m if too hot>
+
+{carbonara} =
+    (spaghetti) +
+    (egg: yolk) +
+    (pork)
+
+{carbonara} <stir, continuously, with as much rendered pork fat as desired>
+
+Optional [
+    {carbonara} + (cheese) extra for serving + (black pepper)
+        <garnish>
+]
+
+{carbonara} <serve>
+
+::notes
+The source notes that ingredient quality matters and recommends bronze-extruded pasta,
+well-aged Italian cheeses, butchered guanciale and good eggs.

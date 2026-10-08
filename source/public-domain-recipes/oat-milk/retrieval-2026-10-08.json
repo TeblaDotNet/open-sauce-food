@@ -1,0 +1,32 @@
+{
+  "title": "Oat Milk",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/oat-milk.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "ef6bc75bf20341fc5ea78b41cbdcae3502839d57d0b2a7844f533e2b688fb667",
+  "original_front_matter": {
+    "title": "Oat Milk",
+    "date": "2025-09-20",
+    "tags": [
+      "oat",
+      "drink",
+      "breakfast"
+    ],
+    "author": "machocam"
+  },
+  "source_url": "https://publicdomainrecipes.com/oat-milk/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

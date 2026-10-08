@@ -1,0 +1,12 @@
+id: totopos
+kind: ingredient
+names:
+  en: totopos
+observed_forms:
+- syntax: totopos, for serving
+  count: 1
+seen_in:
+- examples/public-domain-recipes/guacamole/guacamole.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1

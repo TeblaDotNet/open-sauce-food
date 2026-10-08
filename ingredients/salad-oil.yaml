@@ -1,0 +1,18 @@
+id: salad-oil
+kind: ingredient
+canonical_name: salad oil
+names:
+  en: salad oil
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: salad oil
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+observed_qualifiers:
+- value: olive or canola or sunflower
+  count: 1

@@ -1,0 +1,106 @@
+::recipe
+
+name: Sourdough bread with seeds and grains
+source: https://publicdomainrecipes.com/sourdough-bread-with-seeds-and-grains/
+source author: SirStark
+source license: Public domain (Unlicense)
+units: source
+tags: sourdough, bread
+image: sourdough-bread-with-seeds-and-grains.webp
+
+# Original source: ../../../source/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 15 min
+# Source Cook time: 120 min
+# Conversion note: Feed starter without quantities; no shaping step; locked bowl; steam method absent. Prepared starter amount distinct from an unspecified feeding subrecipe.
+
+::ingredients
+
+# Preparation
+(grain, of choice, such as rye or spelt or wheat) 100g
+(linseed) 40g
+(sesame) 30g
+(sunflower seeds) 30g
+(water, preparation) 600g
+# Bread
+(sourdough) 400g
+(water, 25-35°C) 200g
+(rye flour) 200g
+(wheat flour) 300g
+(sea salt) 20g
+(bread spice) 2tsp
+
+::equipment
+
+(bowl, locked)
+(oven)
+
+::instructions
+
+# Day before
+(sourdough starter) <feed, for next day, feeding amounts not supplied>
+(grain) + (water, preparation) 500g <boil, 45m>
+(linseed) + (sesame) + (sunflower seeds) + (water, preparation) remaining 100g <place, bowl>
+(grain) + {seed mixture} <store, locked bowl, overnight, 13-16h>
+# Bread
+{seeds and grains} <drain, leftover water>
+    + (sourdough) + (water, 25-35°C) + (rye flour) + (wheat flour) + (sea salt) + (bread spice) <stir> <knead, well>
+    <rest, warm, 25-30°C, 5h>
+(oven) <preheat, 250°C>
+{dough} <bake, with steam, up to 20m>
+(oven) <release, steam> <reduce heat, 150°C>
+{bread} <bake, 50-60m more>
+
+::source
+<<<
+---
+title: "Sourdough bread with seeds and grains"
+date: 2021-03-23
+tags: ['sourdough', 'bread']
+author: "SirStark"
+---
+
+![Sourdough bread with seeds and grains](/pix/sourdough-bread-with-seeds-and-grains.webp)
+
+- ⏲️ Prep time: 15 min
+- 🍳 Cook time: 120 min
+
+## Ingredients
+
+### For the preparation
+
+- 100g grain of choice (e.g. rye, spelt and wheat)
+- 40g linseed
+- 30g sesame
+- 30g sunflower seeds
+- 600g water
+
+### For the bread
+
+- 400g sourdough
+- 200g water (25-35°C)
+- 200g rye flour
+- 300g wheat flour
+- 20g sea salt
+- 2tsp bread spice
+- soaked seeds and grains
+
+## Directions
+
+### Preparations (the day before)
+
+1. Feed your sourdough starter for the next day.
+2. Boil the grain in 500g water for 45 minutes.
+3. Put the seeds and 100g water into a bowl.
+4. Store everything in a locked bowl overnight (13-16h).
+
+### Bread
+
+1. Remove leftover water from the seeds and grains
+2. Stir all ingredients for the bread and knead them well.
+3. Let the dough rest for 5 hours in warm (25-30°C) conditions.
+4. Preheat the oven to 250°C.
+5. Bake for up to 20 minute with steam.
+6. Release the steam and turn the heat down to 150°C.
+7. Bake for another 50-60 minutes
+>>>

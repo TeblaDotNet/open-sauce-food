@@ -1,0 +1,18 @@
+id: vanilla-bean
+kind: ingredient
+canonical_name: vanilla bean
+names:
+  en: vanilla bean
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: vanilla bean
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+observed_qualifiers:
+- value: mark
+  count: 1

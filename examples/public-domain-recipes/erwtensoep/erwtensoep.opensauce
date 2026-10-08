@@ -1,0 +1,111 @@
+::recipe
+
+name: Erwtensoep (Dutch pea soup)
+source: https://publicdomainrecipes.com/erwtensoep/
+source author: rijk
+source license: Public domain (Unlicense)
+units: source
+tags: dutch, soup, vegetables
+serves: 4
+
+# Original source: ../../../source/public-domain-recipes/erwtensoep/erwtensoep.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 15 min
+# Source Cook time: 90 min
+# Source Servings: 4
+# Conversion note: Sausage is chopped in ingredients then thinly sliced in method. Redundant preparation may be a source inconsistency.
+
+::ingredients
+
+(water) 7.5 cups / 1.75 litres
+(split peas, dried green) 1.5 cups / 300g
+(pork belly choice) = (pork belly, Dutch speklapjes) 3.5oz / 100g -OR- (bacon, thick) 3.5oz / 100g
+(pork chop) 1
+(bouillon cube, vegetable or pork or chicken) 1
+(celery) 2 ribs
+(carrot, peeled and sliced) 2-3
+(potato, large, peeled and cubed) 1
+(onion, small, chopped) 1
+(leek, small, sliced) 1
+(celeriac, cubed) 1 cup
+(rookworst, smoked, chopped) 1lb
+(salt) to taste
+(pepper) to taste
+(celery leaves, chopped) for garnish
+
+::equipment
+
+(pot)
+(immersion blender, optional)
+
+::instructions
+
+(water) + (split peas) + (pork belly choice) + (pork chop) + (bouillon cube) <bring to boil>
+    <simmer, covered, 45m, stir and skim>
+(pork chop) <remove> <debone> <slice, thinly> <set aside>
+(celery) + (carrot) + (potato) + (onion) + (leek) + (celeriac) <add, to soup>
+{soup} <bring to boil> <simmer, uncovered, 30m>
+(rookworst) <add, for final 15m of simmering>
+(pork belly choice) + (rookworst) <remove, when vegetables tender> <slice, thinly> <set aside>
+Optional [
+    {soup} <blend, immersion blender>
+]
+{soup} + (salt) + (pepper) <season>
+    + (pork chop) + (pork belly choice) + (rookworst) all except some reserved for garnish <combine>
+<serve, warm bowls, garnish with reserved sausage and celery leaves>
+
+::story
+
+Erwtensoep, also called snert, is the Dutch version of pea soup.
+Slices of rookworst (smoked sausage) are added before serving. The soup, which is traditionally eaten during the winter, is emblematic of Dutch cuisine.
+It is customarily served with Frisian rye bread (roggebrood) and bacon, cheese or butter.
+Pancakes are sometimes served with pea soup; this dish is called snert met struif, struif referring to the pancakes.
+
+::source
+<<<
+---
+title: "Erwtensoep (Dutch pea soup)"
+date: 2021-03-23
+tags: ['dutch', 'soup', 'vegetables']
+author: rijk
+---
+
+Erwtensoep, also called snert, is the Dutch version of pea soup.
+Slices of rookworst (smoked sausage) are added before serving. The soup, which is traditionally eaten during the winter, is emblematic of Dutch cuisine.
+It is customarily served with Frisian rye bread (roggebrood) and bacon, cheese or butter.
+Pancakes are sometimes served with pea soup; this dish is called snert met struif, struif referring to the pancakes.
+
+- ⏲️ Prep time: 15 min
+- 🍳 Cook time: 90 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 7 1/2 cups / 1.75 liters water
+- 1 1/2 cups / 300 grams peas (dried green split)
+- 3 1/2 ounces / 100 grams pork belly (Dutch speklapjes or thick-cut bacon)
+- 1 pork chop
+- 1 bouillon cube (vegetable, pork or chicken)
+- 2 ribs celery
+- 2 to 3 carrots (peeled and sliced)
+- 1 large potato (peeled and cubed)
+- 1 small onion (chopped)
+- 1 small leek (sliced)
+- 1 cup celeriac (cubed)
+- 1 pound sausage (chopped rookworst, smoked sausage)
+- Salt and pepper
+
+## Directions
+
+1. In a large soup pot, bring water, split peas, pork belly or bacon, pork chop, and bouillon cube to a boil.
+2. Reduce the heat to a simmer, cover and let cook for 45 minutes, stirring occasionally and skimming off any foam that rises to the top.
+3. Remove the pork chop, debone, and thinly slice the meat. Set aside.
+4. Add the celery, carrots, potato, onion, leek, and celeriac to the soup.
+5. Return to the boil, reduce the heat to a simmer and let cook, uncovered, for another 30 minutes
+6. Add the smoked sausage for the last 15 minutes of cooking time.
+7. When the vegetables are tender, remove the bacon and smoked sausage, slice thinly, and set aside.
+8. If you prefer a smooth consistency, purée the soup with a stick blender.
+9. Season to taste with salt and pepper.
+10. Add the meat back to the soup, setting some slices of sausage aside.
+11. Serve in heated bowls or soup plates, garnished with slices of rookworst and chopped celery leaf. Enjoy!
+>>>

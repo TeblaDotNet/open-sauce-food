@@ -1,0 +1,51 @@
+id: slice
+kind: process
+canonical_name: slice
+names:
+  en: slice
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: slice
+      count: 17
+  seen_in:
+    - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+    - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/ceviche/ceviche.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+    - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+    - examples/public-domain-recipes/miso-soup/miso-soup.opensauce
+    - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/pulpo-gallega/pulpo-gallega.opensauce
+    - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+    - examples/public-domain-recipes/shortcrust-pastry/shortcrust-pastry.opensauce
+    - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 1/2in
+    count: 1
+  - value: 1cm / 1/3in
+    count: 1
+  - value: 1in / 2.54cm thick
+    count: 1
+  - value: as thin as possible
+    count: 1
+  - value: disks
+    count: 1
+  - value: one portion per bowl
+    count: 1
+  - value: root to stem
+    count: 1
+  - value: scissors
+    count: 1
+  - value: thin
+    count: 1
+  - value: thinly
+    count: 3
+  - value: when cold
+    count: 1

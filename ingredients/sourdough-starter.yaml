@@ -1,0 +1,20 @@
+id: sourdough-starter
+kind: ingredient
+canonical_name: sourdough starter
+names:
+  en: sourdough starter
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: sourdough starter
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+observed_qualifiers:
+- value: fed
+  count: 1
+- value: levain
+  count: 1

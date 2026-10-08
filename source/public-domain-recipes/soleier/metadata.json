@@ -1,0 +1,41 @@
+{
+  "title": "Soleier (pickled eggs)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/soleier.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "42e14e0eb76146e35a41d0c88da1e8a37385c93cc2d0f343a143ff0ed83774c1",
+  "original_front_matter": {
+    "title": "Soleier (pickled eggs)",
+    "date": "2021-05-13",
+    "tags": [
+      "snack",
+      "german",
+      "eggs",
+      "pub"
+    ],
+    "author": "svent"
+  },
+  "source_url": "https://publicdomainrecipes.com/soleier/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Soleier",
+      "url": "/pix/soleier.webp",
+      "upstreamPath": "static/pix/soleier.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "552e34af95729f58dc66aed1871e183319a3eaaa81171f88a1a8849bae80c93c",
+      "sourcePath": "source/public-domain-recipes/soleier/soleier.webp",
+      "promotedPath": "examples/public-domain-recipes/soleier/soleier.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

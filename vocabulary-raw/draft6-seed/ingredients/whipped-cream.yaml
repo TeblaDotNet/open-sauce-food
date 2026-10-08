@@ -1,0 +1,14 @@
+id: whipped-cream
+kind: ingredient
+names:
+  en: whipped cream
+observed_forms:
+- syntax: whipped cream, optional, for serving
+  count: 1
+seen_in:
+- examples/public-domain-recipes/pavlova/pavlova.opensauce
+observed_qualifiers:
+- value: for serving
+  count: 1
+- value: optional
+  count: 1

@@ -1,0 +1,27 @@
+id: submerge
+kind: process
+canonical_name: submerge
+names:
+  en: submerge
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: submerge
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/limoncello/limoncello.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+observed_parameters:
+- value: 10s
+  count: 1
+- value: alcohol
+  count: 1
+- value: chemical-resistant gloves as source specifies
+  count: 1
+- value: fully
+  count: 1
+- value: lye bath
+  count: 1

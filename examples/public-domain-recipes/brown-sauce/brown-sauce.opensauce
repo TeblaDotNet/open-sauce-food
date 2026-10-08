@@ -1,0 +1,74 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Brown Sauce
+source: https://publicdomainrecipes.com/brown-sauce/
+source author: Vili Kangas
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: sauce
+serves: 6
+
+# Imported from content/brown-sauce.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 5 min
+# Source metadata: - 🍳 Cook time: 20 min
+# Source metadata: - 🍽️ Servings: 6
+
+::ingredients
+
+(onion) 1
+(butter) 75g
+(flour) 1dl
+(bouillon) 1l
+(black pepper freshly grounded)
+
+::instructions
+
+<chop, and sauté the onions and put the aside for a while>
+(butter) <melt, on a pan and add the flour to it>
+(flour) <brown, on medium heat until the mixture is dark brown>
+(bouillon) <add, in small batches while stirring with a whisker>
+<let, the sauce boil and thicken for few minutes>
+<add, the onions and ground some pepper in the sauce>
+（optional） Add preferred meat to the sauce or use as is
+
+::story
+
+A very basic sauce that can be used for various dishes.
+
+
+::source
+<<<
+---
+title: "Brown Sauce"
+date: 2021-03-23
+tags: ['sauce']
+author: "Vili Kangas"
+---
+
+A very basic sauce that can be used for various dishes.
+
+- ⏲️ Prep time: 5 min
+- 🍳 Cook time: 20 min
+- 🍽️ Servings: 6
+
+## Ingredients
+
+- 1 onion
+- 75g butter
+- 1dl flour
+- 1l bouillon
+- Black pepper freshly grounded
+
+## Directions
+
+1. Chop and sauté the onions and put the aside for a while
+2. Melt the butter on a pan and add the flour to it
+3. Brown the flour on medium heat until the mixture is dark brown
+4. Add the bouillon in small batches while stirring with a whisker
+5. Let the sauce boil and thicken for few minutes
+6. Add the onions and ground some pepper in the sauce
+7. (optional) Add preferred meat to the sauce or use as is
+>>>

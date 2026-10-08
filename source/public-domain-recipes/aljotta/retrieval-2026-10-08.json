@@ -1,0 +1,32 @@
+{
+  "title": "Aljotta",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/aljotta.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "974c4a3da2c0162e0d2945592d9455ab62e8c50b010846cefa1a172d216d781d",
+  "original_front_matter": {
+    "title": "Aljotta",
+    "date": "2021-03-16",
+    "tags": [
+      "fish",
+      "soup",
+      "mediterranean"
+    ],
+    "author": "shou-ganai"
+  },
+  "source_url": "https://publicdomainrecipes.com/aljotta/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

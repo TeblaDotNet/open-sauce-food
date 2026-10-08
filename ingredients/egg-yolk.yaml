@@ -1,0 +1,16 @@
+id: egg-yolk
+kind: ingredient
+canonical_name: egg yolk
+names:
+  en: egg yolk
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: egg yolk
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce

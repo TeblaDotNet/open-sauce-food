@@ -1,0 +1,77 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Liver Pate
+source: https://publicdomainrecipes.com/liverpate/
+source author: vod3
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: pate, liver
+
+# Imported from content/liverpate.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(liver, chicken; beef; poultry etc.) 1lbs. / 500g
+(carrot) 1 Cup
+(onion) 1 Cup
+(nutmeg) 2 Teaspoon
+(butter or ghee) 2 Tablespoon
+
+::equipment
+
+(food processor)
+(frying pan)
+(pot)
+
+::instructions
+
+(liver) <cut, into cubes>
+<put, into a pot and cover with cold water, add 1tsp salt. Bring to a boil and boil for 10-15 minutes>
+<grate, carrots and dice onions. Stew in a frying pan with a little bit of water until soft>
+In a food processor blend all ingredients together.
+
+::notes
+
+With beef liver, remove its membrane, that is on top, with your fingers. Cut it in small pieces even cubes or slices and remove the vessels that are inside it. They are not very tasty and are impossible to chew.
+
+
+::story
+
+Good start for trying to eat more organs. It even tastes very nice. The last step before eating it raw someday.
+
+
+::source
+<<<
+---
+title: "Liver Pate"
+date: 2021-03-11
+tags: ['pate', 'liver']
+author: vod3
+---
+
+Good start for trying to eat more organs.
+It even tastes very nice.
+The last step before eating it raw someday.
+
+## Ingredients
+
+- 1lbs./500g liver (chicken, beef, poultry etc.)
+- 1 Cup Carrots
+- 1 Cup Onions
+- 2 Teaspoon Nutmeg
+- 2 Tablespoon Butter or Ghee
+
+## Directions
+
+1. Cut liver into cubes.
+2. Put into a pot and cover with cold water, add 1tsp salt. Bring to a boil and boil for 10-15 minutes.
+3. Grate carrots and dice onions. Stew in a frying pan with a little bit of water until soft.
+4. In a food processor blend all ingredients together.
+
+### Notes
+
+With beef liver, remove its membrane, that is on top, with your fingers. Cut it in small pieces even cubes or slices and remove the vessels that are inside it. They are not very tasty and are impossible to chew.
+>>>

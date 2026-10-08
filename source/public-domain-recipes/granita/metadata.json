@@ -1,0 +1,45 @@
+{
+  "title": "Granita",
+  "source_url": "https://publicdomainrecipes.com/granita/",
+  "source_author": "pestanzul",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/granita.md",
+  "original_sha256": "3cf010bbb6b64c80e25ae5b6b8cc6668242c7d9a953efed6acac13d03065d95c",
+  "original_front_matter": {
+    "title": "Granita",
+    "tags": [
+      "fasting",
+      "italian",
+      "lemon",
+      "sweet",
+      "traditional"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "30 min + 15 h",
+    "Servings": "6-8"
+  },
+  "ingredients_source_markdown": "- 3 lemons\n- 125 g sugar",
+  "directions_source_markdown": "1. Squeeze the lemons.\n   Remove the seeds, but keep both juice and pulp.\n2. Put in a pot the sugar, 175 g of lemon juice and pulp, and 300 ml of water.\n   For the freezing to work as expected, it's important that you don't alter the proportions.\n3. Boil for 10 minutes.\n   You should obtain a syrup with fibers floating in it: if you see pieces bigger than a few millimeters, get rid of them with a blender.\n4. Add 700 ml of water and stir.\n5. Wait for the solution to cool down to room temperature.\n6. Pour it in a container that can be frozen.\n   Plastic ones are usually a good choice, whereas glass ones are often cracked by the increase in water volume.\n7. Put it in the freezer.\n8. Now, for the most boring part: you must prevent the separation of the ingredients due to the freezing process, and the formation of one huge ice block.\n   To do so, every 2 hours you must stir vigorously with a fork (if you need, after the first 6 hours you can usually decrease to once every 4 hours).\n   Take some special cares:\n   - _stir even if you don't see any ice yet_: there may already be small crystals\n   - if you find any ice block, make sure to break them down\n   - don't worry if the ice melts when you stir: the water stays cold and will freeze again fast enough\n9. Depending on the temperature, the whole thing may take much time to freeze: it's not unusual for it to require up to 20 hours.\n   That's expected and depends also on the amount of sugar and fruit.\n   Granita is ready when in the container there are only ice crystals: no liquid water and no ice blocks.\n   You can then use a spoon to serve in small cups.\n10. If you don't consume all granita at once, it may freeze to a block.\n    If that happens, just scratch it with the spoon or break it with a fork.\n\nGranita is traditionally prepared with lemons, but you can replace them with any other fruit (the riper, the better), provided you peel it.\nIf you do so, you will need to cook it longer and blend with a blender: the flavour must be released to the water and the sugar.\nYou may also want to use a little less sugar, but don't reduce it too much, or you will get solid ice instead of granita.",
+  "images": [
+    {
+      "alt": "Granita",
+      "source_url": "https://publicdomainrecipes.com/pix/granita.webp",
+      "source_reference": "/pix/granita.webp",
+      "status": "retrieved",
+      "filename": "granita.webp",
+      "sha256": "720f296a9f0d9465561a9503c82a375059d70ce91494f4dd80e45454733cf3d7"
+    }
+  ],
+  "coverage_group": "dessert-historical"
+}

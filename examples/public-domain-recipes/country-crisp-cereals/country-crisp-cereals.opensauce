@@ -1,0 +1,87 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Country Crisp Cereals
+source: https://publicdomainrecipes.com/country-crisp-cereals/
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: breakfast, english
+serves: 7
+
+# Imported from content/country-crisp-cereals.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳Cook time: 2 h
+# Source metadata: - 🍽️ Servings: 7
+
+::ingredients
+
+(oat flakes, 270 g - 800 mL)
+(rice flour, or any other flour, 20 g - 55mL)
+(sugar, 100 g)
+(hazelnuts, Crushed, 20 g)
+(oil, any type, 60 g - 75 mL)
+(water, 50 g)
+(chocolate, 70 g, optional)
+(vanilla extract, 1/2 tsp, optional)
+
+::equipment
+
+(oven)
+(bowl)
+
+::instructions
+
+<preheat, the oven at 120°C>
+<prepare, the cooking support with for example, a parchment paper on a cooking plate>
+<mix, the sugar and the water, until the sugar dissolves>
+In a large container （like a salad bowl） introduce the Flour, the Oat Flakes, and the Crushed Hazelnuts （and optionally the Vanilla Extract）, and mix.
+Introduce in the previous mixture, the Sugar Syrup and the Oil, and mix again.
+Deposit the paste obtained on the cooking plate without exceeding 2 cm in height.
+<bake, the mixture in the 120°C oven until it becomes hard (in approximately 2 hours)>
+<break, the hardened mixture to obtain cereals>
+<add, if you want some broken chocolate (or chocolate chips) in the cereals, or anything you want>
+
+::story
+
+This is a recipe for making Jordan's Country Crisp-like cereals.
+
+
+::source
+<<<
+---
+title: "Country Crisp Cereals"
+date: 2021-03-23
+tags: ['breakfast', 'english']
+---
+
+This is a recipe for making Jordan's Country Crisp-like cereals.
+
+- ⏲️ Prep time: 10 min
+- 🍳Cook time: 2 h
+- 🍽️ Servings: 7
+
+## Ingredients
+
+- Oat Flakes (270 g - 800 mL)
+- Rice Flour (or any other flour) (20 g - 55mL)
+- Sugar (100 g)
+- Crushed Hazelnuts (20 g)
+- Oil (any type) (60 g - 75 mL)
+- Water (50 g)
+- Chocolate (70 g) (optional)
+- Vanilla Extract (1/2 tsp) (optional)
+
+## Directions
+
+1. Preheat the oven at 120°C.
+2. Prepare the cooking support with for example, a parchment paper on a cooking plate.
+3. Mix the sugar and the water, until the sugar dissolves.
+4. In a large container (like a salad bowl) introduce the Flour, the Oat Flakes, and the Crushed Hazelnuts (and optionally the Vanilla Extract), and mix.
+5. Introduce in the previous mixture, the Sugar Syrup and the Oil, and mix again.
+6. Deposit the paste obtained on the cooking plate without exceeding 2 cm in height.
+7. Bake the mixture in the 120°C oven until it becomes hard (in approximately 2 hours)
+8. Break the hardened mixture to obtain cereals.
+9. Add if you want some broken chocolate (or chocolate chips) in the cereals, or anything you want.
+>>>

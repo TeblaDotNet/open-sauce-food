@@ -1,0 +1,44 @@
+id: drain
+kind: process
+canonical_name: drain
+names:
+  en: drain
+status: canonical-seed
+evidence:
+  current_recipe_count: 14
+  current_observation_count: 16
+  legacy_observation_count: 5
+  observed_terms:
+  - term: drain
+    count: 16
+  seen_in:
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+  - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+  - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce
+  legacy_terms:
+  - term: drain
+    count: 5
+observed_parameters:
+- value: carefully
+  count: 1
+- value: colander
+  count: 1
+- value: leftover water
+  count: 1
+- value: mesh strainer
+  count: 2
+- value: paper-towel-lined plate
+  count: 1
+- value: thoroughly
+  count: 1

@@ -1,0 +1,18 @@
+id: chicken-thigh
+kind: ingredient
+canonical_name: chicken thigh
+names:
+  en: chicken thigh
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: chicken thigh
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce
+observed_qualifiers:
+- value: boneless
+  count: 1

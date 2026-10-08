@@ -1,0 +1,15 @@
+id: warm-through
+kind: process
+canonical_name: warm through
+names:
+  en: warm through
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: warm through
+    count: 1

@@ -1,0 +1,27 @@
+id: leek
+kind: ingredient
+canonical_name: leek
+names:
+  en: leek
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: leek
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+  - examples/public-domain-recipes/slow-cooked-lamb-with-lemon/slow-cooked-lamb-with-lemon.opensauce
+observed_qualifiers:
+- value: large
+  count: 1
+- value: sliced
+  count: 1
+- value: small
+  count: 1
+plural_names:
+  en: leeks

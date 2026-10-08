@@ -1,0 +1,18 @@
+id: cooking-wood
+kind: equipment
+canonical_name: cooking wood
+names:
+  en: cooking wood
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cooking wood
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+observed_qualifiers:
+- value: applewood or sweet cherry or maple
+  count: 1

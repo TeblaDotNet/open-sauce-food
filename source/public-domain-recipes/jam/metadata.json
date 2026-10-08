@@ -1,0 +1,43 @@
+{
+  "title": "Jam",
+  "source_url": "https://publicdomainrecipes.com/jam/",
+  "source_author": "pestanzul",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/jam.md",
+  "original_sha256": "b6e2c7388fd350bebde37d92740a8094384e0bc0469a08ab055cf084982e6211",
+  "original_front_matter": {
+    "title": "Jam",
+    "tags": [
+      "fasting",
+      "fruit",
+      "jam"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Cook time": "2 h"
+  },
+  "ingredients_source_markdown": "- 1 kg fruit of your choice\n- 1 kg sugar",
+  "directions_source_markdown": "1. Cut the fruit in small pieces and place it in a pot.\n2. Cook on the stove, on low fire.\n   Stir very often so that the fruit doesn't burn.\n3. As soon as some juice collects on the bottom of the pot, add sugar and stir until it is no longer visible.\n4. Keep the pot on low fire, stirring often and in particular the bottom, which will otherwise burn very easily.\n5. Jam _must boil_ for _at least 2 hours_.\n   This is necessary to inactivate botulinum spores that may be present in the fruit, which could otherwise produce deadly toxins.\n6. If fruit pieces are still visible, you may blend them.\n7. Pour boiling-hot jam in glass jars and close them immediately.\n   They will go vacuum in a few minutes: you can then store your jam for many months.",
+  "images": [
+    {
+      "alt": "Jam",
+      "source_url": "https://publicdomainrecipes.com/pix/jam.webp",
+      "source_reference": "/pix/jam.webp",
+      "status": "retrieved",
+      "filename": "jam.webp",
+      "sha256": "e32f0117f6e842e6483f51d09b772d5ce548e47fde69466cd9e3e4d4f90ecdac"
+    }
+  ],
+  "coverage_group": "drinks-preserves-fermentation"
+}

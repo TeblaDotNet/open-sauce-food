@@ -1,0 +1,79 @@
+::recipe
+
+name: Fall Vegetable and Chickpea Curry
+source: https://publicdomainrecipes.com/fall-vegetable-and-chickpea-curry/
+source author: joel-maxuel
+source license: Public domain (Unlicense)
+ingredients: US
+units: US
+category: main
+tags: curry, chickpeas, vegetables
+dietary: vegetarian
+serves: 4
+active time: ~15m
+total time: ~40m
+image: fall-vegetable-and-chickpea-curry.webp
+
+::ingredients
+
+(butter) 1tbsp
+(onion, chopped) 1
+(Thai red curry paste) 2tbsp
+(ginger, minced) 1tbsp
+(sweet potato, large, peeled, 1/2in chunks) 1
+(zucchini, small, 1/2in chunks) 1
+(red pepper, 1/2in pieces) 1
+(chickpeas, canned, rinsed, drained) 28oz
+(lime) 1
+(flour; wheat) 3tbsp
+(milk) 1 1/2 cups
+(coriander, fresh, chopped) 1/2 cup
+(water) 1/2 cup
+(salt) to taste
+(yogurt, optional, for serving) as desired
+
+::equipment
+
+(frying pan, large, non-stick)
+
+::instructions
+
+(butter) <heat, frying pan, medium-high heat>
+    + (onion)
+    <cook, stirring, 2m>
+    + (Thai red curry paste)
+    + (ginger)
+    <cook, stirring, 1m>
+
+{curry} =
+    (sweet potato) +
+    (zucchini) +
+    (red pepper) +
+    (salt) +
+    (water)
+
+{curry} <cook, covered, stirring occasionally, ~10m, until vegetables soften>
+    + (chickpeas)
+    + (lime: zest)
+    + (lime: juice)
+    <cook, stirring frequently, ~5m, until vegetables are tender and liquid evaporates>
+
+{slurry} =
+    (flour) +
+    (milk)
+
+{slurry} <whisk>
+
+{curry} + {slurry}
+    <stir in, gradually>
+    <bring to simmer>
+    <simmer, medium heat, stirring occasionally, 5m>
+    + (coriander)
+    <stir>
+
+Optional [
+    {curry} + (yogurt) <serve with>
+]
+
+::notes
+The source suggests serving this curry over rice or on its own with a dollop of yogurt.

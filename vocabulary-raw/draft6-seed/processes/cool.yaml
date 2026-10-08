@@ -1,0 +1,29 @@
+id: cool
+kind: process
+names:
+  en: cool
+observed_forms:
+- syntax: cool
+  count: 2
+- syntax: cool, a few minutes
+  count: 1
+- syntax: cool, cold water
+  count: 1
+- syntax: cool, oven turned off
+  count: 1
+- syntax: cool, slightly
+  count: 1
+seen_in:
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+- examples/public-domain-recipes/pavlova/pavlova.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: a few minutes
+  count: 1
+- value: cold water
+  count: 1
+- value: oven turned off
+  count: 1
+- value: slightly
+  count: 1
+legacy_observation: true

@@ -1,0 +1,46 @@
+{
+  "title": "Casio in pastelletto",
+  "source_url": "https://publicdomainrecipes.com/casio-in-pastelletto/",
+  "source_author": "pestanzul",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/casio-in-pastelletto.md",
+  "original_sha256": "ace2e6b082926feb622bfc9206a0e5ec3129f1419b266d2a1f03ce176f2c183e",
+  "original_front_matter": {
+    "title": "Casio in pastelletto",
+    "tags": [
+      "cheese",
+      "cheesefare",
+      "easy",
+      "italian",
+      "medieval"
+    ],
+    "date": "2026-02-14",
+    "author": "pestanzul"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "1 min",
+    "Cook time": "3 min",
+    "Servings": "1"
+  },
+  "ingredients_source_markdown": "- 2 slice cheese. Use a cheese that is mid-aged, not too savoury and not too delicate.\n- sugar\n- cinnamon\n- butter or lard",
+  "directions_source_markdown": "1. Place the cheese in a pan with frying butter or lard.\n1. Immediately sprinkle sugar and cinnamon all over it.\n1. As soon as it softens, remove it from the pan.\n1. Serve warm.",
+  "images": [
+    {
+      "alt": "Casio in pastelletto",
+      "source_url": "https://publicdomainrecipes.com/pix/casio-in-pastelletto.webp",
+      "source_reference": "/pix/casio-in-pastelletto.webp",
+      "status": "retrieved",
+      "filename": "casio-in-pastelletto.webp",
+      "sha256": "3b5761b61b22dd6b75e9bd60b7f6b1a8c00b7138fe0c9bea9bf55f06616092bf"
+    }
+  ],
+  "coverage_group": "dessert-historical"
+}

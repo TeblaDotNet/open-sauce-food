@@ -1,0 +1,93 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Apple Chicken
+source: https://publicdomainrecipes.com/apple-chicken/
+source author: miraunpajaro
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: spanish, chicken, baking, apple
+serves: 4
+image: apple-chicken.webp
+
+# Imported from content/apple-chicken.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 40 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(chicken breast or similar)
+(onion)
+(nuez moscada)
+(apple)
+(potatoes)
+(cream or creme fraiche)
+(salt)
+(pepper)
+(glass of wine or cognac, 33c) One
+
+::equipment
+
+(oven)
+
+::instructions
+
+<heat, the oven to 200C and prepare an oven tray>
+<mix, the chicken with nuez moscada, salt and pepper>
+<remove, the center of the apples, fill with nuez moscada and butter>
+<put, the chicken in the oven tray>
+<put, the chicken, onions and apple in the oven tray>
+<add, salt and pepper>
+<cook, in the oven for 40 min>
+While the chicken is the oven prepare mushed potatoes. First you boil them until they are soft （keep the skin on）. Once they are soft, peel them. Then mush them with a fork and add milk or creme fraiche.
+<add, the wine or the cognac. Cook until the chicken is well cooked>
+<enjoy>
+
+::story
+
+Baked chicken with apples and onions. Suprinsingly good and simple combination.
+
+
+::source
+<<<
+---
+title: "Apple Chicken"
+tags: ['spanish', 'chicken', 'baking', 'apple']
+date: 2022-07-11
+author: miraunpajaro
+---
+
+![Applechicken](/pix/apple-chicken.webp)
+Baked chicken with apples and onions. Suprinsingly good and simple combination.
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 40 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- Chicken breast or similar.
+- Onions.
+- Nuez moscada.
+- Apples.
+- Potatoes.
+- Cream or creme fraiche.
+- Salt.
+- Pepper.
+- One glass (33c) of wine or cognac.
+## Directions
+
+1. Heat the oven to 200C and prepare an oven tray.
+2. Mix the chicken with nuez moscada, salt and pepper.
+3. Remove the center of the apples, fill with nuez moscada and butter.
+4. Put the chicken in the oven tray.
+5. Put the chicken, onions and apple in the oven tray.
+6. Add salt and pepper.
+7. Cook in the oven for 40 min.
+8. While the chicken is the oven prepare mushed potatoes. First you boil them until they are soft (keep the skin on). Once they are soft, peel them. Then mush them with a fork and add milk or creme fraiche.
+9. Add the wine or the cognac. Cook until the chicken is well cooked.
+10. Enjoy.
+>>>

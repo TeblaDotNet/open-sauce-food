@@ -1,0 +1,15 @@
+id: honey
+kind: ingredient
+names:
+  en: honey
+observed_forms:
+- syntax: honey, clear, optional
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: clear
+  count: 1
+- value: optional
+  count: 1
+legacy_observation: true

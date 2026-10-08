@@ -1,0 +1,16 @@
+id: raisins
+kind: ingredient
+canonical_name: raisins
+names:
+  en: raisins
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: raisins
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/kvass/kvass.opensauce
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce

@@ -1,0 +1,15 @@
+id: shaoxing-wine
+kind: ingredient
+canonical_name: Shaoxing wine
+names:
+  en: Shaoxing wine
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: Shaoxing wine
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce

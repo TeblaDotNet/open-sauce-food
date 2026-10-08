@@ -1,0 +1,19 @@
+id: butterfly
+kind: process
+canonical_name: butterfly
+names:
+  en: butterfly
+status: canonical-seed
+evidence:
+  legacy_observation_count: 0
+  observed_terms:
+    - term: butterfly
+      count: 1
+  seen_in: []
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: cut from side one-third up then open and repeat
+    count: 1
+  - value: like pamphlet; source video illustrates
+    count: 1

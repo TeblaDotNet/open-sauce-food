@@ -1,0 +1,16 @@
+id: beer
+kind: ingredient
+canonical_name: beer
+names:
+  en: beer
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  seen_in:
+  - examples/public-domain-recipes/beef-stew/beef-stew.opensauce
+  - examples/public-domain-recipes/french-crepes/french-crepes.opensauce
+  - examples/public-domain-recipes/hangover-eggs/hangover-eggs.opensauce
+  - examples/public-domain-recipes/portuguese-steak-with-beer-sauce/portuguese-steak-with-beer-sauce.opensauce
+  - examples/public-domain-recipes/stoofvlees/stoofvlees.opensauce
+  review_note: Vocabulary review pass 1; lexical/concept identification only, no human review claim.

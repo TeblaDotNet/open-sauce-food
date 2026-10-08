@@ -1,0 +1,31 @@
+id: blend
+kind: process
+names:
+  en: blend
+observed_forms:
+- syntax: blend
+  count: 2
+- syntax: blend, immersion blender, desired consistency
+  count: 1
+- syntax: blend, until combined
+  count: 1
+- syntax: blend, until creamy
+  count: 1
+- syntax: blend, until smooth
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: desired consistency
+  count: 1
+- value: immersion blender
+  count: 1
+- value: until combined
+  count: 1
+- value: until creamy
+  count: 1
+- value: until smooth
+  count: 1
+legacy_observation: true

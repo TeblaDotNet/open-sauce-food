@@ -1,0 +1,9 @@
+id: instant-yeast
+kind: ingredient
+names:
+  en: instant yeast
+observed_forms:
+- syntax: instant yeast
+  count: 1
+seen_in:
+- examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce

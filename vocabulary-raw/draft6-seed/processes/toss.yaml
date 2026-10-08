@@ -1,0 +1,17 @@
+id: toss
+kind: process
+names:
+  en: toss
+observed_forms:
+- syntax: toss
+  count: 3
+- syntax: toss, medium-high heat, 1-2m
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 1-2m
+  count: 1
+- value: medium-high heat
+  count: 1
+legacy_observation: true

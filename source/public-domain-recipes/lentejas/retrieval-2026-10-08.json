@@ -1,0 +1,33 @@
+{
+  "title": "Sopa de Lentejas",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/lentejas.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "f454abb5da7a8967cb3d10644fe5f7f5d0ee66102d4ccfa341615cc3a1d41fc7",
+  "original_front_matter": {
+    "title": "Sopa de Lentejas",
+    "date": "2021-03-21",
+    "tags": [
+      "spanish"
+    ],
+    "author": "nacchofer31"
+  },
+  "source_url": "https://publicdomainrecipes.com/lentejas/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Lentejas",
+      "url": "/pix/lentejas.webp",
+      "upstreamPath": "static/pix/lentejas.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

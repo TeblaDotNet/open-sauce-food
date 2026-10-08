@@ -1,0 +1,12 @@
+id: distribute
+kind: process
+names:
+  en: distribute
+observed_forms:
+- syntax: distribute, rice evenly
+  count: 1
+seen_in:
+- examples/public-domain-recipes/paella/paella.opensauce
+observed_parameters:
+- value: rice evenly
+  count: 1

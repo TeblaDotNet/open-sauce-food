@@ -1,0 +1,76 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Galinha Caipira
+source: https://publicdomainrecipes.com/galinha-caipira/
+source author: bernardo-slongo
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: chicken, stew, brazilian
+serves: Usually enough for a family of five.
+
+# Imported from content/galinha-caipira.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 30 min
+# Source metadata: - 🍳 Cook time: 2h 30min
+# Source metadata: - 🍽️ Servings: Usually enough for a family of five.
+
+::ingredients
+
+(ckicken, whole, source spelling; source advises avoiding industrially grown birds) close to 2,5kg / roughly 3 pounds # Source equivalence is inconsistent; neither amount corrected.
+(onions of any kind, diced) A cup
+(chives, diced) Half a cup
+(lard) A tablespoon
+(boiled water) A full kettle
+
+::equipment
+
+(pot)
+
+::instructions
+
+<cut, the chicken into pieces. Remove offal or small bones, if you want. Salt and pepper to taste now>
+In a pan （best if cast iron）, add the lard and heat it up very well.
+<add, the chicken and lower the heat>
+After the meat sears, add the diced onions.
+When the onions brown, cover the pot with boiling water, and let it simmer for two hours. If it dries, add more water.
+After those two hours, add the diced chives and simmer it for more thirty minutes.
+
+::story
+
+Chicken stew ubiquitous in rural Brazil. Perfect pair with rice and beans, polenta or boiled cassava root.
+
+
+::source
+<<<
+---
+title: Galinha Caipira
+tags: ['chicken', 'stew', 'brazilian']
+date: 2022-11-16
+author: "bernardo-slongo"
+---
+
+Chicken stew ubiquitous in rural Brazil. Perfect pair with rice and beans, polenta or boiled cassava root.
+
+- ⏲️ Prep time: 30 min
+- 🍳 Cook time: 2h 30min
+- 🍽️ Servings: Usually enough for a family of five.
+
+## Ingredients
+
+- A whole ckicken weighing close to 2,5kg (roughly 3 pounds). Avoid industrially grown birds, as those can make the stew very greasy and flavorless.
+- A cup of diced onions of any kind.
+- Half a cup of diced chives.
+- A tablespoon of lard.
+- A full kettle of boiled water.
+
+## Directions
+
+1. Cut the chicken into pieces. Remove offal or small bones, if you want. Salt and pepper to taste now.
+2. In a pan (best if cast iron), add the lard and heat it up very well.
+3. Add the chicken and lower the heat.
+4. After the meat sears, add the diced onions.
+5. When the onions brown, cover the pot with boiling water, and let it simmer for two hours. If it dries, add more water.
+6. After those two hours, add the diced chives and simmer it for more thirty minutes.
+>>>

@@ -1,0 +1,9 @@
+id: mesh-strainer
+kind: equipment
+names:
+  en: mesh strainer
+observed_forms:
+- syntax: mesh strainer
+  count: 1
+seen_in:
+- examples/public-domain-recipes/hummus/hummus.opensauce

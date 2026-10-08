@@ -1,0 +1,26 @@
+id: smoke
+kind: process
+canonical_name: smoke
+names:
+  en: smoke
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: smoke
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/baby-back-ribs/baby-back-ribs.opensauce
+observed_parameters:
+- value: 180f
+  count: 1
+- value: 225f
+  count: 1
+- value: 2h
+  count: 1
+- value: 3h
+  count: 1
+- value: bone down meat up
+  count: 1

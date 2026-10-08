@@ -1,0 +1,21 @@
+id: clean
+kind: process
+canonical_name: clean
+names:
+  en: clean
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: clean
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+observed_parameters:
+- value: as many as needed
+  count: 1

@@ -1,0 +1,18 @@
+id: baking-vessel
+kind: equipment
+canonical_name: baking vessel
+names:
+  en: baking vessel
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: baking vessel
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+observed_qualifiers:
+- value: high-temperature
+  count: 1

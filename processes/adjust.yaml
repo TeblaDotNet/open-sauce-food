@@ -1,0 +1,29 @@
+id: adjust
+kind: process
+canonical_name: adjust
+names:
+  en: adjust
+status: canonical-seed
+evidence:
+  current_recipe_count: 6
+  current_observation_count: 6
+  legacy_observation_count: 0
+  observed_terms:
+  - term: adjust
+    count: 6
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/hummus/hummus.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+observed_parameters:
+- value: flavouring accordingly
+  count: 1
+- value: lemon juice and salt
+  count: 1
+- value: rack top third
+  count: 1
+- value: salt
+  count: 3

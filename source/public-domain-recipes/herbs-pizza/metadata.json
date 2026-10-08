@@ -1,0 +1,41 @@
+{
+  "title": "Herbs pizza",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/herbs-pizza.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "124183ed17df6d74061e41cf4da89812300b313ddffba0e6be7841d0a38abb5b",
+  "original_front_matter": {
+    "title": "Herbs pizza",
+    "tags": [
+      "cheesefare",
+      "italian",
+      "baking",
+      "pie"
+    ],
+    "date": "2026-02-14",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/herbs-pizza/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Herbs pizza",
+      "url": "/pix/herbs-pizza.webp",
+      "upstreamPath": "static/pix/herbs-pizza.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "88bb9895fcdd4a7329079d0ffb7040cfe47c00e5f3f8c99730bc92206bb3a12a",
+      "sourcePath": "source/public-domain-recipes/herbs-pizza/herbs-pizza.webp",
+      "promotedPath": "examples/public-domain-recipes/herbs-pizza/herbs-pizza.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

@@ -1,0 +1,16 @@
+id: black-tea
+kind: ingredient
+canonical_name: black tea
+names:
+  en: black tea
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: black tea
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce

@@ -1,0 +1,23 @@
+id: tomato-paste
+kind: ingredient
+canonical_name: tomato paste
+names:
+  en: tomato paste
+status: canonical-seed
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: tomato paste
+    count: 4
+  seen_in:
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce
+  - examples/public-domain-recipes/ratatouille/ratatouille.opensauce
+  - examples/public-domain-recipes/red-sauce/red-sauce.opensauce
+observed_qualifiers:
+- value: concentrated
+  count: 1
+- value: optional if tomatoes lack flavour
+  count: 1

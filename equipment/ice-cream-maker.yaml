@@ -1,0 +1,15 @@
+id: ice-cream-maker
+kind: equipment
+canonical_name: ice cream maker
+names:
+  en: ice cream maker
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: ice cream maker
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/honey-vanilla-ice-cream/honey-vanilla-ice-cream.opensauce

@@ -1,0 +1,36 @@
+{
+  "title": "Hummus",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/hummus.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "98a933377dfe68243fc5222fd3fce26cba3a705790e73790ed4e538253d462f4",
+  "original_front_matter": {
+    "title": "Hummus",
+    "date": "2021-03-13",
+    "tags": [
+      "basic",
+      "snack",
+      "spread",
+      "fasting"
+    ],
+    "author": "jacob-smith"
+  },
+  "source_url": "https://publicdomainrecipes.com/hummus/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "Hummus",
+      "url": "/pix/hummus.webp",
+      "upstreamPath": "static/pix/hummus.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

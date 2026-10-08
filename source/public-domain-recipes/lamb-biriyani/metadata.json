@@ -1,0 +1,40 @@
+{
+  "title": "Lamb Biriyani",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/lamb-biriyani.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "c1ae92eee2ae8cbd31615b38d1707a2314ebee99a7adcc2dc23dbdb36b6b6bda",
+  "original_front_matter": {
+    "title": "Lamb Biriyani",
+    "date": "2021-03-21",
+    "tags": [
+      "lamb",
+      "mutton",
+      "indian"
+    ],
+    "author": "ram-pari"
+  },
+  "source_url": "https://publicdomainrecipes.com/lamb-biriyani/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Lamb Biriyani",
+      "url": "/pix/lamb-biriyani.webp",
+      "upstreamPath": "static/pix/lamb-biriyani.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "380a96638268f9fd7f5f363a9c3205da39ff5606d2cd01ebd180ed3ba8f4bf33",
+      "sourcePath": "source/public-domain-recipes/lamb-biriyani/lamb-biriyani.webp",
+      "promotedPath": "examples/public-domain-recipes/lamb-biriyani/lamb-biriyani.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

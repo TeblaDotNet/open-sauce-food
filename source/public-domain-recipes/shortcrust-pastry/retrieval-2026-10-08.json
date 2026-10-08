@@ -1,0 +1,33 @@
+{
+  "title": "Shortcrust pastry",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/shortcrust-pastry.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "66e59c615a7d790f247648e6b9e08ecc53e49bb24be65e759c189351c49d2997",
+  "original_front_matter": {
+    "title": "Shortcrust pastry",
+    "tags": [
+      "baking",
+      "basic",
+      "dough",
+      "sweet"
+    ],
+    "date": "2025-09-25",
+    "author": "pestanzul"
+  },
+  "source_url": "https://publicdomainrecipes.com/shortcrust-pastry/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

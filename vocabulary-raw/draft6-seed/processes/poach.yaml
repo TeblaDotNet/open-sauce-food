@@ -1,0 +1,19 @@
+id: poach
+kind: process
+names:
+  en: poach
+observed_forms:
+- syntax: poach, medium heat, covered, 10-12m, until cooked through
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 10-12m
+  count: 1
+- value: covered
+  count: 1
+- value: medium heat
+  count: 1
+- value: until cooked through
+  count: 1
+legacy_observation: true

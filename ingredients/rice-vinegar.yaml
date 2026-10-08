@@ -1,0 +1,15 @@
+id: rice-vinegar
+kind: ingredient
+canonical_name: rice vinegar
+names:
+  en: rice vinegar
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: rice vinegar
+    count: 1

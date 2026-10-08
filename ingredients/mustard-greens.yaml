@@ -1,0 +1,18 @@
+id: mustard-greens
+kind: ingredient
+canonical_name: mustard greens
+names:
+  en: mustard greens
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: mustard greens
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+observed_qualifiers:
+- value: optional substitute for unavailable turnip greens
+  count: 1

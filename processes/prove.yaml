@@ -1,0 +1,44 @@
+id: prove
+kind: process
+canonical_name: prove
+names:
+  en: prove
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 8
+  legacy_observation_count: 0
+  observed_terms:
+  - term: prove
+    count: 8
+  seen_in:
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/pretzels/pretzels.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+observed_parameters:
+- value: 1-2h or until doubled
+  count: 1
+- value: 1h
+  count: 1
+- value: 2h
+  count: 1
+- value: 4-5h
+  count: 1
+- value: 80-85f / 25-30c
+  count: 1
+- value: countertop
+  count: 2
+- value: overnight for best flavour
+  count: 1
+- value: refrigerator
+  count: 1
+- value: room temperature
+  count: 1
+- value: until doubled
+  count: 1
+- value: ~2h
+  count: 2
+- value: ~45m or until doubled
+  count: 1

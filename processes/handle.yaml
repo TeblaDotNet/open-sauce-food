@@ -1,0 +1,20 @@
+id: handle
+kind: process
+canonical_name: handle
+names:
+  en: handle
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: handle
+    count: 1
+observed_parameters:
+- value: briefly
+  count: 1
+- value: floured surface
+  count: 1

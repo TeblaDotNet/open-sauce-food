@@ -1,0 +1,44 @@
+{
+  "title": "Spanish Tortilla",
+  "source_url": "https://publicdomainrecipes.com/spanish-tortilla/",
+  "source_author": "octopusonfire",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/spanish-tortilla.md",
+  "original_sha256": "ee13e11be4dff6501b5814da1b987d38766594feeee131ea6c14c48f56b1d53c",
+  "original_front_matter": {
+    "title": "Spanish Tortilla",
+    "date": "2021-03-21",
+    "tags": [
+      "spanish",
+      "potato",
+      "eggs"
+    ],
+    "author": "octopusonfire"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "5 min",
+    "Cook time": "35 min",
+    "Servings": "6"
+  },
+  "ingredients_source_markdown": "* 8 free-range eggs\n* 1 kg of potatoes\n* 1 white onion\n* Extra virgin olive oil",
+  "directions_source_markdown": "1. Peel, rinse and dry the potatoes.\n2. Cut the potatoes into thin slices. Put in a bowl, add salt to taste and stir.\n3. Put a nonstick frying pan on the fire and add enough olive oil to fry all the potato slices.\n4. Add the potato slices already salted and let them cook for approximately 20 minutes over low heat.\n5. While the potatoes are frying, beat the eggs in a bowl. Peel and cut the onion as finely as possible.\n6. Add olive oil in another frying pan and slowly fry the onion until it gets a slightly golden color.\n7. Drain the onion and add it to the bowl with the beaten egg.\n8. Remove the potatoes from the pan with a slotted spoon, draining the oil away as much as possible, and add them to the bowl with the onion and egg.\n9. Let the mixture rest for at least 5 minutes so all the flavors come together. Give it a very gentle stir from time to time.\n10. Remove the oil from the pan you used to fry the potatoes. Use the pan to cook the mixture over medium-high fire for about 5 minutes.\n11. Flip it over with the help of a big plate and cook the other side for another 5 minutes.",
+  "images": [
+    {
+      "alt": "Spanish Tortilla",
+      "source_url": "https://publicdomainrecipes.com/pix/spanish-tortilla.webp",
+      "source_reference": "/pix/spanish-tortilla.webp",
+      "status": "retrieved",
+      "filename": "spanish-tortilla.webp",
+      "sha256": "d461eac3d3bbc04c66b96b9b0612669d7a003c72e2884750ac8762003029e9b8"
+    }
+  ],
+  "coverage_group": "mixed"
+}

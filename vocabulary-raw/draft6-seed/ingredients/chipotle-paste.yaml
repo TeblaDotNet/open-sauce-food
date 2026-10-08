@@ -1,0 +1,10 @@
+id: chipotle-paste
+kind: ingredient
+names:
+  en: chipotle paste
+observed_forms:
+- syntax: chipotle paste
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

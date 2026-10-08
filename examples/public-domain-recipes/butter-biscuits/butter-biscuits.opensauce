@@ -1,0 +1,55 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Butter Biscuits
+source: https://publicdomainrecipes.com/butter-biscuits/
+source author: Miss Leslie
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: biscuit, basic
+
+# Imported from content/butter-biscuits.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(half a pound of butter)
+(flour, sifted) Two pounds
+(half a pint of milk, or cold water.)
+(salt) A salt-spoonful
+
+::equipment
+
+(oven)
+
+::instructions
+
+<cut, up the butter in the flour, and put the salt to it. Wet it to a stiff dough with the milk or water. Mix it well with a knife>
+Throw some flour on the paste-board, take the dough out of the pan, and knead it very well.
+<roll, it out into a large thick sheet, and beat it very hard on both sides with the rolling-pin. Beat it a long time>
+<cut, it out with a tin, or cup, into small round thick cakes. Beat each cake on both sides, with the rolling-pin. Prick them, with a fork. Put them in buttered pans, and bake them of a light brown in a slow oven>
+
+::source
+<<<
+---
+title: "Butter Biscuits"
+tags: ['biscuit', 'basic']
+date: 1832-01-01
+author: "Miss Leslie"
+---
+
+## Ingredients
+
+- Half a pound of butter.
+- Two pounds of flour, sifted
+- Half a pint of milk, or cold water.
+- A salt-spoonful of salt.
+
+## Directions
+
+1. Cut up the butter in the flour, and put the salt to it. Wet it to a stiff dough with the milk or water. Mix it well with a knife.
+2. Throw some flour on the paste-board, take the dough out of the pan, and knead it very well.
+3. Roll it out into a large thick sheet, and beat it very hard on both sides with the rolling-pin. Beat it a long time.
+4. Cut it out with a tin, or cup, into small round thick cakes. Beat each cake on both sides, with the rolling-pin. Prick them, with a fork. Put them in buttered pans, and bake them of a light brown in a slow oven.
+>>>

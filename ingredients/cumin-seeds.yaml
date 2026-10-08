@@ -1,0 +1,15 @@
+id: cumin-seeds
+kind: ingredient
+canonical_name: cumin seeds
+names:
+  en: cumin seeds
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cumin seeds
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce

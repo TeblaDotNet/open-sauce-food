@@ -1,0 +1,43 @@
+{
+  "title": "Pulpo a la gallega",
+  "source_url": "https://publicdomainrecipes.com/pulpo-gallega/",
+  "source_author": "ivn1s",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pulpo-gallega.md",
+  "original_sha256": "2489d0a8d3107485ff130d1a0f989d5142bb8057790cd2f272bd34d35a03871e",
+  "original_front_matter": {
+    "title": "Pulpo a la gallega",
+    "tags": [
+      "fish",
+      "spanish"
+    ],
+    "date": "2022-07-13",
+    "author": "ivn1s"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "5 min",
+    "Cook time": "35 to 40 min",
+    "Servings": ""
+  },
+  "ingredients_source_markdown": "- 1 octopus (1.7 to 2kg)\n- Potatoes\n- 2 bay leaves\n- Sweet and spicy red pepper\n- Salt\n- oil",
+  "directions_source_markdown": "1. Boil water along with salt and the bay leaves\n2. Once the water is boiling, introduce the octopus 3 times by putting it on and taking it out, then let it cook for 35 to 40 minutes by puncturing it to see whether it is already soft or we need to leave it a little longer\n3. turn off the fire and let it rest for 20 minutes more with the same water. Meanwhile we will have boiled the potatoes with skin for about 25 minutes depending on the size.\n4. We will remove the octopus from the water and let it cool, and once it is cold, we will cut it in slices with scissors.\n5. To assemble the dish we will laminate the potatoes by placing them at the bottom of the plate, on top and we will put the octopus slices seasoning it with salt, the sweet and spicy red pepper and a good squirt of olive oil.",
+  "images": [
+    {
+      "alt": "pulpo a la gallega",
+      "source_url": "https://publicdomainrecipes.com/pix/pulpo-gallega.webp",
+      "source_reference": "/pix/pulpo-gallega.webp",
+      "status": "retrieved",
+      "filename": "pulpo-gallega.webp",
+      "sha256": "d3145a0556b6783ee5ad1179805ef0186f0ec1f73d3a4c52f299deca04c50ba1"
+    }
+  ],
+  "coverage_group": "fish-seafood"
+}

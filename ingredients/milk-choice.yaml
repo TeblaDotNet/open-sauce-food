@@ -1,0 +1,15 @@
+id: milk-choice
+kind: ingredient
+canonical_name: milk choice
+names:
+  en: milk choice
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: milk choice
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce

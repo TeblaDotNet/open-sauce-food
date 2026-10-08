@@ -1,0 +1,35 @@
+{
+  "title": "Classic béchamel sauce",
+  "source_url": "https://publicdomainrecipes.com/classic-bechamel-sauce/",
+  "source_author": "yiusa",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/classic-bechamel-sauce.md",
+  "original_sha256": "0a12eeabe9318b896f4244fc316017fdedeff9329686762aeb351ddf2e0cbdfb",
+  "original_front_matter": {
+    "title": "Classic béchamel sauce",
+    "date": "2021-03-21",
+    "tags": [
+      "basic",
+      "sauce",
+      "french",
+      "italian"
+    ],
+    "author": "yiusa"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "0m",
+    "Cook time": "15-20 min"
+  },
+  "ingredients_source_markdown": "- 5 Teaspoons unsalted butter\n- 5 Teaspoons flour\n- 1 litre whole milk\n- Salt to taste\n- Pepper to taste\n- Pinch of nutmeg",
+  "directions_source_markdown": "1. Put your butter in your pot and let is slowly melt on medium to low heat.\n2. Once the butter is fully melted add the flour and stir it in to make a roux.\n3. Keep stiring your roux on medium low heat until it gets lightly golden brown and starts melling a bit nutty.\n4. Add about a glass of your whole milk and stir until combined, repeat this process until you have a thick sauce in your pan and new milk you add easily combines. Never stop stirring.\n5. At this point you can add the rest of your milk, if you skip the previous step you will end up with lumps of roux that are hard to get out.\n6. Lower your heat to low and keep stiring don't forget to get in the corners of the pot because your sauce will burn easily.\n7. Once your sauce has the desired thickness give it a taste and add your salt and pepper until it is to your liking. A pinch of nutmeg, preferably freshly grated, will also go a long way.",
+  "images": [],
+  "coverage_group": "sauces"
+}

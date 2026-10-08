@@ -1,0 +1,10 @@
+id: creme-fraiche
+kind: ingredient
+names:
+  en: crème fraîche
+observed_forms:
+- syntax: crème fraîche
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+legacy_observation: true

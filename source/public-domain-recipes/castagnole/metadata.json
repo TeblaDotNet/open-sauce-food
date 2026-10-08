@@ -1,0 +1,45 @@
+{
+  "title": "Castagnole",
+  "source_url": "https://publicdomainrecipes.com/castagnole/",
+  "source_author": "pestanzul",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/castagnole.md",
+  "original_sha256": "39a2302bf30953d9ff11dec000d723d7c89547e0153e2acf19d1be621fc9883c",
+  "original_front_matter": {
+    "title": "Castagnole",
+    "tags": [
+      "fry",
+      "italian",
+      "sweet",
+      "traditional"
+    ],
+    "date": "2026-02-14",
+    "author": "pestanzul"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "10 min",
+    "Cook time": "5 min",
+    "Servings": "15"
+  },
+  "ingredients_source_markdown": "- 5 eggs\n- 5 tablespoons sugar\n- 1 glass milk\n- 3 tablespoons olive oil\n- flour\n- instant yeast\n- oil or lard\n- half a glass mistrà (optional)\n- honey (optional)",
+  "directions_source_markdown": "1. Mix eggs, sugar, milk, flour, yeast and mistrà and knead them in a soft dough.\n1. Roll out to about 1.5 cm thick.\n1. Cut it to squares about 5 cm long.\n1. Fry them for about 5 minutes.\n1. Dry them and sweeten with sugar or honey.",
+  "images": [
+    {
+      "alt": "Castagnole",
+      "source_url": "https://publicdomainrecipes.com/pix/castagnole.webp",
+      "source_reference": "/pix/castagnole.webp",
+      "status": "retrieved",
+      "filename": "castagnole.webp",
+      "sha256": "0d24472fbd898ed30e548e5cc167c3f745dede21abc563ae85a93f046d42af1a"
+    }
+  ],
+  "coverage_group": "baking"
+}

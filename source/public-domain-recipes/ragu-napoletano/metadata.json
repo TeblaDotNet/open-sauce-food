@@ -1,0 +1,39 @@
+{
+  "title": "Ragu Napoletano",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/ragu-napoletano.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "1dff51a11f1db10be8ebabdea1a537e3a81dbd7a940574c02ec96de4a5dda69e",
+  "original_front_matter": {
+    "title": "Ragu Napoletano",
+    "date": "2021-05-13",
+    "tags": [
+      "sauce",
+      "italian"
+    ],
+    "author": "mfed3"
+  },
+  "source_url": "https://publicdomainrecipes.com/ragu-napoletano/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Ragu Napoletano",
+      "url": "/pix/ragu-napoletano.webp",
+      "upstreamPath": "static/pix/ragu-napoletano.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "6b05f044c1455ea9ef6d70c79e5d2b488a1c23c3745c5a34008b68793accf437",
+      "sourcePath": "source/public-domain-recipes/ragu-napoletano/ragu-napoletano.webp",
+      "promotedPath": "examples/public-domain-recipes/ragu-napoletano/ragu-napoletano.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

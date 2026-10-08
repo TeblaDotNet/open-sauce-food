@@ -1,0 +1,40 @@
+{
+  "title": "Tanzania Tea with Milk",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tanzania-tea-with-milk.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "b26005a3decf893fe4d5910b044861496258afad37416142eb854ab2f360f429",
+  "original_front_matter": {
+    "title": "Tanzania Tea with Milk",
+    "date": "2021-04-20",
+    "tags": [
+      "drink",
+      "milk",
+      "quick"
+    ],
+    "author": "extramundane"
+  },
+  "source_url": "https://publicdomainrecipes.com/tanzania-tea-with-milk/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Tanzanian tea with milk",
+      "url": "/pix/tanzania-tea-with-milk.webp",
+      "upstreamPath": "static/pix/tanzania-tea-with-milk.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "6f548f50f1da17fe8568fc748cba9b06082e8f97e85564fce814c960dcaa2885",
+      "sourcePath": "source/public-domain-recipes/tanzania-tea-with-milk/tanzania-tea-with-milk.webp",
+      "promotedPath": "examples/public-domain-recipes/tanzania-tea-with-milk/tanzania-tea-with-milk.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

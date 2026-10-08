@@ -1,0 +1,44 @@
+{
+  "title": "Japanese Noodle Soup",
+  "source_url": "https://publicdomainrecipes.com/japanese-noodle-soup/",
+  "source_author": "jake-keast",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/japanese-noodle-soup.md",
+  "original_sha256": "19070e246cbb9e6af9ce47c8a3d3272bbda2bfa3df24c7bc54710ab93d303afd",
+  "original_front_matter": {
+    "title": "Japanese Noodle Soup",
+    "date": "2021-03-12",
+    "tags": [
+      "japanese",
+      "chicken",
+      "soup"
+    ],
+    "author": "jake-keast"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "20 minutes",
+    "Cook time": "20 minutes",
+    "Servings": "4"
+  },
+  "ingredients_source_markdown": "- 750ml Chicken stock\n- 4 Pork chops OR 4 Chicken Breasts\n- Set honey\n- 3 Garlic cloves\n- Soy sauce\n- Worcestershire sauce\n- Ginger, sliced\n- Chinese 5 Spice\n- 1 Red Chilli, sliced and deseeded (Optional, but recommended)\n- 375g Ramen Noodles (Medium Egg Noodles work well too)\n- 100g Spinach (Optional)\n- 4 Tbsp Sweetcorn (Optional)\n- Sesame seeds (Optional)\n- 4 Boiled Eggs (Optional)\n- 1 Sheet of Dried Nori (Optional)\n- Spring Onion, chopped (Optional)",
+  "directions_source_markdown": "1. For the broth, add 700ml of chicken stock to a large boiling pot with the garlic, ginger, soy sauce, chinese five spice, chili, and 300ml of water.\n2. Bring this to the boil, then turn the heat to low and simmer for around 5 mins.\n3. Add a pinch of sugar and more soy sauce to taste\n4. Fry the pork chops until cooked (My [Sticky Pork Chops](/sticky-porkchops) recipe works really well with this dish)\n5. Hard boil 4 eggs.\n6. Cook the ramen noodles as per packet instructions.\n7. Strain the stock into another pan, then reheat.\n8. Divide ramen between 4 bowls, then top with 1 sliced pork chop, 1/4 of the spinach (if applicable) sweetcorn, and one boiled egg (halved).\n9. Divide the stock into the bowls, then sprinkle over sesame seeds, shredded nori and the spring onion.",
+  "images": [
+    {
+      "alt": "Japanese Noodle Soup",
+      "source_url": "https://publicdomainrecipes.com/pix/japanese-noodle-soup.webp",
+      "source_reference": "/pix/japanese-noodle-soup.webp",
+      "status": "retrieved",
+      "filename": "japanese-noodle-soup.webp",
+      "sha256": "fb435bfb04ed7ef9cc708cfd5bf4f8789fc5bf601acdb8a4769582457c22a9d5"
+    }
+  ],
+  "coverage_group": "soups"
+}

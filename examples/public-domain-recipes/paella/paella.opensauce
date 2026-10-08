@@ -1,0 +1,85 @@
+::recipe
+
+name: Valencian Paella
+source: https://publicdomainrecipes.com/paella/
+source author: daviduhden
+source license: Public domain (Unlicense)
+ingredients: UK
+units: metric
+category: main
+tags: rice, Valencian, Spanish
+serves: 4
+active time: ~20m
+total time: ~1h20m
+image: paella.webp
+
+::ingredients
+
+(rice, bomba) 500g
+(chicken, free-range, pieces) 1
+(rabbit, pieces) 500g
+(green beans, flat) 150g
+(white beans, large, garrofó) 150g
+(tomato, ripe, grated) 2
+(paprika, sweet) 1tbsp
+(saffron) a few threads
+(extra virgin olive oil) 5tbsp
+(salt) to taste
+(water) 1.5l
+(artichoke, chopped, optional) 6
+(snail, cleaned, optional) 500g
+(rosemary, fresh, optional) a few sprigs
+
+::equipment
+
+(paella pan)
+
+::instructions
+
+(extra virgin olive oil) <heat, paella pan, medium-high heat>
+
+(chicken) + (rabbit)
+    <fry, until golden brown on all sides>
+
+{paella base} =
+    (chicken) +
+    (rabbit) +
+    (green beans) +
+    (white beans)
+
+{paella base} <sauté, a few minutes>
+    + (tomato)
+    <cook, until reduced and oil separates>
+    + (paprika)
+    <stir, do not burn>
+
+Optional [
+    {paella base} + (artichoke) + (snail)
+        <cook>
+]
+
+{broth} =
+    {paella base} +
+    (water)
+
+{broth} <bring to boil>
+    <cook, medium heat, ~20m>
+
+{paella} =
+    {broth} +
+    (rice) +
+    (saffron)
+
+{paella} <distribute, rice evenly>
+    <adjust, salt>
+    <cook, high heat, 10m, do not stir>
+    <cook, medium-low heat, 8-10m, until rice absorbs broth>
+
+Optional [
+    {paella} + (rosemary)
+        <add, final few minutes>
+]
+
+{paella} <remove from heat>
+    <rest, covered with clean cloth, 5m>
+    <serve>

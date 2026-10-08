@@ -1,0 +1,40 @@
+id: paprika
+kind: ingredient
+canonical_name: paprika
+names:
+  en: paprika
+status: reviewed-merge
+aliases:
+- name: paprica
+  type: source-spelling
+  observed_count: 1
+evidence:
+  current_recipe_count: 10
+  current_observation_count: 10
+  legacy_observation_count: 3
+  observed_terms:
+  - term: paprica
+    count: 1
+  - term: paprika
+    count: 9
+  seen_in:
+  - examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+  - examples/public-domain-recipes/fume-sauce/fume-sauce.opensauce
+  - examples/public-domain-recipes/ketchup/ketchup.opensauce
+  - examples/public-domain-recipes/lentejas/lentejas.opensauce
+  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce
+  - examples/public-domain-recipes/lenten-lentil-curry/lenten-lentil-curry.opensauce
+  - examples/public-domain-recipes/paella/paella.opensauce
+  - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce
+  legacy_terms:
+  - term: paprika
+    count: 3
+observed_qualifiers:
+- value: powder
+  count: 1
+- value: smoked
+  count: 2
+- value: sweet
+  count: 2

@@ -1,0 +1,17 @@
+id: lemon-juice
+kind: ingredient
+names:
+  en: lemon juice
+observed_forms:
+- syntax: lemon juice
+  count: 3
+- syntax: lemon juice, fresh preferred
+  count: 1
+seen_in:
+- examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/hummus/hummus.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_qualifiers:
+- value: fresh preferred
+  count: 1

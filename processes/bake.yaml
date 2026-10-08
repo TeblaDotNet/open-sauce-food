@@ -1,0 +1,211 @@
+id: bake
+kind: process
+canonical_name: bake
+names:
+  en: bake
+status: canonical-seed
+evidence:
+  legacy_observation_count: 14
+  observed_terms:
+    - term: bake
+      count: 45
+  seen_in:
+    - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+    - examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+    - examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce
+    - examples/public-domain-recipes/baked-trout/baked-trout.opensauce
+    - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+    - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+    - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+    - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/bread/bread.opensauce
+    - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce
+    - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+    - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+    - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce
+    - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+    - examples/public-domain-recipes/crostata/crostata.opensauce
+    - examples/public-domain-recipes/desert-roses/desert-roses.opensauce
+    - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+    - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+    - examples/public-domain-recipes/lavacake/lavacake.opensauce
+    - examples/public-domain-recipes/matcha-cookies/matcha-cookies.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+    - examples/public-domain-recipes/pavlova/pavlova.opensauce
+    - examples/public-domain-recipes/potato-and-eggplant-curry/potato-and-eggplant-curry.opensauce
+    - examples/public-domain-recipes/pretzels/pretzels.opensauce
+    - examples/public-domain-recipes/puff-pastry/puff-pastry.opensauce
+    - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+    - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+    - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+    - examples/public-domain-recipes/sourdough-bread-with-seeds-and-grains/sourdough-bread-with-seeds-and-grains.opensauce
+    - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce
+    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce
+    - examples/public-domain-recipes/sweet-potato-fries/sweet-potato-fries.opensauce
+    - examples/public-domain-recipes/zopf/zopf.opensauce
+  legacy_terms:
+    - term: bake
+      count: 14
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: 10-20m more
+    count: 1
+  - value: 10m
+    count: 4
+  - value: 12-15m
+    count: 1
+  - value: 15-20m
+    count: 2
+  - value: 150c / 300f
+    count: 2
+  - value: 15m
+    count: 2
+  - value: 170c / 338f
+    count: 1
+  - value: 170c / 340f
+    count: 2
+  - value: 175c / 350f conventional non-fan-forced
+    count: 1
+  - value: 180c
+    count: 5
+  - value: 19m
+    count: 1
+  - value: 1h
+    count: 1
+  - value: 20-25m
+    count: 1
+  - value: 20-30m
+    count: 2
+  - value: 200c
+    count: 2
+  - value: 20m
+    count: 4
+  - value: 25-30m
+    count: 1
+  - value: 26-35m
+    count: 1
+  - value: 275f / 135c
+    count: 1
+  - value: 2h or until internal 135f / 57c in thickest part
+    count: 1
+  - value: 30-35m
+    count: 1
+  - value: 30m
+    count: 4
+  - value: 35-42m
+    count: 1
+  - value: 350f
+    count: 2
+  - value: 350f / 175c
+    count: 1
+  - value: 350f / 325f convection
+    count: 1
+  - value: 40-60m depending on batter thickness
+    count: 1
+  - value: 400f / 200c
+    count: 1
+  - value: 400f for best results
+    count: 1
+  - value: 45m
+    count: 2
+  - value: 50-55m
+    count: 1
+  - value: 50-60m more
+    count: 1
+  - value: 55m
+    count: 1
+  - value: 7m
+    count: 2
+  - value: 8-10m
+    count: 2
+  - value: 9m
+    count: 1
+  - value: another 25-30m
+    count: 1
+  - value: another 5m if skewer not clean
+    count: 1
+  - value: covered
+    count: 2
+  - value: covered or steamed
+    count: 1
+  - value: deep golden and risen
+    count: 1
+  - value: depending on oven and desired crispiness
+    count: 1
+  - value: hollow when tapped
+    count: 1
+  - value: in foil
+    count: 1
+  - value: maximum heat
+    count: 1
+  - value: moderate oven
+    count: 2
+  - value: one baking sheet at a time
+    count: 2
+  - value: or until toothpick in centre comes out clean
+    count: 1
+  - value: oven
+    count: 1
+  - value: pastry golden
+    count: 1
+  - value: preheated oven
+    count: 3
+  - value: rusty crust and hollow when tapped
+    count: 1
+  - value: source setting retained
+    count: 1
+  - value: source states 302f / 105c
+    count: 1
+  - value: temperature and duration not stated
+    count: 1
+  - value: temperature not stated
+    count: 1
+  - value: uncovered
+    count: 2
+  - value: undisturbed
+    count: 2
+  - value: Unox convection oven
+    count: 1
+  - value: until crisp and golden
+    count: 1
+  - value: until crust is browned and filling is bubbling
+    count: 2
+  - value: until deep mahogany all over
+    count: 1
+  - value: until golden brown
+    count: 2
+  - value: until hollow when tapped
+    count: 1
+  - value: until puffed and browned
+    count: 2
+  - value: until risen and golden
+    count: 1
+  - value: until skewer comes out clean
+    count: 1
+  - value: until starting to brown
+    count: 2
+  - value: until wooden skewer or chopstick comes out clean
+    count: 1
+  - value: up to 20m
+    count: 1
+  - value: watch carefully to avoid burning
+    count: 1
+  - value: with steam
+    count: 1
+  - value: ~10m
+    count: 1
+  - value: ~15m
+    count: 1
+  - value: ~1h
+    count: 1
+  - value: ~20m
+    count: 1
+  - value: ~30m
+    count: 3
+  - value: ~45m
+    count: 3

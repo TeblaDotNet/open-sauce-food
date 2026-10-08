@@ -1,0 +1,41 @@
+{
+  "title": "Basic Sweet Potato Fries Recipe",
+  "source_url": "https://publicdomainrecipes.com/sweet-potato-fries/",
+  "source_author": "shane-kunz",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sweet-potato-fries.md",
+  "original_sha256": "596cefd2c133aaa3115d7166bf505d06048f65874f9056db9c13d2c77a45d6a9",
+  "original_front_matter": {
+    "title": "Basic Sweet Potato Fries Recipe",
+    "date": "2021-03-12",
+    "tags": [
+      "potato",
+      "snack",
+      "side",
+      "fasting"
+    ],
+    "author": "shane-kunz"
+  },
+  "source_timing_and_servings": {},
+  "ingredients_source_markdown": "* 1-2 Sweet Pototoes (try different types)\n* Olive Oil\n* Cinnamon\n* Rosemary (optional)",
+  "directions_source_markdown": "1. Set oven heat to 425°F (220°C).\n2. Grab a pan and put a layer of parchment paper (or aluminum foil) on it.\n3. Chop the potato(es) on your cutting board with a sharp knife throwing them onto the pan.\n4. Drizzle the fries with olive oil. Toss the fries with clean hands to coat the fries in olive oil. Now wash your hands with soap to remove excess olive oil.\n5. Top generously with cinnamon and salt. Pepper and/or rosemary may be added for additional flavor if desired.\n6. Put in preheated oven. Setting timer for 20 minutes.\n7. At 20 minutes, flip the fries. Rubber tongs make it easy to grab and turn a lot.\n8. Return to oven setting timer for another 10-20 minutes depending on quality of the oven and desired crispiness.\n9. Enjoy. Maybe them put in a glass bowl.",
+  "images": [
+    {
+      "alt": "cooked sweet pototo fries in pan",
+      "source_url": "https://publicdomainrecipes.com/pix/sweet-potato-fries.webp",
+      "source_reference": "/pix/sweet-potato-fries.webp",
+      "status": "retrieved",
+      "filename": "sweet-potato-fries.webp",
+      "sha256": "c307ee454941ee8d2fca2df0dc220315266d47b669b8212478ccf1300bc2edc1"
+    }
+  ],
+  "coverage_group": "mixed"
+}

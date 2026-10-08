@@ -1,0 +1,31 @@
+{
+  "title": "Salsa Verde",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/salsa-verde.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "ed496b1b50c6bc84784875f53509d92485f886747ae7c19ca6cca5b209f22671",
+  "original_front_matter": {
+    "title": "Salsa Verde",
+    "date": "2021-03-19",
+    "tags": [
+      "mexican",
+      "sauce"
+    ],
+    "author": "Nathan"
+  },
+  "source_url": "https://publicdomainrecipes.com/salsa-verde/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": []
+}

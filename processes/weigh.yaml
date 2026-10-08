@@ -1,0 +1,18 @@
+id: weigh
+kind: process
+canonical_name: weigh
+names:
+  en: weigh
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: weigh
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+observed_parameters:
+- value: 1/4lb
+  count: 1

@@ -1,0 +1,36 @@
+{
+  "title": "Liver and Onions",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/beef-liver-and-onions.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "3421e7f8a2c15d0de8d3e3200dff8d98eb9a6afde5f135c07b284512a743dc86",
+  "original_front_matter": {
+    "title": "Liver and Onions",
+    "tags": [
+      "beef",
+      "basic",
+      "easy",
+      "liver",
+      "quick"
+    ],
+    "date": "2023-04-28",
+    "author": "POI"
+  },
+  "source_url": "https://publicdomainrecipes.com/beef-liver-and-onions/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

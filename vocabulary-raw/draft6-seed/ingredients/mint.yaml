@@ -1,0 +1,15 @@
+id: mint
+kind: ingredient
+names:
+  en: mint
+observed_forms:
+- syntax: mint, fresh, chopped
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: chopped
+  count: 1
+- value: fresh
+  count: 1
+legacy_observation: true

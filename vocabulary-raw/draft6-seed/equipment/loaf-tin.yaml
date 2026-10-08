@@ -1,0 +1,13 @@
+id: loaf-tin
+kind: equipment
+names:
+  en: loaf tin
+observed_forms:
+- syntax: loaf tin, 900g / 2lb
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: 900g / 2lb
+  count: 1
+legacy_observation: true

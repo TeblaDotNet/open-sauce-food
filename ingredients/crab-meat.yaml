@@ -1,0 +1,15 @@
+id: crab-meat
+kind: ingredient
+canonical_name: crab meat
+names:
+  en: crab meat
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: crab meat
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/crab-salad/crab-salad.opensauce

@@ -1,0 +1,12 @@
+id: stir-in
+kind: process
+names:
+  en: stir in
+observed_forms:
+- syntax: stir in, gradually
+  count: 1
+seen_in:
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+observed_parameters:
+- value: gradually
+  count: 1

@@ -1,0 +1,22 @@
+id: sear
+kind: process
+canonical_name: sear
+names:
+  en: sear
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: sear
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+observed_parameters:
+- value: all sides including ends; source suggests more heat here for more than medium-rare
+  count: 1
+- value: high heat
+  count: 1
+- value: nicely oiled pan
+  count: 1

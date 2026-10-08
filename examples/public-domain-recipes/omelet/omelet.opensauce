@@ -1,0 +1,91 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Omelet
+source: https://publicdomainrecipes.com/omelet/
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: eggs, quick, cheesefare
+serves: 4 Omelets
+
+# Imported from content/omelet.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: ≈ 30 min
+# Source metadata: - 🍽️ Servings: 4 Omelets
+
+::ingredients
+
+(quick-cooking tapioca) 2 tablespoon
+(salt) 1/2 teaspoon
+(pepper) 1/8 teaspoon
+(milk, scalded) 3/4 cup
+(butter, or margarine) 1 tablespoon
+(egg: yolk, beaten until thick) 4
+(egg: white, beaten stiff) 4
+(cheddar cheese, optional for Cheese Omelet)
+
+::equipment
+
+(frying pan)
+(oven)
+
+::instructions
+
+<add, tapioca, salt and pepper to milk; cook in double boiler 15 minutes or until tapioca is clear and mixture thickened, stirring frequently>
+(butter) <add>
+<allow, it to cool; combine with egg yolks, stirring occasionally>
+<fold, in egg whites>
+Set oven for moderate 350°F.
+<pour, egg mixture into hot buttered frying pan>
+<cook, over low heat 3 minutes>
+<transfer, to oven; bake 15 minutes>
+Omelet is done when an inserted knife comes out clean.
+<cut, across at right angles to handle of pan, being careful not to cut all the way through>
+<fold, carefully from handle to opposite side and serve on hot platter>
+For Cheese Omelet
+<add, 1/2 cup grated sharp Cheddar Cheese just before folding in egg whites>
+Before putting omelet in oven, sprinkle top with an additional 1/2 cup of grated cheese.
+
+::source
+<<<
+---
+title: "Omelet"
+date: 2021-03-12
+tags: ['eggs', 'quick', 'cheesefare']
+---
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: ≈ 30 min
+- 🍽️ Servings: 4 Omelets
+
+## Ingredients
+
+* 2 tablespoon quick-cooking tapioca
+* 1/2 teaspoon salt
+* 1/8 teaspoon pepper
+* 3/4 cup milk, scalded
+* 1 tablespoon butter, or margarine
+* 4 egg yolks, beaten until thick
+* 4 egg whites, beaten stiff
+* Cheddar Cheese (optional for Cheese Omelet)
+
+## Directions
+1. Add tapioca, salt and pepper to milk; cook in double boiler 15 minutes or until tapioca is clear and mixture thickened, stirring  frequently.
+2. Add butter.
+3. Allow it to cool; combine with egg yolks, stirring occasionally.
+4. Fold in egg whites.
+5. Set oven for moderate 350°F.
+6. Pour egg mixture into hot buttered frying pan.
+7. Cook over low heat 3 minutes.
+8. Transfer to oven; bake 15 minutes.
+9. Omelet is done when an inserted knife comes out clean.
+10. Cut across at right angles to handle of pan, being careful not to cut all the way through.
+11. Fold carefully from handle to opposite side and serve on hot platter.
+
+### For Cheese Omelet
+
+* Add 1/2 cup grated sharp Cheddar Cheese just before folding in egg whites.
+* Before putting omelet in oven, sprinkle top with an additional 1/2 cup of grated cheese.
+>>>

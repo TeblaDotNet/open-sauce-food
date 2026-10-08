@@ -1,0 +1,67 @@
+::recipe
+
+name: Orange jam
+source: https://publicdomainrecipes.com/orange-jam/
+source author: martin-chrzanowski
+source license: Public domain (Unlicense)
+units: source
+tags: jam, fruit, sweet, spread
+
+# Original source: ../../../source/public-domain-recipes/orange-jam/orange-jam.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+
+::ingredients
+
+(orange, medium) 4
+(lemon) 1
+(sugar) 1 1/2 cups
+
+::equipment
+
+(zester)
+(blender)
+(pot)
+
+::instructions
+
+(orange) + (lemon) <zest, reserve zest>
+    <peel, remove white albedo>
+    <blend, into small pieces, not an even mush>
+    + {zest} + (sugar) <combine, pot>
+    <bring to boil> <boil, low heat, 30-40m, still slightly runny at finish, thickens further on cooling>
+
+::story
+
+This jam is a traditional topping for the Polish mazurek (/mazurek), but
+can be used as a generic sweet spread.
+
+::source
+<<<
+---
+title: "Orange jam"
+date: 2021-04-06
+tags: ['jam', 'fruit', 'sweet', 'spread']
+author: martin-chrzanowski
+---
+
+This jam is a traditional topping for the Polish [mazurek](/mazurek), but
+can be used as a generic sweet spread.
+
+## Ingredients
+
+* 4 medium sized oranges
+* 1 lemon
+* 1 1/2 cup sugar
+
+## Directions
+
+1. Zest all fruit.
+2. Peel off the albedo (the white part under the skin).
+3. Blend the fruit (not too much, it doesn't need to become an even mush, just
+   cut up into small pieces).
+4. Combine the blended fruit, zest, and sugar in a pot.
+5. Bring to boil and boil for 30-40 minutes on low heat. The mixture will
+   thicken as water evaporates. Note that it will thicken even further once it
+   cools, so don't boil for too long - it is expected to be still a little runny
+   at the end of boiling.
+>>>

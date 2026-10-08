@@ -1,0 +1,19 @@
+id: rubber-band
+kind: equipment
+canonical_name: rubber band
+names:
+  en: rubber band
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: rubber band
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/kombucha/kombucha.opensauce
+  - examples/public-domain-recipes/sauerkraut/sauerkraut.opensauce
+observed_qualifiers:
+- value: if using coffee filter
+  count: 1

@@ -1,0 +1,51 @@
+id: ginger
+kind: ingredient
+canonical_name: ginger
+names:
+  en: ginger
+status: canonical-seed
+evidence:
+  current_recipe_count: 13
+  current_observation_count: 13
+  legacy_observation_count: 4
+  observed_terms:
+  - term: ginger
+    count: 13
+  seen_in:
+  - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/curry-sauce/curry-sauce.opensauce
+  - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+  - examples/public-domain-recipes/fish-curry/fish-curry.opensauce
+  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/indian-tea/indian-tea.opensauce
+  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  - examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce
+  - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+  legacy_terms:
+  - term: ginger
+    count: 4
+observed_qualifiers:
+- value: chopped
+  count: 1
+- value: diced
+  count: 1
+- value: fresh
+  count: 3
+- value: grated
+  count: 1
+- value: minced
+  count: 3
+- value: minced or paste
+  count: 2
+- value: optional
+  count: 1
+- value: peeled
+  count: 1
+- value: shaved
+  count: 2
+- value: sliced
+  count: 2

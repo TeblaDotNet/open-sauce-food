@@ -1,0 +1,77 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Cinque Pi
+source: https://publicdomainrecipes.com/cinque-pi/
+source author: elias-pahls
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: italian, pasta, quick
+serves: 4
+image: cinque-pi.webp
+
+# Imported from content/cinque-pi.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 15 min
+# Source metadata: - 🍳 Cook time: 15 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(pasta) 800g | 1 1/2 lb
+(cream) 4dl | 1 1/2 cups
+(tomato paste) 2 ts
+(parmigiano, grated)
+(parsley)
+
+::instructions
+
+Start cooking the pasta — /pasta.
+(cream) <mix, with the tomato paste and bring to a boil>
+<turn, the heat down to medium and add as much grated parmigiano as you like>
+<let, it cook on medium to low heat until the pasta is done>
+<add, chopped parsley and pepper>
+You can either add the sauce to the pasta or serve separately.
+<serve, with some additional parmigiano and a leaf of parsley>
+
+::story
+
+This is a nice simple dish made up of five ingredients: panna, pomodori, parmigiano, pepe, e prezzemolo
+
+
+::source
+<<<
+---
+title: "Cinque Pi"
+date: 2021-03-19
+tags: ['italian', 'pasta', 'quick']
+author: elias-pahls
+---
+
+![Cinque Pi](/pix/cinque-pi.webp)
+
+This is a nice simple dish made up of five ingredients: panna, pomodori, parmigiano, pepe, e prezzemolo
+
+- ⏲️ Prep time: 15 min
+- 🍳 Cook time: 15 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- pasta: 800g | 1 1/2 lb
+- Cream: 4dl | 1 1/2 cups
+- Tomato paste 2 TS
+- Parmigiano (grated)
+- Parsley
+
+## Directions
+
+1. Start cooking the [pasta](/pasta).
+2. Mix the cream with the tomato paste and bring to a boil.
+3. Turn the heat down to medium and add as much grated parmigiano as you like.
+4. Let it cook on medium to low heat until the pasta is done.
+5. Add chopped parsley and pepper.
+6. You can either add the sauce to the pasta or serve separately.
+7. Serve with some additional parmigiano and a leaf of parsley.
+>>>

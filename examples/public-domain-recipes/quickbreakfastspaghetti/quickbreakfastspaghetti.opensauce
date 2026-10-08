@@ -1,0 +1,77 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Quick Breakfast Spaghetti
+source: https://publicdomainrecipes.com/quickbreakfastspaghetti/
+source author: sadoon-albader
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: breakfast, pasta
+
+# Imported from content/quickbreakfastspaghetti.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+
+::ingredients
+
+(spaghetti, any kind you prefer)
+(spices, Ground, I like to use cumin, turmeric, paprika, and garlic)
+(tomato paste/sauce, preferably one with basil and without preservative)
+(extra virgin olive oil)
+
+::equipment
+
+(bowl)
+(pot)
+
+::instructions
+
+<boil, some water fully and prepare a pot>
+While the water is boiling, add all your spices in the pot with the spaghetti on top.
+<pour, the boiled water on the spaghetti to make it soft so you can immerse it fully in the water>
+<mix, thoroughly the water with the spices and salt and pepper if needed>
+<place, the pot on the stove, keep it boiling, and stir every minute or two for 8 minutes>
+It should take no more than 8 minutes, but you can check if it is fully cooked by tasting one piece at a time.
+Once it is fully cooked, strain the water from the pot and keep the spaghetti in.
+Before placing it back on the stove, add and mix a generous amount of olive oil. Now's the time to add bacon or turkey if you are also using that.
+While stirring the spaghetti, add your tomato sauce or paste and keep mixing for a minute and avoid letting it stick to the boiler.
+<pour, the spaghetti out in your favorite bowl and enjoy>
+
+::story
+
+A quick breakfast spaghetti recipe that covers a healthy amount of carbs, fat, and spices. Eggs and/or bacon can be added to cover some protein, you should cook those while the boiler is cooking the spaghetti for time efficiency.
+
+
+::source
+<<<
+---
+title: "Quick Breakfast Spaghetti"
+date: 2021-03-13
+tags: ['breakfast', 'pasta']
+author: sadoon-albader
+---
+
+A quick breakfast spaghetti recipe that covers a healthy amount of carbs, fat, and spices. Eggs
+and/or bacon can be added to cover some protein, you should cook those while the boiler is cooking
+the spaghetti for time efficiency.
+
+## Ingredients
+
+- Spaghetti (any kind you prefer)
+- Ground spices (I like to use cumin, turmeric, paprika, and garlic)
+- Tomato Paste/Sauce (preferably one with basil and without preservative)
+- Extra Virgin Olive Oil
+
+## Directions
+
+1. Boil some water fully and prepare a pot.
+2. While the water is boiling, add all your spices in the pot with the spaghetti on top.
+3. Pour the boiled water on the spaghetti to make it soft so you can immerse it fully in the water.
+4. Mix thoroughly the water with the spices and salt and pepper if needed.
+5. Place the pot on the stove, keep it boiling, and stir every minute or two for 8 minutes.
+6. It should take no more than 8 minutes, but you can check if it is fully cooked by tasting one piece at a time.
+7. Once it is fully cooked, strain the water from the pot and keep the spaghetti in.
+8. Before placing it back on the stove, add and mix a generous amount of olive oil. Now's the time to add bacon or turkey if you are also using that.
+9. While stirring the spaghetti, add your tomato sauce or paste and keep mixing for a minute and avoid letting it stick to the boiler.
+10. Pour the spaghetti out in your favorite bowl and enjoy!
+>>>

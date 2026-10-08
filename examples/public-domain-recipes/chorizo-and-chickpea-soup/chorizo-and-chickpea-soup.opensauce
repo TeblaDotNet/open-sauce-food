@@ -1,0 +1,67 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Chorizo & Chickpea Soup
+source: https://publicdomainrecipes.com/chorizo-and-chickpea-soup/
+source author: siggines
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: pork, soup, spanish, quick
+
+# Imported from content/chorizo-and-chickpea-soup.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - 🍳 Cook time: 10-15 min
+
+::ingredients
+
+(chorizo sausage, s)
+(garlic cloves) 2
+(ginger)
+(paprika, 2 Tsp)
+(cumin, Parsley)
+(juice from whole lemon)
+(chickpeas, drained, 400g)
+(butter and sunflower oil, for frying)
+
+::instructions
+
+<fry, the sliced Chorizo in butter, along-with diced Ginger and Garlic. Add oil after a couple mins>
+<pour, in Lemon-juice, Chickpeas, and Cumin & Paprika. Then 100ml of water>
+<allow, to boil for 5 or so min. Add Parsley and then salt to taste>
+
+::notes
+
+Recommend serving with corn bread.
+
+
+::source
+<<<
+---
+title: "Chorizo & Chickpea Soup"
+date: 2021-05-08
+tags: ['pork', 'soup', 'spanish', 'quick']
+author: siggines
+---
+
+Recommend serving with corn bread.
+
+- 🍳 Cook time: 10-15 min
+
+## Ingredients
+
+- Chorizo Sausage(s)
+- 2 Garlic cloves
+- Ginger
+- Paprika, 2 Tsp
+- Cumin, Parsley
+- Juice from whole Lemon
+- Chickpeas, 400g ( drained )
+- Butter and sunflower oil, for frying
+
+## Directions
+
+1. Fry the sliced Chorizo in butter, along-with diced Ginger and Garlic. Add oil after a couple mins.
+2. Pour in Lemon-juice, Chickpeas, and Cumin & Paprika. Then 100ml of water.
+3. Allow to boil for 5 or so min. Add Parsley and then salt to taste.
+>>>

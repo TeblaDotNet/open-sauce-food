@@ -1,0 +1,25 @@
+id: refrigerate
+kind: process
+names:
+  en: refrigerate
+observed_forms:
+- syntax: refrigerate, 30m
+  count: 1
+- syntax: refrigerate, 3h
+  count: 1
+- syntax: refrigerate, up to 48h, before baking
+  count: 1
+seen_in:
+- examples/public-domain-recipes/no-knead-bread/no-knead-bread.opensauce
+- examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 30m
+  count: 1
+- value: 3h
+  count: 1
+- value: before baking
+  count: 1
+- value: up to 48h
+  count: 1
+legacy_observation: true

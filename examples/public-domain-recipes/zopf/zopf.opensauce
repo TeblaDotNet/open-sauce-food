@@ -1,0 +1,89 @@
+::recipe
+
+name: Zopf
+source: https://publicdomainrecipes.com/zopf/
+source author: thijs-wester
+source license: Public domain (Unlicense)
+units: source
+tags: swiss, bread, cheesefare
+
+# Original source: ../../../source/public-domain-recipes/zopf/zopf.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Prep time: 30 min (plus one hour rising)
+# Source Cook time: 30 min
+# Conversion note: 1½T salt. Uppercase T left unexpanded; exact unit convention not declared.
+
+::ingredients
+
+(flour, white wheat) 1kg
+(milk) 1/2l
+(butter) 125g
+(yeast, dry) 14g
+(salt) 1 1/2T
+(egg) 1
+
+::equipment
+
+(skillet)
+(bowl, large)
+(oven)
+(baking sheet)
+(parchment paper)
+(skewer, wooden)
+
+::instructions
+
+(butter) <cut, or tear>
+{milk mix} = (butter) + (milk)
+{milk mix} <heat, skillet, low, not above 31c>
+{dough} = (flour) + (yeast) + (salt) + {milk mix}
+{dough} <mix, large bowl>
+    <knead, at least 15m, stretch a lot>
+    <rest, warm spot, at least 1h, not above 31c>
+(oven) <heat, 200c, start before braiding; source says no need to preheat>
+{dough} <divide, two or three sections according to region>
+    <stretch>
+    <roll, long pieces>
+    <braid>
+    <place, parchment-lined baking sheet>
+(egg) <beat>
+{loaf} + (egg) <brush>
+    <bake, 30m>
+Repeat [
+    {bread} <test, wooden skewer in widest part>
+        <bake, another 5m if skewer not clean>
+]
+until skewer comes out clean
+{bread} <cool, before cutting>
+
+::source
+<<<
+---
+title: "Zopf"
+date: 2021-03-15
+tags: ['swiss', 'bread', 'cheesefare']
+author: thijs-wester
+---
+
+- ⏲️ Prep time: 30 min (plus one hour rising)
+- 🍳 Cook time: 30 min
+
+## Ingredients
+- 1kg white wheat flour
+- ½L milk
+- 125g butter
+- 14g dry yeast
+- 1½T salt
+- 1 egg
+
+## Directions
+1. Cut or tear up butter and put in skillet with milk on low heat (This is so the ingredients are not too clod, temperature should not exceed 31 C).
+2. Put the flour in a large bow with the yeast, salt, milk and butter.
+3. Mix and kneed for at least 15 minutes making sure to stretch the dough a lot.
+4. Let the dough rest in a warm spot for at least one hour (temperature should not be higher than 31 C).
+5. Start heating an oven at 200 C (no need to preheat, it will be a good temperature once you are done braiding)
+6. Cut the dough in two or three sections (different according to region), then stretch and roll into long pieces.
+7. Braid the strips, place on a parchment lined baking sheet and brush down with a beaten egg.
+8. Bake for 30 minutes testing with a wooden skewer in the widest part when done. IF the skewer comes out clean, you are done, if not add 5 minutes and repeat.
+9. Wait for the bread to cool before cutting.
+>>>

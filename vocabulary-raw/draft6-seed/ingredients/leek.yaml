@@ -1,0 +1,12 @@
+id: leek
+kind: ingredient
+names:
+  en: leek
+observed_forms:
+- syntax: leek, large
+  count: 1
+seen_in:
+- examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+observed_qualifiers:
+- value: large
+  count: 1

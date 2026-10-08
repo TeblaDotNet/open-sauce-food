@@ -1,0 +1,18 @@
+id: cube
+kind: process
+canonical_name: cube
+names:
+  en: cube
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cube
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/medieval-beef-soup/medieval-beef-soup.opensauce
+observed_parameters:
+- value: bite-sized
+  count: 1

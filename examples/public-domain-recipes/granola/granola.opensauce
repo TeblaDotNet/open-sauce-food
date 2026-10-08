@@ -1,0 +1,81 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Granola
+source: https://publicdomainrecipes.com/granola/
+source author: hanlex
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: breakfast
+serves: 5
+
+# Imported from content/granola.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 10 min
+# Source metadata: - 🍳 Cook time: 40 min
+# Source metadata: - 🍽️ Servings: 5
+
+::ingredients
+
+(oats) 3 cups
+(olive oil) 1/2 cup
+(maple syrup) 1/2 cup
+(nuts, chopped, almonds, pumpkin seeds, etc) 1 cup
+(cloves, ground) 1 tsp
+(cardamom, ground) 1 tsp
+(fruit, dried, apricots, unsweetened cranberries, dates, etc) 1 cup
+
+::equipment
+
+(baking sheet)
+(oven)
+(bowl)
+
+::instructions
+
+<preheat, oven to 315° F>
+In a large bowl, mix: oats, oil, maple syrup, chopped nuts and spices
+<cover, two large baking sheets with parchment paper>
+<spread, the mixture thinly and evenly on baking sheets, put in oven>
+<bake, 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking)>
+<bake, 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking)>
+<bake, 10 minutes, take out of oven, do not stir (helps form clumps), let it cool>
+Coarsely chop dried fruit and mix in
+<serve, with yogurt, milk, fresh fruit, etc>
+
+::source
+<<<
+---
+title: Granola
+tags: ['breakfast']
+date: 2022-10-03
+author: hanlex
+---
+
+- ⏲️ Prep time: 10 min
+- 🍳 Cook time: 40 min
+- 🍽️ Servings: 5
+
+## Ingredients
+
+- 3 cups oats
+- 1/2 cup olive oil
+- 1/2 cup maple syrup
+- 1 cup chopped nuts (almonds, pumpkin seeds, etc)
+- 1 tsp ground cloves
+- 1 tsp ground cardamom
+- 1 cup dried fruit (apricots, unsweetened cranberries, dates, etc)
+
+## Directions
+
+1. Preheat oven to 315° F
+2. In a large bowl, mix: oats, oil, maple syrup, chopped nuts and spices
+3. Cover two large baking sheets with parchment paper
+4. Spread the mixture thinly and evenly on baking sheets, put in oven
+5. Bake 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking)
+6. Bake 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking)
+7. Bake 10 minutes, take out of oven, **do not stir** (helps form clumps), let it cool
+8. Coarsely chop dried fruit and mix in
+9. Serve with yogurt, milk, fresh fruit, etc
+>>>

@@ -1,0 +1,89 @@
+id: beat
+kind: process
+canonical_name: beat
+names:
+  en: beat
+status: canonical-seed
+evidence:
+  current_recipe_count: 18
+  current_observation_count: 26
+  legacy_observation_count: 0
+  observed_terms:
+  - term: beat
+    count: 26
+  seen_in:
+  - examples/public-domain-recipes/basic-waffles/basic-waffles.opensauce
+  - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/french-toast/french-toast.opensauce
+  - examples/public-domain-recipes/fritatem-pomeranciis/fritatem-pomeranciis.opensauce
+  - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce
+  - examples/public-domain-recipes/greek-easter-cookies/greek-easter-cookies.opensauce
+  - examples/public-domain-recipes/pavlova/pavlova.opensauce
+  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce
+  - examples/public-domain-recipes/sand-tarts/sand-tarts.opensauce
+  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce
+  - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+  - examples/public-domain-recipes/spanish-tortilla/spanish-tortilla.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+  - examples/public-domain-recipes/zopf/zopf.opensauce
+observed_parameters:
+- value: 0.5cm thick
+  count: 1
+- value: a few minutes
+  count: 1
+- value: adding flour in small amounts
+  count: 1
+- value: adding sugar gradually
+  count: 1
+- value: bowl
+  count: 2
+- value: break yolks and stir until smooth yellow liquid
+  count: 1
+- value: fork
+  count: 1
+- value: high speed
+  count: 1
+- value: just until incorporated
+  count: 1
+- value: meat tenderizer or rolling pin
+  count: 1
+- value: mixer or whisk
+  count: 1
+- value: one at a time
+  count: 1
+- value: or stir
+  count: 1
+- value: or stir manually; do not overwork gluten
+  count: 1
+- value: or whisk
+  count: 1
+- value: stiff and shiny
+  count: 1
+- value: until creamy
+  count: 1
+- value: until firm peaks
+  count: 1
+- value: until fluffy
+  count: 1
+- value: until incorporated
+  count: 1
+- value: until liquid
+  count: 1
+- value: until smooth
+  count: 1
+- value: until soft peaks form
+  count: 1
+- value: until stiff
+  count: 1
+- value: until they stand alone on the rods
+  count: 1
+- value: very light
+  count: 1
+- value: well
+  count: 1
+- value: ~12m
+  count: 1

@@ -1,0 +1,39 @@
+{
+  "title": "Valencian Baked Rice (Arroz al Horno)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/baked-rice.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "3dfdc5c8d5b0de3df2e3552ce7c5bac5ec7e24b00ca0aea17d8ee0ee06f7cb1f",
+  "original_front_matter": {
+    "title": "Valencian Baked Rice (Arroz al Horno)",
+    "tags": [
+      "rice",
+      "Spanish"
+    ],
+    "date": "2025-03-15",
+    "author": "daviduhden"
+  },
+  "source_url": "https://publicdomainrecipes.com/baked-rice/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Valencian Baked Rice",
+      "url": "/pix/baked-rice.webp",
+      "upstreamPath": "static/pix/baked-rice.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "627928d5de95568a0dc3b01aa99c3ad8d7ea76d5a69df3c3c3b8e81365098f64",
+      "sourcePath": "source/public-domain-recipes/baked-rice/baked-rice.webp",
+      "promotedPath": "examples/public-domain-recipes/baked-rice/baked-rice.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

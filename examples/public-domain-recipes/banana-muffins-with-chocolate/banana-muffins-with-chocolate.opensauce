@@ -1,0 +1,64 @@
+::recipe
+
+name: Banana Muffins with Chocolate
+source: https://publicdomainrecipes.com/banana-muffins-with-chocolate/
+source author: lukasz-drukala
+source license: Public domain (Unlicense)
+units: mixed
+category: baking
+tags: muffins, banana, chocolate
+dietary: vegetarian
+active time: ~15m
+total time: ~45m
+image: banana-muffins.webp
+
+::ingredients
+
+(banana) 3
+(butter) 100g / 1/2 cup
+(sugar) 150g / 3/4 cup
+(egg) 2
+(baking powder) 1 1/2tsp
+(flour; wheat) 260g / 2 1/8 cups
+(chocolate; dark) 50g / 1 3/4oz
+(chocolate; milk) 50g / 1 3/4oz
+(vanilla sugar, optional) some
+
+::equipment
+
+(oven)
+(bowl)
+(muffin tin)
+
+::instructions
+
+(banana) <peel>
+    <mash>
+
+{egg mix} = (egg) + (sugar)
+    <whip>
+
+(butter) <melt>
+(chocolate; dark) <chop, small>
+(chocolate; milk) <chop, small>
+
+{batter} =
+    (banana) +
+    (butter) +
+    (flour) +
+    (baking powder) +
+    (chocolate; dark) +
+    (chocolate; milk) +
+    {egg mix}
+
+Optional [
+    {batter} + (vanilla sugar) <mix>
+]
+
+{batter} <stir, continuously while combining>
+    <pour, muffin tin>
+
+(oven) <heat, 160c / 320f>
+{muffins} <bake, 170c / 340f, 20-30m>
+
+# The source calls the ingredient "cooking powder"; this transcription uses baking powder.

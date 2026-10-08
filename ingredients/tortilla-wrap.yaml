@@ -1,0 +1,18 @@
+id: tortilla-wrap
+kind: ingredient
+canonical_name: tortilla wrap
+names:
+  en: tortilla wrap
+status: canonical-seed
+evidence:
+  current_recipe_count: 0
+  current_observation_count: 0
+  legacy_observation_count: 1
+  observed_terms: []
+  seen_in: []
+  legacy_terms:
+  - term: tortilla wrap
+    count: 1
+observed_qualifiers:
+- value: soft
+  count: 1

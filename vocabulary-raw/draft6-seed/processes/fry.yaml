@@ -1,0 +1,53 @@
+id: fry
+kind: process
+names:
+  en: fry
+observed_forms:
+- syntax: fry, 10-15m, until brown
+  count: 1
+- syntax: fry, 2-3m
+  count: 1
+- syntax: fry, frying pan, medium heat, ~15m
+  count: 1
+- syntax: fry, pan, low-medium heat, until crisp outside and chewy inside
+  count: 1
+- syntax: fry, saucepan, 1m
+  count: 1
+- syntax: fry, until golden brown on all sides
+  count: 1
+- syntax: fry, until translucent
+  count: 1
+seen_in:
+- examples/public-domain-recipes/beef-goulash/beef-goulash.opensauce
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+- examples/public-domain-recipes/paella/paella.opensauce
+- legacy-corpus:bbc-food-10
+observed_parameters:
+- value: 10-15m
+  count: 1
+- value: 1m
+  count: 1
+- value: 2-3m
+  count: 1
+- value: frying pan
+  count: 1
+- value: low-medium heat
+  count: 1
+- value: medium heat
+  count: 1
+- value: pan
+  count: 1
+- value: saucepan
+  count: 1
+- value: until brown
+  count: 1
+- value: until crisp outside and chewy inside
+  count: 1
+- value: until golden brown on all sides
+  count: 1
+- value: until translucent
+  count: 1
+- value: ~15m
+  count: 1
+legacy_observation: true

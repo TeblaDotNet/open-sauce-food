@@ -1,0 +1,17 @@
+id: fenugreek-leaves
+kind: ingredient
+names:
+  en: fenugreek leaves
+observed_forms:
+- syntax: fenugreek leaves, crushed
+  count: 1
+- syntax: fenugreek leaves, dried
+  count: 1
+seen_in:
+- examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_qualifiers:
+- value: crushed
+  count: 1
+- value: dried
+  count: 1

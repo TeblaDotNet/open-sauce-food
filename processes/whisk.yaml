@@ -1,0 +1,45 @@
+id: whisk
+kind: process
+canonical_name: whisk
+names:
+  en: whisk
+status: canonical-seed
+evidence:
+  legacy_observation_count: 5
+  observed_terms:
+    - term: whisk
+      count: 10
+  seen_in:
+    - examples/public-domain-recipes/bean-salad/bean-salad.opensauce
+    - examples/public-domain-recipes/blueberry-muffins/blueberry-muffins.opensauce
+    - examples/public-domain-recipes/challah-bread/challah-bread.opensauce
+    - examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+    - examples/public-domain-recipes/naan-bread/naan-bread.opensauce
+    - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce
+  legacy_terms:
+    - term: whisk
+      count: 5
+  scope: Historical observations; publication-excluded recipe citations removed.
+    Not current usage counts.
+observed_parameters:
+  - value: after each addition
+    count: 2
+  - value: blended
+    count: 1
+  - value: emulsified
+    count: 1
+  - value: fork
+    count: 1
+  - value: large mixing bowl; add flour as needed against sticking
+    count: 1
+  - value: large salad bowl
+    count: 1
+  - value: saucepan
+    count: 1
+  - value: separate bowl
+    count: 1
+  - value: until no lumps
+    count: 2
+aliases:
+  - name: wisk
+    type: review-pass-1-lexical

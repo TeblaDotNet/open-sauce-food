@@ -1,0 +1,15 @@
+id: broth
+kind: ingredient
+canonical_name: broth
+names:
+  en: broth
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: broth
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce

@@ -1,0 +1,31 @@
+id: turn
+kind: process
+canonical_name: turn
+names:
+  en: turn
+status: canonical-seed
+evidence:
+  current_recipe_count: 5
+  current_observation_count: 5
+  legacy_observation_count: 1
+  observed_terms:
+  - term: turn
+    count: 5
+  seen_in:
+  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce
+  - examples/public-domain-recipes/spatchcock-chicken/spatchcock-chicken.opensauce
+  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce
+  legacy_terms:
+  - term: turn
+    count: 1
+observed_parameters:
+- value: and shift tofu
+  count: 1
+- value: breast up
+  count: 1
+- value: gradually increase heat until surface starts browning
+  count: 1
+- value: to cook other side properly
+  count: 1

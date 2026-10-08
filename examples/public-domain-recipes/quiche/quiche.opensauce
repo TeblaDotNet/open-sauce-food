@@ -1,0 +1,98 @@
+::recipe
+curation origin: generated
+curation review: unchecked
+
+name: Quiche Lorraine - Lothringer Käsetorte
+source: https://publicdomainrecipes.com/quiche/
+source author: benjamin-h
+source license: Public domain (upstream Unlicense dedication)
+units: source
+tags: cheese, french, ham
+serves: 4
+
+# Imported from content/quiche.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
+# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
+# Source metadata: - ⏲️ Prep time: 160 min
+# Source metadata: - 🍳 Cook time: 30 min
+# Source metadata: - 🍽️ Servings: 4
+
+::ingredients
+
+(flour, full sight) 200g
+(butter or margarine) 100g
+(water) 5 Tablespoons
+(ham, alternatively cooked ham) 200g
+(egg) 4
+(cream) 1/4
+(grinded edamer cheese) 125g
+(butter, for the baking tin) More
+(flour, for the baking tin) More
+
+::equipment
+
+(sieve)
+(oven)
+
+::instructions
+
+<spread, some butter on a 26cm Ø or two smaller baking tins and cover it with flour>
+<sieve, the flour, mingle the butter/margarine in small flakes>
+<form, a depression in the middle of the flour and add spoons of water>
+<mix, all ingredients by hand until the dough becomes a homogenious mass>
+<wrap, the dough in aluminium foil and let it rest in the fridge for two hours (around -4 °C)>
+<preheat, the oven at 200°C>
+<spread, the dough on a flour-covered surface. Roll it until it has a thickness of around 4mm. Form a crust on the sides>
+<use, a fork to prick the dough for a more thorough heat penetration>
+(ham) <cut, in slices and distribute them evenly on the dough>
+<divide, the yolk from the egg white>
+<whisk, the yolk with cream>
+<add, the grinded cheese>
+<whisk, the egg white until it becomes foamy. Add it to the yolk-pepper-salt-cheese mixture>
+(ham) <cover, in the baking tin with the mixture. Equalize the surface>
+<bake, the Quiche in the oven on the middle rail for 30 minutes>
+After baking leave it to rest for a few minutes, then serve while it's still warm. I recommend serving it with a glass of white wine.
+
+::source
+<<<
+---
+title: Quiche Lorraine - Lothringer Käsetorte
+date: 2022-05-17
+author: benjamin-h
+tags: ['cheese', 'french', 'ham']
+---
+
+- ⏲️ Prep time: 160 min
+- 🍳 Cook time: 30 min
+- 🍽️ Servings: 4
+
+## Ingredients
+
+- 200g Flour (full sight)
+- 100g Butter or Margarine
+- 5 Tablespoons of Water
+- 200g of Ham (alternatively cooked ham)
+- 4 Eggs
+- 1/4 Cream
+- 125g grinded Edamer Cheese
+- For the Baking Tin: More Butter and Flour
+
+##  Directions
+
+1. Spread some butter on a 26cm Ø or two smaller baking tins and cover it with flour
+2. Sieve the flour, mingle the butter/margarine in small flakes.
+4. Form a depression in the middle of the flour and add spoons of water.
+5. Mix all ingredients by hand until the dough becomes a homogenious mass.
+6. Wrap the dough in aluminium foil and let it rest in the fridge for two hours (around -4 °C).
+7. Preheat the oven at 200°C.
+8. Spread the dough on a flour-covered surface. Roll it until it has a thickness of around 4mm. Form a crust on the sides.
+9. Use a fork to prick the dough for a more thorough heat penetration.
+10. Cut the ham in slices and distribute them evenly on the dough.
+11. Divide the yolk from the egg white.
+12. Whisk the yolk with cream.
+13. Add the grinded cheese.
+14. Whisk the egg white until it becomes foamy. Add it to the yolk-pepper-salt-cheese mixture.
+15. Cover the ham in the baking tin with the mixture. Equalize the surface.
+16. Bake the Quiche in the oven on the middle rail for 30 minutes.
+17. After baking leave it to rest for a few minutes, then serve while it's still warm.
+I recommend serving it with a glass of white wine.
+>>>

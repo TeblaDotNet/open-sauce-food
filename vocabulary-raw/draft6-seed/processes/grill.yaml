@@ -1,0 +1,23 @@
+id: grill
+kind: process
+names:
+  en: grill
+observed_forms:
+- syntax: grill, 5-10m
+  count: 1
+- syntax: grill, oven, 200c / 392f, turn every 5m, until outside is crisp
+  count: 1
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+- examples/public-domain-recipes/paneer-tikka-masala/paneer-tikka-masala.opensauce
+observed_parameters:
+- value: 200c / 392f
+  count: 1
+- value: 5-10m
+  count: 1
+- value: oven
+  count: 1
+- value: turn every 5m
+  count: 1
+- value: until outside is crisp
+  count: 1

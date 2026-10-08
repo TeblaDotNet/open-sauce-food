@@ -1,0 +1,17 @@
+id: chicken-breast
+kind: ingredient
+names:
+  en: chicken breast
+observed_forms:
+- syntax: chicken breast, large
+  count: 1
+- syntax: chicken breast, small
+  count: 1
+seen_in:
+- legacy-corpus:bbc-food-10
+observed_qualifiers:
+- value: large
+  count: 1
+- value: small
+  count: 1
+legacy_observation: true

@@ -1,0 +1,36 @@
+{
+  "title": "Basic Sweet Potato Fries Recipe",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/sweet-potato-fries.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "72a6ecf8a5c42e48208efc9b069cb38d659bb89e47f99a3424205c2ed81cb8cb",
+  "original_front_matter": {
+    "title": "Basic Sweet Potato Fries Recipe",
+    "date": "2021-03-12",
+    "tags": [
+      "potato",
+      "snack",
+      "side",
+      "fasting"
+    ],
+    "author": "shane-kunz"
+  },
+  "source_url": "https://publicdomainrecipes.com/sweet-potato-fries/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "already-promoted",
+  "images": [
+    {
+      "alt": "cooked sweet pototo fries in pan",
+      "url": "/pix/sweet-potato-fries.webp",
+      "upstreamPath": "static/pix/sweet-potato-fries.webp",
+      "status": "intentionally-skipped",
+      "reason": "Existing promotion left unchanged."
+    }
+  ],
+  "caveats": []
+}

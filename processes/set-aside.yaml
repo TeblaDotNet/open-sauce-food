@@ -1,0 +1,29 @@
+id: set-aside
+kind: process
+canonical_name: set aside
+names:
+  en: set aside
+status: canonical-seed
+evidence:
+  current_recipe_count: 7
+  current_observation_count: 8
+  legacy_observation_count: 1
+  observed_terms:
+  - term: set aside
+    count: 8
+  seen_in:
+  - examples/public-domain-recipes/aljotta/aljotta.opensauce
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce
+  - examples/public-domain-recipes/crostata/crostata.opensauce
+  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce
+  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce
+  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce
+  legacy_terms:
+  - term: set aside
+    count: 1
+observed_parameters:
+- value: plate
+  count: 1
+- value: to add back later
+  count: 1

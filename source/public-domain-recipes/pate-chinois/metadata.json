@@ -1,0 +1,41 @@
+{
+  "title": "Pâté Chinois (Quebec Style Shepherd’s Pie)",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pate-chinois.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "eef0f35a5bc92b65880ef7d71dfe5f152cde22e588534f9c38903af67fa73b63",
+  "original_front_matter": {
+    "title": "Pâté Chinois (Quebec Style Shepherd’s Pie)",
+    "date": "2021-03-22",
+    "tags": [
+      "quebec",
+      "beef",
+      "pie",
+      "potato"
+    ],
+    "author": "julien"
+  },
+  "source_url": "https://publicdomainrecipes.com/pate-chinois/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "pate chinois",
+      "url": "/pix/pate-chinois.webp",
+      "upstreamPath": "static/pix/pate-chinois.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "1b09ca7e98e21d5a1b6fcab69a37eedd2900b239d33455494d339041b93afd04",
+      "sourcePath": "source/public-domain-recipes/pate-chinois/pate-chinois.webp",
+      "promotedPath": "examples/public-domain-recipes/pate-chinois/pate-chinois.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

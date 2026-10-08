@@ -1,0 +1,24 @@
+id: ham
+kind: ingredient
+canonical_name: ham
+names:
+  en: ham
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: ham
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/beef-wellington/beef-wellington.opensauce
+  - examples/public-domain-recipes/croque-monsieur/croque-monsieur.opensauce
+  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce
+observed_qualifiers:
+- value: thinly cut
+  count: 1
+- value: very thin slices
+  count: 1
+- value: with Italian herbs
+  count: 1

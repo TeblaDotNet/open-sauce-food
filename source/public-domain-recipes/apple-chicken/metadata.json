@@ -1,0 +1,41 @@
+{
+  "title": "Apple Chicken",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/apple-chicken.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "dc5d3c0e0b37e9980658939e114dceff42277749dc78ed92dadf4bce11866492",
+  "original_front_matter": {
+    "title": "Apple Chicken",
+    "tags": [
+      "spanish",
+      "chicken",
+      "baking",
+      "apple"
+    ],
+    "date": "2022-07-11",
+    "author": "miraunpajaro"
+  },
+  "source_url": "https://publicdomainrecipes.com/apple-chicken/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Applechicken",
+      "url": "/pix/apple-chicken.webp",
+      "upstreamPath": "static/pix/apple-chicken.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "22143395f49cf4e77b369df2145767c950f127ae15c74eae0d45688edebf1ac2",
+      "sourcePath": "source/public-domain-recipes/apple-chicken/apple-chicken.webp",
+      "promotedPath": "examples/public-domain-recipes/apple-chicken/apple-chicken.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

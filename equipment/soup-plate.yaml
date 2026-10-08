@@ -1,0 +1,22 @@
+id: soup-plate
+kind: equipment
+canonical_name: soup plate
+names:
+  en: soup plate
+status: reviewed-merge
+aliases:
+- name: soup-plate
+  type: spelling
+  observed_count: 1
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 0
+  observed_terms:
+  - term: soup plate
+    count: 1
+  - term: soup-plate
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/cocoanut-pudding/cocoanut-pudding.opensauce
+  - examples/public-domain-recipes/gooseberry-pudding/gooseberry-pudding.opensauce

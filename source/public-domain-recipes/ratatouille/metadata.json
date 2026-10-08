@@ -1,0 +1,35 @@
+{
+  "title": "Ratatouille",
+  "source_url": "https://publicdomainrecipes.com/ratatouille/",
+  "source_author": "joel-maxuel",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/ratatouille.md",
+  "original_sha256": "e603897db186d100060094e5c59ca60c7a67ba49d36371360f20cdf134adc8fe",
+  "original_front_matter": {
+    "title": "Ratatouille",
+    "tags": [
+      "soup",
+      "french",
+      "tomato"
+    ],
+    "date": "2022-08-04",
+    "author": "joel-maxuel"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "12 min",
+    "Cook time": "75 min",
+    "Servings": "12"
+  },
+  "ingredients_source_markdown": "- 3 1/2 lbs Tomatoes\n- 1 1/2 lbs Eggplant\n- 1 lb Zucchini\n- 3 Bell Peppers\n- 2 lbs Onions\n- 6 cloves Garlic\n- Herbes de Provence (Basil, Thyme, Parsley)\n- Olive Oil\n- Salt\n- Pepper\n- 140g Tomato Paste (optional if tomatoes aren't yummy)",
+  "directions_source_markdown": "1. Peel and drain the tomatoes (don't mind the seeds): cut out the stem cores; drop the whole tomatoes into boiling water for 2 minutes. Remove into a colander. The skin should split for easy removal; otherwise, make an X cut in the top, then peel off the skin.\n2. Chop the onion and garlic. Clean the bell pepper, cut into small strips.\n3. In a large cooking pot with thick bottom, put in olive oil, onions, and chopped garlic. Add in the bell pepper. Cover to keep in the moisture. Cook for 20 minutes, stirring frequently, and add olive oil as necessary to prevent burning.\n4. Add the tomatoes and Herbes de Provence. If you don't have good garden tomatoes with flavour, add a small can of tomato paste. Stir well and cook for another 15 minutes.\n5. Cut the eggplant into disks. Cut zucchini into disks.\n6. Add the eggplant and zucchini to the pot.\n7. Cook for about 30 minutes.",
+  "images": [],
+  "coverage_group": "vegetable-pulses"
+}

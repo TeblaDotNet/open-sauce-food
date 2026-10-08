@@ -1,0 +1,39 @@
+{
+  "title": "Pan-seared Chicken Fillet",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/pan-seared-chicken.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "c3699d2813ab0fa86819f393fb820aec9ffc4f583b75fdcbec3e409e322a1b46",
+  "original_front_matter": {
+    "title": "Pan-seared Chicken Fillet",
+    "date": "2021-03-12",
+    "tags": [
+      "chicken",
+      "fry"
+    ],
+    "author": "yaroslav-smirnov"
+  },
+  "source_url": "https://publicdomainrecipes.com/pan-seared-chicken/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Juicy Pan-seared Chicken Fillet",
+      "url": "/pix/pan-seared-chicken.webp",
+      "upstreamPath": "static/pix/pan-seared-chicken.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "80403d0edb4f1694e1404dfe2185b803f215369c9d9f653bb235302233503065",
+      "sourcePath": "source/public-domain-recipes/pan-seared-chicken/pan-seared-chicken.webp",
+      "promotedPath": "examples/public-domain-recipes/pan-seared-chicken/pan-seared-chicken.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

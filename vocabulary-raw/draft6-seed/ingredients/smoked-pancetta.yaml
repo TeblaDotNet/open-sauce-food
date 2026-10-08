@@ -1,0 +1,14 @@
+id: smoked-pancetta
+kind: ingredient
+names:
+  en: smoked pancetta
+observed_forms:
+- syntax: smoked pancetta, cleaned, cubed
+  count: 1
+seen_in:
+- examples/public-domain-recipes/carbonara/carbonara.opensauce
+observed_qualifiers:
+- value: cleaned
+  count: 1
+- value: cubed
+  count: 1

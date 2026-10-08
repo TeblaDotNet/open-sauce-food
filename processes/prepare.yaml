@@ -1,0 +1,26 @@
+id: prepare
+kind: process
+canonical_name: prepare
+names:
+  en: prepare
+status: canonical-seed
+evidence:
+  current_recipe_count: 3
+  current_observation_count: 3
+  legacy_observation_count: 0
+  observed_terms:
+  - term: prepare
+    count: 3
+  seen_in:
+  - examples/public-domain-recipes/bread/bread.opensauce
+  - examples/public-domain-recipes/broiled-venison-steaks/broiled-venison-steaks.opensauce
+  - examples/public-domain-recipes/schnitzel/schnitzel.opensauce
+observed_parameters:
+- value: catch gravy
+  count: 1
+- value: hot
+  count: 1
+- value: over clear bright hot coals from wood fire or stove
+  count: 1
+- value: 'three separate bowls: flour; beaten eggs; seasoned bread crumbs'
+  count: 1

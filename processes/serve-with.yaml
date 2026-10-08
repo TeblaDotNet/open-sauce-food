@@ -1,0 +1,11 @@
+id: serve-with
+kind: process
+names:
+  en: serve with
+observed_forms:
+- syntax: serve with
+  count: 3
+seen_in:
+- examples/public-domain-recipes/baked-pasta-with-broccoli/baked-pasta-with-broccoli.opensauce
+- examples/public-domain-recipes/fall-vegetable-and-chickpea-curry/fall-vegetable-and-chickpea-curry.opensauce
+- examples/public-domain-recipes/pavlova/pavlova.opensauce

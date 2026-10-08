@@ -1,0 +1,15 @@
+id: reynolds-oven-bag
+kind: equipment
+canonical_name: Reynold’s Oven Bag
+names:
+  en: Reynold’s Oven Bag
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: Reynold’s Oven Bag
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/chicken-wings/chicken-wings.opensauce

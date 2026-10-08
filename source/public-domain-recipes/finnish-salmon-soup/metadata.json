@@ -1,0 +1,37 @@
+{
+  "title": "Finnish Salmon Soup",
+  "source_url": "https://publicdomainrecipes.com/finnish-salmon-soup/",
+  "source_author": "tara-brennan",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/finnish-salmon-soup.md",
+  "original_sha256": "05ca07c128537c99c829db017a864680b4c49c9c9bf1b20ed1ec04b2b6495f0b",
+  "original_front_matter": {
+    "title": "Finnish Salmon Soup",
+    "tags": [
+      "salmon",
+      "soup",
+      "finnish",
+      "fish",
+      "easy"
+    ],
+    "date": "2025-07-23",
+    "author": "tara-brennan"
+  },
+  "source_timing_and_servings": {
+    "Prep time": "20 min",
+    "Cook time": "30 min",
+    "Servings": "6-8"
+  },
+  "ingredients_source_markdown": "- 2 pcs salmon fillet\n- 4 cups water or stock\n- 1 leek\n- 1/4 cup butter\n- 5-7 potatoes\n- 1-2 carrots\n- 1 cup heavy cream\n- salt and pepper to taste\n- dill to garnish",
+  "directions_source_markdown": "1. Wash, clean, and dice all vegetables.\n2. Remove scales from salmon fillet or remove skin entirely, up to you. Dice.\n3. In a pot, melt butter. Add diced leeks and cook on medium-high about 5 minutes until the leeks wilt a bit.\n4. Add water (or stock) and other vegetables. Bring to a boil and cook on medium heat about 10-15 minutes until the potatoes are ready.\n5. Add diced salmon fillet and heavy cream. Cook for additional 5-10 minutes to cook the salmon.\n6. Add salt and pepper to taste at the end. Serve with dill as garnish.",
+  "images": [],
+  "coverage_group": "soups"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Oaty Pancakes",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/oaty-pancakes.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "4d30906094eb1b7f7fcd5c6695b460fc4bb01125f0f61f7fb7d36cf7ab717f80",
+  "original_front_matter": {
+    "title": "Oaty Pancakes",
+    "date": "2021-03-13",
+    "tags": [
+      "breakfast",
+      "quick",
+      "sweet",
+      "pancake",
+      "cheesefare"
+    ],
+    "author": "Puremana"
+  },
+  "source_url": "https://publicdomainrecipes.com/oaty-pancakes/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "status": "missing-image",
+      "reason": "No image reference in upstream document; no substitute sought."
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

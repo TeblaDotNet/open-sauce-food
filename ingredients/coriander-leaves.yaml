@@ -1,0 +1,34 @@
+id: coriander-leaves
+kind: ingredient
+canonical_name: coriander leaves
+names:
+  en-GB: coriander leaves
+  en-US: cilantro
+status: reviewed-merge
+aliases:
+- name: cilantro
+  type: regional-name
+  observed_count: 3
+evidence:
+  current_recipe_count: 4
+  current_observation_count: 4
+  legacy_observation_count: 0
+  observed_terms:
+  - term: cilantro
+    count: 3
+  - term: coriander leaves
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/guacamole/guacamole.opensauce
+  - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+  - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce
+observed_qualifiers:
+- value: chopped
+  count: 1
+- value: for garnish
+  count: 1
+- value: fresh
+  count: 1
+- value: lightly packed
+  count: 1

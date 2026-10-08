@@ -1,0 +1,14 @@
+id: space
+kind: process
+names:
+  en: space
+observed_forms:
+- syntax: space, evenly, parchment-lined baking sheet
+  count: 1
+seen_in:
+- examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+observed_parameters:
+- value: evenly
+  count: 1
+- value: parchment-lined baking sheet
+  count: 1

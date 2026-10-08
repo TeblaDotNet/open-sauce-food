@@ -1,0 +1,15 @@
+id: bruschetta-herbs
+kind: ingredient
+canonical_name: bruschetta herbs
+names:
+  en: bruschetta herbs
+status: canonical-seed
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: bruschetta herbs
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce

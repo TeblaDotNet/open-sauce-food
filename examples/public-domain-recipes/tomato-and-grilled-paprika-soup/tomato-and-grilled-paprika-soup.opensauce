@@ -1,0 +1,83 @@
+::recipe
+
+name: Tomato and Grilled Bell Pepper soup
+source: https://publicdomainrecipes.com/tomato-and-grilled-paprika-soup/
+source author: thijs-wester
+source license: Public domain (Unlicense)
+units: source
+tags: soup, cheesefare
+serves: 12
+
+# Original source: ../../../source/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.md
+# Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
+# Source Cook time: 30 min
+# Source Servings: 12
+# Conversion note: Giner syrup spelling; no explicit boil after stock addition. Likely typo and abbreviated method left for review.
+
+::ingredients
+
+(tomato) 10
+(red bell pepper) 2
+(onion) 2
+(garlic) 1 clove
+(stock choice) = (stock) 1l -OR- (broth) 1l
+(cayenne pepper) 3/4tsp
+(paprika) 1tsp
+(bruschetta herbs) 3tsp
+(oregano) 1tsp
+(giner syrup) 1tsp
+(oil) 2tbsp
+(heavy cream) 2tbsp
+
+::equipment
+
+(soup pan)
+(immersion blender)
+(oven) -OR- (grill)
+
+::instructions
+
+(red bell pepper) <halve> <deseed> <grill, oven or grill> <peel>
+(tomato) <skin> <quarter>
+(onion) + (garlic, crushed) + (oil) <sauté, soup pan>
+    + (stock choice) + (tomato) + (red bell pepper) <blend, immersion blender>
+    + (cayenne pepper) + (paprika) + (bruschetta herbs) + (oregano) + (giner syrup) + (heavy cream) <add>
+
+::notes
+Can be prepared the night before and kept frozen for a week or two.
+
+::source
+<<<
+---
+title: "Tomato and Grilled Bell Pepper soup"
+date: 2021-03-15
+tags: ['soup', 'cheesefare']
+author: thijs-wester
+---
+
+- 🍳 Cook time: 30 min
+- 🍽️Servings:12
+
+Can be prepared the night before and kept frozen for a week or two.
+
+## Ingredients
+- 10 tomatoes
+- 2 red bell peppers
+- 2 onions
+- 1 clove of garlic
+- 1L stock or broth
+- ¾t Cayenne pepper
+- 1t paprika powder
+- 3t bruschetta herbs
+- 1t oregano
+- 1t giner syrup
+- 2T olive oil
+- 2T heavy cream
+
+## Directions
+1. Halve, deseed and grill the bell peppers in an oven or on a grill. Remove skin after grilling.
+2. Skin and quarter tomatoes.
+3. Sauté onion and crushed garlic in a large soup pan with olive oil.
+4. Add broth/stock, tomatoes, bell paper and purée with a stick blender.
+5. Add spices, syrup and cream.
+>>>

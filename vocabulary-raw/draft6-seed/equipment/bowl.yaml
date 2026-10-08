@@ -1,0 +1,22 @@
+id: bowl
+kind: equipment
+names:
+  en: bowl
+observed_forms:
+  - syntax: bowl
+    count: 8
+  - syntax: bowl, large
+    count: 1
+seen_in:
+  - examples/public-domain-recipes/apple-pie/apple-pie.opensauce
+  - examples/public-domain-recipes/banana-muffins-with-chocolate/banana-muffins-with-chocolate.opensauce
+  - examples/public-domain-recipes/butter-chicken-masala/butter-chicken-masala.opensauce
+  - examples/public-domain-recipes/carbonara/carbonara.opensauce
+  - examples/public-domain-recipes/chocolate-chip-cookies/chocolate-chip-cookies.opensauce
+  - examples/public-domain-recipes/guacamole/guacamole.opensauce
+  - examples/public-domain-recipes/tiramisu/tiramisu.opensauce
+  - legacy-corpus:bbc-food-10
+observed_qualifiers:
+  - value: large
+    count: 1
+legacy_observation: true

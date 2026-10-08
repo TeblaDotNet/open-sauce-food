@@ -1,0 +1,39 @@
+{
+  "title": "Ravioli",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/ravioli.md",
+  "retrieved_on": "2026-10-08",
+  "original_sha256": "c993a07eb565982706622ed295ba05bc9befca9df0feefb805bd4c644f96b05e",
+  "original_front_matter": {
+    "title": "Ravioli",
+    "date": "2021-05-13",
+    "tags": [
+      "pasta",
+      "italian"
+    ],
+    "author": "mfed3"
+  },
+  "source_url": "https://publicdomainrecipes.com/ravioli/",
+  "stated_license": "Upstream site-wide public-domain dedication (Unlicense)",
+  "license_evidence": [
+    "../upstream-2026-10-08/README.md",
+    "../upstream-2026-10-08/LICENSE.md"
+  ],
+  "category": "new-eligible",
+  "images": [
+    {
+      "alt": "Ravioli",
+      "url": "/pix/ravioli.webp",
+      "upstreamPath": "static/pix/ravioli.webp",
+      "status": "copied-image",
+      "reason": "Explicit recipe image covered by upstream site-wide dedication.",
+      "sha256": "e70a31050cfbcdd1fa1ccbc35d9baecc9d16902532cd67f2827b93ed7df77d70",
+      "sourcePath": "source/public-domain-recipes/ravioli/ravioli.webp",
+      "promotedPath": "examples/public-domain-recipes/ravioli/ravioli.webp"
+    }
+  ],
+  "caveats": [
+    "Conservative action-first import: source clauses remain free-text parameters; do not infer material/destination roles or recipe execution."
+  ]
+}

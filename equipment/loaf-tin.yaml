@@ -1,0 +1,22 @@
+id: loaf-tin
+kind: equipment
+canonical_name: loaf tin
+names:
+  en: loaf tin
+status: canonical-seed
+evidence:
+  current_recipe_count: 2
+  current_observation_count: 2
+  legacy_observation_count: 1
+  observed_terms:
+  - term: loaf tin
+    count: 2
+  seen_in:
+  - examples/public-domain-recipes/banana-bread/banana-bread.opensauce
+  - examples/public-domain-recipes/bread/bread.opensauce
+  legacy_terms:
+  - term: loaf tin
+    count: 1
+observed_qualifiers:
+- value: 900g / 2lb
+  count: 1

@@ -1,0 +1,33 @@
+{
+  "title": "Tomato and Grilled Bell Pepper soup",
+  "source_url": "https://publicdomainrecipes.com/tomato-and-grilled-paprika-soup/",
+  "source_author": "thijs-wester",
+  "stated_license": "Public domain (Unlicense)",
+  "license_scope": "Site-wide dedication covers text and images; no per-recipe license stated.",
+  "license_evidence": [
+    "../UPSTREAM-README.md",
+    "../UPSTREAM-LICENSE.md"
+  ],
+  "retrieved_on": "2026-10-07",
+  "upstream_repository": "https://github.com/ronaldl29/public-domain-recipes",
+  "upstream_commit": "da84378b36bd5b2e3cb35f610d64630bf1bd899d",
+  "upstream_path": "content/tomato-and-grilled-paprika-soup.md",
+  "original_sha256": "b695518688ee0fffe7e666b87a36b53fb1f77a6070d5ac7b8ea13506bd34abb5",
+  "original_front_matter": {
+    "title": "Tomato and Grilled Bell Pepper soup",
+    "date": "2021-03-15",
+    "tags": [
+      "soup",
+      "cheesefare"
+    ],
+    "author": "thijs-wester"
+  },
+  "source_timing_and_servings": {
+    "Cook time": "30 min",
+    "Servings": "12"
+  },
+  "ingredients_source_markdown": "- 10 tomatoes\n- 2 red bell peppers\n- 2 onions\n- 1 clove of garlic\n- 1L stock or broth\n- ¾t Cayenne pepper\n- 1t paprika powder\n- 3t bruschetta herbs\n- 1t oregano\n- 1t giner syrup\n- 2T olive oil\n- 2T heavy cream",
+  "directions_source_markdown": "1. Halve, deseed and grill the bell peppers in an oven or on a grill. Remove skin after grilling.\n2. Skin and quarter tomatoes.\n3. Sauté onion and crushed garlic in a large soup pan with olive oil.\n4. Add broth/stock, tomatoes, bell paper and purée with a stick blender.\n5. Add spices, syrup and cream.",
+  "images": [],
+  "coverage_group": "soups"
+}
