@@ -1,0 +1,17 @@
+# Open Sauce Food: scoped static hosting. No parent/root rewrite changes.
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+DirectorySlash On
+FallbackResource disabled
+RewriteEngine On
+RewriteRule ^ - [END]
+ErrorDocument 404 /opensaucefood/404.html
+
+# Assets are not fingerprinted: require revalidation before reusing any response.
+<IfModule mod_headers.c>
+  Header always set Cache-Control "no-cache"
+  Header always set X-Content-Type-Options "nosniff"
+</IfModule>
+<FilesMatch "^(?:\.|SHA256SUMS$|release-manifest\.json$)">
+  Require all denied
+</FilesMatch>
