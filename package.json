@@ -26,6 +26,7 @@
     "demo": "tsc -p tsconfig.build.json && node scripts/demo-server.ts",
     "check": "tsc --noEmit",
     "corpus": "node scripts/corpus.ts",
+    "quality:audit": "node scripts/quality-audit.ts",
     "site:build": "node scripts/site-build.ts",
     "site:validate": "node scripts/site-validate.ts",
     "site:preview": "node scripts/site-preview.ts"

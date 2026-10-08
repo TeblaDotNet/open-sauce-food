@@ -1,0 +1,24 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { parseRecipe } from '../src/parser/index.ts';
+import { Vocabulary } from '../src/vocabulary/index.ts';
+import { auditConversion } from '../src/conversion-quality.ts';
+const vocabulary=new Vocabulary([{id:'flour',kind:'ingredient',names:{en:'flour'}},{id:'salt',kind:'ingredient',names:{en:'salt'}},{id:'bowl',kind:'equipment',names:{en:'bowl'}},{id:'mix',kind:'process',names:{en:'mix'}},{id:'knead',kind:'process',names:{en:'knead'}},{id:'rise',kind:'process',names:{en:'rise'}}]);
+const source=(instructions:string,ingredients='(flour)',equipment='(bowl)')=>`::recipe\nname: Test\n::ingredients\n${ingredients}\n::equipment\n${equipment}\n::instructions\n${instructions}\n`;
+const audit=(text:string)=>auditConversion(parseRecipe(text,{vocabulary}),vocabulary);
+test('structured recipe has full coverage and no quality warnings',()=>{const r=audit(source('(flour) + (bowl) <mix> = {batter}'));assert.equal(r.score,100);assert.equal(r.diagnostics.length,0)});
+test('parseable prose-heavy recipe ranks poorly and preserves parser validity',()=>{const r=audit(source('Slowly mix the flour into the bowl and continue stirring gently for several minutes until everything is combined evenly and there are no visible lumps remaining anywhere in the mixture.'));assert.equal(r.parser.errors,0);assert.equal(r.band,'poor');assert.ok(r.ruleCounts.CQ004);assert.ok(r.ruleCounts.CQ006)});
+test('missing ingredient and equipment have separate stable rules',()=>{const r=audit(source('<mix>'));assert.equal(r.ruleCounts.CQ001,1);assert.equal(r.ruleCounts.CQ002,1)});
+test('raw whole names match, structured and substring names do not',()=>{const r=audit(source('(flour) + (bowl) <mix>\nAdd flour to bowl; flowers and bowling are irrelevant.'));assert.deepEqual(r.rawMatches.map(m=>m.text),['flour','bowl']);for(const m of r.rawMatches)assert.equal(source('(flour) + (bowl) <mix>\nAdd flour to bowl; flowers and bowling are irrelevant.').slice(m.span.start,m.span.end),m.text)});
+test('short prose is not a long-span warning',()=>assert.equal(audit(source('(flour) + (bowl) <mix>\nServe warm.')).ruleCounts.CQ004,0));
+test('multi-action and long process parameters are diagnosed once per token',()=>{const r=audit(source('(flour) + (bowl) <knead, the dough and let it rise covered for 1 hour in a warm place until doubled>'));assert.equal(r.ruleCounts.CQ005,1);assert.equal(r.ruleCounts.CQ003,0)});
+test('unknown concepts never generate guessed prose semantic matches',()=>{const r=audit(source('(mystery) <mix>\nUse mystery now.','(mystery)',''));assert.equal(r.ruleCounts.CQ003,0);assert.equal(r.ingredients.referenced,1)});
+test('intermediate weakness is low confidence and score-neutral',()=>{const r=audit(source('(flour) + (bowl) <mix>\nTurn the dough. Rest the dough.'));assert.equal(r.ruleCounts.CQ007,1);assert.equal(r.diagnostics.find(d=>d.rule==='CQ007')?.confidence,'low')});
+test('deterministic and does not mutate AST',()=>{const p=parseRecipe(source('(flour) + (bowl) <mix>'),{vocabulary});const before=JSON.stringify(p);assert.deepEqual(auditConversion(p,vocabulary),auditConversion(p,vocabulary));assert.equal(JSON.stringify(p),before)});
+test('alternatives on one declaration statement are not all credited',()=>{const r=audit(source('(flour) + (bowl) <mix>','(flour) -OR- (salt)'));assert.equal(r.ingredients.total,2);assert.equal(r.ingredients.referenced,1)});
+test('Original source is excluded and empty coverage is N/A',()=>{const r=audit(source('<mix>','','')+'::source\n<<<\nflour bowl the dough the dough\n>>>\n');assert.equal(r.ingredients.percentage,null);assert.equal(r.ruleCounts.CQ003,0);assert.equal(r.ruleCounts.CQ007,0)});
+
+test('semantic aliases cover declared identity',()=>{const v=new Vocabulary([{id:'flour',kind:'ingredient',names:{en:'flour'},aliases:['ground wheat']}]);const r=auditConversion(parseRecipe(source('(ground wheat)','(flour)',''),{vocabulary:v}),v);assert.equal(r.ingredients.referenced,1)});
+test('ambiguous declarations do not receive guessed coverage',()=>{const r=audit(source('(flour) <mix>','(flour)\n(flour)',''));assert.equal(r.ingredients.referenced,0)});
+test('sibling parts are not conflated',()=>{const r=audit(source('(flour: coarse) <mix>','(flour: fine)',''));assert.equal(r.ingredients.referenced,0)});
+test('short single-action process qualifier avoids empirical false positive',()=>{const r=audit(source('(flour) + (bowl) <heat, olive oil in a 4 to 5 quart pot on medium-high heat>'));assert.equal(r.ruleCounts.CQ005,0)});
