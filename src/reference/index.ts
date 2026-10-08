@@ -77,7 +77,7 @@ export interface ReferencePage extends ReferenceKnowledge {
 const displayName = (names: Record<string, string>, fallback: string) => names.en ?? names['en-GB'] ?? Object.values(names)[0] ?? fallback;
 
 /** Browser-safe data projection. No filesystem, HTML, parser changes or invented definitions. */
-export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind, id: string, usage?: UsageIndex): ReferencePage | undefined {
+export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind, id: string, usage?: UsageIndex, options: { referenceUrl?: (kind: ReferenceKind, id: string) => string | undefined } = {}): ReferencePage | undefined {
   const matches = vocabulary.entries.filter(e => e.kind === kind && e.id === id);
   if (matches.length !== 1) return undefined;
   const entry = matches[0];
@@ -90,7 +90,7 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
     }),
     groups: Object.entries(data.part_groups ?? {}).map(([id, group]) => {
       const processes = vocabulary.resolve(group.process, 'process');
-      return { ...group, id, processUrl: processes.length === 1 ? referencePath('process', processes[0].id) : undefined,
+      return { ...group, id, processUrl: processes.length === 1 ? (options.referenceUrl ?? referencePath)('process', processes[0].id) : undefined,
         members: group.parts.map(id => ({ id, anchor: partAnchor([...path, id]) })) };
     })
   });

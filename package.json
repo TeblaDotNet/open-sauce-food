@@ -25,13 +25,17 @@
     "build": "tsc -p tsconfig.build.json",
     "demo": "tsc -p tsconfig.build.json && node scripts/demo-server.ts",
     "check": "tsc --noEmit",
-    "corpus": "node scripts/corpus.ts"
+    "corpus": "node scripts/corpus.ts",
+    "site:build": "node scripts/site-build.ts",
+    "site:validate": "node scripts/site-validate.ts",
+    "site:preview": "node scripts/site-preview.ts"
   },
   "dependencies": {
     "yaml": "^2.8.0"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
+    "marked": "18.1.0",
     "typescript": "^5.9.0"
   },
   "packageManager": "pnpm@11.25.0",

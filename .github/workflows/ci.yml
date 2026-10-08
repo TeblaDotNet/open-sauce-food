@@ -20,4 +20,6 @@ jobs:
       - run: pnpm build
       - run: pnpm test
       - run: pnpm corpus
+      - run: pnpm site:build
+      - run: pnpm site:validate
       - run: node scripts/check-public-release.ts

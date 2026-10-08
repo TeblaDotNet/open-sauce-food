@@ -23,3 +23,8 @@ Thumbs.db
 *.zip
 History/
 test source recipes/
+
+# Generated static website
+site-dist/
+# Local hosting rehearsal and release packages
+hosting-work/

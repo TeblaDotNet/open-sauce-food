@@ -14,12 +14,16 @@ export type RecipeView = 'code' | 'compact' | 'originalSource';
 export interface HtmlRenderOptions extends RenderOptions {
   /** Optional syntax spans in Code only; never changes text or the model. */
   syntaxSpans?: boolean;
+  /** Page shells can provide a persistent title/curation header. */
+  header?: boolean;
   /** Code is the default. Original recipe source is literal provenance, not rendered Code. */
   view?: RecipeView;
   /** Give each recipe a distinct prefix when embedding several in one document. */
   idPrefix?: string;
   /** Directory URL for recipe-relative media, e.g. /recipes/apple-pie/. */
   assetBaseUrl?: string;
+  /** Descriptive fallback for the recipe metadata image. */
+  imageAlt?: string;
   referenceUrl?: (target: ReferenceTarget) => string | undefined;
   /** Plain-text display hooks are inherited; returning HTML never bypasses escaping. */
 }
@@ -98,7 +102,7 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
     if (n.kind === 'comment') return comment(n.text);
     if (n.kind === 'metadata') {
       if (recipe.curation && (n.key === 'curation origin' || n.key === 'curation review')) return comment(n.comment);
-      if (n.key === 'image') return image(n.value, 'Recipe image') + comment(n.comment);
+      if (n.key === 'image') return image(n.value, options.imageAlt ?? 'Recipe image') + comment(n.comment);
       const value = options.formatValue?.(n.value, 'metadata') ?? n.value;
       const url = n.key === 'source' ? safeUrl(n.value) : undefined;
       return `<dl class="os-metadata"><dt>${e(n.key)}</dt><dd>${url ? `<a href="${e(url)}">${e(value)}</a>` : e(value)}</dd></dl>` + comment(n.comment);
@@ -141,7 +145,7 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
   }
   const title = recipe.sections.flatMap(s => s.children).find(n => n.kind === 'metadata' && n.key === 'name');
   const name = title?.kind === 'metadata' ? title.value : 'Untitled recipe';
-  return `<article class="os-recipe os-view-${code ? 'code' : 'compact'}" aria-labelledby="${prefix}-title"><header><p class="os-eyebrow">Open Sauce Food recipe</p><h1 id="${prefix}-title">${e(name)}</h1>${recipe.curation ? `<p class="os-curation"><small>Encoding curation: ${e(curationLabel(recipe.curation))}</small></p>` : ''}</header>${nodes(recipe.preamble, '')}${recipe.sections.map((s, i) => {
+  return `<article class="os-recipe os-view-${code ? 'code' : 'compact'}" aria-labelledby="${prefix}-title">${options.header === false ? '' : `<header><p class="os-eyebrow">Open Sauce Food recipe</p><h1 id="${prefix}-title">${e(name)}</h1>${recipe.curation ? `<p class="os-curation"><small>Encoding curation: ${e(curationLabel(recipe.curation))}</small></p>` : ''}</header>`}${nodes(recipe.preamble, '')}${recipe.sections.map((s, i) => {
     if (s.name === 'story' && options.story === false) return '';
     if (s.name === 'notes' && options.notes === false) return '';
     if (s.name === 'source') return code && s.originalSource ? `<section class="os-section" data-section="source"><h2>::source</h2><pre class="os-original-source">${e('<<<\n' + s.originalSource.text + (s.originalSource.closed ? '>>>' : ''))}</pre></section>` : '';

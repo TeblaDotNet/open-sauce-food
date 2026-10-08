@@ -12,7 +12,7 @@ function walk(dir: string) {
   for (const e of readdirSync(dir, { withFileTypes: true })) {
     const p = `${dir}/${e.name}`;
     if (e.isDirectory()) {
-      if (['.git','node_modules','dist'].includes(e.name)) {
+      if (['.git','node_modules','dist','site-dist','hosting-work'].includes(e.name)) {
         assert.ok(!process.argv.includes('--pristine'), `Generated/private directory: ${p}`);
         continue;
       }
