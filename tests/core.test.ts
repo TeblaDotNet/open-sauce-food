@@ -1,3 +1,4 @@
+import { restoreRecipePublication } from './helpers/recipe-publication.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile, readdir } from 'node:fs/promises';
@@ -181,7 +182,7 @@ test('fixture copies match the promoted recipes', async () => {
   for (const file of (await readdir('tests/fixtures')).filter(f => f.endsWith('.opensauce'))) {
     const name = file.replace('.opensauce', '');
     assert.equal((await readFile(`tests/fixtures/${file}`, 'utf8')).replaceAll('\r\n', '\n'),
-      (await readFile(`examples/public-domain-recipes/${name}/${file}`, 'utf8')).replaceAll('\r\n', '\n'));
+      restoreRecipePublication(await readFile(`examples/public-domain-recipes/${name}/${file}`, 'utf8'), name).replaceAll('\r\n', '\n'));
   }
 });
 

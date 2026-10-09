@@ -1524,3 +1524,12 @@ Only complete explicitly configured qualifiers are annotated, retaining their ra
 text and source spans. Grammar and vocabulary-free parsing are unchanged. No
 state inheritance, transitions or conversions are inferred. See
 [VOCABULARY-SCHEMA.md](VOCABULARY-SCHEMA.md) for the optional model.
+
+### Conversion maturity metadata
+
+Optional `conversion stage` recipe metadata accepts `initial`, `reworked` or
+`blocked`. It is independent of `curation origin` and `curation review` and does
+not change recipe syntax or culinary semantics. Missing values mean unknown;
+invalid or duplicate values receive `INVALID_CONVERSION_STAGE` warnings. Public
+site policy uses explicit reworked status, not parser success or numeric quality
+scores. See [RECIPE-PUBLICATION.md](RECIPE-PUBLICATION.md).

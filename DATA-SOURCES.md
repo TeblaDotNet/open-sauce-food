@@ -54,3 +54,10 @@ FoodOn, USDA FoodData Central, Wikidata and Open Food Facts are possible future
 external sources, not integrated numerical datasets. Any future import needs its own
 version, applicable terms, citations and state/unit/uncertainty handling. No external
 database is automatically relicensed under the project's CC0 offer.
+
+## Corpus versus public discovery
+
+All 410 recipes remain distributed. Normal static-site browsing and reference
+backlinks include 216 explicitly reworked recipes; 184 initial and 10 blocked
+recipes keep direct noindex development pages. Conversion stage is independent
+of human review. See [RECIPE-PUBLICATION.md](RECIPE-PUBLICATION.md).

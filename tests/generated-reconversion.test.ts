@@ -1,3 +1,4 @@
+import { restoreRecipePublication } from './helpers/recipe-publication.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -14,7 +15,7 @@ test('generated reconversion restores historical bytes without changing protecte
   const source=readFileSync(`examples/public-domain-recipes/${slug}/${slug}.opensauce`,'utf8');
   const baseline=restoreGeneratedReconversion(source,slug);
   assert.equal(sha(baseline),record.baselineSha256,slug);
-  const before=sections(baseline),after=sections(source);
+  const before=sections(baseline),after=sections(restoreRecipePublication(source,slug));
   assert.deepEqual(after.filter(s=>!['ingredients','equipment','instructions','notes'].includes(s.name)),before.filter(s=>!['ingredients','equipment','instructions','notes'].includes(s.name)),slug);
   if(record.status==='generated-v2'){
    assert.ok(!reviewedInstructionSlugs.includes(slug),slug);

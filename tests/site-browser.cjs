@@ -8,6 +8,8 @@ const { chromium } = require('playwright');
 (async () => {
   const port = 4196, base = (process.env.SITE_TEST_ORIGIN ?? `http://127.0.0.1:${port}`) + '/opensaucefood/';
   const server = process.env.SITE_TEST_ORIGIN ? undefined : spawn(process.execPath, ['scripts/site-preview.ts'], { env: { ...process.env, PORT: String(port) }, stdio: ['ignore','pipe','pipe'], windowsHide: true });
+  const manifest = JSON.parse(await readFile('site-dist/site-manifest.json', 'utf8'));
+  const published = manifest.recipes.filter(r => r.conversionStage === 'reworked');
   let serverLog = ''; server?.stdout.on('data', b => serverLog += b); server?.stderr.on('data', b => serverLog += b);
   let browser;
   const evidence = join(tmpdir(), process.env.SITE_TEST_ORIGIN ? 'open-sauce-site-browser-hosting' : 'open-sauce-site-browser-m2');
@@ -25,7 +27,7 @@ const { chromium } = require('playwright');
     page.on('pageerror', e => errors.push(e.message));
     page.on('response', r => { if (r.status() >= 400) badResponses.push(r.url()); });
     await page.goto(base); await page.screenshot({ path: join(evidence, 'home-desktop.png'), fullPage: true });
-    const recipeUrl = base + 'recipe/mayonnaise-or-aioli/';
+    const recipeUrl = base + 'recipe/stracciatella-soup/';
     await page.goto(recipeUrl);
     assert.ok(await page.locator('[data-view-panel="code"]').isVisible());
     assert.ok(!await page.locator('[data-view-panel="compact"]').isVisible());
@@ -46,21 +48,21 @@ const { chromium } = require('playwright');
     assert.ok(!await page.locator('[data-view-panel="code"]').isVisible());
     await page.screenshot({ path: join(evidence, 'recipe-compact-light.png'), fullPage: true });
     for (const view of ['code','compact']) {
-      for (const [kind, suffix] of [['ingredient','ingredients/egg/#part-yolk'],['process','processes/blend/'],['equipment','equipment/immersion-blender/']]) {
+      for (const [kind, suffix] of [['ingredient','ingredients/egg/'],['process','processes/beat/'],['equipment','equipment/bowl/']]) {
         await page.goto(recipeUrl); await page.locator(`input[value="${view}"]`).check();
         const link = page.locator(`[data-view-panel="${view}"] a.os-${kind}[href="/opensaucefood/${suffix}"]`).first();
         await page.keyboard.press('Tab'); await link.focus(); assert.equal(await link.evaluate(el => getComputedStyle(el).outlineStyle), 'solid');
         await link.click(); assert.equal(page.url(), base + suffix);
-        if (kind === 'ingredient') assert.ok(await page.locator('#part-yolk').isVisible());
-        await page.getByRole('link', { name: 'Mayonnaise or aioli', exact: true }).click(); assert.equal(page.url(), recipeUrl);
+        if (kind === 'ingredient') assert.ok(await page.locator('.os-reference h1').isVisible());
+        await page.getByRole('link', { name: 'Stracciatella soup', exact: true }).click(); assert.equal(page.url(), recipeUrl);
       }
     }
-    await page.locator('[data-section-toggle="story"]').uncheck();
-    assert.ok(!await page.locator('[data-view-panel="code"] [data-section="story"]').isVisible());
+    await page.locator('[data-section-toggle="notes"]').uncheck();
+    assert.ok(!await page.locator('[data-view-panel="code"] [data-section="notes"]').isVisible());
     await page.locator('input[value="originalSource"]').check();
     assert.ok(await page.locator('.provenance').isVisible());
     assert.equal(await page.locator('[data-view-panel="originalSource"] a').count(), 0);
-    const source = await readFile('examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce', 'utf8');
+    const source = await readFile('examples/public-domain-recipes/stracciatella-soup/stracciatella-soup.opensauce', 'utf8');
     const original = source.split('<<<')[1].split('>>>')[0].replace(/^\r?\n/, '');
     assert.equal((await page.locator('[data-view-panel="originalSource"] code').textContent()).replaceAll('\r',''), original.replaceAll('\r',''));
     await page.setViewportSize({ width: 390, height: 844 }); await page.goto(recipeUrl);
@@ -71,13 +73,13 @@ const { chromium } = require('playwright');
     await page.screenshot({ path: join(evidence, 'recipe-mobile.png'), fullPage: true });
     const noJs = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 1280, height: 900 } });
     const plain = await noJs.newPage(); await plain.goto(recipeUrl);
-    assert.ok(await plain.getByRole('heading', { name: 'Mayonnaise or aioli', exact: true }).isVisible());
+    assert.ok(await plain.getByRole('heading', { name: 'Stracciatella soup', exact: true }).isVisible());
     assert.ok(await plain.locator('[data-view-panel="code"]').isVisible());
     assert.ok(await plain.locator('.provenance').isVisible());
     assert.ok(!await plain.locator('.controls').isVisible());
-    await plain.locator('[data-view-panel="code"] a[href="/opensaucefood/ingredients/egg/#part-yolk"]').first().click();
-    assert.ok(await plain.locator('#part-yolk').isVisible());
-    await plain.getByRole('link', { name: 'Mayonnaise or aioli', exact: true }).click();
+    await plain.locator('[data-view-panel="code"] a[href="/opensaucefood/ingredients/egg/"]').first().click();
+    assert.ok(await plain.locator('.os-reference h1').isVisible());
+    await plain.getByRole('link', { name: 'Stracciatella soup', exact: true }).click();
     await plain.screenshot({ path: join(evidence, 'recipe-no-javascript.png'), fullPage: true });
     // Full-alpha coverage beyond the original representative.
     await page.setViewportSize({ width: 1280, height: 1000 });
@@ -97,23 +99,25 @@ const { chromium } = require('playwright');
       await page.locator('[data-section-toggle="' + section + '"]').check();
     }
     await page.goto(base + 'recipes/');
-    assert.equal(await page.locator('#all-recipes [data-recipe]').count(), 410);
+    assert.equal(await page.locator('#all-recipes [data-recipe]').count(), published.length);
     assert.ok(await page.locator('#all-recipes [data-recipe] a').evaluateAll(links => links.every(a => a.pathname.startsWith('/opensaucefood/recipe/'))));
     await page.screenshot({ path: join(evidence, 'recipes-browse.png') });
-    await page.locator('#tags a[href="/opensaucefood/recipes/tag/sauce/"]').click();
-    assert.equal(await page.locator('[data-recipe]').count(), 24);
+    await page.locator('#tags a[href="/opensaucefood/recipes/tag/soup/"]').click();
+    assert.equal(await page.locator('[data-recipe]').count(), manifest.tags.find(t => t.slug === 'soup').count);
     await page.screenshot({ path: join(evidence, 'tag-sauce.png'), fullPage: true });
-    await page.locator('[data-recipe="mayonnaise-or-aioli"] a').click(); assert.equal(page.url(), recipeUrl);
-    await page.goto(base + 'recipes/category/baking/');
-    assert.equal(await page.locator('[data-recipe]').count(), 3);
-    await page.locator('[data-recipe="no-knead-bread"] a').click(); assert.ok(page.url().endsWith('/recipe/no-knead-bread/'));
+    await page.locator('[data-recipe="stracciatella-soup"] a').click(); assert.equal(page.url(), recipeUrl);
+    // No currently published recipe has category metadata; do not expose hidden-only facets.
+    assert.equal(manifest.categories.length, 0);
+    await page.goto(base + 'recipes/');
+    assert.equal(await page.locator('#categories a').count(), 0);
     for (const [family, count] of [['ingredients',386],['processes',201],['equipment',119]]) {
       await page.goto(base + family + '/'); assert.equal(await page.locator('[data-reference]').count(), count);
     }
     await page.goto(base + 'ingredients/'); await page.screenshot({ path: join(evidence, 'ingredient-index.png') });
     await page.locator('[data-reference="egg"] a').click();
     await page.screenshot({ path: join(evidence, 'ingredient-egg.png') });
-    await page.getByRole('link', { name: 'Apple Pie', exact: true }).click(); assert.ok(page.url().endsWith('/recipe/apple-pie/'));
+    assert.equal(await page.getByRole('link', { name: 'Apple Pie', exact: true }).count(), 0);
+    await page.getByRole('link', { name: 'Stracciatella soup', exact: true }).click(); assert.equal(page.url(), recipeUrl);
     await page.goto(base + 'spec/');
     assert.ok((await page.locator('.spec-document pre code').count()) > 20);
     assert.ok((await page.locator('.spec-document').textContent()).includes('Draft 8'));
@@ -121,18 +125,37 @@ const { chromium } = require('playwright');
     await page.locator('.spec-contents a').nth(2).click();
     assert.ok(page.url().includes('#spec-'));
     await page.goto(base + 'about/'); assert.ok((await page.locator('main').textContent()).includes('Original recipe source'));
-    for (const route of ['recipes/', 'recipes/tag/sauce/', 'recipes/category/baking/', 'ingredients/', 'ingredients/egg/', 'processes/blend/', 'equipment/immersion-blender/', 'spec/', 'about/', 'recipe/apple-pie/', 'recipe/butter-cake/']) {
+    for (const route of ['recipes/', 'recipes/tag/soup/', 'ingredients/', 'ingredients/egg/', 'processes/beat/', 'equipment/bowl/', 'spec/', 'about/', 'recipe/apple-pie/', 'recipe/butter-cake/']) {
       await plain.goto(base + route); assert.ok(await plain.locator('main').isVisible()); assert.ok(await plain.locator('nav').first().isVisible());
       if (route.startsWith('recipe/')) { assert.ok(await plain.locator('[data-view-panel="code"]').isVisible()); assert.ok(await plain.locator('.provenance').isVisible()); }
     }
-    await plain.goto(base + 'recipes/tag/sauce/'); await plain.locator('[data-recipe="mayonnaise-or-aioli"] a').click(); assert.equal(plain.url(), recipeUrl);
+    await plain.goto(base + 'recipes/tag/soup/'); await plain.locator('[data-recipe="stracciatella-soup"] a').click(); assert.equal(plain.url(), recipeUrl);
     await page.setViewportSize({ width: 390, height: 844 });
     for (const route of ['recipes/', 'ingredients/', 'spec/', 'about/']) { await page.goto(base + route); assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'Mobile overflow: ' + route); }
+    // Initial and blocked remain usable directly, with noindex and a modest notice.
+    for (const stage of ['initial','blocked']) {
+      const hidden = manifest.recipes.find(r => r.conversionStage === stage);
+      await page.goto(base + 'recipe/' + hidden.slug + '/');
+      assert.equal(await page.locator('meta[name="robots"]').getAttribute('content'), 'noindex');
+      assert.ok((await page.locator('main .metadata-notice').textContent()).includes('development corpus'));
+      assert.ok(await page.locator('[data-view-panel="code"]').isVisible());
+      await plain.goto(base + 'recipe/' + hidden.slug + '/');
+      assert.ok(await plain.locator('main .metadata-notice').isVisible());
+      await page.goto(base + 'recipes/');
+      assert.equal(await page.locator('[data-recipe="' + hidden.slug + '"]').count(),0);
+    }
+    await page.goto(recipeUrl);
+    assert.equal(await page.locator('meta[name="robots"]').count(), 0);
+    // The retained hidden Mayonnaise page still exercises part navigation without a public backlink.
+    await page.goto(base + 'recipe/mayonnaise-or-aioli/');
+    await page.locator('[data-view-panel="code"] a[href="/opensaucefood/ingredients/egg/#part-yolk"]').first().click();
+    assert.ok(await page.locator('#part-yolk').isVisible());
+    assert.equal(await page.getByRole('link',{name:'Mayonnaise or aioli',exact:true}).count(),0);
     assert.equal((await fetch(base + 'recipe/missing/')).status, 404);
     assert.equal((await fetch(base + 'assets/missing.js')).status, 404);
     assert.equal((await fetch(base + 'recipes', { redirect: 'manual' })).status, 301);
     assert.deepEqual(errors, []); assert.deepEqual(badResponses, []);
-    const result = { status: 'passed', checks: ['Code default','Compact switching','literal original','syntax toggle computed style','theme toggle and persistence','story toggle','Code and Compact ingredient/process/equipment loops','part-yolk anchor','visible keyboard focus','390px no overflow','no-JavaScript navigation and provenance','real 404 and slash redirect','with/without original and image','Story and Notes','410 local recipe browse links','tag and category membership/navigation','386/201/119 reference indexes','additional egg/Apple Pie backlink','Spec code examples and contents anchors','About','no-JavaScript browse/index/spec/about routes'], screenshots: evidence };
+    const result = { status: 'passed', checks: ['Code default','Compact switching','literal original','syntax toggle computed style','theme toggle and persistence','story toggle','Code and Compact ingredient/process/equipment loops','part-yolk anchor','visible keyboard focus','390px no overflow','no-JavaScript navigation and provenance','real 404 and slash redirect','with/without original and image','Story and Notes','216 published recipe browse links','initial/blocked direct pages and noindex','hidden backlink exclusion','tag and category membership/navigation','386/201/119 reference indexes','public egg/Stracciatella backlink','Spec code examples and contents anchors','About','no-JavaScript browse/index/spec/about routes'], screenshots: evidence };
     await writeFile(join(evidence, 'result.json'), JSON.stringify(result, null, 2)); console.log(JSON.stringify(result, null, 2));
   } finally { if (browser) await browser.close(); server?.kill(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });

@@ -2,6 +2,8 @@ import { semanticTokens as nestedTokens } from '../../src/model/index.ts';
 import { readFile } from 'node:fs/promises';
 import { basename, dirname, join, relative } from 'node:path';
 import { createHash } from 'node:crypto';
+import { isPublished } from '../../src/publication.ts';
+import type { ConversionStage } from '../../src/publication.ts';
 import { parseRecipe } from '../../src/parser/index.ts';
 import type { Recipe, Node, Token } from '../../src/model/index.ts';
 import type { Vocabulary } from '../../src/vocabulary/index.ts';
@@ -11,6 +13,7 @@ import type { ReferenceKind } from '../../src/reference/index.ts';
 import type { Routes } from './routes.ts';
 
 export interface RecipeRecord {
+  conversionStage: ConversionStage;
   slug: string; name: string; tags: string[]; categories: string[]; category?: string;
   originalSource: boolean; media: string[]; curation?: Recipe['curation']; repositoryPath: string; githubUrl: string;
   provenance: Record<string, string>; generated: boolean;
@@ -53,6 +56,7 @@ export async function loadCorpus(root: string, vocabulary: Vocabulary, urls: Rou
     const source = await readFile(file);
     const recipe = parseRecipe(source.toString('utf8'), { filename: file, vocabulary });
     if (recipe.diagnostics.some(d => d.severity === 'error')) throw new Error(`Recipe parse error: ${file}`);
+    if (!recipe.conversionStage) throw new Error(`Missing or invalid conversion stage: ${file}`);
     const slug = basename(dirname(file));
     if (excluded.has(slug)) throw new Error('Excluded release recipe in corpus');
     if (parsed.has(slug)) throw new Error(`Duplicate recipe slug: ${slug}`);
@@ -68,7 +72,7 @@ export async function loadCorpus(root: string, vocabulary: Vocabulary, urls: Rou
       if (n.kind === 'prose') for (const m of n.text.matchAll(/!\[[^\]]*\]\(([^)]*)\)/g)) media.add(m[1]);
     });
     const repositoryPath = relative(root, file).replaceAll('\\', '/');
-    records.push({ slug, name: values('name')[0] ?? slug, tags, categories, category: categories[0],
+    records.push({ conversionStage: recipe.conversionStage, slug, name: values('name')[0] ?? slug, tags, categories, category: categories[0],
       originalSource: recipe.sections.some(s => !!s.originalSource?.text.length), media: [...media],
       curation: recipe.curation, repositoryPath, githubUrl: urls.source(repositoryPath),
       provenance: Object.fromEntries(metadata.filter(n => ['source', 'source author', 'source license'].includes(n.key)).map(n => [n.key, n.value])),
@@ -78,21 +82,22 @@ export async function loadCorpus(root: string, vocabulary: Vocabulary, urls: Rou
         (t.thingKind === 'ingredient' && t.partResolution?.complete && t.partResolution.ids.length ? '#' + partAnchor(t.partResolution.ids) : '')))] });
   }
   records.sort((a, b) => compare(a.name.toLowerCase(), b.name.toLowerCase()) || compare(a.slug, b.slug));
-  const tags = facets(records, 'tags'), categories = facets(records, 'categories');
+  const published = records.filter(isPublished);
+  const tags = facets(published, 'tags'), categories = facets(published, 'categories');
   const lowerGroups = new Map<string, string[]>();
   for (const f of tags.entries) lowerGroups.set(f.value.toLowerCase(), [...(lowerGroups.get(f.value.toLowerCase()) ?? []), f.value]);
   const tagValues = tags.entries.map(f => f.value);
   const singularPlural = tagValues.flatMap(v => [v + 's', v + 'es', ...(v.endsWith('y') ? [v.slice(0, -1) + 'ies'] : [])].filter(p => tagValues.includes(p)).map(p => [v, p]));
   const audit = {
-    recipeCount: records.length, distinctTags: tags.entries.length, tagAssignments: tags.entries.reduce((n, t) => n + t.count, 0),
-    recipesWithTags: records.filter(r => r.tags.length).length, recipesWithoutTags: records.filter(r => !r.tags.length).map(r => r.slug),
-    recipesWithCategory: records.filter(r => r.categories.length).length, recipesWithoutCategory: records.filter(r => !r.categories.length).map(r => r.slug),
+    corpusRecipeCount: records.length, recipeCount: published.length, distinctTags: tags.entries.length, tagAssignments: tags.entries.reduce((n, t) => n + t.count, 0),
+    recipesWithTags: published.filter(r => r.tags.length).length, recipesWithoutTags: published.filter(r => !r.tags.length).map(r => r.slug),
+    recipesWithCategory: published.filter(r => r.categories.length).length, recipesWithoutCategory: published.filter(r => !r.categories.length).map(r => r.slug),
     tags: tags.entries, categories: categories.entries, tagSlugCollisions: tags.collisions, categorySlugCollisions: categories.collisions,
     casingVariants: [...lowerGroups.values()].filter(v => v.length > 1), possibleSingularPluralPairs: singularPlural,
     noisyCandidates: tagValues.filter(v => /[^\p{L}\p{N} '&-]/u.test(v)),
     categoryCasingVariants: categories.entries.flatMap((a, i) => categories.entries.slice(i + 1).filter(b => a.value.toLowerCase() === b.value.toLowerCase()).map(b => [a.value, b.value])),
     reviewObservations: [
-      'Eight tag casing pairs remain separate labels and separate URL pages.',
+      'Authored casing variants remain separate labels and separate URL pages.',
       'No obvious singular/plural duplicate pairs or spelling-variant pairs were found in the current tag inventory.',
       'Compound spellings such as icecream and slowcooked are retained; they have no matching spaced label in this corpus.',
       'Tags mix cuisine, ingredients, dish types, occasions, dietary/religious labels and subjective labels such as basic, easy and quick. This is provisional metadata, not a controlled taxonomy.',
@@ -100,5 +105,5 @@ export async function loadCorpus(root: string, vocabulary: Vocabulary, urls: Rou
     ],
     note: 'Authored labels and recipe memberships are preserved. Candidate duplicates are observations, not merges.'
   };
-  return { records, parsed, tags: tags.entries, categories: categories.entries, audit };
+  return { records, published, parsed, tags: tags.entries, categories: categories.entries, audit };
 }

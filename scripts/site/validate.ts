@@ -1,3 +1,4 @@
+import { isPublished, isConversionStage } from '../../src/publication.ts';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { routes, siteConfig } from './routes.ts';
@@ -16,7 +17,11 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
   assert.equal(new Set([...files.keys()].map(p => p.toLowerCase())).size, files.size, 'Output paths collide');
   assert.equal(new Set(manifest.pages).size, manifest.pages.length, 'Duplicate routes');
   assert.equal(html.size, manifest.pages.length, 'Unlisted generated page');
-  assert.equal(manifest.recipes.length, 410, 'Public recipe count changed');
+  assert.equal(manifest.recipes.length, 410, 'Corpus recipe count changed');
+  for (const recipe of manifest.recipes) assert.ok(isConversionStage(recipe.conversionStage), 'Missing or invalid conversion stage');
+  const published = manifest.recipes.filter(isPublished);
+  const hiddenPaths = new Set(manifest.recipes.filter(r => !isPublished(r)).map(r => urls.recipe(r.slug)));
+  assert.ok(published.some(r => r.slug === manifest.representative), 'Representative must be published');
   const referenceCounts = { ingredient: 386, process: 201, equipment: 119 };
   for (const kind of ['ingredient', 'process', 'equipment'] as const) {
     const entries = manifest.references.filter(r => r.kind === kind);
@@ -50,6 +55,10 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
     if (!asset && value === 'https://tebla.net/' && config.origin === 'https://tebla.net') return;
     assert.ok(url.pathname.startsWith(config.basePath), `URL escapes base: ${from}: ${value}`);
     const target = urls.output(url.pathname);
+    if (!asset && hiddenPaths.has(url.pathname)) {
+      const sourceRecipe = manifest.recipes.find(r => urls.output(urls.recipe(r.slug)) === from);
+      assert.ok(sourceRecipe && !isPublished(sourceRecipe), 'Public navigation exposes hidden recipe: ' + from + ': ' + value);
+    }
     assert.ok(files.has(target), `Missing target: ${from}: ${value} -> ${target}`);
     internalLinks++;
     if (!target.endsWith('.html')) assets++;
@@ -77,9 +86,9 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
     assert.deepEqual(matches.map(m => decode(m[1])).sort(), [...expected].sort(), 'Wrong emitted recipe membership');
     for (const m of matches) assert.equal(decode(m[2]), urls.recipe(decode(m[1])), 'Browse link must resolve locally');
   };
-  localBrowse(html.get(urls.output(urls.recipes()))!, manifest.recipes.map(r => r.slug));
+  localBrowse(html.get(urls.output(urls.recipes()))!, published.map(r => r.slug));
   for (const [kind, entries, key] of [['tag', manifest.tags, 'tags'], ['category', manifest.categories, 'categories']] as const) for (const facet of entries) {
-    const expected = manifest.recipes.filter(r => r[key].includes(facet.value)).map(r => r.slug).sort();
+    const expected = published.filter(r => r[key].includes(facet.value)).map(r => r.slug).sort();
     assert.deepEqual([...facet.recipes].sort(), expected, `Wrong membership: ${kind} ${facet.value}`);
     assert.equal(facet.count, expected.length);
     const text = html.get(urls.output(urls.facet(kind, facet.slug)))!;
@@ -89,6 +98,8 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
   let unlinkedTokens = 0, originals = 0, usageBacklinks = 0;
   for (const selected of manifest.recipes) {
     const text = html.get(urls.output(urls.recipe(selected.slug)))!;
+    assert.equal(/<meta name="robots" content="noindex">/.test(text), !isPublished(selected), 'Incorrect publication indexing: ' + selected.slug);
+    if (!isPublished(selected)) assert.ok(text.includes('This recipe is part of the development corpus'), 'Missing development notice');
     assert.ok(selected.generated, 'Recipe not generated');
     assert.ok(text.includes(`id="github-source" href="${selected.githubUrl}"`), `Incorrect GitHub source link: ${selected.slug}`);
     assert.equal(selected.githubUrl, urls.source(selected.repositoryPath));
@@ -149,6 +160,9 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
     }
     const actual = [...reference.matchAll(/href="([^"]*)"/g)].map(m => decode(m[1])).filter(href => href.startsWith(urls.page('recipe'))).sort();
     assert.deepEqual(actual, expected, `Wrong usage backlinks: ${ref.kind}/${ref.id}`); usageBacklinks += actual.length;
+    const expectedUsage = published.filter(r => r.semanticLinks.some(url => url.split('#')[0] === urls.reference(ref.kind, ref.id))).map(r => r.slug).sort();
+    assert.deepEqual([...ref.usageRecipes].sort(), expectedUsage, 'Public usage membership disagrees with published tokens');
+    assert.ok(reference.includes('Used in ' + ref.usageCount + ' recipe'), 'Displayed public usage count mismatch');
     for (const slug of ref.usageRecipes) {
       const recipe = manifest.recipes.find(r => r.slug === slug)!;
       assert.ok(recipe.semanticLinks.some(url => url.split('#')[0] === urls.reference(ref.kind, ref.id)), `Usage disagrees with authored tokens: ${slug}`);
@@ -157,6 +171,6 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
   assert.ok(html.get(urls.output(urls.page('spec')))!.includes(urls.source('SPEC.md')));
   assert.ok(html.get(urls.output(urls.page('about')))!.includes(urls.page('spec')));
   return { status: 'passed', pages: html.size, files: [...files.keys()].filter(p => p !== 'validation.json').length, internalLinks, fragments, assets, images,
-    recipePages: manifest.recipes.length, references: manifest.references.length, facetPages: manifest.tags.length + manifest.categories.length,
+    recipePages: manifest.recipes.length, publishedRecipes: published.length, hiddenRecipes: manifest.recipes.length - published.length, references: manifest.references.length, facetPages: manifest.tags.length + manifest.categories.length,
     semanticLinks, unlinkedTokens, originalSourcePages: originals, usageBacklinks };
 }

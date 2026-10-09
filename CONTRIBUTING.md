@@ -95,3 +95,8 @@ recipe or photo solely because another site links to it. For uncertain cases,
 record the question rather than silently promoting the material.
 [DATA-SOURCES.md](DATA-SOURCES.md) lists existing holds and the distinction between
 upstream terms and this project's distinct licence scopes.
+
+Recipe rewrite contributions should update `conversion stage` deliberately when
+the representation is ready for public browsing. This does not change
+`curation review`; never equate restructuring with human checking. See
+[RECIPE-PUBLICATION.md](RECIPE-PUBLICATION.md).

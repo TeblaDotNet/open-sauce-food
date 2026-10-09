@@ -16,7 +16,7 @@ import { shell, provisional } from './shell.ts';
 import { renderSpec, aboutPage } from './documents.ts';
 import { validateFiles } from './validate.ts';
 
-export const representative = 'mayonnaise-or-aioli';
+export const representative = 'stracciatella-soup';
 export function cliConfig(args = process.argv.slice(2)): SiteConfig {
   const names: Record<string, keyof SiteConfig> = { '--out-dir': 'outDir', '--base-path': 'basePath', '--origin': 'origin', '--github': 'github', '--source-base': 'sourceBase' };
   const values: Partial<SiteConfig> = {};
@@ -29,9 +29,9 @@ export function cliConfig(args = process.argv.slice(2)): SiteConfig {
 export async function generateSite(root: string, config: SiteConfig) {
   const urls = routes(config), vocabulary = await loadVocabulary(root);
   const corpus = await loadCorpus(root, vocabulary, urls);
-  const chosen = corpus.records.find(r => r.slug === representative);
+  const chosen = corpus.published.find(r => r.slug === representative);
   if (!chosen) throw new Error('Representative recipe missing');
-  const usage = buildUsageIndex(corpus.records.map(r => ({ id: r.slug, name: r.name, recipe: corpus.parsed.get(r.slug)! })));
+  const usage = buildUsageIndex(corpus.published.map(r => ({ id: r.slug, name: r.name, recipe: corpus.parsed.get(r.slug)! })));
   const references = new Map<string, ReferencePage>();
   for (const { kind, id } of vocabulary.entries.filter(e => e.reference !== false)) {
     const key = kind + ':' + id;
@@ -46,15 +46,15 @@ export async function generateSite(root: string, config: SiteConfig) {
     if (isAbsolute(path) || path.split(/[\\/]/).some(p => p === '..') || path.includes('\\')) throw new Error(`Unsafe output: ${path}`);
     files.set(path, contents);
   };
-  const page = (url: string, title: string, body: string) => { pages.push(url); add(urls.output(url), shell(config, urls, title, url, body)); };
+  const page = (url: string, title: string, body: string, noindex = false) => { pages.push(url); add(urls.output(url), shell(config, urls, title, url, body, noindex)); };
   const recipeLink = (r: RecipeRecord) => `<a href="${e(urls.recipe(r.slug))}">${e(r.name)}</a>`;
   const recipeList = (records: RecipeRecord[]) => `<ul class="browse-list">${records.map(r => `<li data-recipe="${e(r.slug)}">${recipeLink(r)}</li>`).join('')}</ul>`;
   const facetList = (kind: 'tag' | 'category', entries: Facet[]) => `<ul>${entries.map(f => `<li><a href="${urls.facet(kind, f.slug)}">${e(f.value)}</a> <small>(${f.count})</small></li>`).join('')}</ul>`;
-  const coverage = `${corpus.audit.recipesWithCategory} / ${corpus.records.length} recipes have category metadata; ${corpus.audit.recipesWithoutCategory.length} have none.`;
-  page(urls.home(), 'Open Sauce Food', `<h1>Open Sauce Food</h1><p>A human-readable recipe language and shared culinary knowledge base for collecting, versioning, remixing and collaborating on recipes.</p><p><a href="${urls.recipes()}">All ${corpus.records.length} recipes</a></p><p class="browse-links"><a href="${urls.recipes()}#tags">Browse by tag</a><a href="${urls.recipes()}#categories">Categories</a></p><p class="coverage">${coverage}</p><h2>Try the recipe reader</h2><p>${recipeLink(chosen)} · Code, Compact and Original recipe source.</p><h2>Explore culinary references</h2><p>${references.size} canonical entries connect recipes to shared culinary knowledge. Usage counts are distinct recipes.</p><p class="browse-links">${(['ingredient','process','equipment'] as const).map(k => `<a href="${urls.index(k)}">${k === 'ingredient' ? 'Ingredients' : k === 'process' ? 'Processes' : 'Equipment'}</a>`).join('')}</p><p class="browse-links"><a href="${urls.page('spec')}">Spec</a><a href="${urls.page('about')}">About</a></p>`);
-  page(urls.recipes(), 'Recipes', `<h1>Recipes</h1><nav class="browse-links" aria-label="Recipe browsing"><a href="#all-recipes">All recipes</a><a href="#tags">Browse by tag</a><a href="#categories">Categories</a></nav><p>Browse all recipes, or explore the tags and categories currently recorded in their metadata.</p><section id="all-recipes"><h2>All recipes (${corpus.records.length})</h2>${recipeList(corpus.records)}</section><section id="tags"><h2>Browse by tag</h2>${provisional}<p>${corpus.audit.recipesWithTags} / ${corpus.records.length} recipes have at least one tag; ${corpus.audit.recipesWithoutTags.length} have none. Recipes may appear under several tags.</p>${facetList('tag', corpus.tags)}</section><section id="categories"><h2>Categories</h2>${provisional}<p>${coverage}</p>${facetList('category', corpus.categories)}</section>`);
+  const coverage = `${corpus.audit.recipesWithCategory} / ${corpus.published.length} recipes have category metadata; ${corpus.audit.recipesWithoutCategory.length} have none.`;
+  page(urls.home(), 'Open Sauce Food', `<h1>Open Sauce Food</h1><p>A human-readable recipe language and shared culinary knowledge base for collecting, versioning, remixing and collaborating on recipes.</p><p><a href="${urls.recipes()}">All ${corpus.published.length} published recipes</a></p><p class="browse-links"><a href="${urls.recipes()}#tags">Browse by tag</a><a href="${urls.recipes()}#categories">Categories</a></p><p class="coverage">${coverage}</p><h2>Try the recipe reader</h2><p>${recipeLink(chosen)} · Code, Compact and Original recipe source.</p><h2>Explore culinary references</h2><p>${references.size} canonical entries connect recipes to shared culinary knowledge. Usage counts are distinct recipes.</p><p class="browse-links">${(['ingredient','process','equipment'] as const).map(k => `<a href="${urls.index(k)}">${k === 'ingredient' ? 'Ingredients' : k === 'process' ? 'Processes' : 'Equipment'}</a>`).join('')}</p><p class="browse-links"><a href="${urls.page('spec')}">Spec</a><a href="${urls.page('about')}">About</a></p>`);
+  page(urls.recipes(), 'Recipes', `<h1>Recipes</h1><nav class="browse-links" aria-label="Recipe browsing"><a href="#all-recipes">All recipes</a><a href="#tags">Browse by tag</a><a href="#categories">Categories</a></nav><p>Browse ${corpus.published.length} reworked recipes from the ${corpus.records.length}-recipe development corpus. Conversion stage is not human review.</p><section id="all-recipes"><h2>Published recipes (${corpus.published.length})</h2>${recipeList(corpus.published)}</section><section id="tags"><h2>Browse by tag</h2>${provisional}<p>${corpus.audit.recipesWithTags} / ${corpus.published.length} recipes have at least one tag; ${corpus.audit.recipesWithoutTags.length} have none. Recipes may appear under several tags.</p>${facetList('tag', corpus.tags)}</section><section id="categories"><h2>Categories</h2>${provisional}<p>${coverage}</p>${facetList('category', corpus.categories)}</section>`);
   for (const [kind, entries] of [['tag', corpus.tags], ['category', corpus.categories]] as const) for (const facet of entries) {
-    page(urls.facet(kind, facet.slug), `${facet.value} · ${kind}`, `<h1>${e(facet.value)}</h1><p>Recipe ${kind} · ${facet.count} recipe${facet.count === 1 ? '' : 's'}</p>${provisional}${kind === 'category' ? `<p>${coverage}</p>` : ''}<p><a href="${urls.recipes()}#${kind === 'tag' ? 'tags' : 'categories'}">All ${kind === 'tag' ? 'tags' : 'categories'}</a></p>${recipeList(corpus.records.filter(r => facet.recipes.includes(r.slug)))}`);
+    page(urls.facet(kind, facet.slug), `${facet.value} · ${kind}`, `<h1>${e(facet.value)}</h1><p>Recipe ${kind} · ${facet.count} recipe${facet.count === 1 ? '' : 's'}</p>${provisional}${kind === 'category' ? `<p>${coverage}</p>` : ''}<p><a href="${urls.recipes()}#${kind === 'tag' ? 'tags' : 'categories'}">All ${kind === 'tag' ? 'tags' : 'categories'}</a></p>${recipeList(corpus.published.filter(r => facet.recipes.includes(r.slug)))}`);
   }
   for (const chosen of corpus.records) {
     const recipe = corpus.parsed.get(chosen.slug)!;
@@ -69,9 +69,13 @@ export async function generateSite(root: string, config: SiteConfig) {
     const labels = { code: 'Code', compact: 'Compact', originalSource: 'Original recipe source' };
     const provenance = Object.entries(chosen.provenance).map(([key, value]) => `<dt>${e(key)}</dt><dd>${key === 'source' && safeUrl(value) ? `<a href="${e(value)}">${e(value)}</a>` : e(value)}</dd>`).join('');
     const controls = `<fieldset class="controls" data-enhancement hidden><legend>View as</legend>${views.map(view => `<label><input type="radio" name="view" value="${view}" data-label="${labels[view]}"${view === 'code' ? ' checked' : ''}> ${labels[view]}</label>`).join('')}<div>${['story','notes'].filter(name => recipe.sections.some(s => s.name === name)).map(name => `<label><input type="checkbox" data-section-toggle="${name}" checked> ${name === 'story' ? 'Story' : 'Notes'}</label>`).join('')}</div></fieldset><p id="view-status" class="sr-only" role="status" aria-live="polite"></p>`;
-    page(urls.recipe(chosen.slug), chosen.name, `<h1>${e(chosen.name)}</h1><div class="provenance"><p>Encoding curation: ${chosen.curation ? e(curationLabel(chosen.curation)) : 'not recorded (legacy / unknown)'}</p><dl class="os-metadata">${provenance}</dl><p><a id="github-source" href="${e(chosen.githubUrl)}">View .opensauce on GitHub</a></p></div>${controls}<noscript><p>Code is shown below. Display controls are available when JavaScript is enabled.</p></noscript>${views.map(view => `<div class="view-panel" data-view-panel="${view}"${view === 'code' ? '' : ' hidden'}><h2 class="sr-only" id="${view}-title">${labels[view]}</h2>${renderHtml(recipe, { ...recipeOptions, view, idPrefix: view })}</div>`).join('')}`);
+    const hidden = chosen.conversionStage !== 'reworked';
+    const notice = hidden ? '<aside class="metadata-notice"><p>' + (chosen.conversionStage === 'blocked'
+      ? 'This recipe is part of the development corpus. A later rewrite was deferred because the source contains unresolved ambiguity.'
+      : 'This recipe is part of the development corpus and has not yet completed the later Sauce Code rewrite process to current publication standards.') + '</p></aside>' : '';
+    page(urls.recipe(chosen.slug), chosen.name, `<h1>${e(chosen.name)}</h1>${notice}<div class="provenance"><p>Encoding curation: ${chosen.curation ? e(curationLabel(chosen.curation)) : 'not recorded (legacy / unknown)'}</p><dl class="os-metadata">${provenance}</dl><p><a id="github-source" href="${e(chosen.githubUrl)}">View .opensauce on GitHub</a></p></div>${controls}<noscript><p>Code is shown below. Display controls are available when JavaScript is enabled.</p></noscript>${views.map(view => `<div class="view-panel" data-view-panel="${view}"${view === 'code' ? '' : ' hidden'}><h2 class="sr-only" id="${view}-title">${labels[view]}</h2>${renderHtml(recipe, { ...recipeOptions, view, idPrefix: view })}</div>`).join('')}`, hidden);
   }
-  const lookup = new Map(corpus.records.map(r => [r.slug, r]));
+  const lookup = new Map(corpus.published.map(r => [r.slug, r]));
   for (const ref of references.values()) page(urls.reference(ref.kind, ref.id), ref.name, `<p><a href="${urls.index(ref.kind)}">${ref.kind === 'ingredient' ? 'Ingredients' : ref.kind === 'process' ? 'Processes' : 'Equipment'}</a></p>${renderReferenceHtml(ref, {
     nutrition: false,
     recipeUrl: id => { const r = lookup.get(id); return r ? urls.recipe(id) : undefined; },
@@ -81,7 +85,7 @@ export async function generateSite(root: string, config: SiteConfig) {
     const subset = [...references.values()].filter(r => r.kind === kind).sort((a, b) => a.name.localeCompare(b.name, 'en'));
     const total = subset.length;
     const title = kind === 'ingredient' ? 'Ingredients' : kind === 'process' ? 'Processes' : 'Equipment';
-    page(urls.index(kind), title, `<h1>${title}</h1><p>${total} canonical entries. Counts show distinct recipes with resolved uses; sparse entries retain only currently recorded knowledge.</p><ul class="reference-index">${subset.map(r => `<li data-reference="${e(r.id)}"><a href="${urls.reference(kind, r.id)}">${e(r.name)}</a> · ${r.usage?.length ?? 0} recipe${r.usage?.length === 1 ? '' : 's'}</li>`).join('')}</ul>`);
+    page(urls.index(kind), title, `<h1>${title}</h1><p>${total} canonical entries. Counts show distinct published recipes with resolved uses; sparse entries retain only currently recorded knowledge.</p><ul class="reference-index">${subset.map(r => `<li data-reference="${e(r.id)}"><a href="${urls.reference(kind, r.id)}">${e(r.name)}</a> · ${r.usage?.length ?? 0} recipe${r.usage?.length === 1 ? '' : 's'}</li>`).join('')}</ul>`);
   }
   page(urls.page('spec'), 'Specification', renderSpec(await readFile(join(root, 'SPEC.md'), 'utf8'), urls));
   page(urls.page('about'), 'About', aboutPage(config, urls));
@@ -110,7 +114,7 @@ export async function generateSite(root: string, config: SiteConfig) {
   const { outDir: omitted, ...publicConfig } = config;
   const partUsage = (parts: ReferencePage['parts']): { anchor: string; recipes: string[] }[] =>
     parts.flatMap(p => [{ anchor: p.anchor, recipes: p.usage?.map(r => r.id) ?? [] }, ...partUsage(p.parts)]);
-  const manifest = { schemaVersion: 2, config: publicConfig, representative, recipes: corpus.records, pages, compatibilityPages,
+  const manifest = { schemaVersion: 3, config: publicConfig, representative, recipes: corpus.records, pages, compatibilityPages,
     references: [...references.values()].map(r => ({ kind: r.kind, id: r.id, usageCount: r.usage?.length ?? 0, usageRecipes: r.usage?.map(u => u.id) ?? [], partUsage: partUsage(r.parts) })),
     tags: corpus.tags, categories: corpus.categories,
     representativeDiagnostics: corpus.parsed.get(representative)!.diagnostics, generatedRecipeCount: corpus.records.length };

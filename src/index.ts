@@ -1,5 +1,6 @@
 export * from './model/index.ts';
 export * from './curation.ts';
+export * from './publication.ts';
 export * from './parser/index.ts';
 export * from './renderer/index.ts';
 export * from './renderer/html.ts';
