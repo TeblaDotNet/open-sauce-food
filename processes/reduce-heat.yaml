@@ -1,5 +1,6 @@
 id: reduce-heat
 kind: process
+reference: false
 canonical_name: reduce heat
 names:
   en: reduce heat

@@ -1,5 +1,6 @@
 id: brush
 kind: process
+reference: false
 canonical_name: brush
 names:
   en: brush

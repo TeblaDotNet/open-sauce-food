@@ -1,5 +1,6 @@
 id: keep-warm
 kind: process
+reference: false
 canonical_name: keep warm
 names:
   en: keep warm

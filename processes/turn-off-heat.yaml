@@ -1,5 +1,6 @@
 id: turn-off-heat
 kind: process
+reference: false
 canonical_name: turn off heat
 names:
   en: turn off heat

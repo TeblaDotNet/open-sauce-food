@@ -1,16 +1,18 @@
-id: discard
+id: age
 kind: process
-reference: false
-canonical_name: discard
+canonical_name: age
 names:
-  en: discard
+  en: age
 status: canonical-seed
+curation:
+  origin: generated
+  review: unchecked
 evidence:
   current_recipe_count: 1
   current_observation_count: 1
   legacy_observation_count: 0
   observed_terms:
-  - term: discard
+  - term: age
     count: 1
   seen_in:
-  - examples/public-domain-recipes/potato-leek-soup/potato-leek-soup.opensauce
+  - examples/public-domain-recipes/cheese/cheese.opensauce

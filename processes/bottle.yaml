@@ -1,5 +1,6 @@
 id: bottle
 kind: process
+reference: false
 canonical_name: bottle
 names:
   en: bottle

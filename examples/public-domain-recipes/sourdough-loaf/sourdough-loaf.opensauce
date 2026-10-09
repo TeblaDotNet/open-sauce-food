@@ -77,7 +77,7 @@ Optional [
         <score, razor blade>
 ]
 {loaf} <bake, covered or steamed, 15m>
-(oven) <reduce, 425f>
+(oven) <reduce heat, 425f>
 (pan) <remove, water pan if using steam>
 {bread} <bake, another 25-30m, rusty crust and hollow when tapped>
     <cool, completely before slicing>

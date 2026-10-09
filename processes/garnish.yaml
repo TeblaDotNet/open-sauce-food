@@ -1,5 +1,6 @@
 id: garnish
 kind: process
+reference: false
 canonical_name: garnish
 names:
   en: garnish

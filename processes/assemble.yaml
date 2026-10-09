@@ -1,5 +1,6 @@
 id: assemble
 kind: process
+reference: false
 canonical_name: assemble
 names:
   en: assemble

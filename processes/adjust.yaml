@@ -1,5 +1,6 @@
 id: adjust
 kind: process
+reference: false
 canonical_name: adjust
 names:
   en: adjust

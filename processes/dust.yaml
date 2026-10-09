@@ -1,5 +1,6 @@
 id: dust
 kind: process
+reference: false
 canonical_name: dust
 names:
   en: dust

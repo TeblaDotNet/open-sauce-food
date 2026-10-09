@@ -354,10 +354,17 @@ The non-reference canonical actions are `add`, `remove`, `place`, `transfer`,
 their existing aliases. `put` and `return` remain legal unregistered actions.
 Colour expresses semantic role; links/underlining express a shared reference target.
 
-`reduce` remains reference-worthy and may cover both liquid concentration and
-lowering heat/temperature. No sense inference or split occurs. `reduce-heat` stays
-separate and unchanged pending later action-only review; it is not an alias of
-`reduce`. Grill/broil stay separate; barbecue/bbq are not added or aliased.
+Tranche 2 additionally sets `reference: false` on adjust, assemble, bottle, brush,
+check, clean, combine, discard, distribute, divide, drizzle, dust, empty, fill,
+flip, garnish, grease, halve, keep, keep-warm, reduce-heat, rinse, sprinkle, taste
+and turn-off-heat. Drain, line, preheat, rub, shape, spread and submerge stay eligible.
+
+`reduce` denotes culinary reduction/concentration and stays reference-worthy.
+`reduce heat` resolves to the separate action-only `reduce-heat` identity. Explicit
+heat-control occurrences are corrected in authored Code, never guessed by runtime
+context. Original source remains unchanged. Pan-fry, microwave, dry-roast,
+steam-dry, sun-dry and age are reference techniques; spaced authored names remain
+literal. Grill/broil stay separate; barbecue/bbq are not added or aliased.
 
 ## Ingredient states / preparations (focused proof)
 

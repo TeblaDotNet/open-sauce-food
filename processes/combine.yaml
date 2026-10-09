@@ -1,5 +1,6 @@
 id: combine
 kind: process
+reference: false
 canonical_name: combine
 names:
   en: combine

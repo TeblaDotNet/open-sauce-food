@@ -1,5 +1,6 @@
 id: taste
 kind: process
+reference: false
 canonical_name: taste
 names:
   en: taste

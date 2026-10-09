@@ -1,5 +1,6 @@
 id: empty
 kind: process
+reference: false
 canonical_name: empty
 names:
   en: empty
