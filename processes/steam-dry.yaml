@@ -1,0 +1,18 @@
+id: steam-dry
+kind: process
+canonical_name: steam dry
+names:
+  en: steam dry
+status: canonical-seed
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: steam dry
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/colcannon-bake/colcannon-bake.opensauce

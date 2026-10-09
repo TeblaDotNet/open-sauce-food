@@ -1,0 +1,18 @@
+id: sun-dry
+kind: process
+canonical_name: sun dry
+names:
+  en: sun dry
+status: canonical-seed
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: sun dry
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/garam-masala/garam-masala.opensauce

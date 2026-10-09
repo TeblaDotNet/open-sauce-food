@@ -22,7 +22,7 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
   const published = manifest.recipes.filter(isPublished);
   const hiddenPaths = new Set(manifest.recipes.filter(r => !isPublished(r)).map(r => urls.recipe(r.slug)));
   assert.ok(published.some(r => r.slug === manifest.representative), 'Representative must be published');
-  const referenceCounts = { ingredient: 386, process: 199, equipment: 119 };
+  const referenceCounts = { ingredient: 386, process: 180, equipment: 119 };
   for (const kind of ['ingredient', 'process', 'equipment'] as const) {
     const entries = manifest.references.filter(r => r.kind === kind);
     assert.equal(entries.length, referenceCounts[kind], `Canonical ${kind} count changed`);

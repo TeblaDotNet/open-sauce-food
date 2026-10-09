@@ -1,6 +1,6 @@
 # Open Sauce Food processes
 
-210 canonical entries; current public corpus: 410 recipes.
+216 canonical entries; current public corpus: 410 recipes.
 Use [index.yaml](index.yaml) for lookup, [schema](../VOCABULARY-SCHEMA.md) for fields
 and [licensing](../LICENSING.md) for data/evidence boundaries. Evidence is historical;
 excluded recipe citations are removed. Counts within historical evidence are not live
@@ -23,9 +23,19 @@ to the existing non-reference actions add, place and remove. It adds air fry,
 hard boil and defrost as lexical aliases, and blanch, braise, julienne, confit,
 flambé and render as reference techniques. No recipe text changes are required.
 
-Reduce remains reference-worthy: a future page may acknowledge both liquid
-reduction by evaporation/concentration and reducing heat/temperature. No contextual
-resolution or split is introduced. The distinct reduce-heat entry is unchanged
-pending later action-only review. Grill and broil remain separate; no barbecue/bbq
-alias or concept is added. Current technique pages are identity/evidence/usage
-scaffolds, not complete technique explanations.
+Tranche 2 additionally marks these human-approved actions reference:false:
+adjust, assemble, bottle, brush, check, clean, combine, discard, distribute,
+divide, drizzle, dust, empty, fill, flip, garnish, grease, halve, keep, keep-warm,
+reduce-heat, rinse, sprinkle, taste and turn-off-heat. Drain, line, preheat, rub,
+shape, spread and submerge retain reference eligibility.
+
+Reduce means culinary reduction/concentration and remains reference-worthy.
+Reduce heat means lowering a burner/oven setting and resolves to the separate
+reference:false reduce-heat entry. Three unambiguous authored heat-control heads
+were corrected; no context-sensitive runtime resolver was added.
+
+The new reference techniques are pan-fry, microwave, dry-roast, steam-dry,
+sun-dry and age. Authored dry roast, steam dry and sun dry resolve through their
+English names; no unsupported synonym aliases were added. Age refers to culinary
+maturation, evidenced by cheese. Pages remain identity/evidence/usage scaffolds.
+Grill and broil remain separate; no barbecue/bbq mapping is added.

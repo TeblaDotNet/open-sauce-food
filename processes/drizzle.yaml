@@ -1,5 +1,6 @@
 id: drizzle
 kind: process
+reference: false
 canonical_name: drizzle
 names:
   en: drizzle

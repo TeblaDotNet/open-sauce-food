@@ -1,0 +1,18 @@
+id: pan-fry
+kind: process
+canonical_name: pan-fry
+names:
+  en: pan-fry
+status: canonical-seed
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: pan-fry
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/turkish-style-spiced-chicken/turkish-style-spiced-chicken.opensauce

@@ -23,24 +23,24 @@ test('complete corpus browse memberships and canonical references are generated 
   assert.equal(generated.audit.tagSlugCollisions.length, 5);
   assert.equal(generated.manifest.pages.filter(p => p.includes('/recipe/')).length, 410);
   assert.equal(generated.validation.status, 'passed');
-  assert.equal(generated.validation.pages, 1276);
-  assert.equal(generated.validation.references, 704);
+  assert.equal(generated.validation.pages, 1257);
+  assert.equal(generated.validation.references, 685);
   assert.equal(generated.validation.originalSourcePages, 391);
 });
 test('ordinary actions have no public pages, index entries or recipe links; techniques retain pages and backlinks', () => {
   const index = generated.files.get('processes/index.html')!.toString();
-  for (const id of ['add', 'remove', 'place', 'put', 'transfer', 'pour', 'reserve', 'set-aside', 'serve', 'arrange', 'cover', 'uncover']) {
+  for (const id of ['add', 'remove', 'place', 'put', 'transfer', 'pour', 'reserve', 'set-aside', 'serve', 'arrange', 'cover', 'uncover','adjust','assemble','bottle','brush','check','clean','combine','discard','distribute','divide','drizzle','dust','empty','fill','flip','garnish','grease','halve','keep','keep-warm','reduce-heat','rinse','sprinkle','taste','turn-off-heat']) {
     assert.ok(!generated.files.has('processes/' + id + '/index.html'));
     assert.ok(!index.includes('data-reference="' + id + '"'));
     assert.ok(!generated.manifest.references.some(r => r.kind === 'process' && r.id === id));
     for (const record of generated.manifest.recipes)
       assert.ok(!record.semanticLinks.includes(routes(config).reference('process', id)));
   }
-  for (const id of ['roast', 'knead', 'ferment', 'caramelise', 'simmer', 'whisk']) {
+  for (const id of ['roast', 'knead', 'ferment', 'caramelise', 'simmer', 'whisk','drain','line','preheat','rub','shape','spread','submerge','reduce']) {
     assert.ok(generated.files.has('processes/' + id + '/index.html'));
     assert.ok(index.includes('data-reference="' + id + '"'));
   }
-  assert.equal(generated.manifest.references.filter(r => r.kind === 'process').length, 199);
+  assert.equal(generated.manifest.references.filter(r => r.kind === 'process').length, 180);
   assert.equal(generated.validation.status, 'passed');
 });
 test('base path, origin and GitHub source routing can be changed together', async () => {
@@ -266,7 +266,7 @@ test('final component and residual categories use safe canonical routes without 
 test('new process techniques have pages and only published recipe backlinks', () => {
   const index = generated.files.get('processes/index.html')!.toString();
   const published = new Set(generated.manifest.recipes.filter(r => r.conversionStage === 'reworked').map(r => r.slug));
-  for (const id of ['blanch','braise','julienne','confit','flambe','render']) {
+  for (const id of ['blanch','braise','julienne','confit','flambe','render','pan-fry','microwave','dry-roast','steam-dry','sun-dry','age','reduce']) {
     assert.ok(generated.files.has('processes/' + id + '/index.html'));
     assert.ok(index.includes('data-reference="' + id + '"'));
     const ref = generated.manifest.references.find(r => r.kind === 'process' && r.id === id)!;

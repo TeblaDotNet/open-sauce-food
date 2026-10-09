@@ -1,5 +1,6 @@
 id: divide
 kind: process
+reference: false
 canonical_name: divide
 names:
   en: divide

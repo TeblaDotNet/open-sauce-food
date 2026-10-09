@@ -1,5 +1,6 @@
 id: check
 kind: process
+reference: false
 canonical_name: check
 names:
   en: check

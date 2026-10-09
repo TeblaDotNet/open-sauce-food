@@ -1,5 +1,6 @@
 id: distribute
 kind: process
+reference: false
 canonical_name: distribute
 names:
   en: distribute

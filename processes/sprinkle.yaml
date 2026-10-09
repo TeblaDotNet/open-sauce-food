@@ -1,5 +1,6 @@
 id: sprinkle
 kind: process
+reference: false
 canonical_name: sprinkle
 names:
   en: sprinkle

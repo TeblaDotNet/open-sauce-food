@@ -1,3 +1,4 @@
+import { restoreProcessTranche2 } from './process-tranche-2.ts';
 /** Historical metadata-only migration adapter. Runtime truth remains recipe metadata. */
 const originalCategories: Record<string, string> = {
   "apple-pie": "dessert",
@@ -21,6 +22,7 @@ const originalCategories: Record<string, string> = {
   "tiramisu": "dessert"
 };
 export function restoreRecipeClassification(source: string, pathOrSlug: string): string {
+  source = restoreProcessTranche2(source, pathOrSlug);
   const slug = pathOrSlug.replaceAll('\\', '/').split('/').at(-1)!.replace(/\.opensauce$/, '');
   const end = source.indexOf('\n::', '\n::recipe'.length);
   const header = end < 0 ? source : source.slice(0, end);

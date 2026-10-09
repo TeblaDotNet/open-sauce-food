@@ -1,5 +1,6 @@
 id: halve
 kind: process
+reference: false
 canonical_name: halve
 names:
   en: halve

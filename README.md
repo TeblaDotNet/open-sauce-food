@@ -146,7 +146,7 @@ Vocabulary can improve independently of recipe text. Entries can also carry orig
 
 Draft 8 is implemented and experimental.
 
-The current repository contains **410 recipes** and **715 canonical vocabulary entries**: 386 ingredients, 119 equipment entries and 210 processes.
+The current repository contains **410 recipes** and **721 canonical vocabulary entries**: 386 ingredients, 119 equipment entries and 216 processes.
 
 The project currently includes:
 

@@ -1,5 +1,6 @@
 id: flip
 kind: process
+reference: false
 canonical_name: flip
 names:
   en: flip

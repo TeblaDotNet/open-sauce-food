@@ -1,5 +1,6 @@
 id: rinse
 kind: process
+reference: false
 canonical_name: rinse
 names:
   en: rinse
