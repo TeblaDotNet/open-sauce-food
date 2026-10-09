@@ -1,11 +1,18 @@
 # Contributing to Open Sauce Food
 
-Open Sauce Food is in early development. Small, well-explained contributions help
-more than sweeping rewrites. The [README](README.md) describes what currently works;
-[licence scopes](LICENSING.md) describe the terms for each kind of contribution.
-Contribute only material you can offer under the relevant scope, retaining third-party notices.
+## Current contribution focus
 
-## Useful contributions
+Open Sauce Food is in an early design phase. Sauce Code, the knowledge model and data structures are still changing quickly, so small recipe fixes, isolated YAML additions and bulk data curation are not the priority yet.
+
+Design discussion is especially welcome: the overall shape of the project, syntax and semantics, ingredient/process/equipment modelling, recipe representation and provenance, reference knowledge, substitutions, dietary adaptation, rendering and planned features. Concrete edge cases help.
+
+Please open an issue or discussion before doing substantial data work. Once the foundations settle, individual recipe fixes, vocabulary additions and knowledge-data contributions will become much more useful.
+
+The workflows below are here for later data contributions and work already discussed and agreed. They are not a list of current data-curation priorities.
+
+The [README](README.md) describes what currently works; [licence scopes](LICENSING.md) describe the terms for each kind of contribution. Contribute only material you can offer under the relevant scope, retaining third-party notices.
+
+## When working on an agreed change
 
 - **Recipe fixes:** identify the recipe and explain the correction against its
   source. Distinguish a transcription repair from your own culinary adaptation.
@@ -21,10 +28,11 @@ Contribute only material you can offer under the relevant scope, retaining third
 - **Documentation and provenance:** correct confusing instructions, attribution,
   source links, image credits or uncertain redistribution claims.
 
-## A small change, end to end
+## Change workflow
 
-1. Open an issue for a design question, or prepare a focused branch/PR for a clear
-   fix. Show the current behaviour and intended result.
+1. Start with an issue or discussion for design questions or substantial data work.
+   Agree the scope before preparing a focused branch/PR. Show the current behaviour
+   and intended result.
 2. Preserve original source payloads and provenance. Do not edit a retained original
    to make it agree with a conversion. Record corrections in the authored encoding
    or review notes, with evidence.
