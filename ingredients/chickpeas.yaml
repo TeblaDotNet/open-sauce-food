@@ -21,3 +21,9 @@ observed_qualifiers:
   count: 1
 - value: rinsed
   count: 1
+
+states:
+  cooked:
+    names: {en: cooked}
+  tinned:
+    names: {en-GB: tinned, en-US: canned}
