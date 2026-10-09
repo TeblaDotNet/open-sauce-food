@@ -219,3 +219,16 @@ Optional curation records creation origin separately from deliberate human revie
 Recipes use `curation origin` and `curation review` metadata; vocabulary entries use
 a top-level `curation: { origin, review }` mapping. Missing means unknown/legacy.
 See [CURATION.md](CURATION.md) for values, diagnostics, migration and contribution guidance.
+
+## Ordinary actions and public process references
+
+A `kind: process` entry may set top-level `reference: false` for an ordinary
+action. Omitted or true retains normal culinary reference eligibility. The field
+is boolean and valid only for process entries. Names, aliases, canonical IDs and
+red action syntax remain unchanged; the flag suppresses recipe hyperlinks,
+reference usage/backlinks, public Process index entries and generated pages.
+
+The focused classification is `add`, `remove` (including its existing aliases),
+and `place`. `put` has no canonical entry and remains legal and unlinked. No
+other entries are reclassified in this pass. Parser legality never depends on
+this metadata.

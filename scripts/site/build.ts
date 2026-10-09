@@ -32,7 +32,7 @@ export async function generateSite(root: string, config: SiteConfig) {
   if (!chosen) throw new Error('Representative recipe missing');
   const usage = buildUsageIndex(corpus.records.map(r => ({ id: r.slug, name: r.name, recipe: corpus.parsed.get(r.slug)! })));
   const references = new Map<string, ReferencePage>();
-  for (const { kind, id } of vocabulary.entries) {
+  for (const { kind, id } of vocabulary.entries.filter(e => e.reference !== false)) {
     const key = kind + ':' + id;
     if (references.has(key)) throw new Error('Duplicate canonical reference: ' + key);
     const page = createReferencePage(vocabulary, kind, id, usage, { referenceUrl: urls.reference });
@@ -78,7 +78,7 @@ export async function generateSite(root: string, config: SiteConfig) {
   })}<p><a href="${urls.source(`${ref.kind === 'ingredient' ? 'ingredients' : ref.kind === 'process' ? 'processes' : 'equipment'}/${ref.id}.yaml`)}">View reference on GitHub</a></p>`);
   for (const kind of ['ingredient','process','equipment'] as const) {
     const subset = [...references.values()].filter(r => r.kind === kind).sort((a, b) => a.name.localeCompare(b.name, 'en'));
-    const total = vocabulary.entries.filter(r => r.kind === kind).length;
+    const total = subset.length;
     const title = kind === 'ingredient' ? 'Ingredients' : kind === 'process' ? 'Processes' : 'Equipment';
     page(urls.index(kind), title, `<h1>${title}</h1><p>${total} canonical entries. Counts show distinct recipes with resolved uses; sparse entries retain only currently recorded knowledge.</p><ul class="reference-index">${subset.map(r => `<li data-reference="${e(r.id)}"><a href="${urls.reference(kind, r.id)}">${e(r.name)}</a> · ${r.usage?.length ?? 0} recipe${r.usage?.length === 1 ? '' : 's'}</li>`).join('')}</ul>`);
   }

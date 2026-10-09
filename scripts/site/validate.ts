@@ -16,7 +16,7 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
   assert.equal(new Set(manifest.pages).size, manifest.pages.length, 'Duplicate routes');
   assert.equal(html.size, manifest.pages.length, 'Unlisted generated page');
   assert.equal(manifest.recipes.length, 410, 'Public recipe count changed');
-  const referenceCounts = { ingredient: 433, process: 204, equipment: 119 };
+  const referenceCounts = { ingredient: 433, process: 201, equipment: 119 };
   for (const kind of ['ingredient', 'process', 'equipment'] as const) {
     const entries = manifest.references.filter(r => r.kind === kind);
     assert.equal(entries.length, referenceCounts[kind], `Canonical ${kind} count changed`);
@@ -100,6 +100,13 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
     for (const [name, view] of [['code', code], ['compact', compact]] as const) {
       for (const token of view.matchAll(/<(a|span) class="os-token os-(ingredient|process|equipment|unresolved|ambiguous)"([^>]*)>/g)) {
         const canonical = /data-canonical-id="([^"]+)"/.exec(token[3]);
+        if (/data-reference="false"/.test(token[3])) {
+          assert.equal(token[2], 'process', 'Only actions may opt out of reference pages');
+          assert.ok(canonical, 'Classified action has no canonical ID');
+          assert.ok(!manifest.references.some(r => r.kind === 'process' && r.id === decode(canonical[1])), 'Non-reference action has a public page');
+          assert.equal(token[1], 'span', 'Ordinary action has a reference link');
+          assert.ok(!/href=/.test(token[3])); unlinkedTokens++; continue;
+        }
         if (!canonical || ['unresolved','ambiguous'].includes(token[2])) {
           assert.equal(token[1], 'span', 'Unresolved concept has a guessed link');
           assert.ok(!/href=/.test(token[3])); unlinkedTokens++; continue;

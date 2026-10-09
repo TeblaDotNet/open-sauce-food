@@ -1,3 +1,4 @@
+import { restorePilotInstructions } from './helpers/pilot-preservation.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile } from 'node:fs/promises';
@@ -27,7 +28,7 @@ test('new concepts are generated and unchecked; all reference pages render', () 
     assert.deepEqual(entry.curation,{origin:'generated',review:'unchecked'});
     assert.equal(entry.typical_mass,undefined); assert.equal(entry.reference_density,undefined); assert.equal(entry.nutrition,undefined);
   }
-  for (const entry of vocabulary.entries) {
+  for (const entry of vocabulary.entries.filter(e => e.reference !== false)) {
     const page = createReferencePage(vocabulary,entry.kind,entry.id)!;
     assert.ok(page);
     assert.ok(renderReferenceHtml(page).includes('canonical ID:'),entry.id);
@@ -58,10 +59,10 @@ test('candidate hints retain uncertainty and classify cross-kind and malformed p
   assert.equal(classifyCandidate('wisk','process',vocabulary).category,'observed aliases/regional names');
 });
 
-test('all 410 recipe files and their embedded source payloads remain unchanged', async () => {
+test('all 410 recipes preserve historical bytes outside the five reviewed pilot instruction replacements', async () => {
   assert.equal(baseline.recipes.length,410);
   for (const item of baseline.recipes) {
-    const text = (await readFile(item.path,'utf8')).replaceAll('\r\n','\n');
+    const text = restorePilotInstructions(await readFile(item.path,'utf8'), item.path).replaceAll('\r\n','\n');
     assert.equal(createHash('sha256').update(text).digest('hex'),item.sha256,item.path);
   }
 });

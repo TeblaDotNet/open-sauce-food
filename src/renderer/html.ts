@@ -90,8 +90,8 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
     const canonical = t.canonicalId ? ` data-canonical-id="${e(t.canonicalId)}"` : '';
     const declarations = t.declarationIds?.length ? ` data-declaration-ids="${e(t.declarationIds.map(nodeId).join(' '))}"` : '';
     const structure = t.kind === 'thing' ? `${t.variant ? ` data-variant="${e(t.variant)}"` : ''}${t.parts?.length ? ` data-parts="${e(JSON.stringify(t.parts))}"` : ''}${t.partResolution ? ` data-known-part-path="${e(JSON.stringify(t.partResolution.ids))}" data-parts-complete="${t.partResolution.complete}"` : ''}` : '';
-    const attributes = `class="os-token os-${e(kind)}" data-kind="${e(kind)}"${canonical}${declarations}${structure}`;
-    const href = t.canonicalId && (kind === 'ingredient' || kind === 'equipment' || kind === 'process')
+    const attributes = `class="os-token os-${e(kind)}" data-kind="${e(kind)}"${canonical}${t.reference === false ? ' data-reference="false"' : ''}${declarations}${structure}`;
+    const href = t.reference !== false && t.canonicalId && (kind === 'ingredient' || kind === 'equipment' || kind === 'process')
       ? options.referenceUrl?.({ kind, canonicalId: t.canonicalId, token: t }) : undefined;
     const safe = href === undefined ? undefined : safeUrl(href);
     const content = syntaxSpans && !options.formatTerm ? syntaxLabel(t, label, e) : e(label ?? t.raw);

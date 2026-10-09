@@ -24,7 +24,7 @@ export async function loadVocabulary(root: string): Promise<Vocabulary> {
         throw new Error(`Unsupported vocabulary entry: ${folder}/${file}`);
       const entry: VocabularyEntry = { id: data.id, kind, canonical_name: data.canonical_name, names: data.names, aliases: data.aliases };
       for (const field of ['plural_names', 'variants', 'parts', 'part_groups', 'typical_mass', 'reference_density', 'nutrition',
-        'curation', 'status', 'evidence', 'observed_parameters', 'observed_qualifiers'] as const)
+        'reference', 'curation', 'status', 'evidence', 'observed_parameters', 'observed_qualifiers'] as const)
         if (data[field] !== undefined) Object.assign(entry, { [field]: data[field] });
       entries.push(entry);
     }

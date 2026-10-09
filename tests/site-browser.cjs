@@ -107,7 +107,7 @@ const { chromium } = require('playwright');
     await page.goto(base + 'recipes/category/baking/');
     assert.equal(await page.locator('[data-recipe]').count(), 3);
     await page.locator('[data-recipe="no-knead-bread"] a').click(); assert.ok(page.url().endsWith('/recipe/no-knead-bread/'));
-    for (const [family, count] of [['ingredients',433],['processes',204],['equipment',119]]) {
+    for (const [family, count] of [['ingredients',433],['processes',201],['equipment',119]]) {
       await page.goto(base + family + '/'); assert.equal(await page.locator('[data-reference]').count(), count);
     }
     await page.goto(base + 'ingredients/'); await page.screenshot({ path: join(evidence, 'ingredient-index.png') });
@@ -132,7 +132,7 @@ const { chromium } = require('playwright');
     assert.equal((await fetch(base + 'assets/missing.js')).status, 404);
     assert.equal((await fetch(base + 'recipes', { redirect: 'manual' })).status, 301);
     assert.deepEqual(errors, []); assert.deepEqual(badResponses, []);
-    const result = { status: 'passed', checks: ['Code default','Compact switching','literal original','syntax toggle computed style','theme toggle and persistence','story toggle','Code and Compact ingredient/process/equipment loops','part-yolk anchor','visible keyboard focus','390px no overflow','no-JavaScript navigation and provenance','real 404 and slash redirect','with/without original and image','Story and Notes','410 local recipe browse links','tag and category membership/navigation','433/204/119 reference indexes','additional egg/Apple Pie backlink','Spec code examples and contents anchors','About','no-JavaScript browse/index/spec/about routes'], screenshots: evidence };
+    const result = { status: 'passed', checks: ['Code default','Compact switching','literal original','syntax toggle computed style','theme toggle and persistence','story toggle','Code and Compact ingredient/process/equipment loops','part-yolk anchor','visible keyboard focus','390px no overflow','no-JavaScript navigation and provenance','real 404 and slash redirect','with/without original and image','Story and Notes','410 local recipe browse links','tag and category membership/navigation','433/201/119 reference indexes','additional egg/Apple Pie backlink','Spec code examples and contents anchors','About','no-JavaScript browse/index/spec/about routes'], screenshots: evidence };
     await writeFile(join(evidence, 'result.json'), JSON.stringify(result, null, 2)); console.log(JSON.stringify(result, null, 2));
   } finally { if (browser) await browser.close(); server?.kill(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });

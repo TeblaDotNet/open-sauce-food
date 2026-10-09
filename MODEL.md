@@ -38,6 +38,9 @@ and columns still count actual characters.
 instructions, standalone alternatives, and conditions. A statement's indented
 children remain under that statement. A bare process or leading `+` continuation
 can carry `inheritedSubjectId`, pointing to its nearest explicit subject owner.
+For result-definition continuations, `inheritedSubjectId` points to the statement
+whose first significant tokens are `{result}` and `=`; rendering uses only that
+left-hand result as the subject. Dedent ends that scope.
 Groups create a separate inheritance scope; a block does not acquire a subject
 from an unrelated preceding line.
 
@@ -60,6 +63,12 @@ Tokens have `kind`, `raw`, and `span`, with fields applicable to their kind:
   occurrence is not the left side of an explicit assignment. No state-transition
   or branch-availability claim is made.
 - `process`: `name` and ordered string `parameters`.
+- `judgement`: exact `raw` and `span`, plus `judgement: { text, processSpan? }`.
+  `text` is the trimmed literal body after `?=`; `processSpan` identifies the
+  immediately preceding process token without a cyclic object reference. Invalid
+  unattached judgements retain their source and omit `processSpan`; diagnostics
+  are `UNATTACHED_JUDGEMENT` and/or `EMPTY_JUDGEMENT`. The body is excluded from
+  numeric quantity extraction and vocabulary resolution.
 - `operator`: `+`, `=`, `~`, `/`, or `-OR-` in `raw`.
 - `text`: exact intervening whitespace/free text, including quantities.
 - `image`: original Markdown reference plus `alt` and `path`.
@@ -73,7 +82,9 @@ unevaluated text. Qualifiers and process parameters likewise retain fractions,
 settings, ranges, alternatives expressed as prose, and approximation marks.
 
 When a supplied vocabulary resolves a term uniquely, `canonicalId` annotates the
-token without rewriting `name` or `raw`. Local named choices take priority over
+token without rewriting `name` or `raw`. A resolved ordinary action additionally
+carries `reference: false`, preserving its canonical ID while suppressing public
+reference links and usage-index entries. Local named choices take priority over
 global concepts. Ingredient parts can match a base declaration; matching explicit
 qualifiers narrow candidates. Unknowns and competing candidates remain visible.
 Vocabulary aliases can also match differently spelled local declarations.
@@ -103,7 +114,7 @@ parts are a renderer detail, not a new AST or a change to the model version.
 ## Draft 8 additive fields (current contract)
 
 The version remains 1 because existing kinds and fields are retained. Consumers
-must tolerate additional fields and the new `!`/`~~` operator values. The preceding
+must tolerate additional fields, the `judgement` token kind, and the new `!`/`~~` operator values. The preceding
 Draft 7 token examples remain valid; the following additions supersede statements
 that quantities have no annotations.
 

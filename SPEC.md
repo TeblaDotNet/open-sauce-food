@@ -342,6 +342,11 @@ Optionality and qualifiers work the same way as for other `(thing)` declarations
 
 ## 8. Processes and actions
 
+Angle-bracket syntax expresses both culinary processes and ordinary actions.
+Vocabulary entries may mark generic actions with `reference: false`: they retain
+normal syntax and action semantics but have no public Process reference page or
+link. This classification never determines parser legality.
+
 Processes use angle brackets:
 
 ```text
@@ -369,6 +374,21 @@ Examples:
 ```
 
 Open Sauce Food should not require every cooking phrase to become rigid machine vocabulary.
+
+### Postfix judgement conditions
+
+`<process, parameters> ?= qualitative target` attaches a cook-judged completion
+condition to the immediately preceding process/action on the same instruction line.
+Only whitespace may intervene. The nonempty body is literal human-readable text
+through the end of the line, before an ordinary `#` comment. It is not tokenised
+as references, quantities, assignment, or further actions. Start another instruction
+line to continue after a judgement.
+
+`<roast, 180C, 20 mins> ?= golden brown` renders in Compact as
+“Roast at 180°C for 20 mins, until golden brown.” Do not author the leading word
+“until”. Code retains `?= golden brown` as one orange value-family syntax unit.
+This qualitative condition is distinct from numeric quantities, process parameters
+and result identity. It has no controlled vocabulary.
 
 ---
 
@@ -664,6 +684,23 @@ is equivalent to:
 (noodles) <soak>
 (noodles) <drain>
 ```
+
+A result definition also establishes the subject for its indented continuation block:
+
+```text
+{batter} = (butter) + (sugar)
+    <beat> ?= incorporated
+    + (egg: yolk) <beat, one at a time>
+    + (milk) <beat>
+```
+
+The subject is the left-hand `{batter}`, not an ingredient on the right. Each bare
+action inherits it; leading `+` adds to that result before the action. Dedenting
+ends the scope. The same rule works inside an Optional group; groups and sections
+remain separate scopes. Code keeps the concise form; Compact uses the inherited
+result as if explicitly authored. This result-definition rule does not give
+`(thing) = ...` assignments a new inheritance scope or extend the existing
+Draft 8 explicit-subject continuation rules above.
 
 Recommended indentation: 4 spaces.
 

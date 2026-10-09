@@ -102,7 +102,8 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
     const suffixes = params.map((p, i) => {
       // User formatting hooks are opaque text, not input to heuristic classifiers.
       if (options.formatValue) return ` (${p})`;
-      if (/^(approximately )?\d+(?:[.\d–]*) (seconds?|minutes?|hours?)$/.test(p)) return ` for ${p}`;
+      if (/^\d+(?:\.\d+)?\s*°?[CF]$/i.test(p)) return ` at ${p.replace(/\s*°?([CF])$/i, (_, unit: string) => '°' + unit.toUpperCase())}`;
+      if (/^(approximately )?\d+(?:[.\d–]*) (seconds?|minutes?|hours?|mins?|secs?)$/.test(p)) return ` for ${p}`;
       if (/^until\b/.test(p)) return ` ${p}`;
       if (/^(gently|slightly|finely|gradually|continuously|thoroughly)$/.test(p)) return ` ${p}`;
       if (/^stirring\b/.test(p)) return `, ${p}`;
@@ -164,6 +165,9 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
     for (let i = firstProcess; i >= 0 && i < tokens.length; i++) {
       const t = tokens[i];
       if (t.kind === 'process') { parts.push(action(t, currentSubject)); currentSubject = []; }
+      else if (t.kind === 'judgement' && t.judgement && tokens.some(p => p.kind === 'process' && p.span.start === t.judgement!.processSpan?.start) && parts.length) {
+        parts.at(-1)!.push(...text(', until '), { token: t, text: t.judgement.text });
+      }
       else if (t.raw.trim()) {
         let end = i + 1; while (end < tokens.length && tokens[end].kind !== 'process') end++;
         parts.push(expression(tokens.slice(i, end))); i = end - 1;

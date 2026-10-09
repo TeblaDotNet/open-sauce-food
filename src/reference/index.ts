@@ -26,7 +26,7 @@ export function buildUsageIndex(recipes: readonly CorpusRecipe[]): UsageIndex {
       for (const node of nodes) {
         if (node.kind === 'statement') for (const token of node.tokens) {
           const kind = token.kind === 'process' ? 'process' : token.kind === 'thing' ? token.thingKind : undefined;
-          if (!token.canonicalId || !kind || !['ingredient', 'equipment', 'process'].includes(kind)) continue;
+          if (token.reference === false || !token.canonicalId || !kind || !['ingredient', 'equipment', 'process'].includes(kind)) continue;
           const id = key(kind as ReferenceKind, token.canonicalId);
           const forms = uses.get(id) ?? new Map<string, UsageForm>();
           const form: UsageForm = { parts: [...(token.parts ?? [])] };
@@ -81,6 +81,7 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
   const matches = vocabulary.entries.filter(e => e.kind === kind && e.id === id);
   if (matches.length !== 1) return undefined;
   const entry = matches[0];
+  if (entry.reference === false) return undefined;
   const knowledge = (data: IngredientKnowledge, path: string[]): ReferenceKnowledge => ({
     typical_mass: data.typical_mass, reference_density: data.reference_density, nutrition: data.nutrition,
     parts: Object.entries(data.parts ?? {}).map(([id, part]) => {
@@ -90,7 +91,7 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
     }),
     groups: Object.entries(data.part_groups ?? {}).map(([id, group]) => {
       const processes = vocabulary.resolve(group.process, 'process');
-      return { ...group, id, processUrl: processes.length === 1 ? (options.referenceUrl ?? referencePath)('process', processes[0].id) : undefined,
+      return { ...group, id, processUrl: processes.length === 1 && processes[0].reference !== false ? (options.referenceUrl ?? referencePath)('process', processes[0].id) : undefined,
         members: group.parts.map(id => ({ id, anchor: partAnchor([...path, id]) })) };
     })
   });

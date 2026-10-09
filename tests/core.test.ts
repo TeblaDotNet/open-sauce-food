@@ -36,7 +36,7 @@ for (const file of (await readdir('tests/fixtures')).filter(f => f.endsWith('.op
     for (const node of statements(recipe)) for (const token of node.tokens) {
       if (token.kind === 'thing' || token.kind === 'result') assert.ok(compact.toLowerCase().includes(token.name!.toLowerCase()), token.raw);
       for (const parameter of token.parameters ?? []) {
-        if (!/^~?\d+(?:\.\d+)?(?:-\d+(?:\.\d+)?)?[smh]$/.test(parameter)) assert.ok(compact.includes(parameter === "1-2in strips" ? "1–2 in strips" : parameter), parameter);
+        if (!/^~?\d+(?:\.\d+)?(?:-\d+(?:\.\d+)?)?[smh]$/.test(parameter)) assert.ok(compact.includes(parameter === "1-2in strips" ? "1–2 in strips" : parameter === "350f" ? "350°F" : parameter), parameter);
       }
     }
     assert.ok(compact.includes('Instructions:'));

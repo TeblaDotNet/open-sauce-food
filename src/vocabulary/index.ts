@@ -6,6 +6,8 @@ export * from './knowledge.ts';
 export interface VocabularyEntry extends IngredientKnowledge {
   curation?: Curation;
   id: string; kind: 'ingredient' | 'equipment' | 'process';
+  /** False for ordinary actions that do not have public culinary reference pages. */
+  reference?: boolean;
   canonical_name?: string;
   names: Record<string, string>;
   plural_names?: Record<string, string>;
@@ -24,6 +26,8 @@ export class Vocabulary {
     for (const entry of entries) {
       for (const message of readCuration(entry.curation).warnings)
         this.diagnostics.push({ severity: 'warning', code: 'INVALID_CURATION', entryId: entry.id, message });
+      if (entry.reference !== undefined && (entry.kind !== 'process' || typeof entry.reference !== 'boolean'))
+        throw new Error('reference must be a boolean on a process entry: ' + entry.id);
       validateIngredientKnowledge(entry, entry.id);
       if (entry.kind !== 'ingredient' && ['variants', 'parts', 'part_groups', 'typical_mass', 'reference_density', 'nutrition'].some(k => Object.hasOwn(entry, k)))
         throw new Error(`Ingredient knowledge on non-ingredient: ${entry.id}`);

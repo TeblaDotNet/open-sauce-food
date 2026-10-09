@@ -32,6 +32,7 @@ export function syntaxLabel(t: Token, label: string | undefined, escape: (s: str
   const add = (start: number, end: number, role: string) => {
     if (start >= 0 && end > start && !ranges.some(r => start < r.end && end > r.start)) ranges.push({ start, end, role });
   };
+  if (t.kind === 'judgement') add(0, value.length, 'value');
   if (t.kind === 'result') add(0, value.length, 'result');
   if (t.kind === 'thing' && ['ingredient', 'equipment'].includes(t.thingKind ?? '')) {
     if (label === undefined) {

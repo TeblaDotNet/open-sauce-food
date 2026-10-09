@@ -26,6 +26,17 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
     const loc = (start: number, end: number): Span => ({ start: span.start + start, end: span.start + end, line: span.line, column: span.column + start });
     while (p < text.length) {
       const start = p;
+      if (text.startsWith('?=', p)) {
+        const processTokenIndex = tokens.findLastIndex(t => t.kind !== 'text' || !!t.raw.trim());
+        const body = text.slice(p + 2).trim();
+        if (tokens[processTokenIndex]?.kind !== 'process')
+          report('error', 'UNATTACHED_JUDGEMENT', '?= must immediately follow a process on the same line.', loc(p, text.length));
+        if (!body) report('error', 'EMPTY_JUDGEMENT', '?= requires a qualitative target.', loc(p, text.length));
+        tokens.push({ kind: 'judgement', raw: text.slice(p), span: loc(p, text.length),
+          judgement: { text: body, processSpan: tokens[processTokenIndex]?.kind === 'process' ? { ...tokens[processTokenIndex].span } : undefined } });
+        p = text.length;
+        continue;
+      }
       const image = text.slice(p).match(/^!\[([^\]]*)\]\(([^)]*)\)/);
       if (image) {
         p += image[0].length;
@@ -73,7 +84,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
       }
       if (')}>[]'.includes(text[p])) report('error', 'UNEXPECTED_DELIMITER', `Unexpected '${text[p]}'.`, loc(p, p + 1));
       p++;
-      while (p < text.length && !'({<)}>[]+=~'.includes(text[p]) && !text.slice(p).startsWith('-OR-') && !/!\d/.test(text.slice(p, p + 2)) && !text.slice(p).startsWith('![') && !(text[p] === '/' && !( /\d/.test(text[p - 1]) && /\d/.test(text[p + 1] ?? '')))) p++;
+      while (p < text.length && !'({<)}>[]+=~'.includes(text[p]) && !text.slice(p).startsWith('?=') && !text.slice(p).startsWith('-OR-') && !/!\d/.test(text.slice(p, p + 2)) && !text.slice(p).startsWith('![') && !(text[p] === '/' && !( /\d/.test(text[p - 1]) && /\d/.test(text[p + 1] ?? '')))) p++;
       tokens.push({ kind: 'text', raw: text.slice(start, p), span: loc(start, p) });
     }
     return tokens;
@@ -88,8 +99,15 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
     if (node.kind === 'statement' && parent && section?.name === 'instructions') {
       const significant = node.tokens.filter(t => t.kind !== 'text' || t.raw.trim());
       if (significant[0]?.kind === 'process' || significant[0]?.raw === '+') {
-        const owner = [...parents].reverse().find(p => p.inheritedSubjectId ||
-          p.tokens.find(t => t.raw.trim())?.kind === 'thing' || p.tokens.find(t => t.raw.trim())?.kind === 'result');
+        const owner = [...parents].reverse().find(p => {
+          if (p.inheritedSubjectId) return true;
+          const sig = p.tokens.filter(t => t.raw.trim());
+          // Assignment continuations inherit only the result on the left, never RHS ingredients.
+          if (p.role === 'assignment' || p.role === 'choice')
+            return sig[0]?.kind === 'result' && sig[1]?.raw === '=';
+          // Preserve existing Draft 8 explicit-subject continuation semantics.
+          return sig[0]?.kind === 'thing' || sig[0]?.kind === 'result';
+        });
         if (owner) node.inheritedSubjectId = owner.inheritedSubjectId ?? owner.id;
         else report('warning', 'MISSING_SUBJECT', 'Indented continuation has no explicit subject to inherit.', node.span);
       }
@@ -236,7 +254,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
     // evaluating units, fractions, ranges or source equivalences.
     const start = n.tokens[0]?.span.start ?? n.span.start;
     let quantityText = n.tokens.map(t => {
-      if (['thing', 'result', 'image'].includes(t.kind)) return ' '.repeat(t.raw.length);
+      if (['thing', 'result', 'image', 'judgement'].includes(t.kind)) return ' '.repeat(t.raw.length);
       if (t.kind === 'process') { const comma = t.raw.indexOf(','); return comma < 0 ? ' '.repeat(t.raw.length) : ' '.repeat(comma + 1) + t.raw.slice(comma + 1); }
       return t.raw;
     }).join('');
@@ -280,6 +298,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
         const matches = options.vocabulary.resolve(t.name!, kind);
         if (matches.length === 1) {
           t.canonicalId = matches[0].id;
+          if (matches[0].reference === false) t.reference = false;
           if (kind === 'ingredient' && t.parts?.length) {
             const resolved = options.vocabulary.resolvePartPath(t.canonicalId, t.parts);
             t.partResolution = { ids: resolved.ids, complete: resolved.complete };

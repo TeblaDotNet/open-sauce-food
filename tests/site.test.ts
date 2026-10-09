@@ -23,9 +23,25 @@ test('complete corpus browse memberships and canonical references are generated 
   assert.equal(generated.audit.tagSlugCollisions.length, 8);
   assert.equal(generated.manifest.pages.filter(p => p.includes('/recipe/')).length, 410);
   assert.equal(generated.validation.status, 'passed');
-  assert.equal(generated.validation.pages, 1377);
-  assert.equal(generated.validation.references, 756);
+  assert.equal(generated.validation.pages, 1374);
+  assert.equal(generated.validation.references, 753);
   assert.equal(generated.validation.originalSourcePages, 391);
+});
+test('ordinary actions have no public pages, index entries or recipe links; techniques retain pages and backlinks', () => {
+  const index = generated.files.get('processes/index.html')!.toString();
+  for (const id of ['add', 'remove', 'place', 'put']) {
+    assert.ok(!generated.files.has('processes/' + id + '/index.html'));
+    assert.ok(!index.includes('data-reference="' + id + '"'));
+    assert.ok(!generated.manifest.references.some(r => r.kind === 'process' && r.id === id));
+    for (const record of generated.manifest.recipes)
+      assert.ok(!record.semanticLinks.includes(routes(config).reference('process', id)));
+  }
+  for (const id of ['roast', 'knead', 'ferment', 'caramelise', 'simmer', 'whisk']) {
+    assert.ok(generated.files.has('processes/' + id + '/index.html'));
+    assert.ok(index.includes('data-reference="' + id + '"'));
+  }
+  assert.equal(generated.manifest.references.filter(r => r.kind === 'process').length, 201);
+  assert.equal(generated.validation.status, 'passed');
 });
 test('base path, origin and GitHub source routing can be changed together', async () => {
   const alternative = siteConfig({ basePath: '/rehearsal/food/', origin: 'https://preview.example', github: 'https://github.com/example/food', sourceBase: 'https://github.com/example/food/blob/review' });

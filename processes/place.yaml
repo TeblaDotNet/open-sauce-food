@@ -1,5 +1,6 @@
 id: place
 kind: process
+reference: false
 canonical_name: place
 names:
   en: place

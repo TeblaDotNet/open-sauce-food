@@ -6,7 +6,7 @@ export type Precision = 'unspecified' | 'high' | 'approximate' | 'very-approxima
 /** Unevaluated numeric quantity expression, never a computed measurement. */
 export interface Quantity { raw: string; value: string; precision: Precision; span: Span }
 export interface Token {
-  kind: 'thing' | 'result' | 'process' | 'operator' | 'text' | 'image';
+  kind: 'thing' | 'result' | 'process' | 'operator' | 'text' | 'image' | 'judgement';
   raw: string;
   span: Span;
   name?: string;
@@ -14,6 +14,10 @@ export interface Token {
   parts?: string[];
   qualifiers?: string[];
   parameters?: string[];
+  /** Literal qualitative body and source span of its preceding process. */
+  judgement?: { text: string; processSpan?: Span };
+  /** Resolved vocabulary entry opts out of public reference pages. */
+  reference?: boolean;
   thingKind?: ThingKind;
   declarationIds?: string[];
   canonicalId?: string;

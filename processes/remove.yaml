@@ -1,5 +1,6 @@
 id: remove
 kind: process
+reference: false
 canonical_name: remove
 names:
   en: remove
