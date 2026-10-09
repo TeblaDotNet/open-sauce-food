@@ -7,6 +7,28 @@ multi-action sentences as reviewable literal text rather than packing them into
 one token. It emits `+` only for exact, unique declared source/destination names;
 ambiguous additions retain their legal explicit action form. CQ005/CQ008 provide
 advisory review evidence; neither rewrites recipes or invents declarations.
+Prose review now distinguishes core instructions, practical side advice (`::notes`),
+non-instruction commentary (`#`), and narration made redundant by structure.
+Keep useful procedural prose and cook-facing warnings visible. Keywords such as
+serve/store/freeze/optional alone never justify relocation.
+
+`method()` adds optional `proseEvidence` for explicit source-line framing; its
+existing line/mode/flags and Original text are unchanged. Evidence spans are
+UTF-16 offsets within the original argument, including a stripped list prefix.
+`proseEvidence(recipe)` in `src/prose-classification.ts` additionally reviews
+adjacent groups in parsed instructions. CQ009 suggests notes/comments from explicit
+framing; CQ010 identifies matching structural narration and navigation fragments.
+Both are score-neutral warnings with text, span, confidence, reason and suggested
+destination. A remove suggestion still requires fidelity review. Navigation retains
+`instructions` as its destination until equivalent target meaning is verified.
+No automatic movement/deletion, branch construction or corpus rewrite is performed.
+
+Detection is intentionally narrow and English-language: personal rule-of-thumb,
+version-specific serving, explicit variation/substitution, leftover/long-term storage,
+and make-ahead framing. Redundancy requires matching populated alternatives, a
+matching preceding action for a Meanwhile introduction, or the identical simple
+addition in an immediately following Optional group. Process parameters, comments,
+notes, story and Original source are excluded. Unmatched prose stays unclassified.
 Historical import records below are unchanged.
 
 Public-release subset, 8 October 2026. This replaces the private full-import report; it does not rewrite that historical evidence.

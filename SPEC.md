@@ -1389,6 +1389,22 @@ Maintainer, import, conversion and debug commentary uses existing `#` comments.
 Machine-readable provenance remains recipe/source metadata. There is no
 `::provenance` section.
 
+Not every source sentence belongs in `::instructions`. Classify by its role:
+
+- Keep core procedural prose and cook-facing warnings in `::instructions` when
+  existing structure would make them less clear. Ordinary serve/store/freeze
+  actions are not automatically side advice.
+- Use `::notes` for serving suggestions, variations, substitutions, storage or
+  make-ahead advice outside the core procedural path.
+- Use `#` comments for non-instruction author/import/editorial context, including
+  personal rule-of-thumb remarks when they are not essential cooking guidance.
+- Remove converted narration only when groups, `-OR-`, `Meanwhile`, `Optional`
+  or results already convey all its information. Retain useful branch labels.
+
+Remove obsolete source-step navigation only after representing its target and
+meaning structurally; otherwise retain it for review. Keep Original source
+unchanged. Advisory classification is not authorization to hide cooking content.
+
 ### Verbatim original source
 
 ```text

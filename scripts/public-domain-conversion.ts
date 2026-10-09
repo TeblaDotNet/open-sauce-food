@@ -1,3 +1,5 @@
+import { classifyProse } from '../src/prose-classification.ts';
+import type { ProseEvidence } from '../src/prose-classification.ts';
 import { actionBoundaries } from '../src/conversion-evidence.ts';
 /** Conservative import helpers. This is a source adapter, not recipe grammar. */
 import { parse } from 'yaml';
@@ -73,9 +75,9 @@ export function ingredient(original: string, vocabulary: Vocabulary, role = ''):
   return { original, line: `(${name}${qualifiers.length ? ', ' + qualifiers.join(', ') : ''})${amount ? ' ' + amount : ''}`, name, amount, qualifiers, relationship: relation, flags };
 }
 
-export interface MethodConversion { original: string; line: string; process?: string; mode: 'action' | 'literal'; flags: string[] }
+export interface MethodConversion { proseEvidence?: ProseEvidence[]; original: string; line: string; process?: string; mode: 'action' | 'literal'; flags: string[] }
 const verbs = /^(bring to a boil|set aside|turn off|stir[- ]fry|deep[- ]fry|preheat|add|arrange|bake|beat|blend|boil|braise|break|brown|brush|butter|caramelize|caramelise|chill|chop|clean|coat|combine|cook|cover|crack|cream|crush|cut|deglaze|dice|discard|dissolve|divide|drain|dress|dry|dust|empty|enjoy|fill|filter|flip|fold|form|freeze|fry|garnish|grate|grease|grill|grind|heat|incorporate|knead|ladle|layer|leave|let|line|mash|melt|mince|mix|move|open|peel|place|plate|poach|pour|prepare|press|prick|put|refrigerate|reduce|remove|repeat|rinse|roast|roll|rub|saute|sauté|scoop|scrape|scrub|sear|season|separate|serve|shake|sieve|sift|simmer|slice|slowly add|smoke|soak|spread|sprinkle|squeeze|steam|stir|strain|stuff|take|taste|tear|toast|top|toss|transfer|trim|turn|uncover|wait|warm|wash|whip|whisk|wrap)\b\s*(.*)$/i;
-export function method(original: string, ingredients: readonly IngredientConversion[] = []): MethodConversion {
+function convertMethod(original: string, ingredients: readonly IngredientConversion[] = []): MethodConversion {
   const text = plain(original.replace(/^\s*(?:\d+[.)]|[-*])\s+/, ''));
   const match = text.match(verbs) ?? text.match(/^(allow|bring|cool|hang|keep|shred|store|use|wisk)\b\s*(.*)$/i);
   const heads = verbs.source.slice(2, verbs.source.indexOf(')\\b')).split('|').filter(v => !v.includes('['));
@@ -110,4 +112,12 @@ export function method(original: string, ingredients: readonly IngredientConvers
   // parentheses prevent prose asides becoming physical-thing references.
   const literal = text.replace(/\(/g, '（').replace(/\)/g, '）').replace(/\[/g, '［').replace(/\]/g, '］').replace(/</g, '＜').replace(/>/g, '＞').replace(/\{/g, '｛').replace(/\}/g, '｝').replace(/#/g, '＃');
   return { original, line: literal, mode: 'literal', flags: [boundaries.length ? 'Multiple action heads: split into separate actions; use + for clear additions and declare known culinary things' : 'Conditional/narrative instruction retained as free text; review structural encoding'] };
+}
+
+/** Advisory classification of the exact source line; conversion output is unchanged. */
+export function method(original: string, ingredients: readonly IngredientConversion[] = []): MethodConversion {
+  const converted=convertMethod(original,ingredients);
+  const numbering=/^\s*(?:\d+[.)]|[-*])\s+/.exec(original)?.[0].length ?? 0;
+  const evidence=classifyProse(original.slice(numbering),{start:numbering,end:original.length,line:1,column:numbering+1});
+  return evidence.length ? {...converted,proseEvidence:evidence} : converted;
 }
