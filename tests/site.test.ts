@@ -16,14 +16,14 @@ const config = siteConfig();
 const generated = await generateSite(root, config);
 test('complete corpus browse memberships and canonical references are generated without unpublished recipe links', () => {
   assert.equal(generated.manifest.recipes.length, 410);
-  assert.equal(generated.audit.distinctTags, 198);
-  assert.equal(generated.audit.recipesWithTags, 410);
-  assert.equal(generated.audit.recipesWithCategory, 19);
-  assert.equal(generated.audit.recipesWithoutCategory.length, 391);
-  assert.equal(generated.audit.tagSlugCollisions.length, 8);
+  assert.equal(generated.audit.distinctTags, 142);
+  assert.equal(generated.audit.recipesWithTags, 216);
+  assert.equal(generated.audit.recipesWithCategory, 0);
+  assert.equal(generated.audit.recipesWithoutCategory.length, 216);
+  assert.equal(generated.audit.tagSlugCollisions.length, 5);
   assert.equal(generated.manifest.pages.filter(p => p.includes('/recipe/')).length, 410);
   assert.equal(generated.validation.status, 'passed');
-  assert.equal(generated.validation.pages, 1328);
+  assert.equal(generated.validation.pages, 1266);
   assert.equal(generated.validation.references, 706);
   assert.equal(generated.validation.originalSourcePages, 391);
 });
@@ -50,7 +50,7 @@ test('base path, origin and GitHub source routing can be changed together', asyn
   assert.ok(page.includes('https://preview.example/rehearsal/food/recipe/'));
   assert.ok(page.includes('https://github.com/example/food/blob/review/examples/'));
   assert.ok(!page.includes('/opensaucefood/'));
-  assert.ok(page.includes('/rehearsal/food/ingredients/egg/#part-yolk'));
+  assert.ok(page.includes('/rehearsal/food/ingredients/egg/'));
   assert.equal(validateFiles(result.files, result.manifest).status, 'passed');
   assert.throws(() => siteConfig({ basePath: '/food/../' }));
   assert.throws(() => routes(config).recipe('../escape'));
@@ -183,7 +183,7 @@ test('migrated ingredient routes link to the part or independent family child', 
   const child=urls.reference('ingredient','self-raising-flour');
   assert.ok(generated.files.has(urls.output(child)));
   assert.ok(generated.files.get('ingredients/flour/index.html')!.toString().includes(`href="${child}"`));
-  assert.deepEqual(generated.manifest.references.find(r=>r.kind==='ingredient'&&r.id==='self-raising-flour')!.usageRecipes.sort(),['butter-cake','damper']);
+  assert.deepEqual(generated.manifest.references.find(r=>r.kind==='ingredient'&&r.id==='self-raising-flour')!.usageRecipes.sort(),['damper']);
 });
 
 
@@ -193,4 +193,26 @@ test('static Code gives local heat seasoning ingredient colour without a referen
   assert.equal([...code.matchAll(/<span class="os-token os-choice"[^>]*>\(<span class="os-syntax-ingredient">heat seasoning<\/span>\)<\/span>/g)].length, 3);
   assert.doesNotMatch(code, /href="[^"]*heat-seasoning/);
   assert.match(code, /<a class="os-token os-ingredient"[^>]*href="\/opensaucefood\/ingredients\/cayenne-pepper\/">\(<span class="os-syntax-ingredient">cayenne pepper<\/span>/);
+});
+
+
+test('public discovery and noindex are governed by explicit conversion stage', () => {
+  const index = generated.files.get('recipes/index.html')!.toString();
+  for (const recipe of generated.manifest.recipes) {
+    const visible = recipe.conversionStage === 'reworked';
+    assert.equal(index.includes('data-recipe="' + recipe.slug + '"'), visible);
+    const direct = generated.files.get('recipe/' + recipe.slug + '/index.html')!.toString();
+    assert.equal(direct.includes('<meta name="robots" content="noindex">'), !visible);
+    assert.equal(direct.includes('This recipe is part of the development corpus'), !visible);
+    for (const facet of [...generated.manifest.tags, ...generated.manifest.categories])
+      if (facet.recipes.includes(recipe.slug)) assert.ok(visible);
+    for (const ref of generated.manifest.references) if (ref.usageRecipes.includes(recipe.slug)) assert.ok(visible);
+  }
+  assert.equal(generated.validation.publishedRecipes,216);
+  const exposed = new Map(generated.files);
+  exposed.set('index.html', exposed.get('index.html') + '<a href="/opensaucefood/recipe/orange-glorious/">Hidden example</a>');
+  assert.throws(() => validateFiles(exposed,generated.manifest), /Public navigation exposes hidden/);
+  const indexable = new Map(generated.files);
+  indexable.set('recipe/orange-glorious/index.html',indexable.get('recipe/orange-glorious/index.html')!.toString().replace('<meta name="robots" content="noindex">',''));
+  assert.throws(() => validateFiles(indexable,generated.manifest), /Incorrect publication indexing/);
 });

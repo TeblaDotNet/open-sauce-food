@@ -2,6 +2,7 @@ import { semanticTokens } from '../model/index.ts';
 import type { Diagnostic, Group, Node, Recipe, Section, Span, Statement, Token } from '../model/index.ts';
 import type { Vocabulary } from '../vocabulary/index.ts';
 import { readCuration } from '../curation.ts';
+import { isConversionStage } from '../publication.ts';
 
 export interface ParseOptions { filename?: string; vocabulary?: Vocabulary }
 const standard = new Set(['recipe', 'ingredients', 'equipment', 'instructions', 'story', 'notes', 'source']);
@@ -425,6 +426,14 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
     const result = readCuration(values);
     for (const message of result.warnings) report('warning', 'INVALID_CURATION', message, fields[0].span);
     if (!recipe.diagnostics.some(d => d.code === 'INVALID_CURATION')) recipe.curation = result.curation;
+  }
+  const stages = recipe.sections.filter(s => s.name === 'recipe').flatMap(s => s.children)
+    .filter(n => n.kind === 'metadata' && n.key === 'conversion stage');
+  if (stages.length) {
+    const field = stages[0];
+    if (stages.length !== 1 || field.kind !== 'metadata' || !isConversionStage(field.value))
+      report('warning', 'INVALID_CONVERSION_STAGE', 'Expected one conversion stage: initial, reworked or blocked.', field.span);
+    else recipe.conversionStage = field.value;
   }
   return recipe;
 }

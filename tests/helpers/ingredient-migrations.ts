@@ -1,9 +1,11 @@
+import { restoreRecipePublication } from './recipe-publication.ts';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 const ledger = JSON.parse(readFileSync('ingredient-migration-decisions.json', 'utf8'));
 /** Undo only the exact, checksum-protected migration before older provenance checks. */
 export function restoreIngredientMigrations(source: string, pathOrSlug: string): string {
+  source = restoreRecipePublication(source, pathOrSlug);
   const slug = pathOrSlug.replaceAll('\\', '/').split('/').at(-1)!.replace(/\.opensauce$/, '');
   const change = ledger.recipes.find((r: {slug: string}) => r.slug === slug);
   if (!change) return source;

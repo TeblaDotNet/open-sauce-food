@@ -1,0 +1,2063 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "26e21103b58587f88809f9e815c03cd2d711401c",
+  "note": "Historical classification and metadata-only migration evidence. Current recipe conversion stage is authoritative; this ledger is not a runtime allowlist or a human review record.",
+  "records": {
+    "aelplermagronen": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "04961dcd6c16390f205279f7ce94842efe0394b2aa50195a42306f79138202e7"
+    },
+    "aglio-e-olio": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "af52267365d3650333ce50a959d24d635c612cea0694d78330a96ded188a9003"
+    },
+    "air-fryer-zucchini": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "ae729643c369441b8d194d889354565e05adf08ac2239e29014b18dd5eee285b"
+    },
+    "aljotta": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "e79f7d5824b9ab9f218749917a90c13886951722d45364daa5778627246019fb"
+    },
+    "almeirim-stone-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "1eba1c804155d48d224cd660f4a2bb22f7cffcb0cceb590301f125ec6a0b9b02"
+    },
+    "apple-chicken": {
+      "initialStage": "blocked",
+      "previousStatus": "blocked",
+      "beforeSha256": "7f186d0fb4f8e89dffc791fb8a700d96598350fa4341f1601f06072cbd366f67"
+    },
+    "apple-pie": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "1f1e4770ef05ad5769fd4525117d7cea96416e4ebd4d7d041d6ed08c581e85bf"
+    },
+    "apple-strudel": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "9027cedbe82a5ddd68feb79e675864c620d27dee7c11d11aa42721cb50d51d63"
+    },
+    "ardei-umpluti": {
+      "initialStage": "blocked",
+      "previousStatus": "blocked",
+      "beforeSha256": "2265b986557c7d7a4f6580ebc7226e45a106c98e5b8414f81a59796a64cc3bc0"
+    },
+    "arroz-chaufa": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "3a55fb980050c4268b62da85aefc6f70cdc7308d78b40edb4dd14fc7b3e5ac0d"
+    },
+    "asian-style-chicken-sticky-sauce": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "8a7ed8ca4c3e29fd7fdd1ce776731dfedd39c85875cfb25ca80f49f105ddcc97"
+    },
+    "assam-tea": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "fb4d5572d3ba5695d42933b14c03ce751d4ca3d8fb0343911ff0faf892f92518"
+    },
+    "aussie-snags": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "f5131cba3e591d191dbb0e97426af7d0aa3c4935d63d2d34678cb1a642846ac2"
+    },
+    "autumn-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "5914c0b30f03d30f170d0c5f6cc64b9a84280291a9dcea86444630e9dd26feaa"
+    },
+    "babas-feta-pasta": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "198c66c61c8da63a25c48f2618f5490c83689cf4998d4aa2839163c7dbb50563"
+    },
+    "baby-back-ribs": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "9fa64471e1887b0fd104ac0317fa8524101ba914f0e8555c87a6622d473c43c9"
+    },
+    "baked-mostaccioli": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "09a3e77591e7ffb3575cf4381059cd48e98ea2d185ae5d3c916277760138b955"
+    },
+    "baked-pasta-with-broccoli": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "956a6afb965cafb7fe67bad04e5229c44c1516e3700ace85c6d0c3119fc78180"
+    },
+    "baked-rice": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "c42faeba47681f34f9e610ac1d86434312fee04e1cb5216d946ea64e2cabc061"
+    },
+    "baked-salmon": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "90ff894b9a1fce0392d743e7e8d967f58b3911aebd65a56898f6af5eca14cbda"
+    },
+    "baked-trout": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "d9bdf6736ebc02850bd08d7fbbde6a486c1f2c2b326ea1546b0e2dff7401e899"
+    },
+    "banana-bread": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "e94d6b0c60ce118f5fa6b1961d0e00685f7adb2a0bc9dd716baf9b93f23011df"
+    },
+    "banana-muffins-with-chocolate": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "8fd42f7051ab2af1af82b026eb7cabcd3448bf8eaf3912b496baab61bc5a9f72"
+    },
+    "banana-oatmeal-cookies": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "26e1c6b4d901d9b8587c394f39cc944d7f5e144645b864322ff961b8f09d3c61"
+    },
+    "banana-pancakes": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "9b63c92f9c7ca25bba52d2ced40e689ab9465495740169593329df13ddca78a8"
+    },
+    "basic-meatballs": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "b71cdee4750d406a58da8476540426afa65c5c2d1044d1be9163d3d068faa069"
+    },
+    "basic-waffles": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "fb08eedef54f4c76c19a402fff5e80b806aa02fa23b8b6a9296187e4d936b3ca"
+    },
+    "batter-pudding": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "d735a10bc83d27c78aa4ddbf94958443d25d20ed5dc01216d5498e33d78e169e"
+    },
+    "bean-salad": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "92bf3a38cf97a5a988ef1a8b31fa9e6dcea81b170fb55e55816dae392121f581"
+    },
+    "bebek-mropol": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "d07c46c9294f1347f46b7f3e763e059f5ed554ec380c5afc6f5c0e1a9b2108eb"
+    },
+    "beef-and-broccoli": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "6b435035914adb91712d25934e006739fc7b10f70410293968d096298bbf1ef7"
+    },
+    "beef-goulash": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "5e6c0fce460e10cf97f9e91ccbbe7f85ced2911e816a64be4efcc8b84db93e18"
+    },
+    "beef-jerky": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "d2ebcd77fe0c66ff3d56b0aeff18c979eefe8712d3edee36b58a970e769c2f6d"
+    },
+    "beef-kidney": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "20a8f012d65ec33cd1239df00af911bb380d502e3c6a86e86921b49e088e6c23"
+    },
+    "beef-liver-and-onions": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "4a869d5f79ba4a9d89a762940f4971e7f1659a0cb02744f69b15f2815bba6e36"
+    },
+    "beef-stew": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "91245e452c8cce499b639cc1729260fabf0749d61384f373949dcfa1894ca20e"
+    },
+    "beef-wellington": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "85021636c96ccab806237f2604e86ecdd84931089806e521d18f646237c4798a"
+    },
+    "belgian-pear-syrup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "d53e299b726ea1a6ea87dab558c845b01ba3c6bd8077dc9f5e6701579b400766"
+    },
+    "bloody-mary-mix": {
+      "initialStage": "initial",
+      "previousStatus": "protected-gold",
+      "beforeSha256": "2b4e8fb876238ee21d63b8b92a1de0937b0d64f64acd899a55889b4d8ae6626b",
+      "reason": "Pitcher is undeclared (CQ008), steak sauce is unused (CQ001 and absent from source directions), lemon is encoded as generic fruit and seasoning remains prose. Retain source discrepancy for repair review, not an invented addition."
+    },
+    "blueberry-muffins": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "42e6427d63045d40d168b84b6aed11121863193de0fe41d24e2eb676cdb02f56"
+    },
+    "bolinhos-de-coco": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "0808d769e22acc24781e8bf4b47ce54ba374fa98aa51dd5d02a8f0d2fb84f517"
+    },
+    "bolo-do-caco": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "e301af618ba8da0825b9777e0e2a0f8f4b4b7a967c65866a4551f8cd0ff1d48d"
+    },
+    "bolognese-sauce": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "a0a7d818e5bf3a152a7c3a278ea6e70d8b29cb077f9784c1bc854350d4eda17e"
+    },
+    "bread-pudding": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "30b500b13168154157373d3c96ab65af306110776544e8b9dcb3734ca43c658a"
+    },
+    "bread": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "8583b1e7035ebf6bd439ba4bd54399ca3e0fa24aaaaedd40ed4866ee8babd071"
+    },
+    "breakfast-wrap": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "88536835946999767afcf9b6372454f485987b833539de882712b7510477d4d8"
+    },
+    "breton-crepes": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "3e1a70888d9154f8e484071eb911b7b6179357bffa74dac6901d5bdbf838974f"
+    },
+    "brigadeiro": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "3c9dc25aec8e4e32c93cac11aa2cbb97d585ff401a35d616df682f9117037e3d"
+    },
+    "broiled-trevally": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "9403247980f5c59c57a0b5ba8ce88c2d9571dcdbd7bfe00b9966c848e20acf2c"
+    },
+    "broiled-venison-steaks": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "48129634f75c2eeeca651595f89bc8646abf7e322da188e3fdaf45707dfd3b15"
+    },
+    "brown-sauce": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "71e003a7f156c8d14187a3bd81540eb763fcb3ca8db86e00fdc696fb2552c51d"
+    },
+    "burger-dressing": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "084190f36a94eca369bccec49ac622154e1d35b699e46767ce85f674f1b2a3fb"
+    },
+    "butter-based-biscuit": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "9932e75caac4bace8b29871aabb36b26cbd7106507299ef80decb5edca40ab85"
+    },
+    "butter-biscuits": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "fa2a3628c54fd31cb23fb8044e1f4b3705502f665763f43c3c22a6f2a7d0911a"
+    },
+    "butter-cake": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "9890faa2d2e020c2045870c04e1352c0b67eb537fd5bb375b98e8e7800b2922b"
+    },
+    "butter-chicken-masala": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "46c16af90cf5ce9ed77fd227368bf4734d10112c22d68ff5099e15363271ac33"
+    },
+    "cacio-e-pepe": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "2448dd531100a42df62b3ffe098c783298c3c9f9e79768766ceba25af593093b"
+    },
+    "caesar-salad": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "b0cf72f69b6f87135337b1cc76cfd99db12ac5d8ee2574737d10f9b6f21ddbb4"
+    },
+    "cannellini-bean-salad": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "05164dcd919cfb17d7000a134cf5f6a955bce2d94b1f93ffcba7cfa56f1a514a"
+    },
+    "carbonade": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "c99cf496791d042a863a234d728c95511c68c2269625214c14508efd803ae554"
+    },
+    "carbonara": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "da34273e05ad1a5483409ff63bf425340077f7f50027c45c32bfc4177da2ddb5"
+    },
+    "casio-in-pastelletto": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "a73ab7c84d20f9b202540120141d4d3d6e245dff02474057631116f1e169eeef"
+    },
+    "castagnole": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "b1d4634d088867ca579090463fa3e79cf65d3bd962297829340246aaabaede7c"
+    },
+    "ceviche": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "b8bfce8b46b17fbd887807c5c23c8226dfe96abf28cb28dbaae07983f928b604"
+    },
+    "challah-bread": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "9695ae6e223dbc7d29446a71bca358e93334a039a746f020c003d4ea4951ea6e"
+    },
+    "cheddar-crusted-chicken": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "02808422ff3b4859f8632682232163f88e98853c6bfdacd1d33764a686f339f0"
+    },
+    "cheese": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "f8d39ab4c77c462cb2bedac96b1a0d0395d403af0be555ebc36f8d54bf1dee3b"
+    },
+    "cheesy-meatballs": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "0f548da68b40ba6b1626f5e9afa18d526109d48e0be76975e402b73c7324c803"
+    },
+    "cheesy-pasta-bake": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "479d0d8e1b104ed735dd4ee5ddd197ab84762c2e322839a34e41a81ffe1ef68f"
+    },
+    "cheesy-potatoe-bake": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "52539902247dca86bbe5fd194e9b9a3a8811b5de31e409691909bf31ead16975"
+    },
+    "chicharrones": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "7d0d3b43828ed7183cebb3d5e7ee530467f8840add64edfd5d9d2536f3477ab1"
+    },
+    "chicken-biscuit-potpie": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "39ba34c047e2ccadc51c7e278886061284b26b11979b9d16a59590cc4bf5f2e6"
+    },
+    "chicken-in-red-wine-vinegar-sauce": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "d74e2b9ef425f523d480a5918fb65ecd7c1c911b4eac7ead6ca4d1aad8b8ee7d"
+    },
+    "chicken-paprikash": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "e8b3ed8b2bb5db8af8c2980f5e92ffe4a28cb697b578f8a84ad7b3780cdbc9e4"
+    },
+    "chicken-parmesan": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "25ca5a7bfe9d7c973f960811920ae561f866c589c176224d976e202fc8c47440"
+    },
+    "chicken-pasta-casserole": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "afd471dc489179ce53cc340cbcc54eadc08bf940a670b335a2dea6b6345287f4"
+    },
+    "chicken-satay": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "f33601637021761a8fb68b037b0e906b9cb2fe6a3e8cf46f255a2d5f44a41071"
+    },
+    "chicken-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "10e20bf674151afc2370b269cc3550cdc2098fc07d0a5f3f683362004c0d49be"
+    },
+    "chicken-stock-bone-broth": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "c33d13b2142e62f1922aef41af404d724363824df471f8693f9b6b8446d2a8f3"
+    },
+    "chicken-tacos": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "743f3085d4c156f4d7152bf761767faa11b2489c754618e854b042d52f396ee1"
+    },
+    "chicken-tenders-airfried": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "b97ef0d1a7eef52e8fadcb733988bcfb369b1ef005e48817486dea23dc22b50b"
+    },
+    "chicken-tikka-masala": {
+      "initialStage": "initial",
+      "previousStatus": "protected-gold",
+      "beforeSha256": "e18d3873eda86cbe3b02aebddaec79ce2d6074f45811a07611b219365100fb05",
+      "reason": "First 13 ingredients remains a prose placeholder instead of a named intermediate; combine/add/remove/mix/serve remain prose, sauce is implicit, and timing/end-state alternatives remain bundled. The 100 audit score misses these structural shortcomings."
+    },
+    "chicken-tomato-spinach-curry": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "1947ce20abd2e4dd1031f86bf17f7eae63a36be9dd2cc1d3dd5661d0fc2c70ea"
+    },
+    "chicken-wings": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "0789be0e659207b561d2cde23288e55dab0533f6668d9a2327104b7d32c3a620"
+    },
+    "chili-con-carne": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "617a887d3e5c375739ef1b01b2524448b4df75726894fb7f7c0dd49f8a227f06"
+    },
+    "chimichanga": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "dbff2948b26bdfd7a2590152b01e62e55f7094e899989bfc7d1701c564c31434"
+    },
+    "chipolata-in-balsamic-vinegar": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "97506176cd053c9e810da3ca1b37a5fedd4c89cf7184a569a6634a78498b8b34"
+    },
+    "chocolate-chip-cookies": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "9b95f4da102924534612e347b186638398e0e81def4804fe75bfa73bd3e2e5a7"
+    },
+    "chorizo-and-chickpea-soup": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "436cef11fb9249021ccabbb510c4a4b2ca362466a776891e2e27511c561b262f"
+    },
+    "cinnamon-biscuits": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "9030136a76ecbb4313e2f4f267789e1351bf2d791936338fc5159b0ffea6d3d0"
+    },
+    "cinnamon-waffles": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "37913c37eff01a41726c6d83babf0fe757ed56c6ec203b5929eef3cc08773fe1"
+    },
+    "cinque-pi": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "267b2151fa43654e0531ef0df547eb530c5f83c44d25b8aa7a66f6f98006d72c"
+    },
+    "clam-chowder": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "f42eb3e5e92347bbb11cba7e8f2f35b75536d33a3e9980a22b47dc986d84114e"
+    },
+    "classic-bechamel-sauce": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "2a36c2cf87406a0588f5716e8d343fa1fd83175e1dea825dbebb5248bd4ec664"
+    },
+    "cocoanut-pudding": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "68407b0aedf2b5bf5db64e75c454e1cbd85a1ae55fb566d684d51f53b11da934"
+    },
+    "coconut-flour-bread": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "a4cc4e5039776eb8f62a03f091122f94634bf09a29578fb66c72fcf11b812dbf"
+    },
+    "coconut-oil-coffee": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "c7102396430dd36210cf8e44118bcae407678706f67e093f2509292112e54907"
+    },
+    "colcannon-bake": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "47259443e0fe9260eda626aea971d56747ea0780bfd9ade2dded32a09a4a60df"
+    },
+    "coleslaw": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "9934e55566dcf9990163871cb6fbd595e2644ca5cc56ebddf4d3921699aed127"
+    },
+    "collard-greens-with-smoked-duck-and-parnips": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "5a189787367d1ff67ba2d08a0ab1ef2987b3906e9de959c9193584d1288c134c"
+    },
+    "cooked-chickpeas": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "43c2e85f92ef2c916772d975f0d1190e6ada456b1a3adf48e3f8e8a3e6c2b5ba"
+    },
+    "coriander-chicken": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "fb094b5a78bf99a04ceaacbad12d85388a287afa0c3d6e8e7c80c4856bdb1990"
+    },
+    "corn-polenta": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "f3b251e27c7b91c7ba148ece91a62dad8b9dd49fe73dae814f854ae6e5e74bc7"
+    },
+    "corn-salsa": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "dd91e5d16af05fb493404f6dcccba3c6f1b1fdddd0df3685bb1675c0d1cf8df8"
+    },
+    "country-crisp-cereals": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "a80046598a65352cf885d2a0acbe49e5e793a29ca3294fffca5c77fb2d75bf5c"
+    },
+    "country-skillet": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "e7004f1dbe5e079a737f30bee1748a0837f064975ee1ede9e5ba2376e1c7e8a5"
+    },
+    "crab-salad": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "e3dbf9ebb9ed1dbe552128a8b21ad658d5147de1ba9a49c92694ec15afac61e4"
+    },
+    "cream-cheese": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "035164cd27daac9dbc96a027adb68a583e06ab3550ae27f38e40650714178ad1"
+    },
+    "creamy-mashed-potatoes": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "da96ada4dbe4c3636e7b1c6149b164c6e193acadc3a674bf2950c4839609511f"
+    },
+    "creme-brulee": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "0b0cd97bd8b9d2b52d15f2c34e56893bf7acdc82c4c2c6bcb807acbbdb1ee4a9"
+    },
+    "croque-monsieur": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "261f7455128b69304c0a0636c528db06019cbdda05f4db2c2eb91d733a2463b0"
+    },
+    "crostata": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "f1fbf073e88d55c56865f4e471864a7d0b0078dac2df650a27cf00d98a3fd5b7"
+    },
+    "croutons": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "816edf380a4047fa8373e92fe0536377ead5cbcaa36449fde582cd96c197bdf3"
+    },
+    "cuca-italiana": {
+      "initialStage": "blocked",
+      "previousStatus": "blocked",
+      "beforeSha256": "2c0c8bd154101966cd7dd08be26359657582e4b3069f637528b3c28593e0019a"
+    },
+    "curry-sauce": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "2c2d0887044b7f923c73c43b1c729b5b246174bfec17d1a7daef76cbc160b8e2"
+    },
+    "damper": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "19fda6dff2d0a46a6c8e2fb8b7be440fcd37c245f171a38eb219cebba8ba723a"
+    },
+    "danish-pancake": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "476a14ce001a18acf339161c08119863b0c7dbbce1e71858684456a47d7d8c05"
+    },
+    "demi-glace": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "71cb639f73cb679e03257be9bd62f9d9e481bc0f6c76068bb67c772814497f7e"
+    },
+    "desert-roses": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "f5b0fc459449eb329d71434f22780a1db3a49a905a40b2a955db04e1249975f6"
+    },
+    "diannes-southwest-salad": {
+      "initialStage": "blocked",
+      "previousStatus": "blocked",
+      "beforeSha256": "4d7367014ad21bc4daaadc9469f0c3643dc66035e86436b2f763ef451e3707da"
+    },
+    "dominican-spaghetti": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "50191012b85bcc81d874937fc01d26df70f96e2d8beb08bebb94260efa514f03"
+    },
+    "dou-sha-bao": {
+      "initialStage": "blocked",
+      "previousStatus": "blocked",
+      "beforeSha256": "f1f43bc493f7db1b58ad5bb2b1b6e87f87bfae0419c12fe53b65d7b25046acfe"
+    },
+    "dried-tomato-plum-spread": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "405815d8a2402e6e40d7110ca0c426e1a28f0269f5078760cb4cdc9d6ecb9168"
+    },
+    "drunken-beans": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "c53498d5264c686ccb5690f8169148be3f73aa9c1639d61e0abe5c8d276aedb1"
+    },
+    "dulce-de-leche": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "f8ea344e85ba81976667a5f6a5a898b6777983d72a5602fe6e469618bb0bb622"
+    },
+    "easy-chicken-and-rice-casserole": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "8cd2e87d0bb8e8e2ba844fde8346519a17b62a853f6102dd2905e1845db4d570"
+    },
+    "easy-pizza-sauce": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "e1f79df1c8d97ff2fffe776cb33d5c137e9c277abe4831e9b4d6374b365c01bf"
+    },
+    "eggroll-in-a-bowl": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "adcbd8dc64a0e289e2ce4741d53c240729be5b1610261cb74f7e5c0a059c3756"
+    },
+    "eggs-benedict": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "38c992d063104789163d7e065baea40b8ee396371d6e0edda6e3e872164a5444"
+    },
+    "eggs": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "1019f452a146f50a92aa87ff6cbee4bb0c8b86a40adabea3fe5667b07a1c35ac"
+    },
+    "egyptian-lentils": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "08d78639cb91f6b6c8b0afaad30a24de728a0b7ffa787ed6d0d19f16bceb5736"
+    },
+    "erwtensoep": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "7d1aa00e2463606ed21c3924953017c7e88f137cc12bc9a5ac5d6e0889276f10"
+    },
+    "exotic-ginger-cumin-chicken": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "bf022ca4109e0a94a05b3659b8e460f1663af8e9155e8817e28f1ca8b917c1ce"
+    },
+    "fajita-seasoning": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "a7952f375f88bc3c5e443dbf7f5bdf00e2508cb295fcad63398bb6e9f8f1382e"
+    },
+    "fajitas": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "07a302f8e984082c5cfcfa7146a7be13f4b9a4c6dfe33db1b56636825306a8f4"
+    },
+    "fall-vegetable-and-chickpea-curry": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "f3118ea63f1902142038816c9ce979552553dfabfa2ca55d4a88a69cd7f3730e"
+    },
+    "farci-tomatoes": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "0f8fddad57fa62f087b5cbfef10c3281c88e6593e538b86b98c97b23f02dfcbc"
+    },
+    "fennel-beans-and-kale-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "5114e9587816c4a8c09089696e6caf0603ce4f5050959c7f9621ddf3f8e28815"
+    },
+    "finnish-salmon-soup": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "919038ae4f63732ac149c10b0ad210e1194a9f732c1c7a6b81567abf18fd0663"
+    },
+    "fish-curry": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "934dfcf52c3a86f17b903934d5b988278cbb4781344a5ef0269ef9e0ad393a1c"
+    },
+    "flammkuchen": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "454644601766044a9165d67915ea8eaa2c2aa299f860ca3c8fb62f40d76b6484"
+    },
+    "fondue": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "d34cdaf7249bdfa3778eb4e6bb8cf5a938ed55a638a10d78b20ee69082b397ec"
+    },
+    "francesinha": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "3b29c6ee2a1428118e4b03a51370f7e2b6eecc660c35b11663f1d28be26337b3"
+    },
+    "french-crepes": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "a183e62c3c8fc0ffcf7c6cddd0c24053419e9e51368d166c771b90bf3332ba42"
+    },
+    "french-mustard-sauce-porkchops": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "01d848279e2a97a6985822cb75573950106b8549be0631882f4498f1fec07cb5"
+    },
+    "french-onion-soup": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "df674c563e39fdf171f38187a2b79305275bf3371aca97a077509dd82744c745"
+    },
+    "french-toast": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "a3c6b38b285fcfb735c9d0c924221f04ec3c57660565876f4c332f53a2502d97"
+    },
+    "fried-anglerfish-fillet": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "5cb115197251a0f21eb70c578c1a288f909c8e6c1e4adc034c2f0a1fe9d58130"
+    },
+    "fried-potatoes": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "aa2e2176336235d867ac869ec39c57c72aab0772ba24a418c9f49f9f2653da07"
+    },
+    "frijol-con-puerco": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "880240f551978092d595e5d09209f93d556188dfa89c02358fbd593b7eac697e"
+    },
+    "fritatem-pomeranciis": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "3fe216b91205e5cc096934ee9b577d7e1df782a9277c96b1c934a5b59b4b2ad1"
+    },
+    "frittata": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "0f581c2af3ae65189e0cb13460aa3ae79bc1aeb1f550609aeeb777bb6cd1ee89"
+    },
+    "full-english-breakfast": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "e61717890f4910b4e72f5c5a2b668db1737c289c77db3a45a095ced8b7789a13"
+    },
+    "fume-sauce": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "d1d7f5a4c3ec4fac5b4a110fb98b0ec85332f8a65911bc8276c9e1bfcbfa16bf"
+    },
+    "galinha-caipira": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "4db06434c2d42996e97c62db7cc14a8c3f16fe1eb86a99096bfecaeb9f7947b6"
+    },
+    "garam-masala": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "beb87ba4b661c92acbc8aa44622332768afb97ff4b5a01a597ca9f5a6ee84dd2"
+    },
+    "garlic-toast": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "8552514a7ef565402ecf6979a7ef8fdefe4c0d9a437a5359245a216b6a2d6ec7"
+    },
+    "ginataang-kalabasa": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "637f60d83bf00ec37638ad5d7966b4933a500ed358ec9e6391e181750d28f064"
+    },
+    "ginger-garlic-broccoli": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "70126216cbdc3ca4a4401ad1fec5d4d5f58405f4d3b11ebe263d16bd9dc46e28"
+    },
+    "gluehwein": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "cff09a1d485b4fc5a0ad2c187ff32af434d7c9efb131210669192ba4adf8a29e"
+    },
+    "gnocchi": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "977d3e6920124ce5972f45ec5851f876fe59cf0be7b1874e557ca2e36c2122e4"
+    },
+    "gooseberry-pudding": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "487aa58c57a734987c6c980fff2c266bd757e9201a8b572a1d5b203d12b5432d"
+    },
+    "grands-peres": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "4392df2c1a399a596a97c7cfc7bfabc591b594fadbf963d111451f2f315b7ad1"
+    },
+    "granita": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "63184377f7939f8490c7c90ca2f8d14f0cb1d3acaafd80c54c3ffffdd8381949"
+    },
+    "granola": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "e085c0bb1c69f2214bc8d114e18bce984876e08fe3c80b1e4a1567401aff46ae"
+    },
+    "greek-easter-cookies": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "cfd26ee856d76f3619bfc7113c55ff2a9ed14bbefb5b990962de963b97b7a172"
+    },
+    "greek-salad": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "dbdb87b3b6dc992d72afc25df9f61872f2800571d675eb2320b46e7cadf3e199"
+    },
+    "greek-yogurt": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "d60d4b0b8e1363a7f1d408236b46057dcce21936257e39cdee8c9c1dc2ddc607"
+    },
+    "grilled-mackerel-with-miso-soup-and-squash": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "eef3d80011be25bccfa3ab3f6615adf9bc3545fea6835725eb55bc347fc8d0e4"
+    },
+    "grostoli": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "ebf903546ff02a6e3dacace17b752d5afd06cfe20516143e9f1656ce516d1ec8"
+    },
+    "guacamole": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "61fd42474a79631c380fb5ab11b1efdfe03fcb1e917c8b15e087bafb5e630c32"
+    },
+    "guobaorou": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "4492189e66f5b24aef01d01b191667c83ae5c860b81a0801f72f1d7509f62b67"
+    },
+    "gypsy-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "fd00597fd19621b7921b5d3c6a6462a82be50ec487f5907e89e9ba9cd0fe3bb0"
+    },
+    "hakka-style-meatballs": {
+      "initialStage": "initial",
+      "previousStatus": "protected-gold",
+      "beforeSha256": "efae6649be2d2eb4173d56a00cbd2b5046a834911a2e0a5b6dfe5f4155a16a54",
+      "reason": "Later work added useful intermediates, parallel groups and judgements, but measured water/salt and pan remain undeclared (nine CQ008 occurrences); fork, process contexts and final result references remain raw. Current declaration/context expectations are not yet met."
+    },
+    "ham-and-lentil-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "6ccfa63eb0e12f874ce5391c1b6e390bc16fecfd2e52d877d9fe05c6a1e0ec03"
+    },
+    "hamburger-patties-all-beef": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "29f2cbf4e83a45fe52d73227c3d28491e4f70825c1ffd9ec287bcb16c8d3dc44"
+    },
+    "hamburger-patties": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "6a939a57c78f882aeb45f349b8478e278e40215a46b3849cc3db7a396a65e9ee"
+    },
+    "hangover-eggs": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "40563a1d285bf746b83fec8270268e89dc92d9d1744005a51c97080f4107592d"
+    },
+    "hearty-breakfast-oatmeal": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "5b60b36ec83603fc3ec0ac472893038997aff9c197f05acfd38edd735c5a5ada"
+    },
+    "hellfire-steak": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "ff9e5a27ac5726d01f0de5d2cc8a0023581c2cfe654dea1036460d79cc2b98d1"
+    },
+    "herbs-pizza": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "fda227a7c9901b3b8fd5978b0877625966d54715ae783a4b05ac7faa4a46a615"
+    },
+    "hoisin-pork-belly": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "19e4eae45469a1cd4a81252bf33ea9f99255a9f8f5fcb8f248a0cf2c9a61f2d1"
+    },
+    "hoisin-tofu-and-broccoli": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "2c14a351a59aff0f409c1c1852554f978693dcdf4aff87fd6ed3d4ad423e6af2"
+    },
+    "honey-garlic-chicken": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "870daf64058c75f19062b8e9652c7193ab344739e66e95b15c27b3b447ccd619"
+    },
+    "honey-sriracha-chicken-thighs": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "807d0f04ecfb12bbf96da9948c4dcd7de9b2c11ccedb8db71c68f67f06a94613"
+    },
+    "honey-vanilla-ice-cream": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "b24edd8b4b104be61da6f6c3fb12da74ef8e3f2078ed01e1023b30710c748289"
+    },
+    "hummus": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "a25b84b4444de6b7fb0d2efe1b878a461e58316e719f22015e654cca1d6bad07"
+    },
+    "indian-tea": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "0463cb2545825279df5183f9fca674cc6b5beb2bd8fb133f46305f53933ac190"
+    },
+    "instant-tom-yam-kung-noodle-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "ac83c703f974375f10f8c25c550d2f710183a8b216e36c50c0adafec23066c8b"
+    },
+    "irish-coffee": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "bb3d27bced5920437ad6cf081eddcd1428edc6b8df458c92111a4b44e2f50530"
+    },
+    "irish-potato-casserole": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "bf8fe4d62f0a47cb4fb30667541d8a2619b76f6079c4aea6792d6ef42ef6f04f"
+    },
+    "italian-bread": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "4931b375d02ff03c8680b6a73b3ce703dd958e510d4fbb5fe4ed975843d44376"
+    },
+    "italian-mulled-wine": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "6aec434497b52c3cc49f8146de355403ede05b03e5a545c91bf93722d17adef3"
+    },
+    "jam": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "8f638ca892e72a7b8acc18b2e2aca511b8263b7ebd94f3bccf706a67cc2bc274"
+    },
+    "japanese-noodle-soup": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "e9b8211a48adbc1a00d38633c7769183dc69ec6dfe542bac9e585192a719dfa7"
+    },
+    "kalderetang-manok": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "bdc96b19faed1380f9ac6b96b73a809aeb5c55ac7ef5365e35fee7f74b805b1a"
+    },
+    "ketchup": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "1c55edd2e8d43f7c1e4b25789bcbfbcabde19ec751e9b09899a044d50c3eaadd"
+    },
+    "kettlecorn": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "3d25ca5fd29fc42c5b0dbcfb9dad2664310816f7fc45f206ec468d7b4235c80a"
+    },
+    "kombucha": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "3a6cd24fe980197ceb09b3e304905e82d114b2aadd3dace96fafc0289ed8d1a5"
+    },
+    "korv-stroganoff": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "7ee72e98870ccd634de779a3b256b7c4b061d2e80ffa99f065ac266fa87de10f"
+    },
+    "kropsua": {
+      "initialStage": "blocked",
+      "previousStatus": "blocked",
+      "beforeSha256": "00bc917d44296c3d36743eee8d4dc78d2c132defe2b9a331cc89594b35321d8c"
+    },
+    "kvass": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "b0978ac0c8e5f397438728d8c858f495a5e8189e1072af201c3ab631f0fb9a21"
+    },
+    "lamb-biriyani": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "b70c589174ae494804187bc1cacf8147fba9d5aa86a31d9c46cca4610f7275be"
+    },
+    "lasagna": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "3a6e2c4fc1a0978d2e1ad4a88c7a703cb1a54bf5175c3704b3f7e2b3a16396b7"
+    },
+    "lavacake": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "2876590135fe9c8c1fb858b884aaf37cfbf6c9ae005be49cedeccc260ed93cb5"
+    },
+    "lebanese-lentil-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "44bda8f3705a2d40f832eed12120e7160178b912da8f424aabcb9246a354db20"
+    },
+    "lemon-and-oregano-chicken-traybake": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "d426899b39d5b10e3cddcd56ef6b992c6607aff600bfff2014518b6db283f0b0"
+    },
+    "lemon-juice-salad-dressing": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "77d3b1116470668997ee40bfcec59390acd7a90ebdb313b6a0d97fe77cb6cb88"
+    },
+    "lemon-pudding": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "9c12e74ecbd0b3f83c768ed4924b4e56528316e5a9f0bc68081c545d740495ea"
+    },
+    "lentejas": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "edf5b8182a6dcb2bfe75638dadb6d6b6e467933e3b9492fec97a83ebe6685f58"
+    },
+    "lenten-chili": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "d77b6c208bbce4eb0cf0d14a4742ee6dc669c5baaf3e05411e679e40a4aa300a"
+    },
+    "lenten-lentil-curry": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "7be04a2b8843ee290206e3c1b6cfd2a39caff3eed1147261ae5e50b6e5995837"
+    },
+    "limoncello": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "dec43577131afb66bbde200cf574e06b6ed6a08b657c21a9f3450995ec951054"
+    },
+    "limoncini": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "6e7e7bb4fa2ab8e8cc109a524a9a677c50563618543b5d55795212b6eb70c06f"
+    },
+    "lithuanian-cold-borscht": {
+      "initialStage": "blocked",
+      "previousStatus": "blocked",
+      "beforeSha256": "b343bdbb393690534fa3a1d9a54d51d10521382c4ff4e06a9c8c15b4181be9dd"
+    },
+    "liverpate": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "3695c9b618d41ab174d73c5b080fce755fc28172e1f0af92ce3a8143796945a7"
+    },
+    "loaded-mexican-rice": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "40670810023ac84898f123a31150412f291021db9b215c49c77cbe0bf0d1323d"
+    },
+    "lobster-bisque": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "b15a848ac715d782671fea34de31ac9cd38019d6e3352aa9d4575f9a77788818"
+    },
+    "long-cooked-chuck-steak": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "3e070c60b3d4262734b7940196c2fcf030fc1ae36e0ca7d3b31aacb6e199adbb"
+    },
+    "mapo-tofu": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "235c633307fc6b0d00dd8d017f7fdfb6c9a58749ddaa7e7cc86950d1db18db4e"
+    },
+    "maque-choux": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "0e8cc64a61a1aaf8d586b50ceaada4283e9decb6d9106aaa9a76ff6f288393cd"
+    },
+    "marinated-pork-steaks": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "17c555f0bc899b3bf99910df1027a9937f9dbf1da7a806fc4e0027c3d70ef740"
+    },
+    "matcha-cookies": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "6242d7dd6fe62ae1685dead5406c43ca70f1f451ae5a679055ef8db8fb5b6e86"
+    },
+    "mayonnaise-or-aioli": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "5154ae89de8dc8f3d507446609cb080ad365d8bab13927147941d1d3de5bebc1"
+    },
+    "mazurek": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "658a70e279ff13b9a608aca517f99418ae5cd65ea27bd5e3f7bf1093f9619b84"
+    },
+    "meatloaf": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "9b538c7ad97f80585fec52c54479122018296edf1ac316f1ce0c5ccd1a966209"
+    },
+    "medieval-beef-soup": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "5e7f5fd65d1e79618a1dd349735028986cbc95532ad3e88ada754c04677f8818"
+    },
+    "merchants-buckwheat": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "34787edd32cbea0d2a0a3350d30f31ac0b1414759732dff3048fa04340f87887"
+    },
+    "mexican-meat-loaf": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "91dbb04c915ae79f322f5625d122862b645f29496babd116e71144648ed658a9"
+    },
+    "miso-ginger-pork": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "d128fe6fc873ffebee62985a936c74a6b7e7dce3edb257eecc277999a307799c"
+    },
+    "miso-soup": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "5e8df5da403118f6f8d501c88e4eba0a862a83873b483ba9bfaf9c6af618b61c"
+    },
+    "modern-borscht": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "d389f9b22d1e740d2a22a1f59c0c361104c65091c1077101f469da7e1e8a26b2"
+    },
+    "mushroom-risotto": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "5980582e1b1afb35538b95f6b4c2d48b4fd18c0964749e3cb5f318dc42ec2ca5"
+    },
+    "mushroom-sauce": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "3e3e89fc269fa7205c43f366fb5f8889a5584335e09474a30b9342eb77a3b8f8"
+    },
+    "mushroom-stragonov": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "0ff40b0ad871757440bad5caf4243885c97550ffaa15903857cdda2041852e6d"
+    },
+    "naan-bread": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "b22e02387016c93eb99ca2fa4e48f7dce48b8ec2359e25c6ed87b864d4bf0310"
+    },
+    "nashville-chicken": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "a44de9e729a9a6725267a3ee894cbd3b332a90220aa20c28921119e8797ab4eb"
+    },
+    "newfoundland-cod-chowder": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "0f083a5d38b21760bfbc5f7d04ec2a72a3b80f574560d26b499c4ba13f752371"
+    },
+    "no-knead-bread": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "96fd53191d99d19f35da7d4f990e897d5897ada8dc35649ad4f28cb085ece28e"
+    },
+    "no-knead-pizza-dough": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "42a80efaa187a6d7c2b0da503ed4a67691dd66a7d849151c7f3805ad581666a5"
+    },
+    "oat-milk": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "1690ac5f6c4d00b4bf1720453a0fb4d9e479fb21869b5f17a0cc21d92ff81f50"
+    },
+    "oatmeal-cookies": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "b9a551cb9748c1e8cd5d9f16d82bc8d37c47a24f7f316afce310c38e2a2fb35d"
+    },
+    "oatmeal-pancakes": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "b7ae76089ea34c8eb4dbf672c19807154cb7a4d72d2d7e205d8deecfd0d8930e"
+    },
+    "oats": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "9424ac31c04e2c1bed72aa91b7698f9b380d437a6017399359ab8481a3164797"
+    },
+    "oaty-pancakes": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "53568b1a6c02a419bd782717412f800211922bec81251c57741e791c1fa1e1b5"
+    },
+    "okonomiyaki": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "67e2fd1a94917adc1f970d047cca88e5153ce3b6daf460f2c65647f95724af68"
+    },
+    "okroshka": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "6b9d231a0fb062f011ee277b78b236c611105381344b711f9954dc9f0f9af405"
+    },
+    "omelet": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "35f3d70520e2c8aefa3faeb83a81c6421bbf88e92e23d8eb7307c97b89c11ce0"
+    },
+    "one-pot-chicken-tetrazzini": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "3e60a2608227e0702ededa56ef587cf66b08d4288cfd682537d658876378d192"
+    },
+    "onion-raitha": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "efd1514a31f212f0b0b2d82d1505d75ecd6d0ae5e68ad3698a87048c89a71ef0"
+    },
+    "orange-glorious": {
+      "initialStage": "initial",
+      "previousStatus": "protected-gold",
+      "beforeSha256": "8a53785abc14b66829a9415ede209c86ee0ad12043955688dd87b979480f5e5d",
+      "reason": "Actions are separated and Compact is readable, but package-shaped ingredient identities (can concentrate, cubes ice), an unstructured glasses destination and the unseparated smoothness judgement retain the early conversion treatment. No source blocker; defer modernization."
+    },
+    "orange-jam": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "3138f7ae3f058e454d8b0adebc9111a60286eb7f2d2f0a719f139b388efba4d5"
+    },
+    "orange-pudding": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "8777fcb6d2c3332321c058bb8918add4a917c33323ee542dfb36b9cd91a01b0c"
+    },
+    "paella": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "cdce765c22784114dfd55bcb118ad6eef174f63127ba1bf85042a0e9085dc24a"
+    },
+    "pan-pizza": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "b62b89f28f3374ae321a6fbff95a1f475d2c28286da9892ee7335913808473d8"
+    },
+    "pan-seared-chicken": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "2af9766b8e6f6c95aa7d7da4349254a7e72c32ae40ea87966a3d2f40c3007b6d"
+    },
+    "panang-style-beef-curry": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "913a21b25e3ec9563c8d058ea11607d07185b7125ebf3cc76764e6d10ff4dde5"
+    },
+    "pancake": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "ce37703ac0597041b20473d3a9091c1080a0534108d75485ee04d1113014288e"
+    },
+    "paneer-tikka-masala": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "f93c5aaece0bff6ece66715e51589da665d65eeb31a0c6e32ace478a5cff1814"
+    },
+    "parmesan-potatoes": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "75e32826b57408a611a0fd1b163db875c6626b67e363c0ed09c4352343eaebfb"
+    },
+    "party-mimosa": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "8d6d9781bd50f737fc8fa6d0ff75598fcf37e633aac81fe20673a2ede7087612"
+    },
+    "pasta-alla-norma": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "9b6b7a4fffbef3249efe0e57c62362b655aa241a1828fa11fc43ccde3b0cdf9c"
+    },
+    "pasta-arrabbiata": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "c76b0579e2eb9ed847c472d45e919cd3e9f9e6f04c5718dad6e217321b503759"
+    },
+    "pasta-navy-style": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "3bd49fa198e0bfc37bc31cf16f68eb29552240393b8acff0114f4d0ccf9442ed"
+    },
+    "pasta-sauce": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "72c060e74ef5c77aa10871002b8395a107331fc0ea1b3010a81dce20bc58479d"
+    },
+    "pasta": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "74a2ab3c982a92c341f447844da599671c8d62ad5a6c840cf56cb94620a57063"
+    },
+    "pastitsio": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "8c927e82bd49b030609cad9398a44179dded5fde5a27e12185c3f4e536b27b5b"
+    },
+    "pate-chinois": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "d5ae44d497b3f90a936f6de203f5a5b0491163bf758f2038513a4c7e636991a7"
+    },
+    "pavlova": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "7b00b0f0747f85bae81f474feb50528918d9ec246d588e23e2c395ec9ae3c6d7"
+    },
+    "peanut-butter": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "41fc5df44bf81d883b2ade416ba081089c481822576c5433543589eba4d697ef"
+    },
+    "peat-carrot-salad": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "271dada33cf575ca00f49525912c06e3302d3f358adb715dff2ad75a6b323bf1"
+    },
+    "pepper-sauce": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "337caf607caba2b79e86da8f6ab7e0da021d81e60cf5b9fcf3da27b96ec2c4e4"
+    },
+    "perfect-potato-salad": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "f3a78d827e8540f40c43b709907486d39b866e24e2269dd503ff9329eb56eb92"
+    },
+    "pesto-chicken-quinoa-bowls": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "b22d09987e1eb3bd3f63d565fb03d0b6c16c8f8336b2cec7619fea9e3bc12757"
+    },
+    "pho-soup": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "7c1e22c2f2d348bc4291768312c35b4e520b3a8146c5693b834187c98949e868"
+    },
+    "pickled-onions": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "ae0e2350c3a908deb832c706be0964218c461c88b80cc185ff1a8cf25cd1360d"
+    },
+    "pilaf": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "a69fe15ecc5282bb114fd2b6532b33acd80a03ae810fecdfe75232122aa6c38d"
+    },
+    "pininyahang-manok": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "61157686062b9ce84e8a61a161bff80a76c7995ab6a0b24fd8d19c903199c99e"
+    },
+    "pizza-dough": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "5b44f2d22f8fe2254b0b3b665b359f09c64f320515cb620ef158fad34b406a06"
+    },
+    "pizza-sauce": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "c115661a57f81b6a9e99159350800a539f54206970e61d0118ef9c8b8c6e3836"
+    },
+    "plum-pudding": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "6a84a52d864b3f16a2e259981fd5b1739b4546ebd2182a701132bd7aee325e82"
+    },
+    "pork-based-chili-con-carne": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "cb12bab5144cc36bddad49ac97b5e652698c20839670ba34c02ecbd3e7c3dfb7"
+    },
+    "pork-carnitas": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "38a320878cfdcff64c36f62d131fbc7a9aa250535b5ec7decc41d3e6226d7e3b"
+    },
+    "portuguese-steak-with-beer-sauce": {
+      "initialStage": "blocked",
+      "previousStatus": "blocked",
+      "beforeSha256": "1a54fbea60dba409f8cf769f4e7a5d4b7b78beaca071979c2a189c856b71b192"
+    },
+    "potato-and-eggplant-curry": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "e4adb9e8ffa63c3c808ed6118d05b5df7da6795ff55e1d2adf5905a1743a6ac8"
+    },
+    "potato-leek-soup": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "4403ea01c5d4b161de291567eacd7d68e1ba9f4708c6d0bc7d5329a86f6cde92"
+    },
+    "potato-pure": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "1dffd30d6f71004b5f8c2141977ff8cb6a4f552537592ab9386f87e68e236e55"
+    },
+    "potato-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "2a29b852f81467424a72b39df9c02038f862bff97f335ed2e9abd47302533555"
+    },
+    "pozharskiye-cutlets": {
+      "initialStage": "blocked",
+      "previousStatus": "blocked",
+      "beforeSha256": "26b08eae5b84ac530a158ca37991ff1943e8c37bf0d0cb81cc3e1e24cf92059d"
+    },
+    "pretzels": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "79c6cfdecce3500615ddc2abca87a2be90044b988c7d6b7c36152a7e9210cde4"
+    },
+    "puff-pastry": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "47997058e31c8ea8451e5b0fda516c46b36eda133070ec1e4c23fc6b69d3aeee"
+    },
+    "pulled-rabbit": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "07a37a431eafd816c818e4743e62af77e5e856b5f5a48023bb6183dc4fd89c34"
+    },
+    "pulpo-gallega": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "04709980f78ef8b3b9800da01bdb174b0b308ebf04d6ca5b52c57bfde658a093"
+    },
+    "quarkbaellchen": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "44c688b2f9cd2f6fb7a646f8c79a4f6db4c858c7487c08d8c51103c634831eb5"
+    },
+    "quesadilla": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "c5d4fda6a3053c376dddab5ad176db436eee41b08fe48d0015e81bc0231640fb"
+    },
+    "quiche": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "55e9eeab9a195d3f7745ade0c404993e18d6e661326bfc3ff411d16301ad9a82"
+    },
+    "quickbreakfastspaghetti": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "6c0b32dbed0072e669984c5d317edbf81c1dca325eb12b4c84c77c98db789c36"
+    },
+    "rabbit-onions": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "3b43d840981dfe41c0f41ce85e579b4fa5c5b5896dfeb0e42a5bec60ccde4062"
+    },
+    "ragu-napoletano": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "429dc8dc2109e43712b6515a71e5bb1c97fbfd53c64ef63972f756e003dcae3c"
+    },
+    "ragu": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "90b797d7e6764f80e3f48b48b0655461f6c8d67645ed19180f6c3b5c6f8f6702"
+    },
+    "ratatouille": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "e6357de436ecf16a2bd37d391d1a2615252a97f0b4fcb9426579ea4a90fe01af"
+    },
+    "ravioli": {
+      "initialStage": "initial",
+      "previousStatus": "protected-gold",
+      "beforeSha256": "3a7e93a5183cf55d409534da49594745e1c4bea34ec37578938de0d9e59b9738",
+      "reason": "Later work preserves method alternatives, filling, explicit ingredients and judgements. Current prose classification still fails: rule-of-thumb commentary, redundant branch narration and serving/variation advice remain active instructions (CQ009/CQ010). Assembly alternatives and several actions remain prose. Seafood CQ001 findings alone are not a failure: its local choice is valid."
+    },
+    "red-lentil-dahl": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "92f5ccd2d2a9a1f861dea7af4a2436cb02dedcec011e92d99253e0facbcbf38a"
+    },
+    "red-sauce": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "eea151c1be9fab54345b282ca3803f89f259c9bc97a4395259f409aab40a1a95"
+    },
+    "refried-beans": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "aa6b06c63dda839f5c00c5ef4b5fce43b99f74203fa60e9079c95c62e8cfa3f1"
+    },
+    "rice-pudding": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "f5824db03f4152a881a1e78ca8308cf42dbbde3bb511404c9678f7926f285ab7"
+    },
+    "rice": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "929e1873daca9e8cfe8d47fc5d316a76bfa553f4da3282ad1dea437e68867160"
+    },
+    "ricotta-lasagna-filling": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "84c5dcc524025684831e03ea1e5b79fc440cb21713bc976f3828f372689e70ff"
+    },
+    "ricotta": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "e560b9a34a5ca2ce7de4c70ce649bbbb270c17fb30a253bdef55474215b5efc3"
+    },
+    "risengroed": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "0547c4d8c4ac8ed8f63b8e7eede0f88b8a1a36bc0c105e64bf4bb462e7f886f6"
+    },
+    "roasted-chicken-breast": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "2490d223d72e8c34e1878e01087b479f10621c8850acd912f461d025120d1f52"
+    },
+    "roesti": {
+      "initialStage": "blocked",
+      "previousStatus": "blocked",
+      "beforeSha256": "cb8ffa2109b54f1853ca0c3f8d5b293a2f6cd79aa3dc4d3a80f850a0e234b252"
+    },
+    "russian-1000-islands-sauce": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "70524d9e39e258beea7ac97bf984975e82149b6185e1e5e81d2760ce7b9e3fed"
+    },
+    "salsa-verde": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "211e0116de0a6b5c0c8a1488ae8a1a276ec41c299f3778bb4c8f8869a50907fa"
+    },
+    "salsa": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "cae8bc4635c2c64d6f1981a78e14c76e6bbf57494d7d87d397763b55a7b2024c"
+    },
+    "sand-tarts": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "892e37d8de88206b533698c7b6108af49a6ae039d34af2cc14059419fdf7e20d"
+    },
+    "sardine-cakes": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "9272e6bcca7587e81edd56dab7e903e61943fd98a4c7c55cbab0bc2aef00ea6c"
+    },
+    "sauerkraut": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "04e25652aa6536e8570b1815cdbfac266579298e4c270fe7ab11cdc41b7756a2"
+    },
+    "sausage-rolls": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "6eb74bea9251d3cfbc7f4c870463356384c105367979603437ab77b728f1413d"
+    },
+    "savory-squash": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "1be671cc8b7cbd7a4b12ce0fc88ba42d4a12771879c9d46e74bee196d5bc37e5"
+    },
+    "scandinavian-coffee-cake": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "8bd639af330e490c32bc90270afe079bf829af4380503b2dfaafcfad61f5c03f"
+    },
+    "schinkenfleckerl-gratinated": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "737293a4b5033b3952058dfdc327b6d34896d55b4d22242b6098073fa1007d5c"
+    },
+    "schnitzel": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "795b96e930a72bd0189d1aa9183135ce6bd2dd31ee93161080b8cbfa27f0c580"
+    },
+    "scouse": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "783a5cfbcee438a8ef2ddfee710a6f5d064c2fdc2f2fae292771675d5f0c1220"
+    },
+    "seafood-pasta": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "38a5bfae47ee6d015fcf77e037c287413b4ef0572642d5483c9d7d44764404e7"
+    },
+    "shakshouka": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "3cb81276b405215ebd91b4ecc4206b9547b1aca7b8fe6b50e154cfb8da83791f"
+    },
+    "shepherds-pie": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "8fe58f504beef5a8c26976554af9e7a7f3938862687795cf460c536ff9a45dfc"
+    },
+    "shortcrust-pastry-biscuits": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "429cc8e215c2d8c7c2c76875ca077fbaaf13883060fe7ee7702e39d8d039e5bd"
+    },
+    "shortcrust-pastry": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "58280d16f89fb9c292c2d0cca0bcd9db98b209470581e5b0b1471b007db3941d"
+    },
+    "shrimp-and-chicken-jambalaya": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "4735580cb55a398ad898a0facba467775c82a7fc1611be7afce0d4721771300f"
+    },
+    "shrimp-fettuccine-alfredo": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "1353e9c05761eaa864b20eb0e4f1de8063383ada8fb926160a454c4d790645c1"
+    },
+    "simple-chicken-curry": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "4f48daf052c2c956a09e192ebdc047b74b2ef22dda6d1629e6b6321f62445604"
+    },
+    "simple-pasta-cream-sauce": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "daa86060d2a2b955e35685df8019cf4bb5661cf1a1464dd20d6d829181485f0f"
+    },
+    "simple-sauce": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "b52afa0552929907407a905afd7f4798d71782e51d5dfa1c3d9daeb3bd8b3f75"
+    },
+    "slow-cooked-lamb-with-lemon": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "39aea877125bdf2c6fd64610570d8bedf570b326226b151b8967fa0d1b8d3ed7"
+    },
+    "slowcooked-green-bean-beef-soup-supreme": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "9fa424629242caddcb49f25968bb67452b96a693649b0b91032f08a04daa6c7d"
+    },
+    "smoked-salmon-pasta-primavera": {
+      "initialStage": "initial",
+      "previousStatus": "protected-gold",
+      "beforeSha256": "15ac253fa7182d9ba50452523eab58782e1e8ea334b84b0faa4d0dd276adac3c",
+      "reason": "Frozen edamame or peas is not a structured choice and edamame is later raw prose (CQ001); cook/stir share a token (CQ005), sauce/pasta assembly is mostly prose and end-state conditions remain bundled."
+    },
+    "smoked-salmon-quiche": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "b8715e7d97c22cd6c1c94d9d3e307cc0fee754a39ac4dda8c4afc37e0fa4c52a"
+    },
+    "smoked-turkey": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "550a2c7945c2fde49d245fa49b5512914daa3334eea7c4508169063b534e075e"
+    },
+    "soleier": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "8c3b5abc3d30fdbc3c80ce50a869141cc3bbe2fcbad7a41dd4c393ea2ed52c73"
+    },
+    "sourdough-bread-with-seeds-and-grains": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "d7cd881b4571a638c839b2edd0d19715fc5be655050ee73a42162eee723f2b2f"
+    },
+    "sourdough-loaf": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "803cfc2a571794fa57ab9bbf2d5b8819d46204a362d541b966c681bb5b41e826"
+    },
+    "sourdough-potato-bread": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "58db3581aa07908db3da01a04bd02dd84c825e040716b77fb8a78dd03be71d8b"
+    },
+    "sourdough-starter": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "e05ddc0e3bf796ce244c2aa1446530948816f4fe45fff868fe262e800713760d"
+    },
+    "southern-biscuits": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "9cc8004f320114e58cd2809579fa25ae403f84dc9ef3a8f0e55929e2a3600354"
+    },
+    "spaghetti-all-amatriciana": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "df646b10a18d27c11fab78f6d044b775909eb80c4cf44c68a0a7b55f54df6523"
+    },
+    "spaghetti-alla-puttanesca": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "e142b86071574d4cf68469d332803ab9d6457535f10f9da83495b80a6bc2f58c"
+    },
+    "spaghetti-and-meatballs": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "328708af697d24453c02138a5bbee575bf2181d05d90f9013390a4c0525418d5"
+    },
+    "spaghetti-sauce": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "a6c5859acb008801130416835e66f57c06730de205435bf147c2056dddd05dcd"
+    },
+    "spanish-tortilla": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "f958ed424e9d90cd23e94c2de1b37e204ad08714624391f51f772845d1602fe6"
+    },
+    "spatchcock-chicken": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "42500d2b6e75fac5415cf845ce1f443f0d2f1098bdad68d56df8c054da7a10d7"
+    },
+    "spiced-apple-pancakes": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "5c08ec216538bea7e84eae6359280ed147096a88268ec839d4b1e43c2eecbbbf"
+    },
+    "spiced-cantaloupe": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "f1f1e12012330484a3a086f7db0ead871068726934b03f7f2ae4cd39f552359d"
+    },
+    "spicy-kung-pao-style-chicken": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "a7099ba9050726badbe756ada5d7c22a387a4b50bf30c906639e594b03c75a57"
+    },
+    "spicy-mayo": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "61c59ac9027fd46bf95568ff8d59e0905950900104a0b81074358884e8c7235d"
+    },
+    "spicy-sausage-pasta": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "f0885776bd1ea7006954622a43ea9979956f1576f50e753acc787d656282f845"
+    },
+    "spinach-rice-casserole": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "3c7d7376449881217b82e66d325ae97fab58ce601c3d07612dc3fdf68769efec"
+    },
+    "steak-tartare": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "4112c91e15020bdce112a0b5899894a262b2d50a42ea89d69ab6eff04a4192f6"
+    },
+    "sticky-porkchops": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "1a6eaeb312aef31eba7ec9261f250976297cf4beae9cf96d709fcfce88b2698f"
+    },
+    "stir-fried-chicken-with-an-orange-sauce": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "8a57c5bcc7815e9bf7fadd0b4dc5314d70ea49fdfe425c78bbfdb64fa83172cb"
+    },
+    "stoemp": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "fcdfafc2d672af70dc559400dc6a52c2fa5346588b12c95e22f79887a99c4030"
+    },
+    "stoofvlees": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "c9afc4f1afdcb06e6868de6b4034185728945d1153491ff961ca42aae4fe8d20"
+    },
+    "stracciatella-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "657f7f6c953cc5136f3ed4fb3e148573bb82087212b8e33eebd3f92af283ab6e"
+    },
+    "strawberry-compote": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "59f79ee4e0a2628f6b3273abe5e3274c8afd50e42af18a0f718af96969f2e4ef"
+    },
+    "stroganoff": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "ea9b0505651ab50cd8e67a44846f8e2591e691c6a5673ddab9e9bd19d63448e5"
+    },
+    "stuffed-round-squash": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "ecaeddf0be999c499b9a5bc5c02c4cb88888cfef273961fdbb4ba606fdbccf0a"
+    },
+    "stuffed-vegetables": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "5e2029f00753681ce1446ab2942e126d50d7256d05d9cb315063d7ac8428a457"
+    },
+    "sugar-free-brown-sugar-peanut-butter-cookies": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "b1cba6372d95eaa824915ada49cb0f9b4f23f63c7bf112f20fcb504d36af8c59"
+    },
+    "sunday-milkshake": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "579901248e8f0333d86675a1d60727542dbf0a1255d5e615fd5a65f862402c5b"
+    },
+    "swedish-pancakes": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "436cc00139d07a480301fa52d63deb773f969a2c349892a52db43ff4fdee9bd5"
+    },
+    "sweet-potato-fries": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "b9b556bd3b7153265550afa0dad4c69f3335b82625957bbdab2591ec4c5064b3"
+    },
+    "tabouleh": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "7b366aef898d761b9526ecf1f77e773e600ccd4f6c3e5a55b77e18b7987cfa6f"
+    },
+    "taco-meat": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "ea71f7458c6ad6c4670d15f9fcd2a5d1951a356d3edc2b4632fac000d8d41327"
+    },
+    "tahini-short-bread": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "cb708e748eef44633c852f1a6bf773d387e32b872603ad3af41c8347b513c9d2"
+    },
+    "tajine": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "87b72bd247e214d646c1f15228618d595d5691144a465b23cf0a2327e82ee29e"
+    },
+    "tanzania-tea-with-milk": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "2e3eac874a9ed36cb2fb17f6ad81027de5baf62a9763cdb7064a95dc2c3b15c4"
+    },
+    "tarta-de-santiago": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "954d036f3eff58f4300ad81f2fa92d5020e93f496a576fdc7f0634f4274ca83b"
+    },
+    "tarte-merengada": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "3c1bf9d786033ebd1bb3f4b78e4cafc3c66ba314ad759144c3ba62281d1409c4"
+    },
+    "teriyaki-beef": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "6f2cd231e487ec75b3ced48e899fd163181e558c464afe950ad878d33c9eae34"
+    },
+    "tiramisu": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "9d765c795d8309e633cd4debe1cda80545816207bb3da2555c80ea41174102b5"
+    },
+    "tiroler-groestl": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "29f901a1ca139189f0d69f5c4fa715e9bec290b10bebd35f22d3e80a530c3987"
+    },
+    "tofu-and-cashew-chow-mein": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "0b4ad11aaecb483cb73c245da81b37214a885e8ab9c3a8c2714fde7c0aa577f3"
+    },
+    "tofu-stir-fry": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "a551ae876ededf65b79f298a588998f93ab4c4a977ad7b246d38adab417e4341"
+    },
+    "tomato-and-grilled-paprika-soup": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "e5c34fc97e7301c32b9b5d553ba19532a1f305fe636d704261ff75c7f710bfe7"
+    },
+    "tomato-flavored-hamburger-macaroni": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "95f2ce8c49269de524dec445737b46fe1da9096c9d80d939d6fad4be4ef9db3a"
+    },
+    "torrijas": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "31289a5135fe3cc22408082c4380c9afa5a6f5386e1f89300d9c6b84c6edf8b3"
+    },
+    "torta-frita-criolla": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "b6503fd6de4e31ee30116d14eb0ca1aef8b85038d0c3b945800573832bdc8687"
+    },
+    "tortellini": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "2c69d70073f882422ea9aad9edb8dfdf969fbc81d97972444ecceae56a4a91c5"
+    },
+    "tuhu": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "6920274bdf8bff1d5e4fd2f4768e4984a8b51ae7512c2a70fc777d12f4a91419"
+    },
+    "tuna-salad": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "9c3f9987db0e5968fc78d8f045e9aa30388f958048ded310c05dc27506836241"
+    },
+    "tuna-sub": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "dfa1334de2d34ef514c85a277a0c31b9d1b8ac52715752381b35608eceb22115"
+    },
+    "turkish-red-lentil-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "15010611b1f21c510a5275a61a869f83b284efed7490d2fa85e825d3afd71eb5"
+    },
+    "turkish-style-spiced-chicken": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "7ba8674576ce9dd7c50b9fb30684112052f3c97187a0e51a00e2eb5ac607ad02"
+    },
+    "turkish-yogurt-soup": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "3c9c6189fd4d3f8070cdf17f91f1f98cd2fd7b260e59afccac84bb52bd261e74"
+    },
+    "turmeric-flatbread": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "b1de7ca9753db32370c8030e09a44fdb2438005a1bb2b8a65424e21333c33b96"
+    },
+    "tzatziki": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "524f3f9f88535379b110a50d33686695cf2b20e2e1095c91921b9586dcd12d11"
+    },
+    "ukrainian-borscht": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "c57742fc2925f7b2263c120e43b832c55fd8023ea0f3a76d21ed7b384db2575e"
+    },
+    "ukrainian-vareniki": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "6c2077a040b8e7aef8b428f7c88f91cfcf345691f3c559dccb7b6a748b6a5065"
+    },
+    "venezuelan-arepa": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "24c8136081df4ee64f0fe56d959d846bddc23e79d0a0495cabcbce2a9fd96583"
+    },
+    "wholemeal-pizza": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "4aa3ba36711e19aa5b096f4570b912433290e85e01580024f958eb571454dd68"
+    },
+    "wholemeal-wheat-flour-pizza-dough": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "91b7ef319051c97a3aaac6e72ece954317d098a1f816f91758a79ca75cf3012b"
+    },
+    "winter-risotto": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "5268cc8eebf3da00e6d8c29baf20266240fe65449347711aa0cff0a58a9ae663"
+    },
+    "yibin-burning-noodles": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "8800b21194cdc2e488ccdfec52ceafc42088b774018c1d58feede77d740d1ce2"
+    },
+    "yogurt-cake": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "075160d5c005940e5a6ccdb8a50236de81138862ae9d8564ada3d62bf83bd0a5"
+    },
+    "yogurt": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "90abf62c2e146ca595f4969fd8216b9641406c7b8d74b7d4e1cae4c7036e42e9"
+    },
+    "zaatar-chicken-bulgur-bowls": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "bf77fe00125daf7796e243fbc4ffe6c457bc8d23a96e8dcef80978e1058180d8"
+    },
+    "zaatar": {
+      "initialStage": "reworked",
+      "previousStatus": "generated-v2-deep",
+      "beforeSha256": "a3a74803c20591c805e8e9fcd9390f4a68458dbc2ccf48a91004673eba088fa2"
+    },
+    "zarangollo": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "928775a3cd275ed35c84a96066422bae1abc47b17ecc37a326d9c9b5888814d3"
+    },
+    "zopf": {
+      "initialStage": "initial",
+      "previousStatus": "pending",
+      "beforeSha256": "ce4ce8328e23ab2d6dfbed3fb37162e2b98871a430897a4a0e6fa3e7edf23b66"
+    },
+    "zurich-sytle-meat-saute": {
+      "initialStage": "reworked",
+      "previousStatus": "protected-v2",
+      "beforeSha256": "9ed8b078454c423e28e710352be166e5c947a9b84b78b609fccf52585996459d"
+    }
+  }
+}

@@ -22,3 +22,6 @@ in API/design guides retain historical validation numbers; they are not release 
 [Canonical representation terminology](../TERMINOLOGY.md): Code is primary; Compact
 is generated; Original recipe source is provenance. Current captures are in
 [visual-review](visual-review/README.md).
+
+Current publication and conversion maturity: [RECIPE-PUBLICATION.md](../RECIPE-PUBLICATION.md).
+The full 410-recipe development corpus is separate from the 216-recipe public browse subset.

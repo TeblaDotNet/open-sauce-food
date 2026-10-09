@@ -56,6 +56,7 @@ export type Node = Statement | Group | Metadata | Prose;
 export interface OriginalSourcePayload { text: string; span: Span; closed: boolean }
 export interface Section { name: string; span: Span; comment?: string; children: Node[]; originalSource?: OriginalSourcePayload }
 export interface Recipe {
+  conversionStage?: import('../publication.ts').ConversionStage;
   curation?: import('../curation.ts').Curation;
   /** Exact authored .opensauce Code, including any literal provenance section. */
   source: string;

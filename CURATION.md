@@ -86,3 +86,10 @@ were marked checked, no candidate terms were processed, and no grammar changed.
 The public subset retains 117 of those older encodings and all 293 generated conversions.
 At the later [vocabulary review checkpoint](VOCABULARY-REVIEW.md), it had 756 canonical entries.
 That is a historical count; see the [README current status](README.md#current-status) for current totals.
+
+## Conversion maturity is separate
+
+Recipe `conversion stage: initial | reworked | blocked` records restructuring
+maturity, not human review. Only reworked recipes enter normal static-site browsing.
+Generated/unchecked recipes may be reworked; checked recipes may remain initial.
+See [RECIPE-PUBLICATION.md](RECIPE-PUBLICATION.md).

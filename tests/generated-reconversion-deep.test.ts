@@ -1,3 +1,4 @@
+import { restoreRecipePublication } from './helpers/recipe-publication.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -19,11 +20,11 @@ test('deep generated provenance restores the prior committed corpus and preserve
   const source=readFileSync(`examples/public-domain-recipes/${slug}/${slug}.opensauce`,'utf8'),baseline=restore(source,slug);
   assert.equal(sha(baseline),generatedReconversion.recipes[slug].generatedSha256,slug);
   const protectedParts=(s:string)=>sections(s).filter(x=>!['ingredients','equipment','instructions','notes'].includes(x.name));
-  assert.deepEqual(protectedParts(source),protectedParts(baseline),slug);
+  assert.deepEqual(protectedParts(restoreRecipePublication(source,slug)),protectedParts(baseline),slug);
   const original=parseRecipe(source).sections.find(s=>s.originalSource)?.originalSource?.text??readFileSync(r.originalLocation,'utf8');
   assert.equal(sha(original),r.originalSha256,slug+' Original');
   if(['gold-control','generated-v2'].includes(generatedReconversion.recipes[slug].status)){
-   assert.equal(source,baseline,slug);assert.ok(r.status.startsWith('protected'));assert.equal(r.attempts.length,0);
+   assert.equal(restoreRecipePublication(source,slug),baseline,slug);assert.ok(r.status.startsWith('protected'));assert.equal(r.attempts.length,0);
   }
   if(r.status==='generated-v2-deep'){
    assert.ok(r.sections.length>0);assert.equal(r.generatedSha256,r.bestSafeHash);

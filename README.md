@@ -158,15 +158,15 @@ The project currently includes:
 - alternatives, `Meanwhile`, `Optional` and `Repeat` blocks;
 - structured ingredient/equipment references inside process context;
 - story, notes, comments and source preservation;
-- ingredient, equipment and process reference pages with corpus usage links;
+- ingredient, equipment and process reference pages with published-recipe usage links;
 - independent origin/review [curation metadata](CURATION.md);
 - light and dark presentation using the six semantic colours shown above.
 
 The recipe corpus is uneven. All 410 recipes parse without errors, but they are not all at the same level of Sauce Code quality. **Parser success is not culinary verification, and it is not proof that a recipe has been represented well.**
 
-The [recorded review/rewrite checkpoint](generated-reconversion-v2-deep.json) covers **222 recipes**: 6 gold/reference recipes, 34 earlier conservative v2 recipes and 182 deep-v2 reworked recipes. The later pass used structural quality checks to find likely conversion problems, such as unreferenced ingredients, overloaded actions and prose that could be represented more clearly. Recipes were then reviewed and restructured case by case, rather than just made to pass a check.
+The development corpus contains **410 recipes**. Explicit `conversion stage` metadata selects **216 reworked recipes** for normal public browsing: 34 earlier accepted rewrites and 182 accepted deep rewrites. **184 initial** and **10 blocked** recipes remain in the repository, with direct development pages marked noindex and omitted from public discovery and reference backlinks.
 
-**178 recipes remain pending** at the earlier conversion stage, and some are visibly rough. Another **10 are blocked by source ambiguities**; their earlier versions were retained rather than inventing missing details.
+The six historical reference examples were re-audited against current structural expectations; all six currently need further work and are classified initial. “Gold” is not a current quality tier or publication qualification. Conversion maturity is independent of human curation/review. See [recipe publication](RECIPE-PUBLICATION.md) for the model and decisions.
 
 The quality audit findings help locate and prioritise likely problems. They are not correctness scores and do not replace recipe-by-recipe judgement. Much of this work is generated; a later rewrite does not by itself establish deliberate human review.
 

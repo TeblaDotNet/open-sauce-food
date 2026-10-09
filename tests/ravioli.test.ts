@@ -21,8 +21,8 @@ test('Ravioli preserves Original and reviewed history, including declaration cor
   assert.equal(renderCode(parseRecipe(code, { vocabulary }), { comments: true }), code);
   assert.ok(recipe.diagnostics.every(d => d.code === 'FREE_TEXT'));
   for (const [before, after, message] of [
-    ['(olive oil, for Dough) a drizzle', '(olive oil, for Dough) 100 g', /unreviewed ingredients/],
-    ['(plastic wrap)\n', '(pot)\n', /unreviewed equipment/],
+    ['(olive oil, for Dough) a drizzle', '(olive oil, for Dough) 100 g', /unreviewed ingredients|publication/],
+    ['(plastic wrap)\n', '(pot)\n', /unreviewed equipment|publication/],
     ['::equipment\n', '::equipment # changed\n', /non-instruction bytes/],
     ['title: "Ravioli"', 'title: "Changed"', /non-instruction bytes/],
   ] as const) assert.throws(() => restoreReviewedInstructions(source.replace(before, after), path), message);

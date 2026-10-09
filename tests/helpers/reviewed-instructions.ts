@@ -1,3 +1,4 @@
+import { restoreRecipePublication } from './recipe-publication.ts';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -60,6 +61,7 @@ export function restoreReviewedDeclarations(source: string, slug: string): strin
 export function restoreReviewedInstructions(source: string, pathOrSlug: string): string {
   const slug = pathOrSlug.replaceAll('\\', '/').split('/').at(-1)!.replace(/\.opensauce$/, '');
   if (!Object.hasOwn(fixture.recipes, slug)) return source;
+  source = restoreRecipePublication(source, pathOrSlug);
   const record = fixture.recipes[slug];
   const { prefix, instructions, suffix } = instructionSlices(restoreReviewedDeclarations(source, slug));
   assert.equal(sha(instructions), record.acceptedInstructionsSha256, slug + ': unreviewed instruction change');

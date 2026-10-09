@@ -1,9 +1,10 @@
 import { escapeHtml as e } from '../../src/renderer/html.ts';
 import type { Routes, SiteConfig } from './routes.ts';
 export const provisional = '<aside class="metadata-notice"><strong>Provisional / uncurated</strong><p>This browse data is still being reviewed and may contain duplicates, gaps and inconsistent labels.</p></aside>';
-export function shell(config: SiteConfig, urls: Routes, title: string, route: string, body: string): string {
+export function shell(config: SiteConfig, urls: Routes, title: string, route: string, body: string, noindex = false): string {
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+${noindex ? '<meta name="robots" content="noindex">' : ''}
 <title>${e(title)} · Open Sauce Food</title><link rel="canonical" href="${e(urls.canonical(route))}">
 <script src="${urls.asset('theme-init.js')}"></script><link rel="stylesheet" href="${urls.asset('style.css')}">
 <script src="${urls.asset('dark-mode.js')}" defer></script><script src="${urls.asset('enhance.js')}" defer></script></head>
