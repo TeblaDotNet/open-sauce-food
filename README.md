@@ -84,7 +84,8 @@ Where an imported recipe has an upstream source, **Original recipe source** pres
 
 For example, the fragment above can be rendered into something more like ordinary instructions:
 
-> Combine the flour and egg yolk to make the dough. Mix the dough in the mixing bowl, then rest it for 20 minutes.
+> Combine the flour and egg yolk to make the dough.
+> Mix the dough in the mixing bowl, then rest it for 20 minutes.
 
 The original spelling and structure of Sauce Code are preserved; rendering does not rewrite the recipe. Natural language is also allowed where forcing more structure would make the recipe worse rather than better.
 
