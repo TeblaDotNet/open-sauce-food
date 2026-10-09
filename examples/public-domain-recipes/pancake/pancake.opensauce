@@ -19,23 +19,31 @@ image: pancake.webp
 
 ::ingredients
 
-(wheat flour or 100g glutenfree flour) 200g
+(flour choice) = (wheat flour) 200g -OR- (glutenfree flour) 100g
 (milk) 200 ml
 (egg) 2
 (sugar) 2 tsp
 (baking soda) 1 tsp
 (salt) a little bit
+(cooking fat) = (butter) a bit -OR- (oil) a bit
 
 ::equipment
 
 (bowl)
+(pan)
+(ladle)
 
 ::instructions
 
-<mix, all ingredients in a bowl>
-<let, the dough rest for ~15 mins>
-<heat, a pan with a bit butter or oil>
-For each pancake spread a ladle of dough in the pan and bake them at lower medium temperature until they are brown on both sides.
+{dough} = (flour choice) + (milk) + (egg) + (sugar) + (baking soda) + (salt)
+    <mix, in (bowl)>
+    <rest, ~15m>
+(pan) <heat, with (cooking fat)>
+Repeat [
+    {dough} a ladle <spread, in (pan)>
+        <bake, lower medium temperature> ?= brown on both sides
+]
+until all pancakes are cooked
 
 ::notes
 

@@ -24,12 +24,16 @@ tags: basic, spread, quick, russian, sauce
 
 ::equipment
 
-(bowl)
+(mixing vessel) = (bowl) -OR- (cup)
 
 ::instructions
 
-<put, ingredients into bowl or cup>
-<mix, together thoroughly>
+{sauce} = (ketchup) + (mayonnaise) + (horseradish) + (worchestershire sauce) + (paprika) + (dijon mustard) + (onion powder)
+    <put, in (mixing vessel)>
+Optional [
+    {sauce} + (pickle relish)
+]
+{sauce} <mix, thoroughly>
 
 ::story
 

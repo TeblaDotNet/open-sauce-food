@@ -22,26 +22,40 @@ serves: 4
 (mushrooms, finely sliced) 250g
 (onion) 1
 (flour) 1 tbsp
-(white whine) 200ml
+(white wine) 200ml
 (cream) 200ml
 (parsley, chopped) 1 tbsp
+(butter)
+
+::equipment
+
+(pan)
 
 ::instructions
 
-<fry, the meat in butter at high heat until it starts loosing liquid>
-<take, the meat out of the pan and set aside>
-(onion) <saute>
-<add, the mushrooms, saute, then add a tbsp of flour and mix well. The flour will make the sauce thicker, so use carfully>
-<add, the white wine and let it boil for a few minutes>
-<add, cream, boil until the sauce is very creamy>
-<add, the meat, boil until the meat is warm>
-<add, parsley, and serve>
-<serve, with Rösti — ./roesti.md or other traditional Swiss dish>
+(beef) <fry, in (pan) + (butter), high heat> ?= starts losing liquid
+    <remove, from (pan)>
+    <set aside>
+(onion) <sauté>
+{base} = (onion) + (mushrooms)
+    <sauté>
+    + (flour)
+    <mix, well>
+The flour will make the sauce thicker, so use carefully.
+{sauce} = {base} + (white wine)
+    <boil, a few minutes>
+    + (cream)
+    <boil> ?= very creamy
+    + (beef)
+    <boil> ?= meat is warm
+    + (parsley)
+    <serve>
 
 ::notes
 
 Originally called "Züri Gschnätzlets" (Zurich chopped) from the city of Zurich in Switzerland, this is a tasty and practical recipe from simple ingredients. You can use any kind of meat really, depending on your taste. Very traditionally, finely sliced liver and kidney is also mixed in with the meat and mushrooms.
 
+Serve with Rösti — ./roesti.md — or another traditional Swiss dish.
 
 ::source
 <<<

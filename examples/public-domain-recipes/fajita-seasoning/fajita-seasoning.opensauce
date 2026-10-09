@@ -32,7 +32,12 @@ tags: basic, mexican, fasting
 
 ::instructions
 
-<mix, seasonings in a bowl. Adjust amounts depending on how much is needed>
+{seasoning} = (garlic powder) + (onion powder) + (paprika) + (smoked paprika) + (cumin) + (coriander) + (oregano) + (cayenne pepper) + (salt) + (sugar; brown) + (chili powder)
+    <mix, in (bowl)>
+
+::notes
+
+Adjust amounts depending on how much is needed.
 
 ::story
 

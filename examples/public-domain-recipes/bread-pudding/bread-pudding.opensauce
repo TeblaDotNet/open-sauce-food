@@ -15,16 +15,39 @@ tags: bread, dessert, pudding
 ::ingredients
 
 (stale bread, grated) A quarter of a pound
-(milk, boiled with two or three sticks of cinnamon, slightly broken.) A quart
+(milk) A quart
+(cinnamon, slightly broken) two or three sticks
 (egg) Eight
 (sugar) A quarter of a pound
 (lemon-peel, grated) A little
+(rosewater, optional) a table spoonful
+(butter, for dish)
+(nutmeg)
+
+::equipment
+
+(dish)
 
 ::instructions
 
-(milk) <boil, with the cinnamon, strain it, and set it away till quite cold>
-<grate, as much crumb of stale bread as will weigh a quarter of a pound. Beat the eggs, and when the milk is cold, stir them into it in turn with the bread and sugar. Add the lemon-peel, and if you choose, a table spoonful of rosewater>
-<bake, it in a buttered dish, and grate nutmeg over it when done. Do not send it to table hot. Baked puddings should never be eaten till they have become cold, or at least cool>
+{cinnamon milk} = (milk) + (cinnamon)
+    <boil>
+    <strain>
+    <set aside> ?= quite cold
+(stale bread) <grate, crumb to weigh a quarter of a pound>
+(egg) <beat>
+When the milk is cold:
+Into {cinnamon milk}, stir (egg), (stale bread) and (sugar) in turn.
+{pudding}
+    + (lemon-peel)
+Optional [
+    {pudding} + (rosewater)
+]
+(dish) <butter, with (butter)>
+{pudding} <bake, in (dish)>
+(nutmeg) <grate, over the pudding, when done>
+{pudding} <cool> ?= cold or at least cool
+Do not send it to table hot.
 
 ::source
 <<<

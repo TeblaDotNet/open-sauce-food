@@ -16,23 +16,28 @@ tags: basic, bread, quick, side
 
 ::ingredients
 
-(any kind of firm, Sourdough, Baguette, thin, sliced bread)
-(garlic-infused olive oil, Optionally substitute butter or regular olive oil)
-(garlic salt)
+(bread, firm, thinly sliced; any kind such as sourdough or baguette)
+(coating fat) = (garlic-infused olive oil) -OR- (butter) -OR- (olive oil)
+(garlic salt) to taste
 
 ::equipment
 
 (baking tray)
+(aluminium foil)
 (oven)
 
 ::instructions
 
-<preheat, oven to 180°C (350°F)>
-<place, sliced bread on a baking tray lined with aluminium foil>
-Generously coat bread slices with garlic-infused olive oil.
-<season, with garlic salt, to taste>
-<bake, for 10-15 minutes or until crunchy throughout>
-<serve, with cheese, charcuterie, pickles, dips, or to accommodate a soup>
+(oven) <preheat, 180C/350F>
+(baking tray) <line, with (aluminium foil)>
+(bread) <place, on (baking tray)>
+    <coat, generously, with (coating fat)>
+    <season, with (garlic salt), to taste>
+    <bake, 10-15m> ?= crunchy throughout
+
+::notes
+
+Serve with cheese, charcuterie, pickles, dips, or to accompany a soup.
 
 ::story
 

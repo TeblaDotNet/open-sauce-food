@@ -16,16 +16,32 @@ image: brigadeiro.webp
 ::ingredients
 
 (condensed milk) One can
-(chocolate powder or cocoa powder) Three or four spoons
+(chocolate) = (chocolate powder) Three or four spoons -OR- (cocoa powder) Three or four spoons
 (butter, actual butter; preferably unsalted; no margarine) One spoon
-(sprinkles, Optional)
+(sprinkles, optional)
+
+::equipment
+
+(pan)
+(spoon, preferably wooden for stirring)
 
 ::instructions
 
-<add, all ingredients into a pan>
-<put, it under low heat and stir it (preferably with a wooden spoon) until it stops sticking to the bottom of the pan>
-<remove, it from the pan and eat it with a spoon or roll it into small balls>
-If you chose to roll it into balls, you may also roll them around in sprinkles while still hot.
+{brigadeiro} = (condensed milk) + (chocolate) + (butter)
+    <put, in (pan)>
+    <heat, low heat>
+    <stir, with (spoon)> ?= stops sticking to the bottom of the pan
+    <remove, from (pan)>
+[
+    {brigadeiro} <eat, with (spoon)>
+]
+-OR-
+[
+    {brigadeiro} <roll, into small balls>
+    Optional [
+        {brigadeiro} <roll, in (sprinkles), while still hot>
+    ]
+]
 
 ::notes
 

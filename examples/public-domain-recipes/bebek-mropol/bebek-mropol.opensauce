@@ -36,11 +36,24 @@ serves: 4-6
 
 ::instructions
 
-<heat, up a large pot over medium-high heat, and add the duck pieces skin side first to render the fat. Flip and cook until the duck is browned on all sides>
-<add, the minced garlic, shallots, and sliced chilies to the pot, and stir-fry for a few minutes until fragrant>
-<pour, in the coconut milk, and add the lemongrass, kaffir lime leaves, bay leaves, salt, sugar, and tamarind paste. Stir well to combine>
-<bring, the mixture to a boil, then reduce the heat to low and let it simmer for about 1 hour, or until the duck is tender and the sauce has thickened>
-<serve, the Bebek Mprol hot with a side of white rice>
+(pot) <heat, medium-high heat>
+(whole duck) <put, skin side first, in (pot)>
+    <render, fat>
+    <flip>
+    <cook> ?= browned on all sides
+{duck and aromatics} = (whole duck) + (garlic) + (shallots) + (red chilies)
+    <stir-fry, a few minutes> ?= fragrant
+    + (coconut milk)
+    + (lemongrass stalks) + (kaffir lime leaves) + (bay leaves) + (salt) + (sugar) + (tamarind paste)
+    <stir, well>
+    <bring to boil>
+<reduce heat, to low>
+{bebek mprol} <simmer, ~1h> ?= duck is tender and sauce has thickened
+    <serve, hot>
+
+::notes
+
+Serve with a side of white rice.
 
 ::story
 

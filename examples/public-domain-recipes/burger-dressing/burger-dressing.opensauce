@@ -17,10 +17,11 @@ image: burger-dressing.webp
 
 ::ingredients
 
-(mayonnese or aioli — /mayonnaise-or-aioli) 3 tbsp
+(dressing base) = (mayonnaise) 3 tbsp -OR- (aioli) 3 tbsp
+# Source recipe: /mayonnaise-or-aioli
 (ketchup) 2 tbsp
 (sriracha) 1 tbsp
-(garlic, optional, if using mayonnese and not aioli) 1 clove
+(garlic, optional, only when using mayonnaise rather than aioli) 1 clove
 
 ::equipment
 
@@ -28,7 +29,12 @@ image: burger-dressing.webp
 
 ::instructions
 
-<mix, ingredients in a bowl>
+{dressing} = (dressing base) + (ketchup) + (sriracha)
+Optional [
+    # Only when using mayonnaise rather than aioli.
+    If using mayonnaise, add (garlic) to {dressing}.
+]
+{dressing} <mix, in (bowl)>
 
 ::story
 

@@ -33,9 +33,16 @@ serves: 2
 ::instructions
 
 (zucchini) <chop, into medium-sized squares>
-(zucchini) <put, into a bowl>
-    <add, olive oil; season salt; garlic powder and onion powder if using, lightly>
-    <cook, in air fryer, 8 minutes, 400 F or until crispy>
+    <put, into (bowl)>
+    + (olive oil) + (season salt)
+Use a light hand with the additions.
+Optional [
+    (zucchini) + (garlic powder)
+]
+Optional [
+    (zucchini) + (onion powder)
+]
+(zucchini) <cook, in (air fryer), 8m, 400F> ?= crispy
 
 ::story
 

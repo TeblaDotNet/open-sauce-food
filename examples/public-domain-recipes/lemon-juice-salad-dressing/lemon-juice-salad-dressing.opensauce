@@ -14,20 +14,23 @@ tags: salad, basic, fasting
 
 ::ingredients
 
-(lemon juice from half a lemon)
-(tablespoon of olive oil)
-(clove of garlic)
+(lemon: juice) from half a lemon
+(olive oil) 1 tablespoon
+(garlic, pressed or finely minced) 1 clove
+(salt) to taste
+(pepper) to taste
 
 ::equipment
 
-(bowl)
+(bowl, small)
 
 ::instructions
 
-<combine, lemon juice and oil in small bowl>
-<add, salt and pepper to taste>
-<add, the garlic, pressed or finely minced>
-<mix, well before adding to salad>
+{dressing} = (lemon: juice) + (olive oil)
+    <put, in (bowl)>
+    + (salt) + (pepper)
+    + (garlic)
+    <mix, well, before adding to salad>
 
 ::story
 

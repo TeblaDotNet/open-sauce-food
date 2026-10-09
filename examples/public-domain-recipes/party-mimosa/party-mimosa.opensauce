@@ -13,10 +13,10 @@ tags: drink, sweet, breakfast
 
 ::ingredients
 
-(apricot-mango nectar) 1 can / 12oz
-(pineapple juice) 1 can / 12oz
-(orange juice concentrate, frozen, thawed and undiluted) 1 can / 6oz
-(champagne, cold) 1 bottle / 750ml
+(apricot-mango nectar) 1 can （12oz）
+(pineapple juice) 1 can （12oz）
+(orange juice concentrate, frozen, thawed and undiluted) 1 can （6oz）
+(champagne, cold) 1 bottle （750ml）
 (water, cold) 3/4 cup
 
 ::equipment
@@ -25,8 +25,9 @@ tags: drink, sweet, breakfast
 
 ::instructions
 
-(apricot-mango nectar) + (pineapple juice) + (water) + (orange juice concentrate) <stir, large pitcher, until combined>
-    + (champagne) <pour, just before serving>
+{mimosa base} = (apricot-mango nectar) + (pineapple juice) + (water) + (orange juice concentrate)
+    <stir, in (pitcher)> ?= combined
+(champagne) <pour, into (pitcher), just before serving>
 
 ::source
 <<<

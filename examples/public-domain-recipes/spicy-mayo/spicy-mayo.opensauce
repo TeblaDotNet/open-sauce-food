@@ -15,9 +15,9 @@ tags: basic, sauce, japanese
 
 ::ingredients
 
-(chili sauce, e.g Sriracha)
-(mayonnaise)
-(sesame oil)
+(chili sauce, e.g. Sriracha) 1 part
+(mayonnaise) 2 parts
+(sesame oil) 1 tbsp for every cup of mayonnaise used
 
 ::equipment
 
@@ -25,9 +25,11 @@ tags: basic, sauce, japanese
 
 ::instructions
 
-<add, 2 parts mayonnaise to 1 part chili sauce in a bowl>
-<add, 1 tbsp of sesame oil for every cup of mayonnaise you use>
-<mix, all of the ingredients together, and taste test it for more chili sauce or mayonnaise>
+{sauce} = (mayonnaise) + (chili sauce)
+    <put, in (bowl)>
+    + (sesame oil)
+    <mix>
+    <taste, to decide whether more chili sauce or mayonnaise is wanted>
 
 ::notes
 

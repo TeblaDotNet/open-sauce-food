@@ -21,21 +21,28 @@ serves: 4
 (greek yogurt) 500 gm
 (red onion) One
 (cucumber) 50 gm
-(sprigs of mint)
-(dash of honey)
-(chilli powder, spicy option) Hint -OR- (sugar, sweet option) Hint
+(mint) sprigs; additional for garnish as required
+(honey) a dash
+(flavour choice) = (chilli powder, spicy option) a hint -OR- (sugar, sweet option) a hint
+(salt) 1 tsp
 
 ::equipment
 
-(bowl)
+(bowl, serving)
 
 ::instructions
 
-<chop, the onion into tiny cubes (0.5-1cm or 3/8 inches sized cubes)>
-(cucumber) <slice, into tiny strips (Julienne). Hand crush the mint>
-Prep the serving bowl with yogurt and add the onions and cucumber.
-<add, the mint, honey, 1 tsp of salt and the sugar/chilli powder (Depending on the sweet/spicy choice)>
-<mix, well and serve. Garnish with additional mint as required>
+(red onion) <chop, into tiny cubes, 0.5-1cm or 3/8 inches>
+(cucumber) <slice, into tiny julienne strips>
+(mint) <crush, by hand>
+(greek yogurt) <put, in (bowl)>
+{raitha} = (greek yogurt) + (red onion) + (cucumber)
+    + (mint) + (honey) + (salt) + (flavour choice)
+    <mix, well>
+    <serve>
+Optional [
+    {raitha} <garnish, with (mint), additional as required>
+]
 
 ::story
 

@@ -22,18 +22,21 @@ serves: 6
 (ham, diced) 1/2 lb
 (onion, chopped) 1
 (bay leaf) 1
-(ribs celery, chopped) 2
+(celery, chopped) 2 ribs
 (garlic, minced) 1 clove
+(water) 2 quarts
 
 ::equipment
 
-(pot)
+(crock pot)
 
 ::instructions
 
-<combine, all ingredients with 2 quarts water in the Crock Pot>
-<cook, on low, covered, 8 to 10 hours>
-Adjust seasonings and serve.
+{soup} = (lentils) + (ham) + (onion) + (bay leaf) + (celery) + (garlic) + (water)
+    <put, in (crock pot)>
+    <cook, low, covered, 8-10h>
+Adjust the seasoning of {soup}.
+{soup} <serve>
 
 ::story
 

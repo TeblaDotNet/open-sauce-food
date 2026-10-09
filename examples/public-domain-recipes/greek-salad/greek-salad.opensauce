@@ -18,32 +18,37 @@ serves: 4-6
 
 ::ingredients
 
-(assorted lettuce, chopped or torn) 2 cup
-(whole tomatoes, wedged or sliced) 4
-(whole cucumber, seeded and sliced) 1
+(lettuce, assorted, chopped or torn) 2 cup
+(tomato, whole, wedged or sliced) 4
+(cucumber, whole, seeded and sliced) 1
 (bell pepper, seeded and sliced) 1
 (onion, small, sliced) 1
-(pitted black olives, preferably brine-cured, coarsely chopped) 1/2 cup
+(black olives, pitted, preferably brine-cured, coarsely chopped) 1/2 cup
 (feta cheese, crumbled) 3/5 cup
 (olive oil) 6 Tbsp
 (red wine vinegar) 1 tsp
-(garlic, Fresh, chopped) 1/2 tsp
+(garlic, fresh, chopped) 1/2 tsp
 (oregano) 1/2 tsp
 (dill weed) 1/2 tsp
 (parsley, chopped) 1/4 cup
-(salt and freshly ground black pepper)
+(salt)
+(black pepper, freshly ground)
 (lemon: juice, fresh) 2 Tbsp
 
 ::equipment
 
-(bowl)
+(bowl, for salad)
+(bowl, small, for dressing)
 
 ::instructions
 
-<combine, the lettuce, tomatoes, cucumber, onion, bell pepper, olives in a bowl>
-In the small bowl, whisk together oil, vinegar, herbs, spices, and the lemon juice.
-Drizzle dressing over the salad.
-<sprinkle, cheese over and serve>
+{salad} = (lettuce) + (tomato) + (cucumber) + (onion) + (bell pepper) + (black olives)
+    <put, in (bowl, for salad)>
+{dressing} = (olive oil) + (red wine vinegar) + (garlic) + (oregano) + (dill weed) + (parsley) + (salt) + (black pepper) + (lemon: juice)
+    <whisk, in (bowl, for dressing)>
+Drizzle {dressing} over {salad}.
+Sprinkle (feta cheese) over {salad}.
+{salad} <serve>
 
 ::source
 <<<

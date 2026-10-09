@@ -18,23 +18,42 @@ image: tuna-salad.webp
 
 ::ingredients
 
-(can white tuna, drained) 1 （7 oz）
+(white tuna, drained) 1 can （7 oz）
 (mayonnaise) 6 tablespoons
 (sweet pickle relish) 1 tablespoons
-(garlic powder, optional) A pinch
-(white vinegar or lemon juice, optional) 2 tablespoons
+(garlic powder, optional) a pinch
+(acid, optional) = (white vinegar) 2 tablespoons -OR- (lemon: juice) 2 tablespoons
 (cheese, shredded, optional) 1 cup
-(hard-boiled egg, chopped, optional) 1
+(egg, hard-boiled, chopped, optional) 1
+(salt, optional)
+(pepper, optional)
 
 ::equipment
 
-(bowl)
+(bowl, medium)
 
 ::instructions
 
-In a medium bowl, stir together tuna, mayonnaise, and relish.
-<add, optional ingredients like vinegar, cheese or hard-boiled eggs if wanted>
-<season, with garlic powder, salt, and pepper if wanted>
+{salad} = (white tuna) + (mayonnaise) + (sweet pickle relish)
+    <stir, in (bowl)>
+Optional [
+    {salad} + (acid)
+]
+Optional [
+    {salad} + (cheese)
+]
+Optional [
+    {salad} + (egg)
+]
+Optional [
+    {salad} <season, with (garlic powder)>
+]
+Optional [
+    {salad} <season, with (salt)>
+]
+Optional [
+    {salad} <season, with (pepper)>
+]
 
 ::source
 <<<

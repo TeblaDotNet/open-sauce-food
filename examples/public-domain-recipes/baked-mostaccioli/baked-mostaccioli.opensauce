@@ -19,20 +19,31 @@ image: baked-mostaccioli.webp
 
 ::ingredients
 
-(or 1 jar of fradiavolo sauce) 24 oz
-(box mostaccioli rigati or penne rigate) 1
+(fradiavolo sauce) 24 oz or 1 jar
+(pasta) = (mostaccioli rigati) 1 box -OR- (penne rigate) 1 box
 (mozzarella cheese, shredded) ~8 oz
 
 ::equipment
 
 (pot)
+(baking dish)
 
 ::instructions
 
-<bring, a pot to a boil and cook pasta — /pasta for 6 minutes (very al dente)>
-<put, pasta and sauce in baking dish(es) and mix well>
-<cover, pasta and sauce generously with grated cheese until you can't see the pasta>
-<bake, at 350°F / 175°C for 20 minutes, or 375°F / 190°C for 15 minutes on convection bake>
+Bring a (pot) to a boil.
+(pasta) <cook, in (pot), 6m, very al dente>
+# Source pasta-cooking reference: /pasta
+In the (baking dish) or dishes:
+{pasta and sauce} = (pasta) + (fradiavolo sauce)
+    <mix, well>
+    <cover, generously with (mozzarella cheese)> ?= you cannot see the pasta
+[
+    {pasta and sauce} <bake, 350°F / 175°C, 20m>
+]
+-OR-
+[
+    {pasta and sauce} <convection bake, 375°F / 190°C, 15m>
+]
 
 ::notes
 

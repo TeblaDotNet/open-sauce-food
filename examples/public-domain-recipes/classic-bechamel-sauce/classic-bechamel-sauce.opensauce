@@ -27,18 +27,25 @@ tags: basic, sauce, french, italian
 
 ::instructions
 
-(butter) <melt, pot, slowly, medium-low heat>
+(butter) <put, in (pot)>
+    <melt, slowly, medium-low heat>
 {roux} = (butter) + (flour)
-{roux} <stir, medium-low, until lightly golden brown and nutty smelling>
+    <stir, medium-low heat> ?= lightly golden brown and nutty smelling
 Repeat [
-    {roux} + (milk) about a glass <stir, constantly, until combined>
+    {roux}
+        + (milk) about a glass
+        <stir, constantly> ?= combined
 ]
 until thick sauce forms and new milk combines easily
-{sauce} + (milk) rest of <add>
-{sauce} <stir, low heat, including pot corners to prevent burning, until desired thickness>
+Never stop stirring during the gradual milk additions; skipping this stage leaves lumps of roux that are hard to remove.
+{sauce}
+    + (milk) rest of
+<reduce heat, to low>
+{sauce} <stir, including the pot corners to prevent burning> ?= desired thickness
     <taste>
-    + (salt) + (pepper) <season, to liking>
-    + (nutmeg) <add, preferably freshly grated>
+    + (salt) + (pepper)
+    <season, to liking>
+    + (nutmeg, preferably freshly grated)
 
 ::story
 

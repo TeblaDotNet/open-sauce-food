@@ -23,22 +23,35 @@ serves: 4 people
 (baking powder) 2 teaspoon
 (milk, 2.5 dl) 1 cup
 (egg) 1
-(very ripe bananas) 2
+(banana, very ripe) 2
+(salt) a little bit
+(butter) some
 
 ::equipment
 
 (frying pan)
 (oven)
 (bowl)
+(plate)
 
 ::instructions
 
-<combine, flour, sugar, baking powder and a little bit of salt in a large mixing bowl>
-<whisk, milk and egg into the flour mixture until no clumps remain in the resulting batter>
-<add, mashed bananas and mix well>
-<add, some butter to a medium warm frying pan>
-Make smaller or bigger pancakes, up to you. Wait until tiny air bubbles form on top （2 to 5 minutes）, turn and continue frying until the bottom is browned. Repeat.
-Either eat the pancakes as they get ready or put a plate in a preheated oven （low degree） to keep the ready pancakes warm.
+In a large mixing (bowl):
+{flour mixture} = (flour) + (sugar) + (baking powder) + (salt)
+{batter} = {flour mixture} + (milk) + (egg)
+    <whisk> ?= no clumps remain
+(banana) <mash>
+{batter}
+    + (banana)
+    <mix, well>
+(butter) <put, into (frying pan), medium warm>
+Make smaller or bigger pancakes, up to you.
+Repeat [
+    {pancakes} <fry, 2-5m> ?= tiny air bubbles form on top
+        <turn>
+        <fry> ?= bottom is browned
+]
+Either eat the pancakes as they get ready, or put a (plate) in a preheated (oven) at a low degree to keep the ready pancakes warm.
 
 ::source
 <<<

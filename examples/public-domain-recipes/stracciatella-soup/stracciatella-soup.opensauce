@@ -25,15 +25,22 @@ image: stracciatella-soup.webp
 ::equipment
 
 (bowl)
+(whip)
+(stovetop)
 
 ::instructions
 
-(egg) <beat, in a bowl>
-(broth) <heat, to boiling>
-(egg) <pour, in the broth without removing from the stovetop>
-<stir, with a whip until eggs coagulate>
-<serve, broth and eggs together>
-If you want, you may season the dish with some olive oil.
+(egg) <beat, in (bowl)>
+(broth) <heat> ?= boiling
+(egg) <pour, into (broth), while still on (stovetop)>
+{soup} <stir, with (whip)> ?= eggs coagulate
+    <serve, broth and eggs together>
+Optional [
+    {soup} <season, with (olive oil), some>
+]
+
+::notes
+
 This dish is best accompanied with toasted bread.
 
 ::source

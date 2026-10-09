@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { restoreGeneratedReconversion } from './helpers/generated-reconversion.ts';
 import test from 'node:test';
 import { readFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -28,10 +29,10 @@ test('upstream inventory accounts for every document, including holds and near d
   assert.match(readFileSync('source/public-domain-recipes/upstream-2026-10-08/LICENSE.md', 'utf8'), /public domain/i);
 });
 
-test('the retained 117 promoted recipes remain unchanged', () => {
+test('the retained 117 promoted recipes restore their original imported hashes', () => {
   assert.equal(manifest.baseline.length, 117);
   for (const item of manifest.baseline) {
-    const text = readFileSync(item.path, 'utf8');
+    const text = restoreGeneratedReconversion(readFileSync(item.path, 'utf8'), item.path);
     assert.ok(hash(text) === item.sha256 || hash(text.replaceAll('\r\n', '\n')) === item.lfSha256, item.path);
   }
 });

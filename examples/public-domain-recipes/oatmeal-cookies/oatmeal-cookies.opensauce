@@ -36,15 +36,16 @@ serves: 24
 ::instructions
 
 {wet} = (butter) + (egg) + (vanilla) + (sugar)
-{wet} <whisk>
+    <whisk>
 {dough} = {wet} + (flour) + (cinnamon) + (salt) + (oats)
 Optional [
     {dough} + (add-ins)
 ]
 {dough} <mix>
-    <shape, ~24 golf-sized balls>
-    <place, trays with parchment paper>
-    <cook, ~10m or until edges begin to brown>
+(baking tray) <line, with (parchment paper)>
+{dough} <shape, ~24 golf-sized balls>
+    <place, on (baking tray)>
+{cookies} <cook, ~10m> ?= edges begin to brown
 
 ::source
 <<<

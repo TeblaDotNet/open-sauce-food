@@ -24,12 +24,25 @@ image: assam-tea.webp
 (sugar, Optional)
 (milk, Optional)
 
+::equipment
+
+(pan, small)
+(tea filter)
+(cup)
+
 ::instructions
 
-<add, 150 ml of water to a small pan and bring it to boil>
-Then add 2 teaspoons of tea into it and reduce the heat to low.
-<strain, the tea using a tea filter into a cup>
-<add, sugar and milk to taste>
+(water) <pour, into (pan)>
+    <bring to boil>
+{tea} = (water) + (assam tea)
+<reduce heat, to low>
+{tea} <strain, using (tea filter), into (cup)>
+Optional [
+    {tea} + (sugar, to taste)
+]
+Optional [
+    {tea} + (milk, to taste)
+]
 
 ::story
 

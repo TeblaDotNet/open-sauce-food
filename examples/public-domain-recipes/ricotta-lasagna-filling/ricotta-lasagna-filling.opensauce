@@ -20,14 +20,22 @@ serves: 5-6
 
 (ricotta cheese)
 (egg, large) One
-(parmesan cheese)
-(oregano, Optional)
+(parmesan cheese, finely grated) a handful
+(oregano, optional)
+(salt) to taste
+(pepper) to taste
 
 ::instructions
 
-<mix, the ricotta cheese together with a handful of finely grated parmesan>
-<add, the oregano and the egg and mix>
-<add, salt and pepper to taste>
+{filling} = (ricotta cheese) + (parmesan cheese)
+    <mix>
+Optional [
+    {filling} + (oregano)
+]
+{filling}
+    + (egg)
+    <mix>
+    + (salt) + (pepper)
 
 ::story
 

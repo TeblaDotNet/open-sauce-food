@@ -19,15 +19,24 @@ image: tanzania-tea-with-milk.webp
 
 ::ingredients
 
-(black ceylon tea , preferably, I have some from Dar es Salaam, but when I tried researching, I couldn't find out what kind of tea it is. No, they didn't list the ingredients on the box lol, you want a dark, herbal flavor from your tea)
-(milk/sweet cream)
-(sweetener, Sugar, Syrup, Monk Fruit extract, etc., optional, but recommended)
+(black ceylon tea, preferably a dark herbal flavour)
+# I have some from Dar es Salaam, but when I tried researching, I couldn't find out what kind of tea it is. No, they didn't list the ingredients on the box lol.
+(milk choice) = (milk) -OR- (sweet cream)
+(sweetener, optional, recommended; sugar, syrup, monk fruit extract, etc.) to taste
+(water, hot) some
 
 ::instructions
 
-<bring, some hot water to boil and seep the tea. Depending on how strong you like it, you can do this for up to 10 min at most. Be warned; typically black teas are very strong>
-When done seeping, add in the milk （or cream）.
-Sweeten to taste. Remember you can always add more if there isn't enough.
+(water) <bring to boil>
+{tea} = (water) + (black ceylon tea)
+    <steep, up to 10m at most, depending on desired strength>
+Be warned; typically black teas are very strong.
+{tea}
+    + (milk choice)
+Optional [
+    {tea} + (sweetener)
+]
+Remember you can always add more sweetener if there isn't enough.
 
 ::story
 

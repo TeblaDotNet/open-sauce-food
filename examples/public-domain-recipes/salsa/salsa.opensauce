@@ -18,14 +18,14 @@ serves: 14
 
 ::ingredients
 
-(tomatoes) 1 1/4 lbs （600 grams）
-(canned tomatoes) 1 14.5 oz （400 grams）
+(tomatoes, first listed) 1 1/4 lbs / 600 grams
+(tomatoes, canned) 1 14.5 oz （400 grams）
 (green onion) 1
 (red onion) 1
 (jalapeño pepper) 1
-(handfull fresh cilantro) 1
+(cilantro, fresh) 1 handful
 (garlic) 1 clove
-(lime, optional, juice squeezed) 1/2
+(lime, juice squeezed, optional) 1/2
 (chili pepper, optional) 1
 (cumin, ground, optional) 1/4 tsp
 
@@ -35,8 +35,19 @@ serves: 14
 
 ::instructions
 
-<add, all ingredients to a food processor and burst shortly for desired degree of chunkyness>
-<refrigerate, until consumption. (max 1 week)>
+{salsa} = (tomatoes, first listed) + (tomatoes, canned) + (green onion) + (red onion) + (jalapeño pepper) + (cilantro) + (garlic)
+    <put, in (food processor)>
+Optional [
+    {salsa} + (lime)
+]
+Optional [
+    {salsa} + (chili pepper)
+]
+Optional [
+    {salsa} + (cumin)
+]
+{salsa} <pulse, briefly, in (food processor)> ?= desired degree of chunkiness
+    <refrigerate, until consumption, maximum 1 week>
 
 ::source
 <<<

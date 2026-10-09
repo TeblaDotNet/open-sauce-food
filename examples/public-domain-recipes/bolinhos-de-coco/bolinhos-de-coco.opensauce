@@ -24,15 +24,20 @@ tags: portuguese, quick, sweet, dessert, cheesefare
 
 ::equipment
 
-(bowl)
+(bowl, medium)
+(baking vessel) = (cookie sheet) -OR- (cupcake pan)
 
 ::instructions
 
-<mix, the non-optional ingredients in a medium bowl>
-<scoop, tablespoons of the batter into a cookie sheet or cupcake pan>
-<cook, for around 10 minutes or until slightly brown on top>
-<top, with powdered sugar if desired>
-<let, cool and enjoy>
+{batter} = (coconut) + (sugar) + (egg: yolk) + (whole egg)
+    <mix, in (bowl)>
+    <scoop, tablespoons into (baking vessel)>
+{cupcakes} <cook, ~10m> ?= slightly brown on top
+Optional [
+    {cupcakes} <top, with (powdered sugar)>
+]
+{cupcakes} <cool>
+# Enjoy!
 
 ::story
 

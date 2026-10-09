@@ -23,20 +23,32 @@ image: potato-puree.webp
 (milk) 200 ml
 (butter) 3 teaspoons
 (cheese, grated, optional)
+(water) enough to cover potatoes
 
 ::equipment
 
 (pot)
+(fork)
 
 ::instructions
 
-<peel, the potatoes and cut them to small pieces. The smaller, the faster to cook>
-<put, them in a pot and cover with water>
-<bring, to boil and cook until potatoes are soft>
-<drain, and mash with a fork>
-<warm, up milk, but don't let it boil>
-Still on the fire, add butter and mashed potatoes, and optionally grated cheese, and stir until uniform.
-<keep, stirring on the fire to thicken as you like>
+(potatoes) <peel>
+    <cut, into small pieces>
+# The smaller, the faster to cook.
+(potatoes) <put, in (pot)>
+    <cover, with (water)>
+    <bring to boil>
+    <cook> ?= soft
+    <drain>
+    <mash, with (fork)>
+(milk) <warm, without boiling>
+Still on the fire:
+{puree} = (milk) + (butter) + (potatoes)
+Optional [
+    {puree} + (cheese)
+]
+{puree} <stir> ?= uniform
+    <stir, on the fire> ?= as thick as you like
 
 ::story
 
