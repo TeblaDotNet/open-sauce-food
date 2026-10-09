@@ -1,5 +1,6 @@
 ::recipe
 conversion stage: initial
+category: preserve/ferment
 
 name: Kvass
 source: https://publicdomainrecipes.com/kvass/

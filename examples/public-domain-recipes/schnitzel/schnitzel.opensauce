@@ -1,5 +1,6 @@
 ::recipe
 conversion stage: initial
+category: main
 
 name: Schnitzel
 source: https://publicdomainrecipes.com/schnitzel/

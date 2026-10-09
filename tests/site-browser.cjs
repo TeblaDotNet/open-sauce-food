@@ -106,10 +106,28 @@ const { chromium } = require('playwright');
     assert.equal(await page.locator('[data-recipe]').count(), manifest.tags.find(t => t.slug === 'soup').count);
     await page.screenshot({ path: join(evidence, 'tag-sauce.png'), fullPage: true });
     await page.locator('[data-recipe="stracciatella-soup"] a').click(); assert.equal(page.url(), recipeUrl);
-    // No currently published recipe has category metadata; do not expose hidden-only facets.
-    assert.equal(manifest.categories.length, 0);
+    assert.equal(manifest.categories.length, 12);
     await page.goto(base + 'recipes/');
-    assert.equal(await page.locator('#categories a').count(), 0);
+    assert.equal(await page.locator('#categories a').count(), 12);
+    await page.locator('#categories a[href="/opensaucefood/recipes/category/main/"]').click();
+    const mainCategory = manifest.categories.find(c => c.value === 'main');
+    assert.deepEqual((await page.locator('[data-recipe]').evaluateAll(nodes => nodes.map(n => n.dataset.recipe))).sort(), [...mainCategory.recipes].sort());
+    await page.goto(base + 'recipes/category/soup-stew/');
+    assert.equal(await page.locator('[data-recipe]').count(), manifest.categories.find(c => c.value === 'soup/stew').count);
+    await page.locator('[data-recipe="stracciatella-soup"] a').click();
+    assert.equal(page.url(), recipeUrl);
+    for (const slug of ['sauce-seasoning-stock', 'miscellaneous']) {
+      await page.goto(base + 'recipes/');
+      await page.locator('#categories a[href="/opensaucefood/recipes/category/' + slug + '/"]').click();
+      assert.equal(await page.locator('[data-recipe]').count(), manifest.categories.find(c => c.slug === slug).count);
+      await plain.goto(base + 'recipes/category/' + slug + '/');
+      assert.equal(await plain.locator('[data-recipe]').count(), manifest.categories.find(c => c.slug === slug).count);
+    }
+    assert.equal((await fetch(base + 'recipes/category/sauce/')).status, 404);
+    await plain.goto(base + 'recipes/category/bread-baking/');
+    assert.equal(await plain.locator('[data-recipe]').count(), manifest.categories.find(c => c.value === 'bread/baking').count);
+    await page.goto(base + 'recipe/basic-waffles/');
+    assert.ok((await page.locator('[data-view-panel="code"] .os-dietary-notice').textContent()).includes('not a guarantee of suitability'));
     for (const [family, count] of [['ingredients',386],['processes',201],['equipment',119]]) {
       await page.goto(base + family + '/'); assert.equal(await page.locator('[data-reference]').count(), count);
     }
