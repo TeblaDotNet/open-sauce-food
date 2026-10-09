@@ -1,0 +1,18 @@
+id: blanch
+kind: process
+canonical_name: blanch
+names:
+  en: blanch
+status: canonical-seed
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: blanch
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/lobster-bisque/lobster-bisque.opensauce

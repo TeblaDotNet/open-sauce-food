@@ -13,3 +13,7 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+
+aliases:
+- name: hard boil
+  type: lexical

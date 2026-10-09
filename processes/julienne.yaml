@@ -1,0 +1,18 @@
+id: julienne
+kind: process
+canonical_name: julienne
+names:
+  en: julienne
+status: canonical-seed
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  current_recipe_count: 1
+  current_observation_count: 1
+  legacy_observation_count: 0
+  observed_terms:
+  - term: julienne
+    count: 1
+  seen_in:
+  - examples/public-domain-recipes/guobaorou/guobaorou.opensauce

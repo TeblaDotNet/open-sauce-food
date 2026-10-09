@@ -1,5 +1,6 @@
 id: cover
 kind: process
+reference: false
 canonical_name: cover
 names:
   en: cover
