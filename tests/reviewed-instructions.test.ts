@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { parseRecipe } from '../src/parser/index.ts';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
 import { auditConversion } from '../src/conversion-quality.ts';
-import { reviewedInstructionSlugs, restoreReviewedInstructions, instructionSlices } from './helpers/reviewed-instructions.ts';
+import { reviewedInstructionSlugs, restoreReviewedInstructions, restoreReviewedDeclarations, instructionSlices } from './helpers/reviewed-instructions.ts';
 const vocabulary = await loadVocabulary('.');
 for (const slug of reviewedInstructionSlugs) test('reviewed instructions: ' + slug + ' preserves historical bytes and improves structure', () => {
   const source = readFileSync('examples/public-domain-recipes/' + slug + '/' + slug + '.opensauce', 'utf8');
@@ -14,7 +14,7 @@ for (const slug of reviewedInstructionSlugs) test('reviewed instructions: ' + sl
   assert.equal(after.diagnostics.filter(d => /UNRESOLVED|AMBIGUOUS|MISSING_SUBJECT/.test(d.code)).length, 0);
   assert.deepEqual(after.sections.filter(s => s.originalSource).map(s => s.originalSource!.text), before.sections.filter(s => s.originalSource).map(s => s.originalSource!.text));
   const current = instructionSlices(source), historical = instructionSlices(baseline);
-  assert.equal(current.prefix, historical.prefix); assert.equal(current.suffix, historical.suffix);
+  assert.equal(instructionSlices(restoreReviewedDeclarations(source, slug)).prefix, historical.prefix); assert.equal(current.suffix, historical.suffix);
   assert.ok(auditConversion(after, vocabulary).score > auditConversion(before, vocabulary).score);
   assert.throws(() => restoreReviewedInstructions(current.prefix + 'Invented action\n' + current.instructions + current.suffix, slug), /unreviewed instruction/);
   assert.throws(() => restoreReviewedInstructions(source.replace('name:', 'name: Changed'), slug), /non-instruction bytes/);

@@ -35,6 +35,23 @@
       "historicalSourceSha256": "6af303fb8764387e4c0c14f2164f08f876f15ca5d89bd8772733fc1692de0aa3",
       "acceptedInstructionsSha256": "d34218d10b2b033aea0bdfc1466af8d5164f63e57b41cb6f62d5c5a5f0a3b979",
       "nonInstructionsSha256": "9c7cdd51f43ba9d3faf5db38ee17ec2bed6edcd472c79ad2ca53f808b0eec1a4"
+    },
+    "ravioli": {
+      "historicalCommit": "990b1871406cc9876da23744295e261d8715bcd9",
+      "historicalInstructions": "\nThe basic rule of thumb I use for pasta is 100g, 1 egg per person\nFor this recipe you can go two ways, the old school \"well\" method or a kitchen aid mixer （skip to step 7）\nFor the well method, pile the flour onto the counter and with your hand carve a hole or a well in the center\n<crack, the eggs into the center of the well, and drizzle a bit of olive oil into the center>\nWith a fork, begin slowly breaking up, mixing, and incorporating the egg into the flour until there is no longer any loose egg that can escape the outer well border\nAt this point use your hands to bring the sandy mixture together and knead the dough for about 5-10 minutes or until the dough is smooth\nFor the stand mixer method just throw all the ingredients into the mixer with a dough hook and set it to level 4 for about 3-5 minutes and it will be done\nYou might need to scrape the sides down and maybe hand knead the dough a bit longer after it's done to make it into a nice smooth ball\n<cover, the dough with plastic wrap and let it rest in the fridge a bit so it's easier to roll out (15-30 mins)>\nWhile the dough is resting, make the filling by first mixing the ricotta and egg into a bowl\nZest and juice a lemon peel into the bowl\nOptionally add seafood ingredients at this point\n<grate, the Pecorino into the bowl, add salt and pepper to taste, and mix to distribute the ingredients evenly>\n<take, out the dough and cut it into 4 pieces, keeping the ones not currently being worked on covered so they don't dry out>\n<roll, the dough out with a pasta machine down to the point where you can just barely see your hand through it (setting 2-3 out of 7) or roll it out with a rolling pin into a long sheet, maybe like 16 x 8 inches or so>\nAt this point you can either cut the sheet in half and make two sheets, a top and bottom, or one sheet, where you will fold the dough over and use the folded seam as one side of the ravioli\nUsing a teaspoon, evenly space out the ricotta filling onto the sheets, leaving a few inches on each side for the seams\nAs stated in step 16, either take the 2nd sheet and place it over top or fold over the dough and press down firmly, forcing out any air and making sure the two pieces of dough stick\nYou may need to brush some water onto the dough if it is too heavily floured and not sticking\nUsing a fancy pasta cutter, a knife, or even a pizza cutter, cut evenly between the seams of the raviolis to separate them\nIf you used a pasta cutter, you are now done, store the raviolis on a floured wax paper sheet or freeze them for later\nIf you don't have a pasta cutter, use a fork to press down the dough around the edges of the cut raviolis to ensure they are firmly closed and no leaks or air bubbles are visible, or else they will explode when cooked\nTo cook, throw them in salted boiling water and they will let you know when they're done when they float to the top （1-2 minutes）\n<serve, the seafood version with a simple fresh red sauce and basil, or spice it up a bit and go with a base of red sauce with some added heavy cream, and a pinch of red pepper flakes to make a pink sauce for the seafood version>\n\n",
+      "historicalSourceSha256": "45b4e2c1bd44186bbf9b40bd6b38adfdddcff176af36f2a4acbfe1c680be82f0",
+      "acceptedInstructionsSha256": "293369bc6dd9164e8ef4a28ff3a5227a16830a400332a4613626c08da5eb70ef",
+      "nonInstructionsSha256": "9e067e41cf3c87813b5e939e8bf8e5d1d2baee17398c8ea4c966f621eb1929fd",
+      "reviewedDeclarations": {
+        "ingredients": {
+          "historicalBody": "\n(egg, for Dough) 4\n(00 flour, for Dough) 400 g\n(drizzle of olive oil, for Dough)\n(lemon, for Cheese Filling) 1\n(pecorino romano cheese, grated, for Cheese Filling) 50 g\n(ricotta, for Cheese Filling) 250 g\n(egg, for Cheese Filling) 1\n(leftover lobster legs, Chopped, optional, lobster tail, or minced crab, for Seafood Fillings)\n\n",
+          "acceptedSha256": "baf6e14030bc5d3425c6acfd67ff27e9bbf85e80075a78ace8db9f67ec7fe06b"
+        },
+        "equipment": {
+          "historicalBody": "\n(stand mixer)\n(rolling pin)\n(bowl)\n\n",
+          "acceptedSha256": "75aef7e6282ace413bdb5933299f9cf5f30057f104b7934d6729110913d91c24"
+        }
+      }
     }
   }
 }
