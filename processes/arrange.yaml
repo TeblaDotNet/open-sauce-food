@@ -1,5 +1,6 @@
 id: arrange
 kind: process
+reference: false
 canonical_name: arrange
 names:
   en: arrange

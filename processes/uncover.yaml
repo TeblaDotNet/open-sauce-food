@@ -1,5 +1,6 @@
 id: uncover
 kind: process
+reference: false
 canonical_name: uncover
 names:
   en: uncover

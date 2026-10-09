@@ -1,5 +1,6 @@
 id: pour
 kind: process
+reference: false
 canonical_name: pour
 names:
   en: pour

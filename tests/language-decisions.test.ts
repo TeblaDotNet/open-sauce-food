@@ -136,7 +136,7 @@ test('put and unknown actions remain legal, red and unlinked; culinary technique
   }
 });
 test('reference classification is validated data and survives browser serialization', () => {
-  // Blanch is absent from the current canonical dataset, but is not demoted by the model.
+  // Reference eligibility also works for independently supplied technique vocabularies.
   const technique = new Vocabulary([{ id: 'blanch', kind: 'process', names: { en: 'blanch' } }]);
   assert.ok(createReferencePage(technique, 'process', 'blanch'));
   assert.match(renderHtml(parseRecipe(source('<blanch>'), { vocabulary: technique }), { referenceUrl }), /href="\/process\/blanch\/"/);

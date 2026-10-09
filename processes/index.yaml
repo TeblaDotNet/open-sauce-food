@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 204
+canonical_concept_count: 210
 entries:
 - id: add
   canonical_name: add
@@ -16,7 +16,7 @@ entries:
 - id: air-fry
   canonical_name: air-fry
   file: air-fry.yaml
-  aliases: 0
+  aliases: 1
 - id: arrange
   canonical_name: arrange
   file: arrange.yaml
@@ -296,7 +296,7 @@ entries:
 - id: hard-boil
   canonical_name: hard-boil
   file: hard-boil.yaml
-  aliases: 0
+  aliases: 1
 - id: heat
   canonical_name: heat
   file: heat.yaml
@@ -720,7 +720,7 @@ entries:
 - id: thaw
   canonical_name: thaw
   file: thaw.yaml
-  aliases: 0
+  aliases: 1
 - id: thicken
   canonical_name: thicken
   file: thicken.yaml
@@ -820,4 +820,28 @@ entries:
 - id: wait
   canonical_name: wait
   file: wait.yaml
+  aliases: 0
+- id: blanch
+  canonical_name: blanch
+  file: blanch.yaml
+  aliases: 0
+- id: braise
+  canonical_name: braise
+  file: braise.yaml
+  aliases: 0
+- id: julienne
+  canonical_name: julienne
+  file: julienne.yaml
+  aliases: 0
+- id: confit
+  canonical_name: confit
+  file: confit.yaml
+  aliases: 0
+- id: flambe
+  canonical_name: flambé
+  file: flambe.yaml
+  aliases: 0
+- id: render
+  canonical_name: render
+  file: render.yaml
   aliases: 0

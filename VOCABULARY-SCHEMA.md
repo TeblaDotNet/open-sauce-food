@@ -343,10 +343,21 @@ is boolean and valid only for process entries. Names, aliases, canonical IDs and
 red action syntax remain unchanged; the flag suppresses recipe hyperlinks,
 reference usage/backlinks, public Process index entries and generated pages.
 
-The focused classification is `add`, `remove` (including its existing aliases),
-and `place`. `put` has no canonical entry and remains legal and unlinked. No
-other entries are reclassified in this pass. Parser legality never depends on
-this metadata.
+Reference-page eligibility is **discovery value OR explanation value**: a cook
+might browse recipes using the technique, or need to understand the term/method.
+Use editorial judgement for edge cases. `<...>` is action/process syntax regardless
+of eligibility; unknown/local actions remain valid, red and unlinked. `<add>` is
+legal and back-compatible, though `+` is preferred for simple combining.
+
+The non-reference canonical actions are `add`, `remove`, `place`, `transfer`,
+`pour`, `reserve`, `set-aside`, `serve`, `arrange`, `cover` and `uncover`, including
+their existing aliases. `put` and `return` remain legal unregistered actions.
+Colour expresses semantic role; links/underlining express a shared reference target.
+
+`reduce` remains reference-worthy and may cover both liquid concentration and
+lowering heat/temperature. No sense inference or split occurs. `reduce-heat` stays
+separate and unchanged pending later action-only review; it is not an alias of
+`reduce`. Grill/broil stay separate; barbecue/bbq are not added or aliased.
 
 ## Ingredient states / preparations (focused proof)
 

@@ -23,13 +23,13 @@ test('complete corpus browse memberships and canonical references are generated 
   assert.equal(generated.audit.tagSlugCollisions.length, 5);
   assert.equal(generated.manifest.pages.filter(p => p.includes('/recipe/')).length, 410);
   assert.equal(generated.validation.status, 'passed');
-  assert.equal(generated.validation.pages, 1278);
-  assert.equal(generated.validation.references, 706);
+  assert.equal(generated.validation.pages, 1276);
+  assert.equal(generated.validation.references, 704);
   assert.equal(generated.validation.originalSourcePages, 391);
 });
 test('ordinary actions have no public pages, index entries or recipe links; techniques retain pages and backlinks', () => {
   const index = generated.files.get('processes/index.html')!.toString();
-  for (const id of ['add', 'remove', 'place', 'put']) {
+  for (const id of ['add', 'remove', 'place', 'put', 'transfer', 'pour', 'reserve', 'set-aside', 'serve', 'arrange', 'cover', 'uncover']) {
     assert.ok(!generated.files.has('processes/' + id + '/index.html'));
     assert.ok(!index.includes('data-reference="' + id + '"'));
     assert.ok(!generated.manifest.references.some(r => r.kind === 'process' && r.id === id));
@@ -40,7 +40,7 @@ test('ordinary actions have no public pages, index entries or recipe links; tech
     assert.ok(generated.files.has('processes/' + id + '/index.html'));
     assert.ok(index.includes('data-reference="' + id + '"'));
   }
-  assert.equal(generated.manifest.references.filter(r => r.kind === 'process').length, 201);
+  assert.equal(generated.manifest.references.filter(r => r.kind === 'process').length, 199);
   assert.equal(generated.validation.status, 'passed');
 });
 test('base path, origin and GitHub source routing can be changed together', async () => {
@@ -260,4 +260,19 @@ test('final component and residual categories use safe canonical routes without 
   assert.ok(index.includes('href="/opensaucefood/recipes/category/sauce-seasoning-stock/"'));
   assert.ok(!index.includes('href="/opensaucefood/recipes/category/sauce/"'));
   assert.ok(generated.manifest.categories.find(c => c.value === 'miscellaneous')!.recipes.includes('ricotta'));
+});
+
+
+test('new process techniques have pages and only published recipe backlinks', () => {
+  const index = generated.files.get('processes/index.html')!.toString();
+  const published = new Set(generated.manifest.recipes.filter(r => r.conversionStage === 'reworked').map(r => r.slug));
+  for (const id of ['blanch','braise','julienne','confit','flambe','render']) {
+    assert.ok(generated.files.has('processes/' + id + '/index.html'));
+    assert.ok(index.includes('data-reference="' + id + '"'));
+    const ref = generated.manifest.references.find(r => r.kind === 'process' && r.id === id)!;
+    assert.ok(ref);
+    const expected = generated.manifest.recipes.filter(r => published.has(r.slug) && r.semanticLinks.includes(routes(config).reference('process',id))).map(r => r.slug).sort();
+    assert.deepEqual([...ref.usageRecipes].sort(),expected,id);
+    assert.equal(ref.usageCount,expected.length,id);
+  }
 });

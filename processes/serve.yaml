@@ -1,5 +1,6 @@
 id: serve
 kind: process
+reference: false
 canonical_name: serve
 names:
   en: serve

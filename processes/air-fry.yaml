@@ -18,3 +18,7 @@ observed_parameters:
   count: 1
 - value: 5-6m
   count: 1
+
+aliases:
+- name: air fry
+  type: lexical

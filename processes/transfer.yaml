@@ -1,5 +1,6 @@
 id: transfer
 kind: process
+reference: false
 canonical_name: transfer
 names:
   en: transfer
