@@ -31,9 +31,13 @@ function knowledge(data: ReferenceKnowledge, options: ReferenceHtmlOptions): str
     (options.nutrition === false ? '' : section('Nutrition per 100 g', list(Object.entries(data.nutrition?.per_100g ?? {}).map(([nutrient, q]) => `${escape(nutrient)}: ${quantity(q)}`))));
 }
 function renderPart(part: ReferencePart, parents: string[], options: ReferenceHtmlOptions): string {
+  const usage = part.usage === undefined ? '' :
+    `<h4>Used in ${part.usage.length} recipe${part.usage.length === 1 ? '' : 's'}</h4>` +
+    (list(part.usage.map(r => link((options.recipeUrl ?? recipePath)(r.id), options.recipeLabel?.(r.id, r.name) ?? r.name))) ||
+      '<p>No resolved uses of this part in this corpus.</p>');
   const context = [...parents, part.name];
   const heading = context.map((name, i) => `<span class="os-syntax-${i ? 'specificity' : 'ingredient'}">${escape(name)}</span>`).join(' › ');
-  return `<section class="ref-part" id="${escape(part.anchor)}" tabindex="-1"><h3>${heading}</h3><p>Local part path: <code>${escape(part.path.join(' / '))}</code></p>${names(part.names, part.pluralNames)}${part.aliases.length ? `<p>Aliases: ${part.aliases.map(escape).join(', ')}</p>` : ''}${knowledge(part, options)}${part.parts.map(p => renderPart(p, context, options)).join('')}</section>`;
+  return `<section class="ref-part" id="${escape(part.anchor)}" tabindex="-1"><h3>${heading}</h3><p>Local part path: <code>${escape(part.path.join(' / '))}</code></p>${names(part.names, part.pluralNames)}${part.aliases.length ? `<p>Aliases: ${part.aliases.map(escape).join(', ')}</p>` : ''}${knowledge(part, options)}${usage}${part.parts.map(p => renderPart(p, context, options)).join('')}</section>`;
 }
 
 /** Safe document fragment; colour is presentation only, never the source of meaning. */
@@ -47,10 +51,12 @@ export function renderReferenceHtml(page: ReferencePage, options: ReferenceHtmlO
       f.parts.length ? `part: ${f.parts.join(' › ')}` : 'base reference', f.variant ? `variant: ${f.variant}` : ''
     ].filter(Boolean).join(' · '))).join('; ')}</div>` : ''}`)) || '<p>No resolved uses in this corpus.</p>'));
   return `<article class="os-reference" data-kind="${escape(page.kind)}" data-colour="${options.colour === false ? 'off' : 'on'}"><header><h1>${escape(page.name)}</h1><p>${escape(page.kind)} · canonical ID: <code>${escape(page.id)}</code>${page.status ? ` · ${escape(page.status)}` : ''}</p>${readCuration(page.curation).curation ? `<p class="os-curation"><small>Curation: ${escape(curationLabel(page.curation!))}</small></p>` : ''}${page.canonicalName && page.canonicalName !== page.name ? `<p>Canonical name: ${escape(page.canonicalName)}</p>` : ''}</header>` +
+    (page.typeOf ? `<p>Type of: ${link(page.typeOf.url, page.typeOf.name)}</p>` : '') +
+    section('Types', list((page.types ?? []).map(t => link(t.url, t.name)))) +
     section('Names', names(page.names, page.pluralNames)) +
     section('Variants', list(Object.values(page.variants ?? {}).map(v => `<span class="os-syntax-specificity">${Object.values(v.names).map(escape).join(' / ')}</span>`))) +
     section('Aliases', list(page.aliases.map(a => `${escape(a.name)}${a.type ? ` · ${escape(a.type)}` : ''}${a.observed_count !== undefined ? ` · recorded observations: ${escape(String(a.observed_count))}` : ''}`))) +
-    section('Parts', page.parts.length ? `<nav aria-label="Ingredient parts">${page.parts.map(p => link('#' + p.anchor, `${page.name} › ${p.name}`)).join(' · ')}</nav>${page.parts.map(p => renderPart(p, [page.name], options)).join('')}` : '') +
+    section('Parts / Products', page.parts.length ? `<nav aria-label="Ingredient parts">${page.parts.map(p => link('#' + p.anchor, `${page.name} › ${p.name}`)).join(' · ')}</nav>${page.parts.map(p => renderPart(p, [page.name], options)).join('')}` : '') +
     knowledge(page, options) + usage +
     (Object.keys(evidence).length ? `<details class="ref-evidence"><summary>Recorded vocabulary evidence</summary><p>Historical observations from YAML, not the live usage count above. Observed parameters and qualifiers are examples, not semantic signatures.</p><pre>${escape(JSON.stringify(evidence, null, 2))}</pre></details>` : '') + '</article>';
 }

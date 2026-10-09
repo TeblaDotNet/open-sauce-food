@@ -69,7 +69,12 @@ letter and contain lowercase letters, digits, hyphens or underscores. A part
 requires nonempty locale `names`; it may add `plural_names`, string `aliases`,
 nested `parts`, local `part_groups`, and quantitative modules below. Nested parts
 can express `chicken → thigh → skin` without adding global compound concepts.
-Compound names are not automatically rewritten into part paths.
+Compound names are not automatically rewritten into part paths. Lemon juice is
+conceptually Lemon → Juice whether fresh or bottled: these are qualifiers, not
+automatically separate canonical identities. Explicit `(lemon: juice, fresh)`
+and `(lemon: juice, bottled)` use the same part anchor. The existing standalone
+`lemon-juice` entry is retained pending a focused compatibility migration; this
+decision is not a rule for every processed product.
 
 `part_groups` maps IDs to `{ process, parts, description?, sources? }`. Members
 are distinct IDs of direct child parts in the same scope. At least two members
@@ -110,6 +115,38 @@ describes base-ingredient knowledge, not evidence that every fact applies to eve
 cultivar, size or state. Explicit `plural_names` are also accepted lexical forms
 for base and part lookup; no runtime plural stemming is performed.
 The separation renderer declines variant-qualified references.
+
+## Ingredient type families (implemented)
+
+A top-level ingredient entry may set one optional `type_of` canonical ingredient ID:
+
+```yaml
+id: wheat-flour
+kind: ingredient
+names:
+  en: wheat flour
+type_of: flour
+```
+
+The parent must resolve by exact ID to one existing ingredient, not an alias, part,
+process or equipment entry. Empty/non-string values, multiple parents, missing or
+duplicate parent IDs, self-links and cycles are rejected. Parts cannot carry
+`type_of`. Acyclic chains are allowed, but pages list only direct children and
+the immediate parent; there is no recursive inheritance, substitution, alias
+expansion or usage aggregation. Browser JSON transport retains the field.
+
+A type can be important enough to have its own ingredient page while still belonging
+to a broader family. Self-raising flour is the intended example: it should have
+its own page linked from Flour, rather than being collapsed into a Flour anchor.
+It is currently only a local variant in this dataset; promotion is deferred. This
+focused pass links existing wheat-flour to flour and olive-oil to oil. Child pages
+retain their own names, aliases, metadata and recipe usage.
+
+`:` means part/product in Sauce Code; `(egg: yolk)` targets Egg's existing
+`#part-yolk` anchor. `;` remains authored variant/type syntax, but does not create
+a family edge or dictate page topology. Neither `(flour; wheat)` nor `(wheat flour)
+is silently rewritten into the other. Recipe-local roles remain independent of
+the shared ingredient vocabulary.
 
 ## Quantitative modules (schema/API only; no real values populated)
 
@@ -187,7 +224,7 @@ substitutions, dietary properties, nutrition and provenance remain optional modu
 Variant inheritance, locale/size standards, conflicting-source selection,
 cross-scope groups and quantitative part/output provenance need explicit design.
 None requires new recipe grammar here. The local reference-page prototype consumes
-the current part/group API; production publishing remains future work.
+the current part/group API; the static site uses the same projection.
 
 ## Human-facing reference projection
 
@@ -199,6 +236,19 @@ repository paths remain plain text. Only explicit safe provenance URLs are linke
 
 Nested parts keep local paths beneath their parent ingredient, e.g.
 `/reference/ingredient/egg#part-yolk`; there are no new global part concepts.
+The static site preserves its corresponding routes, such as
+`/opensaucefood/ingredients/egg/#part-yolk`. Part identity is the base canonical
+ID plus the complete local part path. Parts / Products subsections show distinct
+recipe backlinks for that exact resolved path (including structured action-context
+references); unknown suffixes and base-only uses do not count as part uses. Nested
+parts have separate counts, not descendant roll-ups. Parent concept usage remains
+a distinct-recipe union of its explicit base and part references.
+
+`ReferencePage.typeOf` and `types` expose direct family links using the existing
+reference URL callback; `ReferencePart.usage` exposes part-specific backlinks.
+An omitted usage index leaves usage undefined; an indexed unused part has an empty
+list. Family links never move child usage into the parent.
+
 Groups link only uniquely resolved processes. Unknown recipe parts link to their
 base ingredient instead of an invented part page. Variant use can be shown from
 recipe tokens, but no variant inheritance/relationship data is invented.

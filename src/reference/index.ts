@@ -1,3 +1,4 @@
+import { semanticTokens } from '../model/index.ts';
 import { readCuration } from '../curation.ts';
 import type { Node, Recipe, Token } from '../model/index.ts';
 import type { Vocabulary, VocabularyEntry, IngredientKnowledge, PartGroup, QuantitativeKnowledge } from '../vocabulary/index.ts';
@@ -24,7 +25,7 @@ export function buildUsageIndex(recipes: readonly CorpusRecipe[]): UsageIndex {
     const uses = new Map<string, Map<string, UsageForm>>();
     const visit = (nodes: readonly Node[]) => {
       for (const node of nodes) {
-        if (node.kind === 'statement') for (const token of node.tokens) {
+        if (node.kind === 'statement') for (const token of semanticTokens(node.tokens)) {
           const kind = token.kind === 'process' ? 'process' : token.kind === 'thing' ? token.thingKind : undefined;
           if (token.reference === false || !token.canonicalId || !kind || !['ingredient', 'equipment', 'process'].includes(kind)) continue;
           const id = key(kind as ReferenceKind, token.canonicalId);
@@ -59,11 +60,16 @@ export function recipeReferenceUrl(target: { kind: ReferenceKind; canonicalId: s
 }
 export interface ReferenceGroup extends PartGroup { id: string; processUrl?: string; members: { id: string; anchor: string }[] }
 export interface ReferencePart extends ReferenceKnowledge {
+  /** Distinct recipes explicitly using this exact resolved part path. */
+  usage?: RecipeUsage[];
   id: string; path: string[]; anchor: string; name: string;
   names: Record<string, string>; pluralNames?: Record<string, string>; aliases: string[];
 }
 export interface ReferenceKnowledge extends QuantitativeKnowledge { parts: ReferencePart[]; groups: ReferenceGroup[] }
+export interface ReferenceRelation { id: string; name: string; url?: string }
 export interface ReferencePage extends ReferenceKnowledge {
+  typeOf?: ReferenceRelation;
+  types?: ReferenceRelation[];
   variants?: IngredientKnowledge['variants'];
   curation?: import('../curation.ts').Curation;
   id: string; kind: ReferenceKind; name: string; canonicalName?: string;
@@ -82,12 +88,20 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
   if (matches.length !== 1) return undefined;
   const entry = matches[0];
   if (entry.reference === false) return undefined;
+  const conceptUsage = usage ? usage.concepts[key(kind, id)] ?? [] : undefined;
+  const relation = (e: VocabularyEntry): ReferenceRelation => ({ id: e.id,
+    name: displayName(e.names, e.canonical_name ?? e.id), url: (options.referenceUrl ?? referencePath)('ingredient', e.id) });
+  const parent = entry.type_of ? vocabulary.entries.find(e => e.kind === 'ingredient' && e.id === entry.type_of) : undefined;
   const knowledge = (data: IngredientKnowledge, path: string[]): ReferenceKnowledge => ({
     typical_mass: data.typical_mass, reference_density: data.reference_density, nutrition: data.nutrition,
     parts: Object.entries(data.parts ?? {}).map(([id, part]) => {
       const next = [...path, id];
       return { ...knowledge(part, next), id, path: next, anchor: partAnchor(next), name: displayName(part.names, id),
-        names: part.names, pluralNames: part.plural_names, aliases: part.aliases ?? [] };
+        names: part.names, pluralNames: part.plural_names, aliases: part.aliases ?? [],
+        usage: conceptUsage?.flatMap(r => {
+          const forms = r.forms.filter(f => f.canonicalParts?.length === next.length && next.every((id, i) => f.canonicalParts![i] === id));
+          return forms.length ? [{ ...r, forms }] : [];
+        }) };
     }),
     groups: Object.entries(data.part_groups ?? {}).map(([id, group]) => {
       const processes = vocabulary.resolve(group.process, 'process');
@@ -96,9 +110,12 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
     })
   });
   return structuredClone({ ...knowledge(entry, []), id, kind, name: displayName(entry.names, entry.canonical_name ?? id),
+    typeOf: parent ? relation(parent) : undefined,
+    types: kind === 'ingredient' ? vocabulary.entries.filter(e => e.kind === 'ingredient' && e.type_of === id)
+      .map(relation).sort((a, b) => a.name.localeCompare(b.name)) : undefined,
     canonicalName: entry.canonical_name, names: entry.names, pluralNames: entry.plural_names,
     aliases: (entry.aliases ?? []).map(a => typeof a === 'string' ? { name: a } : a),
     status: entry.status, evidence: entry.evidence, curation: readCuration(entry.curation).curation, variants: entry.variants,
     observations: { parameters: entry.observed_parameters, qualifiers: entry.observed_qualifiers },
-    usage: usage ? usage.concepts[key(kind, id)] ?? [] : undefined, corpusSize: usage?.recipeCount });
+    usage: conceptUsage, corpusSize: usage?.recipeCount });
 }

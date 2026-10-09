@@ -1347,7 +1347,7 @@ Repeated real problems should justify new syntax.
 
 Square brackets in this grammar description mean optional fields; they are not
 literal characters inside a thing. `;` introduces one type/variant of the base.
-Each `:` selects a part of the preceding thing, in order. Commas introduce loose
+Each `:` selects a part/product of the preceding thing, in order. Commas introduce loose
 qualifiers such as preparation, state, role or size. Base, variant and each part
 must be nonempty. Variant precedes parts, which precede comma qualifiers. There
 is no delimiter-escaping syntax in names in this version. Malformed explicit
@@ -1372,6 +1372,25 @@ Explicit incompatible variants and sibling part chains must not match. Prefer
 an exact structure if one is declared; retain ambiguity when several declarations
 remain. Canonical vocabulary resolution annotates the base, not a fabricated
 compound concept. This establishes no output yield, mass balance or cooking state.
+
+### Ingredient reference relationships (knowledge model)
+
+`:` means part/product in Sauce Code: `(egg: yolk)` and `(lemon: juice)`
+can link to subsections of their parent ingredient pages. Existing `part-` anchor
+IDs are preserved. Fresh or bottled lemon juice can share Lemon → Juice, with
+fresh/bottled retained as qualifiers; this does not generalise to every product.
+
+Type/family relationships are optional knowledge-base hierarchy. A type can be
+important enough to have its own ingredient page while still belonging to a
+broader family. Self-raising flour should have its own page within the Flour
+family. An independent ingredient may use `type_of: flour` without being authored
+as `(flour; variant)`. The existing `;` syntax remains valid and unchanged.
+
+Type relationships do not collapse pages, rewrite recipes, infer substitutions,
+inherit knowledge fields or aggregate child usage into the family. Local roles
+and named choices remain local. See [VOCABULARY-SCHEMA.md](VOCABULARY-SCHEMA.md)
+for validation and the focused implementation; standalone compound/part overlaps
+remain explicit migration work. This adds no recipe grammar.
 
 ### Quantity precision
 

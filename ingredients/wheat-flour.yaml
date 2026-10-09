@@ -1,5 +1,6 @@
 id: wheat-flour
 kind: ingredient
+type_of: flour
 canonical_name: wheat flour
 names:
   en: wheat flour

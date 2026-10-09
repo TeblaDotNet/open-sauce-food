@@ -99,8 +99,10 @@ export async function generateSite(root: string, config: SiteConfig) {
     add(`assets/recipes/${chosen.slug}/${media}`, await readFile(join(root, dirname(chosen.repositoryPath), media)));
   }
   const { outDir: omitted, ...publicConfig } = config;
+  const partUsage = (parts: ReferencePage['parts']): { anchor: string; recipes: string[] }[] =>
+    parts.flatMap(p => [{ anchor: p.anchor, recipes: p.usage?.map(r => r.id) ?? [] }, ...partUsage(p.parts)]);
   const manifest = { schemaVersion: 2, config: publicConfig, representative, recipes: corpus.records, pages,
-    references: [...references.values()].map(r => ({ kind: r.kind, id: r.id, usageCount: r.usage?.length ?? 0, usageRecipes: r.usage?.map(u => u.id) ?? [] })),
+    references: [...references.values()].map(r => ({ kind: r.kind, id: r.id, usageCount: r.usage?.length ?? 0, usageRecipes: r.usage?.map(u => u.id) ?? [], partUsage: partUsage(r.parts) })),
     tags: corpus.tags, categories: corpus.categories,
     representativeDiagnostics: corpus.parsed.get(representative)!.diagnostics, generatedRecipeCount: corpus.records.length };
   add('site-manifest.json', JSON.stringify(manifest, null, 2) + '\n');
