@@ -1,4 +1,4 @@
-Documentation note: The current documentation is provisional and largely placeholder text from the initial development/release process. I plan to rewrite the public-facing docs in my own words as the project settles.
+Documentation note: The current documentation is provisional and largely placeholder text from the initial development/release process. I plan to rewrite the public-facing docs as the project settles.
 
 
 # Open Sauce Food
