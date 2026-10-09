@@ -1382,15 +1382,17 @@ fresh/bottled retained as qualifiers; this does not generalise to every product.
 
 Type/family relationships are optional knowledge-base hierarchy. A type can be
 important enough to have its own ingredient page while still belonging to a
-broader family. Self-raising flour should have its own page within the Flour
+broader family. Self-raising flour has its own page within the Flour
 family. An independent ingredient may use `type_of: flour` without being authored
 as `(flour; variant)`. The existing `;` syntax remains valid and unchanged.
 
 Type relationships do not collapse pages, rewrite recipes, infer substitutions,
 inherit knowledge fields or aggregate child usage into the family. Local roles
 and named choices remain local. See [VOCABULARY-SCHEMA.md](VOCABULARY-SCHEMA.md)
-for validation and the focused implementation; standalone compound/part overlaps
-remain explicit migration work. This adds no recipe grammar.
+for validation and explicit compatibility targets. Standalone `(lemon juice)`
+now targets Lemon → Juice while preserving authored spelling. `(flour; self-raising)`
+and `(self-raising flour)` target the independent Self-raising Flour concept. Other
+compound/part overlaps remain explicit migration work. This adds no recipe grammar.
 
 ### Quantity precision
 

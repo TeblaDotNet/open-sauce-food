@@ -143,6 +143,12 @@ test('reference routes support direct loads, JSON models, all promoted usage lin
       const response = await fetch(base + path); assert.equal(response.status, 200);
       assert.match(await response.text(), /Syntax colour/);
     }
+    for (const prefix of ['', '/api']) {
+      const moved = await fetch(base + prefix + '/reference/ingredient/lemon-juice', {redirect: 'manual'});
+      assert.equal(moved.status, 308);
+      assert.equal(moved.headers.get('location'), prefix + '/reference/ingredient/lemon#part-juice');
+      assert.equal((await fetch(base + moved.headers.get('location'))).status, 200);
+    }
     const page = await (await fetch(base + '/api/reference/ingredient/egg')).json();
     assert.equal(page.corpusSize, corpusSize); assert.equal(page.parts[0].anchor, 'part-yolk');
     const catalog = await (await fetch(base + '/api/corpus')).json(); assert.equal(catalog.length, corpusSize);

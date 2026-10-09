@@ -59,10 +59,14 @@ as encoding curation. Code/source representations preserve metadata.
 
 ## Contributing a review
 
-A valid PR may simply review an existing knowledge entry and change
-`review: unchecked` to `review: checked`, provided the contributor actually
-reviewed its substantive content. Explain what was reviewed in the PR. Keep its
-origin unchanged unless correcting the origin itself.
+Design discussion is the [current contribution focus](CONTRIBUTING.md). Individual
+entry reviews and bulk data curation are not the priority while the model is still
+changing; discuss substantial review work in an issue or discussion first.
+
+For an agreed review, or once the foundations settle, a PR can change
+`review: unchecked` to `review: checked` after deliberately reviewing the entry's
+substantive content. Explain what was reviewed and keep its origin unchanged unless
+correcting the origin itself.
 
 ## Initial migration
 
@@ -80,4 +84,5 @@ were marked checked, no candidate terms were processed, and no grammar changed.
 
 
 The public subset retains 117 of those older encodings and all 293 generated conversions.
-It has 756 canonical entries after later vocabulary work; see VOCABULARY-REVIEW.md.
+At the later [vocabulary review checkpoint](VOCABULARY-REVIEW.md), it had 756 canonical entries.
+That is a historical count; see the [README current status](README.md#current-status) for current totals.

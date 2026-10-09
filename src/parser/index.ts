@@ -292,6 +292,10 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
       }
     });
   }
+  const ingredientTarget = (t: Token) => {
+    const targets = options.vocabulary?.resolveIngredient(t.name!, t.variant, t.parts) ?? [];
+    return targets.length === 1 ? targets[0] : undefined;
+  };
   const results = new Set<string>();
   for (const s of recipe.sections) visit(s.children, n => {
     // Mask reference names and process names; recognize quantities without
@@ -315,29 +319,55 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
       span: { start: start + m.index!, end: start + m.index! + m[0].length, line: n.tokens[0]?.span.line ?? n.span.line, column: (n.tokens[0]?.span.column ?? 1) + m.index! }
     }));
     for (const t of semanticTokens(n.tokens)) {
+      let inheritedIngredientTarget: ReturnType<typeof ingredientTarget>;
       if (t.kind === 'thing' && s.name === 'instructions') {
         let matches = declarations.get(key(t.name!)) ?? [];
         if (!matches.length && options.vocabulary) {
           matches = [...declarations.values()].flat().filter(d => {
             if (d.kind === 'choice') return false;
+            if (d.kind === 'ingredient') {
+              const ref = ingredientTarget(t), declared = ingredientTarget(d.token);
+              return !!ref && !!declared && ref.entry.id === declared.entry.id;
+            }
             const ref = options.vocabulary!.resolve(t.name!, d.kind);
             const declared = options.vocabulary!.resolve(d.token.name!, d.kind);
             return ref.length === 1 && declared.length === 1 && ref[0].id === declared[0].id;
           });
         }
-        // Explicit structure can derive a deeper part from its declared base,
-        // but cannot select an incompatible variant or sibling part.
-        if (t.variant || t.parts?.length) matches = matches.filter(d =>
-          (!t.variant || !d.token.variant || key(t.variant) === key(d.token.variant)) &&
-          (d.token.parts ?? []).every((p, i) => key(p) === key(t.parts?.[i] ?? '')));
-        const exact = matches.filter(d => key(d.token.variant ?? '') === key(t.variant ?? '') &&
-          JSON.stringify(d.token.parts ?? []) === JSON.stringify(t.parts ?? []));
+        // Compare effective compatibility targets without changing authored structure.
+        const refTarget = ingredientTarget(t);
+        matches = matches.filter(d => {
+          const declared = d.kind === 'ingredient' ? ingredientTarget(d.token) : undefined;
+          if (refTarget && declared && (refTarget.compatibility || declared.compatibility)) {
+            // Explicit variant syntax may still refine an unqualified base declaration.
+            if (t.variant && key(t.name!) === key(d.token.name!) && !d.token.variant && !d.token.parts?.length) return true;
+            if (key(t.name!) === key(d.token.name!) && !t.variant && !t.parts?.length && d.token.variant && declared.compatibility)
+              return true;
+            return refTarget.entry.id === declared.entry.id &&
+              (!refTarget.variant || !declared.variant || key(refTarget.variant) === key(declared.variant)) &&
+              declared.parts.every((p, i) => key(p) === key(refTarget.parts[i] ?? ''));
+          }
+          return !(t.variant || t.parts?.length) ||
+            ((!t.variant || !d.token.variant || key(t.variant) === key(d.token.variant)) &&
+              (d.token.parts ?? []).every((p, i) => key(p) === key(t.parts?.[i] ?? '')));
+        });
+        const exact = matches.filter(d => {
+          const declared = d.kind === 'ingredient' ? ingredientTarget(d.token) : undefined;
+          if (refTarget && declared && (refTarget.compatibility || declared.compatibility))
+            return refTarget.entry.id === declared.entry.id && key(refTarget.variant ?? '') === key(declared.variant ?? '') &&
+              JSON.stringify(refTarget.parts) === JSON.stringify(declared.parts);
+          return key(d.token.variant ?? '') === key(t.variant ?? '') && JSON.stringify(d.token.parts ?? []) === JSON.stringify(t.parts ?? []);
+        });
         if (exact.length) matches = exact;
         const qualified = matches.filter(d => (t.qualifiers ?? []).every(q => d.token.qualifiers?.some(v => key(v) === key(q))));
         if (qualified.length) matches = qualified; // parts may reference the base declaration
         t.declarationIds = [...new Set(matches.map(d => d.node.id))];
         t.thingKind = !matches.length ? 'unresolved' : matches.length > 1 ? 'ambiguous' : matches[0].kind;
         if (t.thingKind === 'choice') t.choiceKind = matches[0].token.choiceKind;
+        if (t.thingKind === 'ingredient' && !t.variant && !t.parts?.length && key(t.name!) === key(matches[0].token.name!)) {
+          const declared = ingredientTarget(matches[0].token);
+          if (matches[0].token.variant && declared?.compatibility) inheritedIngredientTarget = declared;
+        }
         if (!matches.length || matches.length > 1) report('warning', matches.length ? 'AMBIGUOUS_REFERENCE' : 'UNRESOLVED_REFERENCE', `${t.raw}: ${matches.length ? 'multiple declarations match' : 'no local declaration'}; wording retained.`, t.span);
       }
       if (t.kind === 'result') {
@@ -348,16 +378,15 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
       }
       const kind = t.kind === 'process' ? 'process' : t.thingKind === 'equipment' ? 'equipment' : t.thingKind === 'ingredient' ? 'ingredient' : undefined;
       if (kind && options.vocabulary) {
-        const matches = options.vocabulary.resolve(t.name!, kind);
-        if (matches.length === 1) {
-          t.canonicalId = matches[0].id;
-          if (matches[0].reference === false) t.reference = false;
-          if (kind === 'ingredient' && t.parts?.length) {
-            const resolved = options.vocabulary.resolvePartPath(t.canonicalId, t.parts);
-            t.partResolution = { ids: resolved.ids, complete: resolved.complete };
-          }
+        const targets = kind === 'ingredient'
+          ? (inheritedIngredientTarget ? [inheritedIngredientTarget] : options.vocabulary.resolveIngredient(t.name!, t.variant, t.parts))
+          : options.vocabulary.resolve(t.name!, kind).map(entry => ({ entry, partResolution: undefined }));
+        if (targets.length === 1) {
+          t.canonicalId = targets[0].entry.id;
+          if (targets[0].entry.reference === false) t.reference = false;
+          if (targets[0].partResolution) t.partResolution = targets[0].partResolution;
         }
-        if (matches.length > 1) report('warning', 'AMBIGUOUS_VOCABULARY', `Multiple vocabulary entries match '${t.name}'.`, t.span);
+        if (targets.length > 1) report('warning', 'AMBIGUOUS_VOCABULARY', `Multiple vocabulary entries match '${t.name}'.`, t.span);
       }
     }
     const sig = n.tokens.filter(t => t.raw.trim());

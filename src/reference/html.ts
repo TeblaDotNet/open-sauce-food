@@ -48,7 +48,7 @@ export function renderReferenceHtml(page: ReferencePage, options: ReferenceHtmlO
   const usage = page.usage === undefined ? '' : section(`Used in ${page.usage.length} recipe${page.usage.length === 1 ? '' : 's'}`,
     `<p>Resolved references across ${page.corpusSize} indexed recipes. Counts include declarations and explicit actions; each recipe counts once.</p>` +
     (list(page.usage.map(r => `${link((options.recipeUrl ?? recipePath)(r.id), options.recipeLabel?.(r.id, r.name) ?? r.name)}${page.kind === 'ingredient' ? `<div class="ref-forms">${r.forms.map(f => escape([
-      f.parts.length ? `part: ${f.parts.join(' › ')}` : 'base reference', f.variant ? `variant: ${f.variant}` : ''
+      (f.canonicalParts ?? f.parts).length ? `part: ${(f.canonicalParts ?? f.parts).join(' › ')}` : 'base reference', f.variant ? `variant: ${f.variant}` : ''
     ].filter(Boolean).join(' · '))).join('; ')}</div>` : ''}`)) || '<p>No resolved uses in this corpus.</p>'));
   return `<article class="os-reference" data-kind="${escape(page.kind)}" data-colour="${options.colour === false ? 'off' : 'on'}"><header><h1>${escape(page.name)}</h1><p>${escape(page.kind)} · canonical ID: <code>${escape(page.id)}</code>${page.status ? ` · ${escape(page.status)}` : ''}</p>${readCuration(page.curation).curation ? `<p class="os-curation"><small>Curation: ${escape(curationLabel(page.curation!))}</small></p>` : ''}${page.canonicalName && page.canonicalName !== page.name ? `<p>Canonical name: ${escape(page.canonicalName)}</p>` : ''}</header>` +
     (page.typeOf ? `<p>Type of: ${link(page.typeOf.url, page.typeOf.name)}</p>` : '') +

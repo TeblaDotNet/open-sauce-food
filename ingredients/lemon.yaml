@@ -41,6 +41,7 @@ observed_qualifiers:
     count: 1
 parts:
   juice:
+    lexical_names: [lemon juice, lemon-juice]
     names:
       en: juice
   zest:

@@ -26,7 +26,7 @@ export interface Token {
   choiceKind?: 'ingredient' | 'equipment';
   declarationIds?: string[];
   canonicalId?: string;
-  /** Optional known prefix of explicit parts; unknown parts remain in `parts`. */
+  /** Optional resolved explicit or lexical part path; authored `parts` stays unchanged. */
   partResolution?: { ids: string[]; complete: boolean };
   implicit?: boolean;
   alt?: string;

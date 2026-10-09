@@ -20,8 +20,17 @@ export interface VocabularyEntry extends IngredientKnowledge {
   observed_parameters?: { value: string; count: number }[];
   observed_qualifiers?: { value: string; count: number }[];
 }
+export interface IngredientTarget {
+  entry: VocabularyEntry;
+  /** Effective structure for identity comparison; authored token fields stay untouched. */
+  parts: string[];
+  variant?: string;
+  compatibility: boolean;
+  partResolution?: { ids: string[]; complete: boolean };
+}
 /** Multiple matches are returned, never resolved by insertion order. */
 export class Vocabulary {
+  private readonly partLexemes = new Map<string, { entry: VocabularyEntry; parts: string[] }>();
   readonly diagnostics: { severity: 'warning'; code: 'INVALID_CURATION'; entryId: string; message: string }[] = [];
   readonly entries: readonly VocabularyEntry[];
   constructor(entries: readonly VocabularyEntry[]) {
@@ -49,6 +58,27 @@ export class Vocabulary {
       }
     }
     this.entries = entries;
+    for (const entry of entries) {
+      if ('lexical_names' in entry) throw new Error('lexical_names belongs on an ingredient part');
+      for (const variant of Object.values(entry.variants ?? {})) if (variant.canonical_id !== undefined) {
+        const targets = entries.filter(e => e.kind === 'ingredient' && e.id === variant.canonical_id);
+        if (entry.kind !== 'ingredient' || targets.length !== 1 || targets[0].type_of !== entry.id)
+          throw new Error('Invalid variant canonical_id on ' + entry.id + ': expected a direct family child');
+      }
+      const visit = (parts: IngredientKnowledge['parts'], path: string[]) => {
+        for (const [id, part] of Object.entries(parts ?? {})) {
+          const next = [...path, id];
+          for (const name of part.lexical_names ?? []) {
+            const key = name.trim().toLowerCase();
+            if (entry.kind !== 'ingredient' || this.resolve(name, 'ingredient').length || this.partLexemes.has(key))
+              throw new Error('Ambiguous part lexical_names: ' + name);
+            this.partLexemes.set(key, { entry, parts: next });
+          }
+          visit(part.parts, next);
+        }
+      };
+      visit(entry.parts, []);
+    }
   }
   /** Parts are relative IDs at each level, never global ingredient aliases. */
   resolvePartPath(baseId: string, terms: readonly string[]): { ids: string[]; parts: IngredientPart[]; complete: boolean } {
@@ -63,6 +93,28 @@ export class Vocabulary {
       ids.push(matches[0][0]); parts.push(matches[0][1]); scope = matches[0][1];
     }
     return { ids, parts, complete: entries.length === 1 && ids.length === terms.length };
+  }
+  /** Resolve full compound names and explicitly promoted variants without rewriting source. */
+  resolveIngredient(name: string, variant?: string, parts: readonly string[] = []): IngredientTarget[] {
+    const norm = (s: string) => s.trim().toLowerCase();
+    const lexical = this.partLexemes.get(norm(name));
+    const bases = lexical ? [lexical.entry] : this.resolve(name, 'ingredient');
+    return bases.flatMap(base => {
+      const variants = variant && !lexical ? Object.entries(base.variants ?? {}).filter(([id, v]) =>
+        [id, ...Object.values(v.names), ...(v.aliases ?? [])].some(n => norm(n) === norm(variant))) : [];
+      const promoted = variants.filter(([, v]) => v.canonical_id);
+      const targets = promoted.length ? variants.map(([, v]) => ({
+        entry: v.canonical_id ? this.entries.find(e => e.kind === 'ingredient' && e.id === v.canonical_id)! : base,
+        promoted: !!v.canonical_id
+      })) : [{ entry: base, promoted: false }];
+      return targets.map(({entry, promoted}) => {
+        const effective = [...(lexical?.parts ?? []), ...parts];
+        const resolved = effective.length ? this.resolvePartPath(entry.id, effective) : undefined;
+        return { entry, parts: resolved?.complete ? resolved.ids : effective,
+          variant: promoted ? undefined : variant, compatibility: !!lexical || promoted,
+          partResolution: resolved ? { ids: resolved.ids, complete: resolved.complete } : undefined };
+      });
+    });
   }
   partGroups(baseId: string, parentParts: readonly string[] = []): { id: string; group: PartGroup }[] {
     const resolved = this.resolvePartPath(baseId, parentParts);

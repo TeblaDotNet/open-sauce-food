@@ -72,9 +72,10 @@ can express `chicken → thigh → skin` without adding global compound concepts
 Compound names are not automatically rewritten into part paths. Lemon juice is
 conceptually Lemon → Juice whether fresh or bottled: these are qualifiers, not
 automatically separate canonical identities. Explicit `(lemon: juice, fresh)`
-and `(lemon: juice, bottled)` use the same part anchor. The existing standalone
-`lemon-juice` entry is retained pending a focused compatibility migration; this
-decision is not a rule for every processed product.
+and `(lemon: juice, bottled)` use the same part anchor. The retired standalone
+`lemon-juice` identity now resolves through explicit part lexical names; its YAML
+evidence is preserved in `ingredient-migration-decisions.json`. This decision is
+not a rule for every processed product.
 
 `part_groups` maps IDs to `{ process, parts, description?, sources? }`. Members
 are distinct IDs of direct child parts in the same scope. At least two members
@@ -102,7 +103,7 @@ parentParts?)` supports nested scopes. Unknown bases/scopes return no groups.
 Parts never join the global alias index.
 
 With `parseRecipe(text, { vocabulary })`, a uniquely canonical ingredient token
-with explicit parts receives `partResolution: { ids, complete }`. Existing `name`,
+with explicit or configured lexical parts receives `partResolution: { ids, complete }`. Existing `name`,
 `variant`, `parts`, `qualifiers`, `raw`, `span` and `canonicalId` retain their meaning.
 Without vocabulary there is no annotation. Unknown parts remain legal Draft 8;
 legacy comma qualifiers are not silently treated as explicit parts.
@@ -138,8 +139,8 @@ expansion or usage aggregation. Browser JSON transport retains the field.
 A type can be important enough to have its own ingredient page while still belonging
 to a broader family. Self-raising flour is the intended example: it should have
 its own page linked from Flour, rather than being collapsed into a Flour anchor.
-It is currently only a local variant in this dataset; promotion is deferred. This
-focused pass links existing wheat-flour to flour and olive-oil to oil. Child pages
+It now has that independent identity and page. The focused family links are
+wheat-flour, self-raising-flour to flour, and olive-oil to oil. Child pages
 retain their own names, aliases, metadata and recipe usage.
 
 `:` means part/product in Sauce Code; `(egg: yolk)` targets Egg's existing
@@ -147,6 +148,70 @@ retain their own names, aliases, metadata and recipe usage.
 a family edge or dictate page topology. Neither `(flour; wheat)` nor `(wheat flour)
 is silently rewritten into the other. Recipe-local roles remain independent of
 the shared ingredient vocabulary.
+
+## Focused lexical and variant compatibility
+
+Compound lexical names may resolve to a parent part without being standalone
+concepts. Part-local aliases still mean local terms such as yolks. A separate
+optional `lexical_names` list names complete authored ingredient expressions:
+
+```yaml
+# Inside lemon.yaml
+parts:
+  juice:
+    names:
+      en: juice
+    lexical_names: [lemon juice, lemon-juice]
+```
+
+These exact, case-insensitive full names target the containing base and part path.
+The constructor rejects empty/malformed lists and collisions with global ingredient
+names or another lexical target. It does not guess morphology or strip preparation
+words. Explicit added parts are resolved below the lexical target, not its base.
+This is suitable for later egg-yolk migration, but no such migration is made here.
+
+`resolveIngredient(name, variant?, parts?)` returns canonical entry, effective
+part path, effective variant and optional part-resolution annotation. Existing
+`resolve(name, kind)` remains a whole-concept lexical lookup; it deliberately does
+not pretend that lemon juice is an alias for a whole lemon. Recipe tokens preserve
+`raw`, `name`, `parts`, `variant`, qualifiers and spans; `canonicalId` and
+`partResolution` carry the target annotation. For standalone `(lemon juice)`,
+authored parts remain empty while resolved parts contain juice. Backlinks use the
+resolved path. Without vocabulary, the parser still accepts all these expressions.
+
+A local top-level variant can explicitly nominate an independent family child:
+
+```yaml
+# Inside flour.yaml
+variants:
+  self-raising:
+    names: {en: self-raising}
+    aliases: [self raising]
+    canonical_id: self-raising-flour
+```
+
+The target must uniquely exist and have `type_of` pointing back to the base.
+Nested part variants cannot redirect to global concepts. Only explicitly configured
+variants are promoted; there is no automatic family matching. Self-raising Flour
+has en-GB self-raising flour, en-US self-rising flour, and the accepted alias self
+raising flour. It is a first-class child, not a presentation alias.
+
+Local bindings compare effective structures when compatibility is involved. A
+whole lemon declaration can supply its juice; a juice declaration cannot supply a
+whole lemon or peel. Mixed spellings retain ambiguity when multiple declarations
+match. A bare local flour reference can retain the identity of its uniquely matched
+self-raising declaration. Other family children are not substitutes.
+
+Comma qualifiers do not become type/state metadata: Damper's two self-raising
+references were explicitly changed from comma to semicolon syntax. Its ordinary
+work-surface flour remains Flour. Fresh/bottled/freshly squeezed lemon juice remain
+ordinary qualifiers on the same Lemon → Juice identity.
+
+The old static `/opensaucefood/ingredients/lemon-juice/` URL remains a small
+compatibility page with a canonical URL and visible link to Lemon's `#part-juice`.
+It is not in the ingredient index or canonical reference count. No server redirect
+configuration or JavaScript is required. The local demo can issue an HTTP 308
+redirect on its old HTML/API routes. All new recipe links target Lemon directly.
 
 ## Quantitative modules (schema/API only; no real values populated)
 

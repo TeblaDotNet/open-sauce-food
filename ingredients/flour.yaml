@@ -95,6 +95,7 @@ variants:
     aliases:
       - all purpose
   self-raising:
+    canonical_id: self-raising-flour
     names:
       en: self-raising
     aliases:

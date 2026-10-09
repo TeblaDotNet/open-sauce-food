@@ -146,7 +146,7 @@ Vocabulary can improve independently of recipe text. Entries can also carry orig
 
 Draft 8 is implemented and experimental.
 
-The current repository contains **410 recipes** and **756 canonical vocabulary entries**: 433 ingredients, 119 equipment entries and 204 processes.
+The current repository contains **410 recipes** and **709 canonical vocabulary entries**: 386 ingredients, 119 equipment entries and 204 processes.
 
 The project currently includes:
 
@@ -162,9 +162,13 @@ The project currently includes:
 - independent origin/review [curation metadata](CURATION.md);
 - light and dark presentation using the six semantic colours shown above.
 
-All 410 recipes currently parse without errors. **Parser success is not culinary verification, and it is not proof that a recipe has been represented well.**
+The recipe corpus is uneven. All 410 recipes parse without errors, but they are not all at the same level of Sauce Code quality. **Parser success is not culinary verification, and it is not proof that a recipe has been represented well.**
 
-A large part of the corpus was generated from existing public-domain recipes and is still being systematically improved. Generated conversion is not the same thing as human review.
+The [recorded review/rewrite checkpoint](generated-reconversion-v2-deep.json) covers **222 recipes**: 6 gold/reference recipes, 34 earlier conservative v2 recipes and 182 deep-v2 reworked recipes. The later pass used structural quality checks to find likely conversion problems, such as unreferenced ingredients, overloaded actions and prose that could be represented more clearly. Recipes were then reviewed and restructured case by case, rather than just made to pass a check.
+
+**178 recipes remain pending** at the earlier conversion stage, and some are visibly rough. Another **10 are blocked by source ambiguities**; their earlier versions were retained rather than inventing missing details.
+
+The quality audit findings help locate and prioritise likely problems. They are not correctness scores and do not replace recipe-by-recipe judgement. Much of this work is generated; a later rewrite does not by itself establish deliberate human review.
 
 The knowledge layer is also deliberately incomplete. Quantity conversion, scaling, automatic dietary reasoning and a populated nutrition/density database are not finished features yet.
 
@@ -205,13 +209,13 @@ A future **Open Sauce Food Index would not be the source of truth**. It could pr
 | [demo](demo/), [tests](tests/), [scripts](scripts/) | UI, automated checks and import/report tooling |
 | [docs](docs/), root reports | Documentation, previews and retained audit reports |
 
-## Contributing
+## Current contribution focus
 
-Recipe fixes, deliberate reviews, aliases, parts/variants, renderer improvements, documentation and provenance corrections are all useful.
+Open Sauce Food is in an early design phase. Sauce Code, the knowledge model and data structures are still changing quickly, so small recipe fixes, isolated YAML additions and bulk data curation are not the priority yet.
 
-A pull request does not have to invent a better recipe to be worthwhile. Making the **Sauce Code** represent the same recipe more clearly is a real improvement in its own right.
+Design discussion is especially welcome: the overall shape of the project, syntax and semantics, ingredient/process/equipment modelling, recipe representation and provenance, reference knowledge, substitutions, dietary adaptation, rendering and planned features. Concrete edge cases help.
 
-Small, evidenced changes are easier to review than bulk canonicalisation. Language changes should come with a concrete recipe case and an explicit discussion rather than silently changing the grammar.
+Please open an issue or discussion before doing substantial data work. Once the foundations settle, individual recipe fixes, vocabulary additions and knowledge-data contributions will become much more useful.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 

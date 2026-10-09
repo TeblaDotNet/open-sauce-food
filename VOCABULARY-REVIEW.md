@@ -170,3 +170,17 @@ model. Egg-yolk/egg-white, lemon-juice/lemon-peel/lemon-wedge, chicken cuts and
 other compound overlaps remain deferred. Fresh/bottled lemon juice belong to the
 same conceptual Lemon → Juice product; this pass does not silently redirect the
 standalone ID. No bulk enrichment or new checked curation claims are made.
+
+## Focused ingredient migrations v1
+
+The subsequent migration retires lemon-juice as a standalone concept. Exact full
+lexical names lemon juice and lemon-juice target Lemon → Juice, retaining source
+spelling and qualifiers. Historical YAML/evidence is retained in
+`ingredient-migration-decisions.json`; the old static URL remains a compatibility
+page linking to the part. Egg and chicken compound migrations remain deferred.
+
+Self-raising Flour is promoted to an independent `type_of: flour` concept. The
+existing structured Flour variant explicitly targets that child. Butter Cake stays
+byte-identical; Damper changes only two commas to semicolons to express its existing
+self-raising meaning as type syntax. Its separate work-surface Flour is unchanged.
+Child usage remains independent. No state/preparation model or enrichment is added.
