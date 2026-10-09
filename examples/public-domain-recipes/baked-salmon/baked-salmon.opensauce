@@ -1,5 +1,6 @@
 ::recipe
 conversion stage: initial
+category: main
 
 name: Baked Salmon
 source: https://publicdomainrecipes.com/baked-salmon/

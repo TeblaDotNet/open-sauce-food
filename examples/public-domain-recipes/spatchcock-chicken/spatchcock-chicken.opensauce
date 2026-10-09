@@ -1,5 +1,6 @@
 ::recipe
 conversion stage: initial
+category: main
 
 name: Spatchcock Chicken
 source: https://publicdomainrecipes.com/spatchcock-chicken/

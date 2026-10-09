@@ -1,5 +1,6 @@
 ::recipe
 conversion stage: initial
+category: soup/stew
 
 name: Ratatouille
 source: https://publicdomainrecipes.com/ratatouille/

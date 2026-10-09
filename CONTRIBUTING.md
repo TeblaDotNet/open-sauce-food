@@ -100,3 +100,48 @@ Recipe rewrite contributions should update `conversion stage` deliberately when
 the representation is ready for public browsing. This does not change
 `curation review`; never equate restructuring with human checking. See
 [RECIPE-PUBLICATION.md](RECIPE-PUBLICATION.md).
+
+### Optional recipe classification
+
+Classification adds optional capabilities: a minimal recipe remains valid without
+`category`, `dietary`, `cuisine` or `region`. These fields are independent of
+`conversion stage`, `curation origin` and `curation review`.
+
+```text
+category: main
+dietary: vegan, nut-free
+cuisine: italian
+region: sicily
+```
+
+- `category` is one broad culinary role: `drink`, `bread/baking`,
+  `preserve/ferment`, `soup/stew`, `main`, `dessert`, `side`, `starter`, `sauce/seasoning/stock`,
+  `snack`, `breakfast`, or `miscellaneous`. Multiple values are not supported. Invalid, empty or duplicate
+  declarations produce a warning and no resolved category; raw text is retained.
+  Soups, chowders, broths-as-dishes and stews use `soup/stew`, regardless of
+  portion size. Reserve `starter` for clearly appetiser/first-course dishes that
+  are not primarily soup or stew.
+  `sauce/seasoning/stock` covers sauces, dressings, dips, spreads, relishes,
+  condiments, spice mixtures, dry rubs, seasoning blends, stocks, cooking-base
+  broths and similar prepared components used with or in another dish.
+  `miscellaneous` is a deliberately small residual category for preparations
+  without a defensible fit elsewhere. Prefer a meaningful specific category;
+  substantial growth of miscellaneous would suggest another real category is needed.
+- `dietary` is an extensible comma-separated list of author-supplied labels, such
+  as `vegan`, `vegetarian`, `nut-free`, `gluten-free` or `dairy-free`. Values are
+  trimmed, exact duplicates removed in first-seen order, and repeated lines
+  combined in source order. Empty entries produce a warning and no resolved list.
+  There is no controlled dietary vocabulary or inference in this version.
+- `cuisine` and `region` are optional single plain-text values with no controlled
+  vocabulary. Non-empty arbitrary strings are accepted. Empty or duplicate
+  declarations warn and leave the resolved field absent.
+
+Dietary labels are author-supplied and are not a guarantee of suitability. Check
+ingredients, substitutions and product labels for your own dietary requirements.
+They are advisory, not certification. HTML dietary displays include this advice.
+
+Corpus categories are provisional best-effort guesses of a primary role and can
+be corrected. Some preparations do not fit these broad roles and may remain
+uncategorised. Category discovery includes only `reworked` recipes; hidden direct
+pages retain their own metadata. These labels do not change publication or review
+status. No corpus-wide dietary, cuisine or region inference has been performed.

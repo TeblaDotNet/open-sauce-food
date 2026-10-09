@@ -64,7 +64,7 @@ export async function loadCorpus(root: string, vocabulary: Vocabulary, urls: Rou
     const metadata = recipe.sections.find(s => s.name === 'recipe')?.children.filter(n => n.kind === 'metadata') ?? [];
     const values = (key: string) => metadata.filter(n => n.key === key).map(n => n.value);
     const tags = values('tags').flatMap(v => v.split(',').map(t => t.trim()).filter(Boolean));
-    const categories = values('category').filter(Boolean);
+    const categories = recipe.category ? [recipe.category] : [];
     const media = new Set<string>();
     visitNodes(recipe, n => {
       if (n.kind === 'metadata' && n.key === 'image') media.add(n.value);
@@ -101,7 +101,7 @@ export async function loadCorpus(root: string, vocabulary: Vocabulary, urls: Rou
       'No obvious singular/plural duplicate pairs or spelling-variant pairs were found in the current tag inventory.',
       'Compound spellings such as icecream and slowcooked are retained; they have no matching spaced label in this corpus.',
       'Tags mix cuisine, ingredients, dish types, occasions, dietary/religious labels and subjective labels such as basic, easy and quick. This is provisional metadata, not a controlled taxonomy.',
-      'No malformed tag values or category spelling variants were found. Sparse category coverage is the principal category gap.'
+      'Categories are optional single broad culinary roles. Corpus assignments are provisional best guesses and can be corrected.'
     ],
     note: 'Authored labels and recipe memberships are preserved. Candidate duplicates are observations, not merges.'
   };

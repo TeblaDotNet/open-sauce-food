@@ -1,5 +1,6 @@
 ::recipe
 conversion stage: initial
+category: main
 
 name: Croque-monsieur bites
 source: https://publicdomainrecipes.com/croque-monsieur/

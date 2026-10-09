@@ -18,12 +18,12 @@ test('complete corpus browse memberships and canonical references are generated 
   assert.equal(generated.manifest.recipes.length, 410);
   assert.equal(generated.audit.distinctTags, 142);
   assert.equal(generated.audit.recipesWithTags, 216);
-  assert.equal(generated.audit.recipesWithCategory, 0);
-  assert.equal(generated.audit.recipesWithoutCategory.length, 216);
+  assert.equal(generated.audit.recipesWithCategory, 216);
+  assert.equal(generated.audit.recipesWithoutCategory.length, 0);
   assert.equal(generated.audit.tagSlugCollisions.length, 5);
   assert.equal(generated.manifest.pages.filter(p => p.includes('/recipe/')).length, 410);
   assert.equal(generated.validation.status, 'passed');
-  assert.equal(generated.validation.pages, 1266);
+  assert.equal(generated.validation.pages, 1278);
   assert.equal(generated.validation.references, 706);
   assert.equal(generated.validation.originalSourcePages, 391);
 });
@@ -215,4 +215,49 @@ test('public discovery and noindex are governed by explicit conversion stage', (
   const indexable = new Map(generated.files);
   indexable.set('recipe/orange-glorious/index.html',indexable.get('recipe/orange-glorious/index.html')!.toString().replace('<meta name="robots" content="noindex">',''));
   assert.throws(() => validateFiles(indexable,generated.manifest), /Incorrect publication indexing/);
+});
+
+
+test('category pages contain exactly the published members and hidden direct pages retain category', () => {
+  assert.equal(generated.manifest.categories.length, 12);
+  let total = 0;
+  for (const facet of generated.manifest.categories) {
+    const expected = generated.manifest.recipes.filter(r => r.conversionStage === 'reworked' && r.category === facet.value).map(r => r.slug).sort();
+    assert.deepEqual([...facet.recipes].sort(), expected);
+    assert.equal(facet.count, expected.length);
+    const html = generated.files.get(routes(config).output(routes(config).facet('category', facet.slug)))!.toString();
+    const linked = [...html.matchAll(/data-recipe="([^"]+)"/g)].map(m => m[1]).sort();
+    assert.deepEqual(linked, expected);
+    assert.ok(html.includes('Recipe category · ' + expected.length + ' recipe'));
+    total += facet.count;
+  }
+  assert.equal(total, 216);
+  for (const stage of ['initial', 'blocked']) {
+    const recipe = generated.manifest.recipes.find(r => r.conversionStage === stage && r.category)!;
+    const html = generated.files.get('recipe/' + recipe.slug + '/index.html')!.toString();
+    assert.ok(html.includes('<dt>category</dt><dd>' + recipe.category + '</dd>'));
+    assert.ok(html.includes('content="noindex"'));
+  }
+  const exposed = new Map(generated.files);
+  const path = 'recipes/category/main/index.html';
+  exposed.set(path, exposed.get(path) + '<a href="/opensaucefood/recipe/orange-glorious/">Hidden</a>');
+  assert.throws(() => validateFiles(exposed, generated.manifest), /Public navigation exposes hidden/);
+});
+
+test('existing dietary labels display advisory policy in both site recipe views', () => {
+  const html = generated.files.get('recipe/basic-waffles/index.html')!.toString();
+  assert.equal((html.match(/class="os-dietary-notice"/g) ?? []).length, 2);
+  assert.match(html, /Dietary labels are author-supplied and are not a guarantee of suitability/);
+});
+
+
+test('final component and residual categories use safe canonical routes without an old sauce page', () => {
+  assert.ok(generated.files.has('recipes/category/sauce-seasoning-stock/index.html'));
+  assert.ok(generated.files.has('recipes/category/miscellaneous/index.html'));
+  assert.ok(!generated.files.has('recipes/category/sauce/index.html'));
+  assert.ok(!generated.manifest.categories.some(c => c.value === 'sauce'));
+  const index = generated.files.get('recipes/index.html')!.toString();
+  assert.ok(index.includes('href="/opensaucefood/recipes/category/sauce-seasoning-stock/"'));
+  assert.ok(!index.includes('href="/opensaucefood/recipes/category/sauce/"'));
+  assert.ok(generated.manifest.categories.find(c => c.value === 'miscellaneous')!.recipes.includes('ricotta'));
 });

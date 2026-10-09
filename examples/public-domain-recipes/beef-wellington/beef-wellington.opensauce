@@ -1,5 +1,6 @@
 ::recipe
 conversion stage: initial
+category: main
 
 name: Beef Wellington
 source: https://publicdomainrecipes.com/beef-wellington/

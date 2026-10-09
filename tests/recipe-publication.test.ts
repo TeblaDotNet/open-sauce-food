@@ -37,7 +37,7 @@ test('all 410 recipes have one explicit stage and only header metadata changed',
     assert.ok(r.conversionStage); counts[r.conversionStage]++;
     assert.deepEqual(r.curation, b.curation);
     assert.deepEqual(r.sections.filter(s => s.originalSource).map(s => s.originalSource!.text), b.sections.filter(s => s.originalSource).map(s => s.originalSource!.text));
-    assert.deepEqual(r.diagnostics.map(d => [d.code,d.message]), b.diagnostics.map(d => [d.code,d.message]));
+    assert.deepEqual(r.diagnostics.map(d => [d.code,d.message]), b.diagnostics.filter(d => d.code !== 'INVALID_CATEGORY').map(d => [d.code,d.message]));
     assert.equal(r.diagnostics.filter(d => d.severity === 'error').length, 0);
     assert.equal(r.sections.filter(s => s.name === 'recipe').flatMap(s => s.children).filter(n => n.kind === 'metadata' && n.key === 'conversion stage').length, 1);
   }

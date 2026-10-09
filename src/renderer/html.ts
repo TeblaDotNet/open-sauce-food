@@ -1,3 +1,4 @@
+import { dietaryDisclaimer } from '../classification.ts';
 import { curationLabel } from '../curation.ts';
 import type { Node, Recipe, Token } from '../model/index.ts';
 import type { RenderOptions } from './index.ts';
@@ -114,7 +115,7 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
       if (n.key === 'image') return image(n.value, options.imageAlt ?? 'Recipe image') + comment(n.comment);
       const value = options.formatValue?.(n.value, 'metadata') ?? n.value;
       const url = n.key === 'source' ? safeUrl(n.value) : undefined;
-      return `<dl class="os-metadata"><dt>${e(n.key)}</dt><dd>${url ? `<a href="${e(url)}">${e(value)}</a>` : e(value)}</dd></dl>` + comment(n.comment);
+      return `<dl class="os-metadata"><dt>${e(n.key)}</dt><dd>${url ? `<a href="${e(url)}">${e(value)}</a>` : e(value)}</dd></dl>` + (n.key === 'dietary' || n.key === 'dietary options' ? `<p class="os-dietary-notice">${e(dietaryDisclaimer)}</p>` : '') + comment(n.comment);
     }
     if (n.kind === 'group') {
       const label = code ? (n.relationship === 'group' ? '[' : `${n.relationship} [`) : (n.relationship === 'group' ? 'Together' : n.relationship);

@@ -190,3 +190,17 @@ Legacy parameters without structured things retain their existing string-array
 representation. See SPEC's process-context recognition boundary: incidental
 parentheses remain literal, but an explicit `with (care)` is indistinguishable
 from an unknown thing named care and is treated as a reference.
+
+### Optional classification projection
+
+`Recipe.category?: RecipeCategory`, `Recipe.dietary?: string[]`,
+`Recipe.cuisine?: string`, and `Recipe.region?: string` project recipe-section
+metadata without changing raw nodes, spans, or source. Category has the twelve broad
+roles in SPEC section 4; cuisine/region are plain text and dietary labels remain
+extensible. Invalid classification warns and leaves that resolved field absent.
+Repeated dietary lines combine in source order with trimmed, exact-deduplicated
+values. Classification is independent of conversion stage and curation.
+Dietary labels are advisory, not suitability guarantees; see SPEC section 4.
+
+The prepared-component category is `sauce/seasoning/stock`; `miscellaneous` is a
+small residual category. Growth of the latter should prompt taxonomy review.

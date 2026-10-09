@@ -1,5 +1,6 @@
 ::recipe
 conversion stage: initial
+category: starter
 
 name: Ceviche
 source: https://publicdomainrecipes.com/ceviche/

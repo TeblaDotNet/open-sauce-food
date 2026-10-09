@@ -3,6 +3,7 @@ import type { Diagnostic, Group, Node, Recipe, Section, Span, Statement, Token }
 import type { Vocabulary } from '../vocabulary/index.ts';
 import { readCuration } from '../curation.ts';
 import { isConversionStage } from '../publication.ts';
+import { isRecipeCategory, recipeCategories } from '../classification.ts';
 
 export interface ParseOptions { filename?: string; vocabulary?: Vocabulary }
 const standard = new Set(['recipe', 'ingredients', 'equipment', 'instructions', 'story', 'notes', 'source']);
@@ -434,6 +435,26 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
     if (stages.length !== 1 || field.kind !== 'metadata' || !isConversionStage(field.value))
       report('warning', 'INVALID_CONVERSION_STAGE', 'Expected one conversion stage: initial, reworked or blocked.', field.span);
     else recipe.conversionStage = field.value;
+  }
+  const classification = recipe.sections.filter(s => s.name === 'recipe').flatMap(s => s.children)
+    .filter((n): n is import('../model/index.ts').Metadata => n.kind === 'metadata');
+  for (const key of ['category', 'cuisine', 'region'] as const) {
+    const fields = classification.filter(n => n.key === key);
+    if (!fields.length) continue;
+    const value = fields[0].value;
+    if (fields.length !== 1 || !value || (key === 'category' && !isRecipeCategory(value))) {
+      report('warning', 'INVALID_' + key.toUpperCase(), key === 'category'
+        ? `Expected one category: ${recipeCategories.join(', ')}.`
+        : `Expected one non-empty ${key} value.`, fields[0].span);
+    } else if (key === 'category') {
+      if (isRecipeCategory(value)) recipe.category = value;
+    } else recipe[key] = value;
+  }
+  const dietary = classification.filter(n => n.key === 'dietary');
+  if (dietary.length) {
+    const values = dietary.flatMap(n => n.value.split(',').map(value => value.trim()));
+    if (values.some(value => !value)) report('warning', 'INVALID_DIETARY', 'Expected non-empty comma-separated dietary labels.', dietary[0].span);
+    else recipe.dietary = [...new Set(values)];
   }
   return recipe;
 }
