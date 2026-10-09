@@ -1,3 +1,4 @@
+import { actionBoundaries } from '../src/conversion-evidence.ts';
 /** Conservative import helpers. This is a source adapter, not recipe grammar. */
 import { parse } from 'yaml';
 import type { Vocabulary } from '../src/vocabulary/index.ts';
@@ -77,7 +78,9 @@ const verbs = /^(bring to a boil|set aside|turn off|stir[- ]fry|deep[- ]fry|preh
 export function method(original: string, ingredients: readonly IngredientConversion[] = []): MethodConversion {
   const text = plain(original.replace(/^\s*(?:\d+[.)]|[-*])\s+/, ''));
   const match = text.match(verbs) ?? text.match(/^(allow|bring|cool|hang|keep|shred|store|use|wisk)\b\s*(.*)$/i);
-  if (match && !/[<>]/.test(text)) {
+  const heads = verbs.source.slice(2, verbs.source.indexOf(')\\b')).split('|').filter(v => !v.includes('['));
+  const boundaries = match ? actionBoundaries(text, heads) : [];
+  if (match && !boundaries.length && !/[<>]/.test(text)) {
     const process = match[1].toLowerCase(), rest = match[2].replace(/^[.!]+\s*/, '').replace(/[.!]$/, '');
     const candidates = ingredients.flatMap(item => {
       const label = item.name.replace(/[:;]/g, ' ').replace(/\s+/g, ' ');
@@ -89,6 +92,16 @@ export function method(original: string, ingredients: readonly IngredientConvers
       return [{ item, tail: object[1].trim() }];
     });
     const unique = candidates.length === 1 ? candidates[0] : undefined;
+    // Only exact, uniquely declared source/destination names; no pronoun or allocation guesses.
+    if (process === 'add') {
+      const addition = rest.match(/^(.+?) to (.+)$/i);
+      const resolve = (name: string) => ingredients.filter(i => i.name.toLowerCase() === name.replace(/^the /i, '').toLowerCase());
+      if (addition) {
+        const from = resolve(addition[1]), to = resolve(addition[2]);
+        if (from.length === 1 && to.length === 1 && from[0] !== to[0])
+          return { original, line: '(' + to[0].name + ') + (' + from[0].name + ')', mode: 'action', flags: [] };
+      }
+    }
     const token = unique ? `(${unique.item.name})` : undefined;
     const parameters = token && unique ? unique.tail : rest;
     return { original, line: `${token ? token + ' ' : ''}<${process}${parameters ? ', ' + parameters : ''}>`, process, mode: 'action', flags: parameters ? ['Free-text process arguments retain source wording; argument roles not inferred'] : [] };
@@ -96,5 +109,5 @@ export function method(original: string, ingredients: readonly IngredientConvers
   // No invented process/result or guessed conditional semantics. Typographic
   // parentheses prevent prose asides becoming physical-thing references.
   const literal = text.replace(/\(/g, '（').replace(/\)/g, '）').replace(/\[/g, '［').replace(/\]/g, '］').replace(/</g, '＜').replace(/>/g, '＞').replace(/\{/g, '｛').replace(/\}/g, '｝').replace(/#/g, '＃');
-  return { original, line: literal, mode: 'literal', flags: ['Conditional/narrative instruction retained as free text; review structural encoding'] };
+  return { original, line: literal, mode: 'literal', flags: [boundaries.length ? 'Multiple action heads: split into separate actions; use + for clear additions and declare known culinary things' : 'Conditional/narrative instruction retained as free text; review structural encoding'] };
 }

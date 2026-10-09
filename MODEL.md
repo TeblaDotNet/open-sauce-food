@@ -107,6 +107,12 @@ cause an error just because the parser cannot interpret them.
 
 The HTML renderer consumes this model without modifying it. Existing node IDs
 become prefixed HTML IDs; reference annotations appear as `data-*` attributes.
+Compact may render one unambiguous subordinate `<stir, occasionally>` or
+`<turn, halfway through>` child of a cooking action as a participial phrase,
+with the parent judgement last. Multiple children, explicit different subjects,
+comments and unsupported forms retain separate sentences. This presentation
+choice does not change the AST, Code, or add scheduling semantics.
+
 Internal Compact phrase parts retain token identity alongside plain-text labels,
 so semantic spans/links can survive rearrangement into English sentences. Phrase
 parts are a renderer detail, not a new AST or a change to the model version.

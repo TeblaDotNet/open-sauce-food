@@ -1,5 +1,14 @@
 # Public corpus import and review
 
+Current conversion guidance: prefer one action head per `<...>`, `+` for simple
+addition in a clear context, and declared structured references for confidently
+recognised culinary things. The reusable `method()` helper now retains detected
+multi-action sentences as reviewable literal text rather than packing them into
+one token. It emits `+` only for exact, unique declared source/destination names;
+ambiguous additions retain their legal explicit action form. CQ005/CQ008 provide
+advisory review evidence; neither rewrites recipes or invents declarations.
+Historical import records below are unchanged.
+
 Public-release subset, 8 October 2026. This replaces the private full-import report; it does not rewrite that historical evidence.
 
 Pinned upstream: https://github.com/ronaldl29/public-domain-recipes, revision `da84378b36bd5b2e3cb35f610d64630bf1bd899d`.

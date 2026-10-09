@@ -375,6 +375,24 @@ Examples:
 
 Open Sauce Food should not require every cooking phrase to become rigid machine vocabulary.
 
+Preferred authoring/conversion rule: **ONE `<...>` TOKEN = ONE ACTION HEAD.**
+Parameters describe that action, not another independent action. For example,
+prefer `<cook, 12m>` with an indented `<stir, occasionally>` to hiding stirring
+inside the cook parameters. This is advisory style, not a parser restriction.
+
+For simple addition to an unambiguous subject, prefer `+` over `<add>`:
+`(pot, medium) + (water) 1 1/4 cup + (salt) 1/4 tsp`, or an indented
+`+ (salt)` under a sauce definition. `<add>` remains legal when context is
+unclear or its explicit action form is needed.
+
+Conversion invariant: confidently recognised culinary ingredients/equipment used
+in instructions should be structured as `(thing)` and declared in the appropriate
+section, retaining source quantities and qualifiers. Use curated vocabulary and
+culinary-use evidence; do not guess from ambiguous names, incidental nouns or
+narrative mentions. Advisory tooling reports candidates; it does not rewrite
+recipes or make parser legality vocabulary-dependent.
+
+
 ### Postfix judgement conditions
 
 `<process, parameters> ?= qualitative target` attaches a cook-judged completion

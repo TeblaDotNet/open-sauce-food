@@ -192,9 +192,33 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
     let children = multiline ? n.children.flatMap(c => c.kind !== 'statement' ? [c] : [
       ...(c.comment === undefined ? [] : [{ kind: 'comment' as const, id: c.id, span: c.span, indent: c.indent, text: c.comment }]), ...c.children
     ]) : n.children;
+    // A narrowly recognised subordinate action can be phrased participially.
+    // Multiple actions, explicit subjects, comments and custom hooks keep sentences separate.
+    const parentProcesses = n.tokens.filter(t => t.kind === 'process');
+    const thermal = parentProcesses.length === 1 && /^(cook|simmer|fry|roast|bake|grill)$/.test(parentProcesses[0].name ?? '');
+    const subordinateChildren = thermal && children.some(c => c.kind === 'statement' && c.tokens.some(t => t.kind === 'process' && /^(stir|turn)$/.test(t.name ?? '')));
+    const child = children.length === 1 && children[0].kind === 'statement' ? children[0] : undefined;
+    const childTokens = child?.tokens.filter(t => t.raw.trim()) ?? [];
+    const subordinate = childTokens.length === 1 && childTokens[0].kind === 'process' ? childTokens[0] : undefined;
+    const parentTokens = n.tokens.filter(t => t.raw.trim());
+    const judgement = parentTokens.find(t => t.kind === 'judgement');
+    const sameSubject = child && (child.inheritedSubjectId === (n.inheritedSubjectId ?? n.id) ||
+      (!child.inheritedSubjectId && !n.inheritedSubjectId && parentTokens.every(t => t.kind === 'process' || t.kind === 'judgement')));
+    const modifier = subordinate?.parameters?.length === 1 ? subordinate.parameters[0] : undefined;
+    const natural = subordinate?.name === 'stir' && modifier === 'occasionally' ? 'stirring' :
+      subordinate?.name === 'turn' && modifier === 'halfway through' ? 'turning' : undefined;
+    if (section === 'instructions' && thermal && child && subordinate && natural && sameSubject &&
+        !options.formatTerm && !options.formatValue && n.comment === undefined && child.comment === undefined &&
+        !child.children.length && parentTokens.every(t => ['thing','result','process','judgement'].includes(t.kind)) &&
+        parentTokens.filter(t => t.kind === 'thing' || t.kind === 'result').length <= 1) {
+      parts = [...instruction({ ...n, tokens: n.tokens.filter(t => t.kind !== 'judgement') }), ...text(', '),
+        { token: subordinate, text: natural, nodeId: child.id, inheritedSubjectId: child.inheritedSubjectId }, ...text(' ' + modifier),
+        ...(judgement?.judgement ? [...text(', until '), { token: judgement, text: judgement.judgement.text }] : [])];
+      children = [];
+    }
     // Consume only a contiguous run of pure inherited actions. Comments, images,
     // additions, explicit subjects, alternatives and groups remain hard boundaries.
-    if (section === 'instructions' && !multiline && !(options.comments && n.comment !== undefined) &&
+    if (section === 'instructions' && !multiline && !subordinateChildren && !(options.comments && n.comment !== undefined) &&
         n.tokens.some(t => t.kind === 'process') && !n.tokens.some(t => t.kind === 'operator') &&
         n.tokens.filter(t => t.kind === 'thing' || t.kind === 'result').length <= 1) {
       const actions: Phrase[] = [parts];
