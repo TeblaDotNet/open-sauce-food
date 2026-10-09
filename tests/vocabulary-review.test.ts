@@ -10,11 +10,13 @@ import { classifyCandidate, knownVariant } from '../scripts/vocabulary-candidate
 
 const vocabulary = await loadVocabulary('.');
 const decisions = JSON.parse(await readFile('vocabulary-review-decisions.json', 'utf8'));
+const localRoles = JSON.parse(await readFile('ingredient-local-role-decisions.json', 'utf8'));
+const isRetired = (c: {kind: string; id: string}) => c.kind === 'ingredient' && localRoles.entries.some((e: {id: string}) => e.id === c.id);
 const baseline = JSON.parse(await readFile('vocabulary-review-baseline.json', 'utf8'));
 
 test('reviewed aliases and explicit plurals resolve uniquely without guessed morphology', () => {
   for (const change of decisions.changes.filter((c: any) => ['alias','plural'].includes(c.action)))
-    assert.deepEqual(vocabulary.resolve(change.term, change.kind).map(e => e.id), [change.id], change.term);
+    assert.deepEqual(vocabulary.resolve(change.term, change.kind).map(e => e.id), isRetired(change) ? [] : [change.id], change.term);
   for (const [term,id] of [['feta cheese','feta'],['rocket','arugula'],['shallots','shallot']])
     assert.equal(vocabulary.resolve(term, 'ingredient')[0].id,id);
   assert.deepEqual(vocabulary.resolve('potatos','ingredient'),[]);
@@ -23,7 +25,7 @@ test('reviewed aliases and explicit plurals resolve uniquely without guessed mor
 });
 
 test('new concepts are generated and unchecked; all reference pages render', () => {
-  assert.equal(vocabulary.entries.length, baseline.entries.length + 24);
+  assert.equal(vocabulary.entries.length, baseline.entries.length + 24 - 2 - localRoles.entries.length /* duplicate merges and reviewed local roles */);
   for (const change of decisions.changes.filter((c: any) => c.action === 'new-concept')) {
     const entry = vocabulary.entries.find(e=>e.id===change.id&&e.kind===change.kind)!;
     assert.deepEqual(entry.curation,{origin:'generated',review:'unchecked'});

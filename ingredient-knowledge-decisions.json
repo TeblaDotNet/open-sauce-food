@@ -1,0 +1,23 @@
+{
+  "pass": "ingredient-knowledge-v1",
+  "baselineCommit": "1a75a35b6e53f9b6251ce463004a93d833c5def6",
+  "policy": "Generated canonical identity review; no human-checked claim. Recipes unchanged. Only singular/plural duplicates merged.",
+  "beforeCount": 433,
+  "afterCount": 431,
+  "changes": [
+    {
+      "from": "oat",
+      "to": "oats",
+      "category": "A",
+      "confidence": "safe-high-confidence",
+      "reason": "Same generic ingredient, differing only by grammatical number. The oat-milk Original source explicitly calls it oats; oats has three current recipe uses and legacy history versus one for oat."
+    },
+    {
+      "from": "red-chillies",
+      "to": "red-chilli",
+      "category": "A",
+      "confidence": "safe-high-confidence",
+      "reason": "Singular/plural duplicate; dried remains an authored qualifier, not a separate canonical identity. red-chilli already accepts the regional plural red chilies and has four recipe uses versus one."
+    }
+  ]
+}

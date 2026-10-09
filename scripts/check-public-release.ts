@@ -32,7 +32,7 @@ for (const slug of exclusions) {
 const promoted = files.filter(f => f.startsWith('examples/public-domain-recipes/') && f.endsWith('.opensauce'));
 assert.equal(promoted.length, 410);
 const vocabulary = await loadVocabulary('.');
-assert.equal(vocabulary.entries.length, 756);
+assert.equal(vocabulary.entries.length, 709);
 let links = 0, authoredDocs = 0;
 const missing: string[] = [];
 for (const f of files) {

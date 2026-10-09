@@ -16,6 +16,33 @@ evidence:
   legacy_terms:
   - term: oats
     count: 1
+  canonicalisation:
+    pass: ingredient-knowledge-v1
+    baseline_commit: 1a75a35b6e53f9b6251ce463004a93d833c5def6
+    confidence: safe-high-confidence
+    reason: Same generic ingredient, differing only by grammatical number. The
+      oat-milk Original source explicitly calls it oats; oats has three current
+      recipe uses and legacy history versus one for oat.
+    review: unchecked
+    absorbed_entries:
+    - id: oat
+      kind: ingredient
+      canonical_name: oat
+      names:
+        en: oat
+      status: canonical-seed
+      evidence:
+        current_recipe_count: 1
+        current_observation_count: 1
+        legacy_observation_count: 0
+        observed_terms:
+        - term: oat
+          count: 1
+        seen_in:
+        - examples/public-domain-recipes/oat-milk/oat-milk.opensauce
 observed_qualifiers:
 - value: rolled
   count: 1
+aliases:
+- name: oat
+  type: ingredient-knowledge-v1-compatibility

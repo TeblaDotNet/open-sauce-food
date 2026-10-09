@@ -13,6 +13,33 @@ evidence:
     count: 1
   seen_in:
   - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce
+  canonicalisation:
+    pass: ingredient-knowledge-v1
+    baseline_commit: 1a75a35b6e53f9b6251ce463004a93d833c5def6
+    confidence: safe-high-confidence
+    reason: Singular/plural duplicate; dried remains an authored qualifier, not a
+      separate canonical identity. red-chilli already accepts the regional
+      plural red chilies and has four recipe uses versus one.
+    review: unchecked
+    absorbed_entries:
+    - id: red-chillies
+      kind: ingredient
+      canonical_name: red chillies
+      names:
+        en: red chillies
+      status: canonical-seed
+      evidence:
+        current_recipe_count: 1
+        current_observation_count: 1
+        legacy_observation_count: 0
+        observed_terms:
+        - term: red chillies
+          count: 1
+        seen_in:
+        - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce
+      observed_qualifiers:
+      - value: dried
+        count: 1
 observed_qualifiers:
 - value: optional
   count: 1
@@ -21,3 +48,9 @@ observed_qualifiers:
 aliases:
 - name: red chilies
   type: review-pass-1-lexical
+- name: red-chillies
+  type: ingredient-knowledge-v1-compatibility
+- name: red chillies
+  type: ingredient-knowledge-v1-compatibility
+plural_names:
+  en: red chillies

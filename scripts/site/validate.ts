@@ -16,7 +16,7 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
   assert.equal(new Set(manifest.pages).size, manifest.pages.length, 'Duplicate routes');
   assert.equal(html.size, manifest.pages.length, 'Unlisted generated page');
   assert.equal(manifest.recipes.length, 410, 'Public recipe count changed');
-  const referenceCounts = { ingredient: 433, process: 201, equipment: 119 };
+  const referenceCounts = { ingredient: 386, process: 201, equipment: 119 };
   for (const kind of ['ingredient', 'process', 'equipment'] as const) {
     const entries = manifest.references.filter(r => r.kind === kind);
     assert.equal(entries.length, referenceCounts[kind], `Canonical ${kind} count changed`);
