@@ -1,5 +1,6 @@
 id: olive-oil
 kind: ingredient
+type_of: oil
 canonical_name: olive oil
 names:
   en: olive oil

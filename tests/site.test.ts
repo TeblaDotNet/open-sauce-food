@@ -117,7 +117,7 @@ test('full-site source hashes, reference usage and media coverage match the corp
   const exclusions = JSON.parse(await readFile('release-exclusions.json', 'utf8')).records.map((r: { slug: string }) => r.slug);
   assert.ok(!generated.manifest.recipes.some(r => exclusions.includes(r.slug)));
   assert.equal(generated.manifest.recipes.filter(r => r.media.length).length, 138);
-  assert.equal(generated.manifest.references.reduce((sum, ref) => sum + ref.usageCount, 0), generated.validation.usageBacklinks);
+  assert.equal(generated.manifest.references.reduce((sum, ref) => sum + ref.usageCount + ref.partUsage.reduce((n, p) => n + p.recipes.length, 0), 0), generated.validation.usageBacklinks);
   const wrong = structuredClone(generated.manifest); wrong.references[0].usageCount++;
   assert.throws(() => validateFiles(generated.files, wrong), /Usage must count distinct/);
 });
@@ -150,4 +150,24 @@ test('reviewed local ingredient roles have no generated pages, index identities 
     for (const record of generated.manifest.recipes)
       assert.ok(!record.semanticLinks.includes(routes(config).reference('ingredient', id)), `${record.slug}: ${id}`);
   }
+});
+
+test('ingredient family and part pages retain independent routes and verified backlinks', () => {
+  for (const [child, parent] of [['wheat-flour', 'flour'], ['olive-oil', 'oil']]) {
+    const childHtml = generated.files.get(`ingredients/${child}/index.html`)!.toString();
+    const parentHtml = generated.files.get(`ingredients/${parent}/index.html`)!.toString();
+    assert.ok(childHtml.includes(`Type of: <a href="${routes(config).reference('ingredient', parent)}">`));
+    assert.ok(parentHtml.includes(`<h2>Types</h2><ul><li><a href="${routes(config).reference('ingredient', child)}">`));
+  }
+  for (const [id, part] of [['egg','yolk'], ['egg','white'], ['lemon','juice']]) {
+    const entry = generated.manifest.references.find(r => r.kind === 'ingredient' && r.id === id)!;
+    const usage = entry.partUsage.find(p => p.anchor === `part-${part}`)!;
+    assert.ok(usage.recipes.length > 0);
+    const html = generated.files.get(`ingredients/${id}/index.html`)!.toString();
+    const section = html.split(`id="part-${part}"`)[1].split('</section>')[0];
+    for (const slug of usage.recipes) assert.ok(section.includes(`href="${routes(config).recipe(slug)}"`));
+  }
+  const wrong = structuredClone(generated.manifest);
+  wrong.references.find(r => r.id === 'egg' && r.kind === 'ingredient')!.partUsage[0].recipes.push('not-a-recipe');
+  assert.throws(() => validateFiles(generated.files, wrong), /Part usage/);
 });

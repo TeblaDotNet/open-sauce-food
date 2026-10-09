@@ -6,7 +6,7 @@ import type { ReferenceKind } from '../../src/reference/index.ts';
 import type { SiteConfig } from './routes.ts';
 export interface Manifest {
   config: Omit<SiteConfig, 'outDir'>; representative: string; recipes: RecipeRecord[]; pages: string[];
-  references: { kind: ReferenceKind; id: string; usageCount: number; usageRecipes: string[] }[]; tags: Facet[]; categories: Facet[];
+  references: { kind: ReferenceKind; id: string; usageCount: number; usageRecipes: string[]; partUsage?: { anchor: string; recipes: string[] }[] }[]; tags: Facet[]; categories: Facet[];
 }
 const decode = (s: string) => s.replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 export function validateFiles(files: Map<string, string | Buffer>, manifest: Manifest) {
@@ -137,7 +137,15 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
     const reference = html.get(urls.output(urls.reference(ref.kind, ref.id)))!;
     assert.ok(!reference.includes('Nutrition per 100 g'), 'Nutrition is out of scope');
     assert.equal(new Set(ref.usageRecipes).size, ref.usageCount, 'Usage must count distinct recipes');
-    const expected = ref.usageRecipes.map(slug => urls.recipe(slug)).sort();
+    const expected = [...ref.usageRecipes, ...(ref.partUsage ?? []).flatMap(p => p.recipes)].map(slug => urls.recipe(slug)).sort();
+    for (const part of ref.partUsage ?? []) {
+      assert.ok(ids.get(urls.output(urls.reference(ref.kind, ref.id)))?.has(part.anchor), 'Missing part usage anchor');
+      assert.equal(new Set(part.recipes).size, part.recipes.length, 'Duplicate recipe in part usage');
+      for (const slug of part.recipes) {
+        assert.ok(ref.usageRecipes.includes(slug), 'Part usage missing from concept usage');
+        assert.ok(manifest.recipes.find(r => r.slug === slug)?.semanticLinks.includes(urls.reference(ref.kind, ref.id) + '#' + part.anchor), 'Part usage disagrees with authored tokens');
+      }
+    }
     const actual = [...reference.matchAll(/href="([^"]*)"/g)].map(m => decode(m[1])).filter(href => href.startsWith(urls.page('recipe'))).sort();
     assert.deepEqual(actual, expected, `Wrong usage backlinks: ${ref.kind}/${ref.id}`); usageBacklinks += actual.length;
     for (const slug of ref.usageRecipes) {

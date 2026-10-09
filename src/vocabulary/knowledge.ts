@@ -70,6 +70,7 @@ export function validateIngredientKnowledge(value: unknown, path: string, ancest
     for (const [key, part] of Object.entries(data.parts as Record<string, unknown>)) {
       if (!id(key) || !record(part) || !names(part.names) ||
         (part.aliases !== undefined && (!Array.isArray(part.aliases) || !part.aliases.every(string)))) fail(`parts.${key}`);
+      if (record(part) && part.type_of !== undefined) fail(`parts.${key}.type_of`);
       validateIngredientKnowledge(part, `${path}.parts.${key}`, ancestors);
     }
   }

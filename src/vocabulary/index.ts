@@ -4,6 +4,8 @@ import type { Curation } from '../curation.ts';
 import type { IngredientKnowledge, IngredientPart, PartGroup } from './knowledge.ts';
 export * from './knowledge.ts';
 export interface VocabularyEntry extends IngredientKnowledge {
+  /** One direct ingredient family; no inheritance or alias expansion. */
+  type_of?: string;
   curation?: Curation;
   id: string; kind: 'ingredient' | 'equipment' | 'process';
   /** False for ordinary actions that do not have public culinary reference pages. */
@@ -28,9 +30,23 @@ export class Vocabulary {
         this.diagnostics.push({ severity: 'warning', code: 'INVALID_CURATION', entryId: entry.id, message });
       if (entry.reference !== undefined && (entry.kind !== 'process' || typeof entry.reference !== 'boolean'))
         throw new Error('reference must be a boolean on a process entry: ' + entry.id);
+      if (entry.type_of !== undefined && (entry.kind !== 'ingredient' || typeof entry.type_of !== 'string' || !/^[a-z][a-z0-9_-]*$/.test(entry.type_of)))
+        throw new Error(`Invalid type_of on ${entry.id}: expected one canonical ingredient ID`);
       validateIngredientKnowledge(entry, entry.id);
       if (entry.kind !== 'ingredient' && ['variants', 'parts', 'part_groups', 'typical_mass', 'reference_density', 'nutrition'].some(k => Object.hasOwn(entry, k)))
         throw new Error(`Ingredient knowledge on non-ingredient: ${entry.id}`);
+    }
+    // Validate explicit family edges after every entry is available. No inferred edges.
+    for (const entry of entries) {
+      const seen = new Set([entry.id]);
+      let current = entry;
+      while (current.type_of !== undefined) {
+        const matches = entries.filter(e => e.kind === 'ingredient' && e.id === current.type_of);
+        if (matches.length !== 1) throw new Error('Invalid type_of target on ' + current.id);
+        if (seen.has(matches[0].id)) throw new Error('Cyclic type_of on ' + entry.id);
+        seen.add(matches[0].id);
+        current = matches[0];
+      }
     }
     this.entries = entries;
   }

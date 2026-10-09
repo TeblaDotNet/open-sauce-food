@@ -155,3 +155,18 @@ Run `node scripts/report-public-domain-import.ts` then `node scripts/report-voca
 Run `pnpm check`, `pnpm build`, `pnpm test` and `pnpm corpus`. Tests generate every canonical reference model/page, check aliases and local structures, reject malformed variants, and compare all 410 recipe hashes with the pre-review baseline.
 
 This is a public-subset regeneration of the historical review; see RELEASE-VALIDATION.md for release checks.
+
+## Ingredient relationship model v1
+
+The later relationship pass adds `type_of` support and only two data edges:
+`wheat-flour → flour` and `olive-oil → oil`. Both children keep independent pages
+and usage counts. Existing egg yolk/white and lemon juice local parts demonstrate
+part anchors and per-part backlinks without changing recipe bytes or removing
+standalone entries. See [VOCABULARY-SCHEMA.md](VOCABULARY-SCHEMA.md) for semantics.
+
+Self-raising flour has no standalone canonical entry yet; its current local
+variant is retained, with an independent family-linked page the intended future
+model. Egg-yolk/egg-white, lemon-juice/lemon-peel/lemon-wedge, chicken cuts and
+other compound overlaps remain deferred. Fresh/bottled lemon juice belong to the
+same conceptual Lemon → Juice product; this pass does not silently redirect the
+standalone ID. No bulk enrichment or new checked curation claims are made.
