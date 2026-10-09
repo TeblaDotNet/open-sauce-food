@@ -70,6 +70,7 @@ export interface ReferencePart extends ReferenceKnowledge {
 export interface ReferenceKnowledge extends QuantitativeKnowledge { parts: ReferencePart[]; groups: ReferenceGroup[] }
 export interface ReferenceRelation { id: string; name: string; url?: string }
 export interface ReferencePage extends ReferenceKnowledge {
+  states?: VocabularyEntry['states'];
   typeOf?: ReferenceRelation;
   types?: ReferenceRelation[];
   variants?: IngredientKnowledge['variants'];
@@ -112,6 +113,7 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
     })
   });
   return structuredClone({ ...knowledge(entry, []), id, kind, name: displayName(entry.names, entry.canonical_name ?? id),
+    states: entry.states,
     typeOf: parent ? relation(parent) : undefined,
     types: kind === 'ingredient' ? vocabulary.entries.filter(e => e.kind === 'ingredient' && e.type_of === id)
       .map(relation).sort((a, b) => a.name.localeCompare(b.name)) : undefined,

@@ -4,6 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { runInNewContext } from 'node:vm';
 import { parseRecipe, renderHtml } from '../src/index.ts';
 import { isStructuredValue } from '../src/renderer/syntax.ts';
+import { loadVocabulary } from '../src/vocabulary/node.ts';
 import { demoRecipes } from '../scripts/demo-server.ts';
 
 const fixture = `::ingredients
@@ -68,4 +69,28 @@ test('Tebla theme defaults dark, persists explicit choice, tolerates denied stor
     assert.equal(attrs['aria-label'],dark?'Switch to dark mode':'Switch to light mode');
     if(saved!=='denied')assert.deepEqual(writes,[['dark-mode',!dark]]);
   }
+});
+
+
+test('local ingredient roles and choices keep semantic colour without reference affordances', async () => {
+  const vocabulary = await loadVocabulary('.');
+  const source = await readFile('examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce', 'utf8');
+  const recipe = parseRecipe(source, {vocabulary});
+  const before = JSON.stringify(recipe);
+  const linked: string[] = [];
+  const html = renderHtml(recipe, {view: 'code', syntaxSpans: true, referenceUrl: t => {
+    linked.push(t.token.name!); return '/reference/' + t.kind + '/' + t.canonicalId;
+  }});
+  const locals = [...html.matchAll(/<span class="os-token os-choice"[^>]*>\(<span class="os-syntax-ingredient">heat seasoning<\/span>\)<\/span>/g)];
+  assert.equal(locals.length, 3);
+  for (const [local] of locals) assert.doesNotMatch(local, /<a\b|href=|data-canonical-id=|class="[^"]*(?:link|underline)/);
+  assert.ok(!linked.includes('heat seasoning'));
+  assert.match(html, /<a class="os-token os-ingredient"[^>]*href="\/reference\/ingredient\/cayenne-pepper">\(<span class="os-syntax-ingredient">cayenne pepper<\/span>/);
+  assert.equal(JSON.stringify(recipe), before);
+
+  const other = parseRecipe('::ingredients\n(seasoning) 1g\n::equipment\n(tool choice) = (spoon) -OR- (fork)\n(pan)\n::instructions\n{mixture} = (seasoning)\n{mixture} <stir, 2 min>\n(tool choice)', {vocabulary});
+  const rendered = renderHtml(other, {syntaxSpans: true});
+  for (const [role, word] of [['ingredient','seasoning'], ['equipment','tool choice'], ['equipment','pan'], ['process','stir'], ['result','{mixture}'], ['value','2 min']])
+    assert.ok(rendered.includes('<span class="os-syntax-' + role + '">' + word + '</span>'), role + ': ' + word);
+  assert.doesNotMatch(rendered, /<a\b/);
 });

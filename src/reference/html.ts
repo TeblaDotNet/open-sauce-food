@@ -53,6 +53,8 @@ export function renderReferenceHtml(page: ReferencePage, options: ReferenceHtmlO
   return `<article class="os-reference" data-kind="${escape(page.kind)}" data-colour="${options.colour === false ? 'off' : 'on'}"><header><h1>${escape(page.name)}</h1><p>${escape(page.kind)} · canonical ID: <code>${escape(page.id)}</code>${page.status ? ` · ${escape(page.status)}` : ''}</p>${readCuration(page.curation).curation ? `<p class="os-curation"><small>Curation: ${escape(curationLabel(page.curation!))}</small></p>` : ''}${page.canonicalName && page.canonicalName !== page.name ? `<p>Canonical name: ${escape(page.canonicalName)}</p>` : ''}</header>` +
     (page.typeOf ? `<p>Type of: ${link(page.typeOf.url, page.typeOf.name)}</p>` : '') +
     section('Types', list((page.types ?? []).map(t => link(t.url, t.name)))) +
+    section('States / preparations', list(Object.entries(page.states ?? {}).map(([id, state]) =>
+      `<strong>${escape(id)}</strong>: ${[...new Set([...Object.values(state.names), ...(state.aliases ?? [])])].map(escape).join(' / ')}`))) +
     section('Names', names(page.names, page.pluralNames)) +
     section('Variants', list(Object.values(page.variants ?? {}).map(v => `<span class="os-syntax-specificity">${Object.values(v.names).map(escape).join(' / ')}</span>`))) +
     section('Aliases', list(page.aliases.map(a => `${escape(a.name)}${a.type ? ` · ${escape(a.type)}` : ''}${a.observed_count !== undefined ? ` · recorded observations: ${escape(String(a.observed_count))}` : ''}`))) +

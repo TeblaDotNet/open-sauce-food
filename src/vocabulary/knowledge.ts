@@ -58,6 +58,20 @@ export function validateIngredientKnowledge(value: unknown, path: string, ancest
     ['locale', 'state'].every(k => v[k] === undefined || string(v[k]));
   if (data.lexical_names !== undefined && (!Array.isArray(data.lexical_names) || !data.lexical_names.length || !data.lexical_names.every(string))) fail('lexical_names');
   if (data.plural_names !== undefined && !names(data.plural_names)) fail('plural_names');
+  if (data.states !== undefined) {
+    if (!record(data.states)) fail('states');
+    const terms = new Map<string, string>();
+    for (const [key, state] of Object.entries(data.states as Record<string, unknown>)) {
+      if (!id(key) || !record(state) || !names(state.names) ||
+        (state.aliases !== undefined && (!Array.isArray(state.aliases) || !state.aliases.every(string)))) fail('states.' + key);
+      const s = state as { names: Record<string, string>; aliases?: string[] };
+      for (const term of [key, ...Object.values(s.names), ...(s.aliases ?? [])]) {
+        const normalized = term.trim().toLowerCase();
+        if (terms.has(normalized) && terms.get(normalized) !== key) fail('states.ambiguous_alias');
+        terms.set(normalized, key);
+      }
+    }
+  }
   if (data.variants !== undefined) {
     if (!record(data.variants)) fail('variants');
     for (const [key, variant] of Object.entries(data.variants as Record<string, unknown>))
@@ -74,6 +88,7 @@ export function validateIngredientKnowledge(value: unknown, path: string, ancest
     for (const [key, part] of Object.entries(data.parts as Record<string, unknown>)) {
       if (!id(key) || !record(part) || !names(part.names) ||
         (part.aliases !== undefined && (!Array.isArray(part.aliases) || !part.aliases.every(string)))) fail(`parts.${key}`);
+      if (record(part) && part.states !== undefined) fail(`parts.${key}.states`);
       if (record(part) && part.type_of !== undefined) fail(`parts.${key}.type_of`);
       if (record(part) && record(part.variants) && Object.values(part.variants).some(v => record(v) && v.canonical_id !== undefined)) fail(`parts.${key}.variants.canonical_id`);
       validateIngredientKnowledge(part, `${path}.parts.${key}`, ancestors);

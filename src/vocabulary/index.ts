@@ -3,7 +3,10 @@ import { readCuration } from '../curation.ts';
 import type { Curation } from '../curation.ts';
 import type { IngredientKnowledge, IngredientPart, PartGroup } from './knowledge.ts';
 export * from './knowledge.ts';
+export interface IngredientState { names: Record<string, string>; aliases?: string[] }
 export interface VocabularyEntry extends IngredientKnowledge {
+  /** Explicit local states of this whole ingredient/type; never inherited. */
+  states?: Record<string, IngredientState>;
   /** One direct ingredient family; no inheritance or alias expansion. */
   type_of?: string;
   curation?: Curation;
@@ -42,7 +45,7 @@ export class Vocabulary {
       if (entry.type_of !== undefined && (entry.kind !== 'ingredient' || typeof entry.type_of !== 'string' || !/^[a-z][a-z0-9_-]*$/.test(entry.type_of)))
         throw new Error(`Invalid type_of on ${entry.id}: expected one canonical ingredient ID`);
       validateIngredientKnowledge(entry, entry.id);
-      if (entry.kind !== 'ingredient' && ['variants', 'parts', 'part_groups', 'typical_mass', 'reference_density', 'nutrition'].some(k => Object.hasOwn(entry, k)))
+      if (entry.kind !== 'ingredient' && ['states', 'variants', 'parts', 'part_groups', 'typical_mass', 'reference_density', 'nutrition'].some(k => Object.hasOwn(entry, k)))
         throw new Error(`Ingredient knowledge on non-ingredient: ${entry.id}`);
     }
     // Validate explicit family edges after every entry is available. No inferred edges.
@@ -115,6 +118,14 @@ export class Vocabulary {
           partResolution: resolved ? { ids: resolved.ids, complete: resolved.complete } : undefined };
       });
     });
+  }
+  /** Exact local qualifier matching; no prose inference, transitions or inheritance. */
+  resolveState(baseId: string, qualifier: string): string | undefined {
+    const entries = this.entries.filter(e => e.kind === 'ingredient' && e.id === baseId);
+    if (entries.length !== 1) return undefined;
+    const key = qualifier.trim().toLowerCase();
+    return Object.entries(entries[0].states ?? {}).find(([id, state]) =>
+      [id, ...Object.values(state.names), ...(state.aliases ?? [])].some(n => n.trim().toLowerCase() === key))?.[0];
   }
   partGroups(baseId: string, parentParts: readonly string[] = []): { id: string; group: PartGroup }[] {
     const resolved = this.resolvePartPath(baseId, parentParts);

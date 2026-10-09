@@ -184,3 +184,11 @@ existing structured Flour variant explicitly targets that child. Butter Cake sta
 byte-identical; Damper changes only two commas to semicolons to express its existing
 self-raising meaning as type syntax. Its separate work-surface Flour is unchanged.
 Child usage remains independent. No state/preparation model or enrichment is added.
+
+## Ingredient states v1
+
+The focused proof attaches dry, soaked, cooked and tinned/canned explicitly to
+lentils and brown-lentils, and adds brown-lentils → lentils as a direct type edge.
+No other ingredient or recipe is migrated. Exact qualifiers can gain additive
+state annotations; observed prose is not an alias rule. Green/red/Puy/beluga lentil
+identities remain future review work. See VOCABULARY-SCHEMA.md for scope and limits.

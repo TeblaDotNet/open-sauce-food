@@ -385,6 +385,22 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
           t.canonicalId = targets[0].entry.id;
           if (targets[0].entry.reference === false) t.reference = false;
           if (targets[0].partResolution) t.partResolution = targets[0].partResolution;
+          const target = targets[0];
+          // Whole ingredients only; an unresolved local variant has no explicit state scope.
+          if (kind === 'ingredient' && !t.partResolution && !('variant' in target && target.variant)) {
+            const states: NonNullable<Token['stateResolution']> = [];
+            let qualifierIndex = 0;
+            for (const match of t.raw.slice(1, -1).matchAll(/,([^,]*)/g)) {
+              const raw = match[1], offset = match.index + 2;
+              const id = options.vocabulary.resolveState(t.canonicalId, raw);
+              if (id) states.push({ id, qualifierIndex, raw, span: {
+                start: t.span.start + offset, end: t.span.start + offset + raw.length,
+                line: t.span.line, column: t.span.column + offset
+              } });
+              qualifierIndex++;
+            }
+            if (states.length) t.stateResolution = states;
+          }
         }
         if (targets.length > 1) report('warning', 'AMBIGUOUS_VOCABULARY', `Multiple vocabulary entries match '${t.name}'.`, t.span);
       }

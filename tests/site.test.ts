@@ -185,3 +185,12 @@ test('migrated ingredient routes link to the part or independent family child', 
   assert.ok(generated.files.get('ingredients/flour/index.html')!.toString().includes(`href="${child}"`));
   assert.deepEqual(generated.manifest.references.find(r=>r.kind==='ingredient'&&r.id==='self-raising-flour')!.usageRecipes.sort(),['butter-cake','damper']);
 });
+
+
+test('static Code gives local heat seasoning ingredient colour without a reference link', () => {
+  const page = generated.files.get('recipe/red-lentil-dahl/index.html')!.toString();
+  const code = page.split('data-view-panel="code"')[1].split('data-view-panel="compact"')[0];
+  assert.equal([...code.matchAll(/<span class="os-token os-choice"[^>]*>\(<span class="os-syntax-ingredient">heat seasoning<\/span>\)<\/span>/g)].length, 3);
+  assert.doesNotMatch(code, /href="[^"]*heat-seasoning/);
+  assert.match(code, /<a class="os-token os-ingredient"[^>]*href="\/opensaucefood\/ingredients\/cayenne-pepper\/">\(<span class="os-syntax-ingredient">cayenne pepper<\/span>/);
+});
