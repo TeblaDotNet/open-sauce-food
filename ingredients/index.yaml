@@ -3,31 +3,11 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 433
+canonical_concept_count: 386
 entries:
-- id: acid
-  canonical_name: acid
-  file: acid.yaml
-  aliases: 0
 - id: active-dry-yeast
   canonical_name: active dry yeast
   file: active-dry-yeast.yaml
-  aliases: 0
-- id: add-ins
-  canonical_name: add-ins
-  file: add-ins.yaml
-  aliases: 0
-- id: additional-flour
-  canonical_name: additional flour
-  file: additional-flour.yaml
-  aliases: 0
-- id: additional-mince
-  canonical_name: additional mince
-  file: additional-mince.yaml
-  aliases: 0
-- id: additional-teas
-  canonical_name: additional teas
-  file: additional-teas.yaml
   aliases: 0
 - id: adobo-seasoning
   canonical_name: adobo seasoning
@@ -117,10 +97,6 @@ entries:
   canonical_name: beans
   file: beans.yaml
   aliases: 0
-- id: beans-choice
-  canonical_name: beans choice
-  file: beans-choice.yaml
-  aliases: 0
 - id: beef
   canonical_name: beef
   file: beef.yaml
@@ -185,10 +161,6 @@ entries:
   canonical_name: bread
   file: bread.yaml
   aliases: 0
-- id: bread-choice
-  canonical_name: bread choice
-  file: bread-choice.yaml
-  aliases: 0
 - id: bread-crumbs
   canonical_name: bread crumbs
   file: bread-crumbs.yaml
@@ -205,10 +177,6 @@ entries:
   canonical_name: broth
   file: broth.yaml
   aliases: 0
-- id: broth-choice
-  canonical_name: broth choice
-  file: broth-choice.yaml
-  aliases: 0
 - id: brown-lentils
   canonical_name: brown lentils
   file: brown-lentils.yaml
@@ -220,10 +188,6 @@ entries:
 - id: bruschetta-herbs
   canonical_name: bruschetta herbs
   file: bruschetta-herbs.yaml
-  aliases: 0
-- id: brushing-fat
-  canonical_name: brushing fat
-  file: brushing-fat.yaml
   aliases: 0
 - id: butter
   canonical_name: butter
@@ -321,10 +285,6 @@ entries:
   canonical_name: chicken broth
   file: chicken-broth.yaml
   aliases: 0
-- id: chicken-choice
-  canonical_name: chicken choice
-  file: chicken-choice.yaml
-  aliases: 0
 - id: chicken-masala
   canonical_name: chicken masala
   file: chicken-masala.yaml
@@ -353,10 +313,6 @@ entries:
   canonical_name: chilli powder
   file: chilli-powder.yaml
   aliases: 1
-- id: chillies-choice
-  canonical_name: chillies choice
-  file: chillies-choice.yaml
-  aliases: 0
 - id: chinese-five-spice
   canonical_name: Chinese five spice
   file: chinese-five-spice.yaml
@@ -436,10 +392,6 @@ entries:
 - id: confectioners-sugar-icing
   canonical_name: confectioners’ sugar icing
   file: confectioners-sugar-icing.yaml
-  aliases: 0
-- id: cooking-fat
-  canonical_name: cooking fat
-  file: cooking-fat.yaml
   aliases: 0
 - id: cooking-oil
   canonical_name: cooking oil
@@ -521,10 +473,6 @@ entries:
   canonical_name: curry powder
   file: curry-powder.yaml
   aliases: 0
-- id: dairy-choice
-  canonical_name: dairy choice
-  file: dairy-choice.yaml
-  aliases: 0
 - id: dashi
   canonical_name: dashi
   file: dashi.yaml
@@ -548,10 +496,6 @@ entries:
 - id: egg
   canonical_name: egg
   file: egg.yaml
-  aliases: 0
-- id: egg-choice
-  canonical_name: egg choice
-  file: egg-choice.yaml
   aliases: 0
 - id: egg-noodles
   canonical_name: egg noodles
@@ -585,10 +529,6 @@ entries:
   canonical_name: fenugreek powder
   file: fenugreek-powder.yaml
   aliases: 0
-- id: filling
-  canonical_name: filling
-  file: filling.yaml
-  aliases: 0
 - id: fish
   canonical_name: fish
   file: fish.yaml
@@ -617,10 +557,6 @@ entries:
   canonical_name: flour
   file: flour.yaml
   aliases: 0
-- id: flour-choice
-  canonical_name: flour choice
-  file: flour-choice.yaml
-  aliases: 0
 - id: franks-redhot-sauce
   canonical_name: Frank’s RedHot Sauce
   file: franks-redhot-sauce.yaml
@@ -633,14 +569,6 @@ entries:
   canonical_name: fruit
   file: fruit.yaml
   aliases: 0
-- id: fruit-choice
-  canonical_name: fruit choice
-  file: fruit-choice.yaml
-  aliases: 0
-- id: frying-fat
-  canonical_name: frying fat
-  file: frying-fat.yaml
-  aliases: 0
 - id: garam-masala
   canonical_name: garam masala
   file: garam-masala.yaml
@@ -649,10 +577,6 @@ entries:
   canonical_name: garlic
   file: garlic.yaml
   aliases: 0
-- id: garlic-choice
-  canonical_name: garlic choice
-  file: garlic-choice.yaml
-  aliases: 0
 - id: garlic-paste
   canonical_name: garlic paste
   file: garlic-paste.yaml
@@ -660,10 +584,6 @@ entries:
 - id: garlic-powder
   canonical_name: garlic powder
   file: garlic-powder.yaml
-  aliases: 0
-- id: garnish
-  canonical_name: garnish
-  file: garnish.yaml
   aliases: 0
 - id: giant-trevally
   canonical_name: giant trevally
@@ -693,10 +613,6 @@ entries:
   canonical_name: granulated sugar
   file: granulated-sugar.yaml
   aliases: 0
-- id: greasing-fat
-  canonical_name: greasing fat
-  file: greasing-fat.yaml
-  aliases: 0
 - id: green-beans
   canonical_name: green beans
   file: green-beans.yaml
@@ -724,10 +640,6 @@ entries:
 - id: ham
   canonical_name: ham
   file: ham.yaml
-  aliases: 0
-- id: heat-seasoning
-  canonical_name: heat seasoning
-  file: heat-seasoning.yaml
   aliases: 0
 - id: heavy-cream
   canonical_name: heavy cream
@@ -849,14 +761,6 @@ entries:
   canonical_name: linseed
   file: linseed.yaml
   aliases: 0
-- id: liquid
-  canonical_name: liquid
-  file: liquid.yaml
-  aliases: 0
-- id: liquid-choice
-  canonical_name: liquid choice
-  file: liquid-choice.yaml
-  aliases: 0
 - id: macadamia-nut
   canonical_name: macadamia nut
   file: macadamia-nut.yaml
@@ -897,17 +801,9 @@ entries:
   canonical_name: mayonnaise
   file: mayonnaise.yaml
   aliases: 0
-- id: meat-choice
-  canonical_name: meat choice
-  file: meat-choice.yaml
-  aliases: 0
 - id: milk
   canonical_name: milk
   file: milk.yaml
-  aliases: 0
-- id: milk-choice
-  canonical_name: milk choice
-  file: milk-choice.yaml
   aliases: 0
 - id: mint
   canonical_name: mint
@@ -953,10 +849,6 @@ entries:
   canonical_name: nonstick spray
   file: nonstick-spray.yaml
   aliases: 0
-- id: noodle-choice
-  canonical_name: noodle choice
-  file: noodle-choice.yaml
-  aliases: 0
 - id: nori
   canonical_name: nori
   file: nori.yaml
@@ -965,14 +857,10 @@ entries:
   canonical_name: nutmeg
   file: nutmeg.yaml
   aliases: 0
-- id: oat
-  canonical_name: oat
-  file: oat.yaml
-  aliases: 0
 - id: oats
   canonical_name: oats
   file: oats.yaml
-  aliases: 0
+  aliases: 1
 - id: octopus
   canonical_name: octopus
   file: octopus.yaml
@@ -1012,10 +900,6 @@ entries:
 - id: oregano
   canonical_name: oregano
   file: oregano.yaml
-  aliases: 0
-- id: other-stock
-  canonical_name: other stock
-  file: other-stock.yaml
   aliases: 0
 - id: oyster-sauce
   canonical_name: oyster sauce
@@ -1065,10 +949,6 @@ entries:
   canonical_name: pepper
   file: pepper.yaml
   aliases: 0
-- id: pepper-choice
-  canonical_name: pepper choice
-  file: pepper-choice.yaml
-  aliases: 0
 - id: peppers
   canonical_name: peppers
   file: peppers.yaml
@@ -1076,10 +956,6 @@ entries:
 - id: pickle-juice
   canonical_name: pickle juice
   file: pickle-juice.yaml
-  aliases: 0
-- id: pickling-herbs-or-spices
-  canonical_name: pickling herbs or spices
-  file: pickling-herbs-or-spices.yaml
   aliases: 0
 - id: pineapple-juice
   canonical_name: pineapple juice
@@ -1104,10 +980,6 @@ entries:
 - id: pork-belly
   canonical_name: pork belly
   file: pork-belly.yaml
-  aliases: 0
-- id: pork-belly-choice
-  canonical_name: pork belly choice
-  file: pork-belly-choice.yaml
   aliases: 0
 - id: pork-chop
   canonical_name: pork chop
@@ -1156,14 +1028,10 @@ entries:
 - id: red-chilli
   canonical_name: red chilli
   file: red-chilli.yaml
-  aliases: 1
+  aliases: 3
 - id: red-chilli-powder
   canonical_name: red chilli powder
   file: red-chilli-powder.yaml
-  aliases: 0
-- id: red-chillies
-  canonical_name: red chillies
-  file: red-chillies.yaml
   aliases: 0
 - id: red-curry-paste
   canonical_name: red curry paste
@@ -1241,14 +1109,6 @@ entries:
   canonical_name: sardines
   file: sardines.yaml
   aliases: 0
-- id: sauce
-  canonical_name: sauce
-  file: sauce.yaml
-  aliases: 0
-- id: sauce-choice
-  canonical_name: sauce choice
-  file: sauce-choice.yaml
-  aliases: 0
 - id: savoiardi-biscuits
   canonical_name: savoiardi biscuits
   file: savoiardi-biscuits.yaml
@@ -1268,14 +1128,6 @@ entries:
 - id: seafood
   canonical_name: seafood
   file: seafood.yaml
-  aliases: 0
-- id: seasoning
-  canonical_name: seasoning
-  file: seasoning.yaml
-  aliases: 0
-- id: seasoning-choice
-  canonical_name: seasoning choice
-  file: seasoning-choice.yaml
   aliases: 0
 - id: seaweed
   canonical_name: seaweed
@@ -1373,10 +1225,6 @@ entries:
   canonical_name: squash
   file: squash.yaml
   aliases: 0
-- id: squash-choice
-  canonical_name: squash choice
-  file: squash-choice.yaml
-  aliases: 0
 - id: sriracha
   canonical_name: sriracha
   file: sriracha.yaml
@@ -1388,10 +1236,6 @@ entries:
 - id: stock
   canonical_name: stock
   file: stock.yaml
-  aliases: 0
-- id: stock-choice
-  canonical_name: stock choice
-  file: stock-choice.yaml
   aliases: 0
 - id: sugar
   canonical_name: sugar
@@ -1421,10 +1265,6 @@ entries:
   canonical_name: sweetcorn
   file: sweetcorn.yaml
   aliases: 0
-- id: sweetener
-  canonical_name: sweetener
-  file: sweetener.yaml
-  aliases: 0
 - id: tahini
   canonical_name: tahini
   file: tahini.yaml
@@ -1433,10 +1273,6 @@ entries:
   canonical_name: tarragon
   file: tarragon.yaml
   aliases: 0
-- id: tea-choice
-  canonical_name: tea choice
-  file: tea-choice.yaml
-  aliases: 0
 - id: teriyaki-sauce
   canonical_name: teriyaki sauce
   file: teriyaki-sauce.yaml
@@ -1444,10 +1280,6 @@ entries:
 - id: thai-red-curry-paste
   canonical_name: Thai red curry paste
   file: thai-red-curry-paste.yaml
-  aliases: 0
-- id: thinning-liquid
-  canonical_name: thinning liquid
-  file: thinning-liquid.yaml
   aliases: 0
 - id: thyme
   canonical_name: thyme
@@ -1469,10 +1301,6 @@ entries:
   canonical_name: tomato
   file: tomato.yaml
   aliases: 0
-- id: tomato-choice
-  canonical_name: tomato choice
-  file: tomato-choice.yaml
-  aliases: 0
 - id: tomato-paste
   canonical_name: tomato paste
   file: tomato-paste.yaml
@@ -1484,10 +1312,6 @@ entries:
 - id: tomato-sauce
   canonical_name: tomato sauce
   file: tomato-sauce.yaml
-  aliases: 0
-- id: tomato-sauce-choice
-  canonical_name: tomato sauce choice
-  file: tomato-sauce-choice.yaml
   aliases: 0
 - id: tortilla-wrap
   canonical_name: tortilla wrap
@@ -1520,10 +1344,6 @@ entries:
 - id: vanilla-bean
   canonical_name: vanilla bean
   file: vanilla-bean.yaml
-  aliases: 0
-- id: vanilla-choice
-  canonical_name: vanilla choice
-  file: vanilla-choice.yaml
   aliases: 0
 - id: vanilla-essence
   canonical_name: vanilla essence
@@ -1633,10 +1453,6 @@ entries:
   canonical_name: wine and brandy
   file: wine-and-brandy.yaml
   aliases: 0
-- id: wine-choice
-  canonical_name: wine choice
-  file: wine-choice.yaml
-  aliases: 0
 - id: worcestershire-sauce
   canonical_name: Worcestershire sauce
   file: worcestershire-sauce.yaml
@@ -1660,10 +1476,6 @@ entries:
 - id: za-atar
   canonical_name: za'atar
   file: za-atar.yaml
-  aliases: 0
-- id: 4oz-as-stated
-  canonical_name: ~4oz as stated
-  file: 4oz-as-stated.yaml
   aliases: 0
 - id: allspice
   canonical_name: allspice

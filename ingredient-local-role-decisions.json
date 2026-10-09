@@ -1,0 +1,2905 @@
+{
+  "pass": "ingredient-local-roles-v1",
+  "baselineCommit": "1a75a35b6e53f9b6251ce463004a93d833c5def6",
+  "priorPass": "ingredient-knowledge-v1",
+  "humanDecision": "43 explicitly listed entries, plus acid and add-ins explicitly approved in follow-up: 45 total. Human review applies only to these local-only/removal decisions, not to general ingredient or recipe quality.",
+  "beforeCount": 431,
+  "afterCount": 386,
+  "entries": [
+    {
+      "id": "4oz-as-stated",
+      "decision": "remove-malformed-canonical-entry",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "4oz-as-stated",
+        "kind": "ingredient",
+        "canonical_name": "~4oz as stated",
+        "names": {
+          "en": "~4oz as stated"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "~4oz as stated",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: 4oz-as-stated\nkind: ingredient\ncanonical_name: ~4oz as stated\nnames:\n  en: ~4oz as stated\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: ~4oz as stated\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/sardine-cakes/sardine-cakes.opensauce",
+          "line": 21,
+          "raw": "(~4oz as stated)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "The source says 2 tins sardines (~4oz). The existing Sauce Code quantity aside is preserved verbatim; the parser still treats its parentheses as a local ingredient token. No method reference depends on it. Remove the malformed global identity without inventing an ingredient or resolving the source quantity ambiguity."
+    },
+    {
+      "id": "acid",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "acid",
+        "kind": "ingredient",
+        "canonical_name": "acid",
+        "names": {
+          "en": "acid"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 2,
+          "current_observation_count": 2,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "acid",
+              "count": 2
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce",
+            "examples/public-domain-recipes/tzatziki/tzatziki.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: acid\nkind: ingredient\ncanonical_name: acid\nnames:\n  en: acid\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 2\n  current_observation_count: 2\n  legacy_observation_count: 0\n  observed_terms:\n  - term: acid\n    count: 2\n  seen_in:\n  - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce\n  - examples/public-domain-recipes/tzatziki/tzatziki.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/lamb-biriyani/lamb-biriyani.opensauce",
+          "line": 36,
+          "raw": "(acid)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/lamb-biriyani/lamb-biriyani.opensauce",
+          "line": 78,
+          "raw": "(acid)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce",
+          "line": 21,
+          "raw": "(acid)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce",
+          "line": 38,
+          "raw": "(acid)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/oatmeal-pancakes/oatmeal-pancakes.opensauce",
+          "line": 33,
+          "raw": "(acid, to activate it)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/oatmeal-pancakes/oatmeal-pancakes.opensauce",
+          "line": 52,
+          "raw": "(acid)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/ricotta/ricotta.opensauce",
+          "line": 20,
+          "raw": "(acid)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/ricotta/ricotta.opensauce",
+          "line": 43,
+          "raw": "(acid)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/tuna-salad/tuna-salad.opensauce",
+          "line": 25,
+          "raw": "(acid, optional)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/tuna-salad/tuna-salad.opensauce",
+          "line": 40,
+          "raw": "(acid)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/tzatziki/tzatziki.opensauce",
+          "line": 26,
+          "raw": "(acid)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/tzatziki/tzatziki.opensauce",
+          "line": 42,
+          "raw": "(acid)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "add-ins",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "add-ins",
+        "kind": "ingredient",
+        "canonical_name": "add-ins",
+        "names": {
+          "en": "add-ins"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "add-ins",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce"
+          ]
+        },
+        "observed_qualifiers": [
+          {
+            "value": "cranberries/raisins/coconut/nuts",
+            "count": 1
+          },
+          {
+            "value": "optional",
+            "count": 1
+          }
+        ]
+      },
+      "originalYaml": "id: add-ins\nkind: ingredient\ncanonical_name: add-ins\nnames:\n  en: add-ins\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: add-ins\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce\nobserved_qualifiers:\n- value: cranberries/raisins/coconut/nuts\n  count: 1\n- value: optional\n  count: 1\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce",
+          "line": 29,
+          "raw": "(add-ins, optional, cranberries/raisins/coconut/nuts)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/oatmeal-cookies/oatmeal-cookies.opensauce",
+          "line": 42,
+          "raw": "(add-ins)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "additional-flour",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "additional-flour",
+        "kind": "ingredient",
+        "canonical_name": "additional flour",
+        "names": {
+          "en": "additional flour"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "additional flour",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: additional-flour\nkind: ingredient\ncanonical_name: additional flour\nnames:\n  en: additional flour\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: additional flour\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce",
+          "line": 21,
+          "raw": "(additional flour)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/sourdough-loaf/sourdough-loaf.opensauce",
+          "line": 42,
+          "raw": "(additional flour)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "additional-mince",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "additional-mince",
+        "kind": "ingredient",
+        "canonical_name": "additional mince",
+        "names": {
+          "en": "additional mince"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "additional mince",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: additional-mince\nkind: ingredient\ncanonical_name: additional mince\nnames:\n  en: additional mince\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: additional mince\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce",
+          "line": 27,
+          "raw": "(additional mince)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/bolognese-sauce/bolognese-sauce.opensauce",
+          "line": 60,
+          "raw": "(additional mince)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "additional-teas",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "additional-teas",
+        "kind": "ingredient",
+        "canonical_name": "additional teas",
+        "names": {
+          "en": "additional teas"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "additional teas",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/kombucha/kombucha.opensauce"
+          ]
+        },
+        "observed_qualifiers": [
+          {
+            "value": "optional",
+            "count": 1
+          }
+        ]
+      },
+      "originalYaml": "id: additional-teas\nkind: ingredient\ncanonical_name: additional teas\nnames:\n  en: additional teas\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: additional teas\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/kombucha/kombucha.opensauce\nobserved_qualifiers:\n- value: optional\n  count: 1\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/kombucha/kombucha.opensauce",
+          "line": 20,
+          "raw": "(additional teas, optional)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/kombucha/kombucha.opensauce",
+          "line": 45,
+          "raw": "(additional teas)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "beans-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "beans-choice",
+        "kind": "ingredient",
+        "canonical_name": "beans choice",
+        "names": {
+          "en": "beans choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "beans choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: beans-choice\nkind: ingredient\ncanonical_name: beans choice\nnames:\n  en: beans choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: beans choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce",
+          "line": 22,
+          "raw": "(beans choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce",
+          "line": 47,
+          "raw": "(beans choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "bread-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "bread-choice",
+        "kind": "ingredient",
+        "canonical_name": "bread choice",
+        "names": {
+          "en": "bread choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "bread choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: bread-choice\nkind: ingredient\ncanonical_name: bread choice\nnames:\n  en: bread choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: bread choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+          "line": 27,
+          "raw": "(bread choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+          "line": 57,
+          "raw": "(bread choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+          "line": 62,
+          "raw": "(bread choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "broth-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "broth-choice",
+        "kind": "ingredient",
+        "canonical_name": "broth choice",
+        "names": {
+          "en": "broth choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "broth choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: broth-choice\nkind: ingredient\ncanonical_name: broth choice\nnames:\n  en: broth choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: broth choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce",
+          "line": 27,
+          "raw": "(broth choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce",
+          "line": 46,
+          "raw": "(broth choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "brushing-fat",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "brushing-fat",
+        "kind": "ingredient",
+        "canonical_name": "brushing fat",
+        "names": {
+          "en": "brushing fat"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "brushing fat",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: brushing-fat\nkind: ingredient\ncanonical_name: brushing fat\nnames:\n  en: brushing fat\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: brushing fat\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/scandinavian-coffee-cake/scandinavian-coffee-cake.opensauce",
+          "line": 29,
+          "raw": "(brushing fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "chicken-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "chicken-choice",
+        "kind": "ingredient",
+        "canonical_name": "chicken choice",
+        "names": {
+          "en": "chicken choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "chicken choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: chicken-choice\nkind: ingredient\ncanonical_name: chicken choice\nnames:\n  en: chicken choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: chicken choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce",
+          "line": 20,
+          "raw": "(chicken choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce",
+          "line": 36,
+          "raw": "(chicken choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/chicken-satay/chicken-satay.opensauce",
+          "line": 37,
+          "raw": "(chicken choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "chillies-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "chillies-choice",
+        "kind": "ingredient",
+        "canonical_name": "chillies choice",
+        "names": {
+          "en": "chillies choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "chillies choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: chillies-choice\nkind: ingredient\ncanonical_name: chillies choice\nnames:\n  en: chillies choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: chillies choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce",
+          "line": 19,
+          "raw": "(chillies choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce",
+          "line": 34,
+          "raw": "(chillies choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/salsa-verde/salsa-verde.opensauce",
+          "line": 37,
+          "raw": "(chillies choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "cooking-fat",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "cooking-fat",
+        "kind": "ingredient",
+        "canonical_name": "cooking fat",
+        "names": {
+          "en": "cooking fat"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "cooking fat",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: cooking-fat\nkind: ingredient\ncanonical_name: cooking fat\nnames:\n  en: cooking fat\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: cooking fat\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce",
+          "line": 22,
+          "raw": "(cooking fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/baked-salmon/baked-salmon.opensauce",
+          "line": 35,
+          "raw": "(cooking fat)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/easy-chicken-and-rice-casserole/easy-chicken-and-rice-casserole.opensauce",
+          "line": 23,
+          "raw": "(cooking fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/easy-chicken-and-rice-casserole/easy-chicken-and-rice-casserole.opensauce",
+          "line": 40,
+          "raw": "(cooking fat)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/pancake/pancake.opensauce",
+          "line": 28,
+          "raw": "(cooking fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/pancake/pancake.opensauce",
+          "line": 41,
+          "raw": "(cooking fat)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "dairy-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "dairy-choice",
+        "kind": "ingredient",
+        "canonical_name": "dairy choice",
+        "names": {
+          "en": "dairy choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "dairy choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: dairy-choice\nkind: ingredient\ncanonical_name: dairy choice\nnames:\n  en: dairy choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: dairy choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce",
+          "line": 17,
+          "raw": "(dairy choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/quarkbaellchen/quarkbaellchen.opensauce",
+          "line": 35,
+          "raw": "(dairy choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "egg-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "egg-choice",
+        "kind": "ingredient",
+        "canonical_name": "egg choice",
+        "names": {
+          "en": "egg choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "egg choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: egg-choice\nkind: ingredient\ncanonical_name: egg choice\nnames:\n  en: egg choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: egg choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce",
+          "line": 19,
+          "raw": "(egg choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/mayonnaise-or-aioli/mayonnaise-or-aioli.opensauce",
+          "line": 38,
+          "raw": "(egg choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "filling",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "filling",
+        "kind": "ingredient",
+        "canonical_name": "filling",
+        "names": {
+          "en": "filling"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "filling",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/crostata/crostata.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: filling\nkind: ingredient\ncanonical_name: filling\nnames:\n  en: filling\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: filling\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/crostata/crostata.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/crostata/crostata.opensauce",
+          "line": 23,
+          "raw": "(filling)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/crostata/crostata.opensauce",
+          "line": 36,
+          "raw": "(filling)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/lasagna/lasagna.opensauce",
+          "line": 27,
+          "raw": "(filling)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/lasagna/lasagna.opensauce",
+          "line": 39,
+          "raw": "(filling)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/lasagna/lasagna.opensauce",
+          "line": 41,
+          "raw": "(filling)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/lasagna/lasagna.opensauce",
+          "line": 46,
+          "raw": "(filling)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/lasagna/lasagna.opensauce",
+          "line": 46,
+          "raw": "(filling)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/quesadilla/quesadilla.opensauce",
+          "line": 22,
+          "raw": "(filling, ingredients of choice, e.g. veggies or chicken or cooked mushrooms or beans)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/quesadilla/quesadilla.opensauce",
+          "line": 38,
+          "raw": "(filling)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/quesadilla/quesadilla.opensauce",
+          "line": 44,
+          "raw": "(filling)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/venezuelan-arepa/venezuelan-arepa.opensauce",
+          "line": 23,
+          "raw": "(filling, delicatessen of choice)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/venezuelan-arepa/venezuelan-arepa.opensauce",
+          "line": 53,
+          "raw": "(filling)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "flour-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "flour-choice",
+        "kind": "ingredient",
+        "canonical_name": "flour choice",
+        "names": {
+          "en": "flour choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "flour choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: flour-choice\nkind: ingredient\ncanonical_name: flour choice\nnames:\n  en: flour choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: flour choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/pancake/pancake.opensauce",
+          "line": 22,
+          "raw": "(flour choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/pancake/pancake.opensauce",
+          "line": 38,
+          "raw": "(flour choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce",
+          "line": 19,
+          "raw": "(flour choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce",
+          "line": 32,
+          "raw": "(flour choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce",
+          "line": 38,
+          "raw": "(flour choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/sourdough-starter/sourdough-starter.opensauce",
+          "line": 42,
+          "raw": "(flour choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "fruit-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "fruit-choice",
+        "kind": "ingredient",
+        "canonical_name": "fruit choice",
+        "names": {
+          "en": "fruit choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "fruit choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce"
+          ]
+        },
+        "observed_qualifiers": [
+          {
+            "value": "optional",
+            "count": 1
+          }
+        ]
+      },
+      "originalYaml": "id: fruit-choice\nkind: ingredient\ncanonical_name: fruit choice\nnames:\n  en: fruit choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: fruit choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce\nobserved_qualifiers:\n- value: optional\n  count: 1\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce",
+          "line": 24,
+          "raw": "(fruit choice, optional)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce",
+          "line": 42,
+          "raw": "(fruit choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "frying-fat",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "frying-fat",
+        "kind": "ingredient",
+        "canonical_name": "frying fat",
+        "names": {
+          "en": "frying fat"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 4,
+          "current_observation_count": 4,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "frying fat",
+              "count": 4
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/aljotta/aljotta.opensauce",
+            "examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce",
+            "examples/public-domain-recipes/castagnole/castagnole.opensauce",
+            "examples/public-domain-recipes/schnitzel/schnitzel.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: frying-fat\nkind: ingredient\ncanonical_name: frying fat\nnames:\n  en: frying fat\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 4\n  current_observation_count: 4\n  legacy_observation_count: 0\n  observed_terms:\n  - term: frying fat\n    count: 4\n  seen_in:\n  - examples/public-domain-recipes/aljotta/aljotta.opensauce\n  - examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce\n  - examples/public-domain-recipes/castagnole/castagnole.opensauce\n  - examples/public-domain-recipes/schnitzel/schnitzel.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/aljotta/aljotta.opensauce",
+          "line": 21,
+          "raw": "(frying fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/aljotta/aljotta.opensauce",
+          "line": 48,
+          "raw": "(frying fat)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/aljotta/aljotta.opensauce",
+          "line": 50,
+          "raw": "(frying fat)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce",
+          "line": 24,
+          "raw": "(frying fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/casio-in-pastelletto/casio-in-pastelletto.opensauce",
+          "line": 32,
+          "raw": "(frying fat)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/castagnole/castagnole.opensauce",
+          "line": 28,
+          "raw": "(frying fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/hamburger-patties/hamburger-patties.opensauce",
+          "line": 24,
+          "raw": "(frying fat, fat or salad oil)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/hamburger-patties/hamburger-patties.opensauce",
+          "line": 35,
+          "raw": "(frying fat)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/rabbit-onions/rabbit-onions.opensauce",
+          "line": 19,
+          "raw": "(frying fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/rabbit-onions/rabbit-onions.opensauce",
+          "line": 36,
+          "raw": "(frying fat)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/schnitzel/schnitzel.opensauce",
+          "line": 25,
+          "raw": "(frying fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/schnitzel/schnitzel.opensauce",
+          "line": 49,
+          "raw": "(frying fat)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/torta-frita-criolla/torta-frita-criolla.opensauce",
+          "line": 23,
+          "raw": "(frying fat, oil or grease of choice)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "garlic-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "garlic-choice",
+        "kind": "ingredient",
+        "canonical_name": "garlic choice",
+        "names": {
+          "en": "garlic choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "garlic choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/baked-trout/baked-trout.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: garlic-choice\nkind: ingredient\ncanonical_name: garlic choice\nnames:\n  en: garlic choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: garlic choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/baked-trout/baked-trout.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/baked-trout/baked-trout.opensauce",
+          "line": 18,
+          "raw": "(garlic choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/baked-trout/baked-trout.opensauce",
+          "line": 31,
+          "raw": "(garlic choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "garnish",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "garnish",
+        "kind": "ingredient",
+        "canonical_name": "garnish",
+        "names": {
+          "en": "garnish"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "garnish",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: garnish\nkind: ingredient\ncanonical_name: garnish\nnames:\n  en: garnish\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: garnish\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce",
+          "line": 33,
+          "raw": "(garnish)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce",
+          "line": 51,
+          "raw": "(garnish)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/gnocchi/gnocchi.opensauce",
+          "line": 25,
+          "raw": "(garnish, optional)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/gnocchi/gnocchi.opensauce",
+          "line": 69,
+          "raw": "(garnish)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/lamb-biriyani/lamb-biriyani.opensauce",
+          "line": 39,
+          "raw": "(garnish)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/lamb-biriyani/lamb-biriyani.opensauce",
+          "line": 84,
+          "raw": "(garnish)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/torta-frita-criolla/torta-frita-criolla.opensauce",
+          "line": 24,
+          "raw": "(garnish, sugar or cinnamon or herbs/spices; optional)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/torta-frita-criolla/torta-frita-criolla.opensauce",
+          "line": 52,
+          "raw": "(garnish)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "greasing-fat",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "greasing-fat",
+        "kind": "ingredient",
+        "canonical_name": "greasing fat",
+        "names": {
+          "en": "greasing fat"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 2,
+          "current_observation_count": 2,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "greasing fat",
+              "count": 2
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/banana-bread/banana-bread.opensauce",
+            "examples/public-domain-recipes/bread/bread.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: greasing-fat\nkind: ingredient\ncanonical_name: greasing fat\nnames:\n  en: greasing fat\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 2\n  current_observation_count: 2\n  legacy_observation_count: 0\n  observed_terms:\n  - term: greasing fat\n    count: 2\n  seen_in:\n  - examples/public-domain-recipes/banana-bread/banana-bread.opensauce\n  - examples/public-domain-recipes/bread/bread.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/banana-bread/banana-bread.opensauce",
+          "line": 29,
+          "raw": "(greasing fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/banana-bread/banana-bread.opensauce",
+          "line": 47,
+          "raw": "(greasing fat)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/bread/bread.opensauce",
+          "line": 24,
+          "raw": "(greasing fat)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/bread/bread.opensauce",
+          "line": 46,
+          "raw": "(greasing fat)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "heat-seasoning",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "heat-seasoning",
+        "kind": "ingredient",
+        "canonical_name": "heat seasoning",
+        "names": {
+          "en": "heat seasoning"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "heat seasoning",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: heat-seasoning\nkind: ingredient\ncanonical_name: heat seasoning\nnames:\n  en: heat seasoning\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: heat seasoning\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce",
+          "line": 30,
+          "raw": "(heat seasoning)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce",
+          "line": 42,
+          "raw": "(heat seasoning)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/red-lentil-dahl/red-lentil-dahl.opensauce",
+          "line": 43,
+          "raw": "(heat seasoning)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "liquid",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "liquid",
+        "kind": "ingredient",
+        "canonical_name": "liquid",
+        "names": {
+          "en": "liquid"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "liquid",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: liquid\nkind: ingredient\ncanonical_name: liquid\nnames:\n  en: liquid\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: liquid\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 19,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/butter-biscuits/butter-biscuits.opensauce",
+          "line": 40,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/chili-con-carne/chili-con-carne.opensauce",
+          "line": 27,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/chili-con-carne/chili-con-carne.opensauce",
+          "line": 56,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce",
+          "line": 20,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/finnish-salmon-soup/finnish-salmon-soup.opensauce",
+          "line": 39,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/gypsy-soup/gypsy-soup.opensauce",
+          "line": 29,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/gypsy-soup/gypsy-soup.opensauce",
+          "line": 48,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/oatmeal-pancakes/oatmeal-pancakes.opensauce",
+          "line": 25,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/oatmeal-pancakes/oatmeal-pancakes.opensauce",
+          "line": 44,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/rice/rice.opensauce",
+          "line": 18,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/rice/rice.opensauce",
+          "line": 31,
+          "raw": "(liquid)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "liquid-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "liquid-choice",
+        "kind": "ingredient",
+        "canonical_name": "liquid choice",
+        "names": {
+          "en": "liquid choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "liquid choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: liquid-choice\nkind: ingredient\ncanonical_name: liquid choice\nnames:\n  en: liquid choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: liquid choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce",
+          "line": 28,
+          "raw": "(liquid choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce",
+          "line": 49,
+          "raw": "(liquid choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "meat-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "meat-choice",
+        "kind": "ingredient",
+        "canonical_name": "meat choice",
+        "names": {
+          "en": "meat choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 2,
+          "current_observation_count": 2,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "meat choice",
+              "count": 2
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+            "examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: meat-choice\nkind: ingredient\ncanonical_name: meat choice\nnames:\n  en: meat choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 2\n  current_observation_count: 2\n  legacy_observation_count: 0\n  observed_terms:\n  - term: meat choice\n    count: 2\n  seen_in:\n  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce\n  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+          "line": 28,
+          "raw": "(meat choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+          "line": 61,
+          "raw": "(meat choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+          "line": 62,
+          "raw": "(meat choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce",
+          "line": 22,
+          "raw": "(meat choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce",
+          "line": 52,
+          "raw": "(meat choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce",
+          "line": 59,
+          "raw": "(meat choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce",
+          "line": 60,
+          "raw": "(meat choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "milk-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "milk-choice",
+        "kind": "ingredient",
+        "canonical_name": "milk choice",
+        "names": {
+          "en": "milk choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "milk choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: milk-choice\nkind: ingredient\ncanonical_name: milk choice\nnames:\n  en: milk choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: milk choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce",
+          "line": 19,
+          "raw": "(milk choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/rice-pudding/rice-pudding.opensauce",
+          "line": 39,
+          "raw": "(milk choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/tanzania-tea-with-milk/tanzania-tea-with-milk.opensauce",
+          "line": 24,
+          "raw": "(milk choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/tanzania-tea-with-milk/tanzania-tea-with-milk.opensauce",
+          "line": 35,
+          "raw": "(milk choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "noodle-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "noodle-choice",
+        "kind": "ingredient",
+        "canonical_name": "noodle choice",
+        "names": {
+          "en": "noodle choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "noodle choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: noodle-choice\nkind: ingredient\ncanonical_name: noodle choice\nnames:\n  en: noodle choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: noodle choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce",
+          "line": 30,
+          "raw": "(noodle choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce",
+          "line": 57,
+          "raw": "(noodle choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/japanese-noodle-soup/japanese-noodle-soup.opensauce",
+          "line": 60,
+          "raw": "(noodle choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "other-stock",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "other-stock",
+        "kind": "ingredient",
+        "canonical_name": "other stock",
+        "names": {
+          "en": "other stock"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "other stock",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: other-stock\nkind: ingredient\ncanonical_name: other stock\nnames:\n  en: other stock\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: other stock\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/clam-chowder/clam-chowder.opensauce",
+          "line": 27,
+          "raw": "(other stock)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "pepper-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "pepper-choice",
+        "kind": "ingredient",
+        "canonical_name": "pepper choice",
+        "names": {
+          "en": "pepper choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "pepper choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: pepper-choice\nkind: ingredient\ncanonical_name: pepper choice\nnames:\n  en: pepper choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: pepper choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce",
+          "line": 22,
+          "raw": "(pepper choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce",
+          "line": 54,
+          "raw": "(pepper choice, finely chopped)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/egyptian-lentils/egyptian-lentils.opensauce",
+          "line": 55,
+          "raw": "(pepper choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "pickling-herbs-or-spices",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "pickling-herbs-or-spices",
+        "kind": "ingredient",
+        "canonical_name": "pickling herbs or spices",
+        "names": {
+          "en": "pickling herbs or spices"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "pickling herbs or spices",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce"
+          ]
+        },
+        "observed_qualifiers": [
+          {
+            "value": "optional",
+            "count": 1
+          }
+        ]
+      },
+      "originalYaml": "id: pickling-herbs-or-spices\nkind: ingredient\ncanonical_name: pickling herbs or spices\nnames:\n  en: pickling herbs or spices\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: pickling herbs or spices\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce\nobserved_qualifiers:\n- value: optional\n  count: 1\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce",
+          "line": 25,
+          "raw": "(pickling herbs or spices, optional)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/pickled-onions/pickled-onions.opensauce",
+          "line": 40,
+          "raw": "(pickling herbs or spices)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "pork-belly-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "pork-belly-choice",
+        "kind": "ingredient",
+        "canonical_name": "pork belly choice",
+        "names": {
+          "en": "pork belly choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "pork belly choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: pork-belly-choice\nkind: ingredient\ncanonical_name: pork belly choice\nnames:\n  en: pork belly choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: pork belly choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce",
+          "line": 22,
+          "raw": "(pork belly choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce",
+          "line": 43,
+          "raw": "(pork belly choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce",
+          "line": 49,
+          "raw": "(pork belly choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/erwtensoep/erwtensoep.opensauce",
+          "line": 54,
+          "raw": "(pork belly choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "sauce",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "sauce",
+        "kind": "ingredient",
+        "canonical_name": "sauce",
+        "names": {
+          "en": "sauce"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "sauce",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: sauce\nkind: ingredient\ncanonical_name: sauce\nnames:\n  en: sauce\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: sauce\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce",
+          "line": 20,
+          "raw": "(sauce)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce",
+          "line": 38,
+          "raw": "(sauce)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/tofu-stir-fry/tofu-stir-fry.opensauce",
+          "line": 41,
+          "raw": "(sauce)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "sauce-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "sauce-choice",
+        "kind": "ingredient",
+        "canonical_name": "sauce choice",
+        "names": {
+          "en": "sauce choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "sauce choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/pho-soup/pho-soup.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: sauce-choice\nkind: ingredient\ncanonical_name: sauce choice\nnames:\n  en: sauce choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: sauce choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/pho-soup/pho-soup.opensauce",
+          "line": 33,
+          "raw": "(sauce choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/pho-soup/pho-soup.opensauce",
+          "line": 51,
+          "raw": "(sauce choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "seasoning",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "seasoning",
+        "kind": "ingredient",
+        "canonical_name": "seasoning",
+        "names": {
+          "en": "seasoning"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "seasoning",
+              "count": 2
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce"
+          ],
+          "scope": "Historical observations; publication-excluded recipe citations removed. Not current usage counts."
+        },
+        "observed_qualifiers": [
+          {
+            "value": "Creole / Cajun",
+            "count": 1
+          },
+          {
+            "value": "optional",
+            "count": 1
+          }
+        ],
+        "plural_names": {
+          "en": "seasonings"
+        }
+      },
+      "originalYaml": "id: seasoning\nkind: ingredient\ncanonical_name: seasoning\nnames:\n  en: seasoning\nstatus: canonical-seed\nevidence:\n  legacy_observation_count: 0\n  observed_terms:\n    - term: seasoning\n      count: 2\n  seen_in:\n    - examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce\n  scope: Historical observations; publication-excluded recipe citations removed.\n    Not current usage counts.\nobserved_qualifiers:\n  - value: Creole / Cajun\n    count: 1\n  - value: optional\n    count: 1\nplural_names:\n  en: seasonings\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/beef-jerky/beef-jerky.opensauce",
+          "line": 24,
+          "raw": "(seasonings, may include cayenne pepper; cheese powder; and/or white pepper)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/chicken-tacos/chicken-tacos.opensauce",
+          "line": 19,
+          "raw": "(seasoning,)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/chicken-tenders-airfried/chicken-tenders-airfried.opensauce",
+          "line": 24,
+          "raw": "(seasoning, salt and pepper with cayenne or paprika; optional)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/chicken-tenders-airfried/chicken-tenders-airfried.opensauce",
+          "line": 35,
+          "raw": "(seasoning)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/roasted-chicken-breast/roasted-chicken-breast.opensauce",
+          "line": 23,
+          "raw": "(seasoning, optional)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/roasted-chicken-breast/roasted-chicken-breast.opensauce",
+          "line": 68,
+          "raw": "(seasoning)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/spicy-sausage-pasta/spicy-sausage-pasta.opensauce",
+          "line": 32,
+          "raw": "(seasoning)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/spicy-sausage-pasta/spicy-sausage-pasta.opensauce",
+          "line": 55,
+          "raw": "(seasoning)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce",
+          "line": 27,
+          "raw": "(seasoning, optional)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/stuffed-round-squash/stuffed-round-squash.opensauce",
+          "line": 48,
+          "raw": "(seasoning)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "seasoning-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "seasoning-choice",
+        "kind": "ingredient",
+        "canonical_name": "seasoning choice",
+        "names": {
+          "en": "seasoning choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "seasoning choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce"
+          ]
+        },
+        "observed_qualifiers": [
+          {
+            "value": "optional",
+            "count": 1
+          }
+        ]
+      },
+      "originalYaml": "id: seasoning-choice\nkind: ingredient\ncanonical_name: seasoning choice\nnames:\n  en: seasoning choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: seasoning choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce\nobserved_qualifiers:\n- value: optional\n  count: 1\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+          "line": 24,
+          "raw": "(seasoning choice, optional)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+          "line": 50,
+          "raw": "(seasoning choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "squash-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "squash-choice",
+        "kind": "ingredient",
+        "canonical_name": "squash choice",
+        "names": {
+          "en": "squash choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "squash choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: squash-choice\nkind: ingredient\ncanonical_name: squash choice\nnames:\n  en: squash choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: squash choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce",
+          "line": 18,
+          "raw": "(squash choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce",
+          "line": 40,
+          "raw": "(squash choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/broiled-trevally/broiled-trevally.opensauce",
+          "line": 50,
+          "raw": "(squash choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "stock-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "stock-choice",
+        "kind": "ingredient",
+        "canonical_name": "stock choice",
+        "names": {
+          "en": "stock choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 2,
+          "current_observation_count": 2,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "stock choice",
+              "count": 2
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce",
+            "examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: stock-choice\nkind: ingredient\ncanonical_name: stock choice\nnames:\n  en: stock choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 2\n  current_observation_count: 2\n  legacy_observation_count: 0\n  observed_terms:\n  - term: stock choice\n    count: 2\n  seen_in:\n  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce\n  - examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce",
+          "line": 28,
+          "raw": "(stock choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce",
+          "line": 53,
+          "raw": "(stock choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce",
+          "line": 23,
+          "raw": "(stock choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/tomato-and-grilled-paprika-soup/tomato-and-grilled-paprika-soup.opensauce",
+          "line": 43,
+          "raw": "(stock choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "sweetener",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "sweetener",
+        "kind": "ingredient",
+        "canonical_name": "sweetener",
+        "names": {
+          "en": "sweetener"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 4,
+          "current_observation_count": 4,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "sweetener",
+              "count": 4
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/bread/bread.opensauce",
+            "examples/public-domain-recipes/kombucha/kombucha.opensauce",
+            "examples/public-domain-recipes/pho-soup/pho-soup.opensauce",
+            "examples/public-domain-recipes/pretzels/pretzels.opensauce"
+          ]
+        },
+        "observed_qualifiers": [
+          {
+            "value": "sugar or honey or barley syrup or molasses etc.",
+            "count": 1
+          }
+        ]
+      },
+      "originalYaml": "id: sweetener\nkind: ingredient\ncanonical_name: sweetener\nnames:\n  en: sweetener\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 4\n  current_observation_count: 4\n  legacy_observation_count: 0\n  observed_terms:\n  - term: sweetener\n    count: 4\n  seen_in:\n  - examples/public-domain-recipes/bread/bread.opensauce\n  - examples/public-domain-recipes/kombucha/kombucha.opensauce\n  - examples/public-domain-recipes/pho-soup/pho-soup.opensauce\n  - examples/public-domain-recipes/pretzels/pretzels.opensauce\nobserved_qualifiers:\n- value: sugar or honey or barley syrup or molasses etc.\n  count: 1\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/bread/bread.opensauce",
+          "line": 20,
+          "raw": "(sweetener)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/bread/bread.opensauce",
+          "line": 42,
+          "raw": "(sweetener)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/kombucha/kombucha.opensauce",
+          "line": 18,
+          "raw": "(sweetener)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/kombucha/kombucha.opensauce",
+          "line": 43,
+          "raw": "(sweetener)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/pho-soup/pho-soup.opensauce",
+          "line": 34,
+          "raw": "(sweetener)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/pho-soup/pho-soup.opensauce",
+          "line": 51,
+          "raw": "(sweetener)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/pretzels/pretzels.opensauce",
+          "line": 23,
+          "raw": "(sweetener, sugar or honey or barley syrup or molasses etc.)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/pretzels/pretzels.opensauce",
+          "line": 41,
+          "raw": "(sweetener)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/tanzania-tea-with-milk/tanzania-tea-with-milk.opensauce",
+          "line": 25,
+          "raw": "(sweetener, optional, recommended; sugar, syrup, monk fruit extract, etc.)",
+          "localKind": "ingredient",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/tanzania-tea-with-milk/tanzania-tea-with-milk.opensauce",
+          "line": 37,
+          "raw": "(sweetener)",
+          "localKind": "ingredient",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "tea-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "tea-choice",
+        "kind": "ingredient",
+        "canonical_name": "tea choice",
+        "names": {
+          "en": "tea choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "tea choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/kombucha/kombucha.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: tea-choice\nkind: ingredient\ncanonical_name: tea choice\nnames:\n  en: tea choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: tea choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/kombucha/kombucha.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/kombucha/kombucha.opensauce",
+          "line": 17,
+          "raw": "(tea choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/kombucha/kombucha.opensauce",
+          "line": 41,
+          "raw": "(tea choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "thinning-liquid",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "thinning-liquid",
+        "kind": "ingredient",
+        "canonical_name": "thinning liquid",
+        "names": {
+          "en": "thinning liquid"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "thinning liquid",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce"
+          ]
+        },
+        "observed_qualifiers": [
+          {
+            "value": "optional",
+            "count": 1
+          }
+        ]
+      },
+      "originalYaml": "id: thinning-liquid\nkind: ingredient\ncanonical_name: thinning liquid\nnames:\n  en: thinning liquid\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: thinning liquid\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce\nobserved_qualifiers:\n- value: optional\n  count: 1\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+          "line": 32,
+          "raw": "(thinning liquid, optional)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/eggs-benedict/eggs-benedict.opensauce",
+          "line": 47,
+          "raw": "(thinning liquid)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "tomato-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "tomato-choice",
+        "kind": "ingredient",
+        "canonical_name": "tomato choice",
+        "names": {
+          "en": "tomato choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 2,
+          "current_observation_count": 2,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "tomato choice",
+              "count": 2
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce",
+            "examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: tomato-choice\nkind: ingredient\ncanonical_name: tomato choice\nnames:\n  en: tomato choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 2\n  current_observation_count: 2\n  legacy_observation_count: 0\n  observed_terms:\n  - term: tomato choice\n    count: 2\n  seen_in:\n  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce\n  - examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce",
+          "line": 24,
+          "raw": "(tomato choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce",
+          "line": 47,
+          "raw": "(tomato choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce",
+          "line": 29,
+          "raw": "(tomato choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/ukrainian-borscht/ukrainian-borscht.opensauce",
+          "line": 52,
+          "raw": "(tomato choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "tomato-sauce-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "tomato-sauce-choice",
+        "kind": "ingredient",
+        "canonical_name": "tomato sauce choice",
+        "names": {
+          "en": "tomato sauce choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "tomato sauce choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: tomato-sauce-choice\nkind: ingredient\ncanonical_name: tomato sauce choice\nnames:\n  en: tomato sauce choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: tomato sauce choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce",
+          "line": 23,
+          "raw": "(tomato sauce choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/lenten-chili/lenten-chili.opensauce",
+          "line": 47,
+          "raw": "(tomato sauce choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "vanilla-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "vanilla-choice",
+        "kind": "ingredient",
+        "canonical_name": "vanilla choice",
+        "names": {
+          "en": "vanilla choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 1,
+          "current_observation_count": 1,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "vanilla choice",
+              "count": 1
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce"
+          ]
+        }
+      },
+      "originalYaml": "id: vanilla-choice\nkind: ingredient\ncanonical_name: vanilla choice\nnames:\n  en: vanilla choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 1\n  current_observation_count: 1\n  legacy_observation_count: 0\n  observed_terms:\n  - term: vanilla choice\n    count: 1\n  seen_in:\n  - examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce",
+          "line": 25,
+          "raw": "(vanilla choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/creme-brulee/creme-brulee.opensauce",
+          "line": 40,
+          "raw": "(vanilla choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    },
+    {
+      "id": "wine-choice",
+      "decision": "local-only",
+      "review": "human-reviewed",
+      "entry": {
+        "id": "wine-choice",
+        "kind": "ingredient",
+        "canonical_name": "wine choice",
+        "names": {
+          "en": "wine choice"
+        },
+        "status": "canonical-seed",
+        "evidence": {
+          "current_recipe_count": 2,
+          "current_observation_count": 2,
+          "legacy_observation_count": 0,
+          "observed_terms": [
+            {
+              "term": "wine choice",
+              "count": 2
+            }
+          ],
+          "seen_in": [
+            "examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce",
+            "examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce"
+          ]
+        },
+        "observed_qualifiers": [
+          {
+            "value": "optional",
+            "count": 1
+          }
+        ]
+      },
+      "originalYaml": "id: wine-choice\nkind: ingredient\ncanonical_name: wine choice\nnames:\n  en: wine choice\nstatus: canonical-seed\nevidence:\n  current_recipe_count: 2\n  current_observation_count: 2\n  legacy_observation_count: 0\n  observed_terms:\n  - term: wine choice\n    count: 2\n  seen_in:\n  - examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce\n  - examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce\nobserved_qualifiers:\n- value: optional\n  count: 1\n",
+      "occurrences": [
+        {
+          "file": "examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce",
+          "line": 23,
+          "raw": "(wine choice)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce",
+          "line": 48,
+          "raw": "(wine choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/ginger-garlic-broccoli/ginger-garlic-broccoli.opensauce",
+          "line": 49,
+          "raw": "(wine choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        },
+        {
+          "file": "examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce",
+          "line": 29,
+          "raw": "(wine choice, optional)",
+          "localKind": "choice",
+          "section": "ingredients"
+        },
+        {
+          "file": "examples/public-domain-recipes/hoisin-tofu-and-broccoli/hoisin-tofu-and-broccoli.opensauce",
+          "line": 55,
+          "raw": "(wine choice)",
+          "localKind": "choice",
+          "section": "instructions"
+        }
+      ],
+      "recipeChanges": [],
+      "rationale": "Existing declarations and named choices resolve locally; removing this global ingredient identity changes no local binding, source text, or parser diagnostic."
+    }
+  ],
+  "verification": {
+    "before": {
+      "ingredientCount": 431,
+      "ingredientReferencePages": 431,
+      "aliases": 42,
+      "pluralNameForms": 14,
+      "parts": 18,
+      "variants": 8,
+      "recipes": 410,
+      "ingredientTokens": 8053,
+      "unresolvedCanonicalIngredientTokens": 1530,
+      "ambiguousCanonicalIngredientTokens": 0,
+      "unknownOrLocallyAmbiguousThingTokens": 28,
+      "parserErrors": 0,
+      "parserWarnings": 411,
+      "warningCodes": {
+        "FREE_TEXT": 383,
+        "AMBIGUOUS_REFERENCE": 18,
+        "UNRESOLVED_REFERENCE": 10
+      }
+    },
+    "after": {
+      "ingredientCount": 386,
+      "ingredientReferencePages": 386,
+      "aliases": 42,
+      "pluralNameForms": 13,
+      "parts": 18,
+      "variants": 8,
+      "recipes": 410,
+      "ingredientTokens": 8053,
+      "unresolvedCanonicalIngredientTokens": 1568,
+      "ambiguousCanonicalIngredientTokens": 0,
+      "unknownOrLocallyAmbiguousThingTokens": 28,
+      "parserErrors": 0,
+      "parserWarnings": 411,
+      "warningCodes": {
+        "FREE_TEXT": 383,
+        "AMBIGUOUS_REFERENCE": 18,
+        "UNRESOLVED_REFERENCE": 10
+      }
+    },
+    "recipeFilesChanged": [],
+    "recipeByteHashesUnchanged": 410,
+    "completeAstComparison": "All 410 recipes identical except removal of 38 canonicalId fields from reviewed ingredient tokens; process IDs, local declaration bindings and diagnostics unchanged.",
+    "unsafeRemovals": []
+  }
+}

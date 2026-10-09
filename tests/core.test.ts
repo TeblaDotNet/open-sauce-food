@@ -162,7 +162,7 @@ test('vocabulary uses explicit aliases only and preserves source spelling', asyn
   assert.equal(statements(r)[0].tokens[0].canonicalId, 'courgette');
   assert.match(renderCode(r), /\(zucchini\)/);
   const current = await loadVocabulary('.');
-  assert.equal(current.entries.length, 756);
+  assert.equal(current.entries.length, 709);
   assert.equal(current.resolve('zucchini', 'ingredient').length, 1);
   assert.equal(current.resolve('courgette', 'ingredient')[0].id, current.resolve('zucchini', 'ingredient')[0].id);
   assert.equal(current.resolve('baking sheet', 'equipment')[0].id, 'baking-tray');

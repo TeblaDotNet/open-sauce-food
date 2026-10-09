@@ -23,8 +23,8 @@ test('complete corpus browse memberships and canonical references are generated 
   assert.equal(generated.audit.tagSlugCollisions.length, 8);
   assert.equal(generated.manifest.pages.filter(p => p.includes('/recipe/')).length, 410);
   assert.equal(generated.validation.status, 'passed');
-  assert.equal(generated.validation.pages, 1374);
-  assert.equal(generated.validation.references, 753);
+  assert.equal(generated.validation.pages, 1327);
+  assert.equal(generated.validation.references, 706);
   assert.equal(generated.validation.originalSourcePages, 391);
 });
 test('ordinary actions have no public pages, index entries or recipe links; techniques retain pages and backlinks', () => {
@@ -138,4 +138,16 @@ test('Spec is rendered from authoritative Markdown with escaped examples and saf
   const sample = renderSpec('# Example\n\n<script>alert(1)</script>\n\n```opensauce\n(egg) <whisk>\n```\n\n[Guide](README.md)', routes(config));
   assert.ok(!sample.includes('<script>')); assert.ok(sample.includes('&lt;whisk&gt;'));
   assert.ok(sample.includes(routes(config).source('README.md')));
+});
+
+test('reviewed local ingredient roles have no generated pages, index identities or recipe links', async () => {
+  const decisions = JSON.parse(await readFile('ingredient-local-role-decisions.json', 'utf8'));
+  const index = generated.files.get('ingredients/index.html')!.toString();
+  for (const {id} of decisions.entries) {
+    assert.ok(!generated.files.has(`ingredients/${id}/index.html`), id);
+    assert.ok(!index.includes(`data-reference="${id}"`), id);
+    assert.ok(!generated.manifest.references.some(r => r.kind === 'ingredient' && r.id === id), id);
+    for (const record of generated.manifest.recipes)
+      assert.ok(!record.semanticLinks.includes(routes(config).reference('ingredient', id)), `${record.slug}: ${id}`);
+  }
 });
