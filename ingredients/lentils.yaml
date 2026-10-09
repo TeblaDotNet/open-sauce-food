@@ -22,3 +22,13 @@ observed_qualifiers:
   count: 1
 - value: red
   count: 1
+
+states:
+  dry:
+    names: {en: dry}
+  soaked:
+    names: {en: soaked}
+  cooked:
+    names: {en: cooked}
+  tinned:
+    names: {en-GB: tinned, en-US: canned}

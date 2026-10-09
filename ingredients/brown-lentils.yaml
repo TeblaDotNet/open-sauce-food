@@ -18,3 +18,14 @@ observed_qualifiers:
   count: 1
 - value: soaked overnight and drained
   count: 1
+
+type_of: lentils
+states:
+  dry:
+    names: {en: dry}
+  soaked:
+    names: {en: soaked}
+  cooked:
+    names: {en: cooked}
+  tinned:
+    names: {en-GB: tinned, en-US: canned}

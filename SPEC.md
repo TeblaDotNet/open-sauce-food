@@ -1513,3 +1513,14 @@ Code retains authored notation. Compact can render `in (water, boiling) + (salt)
 as “in boiling water with salt”; HTML gives the action head and context references
 separate semantic links, without nested anchors. Existing duration/precision values
 and following `?=` judgements retain their meanings.
+
+### Optional ingredient state annotations (knowledge model; no syntax change)
+
+Identity, type/family, part/product, state/preparation and loose qualifiers remain
+separate. Brown lentils is a type of lentils; in `(brown lentils, soaked)`, an
+explicit vocabulary state can annotate soaked without changing identity or source.
+Finely chopped remains a loose qualifier; lemon juice remains a part/product.
+Only complete explicitly configured qualifiers are annotated, retaining their raw
+text and source spans. Grammar and vocabulary-free parsing are unchanged. No
+state inheritance, transitions or conversions are inferred. See
+[VOCABULARY-SCHEMA.md](VOCABULARY-SCHEMA.md) for the optional model.

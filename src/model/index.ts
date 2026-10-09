@@ -13,6 +13,9 @@ export interface Token {
   variant?: string;
   parts?: string[];
   qualifiers?: string[];
+  /** Explicit recognised qualifier occurrences; raw includes surrounding whitespace.
+   * IDs are scoped to canonicalId. No inferred state or transition is represented. */
+  stateResolution?: { id: string; qualifierIndex: number; raw: string; span: Span }[];
   parameters?: string[];
   /** Additive process context: exact parameter slices, present only with structured things.
    * Children are thing, text or + operator tokens; offsets are absolute source offsets. */

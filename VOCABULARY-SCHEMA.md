@@ -202,7 +202,7 @@ whole lemon or peel. Mixed spellings retain ambiguity when multiple declarations
 match. A bare local flour reference can retain the identity of its uniquely matched
 self-raising declaration. Other family children are not substitutes.
 
-Comma qualifiers do not become type/state metadata: Damper's two self-raising
+Comma qualifiers do not automatically become type metadata: Damper's two self-raising
 references were explicitly changed from comma to semicolon syntax. Its ordinary
 work-surface flour remains Flour. Fresh/bottled/freshly squeezed lemon juice remain
 ordinary qualifiers on the same Lemon → Juice identity.
@@ -284,7 +284,7 @@ Code is unchanged.
 ## Future optional modules (not implemented)
 
 Ingredient YAML is gradually becoming a reusable culinary knowledge object:
-variants, preparation/state relationships, typical sizes, conversion metadata,
+variants, richer preparation/state relationships, typical sizes, conversion metadata,
 substitutions, dietary properties, nutrition and provenance remain optional modules.
 Variant inheritance, locale/size standards, conflicting-source selection,
 cross-scope groups and quantitative part/output provenance need explicit design.
@@ -347,3 +347,59 @@ The focused classification is `add`, `remove` (including its existing aliases),
 and `place`. `put` has no canonical entry and remains legal and unlinked. No
 other entries are reclassified in this pass. Parser legality never depends on
 this metadata.
+
+## Ingredient states / preparations (focused proof)
+
+Identity, type/family, part/product, state/preparation and loose qualifiers are
+separate axes. Brown Lentils retains its canonical identity and has
+`type_of: lentils`; soaked is a state, whereas finely chopped remains loose.
+Lemon juice remains a part/product, not a state of a whole lemon.
+
+A top-level ingredient may declare a local map:
+
+```yaml
+states:
+  dry:
+    names: {en: dry}
+  soaked:
+    names: {en: soaked}
+  cooked:
+    names: {en: cooked}
+  tinned:
+    names: {en-GB: tinned, en-US: canned}
+```
+
+IDs follow the existing lowercase local-ID rules. Each state requires nonempty
+locale names and permits string aliases. Competing normalized terms are rejected.
+States are scoped to the canonical ingredient ID, never global aliases or pages.
+They are currently allowed only on whole ingredient entries, not parts or other
+kinds. Both lentils and brown-lentils explicitly carry these four entries; no
+family inheritance occurs. No missing lentil types are invented.
+
+`resolveState(ingredientId, qualifier)` matches the complete trimmed qualifier,
+case-insensitively, against local IDs, names and explicit aliases. It returns a
+local state ID or undefined. No compound-name stripping or prose inference occurs.
+With vocabulary, `(brown lentils, soaked)` receives additive
+`stateResolution: [{id, qualifierIndex, raw, span}]`. The zero-based qualifier
+index refers to the unchanged qualifiers array; raw and absolute UTF-16 span
+include surrounding whitespace between commas/closing parenthesis. Canonical
+identity, raw token and all existing fields stay unchanged. Without vocabulary
+there is no annotation. Parts and unpromoted local variants receive no state
+annotation. Unqualified later references do not inherit a declaration's state.
+
+These are recognized authored occurrences, not a computed current state: multiple
+qualifiers may describe stages or alternatives. No exclusivity, compatibility,
+transition, substitution, cooking-time or weight-equivalence inference is made.
+The ingredient ID plus state ID supplies a future reasoning hook, not a conversion.
+Existing sourced-quantity free-text state fields are not automatically linked.
+
+Reference pages show a States / preparations section only for explicitly attached
+states. Lentils and Brown Lentils each show it; their existing URLs and independent
+usage counts remain intact. Recipe presentation continues to preserve qualifiers.
+
+Frozen, dried and rehydrated remain candidates, not recognized states in this data.
+Finely chopped, freshly squeezed, optional and well drained remain loose. Tomato
+paste, raisins, toast, smoked pancetta and yoghurt are not automatically classified:
+a processed product may have its own culinary identity, so state is not a universal
+processed-form category. Review chickpeas next before considering mushrooms, beans,
+rice or pasta; no additional ingredient is enriched here.
