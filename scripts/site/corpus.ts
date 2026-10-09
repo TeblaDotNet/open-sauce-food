@@ -1,3 +1,4 @@
+import { semanticTokens as nestedTokens } from '../../src/model/index.ts';
 import { readFile } from 'node:fs/promises';
 import { basename, dirname, join, relative } from 'node:path';
 import { createHash } from 'node:crypto';
@@ -25,7 +26,7 @@ export function visitNodes(recipe: Recipe, visit: (node: Node) => void) {
 }
 export function semanticTokens(recipe: Recipe): Token[] {
   const tokens: Token[] = [];
-  visitNodes(recipe, n => { if (n.kind === 'statement') tokens.push(...n.tokens.filter(t => t.reference !== false && t.canonicalId && (t.kind === 'process' || t.thingKind === 'ingredient' || t.thingKind === 'equipment'))); });
+  visitNodes(recipe, n => { if (n.kind === 'statement') tokens.push(...nestedTokens(n.tokens).filter(t => t.reference !== false && t.canonicalId && (t.kind === 'process' || t.thingKind === 'ingredient' || t.thingKind === 'equipment'))); });
   return tokens;
 }
 export function facetSlug(value: string) { return value.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'label'; }

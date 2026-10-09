@@ -1429,3 +1429,31 @@ payload. This original-source payload is distinct from the exact entire authored
 Typed process argument roles, choice-scope redesign, repeat count/cadence,
 part/output quantity provenance, conversion/density data, localisation and serving
 scaling remain unimplemented proposals.
+
+### Structured references in process/action context
+
+An action may retain explicit ingredient/equipment references in its context:
+
+```text
+{ravioli} <cook, 1-2m, in (water, boiling) + (salt)> ?= they float to the top
+{dough} <cover, with (plastic wrap)>
+(onion) <fry, in (pan) + (oil)>
+```
+
+These remain single-action tokens. Context things use the existing
+`(base [; variant] [: part ...] [, qualifiers...])` notation, with normal local
+and vocabulary resolution; unknown names remain legal. A comma in a thing's
+qualifiers belongs to that thing. No new delimiters or recursive expressions are added.
+
+The conservative recognition boundary is a non-nested parenthesized thing directly
+following `in`, `into`, `with`, `using`, `on`, `onto`, `from` or `over`
+in a parameter, or `+` after a recognized context thing in that parameter.
+Sentence punctuation in the identity, nested delimiters and parenthesized numeric
+measurements are left literal. Other incidental parentheses remain ordinary prose.
+This boundary is vocabulary-independent: `with (care)` denotes an unknown thing,
+not a guessed adverb. Write `with care` when literal prose is intended.
+
+Code retains authored notation. Compact can render `in (water, boiling) + (salt)`
+as “in boiling water with salt”; HTML gives the action head and context references
+separate semantic links, without nested anchors. Existing duration/precision values
+and following `?=` judgements retain their meanings.

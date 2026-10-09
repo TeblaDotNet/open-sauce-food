@@ -14,6 +14,9 @@ export interface Token {
   parts?: string[];
   qualifiers?: string[];
   parameters?: string[];
+  /** Additive process context: exact parameter slices, present only with structured things.
+   * Children are thing, text or + operator tokens; offsets are absolute source offsets. */
+  parameterParts?: { raw: string; span: Span; tokens: Token[] }[];
   /** Literal qualitative body and source span of its preceding process. */
   judgement?: { text: string; processSpan?: Span };
   /** Resolved vocabulary entry opts out of public reference pages. */
@@ -53,4 +56,9 @@ export interface Recipe {
   source: string;
   modelVersion: 1; filename?: string;
   preamble: Node[]; sections: Section[]; diagnostics: Diagnostic[];
+}
+
+/** Semantic traversal including process context; never use to reconstruct source text. */
+export function semanticTokens(tokens: readonly Token[]): Token[] {
+  return tokens.flatMap(t => [t, ...(t.parameterParts ?? []).flatMap(p => p.tokens)]);
 }

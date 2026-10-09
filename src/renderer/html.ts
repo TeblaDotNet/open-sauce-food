@@ -3,7 +3,7 @@ import type { Node, Recipe, Token } from '../model/index.ts';
 import type { RenderOptions } from './index.ts';
 import { compactPhrasing } from './compact.ts';
 import type { Phrase } from './compact.ts';
-import { amountTokens, syntaxLabel } from './syntax.ts';
+import { amountTokens, syntaxLabel, isStructuredValue } from './syntax.ts';
 
 export interface ReferenceTarget {
   kind: 'ingredient' | 'equipment' | 'process';
@@ -82,7 +82,16 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
     }
     return out + e(value.slice(offset));
   }
-  function token(t: Token, label?: string): string {
+  function token(t: Token, label?: string, codeHead?: string): string {
+    if (code && label === undefined && codeHead === undefined && t.kind === 'process' && t.parameterParts) {
+      const comma = t.raw.indexOf(',');
+      // Link only the action head: nesting ingredient anchors in a process anchor is invalid HTML.
+      const head = token(t, undefined, t.raw.slice(0, comma));
+      const body = t.parameterParts.map(p => ',' + (syntaxSpans && isStructuredValue(p.raw)
+        ? '<span class="os-syntax-value">' + e(p.raw) + '</span>'
+        : p.tokens.map(child => token(child)).join(''))).join('');
+      return '<span class="os-process-context">' + head + body + '&gt;</span>';
+    }
     if (t.kind === 'image') return image(t.path ?? '', t.alt ?? '');
     if (t.kind === 'text') return e(label ?? t.raw);
     if (t.kind === 'operator') return `<span class="os-operator">${e(label ?? t.raw)}</span>`;
@@ -94,7 +103,7 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
     const href = t.reference !== false && t.canonicalId && (kind === 'ingredient' || kind === 'equipment' || kind === 'process')
       ? options.referenceUrl?.({ kind, canonicalId: t.canonicalId, token: t }) : undefined;
     const safe = href === undefined ? undefined : safeUrl(href);
-    const content = syntaxSpans && !options.formatTerm ? syntaxLabel(t, label, e) : e(label ?? t.raw);
+    const content = syntaxSpans && !options.formatTerm ? syntaxLabel(codeHead === undefined ? t : { ...t, raw: codeHead, parameters: [] }, label, e) : e(codeHead ?? label ?? t.raw);
     return safe ? `<a ${attributes} href="${e(safe)}">${content}</a>` : `<span ${attributes}>${content}</span>`;
   }
   function node(n: Node, section: string, merged?: Phrase): string {

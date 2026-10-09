@@ -1,3 +1,4 @@
+import { semanticTokens } from '../../src/model/index.ts';
 import { readFile, mkdir, writeFile, readdir, lstat, realpath, unlink } from 'node:fs/promises';
 import { resolve, join, dirname, relative, isAbsolute } from 'node:path';
 import { createHash } from 'node:crypto';
@@ -122,7 +123,7 @@ export async function generateSite(root: string, config: SiteConfig) {
   const unlinkedConcepts: { recipe: string; kind: string; raw: string; line: number }[] = [];
   for (const record of corpus.records) visitNodes(corpus.parsed.get(record.slug)!, node => {
     if (node.kind !== 'statement') return;
-    for (const token of node.tokens) if ((token.kind === 'process' && !token.canonicalId) || (token.kind === 'thing' && !token.canonicalId && token.thingKind !== 'choice')) {
+    for (const token of semanticTokens(node.tokens)) if ((token.kind === 'process' && !token.canonicalId) || (token.kind === 'thing' && !token.canonicalId && token.thingKind !== 'choice')) {
       unlinkedConcepts.push({ recipe: record.slug, kind: token.kind === 'process' ? 'process (no canonical reference)' : (token.thingKind === 'ingredient' || token.thingKind === 'equipment') ? token.thingKind + ' (no canonical reference)' : token.thingKind!, raw: token.raw, line: token.span.line });
     }
   });

@@ -1,3 +1,4 @@
+import { semanticTokens } from '../model/index.ts';
 import type { Diagnostic, Group, Node, Recipe, Section, Span, Statement, Token } from '../model/index.ts';
 import type { Vocabulary } from '../vocabulary/index.ts';
 import { readCuration } from '../curation.ts';
@@ -71,7 +72,49 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
             token.parts = structure[3] ? structure[3].split(':').slice(1).map(p => p.trim()) : [];
           } else report('error', 'INVALID_THING_STRUCTURE', 'Expected base, optional ; variant, then nonempty : parts before comma qualifiers.', token.span);
         }
-        if (kind === 'process') token.parameters = parts.slice(1);
+        if (kind === 'process') {
+          token.parameters = parts.slice(1);
+          const firstComma = raw.indexOf(',');
+          if (firstComma >= 0) {
+            const slices: { start: number; end: number }[] = [];
+            let begin = firstComma + 1, parens = 0;
+            for (let i = begin; i < raw.length - 1; i++) {
+              if (raw[i] === '(') parens++;
+              if (raw[i] === ')') parens = Math.max(0, parens - 1);
+              if (raw[i] === ',' && parens === 0) { slices.push({ start: begin, end: i }); begin = i + 1; }
+            }
+            slices.push({ start: begin, end: raw.length - 1 });
+            const parameterParts = slices.map(part => {
+              const value = raw.slice(part.start, part.end), children: Token[] = [];
+              let cursor = 0, referenceSeen = false;
+              const literal = (a: number, b: number) => {
+                if (b > a) children.push({ kind: 'text', raw: value.slice(a, b), span: loc(start + part.start + a, start + part.start + b) });
+              };
+              // Only explicit context positions opt in. Incidental parenthetical prose stays opaque.
+              for (const match of value.matchAll(/\(([^(){}<>\[\]!?=]+)\)/g)) {
+                const at = match.index!, before = value.slice(cursor, at);
+                const positioned = /\b(?:in|into|with|using|on|onto|from|over)\s*$/.test(before) ||
+                  (referenceSeen && /^\s*\+\s*$/.test(before));
+                const head = match[1].split(',')[0];
+                if (!positioned || /^\s*(?:!|~~|~)?\d+(?:[.\/–-]\d+)*\s*(?:s|m|h|seconds?|minutes?|hours?|mm|cm|inches?|g|kg|ml|l)\s*$/i.test(head) || !/[\p{L}]/u.test(head) || /[.!?]/.test(head) ||
+                    !/^([^;:]+?)(?:\s*;\s*([^;:]+))?((?:\s*:\s*[^;:]+)*)$/.test(head)) continue;
+                if (referenceSeen && /^\s*\+\s*$/.test(before)) {
+                  const plus = cursor + before.indexOf('+'); literal(cursor, plus);
+                  children.push({ kind: 'operator', raw: '+', span: loc(start + part.start + plus, start + part.start + plus + 1) });
+                  literal(plus + 1, at);
+                } else literal(cursor, at);
+                children.push(...tokenize(match[0], loc(start + part.start + at, start + part.start + at + match[0].length)));
+                cursor = at + match[0].length; referenceSeen = true;
+              }
+              literal(cursor, value.length);
+              return { raw: value, span: loc(start + part.start, start + part.end), tokens: children };
+            });
+            if (parameterParts.some(p => p.tokens.some(t => t.kind === 'thing'))) {
+              token.parameterParts = parameterParts;
+              token.parameters = parameterParts.map(p => p.raw.trim());
+            }
+          }
+        }
         tokens.push(token);
         continue;
       }
@@ -255,14 +298,22 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
     const start = n.tokens[0]?.span.start ?? n.span.start;
     let quantityText = n.tokens.map(t => {
       if (['thing', 'result', 'image', 'judgement'].includes(t.kind)) return ' '.repeat(t.raw.length);
-      if (t.kind === 'process') { const comma = t.raw.indexOf(','); return comma < 0 ? ' '.repeat(t.raw.length) : ' '.repeat(comma + 1) + t.raw.slice(comma + 1); }
+      if (t.kind === 'process') {
+        const comma = t.raw.indexOf(',');
+        let masked = comma < 0 ? ' '.repeat(t.raw.length) : ' '.repeat(comma + 1) + t.raw.slice(comma + 1);
+        for (const child of (t.parameterParts ?? []).flatMap(p => p.tokens).filter(t => t.kind === 'thing')) {
+          const at = child.span.start - t.span.start;
+          masked = masked.slice(0, at) + ' '.repeat(child.raw.length) + masked.slice(at + child.raw.length);
+        }
+        return masked;
+      }
       return t.raw;
     }).join('');
     n.quantities = [...quantityText.matchAll(/(?<![\w.!~])(!|~~|~)?(\d+(?:\.\d+)?(?:\/\d+)?(?:[ -]\d+(?:\.\d+)?(?:\/\d+)?)?(?:\s*(?:[a-zA-Z°%]+))?)/g)].map(m => ({
       raw: m[0], value: m[2], precision: m[1] === '!' ? 'high' : m[1] === '~~' ? 'very-approximate' : m[1] === '~' ? 'approximate' : 'unspecified',
       span: { start: start + m.index!, end: start + m.index! + m[0].length, line: n.tokens[0]?.span.line ?? n.span.line, column: (n.tokens[0]?.span.column ?? 1) + m.index! }
     }));
-    for (const t of n.tokens) {
+    for (const t of semanticTokens(n.tokens)) {
       if (t.kind === 'thing' && s.name === 'instructions') {
         let matches = declarations.get(key(t.name!)) ?? [];
         if (!matches.length && options.vocabulary) {

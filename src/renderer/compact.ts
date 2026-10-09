@@ -119,6 +119,20 @@ export function compactPhrasing(recipe: Recipe, options: RenderOptions) {
     });
     return [...term(t, name), ...(object.length ? [...text(' the '), ...object] : []),
       ...suffixes.flatMap((suffix, i) => {
+        const context = t.parameterParts?.[i];
+        if (!options.formatValue && context?.tokens.some(t => t.kind === 'thing')) {
+          const phrase = trim(context.tokens.flatMap(child => {
+            if (child.kind === 'thing') {
+              const temperatures = (child.qualifiers ?? []).filter(q => /^(boiling|cold|warm|hot|ice-cold)$/.test(q));
+              const label = options.formatTerm?.(child) ?? [...temperatures, labelThing({ ...child, qualifiers: child.qualifiers?.filter(q => !temperatures.includes(q)) }, false)].join(' ');
+              const article = child.thingKind === 'equipment' && /^(pan|pot|bowl|oven|knife|fork|stand mixer|rolling pin)$/.test(child.name ?? '') ? 'the ' : '';
+              return [...text(article), ...term(child, label)];
+            }
+            if (child.kind === 'operator' && child.raw === '+') return text(/^\s*in\b/.test(context.raw) ? ' with ' : ' and ');
+            return text(child.raw);
+          }));
+          return [...text(' '), ...phrase];
+        }
         const position = suffix.indexOf(params[i]);
         return !options.formatValue && position >= 0 && isStructuredValue(t.parameters![i])
           ? [...text(suffix.slice(0, position)), ...text(params[i], true), ...text(suffix.slice(position + params[i].length))]

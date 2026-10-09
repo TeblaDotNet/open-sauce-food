@@ -167,3 +167,26 @@ HTML exposes `data-known-part-path` and `data-parts-complete` alongside authored
 `data-parts`; reference hooks receive the original annotated token. A vocabulary-
 backed Compact merge is a display-only phrase operation, not a combined AST action
 or a statement about anatomy, yield or quantity conservation.
+
+## Structured process context (additive)
+
+Process tokens retain `raw`, `span`, `name` and `parameters: string[]`.
+When explicit context contains a structured thing, optional `parameterParts`
+contains one `{ raw, span, tokens }` per parameter. Parameter raw includes its
+surrounding whitespace but excludes separating commas; its tokens concatenate
+exactly to that raw. All spans are absolute UTF-16 source locations, including
+nested things. Children are only things, literal text and `+` operators.
+The string parameters are trimmed compatibility views of these same slices.
+Commas inside a structured thing do not divide parameters.
+
+Nested things use the ordinary thing parser, declaration matching and vocabulary
+annotations. The exported `semanticTokens(tokens)` visits the enclosing token
+and parameter children; use it for semantic references, never source reconstruction.
+Top-level raw tokens still own source rendering. No recursive process/result/group
+expressions are introduced. Quantity scanning masks nested thing identities;
+judgements continue to point to the enclosing process span.
+
+Legacy parameters without structured things retain their existing string-array
+representation. See SPEC's process-context recognition boundary: incidental
+parentheses remain literal, but an explicit `with (care)` is indistinguishable
+from an unknown thing named care and is treated as a reference.

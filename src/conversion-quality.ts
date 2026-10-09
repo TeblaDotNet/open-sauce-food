@@ -1,3 +1,4 @@
+import { semanticTokens } from './model/index.ts';
 import { actionBoundaries, vocabularyActionHeads, undeclaredUses } from './conversion-evidence.ts';
 import type { Recipe, Node, Statement, Token, Span } from './model/index.ts';
 import type { Vocabulary } from './vocabulary/index.ts';
@@ -37,7 +38,7 @@ export function auditConversion(recipe: Recipe, vocabulary: Vocabulary) {
   const nodes = instructionSections.flatMap(s=>flatten(s.children));
   const lines = nodes.filter(n=>n.kind==='statement' || n.kind==='prose');
   const sts = nodes.filter((n): n is Statement=>n.kind==='statement');
-  const tokens = sts.flatMap(s=>s.tokens);
+  const tokens = sts.flatMap(s=>semanticTokens(s.tokens));
   const structural = tokens.filter(t=>['thing','result','process'].includes(t.kind));
   const uses = tokens.filter(t=>t.kind==='thing' && t.thingKind!=='ambiguous' && t.thingKind!=='unresolved');
   function coverage(section: string, rule: 'CQ001'|'CQ002') {
