@@ -1,3 +1,4 @@
+import { restoreReviewedInstructions } from './helpers/reviewed-instructions.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile, mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
@@ -70,14 +71,14 @@ test('YAML loader preserves curation for all entry kinds and diagnoses malformed
   } finally { await rm(root, { recursive: true, force: true }); }
 });
 
-test('293 encoding metadata additions are the only imported-recipe changes', async () => {
+test('293 encoding metadata additions remain intact after reviewed instruction replacements', async () => {
   const manifest = JSON.parse(await readFile('public-domain-import.json', 'utf8'));
   const records = manifest.records.filter((r: any) => r.conversionStatus === 'converted');
   assert.equal(records.length, 293);
   for (const record of records) {
     const source = await readFile(record.opensaucePath, 'utf8');
     assert.deepEqual(parseRecipe(source).curation, { origin: 'generated', review: 'unchecked' }, record.slug);
-    const previous = source.replace(/^::recipe\r?\ncuration origin: generated\ncuration review: unchecked\n/, '::recipe\n').replaceAll('\r\n', '\n');
+    const previous = restoreReviewedInstructions(source, record.slug).replace(/^::recipe\r?\ncuration origin: generated\ncuration review: unchecked\n/, '::recipe\n').replaceAll('\r\n', '\n');
     assert.equal(createHash('sha256').update(previous).digest('hex'), record.outputSha256, record.slug);
   }
 });

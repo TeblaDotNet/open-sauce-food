@@ -45,8 +45,21 @@ serves: 8
 
 ::instructions
 
-In a 5-qt. slow cooker, combine the first 13 ingredients （Can blend these first for convenience）. Add chicken, jalapeno and bay leaf. Cook, covered, on low 4 hours or until chicken is tender. Remove jalapeno and bay leaf.
-In a small bowl, mix cornstarch and cream until smooth; gradually stir into sauce. Cook, covered, on high 15-20 minutes or until sauce is thickened. Serve with rice. If desired, sprinkle with cilantro.
+First 13 ingredients: (tomato puree), (plain yogurt), (onion, large, finely chopped), (olive oil), (fresh gingerroot, minced), (garlic cloves, minced), (garam masala — /garam-masala), (salt), (cumin, ground), (paprika), (pepper), (cayenne pepper) and (cinnamon, ground).
+Optional [
+    <blend, first 13 ingredients, first, for convenience>
+]
+Combine the first 13 ingredients in a 5-qt. (slow cooker).
+Add (boneless skinless chicken breasts, cut into 1-1/2-inch cubes), (jalapeno pepper, halved and seeded) and (bay leaf).
+<cook, covered, on low, 4 hours or until chicken is tender>
+Remove (jalapeno pepper) and (bay leaf).
+In a small (bowl), mix (cornstarch) and (heavy whipping cream) until smooth.
+Gradually stir this mixture into {sauce}.
+{sauce} <cook, covered, on high, 15-20 minutes or until sauce is thickened>
+Serve with (hot cooked basmati rice).
+Optional [
+    Sprinkle with (fresh cilantro, Chopped, optional), if desired.
+]
 
 ::source
 <<<

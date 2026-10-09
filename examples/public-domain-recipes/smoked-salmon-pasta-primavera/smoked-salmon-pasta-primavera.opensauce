@@ -39,9 +39,24 @@ serves: 4
 
 ::instructions
 
-In a large pot of boiling salted water, cook linguine 10 min or until al dente, adding asparagus, beans, and sugar snap peas during the last 3 minutes of cooking and edamame during the last minute. Drain very well.
-Meanwhile in large saucepan, melt butter over medium heat. Add onion and garlic; cook, stirring 3 minutes. Stir in flour. Very gradually whisk in milk until smooth and stir often until mixture boils and has thickened （5 mins）.
-<add, pasta mixture, stirring until hot. Stir in salmon and mint just until mixed. Squeeze juice from lemon into pasta and stir>
+In a large (pot) of boiling salted water:
+(linguine) <cook, 10 min or until al dente>
+    During the last 3 minutes of cooking, add (asparagus), (green beans) and (sugar snap peas).
+    During the last minute, add edamame.
+{pasta mixture} <drain, very well>
+Meanwhile [
+    In a large (saucepan):
+    (butter) <melt, over medium heat>
+    Add (onion) and (garlic).
+    <cook, stirring, 3 minutes>
+    Stir in (flour; all-purpose).
+    Very gradually whisk in (milk) until smooth.
+    <stir, often, until mixture boils and has thickened, 5 mins>
+]
+Add {pasta mixture}, stirring until hot.
+Stir in (smoked salmon) and (mint) just until mixed.
+Squeeze juice from (lemon) into pasta.
+<stir>
 
 ::source
 <<<

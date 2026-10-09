@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "recipes": {
+    "bloody-mary-mix": {
+      "historicalCommit": "282872894a2e4b000a8ba92fa0dee4d6eca7d133",
+      "historicalInstructions": "\nIn a large pitcher, combine juice cocktail, lemon juice and brown sugar. Season with Worcestershire sauce, horseradish, hot sauce and celery salt. Cover, and refrigerate 8 to 12 hours to allow flavors to meld.\n\n",
+      "historicalSourceSha256": "0bc561306ab057528d15cd026731dff98b5213c2d680364589e56dc8563836d2",
+      "acceptedInstructionsSha256": "5ffd3745b045a41f5b71a304cde4fb9f19b6de5529cfaddd0c61ccbc4b526672",
+      "nonInstructionsSha256": "709bbdfeb67d11d4cf2e7ddd00465298b9ec37e5cd135fb928ffd220274e57e3"
+    },
+    "chicken-tikka-masala": {
+      "historicalCommit": "282872894a2e4b000a8ba92fa0dee4d6eca7d133",
+      "historicalInstructions": "\nIn a 5-qt. slow cooker, combine the first 13 ingredients （Can blend these first for convenience）. Add chicken, jalapeno and bay leaf. Cook, covered, on low 4 hours or until chicken is tender. Remove jalapeno and bay leaf.\nIn a small bowl, mix cornstarch and cream until smooth; gradually stir into sauce. Cook, covered, on high 15-20 minutes or until sauce is thickened. Serve with rice. If desired, sprinkle with cilantro.\n\n",
+      "historicalSourceSha256": "10ba034dcb5419062bb371a24d864f18832aa357112ea683d72b3eff419f1c37",
+      "acceptedInstructionsSha256": "ebe1907c48c10b267316258d749636b8f460b096a95d3d9e73c4a666a3a3784b",
+      "nonInstructionsSha256": "d7d31b34aa64bc8d913c3eba320d75f4a293f5776bd68e9a43144fbb7c86d6ca"
+    },
+    "hakka-style-meatballs": {
+      "historicalCommit": "282872894a2e4b000a8ba92fa0dee4d6eca7d133",
+      "historicalInstructions": "\n<preheat, oven to 450F. Add 1 1/4 cup water and 1/4 tsp salt to a medium pot. Cover and bring to a boil over a medium-high heat. Add rice and reduce heat to low. Cover and cook until rice is tender and liquid is absorbed (12-14 mins). Add peas halfway through cooking. When rice is done, remove pot from heat, and leave covered>\nWhile rice cooks, combine beef, panko, half the ginger, a quarter of the soy sauce and a third of the Moroccan spice blend. Roll mixture into 9 equal-sized meatballs. Arrange meatballs on a parchment-lined baking sheet. Bake on the middle rack in the oven until golden-brown and cooked through （8-10 mins）.\nMeanwhile, core and cut the green peppers into 1/2\" pieces and roughly chop cilantro. Stir together sweet chili sauce, remaining soy sauce, 1/4 cup water and chili garlic sauce in a small bowl.\n<heat, a large non-stick pan over medium-high heat. Add 1 Tbsp oil, then onion and peppers. Cook, stirring occasionally, until slightly softened (2-3 mins). Add remaining ginger and remaining Moroccan spice blend. Cook, stirring constantly, until fragrant (30 sec)>\n<add, meatballs and the stir-fry sauce to the pan with veggies. Cook, stirring gently, until sauce thickens slightly and coats meatballs (1 min). Season with salt and pepper, to taste>\n<add, half the cilantro to rice, then fluff with a fork. Divide rice between plates, then top with meatballs, veggies, and any sauce in the pan. Sprinkle remaining cilantro over top>\n\n",
+      "historicalSourceSha256": "ed977f3380e45e320313045f1241fb0265eb7b3377d0f1bc9e8e07113c8dc52c",
+      "acceptedInstructionsSha256": "b27f976b49e64970d7ae2c2b1e4b32ae0ba260ba2f266e421652648f79086cd6",
+      "nonInstructionsSha256": "1130509a8cb256a86b9c06b1ee8883d4663d8d00124c76399858858c68e900c2"
+    },
+    "orange-glorious": {
+      "historicalCommit": "282872894a2e4b000a8ba92fa0dee4d6eca7d133",
+      "historicalInstructions": "\nIn a blender, combine orange juice concentrate, milk, water, sugar and vanilla. Add ice cubes and blend until smooth. Pour into glasses and serve.\n\n",
+      "historicalSourceSha256": "3b97b315936876389f7cba64063b8c2ff7c33aabfd2331091c0345bac0cbc045",
+      "acceptedInstructionsSha256": "c1348b6fa6e560acff72cead72b9a0e944d3260159ca0f816fd512a2d58d951c",
+      "nonInstructionsSha256": "cf5b7edc98eac6d46d6cf0e1dc17b7c4ba1138edaa8870dcebd2069e0623a225"
+    },
+    "smoked-salmon-pasta-primavera": {
+      "historicalCommit": "282872894a2e4b000a8ba92fa0dee4d6eca7d133",
+      "historicalInstructions": "\nIn a large pot of boiling salted water, cook linguine 10 min or until al dente, adding asparagus, beans, and sugar snap peas during the last 3 minutes of cooking and edamame during the last minute. Drain very well.\nMeanwhile in large saucepan, melt butter over medium heat. Add onion and garlic; cook, stirring 3 minutes. Stir in flour. Very gradually whisk in milk until smooth and stir often until mixture boils and has thickened （5 mins）.\n<add, pasta mixture, stirring until hot. Stir in salmon and mint just until mixed. Squeeze juice from lemon into pasta and stir>\n\n",
+      "historicalSourceSha256": "6af303fb8764387e4c0c14f2164f08f876f15ca5d89bd8772733fc1692de0aa3",
+      "acceptedInstructionsSha256": "d34218d10b2b033aea0bdfc1466af8d5164f63e57b41cb6f62d5c5a5f0a3b979",
+      "nonInstructionsSha256": "9c7cdd51f43ba9d3faf5db38ee17ec2bed6edcd472c79ad2ca53f808b0eec1a4"
+    }
+  }
+}

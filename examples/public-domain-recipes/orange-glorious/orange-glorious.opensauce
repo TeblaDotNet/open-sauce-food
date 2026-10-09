@@ -31,7 +31,12 @@ serves: 4
 
 ::instructions
 
-In a blender, combine orange juice concentrate, milk, water, sugar and vanilla. Add ice cubes and blend until smooth. Pour into glasses and serve.
+In (blender):
+{mixture} = (can frozen orange juice concentrate) + (milk) + (water) + (sugar; white) + (vanilla extract)
+{mixture} + (cubes ice)
+{mixture} <blend, until smooth>
+{mixture} <pour, into glasses>
+<serve>
 
 ::source
 <<<

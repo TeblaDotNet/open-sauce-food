@@ -1,4 +1,4 @@
-import { restorePilotInstructions } from './helpers/pilot-preservation.ts';
+import { restoreReviewedInstructions } from './helpers/reviewed-instructions.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile } from 'node:fs/promises';
@@ -59,10 +59,10 @@ test('candidate hints retain uncertainty and classify cross-kind and malformed p
   assert.equal(classifyCandidate('wisk','process',vocabulary).category,'observed aliases/regional names');
 });
 
-test('all 410 recipes preserve historical bytes outside the five reviewed pilot instruction replacements', async () => {
+test('all 410 recipes preserve historical bytes outside explicitly reviewed instruction replacements', async () => {
   assert.equal(baseline.recipes.length,410);
   for (const item of baseline.recipes) {
-    const text = restorePilotInstructions(await readFile(item.path,'utf8'), item.path).replaceAll('\r\n','\n');
+    const text = restoreReviewedInstructions(await readFile(item.path,'utf8'), item.path).replaceAll('\r\n','\n');
     assert.equal(createHash('sha256').update(text).digest('hex'),item.sha256,item.path);
   }
 });

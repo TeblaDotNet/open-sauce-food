@@ -29,7 +29,11 @@ serves: 8
 
 ::instructions
 
-In a large pitcher, combine juice cocktail, lemon juice and brown sugar. Season with Worcestershire sauce, horseradish, hot sauce and celery salt. Cover, and refrigerate 8 to 12 hours to allow flavors to meld.
+In a large pitcher:
+{mixture} = (bottle tomato-vegetable juice cocktail) + (fruit, without seeds lemons, juiced) + (sugar; brown)
+Season {mixture} with (worcestershire sauce), (prepared horseradish), (hot pepper sauce) and (celery salt).
+{mixture} <cover>
+{mixture} <refrigerate, 8 to 12 hours, to allow flavors to meld>
 
 ::source
 <<<

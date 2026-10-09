@@ -41,12 +41,58 @@ serves: 3
 
 ::instructions
 
-<preheat, oven to 450F. Add 1 1/4 cup water and 1/4 tsp salt to a medium pot. Cover and bring to a boil over a medium-high heat. Add rice and reduce heat to low. Cover and cook until rice is tender and liquid is absorbed (12-14 mins). Add peas halfway through cooking. When rice is done, remove pot from heat, and leave covered>
-While rice cooks, combine beef, panko, half the ginger, a quarter of the soy sauce and a third of the Moroccan spice blend. Roll mixture into 9 equal-sized meatballs. Arrange meatballs on a parchment-lined baking sheet. Bake on the middle rack in the oven until golden-brown and cooked through （8-10 mins）.
-Meanwhile, core and cut the green peppers into 1/2" pieces and roughly chop cilantro. Stir together sweet chili sauce, remaining soy sauce, 1/4 cup water and chili garlic sauce in a small bowl.
-<heat, a large non-stick pan over medium-high heat. Add 1 Tbsp oil, then onion and peppers. Cook, stirring occasionally, until slightly softened (2-3 mins). Add remaining ginger and remaining Moroccan spice blend. Cook, stirring constantly, until fragrant (30 sec)>
-<add, meatballs and the stir-fry sauce to the pan with veggies. Cook, stirring gently, until sauce thickens slightly and coats meatballs (1 min). Season with salt and pepper, to taste>
-<add, half the cilantro to rice, then fluff with a fork. Divide rice between plates, then top with meatballs, veggies, and any sauce in the pan. Sprinkle remaining cilantro over top>
+(oven) <preheat, 450F>
+<add, 1 1/4 cup water and 1/4 tsp salt to a medium pot>
+(pot, medium) <cover> <bring to boil, medium-high heat>
+(basmati rice) <add, to the pot>
+<reduce heat, to low>
+(pot) <cover>
+[
+    (basmati rice) <cook, covered in the pot, low heat, 12-14m> ?= tender and liquid absorbed
+    Meanwhile [
+        (green peas) <add, to the rice halfway through cooking>
+    ]
+    (pot) <remove, from heat when rice is done> <leave covered>
+]
+Meanwhile [
+    While the rice cooks:
+    {meatball mixture} = (beef) + (panko breadcrumbs) + (ginger, half) + (soy sauce, a quarter) + (moroccan spice blend, a third)
+        <roll, into 9 equal-sized meatballs>
+    On a parchment-lined (baking sheet):
+    {meatballs} <arrange>
+        <bake, on the middle rack in the oven, 8-10m> ?= golden-brown and cooked through
+    Meanwhile [
+        (green bell pepper) <core> <cut, into 1/2-inch pieces>
+        (cilantro) <chop, roughly>
+        In a small (bowl):
+        {stir-fry sauce} = (sweet chili sauce) + (soy sauce, remaining) + 1/4 cup water + (chili garlic sauce)
+            <stir>
+    ]
+]
+large non-stick pan <heat, medium-high heat>
+(oil) 1 Tbsp <add, to the pan>
+In the pan:
+{veggies} = (onion) + (green bell pepper)
+    <cook, 2-3m> ?= slightly softened
+    Meanwhile [
+        {veggies} <stir, occasionally>
+    ]
+    + (ginger, remaining) + (moroccan spice blend, remaining)
+    <cook, 30s> ?= fragrant
+    Meanwhile [
+        {veggies} <stir, constantly>
+    ]
+In the pan with the veggies:
+{meatballs in sauce} = {veggies} + {meatballs} + {stir-fry sauce}
+    <cook, 1m> ?= sauce thickens slightly and coats meatballs
+    Meanwhile [
+        {meatballs in sauce} <stir, gently>
+    ]
+    <season, with salt and pepper to taste>
+(cilantro, half) <add, to the rice>
+(basmati rice) <fluff, with a fork> <divide, between plates>
+    <top, with meatballs and veggies and any sauce in the pan>
+(cilantro, remaining) <sprinkle, over top>
 
 ::source
 <<<
