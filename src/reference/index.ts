@@ -32,7 +32,7 @@ export function buildUsageIndex(recipes: readonly CorpusRecipe[]): UsageIndex {
           const forms = uses.get(id) ?? new Map<string, UsageForm>();
           const form: UsageForm = { parts: [...(token.parts ?? [])] };
           if (token.variant) form.variant = token.variant;
-          if (token.partResolution?.complete && token.parts?.length) form.canonicalParts = [...token.partResolution.ids];
+          if (token.partResolution?.complete && token.partResolution.ids.length) form.canonicalParts = [...token.partResolution.ids];
           forms.set(JSON.stringify(form), form); uses.set(id, forms);
         }
         if (node.kind === 'statement' || node.kind === 'group') visit(node.children);
@@ -58,6 +58,8 @@ export function recipeReferenceUrl(target: { kind: ReferenceKind; canonicalId: s
     ? `#${partAnchor(target.token.partResolution.ids)}` : '';
   return referencePath(target.kind, target.canonicalId) + part;
 }
+/** Retired public IDs only; these are compatibility routes, never canonical concepts. */
+export const ingredientCompatibilityRoutes = [{ from: 'lemon-juice', base: 'lemon', parts: ['juice'] }] as const;
 export interface ReferenceGroup extends PartGroup { id: string; processUrl?: string; members: { id: string; anchor: string }[] }
 export interface ReferencePart extends ReferenceKnowledge {
   /** Distinct recipes explicitly using this exact resolved part path. */

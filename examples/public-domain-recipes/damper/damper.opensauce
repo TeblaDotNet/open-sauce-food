@@ -18,7 +18,7 @@ serves: 15
 
 ::ingredients
 
-(flour, self-raising) 4cups
+(flour; self-raising) 4cups
 (butter, softened) 1tbsp
 (milk) 1cup
 (water) 1/2cup
@@ -35,7 +35,7 @@ serves: 15
 
 (oven) <preheat, 425°F / 220°C>
 (baking sheet) <grease>
-{dough} = (flour, self-raising) + (butter) + (milk) + (water) + (salt)
+{dough} = (flour; self-raising) + (butter) + (milk) + (water) + (salt)
     <mix>
     <knead, on (work surface)>
 {bread} <bake, in (oven); 25m>

@@ -733,10 +733,10 @@ entries:
   canonical_name: lemon garnish
   file: lemon-garnish.yaml
   aliases: 0
-- id: lemon-juice
-  canonical_name: lemon juice
-  file: lemon-juice.yaml
-  aliases: 0
+- id: self-raising-flour
+  canonical_name: self-raising flour
+  file: self-raising-flour.yaml
+  aliases: 1
 - id: lemon-peel
   canonical_name: lemon peel
   file: lemon-peel.yaml

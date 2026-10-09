@@ -26,13 +26,15 @@ export interface PartGroup {
   sources?: Provenance[];
 }
 export interface IngredientPart extends IngredientKnowledge {
+  /** Full authored names that target this part, not the whole base ingredient. */
+  lexical_names?: string[];
   names: Record<string, string>;
   plural_names?: Record<string, string>;
   aliases?: string[];
 }
 export interface IngredientKnowledge extends QuantitativeKnowledge {
   /** Local named types only; no inheritance, conversions or implied aliases. */
-  variants?: Record<string, { names: Record<string, string>; aliases?: string[] }>;
+  variants?: Record<string, { names: Record<string, string>; aliases?: string[]; canonical_id?: string }>;
   parts?: Record<string, IngredientPart>;
   part_groups?: Record<string, PartGroup>;
 }
@@ -54,11 +56,13 @@ export function validateIngredientKnowledge(value: unknown, path: string, ancest
   const quantity = (v: unknown) => record(v) && typeof v.value === 'number' && Number.isFinite(v.value) && v.value >= 0 &&
     string(v.unit) && typeof v.approximate === 'boolean' && source(v.source) &&
     ['locale', 'state'].every(k => v[k] === undefined || string(v[k]));
+  if (data.lexical_names !== undefined && (!Array.isArray(data.lexical_names) || !data.lexical_names.length || !data.lexical_names.every(string))) fail('lexical_names');
   if (data.plural_names !== undefined && !names(data.plural_names)) fail('plural_names');
   if (data.variants !== undefined) {
     if (!record(data.variants)) fail('variants');
     for (const [key, variant] of Object.entries(data.variants as Record<string, unknown>))
       if (!id(key) || !record(variant) || !names(variant.names) ||
+        (variant.canonical_id !== undefined && (!string(variant.canonical_id) || !id(variant.canonical_id))) ||
         (variant.aliases !== undefined && (!Array.isArray(variant.aliases) || !variant.aliases.every(string)))) fail(`variants.${key}`);
   }
   for (const k of ['typical_mass', 'reference_density']) if (data[k] !== undefined &&
@@ -71,6 +75,7 @@ export function validateIngredientKnowledge(value: unknown, path: string, ancest
       if (!id(key) || !record(part) || !names(part.names) ||
         (part.aliases !== undefined && (!Array.isArray(part.aliases) || !part.aliases.every(string)))) fail(`parts.${key}`);
       if (record(part) && part.type_of !== undefined) fail(`parts.${key}.type_of`);
+      if (record(part) && record(part.variants) && Object.values(part.variants).some(v => record(v) && v.canonical_id !== undefined)) fail(`parts.${key}.variants.canonical_id`);
       validateIngredientKnowledge(part, `${path}.parts.${key}`, ancestors);
     }
   }

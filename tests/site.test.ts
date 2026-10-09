@@ -23,7 +23,7 @@ test('complete corpus browse memberships and canonical references are generated 
   assert.equal(generated.audit.tagSlugCollisions.length, 8);
   assert.equal(generated.manifest.pages.filter(p => p.includes('/recipe/')).length, 410);
   assert.equal(generated.validation.status, 'passed');
-  assert.equal(generated.validation.pages, 1327);
+  assert.equal(generated.validation.pages, 1328);
   assert.equal(generated.validation.references, 706);
   assert.equal(generated.validation.originalSourcePages, 391);
 });
@@ -157,7 +157,7 @@ test('ingredient family and part pages retain independent routes and verified ba
     const childHtml = generated.files.get(`ingredients/${child}/index.html`)!.toString();
     const parentHtml = generated.files.get(`ingredients/${parent}/index.html`)!.toString();
     assert.ok(childHtml.includes(`Type of: <a href="${routes(config).reference('ingredient', parent)}">`));
-    assert.ok(parentHtml.includes(`<h2>Types</h2><ul><li><a href="${routes(config).reference('ingredient', child)}">`));
+    assert.ok(parentHtml.split('<h2>Types</h2>')[1].split('</section>')[0].includes(`href="${routes(config).reference('ingredient', child)}"`));
   }
   for (const [id, part] of [['egg','yolk'], ['egg','white'], ['lemon','juice']]) {
     const entry = generated.manifest.references.find(r => r.kind === 'ingredient' && r.id === id)!;
@@ -170,4 +170,18 @@ test('ingredient family and part pages retain independent routes and verified ba
   const wrong = structuredClone(generated.manifest);
   wrong.references.find(r => r.id === 'egg' && r.kind === 'ingredient')!.partUsage[0].recipes.push('not-a-recipe');
   assert.throws(() => validateFiles(generated.files, wrong), /Part usage/);
+});
+
+test('migrated ingredient routes link to the part or independent family child', () => {
+  const urls=routes(config), old=urls.reference('ingredient','lemon-juice'), target=urls.reference('ingredient','lemon')+'#part-juice';
+  assert.ok(!generated.manifest.references.some(r=>r.kind==='ingredient'&&r.id==='lemon-juice'));
+  const compat=generated.files.get(urls.output(old))!.toString();
+  assert.ok(compat.includes(`href="${target}"`));
+  assert.ok(compat.includes(`rel="canonical" href="${urls.canonical(target)}"`));
+  for(const recipe of generated.manifest.recipes)assert.ok(!recipe.semanticLinks.includes(old));
+  assert.ok(generated.manifest.recipes.find(r=>r.slug==='apple-pie')!.semanticLinks.includes(target));
+  const child=urls.reference('ingredient','self-raising-flour');
+  assert.ok(generated.files.has(urls.output(child)));
+  assert.ok(generated.files.get('ingredients/flour/index.html')!.toString().includes(`href="${child}"`));
+  assert.deepEqual(generated.manifest.references.find(r=>r.kind==='ingredient'&&r.id==='self-raising-flour')!.usageRecipes.sort(),['butter-cake','damper']);
 });

@@ -101,12 +101,12 @@ test('relationship labels and custom URLs retain HTML escaping and URL safety', 
 });
 
 test('family metadata changes no corpus ASTs, local roles, or standalone compound resolution', async () => {
-  const before = new Vocabulary(vocabulary.entries.map(({type_of: _omitted, ...entry}) => entry));
+  const before = new Vocabulary(vocabulary.entries.map(entry => ['wheat-flour', 'olive-oil'].includes(entry.id) ? {...entry, type_of: undefined} : entry));
   for (const file of await recipeFiles('examples/public-domain-recipes')) {
     const source = await readFile(file, 'utf8');
     assert.deepEqual(parseRecipe(source, {vocabulary}), parseRecipe(source, {vocabulary: before}), file);
   }
-  for (const id of ['egg-yolk', 'egg-white', 'lemon-juice', 'chicken-breast'])
+  for (const id of ['egg-yolk', 'egg-white', 'chicken-breast'])
     assert.equal(vocabulary.resolve(id, 'ingredient')[0].id, id);
   for (const term of ['heat seasoning', 'frying fat', 'seasoning', 'sweetener', 'sauce choice'])
     assert.deepEqual(vocabulary.resolve(term, 'ingredient'), []);

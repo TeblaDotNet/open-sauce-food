@@ -3,7 +3,7 @@ import { readFile, mkdir, writeFile, readdir, lstat, realpath, unlink } from 'no
 import { resolve, join, dirname, relative, isAbsolute } from 'node:path';
 import { createHash } from 'node:crypto';
 import { loadVocabulary } from '../../src/vocabulary/node.ts';
-import { buildUsageIndex, createReferencePage, partAnchor } from '../../src/reference/index.ts';
+import { buildUsageIndex, createReferencePage, partAnchor, ingredientCompatibilityRoutes } from '../../src/reference/index.ts';
 import type { ReferenceKind, ReferencePage } from '../../src/reference/index.ts';
 import { renderReferenceHtml } from '../../src/reference/html.ts';
 import { renderHtml, escapeHtml as e, safeUrl } from '../../src/renderer/html.ts';
@@ -98,10 +98,19 @@ export async function generateSite(root: string, config: SiteConfig) {
     if (media.startsWith('/') || media.includes('\\') || media.split('/').some(p => p === '..' || p === '.')) throw new Error(`Unsafe recipe media: ${media}`);
     add(`assets/recipes/${chosen.slug}/${media}`, await readFile(join(root, dirname(chosen.repositoryPath), media)));
   }
+  const compatibilityPages = ingredientCompatibilityRoutes.map(target => {
+    if (!vocabulary.resolvePartPath(target.base, target.parts).complete) throw new Error('Missing compatibility target');
+    const from = urls.reference('ingredient', target.from);
+    const to = urls.reference('ingredient', target.base) + '#' + partAnchor(target.parts);
+    pages.push(from);
+    add(urls.output(from), shell(config, urls, 'Lemon juice', to,
+      `<h1>Lemon juice</h1><p>This ingredient is now recorded as a product of Lemon.</p><p><a href="${e(to)}">Continue to Lemon → Juice</a></p>`));
+    return { from, to };
+  });
   const { outDir: omitted, ...publicConfig } = config;
   const partUsage = (parts: ReferencePage['parts']): { anchor: string; recipes: string[] }[] =>
     parts.flatMap(p => [{ anchor: p.anchor, recipes: p.usage?.map(r => r.id) ?? [] }, ...partUsage(p.parts)]);
-  const manifest = { schemaVersion: 2, config: publicConfig, representative, recipes: corpus.records, pages,
+  const manifest = { schemaVersion: 2, config: publicConfig, representative, recipes: corpus.records, pages, compatibilityPages,
     references: [...references.values()].map(r => ({ kind: r.kind, id: r.id, usageCount: r.usage?.length ?? 0, usageRecipes: r.usage?.map(u => u.id) ?? [], partUsage: partUsage(r.parts) })),
     tags: corpus.tags, categories: corpus.categories,
     representativeDiagnostics: corpus.parsed.get(representative)!.diagnostics, generatedRecipeCount: corpus.records.length };

@@ -1,0 +1,18 @@
+id: self-raising-flour
+kind: ingredient
+type_of: flour
+canonical_name: self-raising flour
+names:
+  en-GB: self-raising flour
+  en-US: self-rising flour
+aliases:
+  - self raising flour
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  migration: ingredient-migrations-v1
+  decision: Human-approved promotion to an independent Flour-family concept.
+  seen_in:
+    - examples/public-domain-recipes/butter-cake/butter-cake.opensauce
+    - examples/public-domain-recipes/damper/damper.opensauce

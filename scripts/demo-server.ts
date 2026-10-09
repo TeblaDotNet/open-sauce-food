@@ -3,7 +3,7 @@ import { readFile, realpath, stat } from 'node:fs/promises';
 import { dirname, extname, isAbsolute, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadVocabulary } from '../src/vocabulary/node.ts';
-import { createReferencePage } from '../src/reference/index.ts';
+import { createReferencePage, ingredientCompatibilityRoutes, partAnchor, referencePath } from '../src/reference/index.ts';
 import type { ReferenceKind } from '../src/reference/index.ts';
 import { loadReferenceCorpus } from './reference-corpus.ts';
 
@@ -40,6 +40,11 @@ export async function createDemoServer() {
       if (path === '/api/corpus') { send(200, 'application/json', JSON.stringify(corpus.catalog)); return; }
       const reference = /^\/(api\/)?reference\/(ingredient|process|equipment)\/([^/]+)$/.exec(path);
       if (reference) {
+        const retired = reference[2] === 'ingredient' && ingredientCompatibilityRoutes.find(r => r.from === reference[3]);
+        if (retired) {
+          response.setHeader('Location', (reference[1] ? '/api' : '') + referencePath('ingredient', retired.base) + '#' + partAnchor(retired.parts));
+          send(308, 'text/plain', 'Moved to the parent ingredient part'); return;
+        }
         const page = createReferencePage(vocabulary, reference[2] as ReferenceKind, reference[3], corpus.usage);
         if (!page) { send(404, 'text/plain', 'Unknown reference'); return; }
         if (reference[1]) { send(200, 'application/json', JSON.stringify(page)); return; }

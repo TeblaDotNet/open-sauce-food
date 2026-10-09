@@ -1,3 +1,4 @@
+import { restoreIngredientMigrations } from './ingredient-migrations.ts';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -22,6 +23,7 @@ assert.equal(generatedReconversionDeep.previousPass,'conversion-v2-2026-10');
 assert.equal(sha(readFileSync('generated-reconversion-v2.json')),generatedReconversionDeep.previousProvenanceSha256);
 /** Undo only this generated phase, then let the previous provenance layer restore its baseline. */
 export function restoreGeneratedReconversionDeep(source:string,pathOrSlug:string):string {
+ source=restoreIngredientMigrations(source,pathOrSlug);
  const slug=pathOrSlug.replaceAll('\\','/').split('/').at(-1)!.replace(/\.opensauce$/,'');
  if(!Object.hasOwn(generatedReconversionDeep.recipes,slug))return source;
  const record=generatedReconversionDeep.recipes[slug];

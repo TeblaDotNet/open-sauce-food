@@ -5,6 +5,7 @@ import type { RecipeRecord, Facet } from './corpus.ts';
 import type { ReferenceKind } from '../../src/reference/index.ts';
 import type { SiteConfig } from './routes.ts';
 export interface Manifest {
+  compatibilityPages?: { from: string; to: string }[];
   config: Omit<SiteConfig, 'outDir'>; representative: string; recipes: RecipeRecord[]; pages: string[];
   references: { kind: ReferenceKind; id: string; usageCount: number; usageRecipes: string[]; partUsage?: { anchor: string; recipes: string[] }[] }[]; tags: Facet[]; categories: Facet[];
 }
@@ -69,7 +70,7 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
   }
   for (const route of manifest.pages) {
     const text = html.get(urls.output(route)); assert.ok(text, `Missing route: ${route}`);
-    assert.ok(text.includes(`rel="canonical" href="${urls.canonical(route)}"`), `Incorrect canonical: ${route}`);
+    assert.ok(text.includes(`rel="canonical" href="${urls.canonical(manifest.compatibilityPages?.find(p => p.from === route)?.to ?? route)}"`), `Incorrect canonical: ${route}`);
   }
   const localBrowse = (text: string, expected: string[]) => {
     const matches = [...text.matchAll(/<li data-recipe="([^"]*)"><a href="([^"]*)">/g)];
