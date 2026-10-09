@@ -14,18 +14,41 @@ tags: palestinian, lebanese, mediterranean, middle eastern, spice
 
 ::ingredients
 
-(zaatar leaves, without the stalks, cleaned and dried.) 1 cup
-(sesame , optionally roasted) 1 cup
-(sumac) 1 cup
-(salt) 1 teaspoon
-(citric acid salt, optional, for extra kick if the sumac wasn't enough for you)
+(zaatar leaves, stalks removed; cleaned; dried) 1cup
+(sesame, optionally roasted) 1cup
+(sumac) 1cup
+(salt) 1tsp
+(citric acid salt, optional)
+
+::equipment
+
+(pan, wide)
+(jar, airtight) -OR- (container, airtight)
 
 ::instructions
 
-Lightly roast the sesame in a wide pan until it get a golden brown color.
-<wait, for the sesame to completely cool down>
-<mix, everything together, starting from the zaatar and sesame while adjusting the sumac (optionally citric acid) and salt to taste>
-<store, in an airtight jar or container>
+(sesame) <roast, lightly in (pan)> ?= golden brown
+    <cool, completely>
+{zaatar} = (zaatar leaves) + (sesame)
+    <mix>
+{zaatar} + (sumac) + (salt)
+Optional [
+    {zaatar} + (citric acid salt)
+]
+{zaatar} <mix>
+Adjust sumac, salt and optional citric acid to taste.
+[
+    {zaatar} <store, in (jar)>
+]
+-OR-
+[
+    {zaatar} <store, in (container)>
+]
+
+::notes
+
+Eat by dipping bread in olive oil and then zaatar, or use in another recipe. The source says it keeps a long time in the pantry and scales by preserving ratios.
+The ingredients describe roasting sesame as optional; the written method includes roasting.
 
 ::story
 

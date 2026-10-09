@@ -16,24 +16,62 @@ tags: italian, potato, side, fasting
 
 (potatoes)
 (flour)
-(tomato)
-(parmesan)
+(tomato, optional)
+(parmesan, Parmigiano-Reggiano in method)
 (butter)
-(sage or oregano or thyme)
+(herb) = (sage) -OR- (oregano) -OR- (thyme)
+(kosher salt)
+(water)
+(garnish, optional)
+
+::equipment
+
+(potato masher)
+(work surface)
+(pan)
+(plate)
 
 ::instructions
 
-<boil, potatoes (with their skins) until mashable>
-(potatoes) <slice, in two and scoop them out of their skin>
-<mash, with a potato-masher while adding kosher salt>
-Slowly begin to add flour while mashing and kneading until there are no lumps of potato and the potato/flour mixture takes on a dough-like consistency.
-Begin to boil more water with lots of kosher salt added.
-Flour a work surface, pinch off some of the dough and roll it on the surface into a long chubby snake.
-<slice, the dough snake into small pieces. Press the pieces with your finger to make an indentation>
-<add, the pieces to the boiling water. They will rise to the top when they are ready>
-In a pan, melt butter and add sprigs of sage （oregano or thyme will work as well, albeit are less traditional）. Smashed tomato juices are also a nice addition.
-<add, the cooked gnocchi to the pan and roast them in butter for a minute or two until slightly browned. As pan begins to dry, add some pasta water>
-<serve, gnocchi on a plate, grate on Parmigiano-Reggiano cheese liberally. Add garnish if desired>
+(potatoes) <boil, with skins> ?= mashable
+    <slice, in two>
+    <scoop, out of skins>
+    <mash, with (potato masher)>
+Meanwhile [
+    (potatoes) + (kosher salt)
+]
+{dough} <mash>
+    <knead> ?= no potato lumps and dough-like consistency
+Meanwhile [
+    (flour) <add, slowly to the mashed potatoes>
+]
+(water) + (kosher salt, lots)
+(water) <boil>
+(work surface) <flour, with (flour)>
+{dough} <pinch off, some>
+    <roll, on (work surface) into a long chubby snake>
+{dough snake} <slice, into small pieces>
+{pieces} <press, with a finger to make an indentation>
+{pieces} + (water, boiling)
+{gnocchi} <cook> ?= risen to the top
+(butter) <melt, in (pan)>
+(pan) + (herb, sprigs)
+Optional [
+    (tomato) <smash>
+    (pan) + {tomato juices}
+]
+(pan) + {gnocchi}
+{gnocchi} <roast, in (butter); 1–2m> ?= slightly browned
+As the pan begins to dry, add some pasta water.
+{gnocchi} <serve, on (plate)>
+(parmesan) <grate, liberally on top>
+Optional [
+    {gnocchi} + (garnish)
+]
+
+::notes
+
+The source describes oregano or thyme as less traditional alternatives to sage.
 
 ::story
 

@@ -19,31 +19,52 @@ image: mapo-tofu.webp
 
 ::ingredients
 
-(pork, ground, for Marinated Pork) 450 g （1 lb）
-(soy sauce, for Marinated Pork) 1 tbsp
-(shaoxing cooking wine, for Marinated Pork) 1 tbsp
-(cornstarch, for Marinated Pork) 1 tsp
-(white pepper powder, for Marinated Pork) 1 tsp
-(spicy doubanjiang, la doubanjiang, for Braise) 2 tbsp
-(dou-chi, for Braise) 1 tsp
-(scallions white and green separated, chopped, for Braise) 2-3
-(garlic cloves, minced, for Braise) 2-4
-(inch minced ginger, similar amount as garlic, for Braise) 2
-(chicken broth or water, for Braise) 400 ml
-(tofu, soft, cut into 1.5cm cubes / 1/2 inch cubes as stated) 340 g / 1 package
-(sichuan peppercorns crushed, for Braise) 1 tbsp
+(ground pork) 450g / 1lb
+(soy sauce, for marinade) 1tbsp
+(Shaoxing cooking wine) 1tbsp
+(cornstarch, listed for marinade) 1tsp
+(white pepper powder, listed for marinade) 1tsp
+(spicy doubanjiang, la doubanjiang) 2tbsp
+(dou-chi) 1tsp
+(scallions, chopped; whites and greens separated) 2–3
+(garlic cloves, minced) 2–4
+(ginger, minced; similar amount as garlic) 2inches
+(braising liquid) = (chicken broth) 400ml -OR- (water) 400ml
+(tofu, soft; 1.5cm / 1/2-inch cubes as stated) 340g / 1package
+(Sichuan peppercorns, crushed) 1tbsp
+(cooking oil)
+(soy sauce, for braise) a splash
+
+::equipment
+
+(wok)
 
 ::instructions
 
-Marinade the pork in shaoxing cooking wine, a splash of cooking oil, the soy sauce,
-<add, cooking oil to a wok and sear the ground pork until browned, chopping it up as it cooks>
-<add, the doubanjiang and let it simmer for about a minute>
-<add, the minced aromatics (ginger, garlic) scallion whites, and dou-chi and cook until fragrant>
-<add, the stock and a splash of soy sauce, turn up the gas and bring to a boil>
-<add, the tofu, lower the gas, and braise for around 15 mins>
-You'll know it's done when the tofu shows their trademark "pockmarks" and the seasoning sticks to them
-<mix, in the crushed Sichuan peppercorns and green parts of the scallions right before serving>
-<serve, over steamed rice>
+{marinated pork} = (ground pork) + (Shaoxing cooking wine) + (cooking oil) a splash + (soy sauce, for marinade)
+    <marinate>
+(wok) + (cooking oil)
+{marinated pork} <sear, in (wok)> ?= browned
+Meanwhile [
+    {marinated pork} <chop up, as it cooks>
+]
+(wok) + (spicy doubanjiang)
+{pork mixture} <simmer, about 1m>
+(wok) + (ginger) + (garlic cloves) + (scallions, white parts) + (dou-chi)
+{pork mixture} <cook> ?= fragrant
+(wok) + (braising liquid) + (soy sauce, for braise)
+Turn up the gas.
+{braise} <boil>
+{braise} + (tofu)
+Lower the gas.
+{braise} <braise, around 15m> ?= tofu shows pockmarks and seasoning sticks to it
+{braise} + (Sichuan peppercorns) + (scallions, green parts)
+{braise} <mix, right before serving>
+
+::notes
+
+Serve over steamed rice.
+The source marinade instruction ends with a comma; listed cornstarch and white pepper are not explicitly added in the method. Their timing is not invented here.
 
 ::source
 <<<

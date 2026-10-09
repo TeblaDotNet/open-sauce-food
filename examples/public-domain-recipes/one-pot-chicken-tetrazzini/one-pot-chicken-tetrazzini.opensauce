@@ -18,32 +18,59 @@ serves: 5
 
 ::ingredients
 
-(butter) 3 Tbsp
-(mushrooms, sliced) 8 oz
-(red pepper, small, chopped) 1
-(onion, small, finely chopped) 1
-(garlic, minced) 1 clove
-(flour; all-purpose) 3 Tbsp
-(milk) 4 cups
-(worcestershire sauce) 2 Tbsp
-(extra broad egg noodles) 8 oz
-(boursin garlic and fine herbs) 5 oz
-(deli chicken, cooked and cut into bite-size pieces) 3 cup
-(frozen peas) 1/2 cup
-(parsley, Fresh, chopped) 1/2 cup
-(fresh basil leaves, Small, optional)
+(butter) 3tbsp
+(mushrooms, sliced) 8oz
+(red pepper, small; chopped) 1
+(onion, small; finely chopped) 1
+(garlic, minced) 1clove
+(flour, all-purpose) 3tbsp
+(milk) 4cups
+(Worcestershire sauce) 2tbsp
+(egg noodles, extra broad) 8oz
+(Boursin Garlic and Fine Herbs) 5oz
+(deli chicken, cooked; bite-sized pieces) 3cups
+(peas, frozen) 1/2cup
+(parsley, fresh; chopped) 1/2cup
+(basil leaves, small; fresh; optional)
 (parmesan, grated)
+(salt)
+(pepper)
 
 ::equipment
 
-(saucepan)
+(saucepan, large)
 
 ::instructions
 
-(butter) <melt, in a large saucepan over medium-high heat. Add mushrooms, red pepper, onion and garlic; cook, stirring about 5 minutes until tender>
-<sprinkle, with flour and stir. Gradually whisk in milk then Worcestershire, salt and pepper. Stirring occasionally, bring to a boil>
-<add, noodles, reduce heat to a low boil. Stirring constantly and around edges of pan, cook until pasta is tender, about 7 minutes>
-<stir, in chunks of Boursin, then chicken, peas, and parsley, stirring until chicken is hot and Boursin is melted. Serve sprinkled with basil and Parmesan>
+(butter) <melt, in (saucepan); medium-high heat>
+(saucepan) + (mushrooms) + (red pepper) + (onion) + (garlic)
+{vegetables} <cook, about 5m> ?= tender
+Meanwhile [
+    {vegetables} <stir>
+]
+(flour) <sprinkle, over the vegetables>
+{mixture} <stir>
+(milk) <whisk in, gradually>
+{mixture} + (Worcestershire sauce) + (salt) + (pepper)
+{mixture} <boil>
+Meanwhile [
+    {mixture} <stir, occasionally>
+]
+{mixture} + (egg noodles)
+Reduce heat to a low boil.
+{pasta} <cook, about 7m> ?= tender
+Meanwhile [
+    {pasta} <stir, constantly and around pan edges>
+]
+{pasta} + (Boursin Garlic and Fine Herbs, chunks)
+{pasta} <stir>
+{pasta} + (deli chicken) + (peas) + (parsley)
+{tetrazzini} <stir> ?= chicken hot and Boursin melted
+    <serve>
+Optional [
+    (basil leaves) <sprinkle, over the dish>
+]
+(parmesan) <sprinkle, over the dish>
 
 ::source
 <<<

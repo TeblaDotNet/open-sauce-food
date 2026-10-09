@@ -19,45 +19,54 @@ image: limoncini.webp
 
 ::ingredients
 
-(dough,)
-(milk) 250 g
-(brewer's yeast) 25 g
-(sugar) 20 g
-(butter) 50 g
-(00 or 0 flour) 650 g
-(egg) 2
-(salt) a pinch
-(stuffing,)
-(lemon untreated, Make sure the skin is edible!) 3
-(sugar) 250 g
+(milk) 250g
+(brewers yeast) 25g
+(sugar, for dough) 20g
+(butter) 50g
+(flour, 00 or 0) 650g
+(eggs) 2
+(salt) 1pinch
+(lemons, untreated; edible skin) 3
+(sugar, for stuffing) 250g
 
 ::equipment
 
 (oven)
+(baking paper)
+(oven tray)
 
 ::instructions
 
-<cut, the butter and let it soften>
-<dissolve, the yeast in warm milk and softened butter>
-<add, sugar and stir>
-<add, the other dough ingredients and knead for a few minutes until you have a soft dough>
-<cover, the dough and let it rise for about an hour>
-Meanwhile, grate the skin of the lemons.
-<add, sugar and mix>
-<store, the stuffing in a dry place>
-<roll, out the dough to 1 or 2 a rectangles about 3 mm thick>
-<spread, the stuffing on all the surface of the dough>
-<roll, up the rectangle(s) tightly>
-<cut, the rolls in slices about 1 cm thick>
-Lay them on baking paper in an oven tray.
-<let, them rise again for another hour>
-<preheat, the oven to 180 °C>
-<cook, for about 20 minutes. Pay attention not to overcook: check after about 10 minutes>
+(butter) <cut>
+    <soften>
+(brewers yeast) <dissolve, in (milk, warm) + (butter, softened)>
+{yeast mixture} + (sugar, for dough)
+{yeast mixture} <stir>
+{dough} = {yeast mixture} + (flour) + (eggs) + (salt)
+    <knead, a few minutes> ?= soft
+    <cover>
+    <rise, about 1h>
+Meanwhile [
+    (lemons) <grate, the skin>
+    {stuffing} = {lemon skin} + (sugar, for stuffing)
+        <mix>
+        <store, in a dry place>
+]
+{dough} <roll, into 1 or 2 rectangles about 3mm thick>
+{stuffing} <spread, over the entire dough surface>
+{dough} <roll up, tightly>
+{rolls} <cut, into slices about 1cm thick>
+{slices} <lay, on (baking paper) in (oven tray)>
+    <rise, another 1h>
+(oven) <preheat, 180°C>
+{limoncini} <bake, about 20m in (oven)>
+Meanwhile [
+    {limoncini} <check, after about 10m; to avoid overcooking>
+]
 
 ::notes
 
-"Limoncini" literally means "little lemons" but is a sweet, whereas "arancini" means "little oranges" but is a main dish (typical of southern Italy). Please, don't confuse these dishes: they are very different and you may find yourself on the wrong side of a feud.
-
+# Limoncini means little lemons and is a sweet; arancini means little oranges and is a southern Italian main dish. The source jokes about the consequences of confusing them.
 
 ::source
 <<<

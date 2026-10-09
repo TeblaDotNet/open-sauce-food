@@ -18,26 +18,43 @@ serves: 8
 
 ::ingredients
 
-(bacon) 4 Slices
+(bacon) 4 slices
 (onion, sliced) 2
 (savoury) 1 tsp
 (potatoes, peeled and cubed) 6
 (carrot, sliced) 3
 (cod fillets) 1 1/2 lbs
 (evaporated milk) 1 can
-(parsley or chives, Fresh, chopped) 2 Tbsp
+(garnish herbs) = (parsley, fresh, chopped) 2 Tbsp -OR- (chives, fresh, chopped) 2 Tbsp
+(water)
+(salt)
+(white pepper)
 
 ::equipment
 
-(saucepan)
+(saucepan, large, heavy)
+(lid)
 
 ::instructions
 
-In a large, heavy saucepan, cook bacon over medium-high heat for about 10 minutes or until crisp. Chop coarsely and set aside.
-<drain, off all but 1 tbsp. fat from saucepan. Add onions and savoury. Cook, stirring occasionally for 5 minutes or until softened>
-<add, potatoes, carrots, water and salt. Bring to boil, cover, reduce heat and simmer for about 20 minutes or until tender>
-<cut, cod into 1-inch chunks. Add to vegetables and simmer for about 5 minutes or until fish flakes easily>
-<add, milk and white pepper, heat through. Garnish with bacon and parsley>
+(bacon) <cook, in (saucepan), medium-high heat, ~10m> ?= crisp
+    <chop, coarsely>
+    <set aside>
+(saucepan) <drain, fat except 1 tbsp>
+    + (onion) + (savoury)
+(onion) <cook, ~5m> ?= softened
+    <stir, occasionally>
+(saucepan) + (potatoes) + (carrot) + (water) + (salt)
+{vegetables} <bring to boil>
+(saucepan) <cover, with (lid)>
+Reduce the heat.
+{vegetables} <simmer, ~20m> ?= tender
+(cod fillets) <cut, into 1-inch chunks>
+{chowder} = {vegetables} + (cod fillets)
+    <simmer, ~5m> ?= fish flakes easily
+    + (evaporated milk) + (white pepper)
+    <heat through>
+    <garnish, with (bacon) + (garnish herbs)>
 
 ::source
 <<<

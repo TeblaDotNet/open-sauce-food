@@ -18,23 +18,41 @@ serves: 2
 
 ::ingredients
 
-(chicken breast) 2
+(chicken breasts) 2
 (mayonnaise) 2 Tbsp
 (panko breadcrumbs) 1/4 cup
 (cheddar cheese, shredded) 1/4 cup
 (smoked paprika-garlic blend) 1 Tbsp
+(salt)
+(pepper)
 
 ::equipment
 
+(dish, shallow)
+(paper towel)
+(cutting board)
 (baking sheet)
+(parchment)
 (oven)
 
 ::instructions
 
-<combine, panko, cheese, and smoked paprika-garlic blend in a shallow dish. Preheat oven to 425F>
-Pat chicken dry with paper towel. Carefully slice into the centre of each chicken breast lengthwise and parallel to the cutting board - leaving 1/2 inch intact on the other end. Open up chicken like a book, and season both sides with salt and pepper.
-<coat, one side of each chicken breast with mayo. Firmly press mayo-coated side into panko mixture to adhere, one at a time>
-<transfer, chicken to a parchment-lined baking sheet, coated-side up. Bake chicken on the middle oven rack until cooked through (18-20 mins)>
+{coating} = (panko breadcrumbs) + (cheddar cheese) + (smoked paprika-garlic blend)
+    <combine, in (dish)>
+(oven) <preheat, 425°F>
+(chicken breasts) <pat dry, with (paper towel)>
+    <slice, carefully into the centre lengthwise and parallel to (cutting board), leaving 1/2 inch intact at the far end>
+    <open, like a book>
+    <season, both sides, with (salt) + (pepper)>
+    <coat, one side of each breast, with (mayonnaise)>
+    <press, mayonnaise side firmly into the panko mixture, one at a time> ?= coating adheres
+(baking sheet) <line, with (parchment)>
+(chicken breasts) <transfer, to (baking sheet), coated side up>
+    <bake, in (oven), middle rack, 18-20m> ?= cooked through
+
+::notes
+
+Suggested sides: roasted green beans and sweet potatoes mashed with sour cream and butter.
 
 ::story
 

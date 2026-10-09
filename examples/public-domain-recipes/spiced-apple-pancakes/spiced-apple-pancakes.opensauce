@@ -18,27 +18,40 @@ serves: 8 pancakes
 
 ::ingredients
 
-(flour) 1 cup
-(apple, large, peeled) 1
-(sugar) 1 tbsp
-(cinnamon, or more to taste) 1 tbsp
-(baking powder) 1/2 tsp
-(vanilla extract) 1 tsp
-(milk) 2/3 cup
+(flour) 1cup
+(apple, large; peeled) 1
+(sugar) 1tbsp
+(cinnamon) 1tbsp or more to taste
+(baking powder) 1/2tsp
+(vanilla extract) 1tsp
+(milk) 2/3cup
 (egg) 1
+(salt) 1pinch
+(butter) 1tbsp
 
 ::equipment
 
-(bowl)
+(bowl, medium)
+(pan, large)
 
 ::instructions
 
-In a medium bowl, combine flour, sugar, cinnamon, baking powder, and 1 pinch of salt.
-<separate, the egg yolk and egg white. Add the egg yolk to the dry ingredients>
-<whisk, the egg white until foamy>
-<slice, the peeled apple into thin strips. Alternatively, grate the apple>
-<combine, dry ingredients, apple, vanilla extract, egg white, and milk into a homogenous batter>
-To a large pan, add 1 tbsp butter. Add the batter （about 3 tbsp per pancake） and cook for 2 min per side on medium-high heat.
+{dry ingredients} = (bowl) + (flour) + (sugar) + (cinnamon) + (baking powder) + (salt)
+(egg) <separate, yolk and white>
+{dry ingredients} + {egg yolk}
+{egg white} <whisk> ?= foamy
+[
+    (apple) <slice, into thin strips>
+]
+-OR-
+[
+    (apple) <grate>
+]
+{batter} = {dry ingredients} + (apple) + (vanilla extract) + {egg white} + (milk)
+    <mix> ?= homogeneous
+(pan) + (butter)
+(pan) + {batter} about 3tbsp per pancake
+{pancakes} <cook, medium-high heat; 2m per side>
 
 ::source
 <<<

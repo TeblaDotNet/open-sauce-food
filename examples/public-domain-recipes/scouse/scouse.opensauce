@@ -19,30 +19,62 @@ serves: 4
 ::ingredients
 
 (beef mince)
-(white onion) a
+(white onion) 1
 (garlic)
 (bayleaf)
 (potatoes)
-(carrot)
-(beef stock) ~1 pint
+(carrots)
+(beef stock) ~1pint
 (beef gravy granules)
 (parsnips, optional)
 (swede, optional)
 (cabbage, optional)
+(oil) a bit
+(salt)
+(pepper) lots
 
 ::equipment
 
-(pot)
+(pot, deep)
 
 ::instructions
 
-Finely dice the onions and garlic. Chop the carrots, potatoes, parsnips and/or swede into a uniform size.
-<fry, the diced onion with a bit of oil until brown, in a deep pot. Then quickly fry the garlic (until you can smell it)>
-<add, the mince whole and sear (flipping to sear the other side before breaking up)>
-Once the mince is properly browned, Pour in the beef stock.
-<add, your root vegetables now, along with your bayleaf, salt and lots of pepper>
-<leave, to boil for about a half hour then remove the bayleaf. Adding the cabbage half way through>
-<stir, in the gravy granules until you get the thickness you want and Serve>
+(white onion) + (garlic) <dice, finely>
+(potatoes) + (carrots) <chop, uniform size>
+Optional [
+    (parsnips) <chop, uniform size>
+]
+Optional [
+    (swede) <chop, uniform size>
+]
+(white onion) <fry, in (pot) with (oil)> ?= brown
+(pot) + (garlic)
+(garlic) <fry, quickly> ?= fragrant
+(pot) + (beef mince, whole)
+(beef mince) <sear>
+    <flip>
+    <sear, other side> ?= properly browned
+    <break up>
+(beef stock) <pour, into (pot)>
+(pot) + (potatoes) + (carrots)
+Optional [
+    (pot) + (parsnips)
+]
+Optional [
+    (pot) + (swede)
+]
+(pot) + (bayleaf) + (salt) + (pepper)
+{stew} <boil, about 30m>
+Meanwhile [
+    Optional [
+        Halfway through boiling:
+        {stew} + (cabbage)
+    ]
+]
+(bayleaf) <remove, from (pot)>
+{stew} + (beef gravy granules)
+{stew} <stir> ?= desired thickness
+    <serve>
 
 ::story
 

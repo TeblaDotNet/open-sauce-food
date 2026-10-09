@@ -13,36 +13,63 @@ tags: italian, pasta, cheesefare, fasting
 
 ::ingredients
 
-(tubular dried pasta) 1 pound
-(sweet italian sausage) 1 pound
+(pasta, tubular, dried) 1 pound
+(sweet Italian sausage, crumbled) 1 pound
 (onion, minced) 1
 (carrot, minced) 1
-(celery stalk, minced) 1
-(can of whole tomatoes) 28oz （825 ml）
+(celery, minced) 1 stalk
+(tomatoes, whole, with juice) 1 can （28oz / 825 ml）
 (tomato paste) 3 tablespoon
 (parsley, fresh) 1/4 cup
-(sprig of fresh thyme) 1
-(sprig of fresh rosemary) 1
+(thyme, fresh) 1 sprig
+(rosemary, fresh) 1 sprig
 (parmesan cheese, grated, optional)
-(extra-virgin olive oil)
+(olive oil, extra-virgin)
+(water, hot, for tomato paste) 1 cup
+(water, for pasta)
+(salt, for pasta)
+(pepper) to taste
 
 ::equipment
 
-(oven)
-(pot)
+(ragù pan) = (pan, large) -OR- (Dutch oven)
+(pot, large)
+(plate)
 
 ::instructions
 
-Sauté sausage crumbles in a large pan or dutch oven over medium-low heat. Add enough olive oil to gently fry the crumbles. Cook about five minutes until opaque, not browned.
-<add, minced onion, carrot, and celery, and parsley to the pan. Stir often and add more olive oil if pan is dry. Cook 30 minutes on very low heat until vegetables are caramelized and sausage is browned>
-<add, canned tomatoes and their juice. Break up tomatoes in the pan>
-<bring, to a simmer then add thyme and rosemary>
-Continue simmer uncovered for 20 minutes, until thickened.
-(tomato paste) <mix, with 1 cup of hot water. Reduce heat to very low and add mix to the pan>
-<cook, about 10 minutes until the sauce is dark red and glistens with oil>
-<remove, herb sprigs and add pepper to taste>
-Meanwhile, boil large pot of salted water then cook and drain the pasta — /pasta.
-<serve, ragù over plate of pasta and top with grated parmesan cheese;>
+(sweet Italian sausage) <sauté, in (ragù pan), medium-low heat>
+    + (olive oil) enough to gently fry the crumbles
+    <cook, ~5m> ?= opaque but not browned
+{ragù} = (sweet Italian sausage) + (onion) + (carrot) + (celery) + (parsley)
+    <cook, 30m, very low heat> ?= vegetables caramelized and sausage browned
+Meanwhile [
+    {ragù} <stir, often>
+    Add more (olive oil) if (ragù pan) is dry.
+]
+{ragù} + (tomatoes)
+Break up (tomatoes) in (ragù pan).
+{ragù} <simmer>
+    + (thyme) + (rosemary)
+    <simmer, 20m, uncovered> ?= thickened
+{tomato paste mixture} = (tomato paste) + (water, for tomato paste)
+    <mix>
+<reduce heat, to very low>
+{ragù} + {tomato paste mixture}
+    <cook, ~10m> ?= dark red and glistening with oil
+Meanwhile [
+    {salted water} = (water, for pasta) + (salt, for pasta)
+        <boil, in (pot)>
+    Cook (pasta) in {salted water}.
+    (pasta) <drain>
+    # Source pasta-cooking reference: /pasta
+]
+(thyme) + (rosemary) <remove, from (ragù pan)>
+{ragù} + (pepper)
+Serve {ragù} over (pasta) on (plate).
+Optional [
+    {ragù} <top, with (parmesan cheese)>
+]
 
 ::source
 <<<

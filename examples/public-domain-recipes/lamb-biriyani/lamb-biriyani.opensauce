@@ -19,44 +19,76 @@ image: lamb-biriyani.webp
 
 ::ingredients
 
-(pods of cardamom) 4-5
-(bay leaves) 2-3
-(cinnamon sticks) 3-4
+(cardamom) 4-5 pods
+(bay leaf) 2-3
+(cinnamon) 3-4 sticks
 (cloves) 8
 (basmati rice) 400gm
-(mutton / lamb, Boneless) 600gm
-(onion, Preferably Red) 2
-(tomatoes) 2
-(green chilli, Optional) 1
-(garlic pearls) 10
+(meat) = (mutton, boneless) 600gm -OR- (lamb, boneless) 600gm
+(onion, preferably red) 2
+(tomato) 2
+(green chilli, optional) 1
+(garlic) 10 pearls
 (ginger) 5cm piece
-(garam masala — /garam-masala) 1/2 Tbsp
-(chilli powder or hungarian smoked paprika) 1 Tbsp
-(lemon: juice) of 1/2 lemon -OR- (vinegar) 1 tsp
-(dash of tumeric powder)
-(dash of curry powder)
-(sprig of mint / coriander, Garnish) 1
+(garam masala) 1/2 Tbsp
+# Source recipe: /garam-masala
+(chilli seasoning) = (chilli powder) 1 Tbsp -OR- (hungarian smoked paprika) 1 Tbsp
+(acid) = (lemon: juice) of 1/2 lemon -OR- (vinegar) 1 tsp
+(turmeric powder) a dash
+(curry powder) a dash
+(garnish) = (mint) 1 sprig -OR- (coriander) 1 sprig
+(neutral oil) 30 ml
+(water, for washing and soaking)
+(water, for cooking) 2 cups （500ml） initially; more as directed
+(salt) 1 Tbsp initially, then 2 Tbsp; adjust later as required
 
 ::equipment
 
-(pot)
+(pot, big)
+(lid)
 
 ::instructions
 
-<wash, the rice till the water turns clear and let the rice soak for at least 30 mins>
-<chop, the tomatoes down into tiny cubes and the onions into julienne slices. Grind the ginger and garlic into a paste>
-For the green chilli slice it midway to maintain it in one piece.
-In a big pot, Add 30 ml of neutral oil and toast the spices for 30 sec on medium heat.
-<add, the onions and saute for around 3 min>
-<add, the tomatoes, ginger and garlic paste and saute for another 3 min>
-<add, the mutton/ lamb and 2 cups (500ml) of water. Add one Tbsp of salt>
-<turn, the heat up to high and add the green chilli, turmeric powder, chilli powder and 2 Tbsp of salt and let the mutton cook for about 40 -50 min>
-Ensure that the pot does not run out of water and top up with more if required.
-<add, about 2 cups of water or to about 800 gm of water in the pot while accounting for water left in the pot (1:2 ratio of rice to water)>
-Once boiling again, Add the rice, Garam Masala and Lemon juice / Vinegar to the pot.
-Once 80% of the standing water has evaporated, Turn to the heat down to as low as possible and check the salt and spice levels and add more as required.
-Now with a lid on, let the pot simmer for another 10 mins.
-<serve, with onion raitha and boiled Eggs and Garnish with coriander or mint sprigs. Enjoy>
+(basmati rice) <wash, with (water, for washing and soaking)> ?= water turns clear
+    <soak, in (water, for washing and soaking), at least 30m>
+(tomato) <chop, into tiny cubes>
+(onion) <slice, julienne>
+{ginger garlic paste} = (ginger) + (garlic)
+    <grind, into a paste>
+Optional [
+    (green chilli) <slice, midway, keeping it in one piece>
+]
+In (pot), use (neutral oil) to toast the spices for 30 seconds over medium heat.
+# The source does not identify which spices to toast; it explicitly adds turmeric, chilli seasoning and garam masala later. Curry powder has no separate addition step.
+(onion) <sauté, in (pot), ~3m>
+{base} = (onion) + (tomato) + {ginger garlic paste}
+    <sauté, 3m more>
+    + (meat) + (water, for cooking) 2 cups （500ml）
+    + (salt) 1 Tbsp
+<increase heat, to high>
+Optional [
+    {base} + (green chilli)
+]
+{base}
+    + (turmeric powder) + (chilli seasoning) + (salt) 2 Tbsp
+    <cook, ~40-50m>
+Ensure (pot) does not run out of water; top up with (water, for cooking) if required.
+Add about 2 cups of (water, for cooking), or enough to bring the water in (pot) to about 800 gm, accounting for what remains; the source specifies a 1:2 rice-to-water ratio.
+Once boiling again:
+{biriyani} = {base} + (basmati rice) + (garam masala) + (acid)
+    <cook> ?= 80% of standing water has evaporated
+<reduce heat, to as low as possible>
+Check the salt and spice levels in {biriyani}; add more as required.
+{biriyani} <cover, with (lid)>
+    <simmer, 10m more>
+    <garnish, with (garnish)>
+    <serve>
+# Enjoy!
+
+::notes
+
+Serve with onion raitha — /onion-raitha — and boiled eggs.
+The source directs 1 Tbsp salt, then 2 Tbsp, followed by adjustment; these amounts are retained rather than silently corrected. Its water instruction offers about 2 extra cups or a total of about 800 gm, accounting for water already in the pot. No quantity conversion is inferred.
 
 ::story
 

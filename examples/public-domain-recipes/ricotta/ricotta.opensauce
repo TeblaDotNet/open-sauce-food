@@ -14,22 +14,40 @@ tags: basic, italian, cheesefare
 
 ::ingredients
 
-(thermometer)
-(cheesecloth) 1
-(cheese recipient) 1
-(whey) 2l
-(milk, or if not using whey, 2l of milk) 500ml
+(whey, for whey-based version) 2l
+(milk) 500ml with whey; 2l if using milk only
 (table salt) 10g
-(citric acid, contained in 130ml of lemon juice) 6g
+(acid) = (citric acid) 6g -OR- (lemon juice) 130ml
 
 ::equipment
 
+(thermometer)
+(cheesecloth) 1
+(cheese recipient) 1
 (pot)
+(fridge)
 
 ::instructions
 
-Preparation
-<pour, the milk (and/or whey) and the salt into a pot, stir it well, and heat it up to 80°C. Once the temperature has been reached, add the citric acid (or lemon juice) and stir well. You should already see the citric acid react with the milk/whey. Heat it up to 90°C Pour the ricotta in the cheesecloth and let the whey drip. Move the ricotta into the cheese recipient. Store in the fridge>
+[
+    (whey) 2l + (milk) 500ml
+        <pour, into (pot)>
+]
+-OR-
+[
+    (milk) 2l <pour, into (pot)>
+]
+(pot) + (table salt)
+{mixture} <stir, well>
+    <heat, to 80°C, using (thermometer)>
+    + (acid)
+    <stir, well>
+# You should already see the acid reacting with the milk or whey.
+{mixture} <heat, to 90°C>
+{ricotta} <pour, into (cheesecloth)>
+Let the whey drip out.
+{ricotta} <move, into (cheese recipient)>
+    <store, in (fridge)>
 
 ::notes
 

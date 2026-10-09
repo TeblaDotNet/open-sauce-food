@@ -26,21 +26,45 @@ serves: 4
 (flour) 1⁄2 cup
 (baking powder) 2 teaspoon
 (baking soda) 2 teaspoon
-(butter, melted) 25g
+(butter, melted, for batter) 25g
+(butter, for topping) a dab on several pancakes
+(syrup)
+(grease or cooking spray, for cooking surface)
 
 ::equipment
 
+(fork)
 (food processor)
+(spoon)
+(griddle)
+(fry pan)
+(metal blade, thin)
 
 ::instructions
 
-(milk) <pour, over rolled oats. Add remaining ingredients>
-<mix, with fork (or in a food processor) just enough to combine ingredients>
-<put, spoonfuls of mixture onto preheated, greased or sprayed griddle or fry pan. Turn spoon for round pancakes>
-<turn, pancakes as soon as bubbles form and burst in the middle. Slide thin metal blade under pancake and flip over. Second side is cooked when centre springs back>
-<put, a dab of butter on cooked surface of several pancakes>
-Pile up so butter is between pancakes. Pour syrup over before serving.
-<serve, Oaty pancakes for breakfast or brunch, with juice or coffee. Pour syrup over the pile of buttered pancakes and serve bacon or sausages alongside if you like>
+(milk) <pour, over (rolled oats)>
+{batter} = (milk) + (rolled oats) + (egg) + (salt) + (sugar) + (flour) + (baking powder) + (baking soda) + (butter, for batter)
+[
+    {batter} <mix, with (fork), just enough to combine>
+]
+-OR-
+[
+    {batter} <mix, in (food processor), just enough to combine>
+]
+Use a preheated (griddle) or (fry pan), greased or sprayed with (grease or cooking spray).
+{batter} <put, spoonfuls onto the prepared cooking surface>
+(spoon) <turn, to make round pancakes>
+As soon as bubbles form and burst in the middle:
+(metal blade) <slide, under the pancake>
+{pancakes} <flip>
+    <cook, second side> ?= centre springs back
+(butter, for topping) <put, a dab on the cooked surface of several pancakes>
+{pancakes} <pile up, with butter between them>
+(syrup) <pour, over the pile before serving>
+
+::notes
+
+Serve for breakfast or brunch with juice or coffee, and bacon or sausages alongside if desired.
 
 ::source
 <<<

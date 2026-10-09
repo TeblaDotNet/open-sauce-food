@@ -18,31 +18,72 @@ serves: 8
 
 ::ingredients
 
-(bone-in, skin-on chicken thighs) 8
-(salt to taste)
-(pepper to taste)
-(chicken or beef broth) 2 cups
-(olive oil) 2 tablespoons
-(sized onions, medium) 2
-(powdered garlic) 1 tablespoon
-(tomato paste) 3 tablespoons
-(hungarian paprika or regular paprika) 1/4 cup
-(cayenne pepper, optional) 1 tablespoon
-(sour cream, optional) 1 cup
+(chicken thighs, bone-in; skin-on) 8
+(salt) to taste
+(pepper) to taste
+(broth) = (chicken broth) 2cups -OR- (beef broth) 2cups
+(olive oil) 2tbsp
+(onions, medium) 2
+(powdered garlic) 1tbsp
+(tomato paste) 3tbsp
+(paprika) = (Hungarian paprika) 1/4cup -OR- (regular paprika) 1/4cup
+(cayenne pepper, optional) 1tbsp
+(sour cream, optional) 1cup
+(herbs, for garnish)
+
+::equipment
+
+(paper towels)
+(pan, heavy; deep-sided)
+(plate)
+(lid)
+(fork)
 
 ::instructions
 
-Pat raw chicken thighs with paper towels for crispier skin. Season with salt and pepper.
-<heat, up a heavy, deep-sided pan on high heat with a little olive oil>
-<add, the chicken thighs skin-side down. Brown the thighs for five minutes on each side then remove each thigh and place them aside once browned>
-<add, chopped onions to the pan with the chicken fat and sauce until the onions are golden>
-<add, powdered garlic and tomato paste. Stir this another 5 minutes to create a tomato-roux>
-<add, Hungarian paprika and stir another minute>
-<add, chicken or beef broth and bring it to a medium temperature>
-<reduce, the heat to medium low and transfer the chicken thighs from the plate back into the pan. Be sure not to waste any chicken fat>
-<cover, the pan with a lid and simmer the dish for 45 to 60 minutes>
-With a fork, test to see that the chicken is tender. Add salt and pepper to taste afterwards.
-<plate, the chicken with an optional dusting of cayenne pepper and serve it with some nice hearty bread. This dish has sour cream added to it traditionally, however if dairy is not your thing it’s delicious without it also. So for this last step you can add some sour cream to the sauce and stir it or add the sour cream at the end when you plate the chicken. Then garnish with herbs and enjoy>
+(chicken thighs) <pat, with (paper towels); for crispier skin>
+(chicken thighs) + (salt) + (pepper)
+(pan) + (olive oil)
+(pan) <heat, high heat>
+(chicken thighs) <place, skin-side down in (pan)>
+    <brown, 5m each side>
+    <remove, from (pan)>
+    <set aside, on (plate)>
+(onions) <chop>
+(pan) + (onions)
+(onions) <cook, in the chicken fat and sauce> ?= golden
+(pan) + (powdered garlic) + (tomato paste)
+{tomato roux} <stir, another 5m>
+{tomato roux} + (paprika)
+{tomato roux} <stir, another 1m>
+{sauce} = {tomato roux} + (broth)
+    <heat, to medium temperature>
+Reduce heat to medium-low.
+(chicken thighs) <transfer, back into (pan)>
+Retain all the chicken fat.
+(pan) <cover, with (lid)>
+{dish} <simmer, 45–60m>
+(chicken thighs) <test, for tenderness with (fork)>
+{dish} + (salt) + (pepper)
+Optional [
+    [
+        {sauce} + (sour cream)
+        {sauce} <stir>
+    ]
+    -OR-
+    [
+        Add (sour cream) when plating the chicken.
+    ]
+]
+(chicken thighs) <plate>
+Optional [
+    (chicken thighs) <dust, with (cayenne pepper)>
+]
+(chicken thighs) <garnish, with (herbs)>
+
+::notes
+
+Serve with hearty bread. Sour cream is traditional according to the source, but may be omitted.
 
 ::story
 

@@ -18,26 +18,46 @@ serves: 8
 
 ::ingredients
 
-(potatoes, about 2 lbs, peeled and cut into bite-size chunks) 5
-(plain yogurt) 1 cup
-(mayonnaise) 1/2 cup
-(prepared horseradish) 1 Tbsp
+(potatoes, peeled; bite-sized chunks) 5 / about 2lbs
+(plain yogurt) 1cup
+(mayonnaise) 1/2cup
+(prepared horseradish) 1tbsp
 (radishes, thinly sliced) 4
-(stalks celery, diced) 2
-(green onion, large, thinly sliced) 2
-(parsley, Fresh, chopped) 1/4 cup
-(dill, Fresh, chopped) 1/4 cup
+(celery, diced) 2stalks
+(green onions, large; thinly sliced) 2
+(parsley, fresh; chopped) 1/4cup
+(dill, fresh; chopped) 1/4cup
+(water, just enough to cover potatoes)
+(salt)
+(pepper)
 
 ::equipment
 
-(bowl)
+(bowl, large)
 (pot)
+(lid)
 
 ::instructions
 
-(potatoes) <place, in a pot and just cover with water. Partially lid and bring to a boil. Reduce heat and simmer partially covered just until potatoes are tender (5 mins). Don't overcook. Drain well>
-Meanwhile in a large bowl, stir yogurt with mayonnaise, horseradish, salt, and pepper. Stir in radishes, celery, green onions, parsley, and dill until mixed.
-<add, warm potatoes and stir to combine. Refrigerate at least 1 hour before serving. Taste and adjust seasonings if desired>
+(potatoes) <place, in (pot)>
+(pot) + (water)
+(pot) <cover, partially with (lid)>
+{potatoes and water} <boil>
+Reduce heat.
+(potatoes) <simmer, partially covered; 5m> ?= just tender
+Do not overcook.
+(potatoes) <drain, well>
+Meanwhile [
+    {dressing} = (bowl) + (plain yogurt) + (mayonnaise) + (prepared horseradish) + (salt) + (pepper)
+        <stir>
+    {dressing} + (radishes) + (celery) + (green onions) + (parsley) + (dill)
+    {dressing} <stir> ?= mixed
+]
+{salad} = {dressing} + (potatoes, warm)
+    <stir, to combine>
+    <refrigerate, at least 1h before serving>
+    <taste>
+Adjust seasonings if desired.
 
 ::source
 <<<

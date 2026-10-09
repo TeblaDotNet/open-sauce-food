@@ -17,12 +17,15 @@ tags: chicken, soup
 
 ::ingredients
 
-(chicken breasts — /pan-seared-chicken) 2
-(onion) 1
+(chicken breasts) 2
+(onion, listed but method gives no use) 1
 (carrot) 2
 (celery stalks) 2
-(chicken stock or broth) 32 oz / 950ml
-(pasta, Optional)
+(soup base) = (chicken stock) 32 oz / 950ml -OR- (chicken broth) 32 oz / 950ml
+(pasta, optional)
+(salt, seasoning as desired)
+(pepper, seasoning as desired)
+(hot sauce, seasoning as desired)
 
 ::equipment
 
@@ -31,11 +34,30 @@ tags: chicken, soup
 
 ::instructions
 
-<cook, chicken breasts — /pan-seared-chicken, shred, and set aside in a bowl>
-<cut, up carrots and celery, place in pot and saute>
-<add, in chicken and stock or broth and mix together well. Season with salt, pepper, hot sauce, whatever you desire>
-<allow, it to simmer on low heat for 2 hours mixing every so often>
-If adding noodles, add in pasta and allow pasta to cook until al dente.
+(chicken breasts) <cook, using the source-linked chicken preparation>
+    <shred>
+    <set aside, in (bowl)>
+(carrot) + (celery stalks)
+    <cut up>
+    <place, in (pot)>
+    <sauté>
+{soup} = (carrot) + (celery stalks) + (chicken breasts) + (soup base)
+    <mix, well>
+Season as desired with (salt), (pepper), (hot sauce) or other seasonings of your choice.
+{soup} <simmer, low heat, 2h>
+Meanwhile [
+    {soup} <mix, every so often>
+]
+Optional [
+    {soup} + (pasta)
+    (pasta) <cook, in the soup> ?= al dente
+]
+
+::notes
+
+Source-linked chicken preparation: /pan-seared-chicken.
+The source lists an onion but gives no addition step; none is inferred.
+The soup may be customized with vegetables or other additions, as described by the source.
 
 ::story
 

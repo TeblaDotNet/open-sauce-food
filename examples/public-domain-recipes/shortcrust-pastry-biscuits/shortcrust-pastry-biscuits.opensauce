@@ -19,22 +19,29 @@ image: shortcrust-pastry-biscuits.webp
 
 ::ingredients
 
-(shortcrust pastry — /shortcrust-pastry) 8 servings
+(shortcrust pastry) 8servings
 
 ::equipment
 
 (oven)
+(baking paper)
 
 ::instructions
 
-<preheat, the oven to 170 °C in static mode>
-Create small balls of dough, place them on baking paper and flatten them slightly. They won't rise, so you're deciding here the size of the biscuits.
-<cook, in the oven. It should take about 45 minutes but it depends on the size and shape of the biscuits, so you would do better to start checking after 30>
+(oven) <preheat, 170°C; static mode>
+(shortcrust pastry) <form, into small balls>
+{balls} <place, on (baking paper)>
+    <flatten, slightly>
+These will not rise; this determines the biscuit size.
+{biscuits} <bake, in (oven); about 45m depending on size and shape>
+Meanwhile [
+    {biscuits} <check, starting after 30m>
+]
 
 ::notes
 
-This is a basic recipe from which many variants can be created. For example, you could add powedered cocoa (4 tsp), honey (4 tsp), or grated chocolate (80 g). You may also use mashed fruit, but since it contains much water you would then have to add flour to restore the original consistency of the dough.
-
+Shortcrust pastry source: /shortcrust-pastry.
+Variations: add cocoa powder 4tsp, honey 4tsp or grated chocolate 80g. Mashed fruit needs extra flour to restore dough consistency because of its water content.
 
 ::source
 <<<

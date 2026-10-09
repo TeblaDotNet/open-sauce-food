@@ -18,24 +18,47 @@ image: pasta-arrabbiata.webp
 ::ingredients
 
 (pasta)
-(olive oil)
-(chilli flakes or diced chilli peppers)
-(garlic cloves, Crushed)
-(tomatoes, Crushed, about 800 gramms for 500 gramms of pasta)
-(parsley, Chopped)
-(pecorino romano or parmigiano reggiano, Grated, optional, but highly recommended)
+(olive oil) a few tablespoons
+(chilli) = (chilli flakes) -OR- (chilli peppers, diced)
+(garlic cloves) several
+(tomatoes, crushed) about 800 grams per 500 grams pasta
+(parsley, chopped)
+(cheese, optional but highly recommended) = (Pecorino Romano, grated) -OR- (Parmigiano Reggiano, grated)
+(water, for pasta)
+(salt, for pasta) a handful
+(salt, for sauce)
+(pepper)
 
 ::instructions
 
-Start heating up water for the pasta.
-<heat, up a few tablespoons of olive oil over low heat>
-<crush, several cloves of garlic into the olive oil, add the chilli flakes or chilli peppers and fry them for a short time, while being careful not to burn the garlic>
-<add, your crushed tomatoes, together with some salt and pepper, increase the heat to medium and let simmer for 10-15 minutes or until it looks nicely thickened>
-When the water starts boiling, put a handful of salt into it and then your pasta of choice. Ideally leave the pasta slightly undercooked, because it will go in the hot sauce and finish cooking there.
-When the sauce is almost ready, add most of your chopped parsley and stir it around. Save some to top the dish later.
-When the pasta is ready （ideally at the same time as the sauce or slightly later）, strain it and add it to the sauce, which should be off the heat. If the sauce looks a bit too thick, add some of the pasta water. Mix well.
-<add, some of the grated cheese of your choice and stir it in>
-<serve, with some more grated cheese and chopped parsley on top>
+(water) <heat>
+Meanwhile [
+    (olive oil) <heat, low heat>
+    (garlic cloves) <crush, into the olive oil>
+    {aromatics} = (garlic cloves) + (chilli)
+        <fry, briefly, taking care not to burn garlic>
+    {sauce} = {aromatics} + (tomatoes) + (salt, for sauce) + (pepper)
+    Increase heat to medium.
+    {sauce} <simmer, 10-15m> ?= nicely thickened
+    When almost ready, stir most of (parsley) into the sauce; save some for serving.
+]
+When the water boils:
+(water) + (salt, for pasta) + (pasta)
+(pasta) <cook> ?= preferably slightly undercooked
+# It finishes cooking in the hot sauce. Ideally pasta is ready at the same time as sauce or slightly later.
+(pasta) <strain>
+{sauce} <remove, from heat>
+    + (pasta)
+If too thick, add some reserved pasta-cooking water.
+{sauce and pasta} <mix, well>
+Optional [
+    {sauce and pasta} + (cheese)
+        <stir>
+]
+{sauce and pasta} <serve, with (parsley), reserved portion on top>
+Optional [
+    {sauce and pasta} <top, with (cheese), more>
+]
 
 ::source
 <<<

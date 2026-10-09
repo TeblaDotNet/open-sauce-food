@@ -14,29 +14,57 @@ tags: potato, soup
 
 ::ingredients
 
-(potatoes, yellow or brown, I don't count but 10+)
-(butter, a stick or two)
-(whole milk)
+(potatoes, yellow or brown) 10 or more
+(butter) 1 or 2sticks
+(whole milk) to consistency; author uses about 1/2gallon
 (garlic)
 (cheese, optional)
 (onion greens, optional)
 (sour cream, optional)
+(salt)
+(pepper)
+(cayenne)
+(other additions, optional)
 
 ::equipment
 
-(pot)
+(pot, big)
 
 ::instructions
 
-(potatoes) <bake, at 450° for about an hour>
-<take, them out and leave them to cool for a good 10 minutes>
-Begin heating up a big pot to about medium temperature, and put the butter in to melt.
-(potatoes) <cut, in half and scoop them directly into the pot>
-Once you are finished with that, begin mashing them until they are a nice mashed-potato-like consistency.
-<add, milk little by little, stirring as you go, until you reach the desired consistency. I usually use half a gallon or so>
-(cheese) <shred, into the soup. Then add garlic, salt, pepper, cayenne, onion greens, and anything else you can think of>
-<let, the soup reach a boil, stirring constantly. Remove from heat and serve>
-I usually eat it with sour cream mixed in to cool it down and get that extra dairy in.
+(potatoes) <bake, 450°; about 1h>
+    <remove, from heat>
+    <cool, a good 10m>
+(pot) <heat, about medium heat>
+(butter) <melt, in (pot)>
+(potatoes) <cut, in half>
+    <scoop, directly into (pot)>
+    <mash> ?= mashed-potato-like consistency
+{soup} <stir> ?= desired consistency
+Meanwhile [
+    (whole milk) <pour, little by little into the mashed potatoes>
+]
+Optional [
+    (cheese) <shred, into the soup>
+]
+{soup} + (garlic) + (salt) + (pepper) + (cayenne)
+Optional [
+    {soup} + (onion greens)
+]
+Optional [
+    {soup} + (other additions)
+]
+{soup} <boil>
+Meanwhile [
+    {soup} <stir, constantly>
+]
+(pot) <remove, from heat>
+{soup} <serve>
+
+::notes
+
+The author mixes in sour cream when eating to cool the soup and add dairy.
+The source gives 450° without a temperature unit.
 
 ::story
 

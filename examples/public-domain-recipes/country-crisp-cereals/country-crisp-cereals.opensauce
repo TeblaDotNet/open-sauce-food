@@ -17,31 +17,45 @@ serves: 7
 
 ::ingredients
 
-(oat flakes, 270 g - 800 mL)
-(rice flour, or any other flour, 20 g - 55mL)
-(sugar, 100 g)
-(hazelnuts, Crushed, 20 g)
-(oil, any type, 60 g - 75 mL)
-(water, 50 g)
-(chocolate, 70 g, optional)
-(vanilla extract, 1/2 tsp, optional)
+(oat flakes) 270g / 800mL
+(flour) = (rice flour) 20g / 55mL -OR- (other flour) 20g / 55mL
+(sugar) 100g
+(hazelnuts, crushed) 20g
+(oil, any type) 60g / 75mL
+(water) 50g
+(chocolate, optional) 70g
+(vanilla extract, optional) 1/2tsp
 
 ::equipment
 
 (oven)
-(bowl)
+(cooking plate)
+(parchment paper)
+(container, large; such as a salad bowl)
 
 ::instructions
 
-<preheat, the oven at 120°C>
-<prepare, the cooking support with for example, a parchment paper on a cooking plate>
-<mix, the sugar and the water, until the sugar dissolves>
-In a large container （like a salad bowl） introduce the Flour, the Oat Flakes, and the Crushed Hazelnuts （and optionally the Vanilla Extract）, and mix.
-Introduce in the previous mixture, the Sugar Syrup and the Oil, and mix again.
-Deposit the paste obtained on the cooking plate without exceeding 2 cm in height.
-<bake, the mixture in the 120°C oven until it becomes hard (in approximately 2 hours)>
-<break, the hardened mixture to obtain cereals>
-<add, if you want some broken chocolate (or chocolate chips) in the cereals, or anything you want>
+(oven) <preheat, 120°C>
+(cooking plate) <prepare, for example with (parchment paper)>
+{sugar syrup} = (sugar) + (water)
+    <mix> ?= sugar dissolved
+{mixture} = (container) + (flour) + (oat flakes) + (hazelnuts)
+Optional [
+    {mixture} + (vanilla extract)
+]
+{mixture} <mix>
+{paste} = {mixture} + {sugar syrup} + (oil)
+    <mix>
+    <deposit, on (cooking plate); no more than 2cm high>
+    <bake, in (oven); 120°C; approximately 2h> ?= hard
+    <break, into cereals>
+Optional [
+    {cereals} + (chocolate, broken or chips)
+]
+
+::notes
+
+Other additions may be used if desired.
 
 ::story
 

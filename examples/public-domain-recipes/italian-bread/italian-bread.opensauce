@@ -16,30 +16,45 @@ tags: bread, italian, fasting
 
 ::ingredients
 
-(or 5 cups bread flour, or all-purpose if not available) 600g
-(active dry yeast) 1 packet （appr. 2 1/4 tsp or 7g）
-(olive oil for greasing)
+(flour) = (bread flour) 600g / 5 cups -OR- (all-purpose flour, if bread flour unavailable) 600g / 5 cups
+(active dry yeast) 1 packet （approximately 2 1/4 tsp / 7g）
+(olive oil, for greasing)
+(water, total including yeast activation) 400g / 1 3/4 cups
+(salt, optional) 12g / 2 tsp
 
 ::equipment
 
+(bowl, large enough for mixing dough)
 (baking sheet)
 (oven)
-(bowl)
 
 ::instructions
 
-Follow directions on the packet to activate yeast in a bowl large enough for mixing the dough
-<add, enough water for a total of 400g or 1 3/4 cups (i.e. add 400g minus however much water was used to activate the yeast)>
-Optionally add 12g or 2 tsp salt （Unsalted bread is normal in Central Italy, but it's an acquired taste）
-Slowly mix in flour until it forms a dough that will be easy to work with and not overly sticky. Make sure there are no wet or dry pockets in the dough.
-<cover, and let rest for 15 minutes>
-<knead, the dough and let it rise covered for 1 hour in a warm place until doubled in size>
-Split the dough in half and shape it into two loaves. Make sure the seams are at the bottom.
-<place, the loaves on a lightly greased baking sheet and let it rise covered for 1 hour in a warm place until doubled in size>
-Make sure the oven is preheated to 200°C （400°F） before the resting period is over.
-Score the loaves and place the baking sheet in the oven.
-<bake, for 25-30 minutes>
-<let, cool for 15 minutes before serving>
+(active dry yeast) <activate, in (bowl), following packet directions>
+Add enough (water) to reach a total of 400g or 1 3/4 cups, subtracting the water already used to activate the yeast.
+Optional [
+    (bowl) + (salt)
+    # Unsalted bread is normal in Central Italy according to the source, but an acquired taste.
+]
+(flour) <mix in, slowly> ?= workable dough that is not overly sticky, with no wet or dry pockets
+{dough} <cover>
+    <rest, 15m>
+    <knead>
+    <cover>
+    <rise, warm place, 1h> ?= doubled in size
+    <split, in half>
+    <shape, into two loaves, seams at the bottom>
+(baking sheet) <grease, lightly, with (olive oil)>
+{loaves} <place, on (baking sheet)>
+    <cover>
+    <rise, warm place, 1h> ?= doubled in size
+Meanwhile [
+    (oven) <preheat, 200°C / 400°F, ready before the rise ends>
+]
+{loaves} <score>
+(baking sheet) <place, in (oven)>
+{loaves} <bake, 25-30m>
+    <cool, 15m before serving>
 
 ::source
 <<<

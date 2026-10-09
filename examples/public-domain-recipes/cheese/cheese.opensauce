@@ -18,25 +18,44 @@ tags: basic, cheesefare
 
 ::ingredients
 
-(thermometer)
-(cheesecloth) 1
-(cheese recipient) 1
 (milk) 2l
 (table salt, optional with aging) 25g
 (rennet) 2g
 (coarse salt) Some
-(oil and vinegar, for aging)
+(oil, for optional aging)
+(vinegar, for optional aging)
 
 ::equipment
 
+(thermometer)
+(cheesecloth) 1
+(cheese recipient) 1
 (pot)
+(fridge)
 
 ::instructions
 
-Preparation
-<pour, the milk and the salt into a pot, stir it well, and heat it up to 35°C. Once the temperature has been reached, add the rennet and stir well. Let it cook until it solidifies (about 1 and a half hours), then cut in 1x1cm squares. Let it rest for half an hour. Pour the cheese into the cheesecloth and il drip until it has completely separated from the liquid part (whey). Place the cheese into the recipient. Cover both sides of the cheese with coarse salt, repeat this operation twice, waiting 1 hour between two saltings. Store in the fridge>
-Aging （optional）
-<store, the cheese in a chill place (around 12°C). Every day of aging, flip the cheese upside-down. For the first two weeks, also cover it with oil and vinegar every day>
+(milk) <pour, into (pot)>
+Include (table salt) unless omitting it for aging, as allowed by the ingredient list.
+(milk) <stir, well>
+    <heat, to 35°C, using (thermometer)>
+Once at 35°C:
+(milk) + (rennet)
+    <stir, well>
+    <cook, ~1.5h> ?= solidified
+{curd} <cut, into 1x1cm squares>
+    <rest, 30m>
+    <pour, into (cheesecloth)>
+    <drip> ?= completely separated from the whey
+{cheese} <place, in (cheese recipient)>
+    <cover, both sides, with (coarse salt)>
+Repeat the salting operation twice, waiting 1 hour between saltings, as stated by the source.
+{cheese} <store, in (fridge)>
+Optional [
+    {cheese} <age, in a cool place, ~12°C>
+    Each day of aging, flip the cheese upside-down.
+    For the first two weeks, also cover it with (oil) and (vinegar) every day.
+]
 
 ::notes
 

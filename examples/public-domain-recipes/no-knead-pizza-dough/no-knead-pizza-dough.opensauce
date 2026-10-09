@@ -23,7 +23,7 @@ serves: 1 pizza
 (instant yeast, dry) 2g
 (salt) 5g
 (olive oil) 5g
-(luke warm water) 140g
+(water, lukewarm) 140g
 
 ::equipment
 
@@ -31,10 +31,18 @@ serves: 1 pizza
 
 ::instructions
 
-<mix, dry ingredients in a bowl>
-<mix, in olive oil and water. No need for hands or kneading>
-<cover, bowl air tight, and let it sit in room temperature for at least 7 hours, and up to 24 hours. It should have dramatically increased in size>
-The dough can be kept in the refrigerator for some days, so feel free to double/triple the ingredients for more pizzas for the same amount of work and time.
+{dry mix} = (flour) + (instant yeast) + (salt)
+    <mix, in (bowl)>
+{dough} = {dry mix} + (olive oil) + (water)
+    <mix>
+# No hands or kneading needed.
+(bowl) <cover, airtight>
+{dough} <rest, room temperature, 7-24h> ?= dramatically increased in size
+
+::notes
+
+Suitable for pan pizza in an 11-inch iron skillet.
+The dough can be kept in the refrigerator for some days; double or triple ingredients for more pizzas with the same work and time, as the source suggests.
 
 ::story
 

@@ -22,21 +22,45 @@ serves: An average-sized mason jar.
 (milk) 1 liter
 (sugar) 350 grams
 (baking soda) Half a teaspoon
-(vanilla bean, Optional, or essence) A
-(glass marbles, Optional, but it is a traditional way to prevent sticking, and they will not break in the process.) Two
+(vanilla, optional) = (vanilla bean) 1 -OR- (vanilla essence)
+
+::equipment
+
+(pan)
+(wooden spoon)
+(glass marbles, optional) 2
+(glass jar)
+(fridge)
 
 ::instructions
 
-<heat, all ingredients in a pan (with the marbles, if you want,) on a medium-heat stove, constantly mixing with a wooden spoon>
-Once the sugar dissolves, set heat to very low, and keep mixing once in a while for approximately two hours. It should not boil, if it happens, set it aside, keep mixing and once the temperature lowers put it back on the heat.
-Once the preparation gets thicker, be more careful and mix it more frequently so that it does not stick （and burn） and lumps do not form.
-Once you get a consistency similar to that of a custard, set it aside and keep mixing for 10 minutes, until it gets cold and thickens a bit more. If you put a spoon inside, pass your finger in the middle and it does not unite anymore, it is done.
-Once cold, put it on a glass jar and leave it in the fridge, or sterilize it.
+{mixture} = (milk) + (sugar) + (baking soda)
+Optional [
+    {mixture} + (vanilla)
+]
+Optional [
+    (glass marbles) <put, in (pan)>
+    # The source describes marbles as a traditional anti-sticking aid.
+]
+{mixture} <heat, in (pan), medium heat> ?= sugar dissolved
+Meanwhile [
+    {mixture} <mix, constantly, with (wooden spoon)>
+]
+Reduce heat to very low.
+{mixture} <cook, ~2h>
+Meanwhile [
+    Mix occasionally at first, then more frequently as it thickens to prevent sticking, burning and lumps.
+    Do not let it boil. If it does, move the pan off heat, keep mixing, and return it once the temperature drops.
+]
+Once the mixture has custard-like consistency, set it aside.
+{dulce de leche} <mix, 10m> ?= cold and a little thicker
+Dip a spoon into the mixture and run a finger through its coating: it is done when the line does not close again.
+Once cold, put into (glass jar) and leave in (fridge), or sterilize it as the source states.
 
 ::notes
 
-Delicious milk toffee used on desserts or as a spread. Substitute for Nootella or similar "food". It is very demanding, so i only recommend you make it if you either can't buy industrial dulce de leche (It will be way more natural than other sweets anyway), or have the time and interest to go through the process. It can be made more easily with sweetened condensed milk, but if you have access to it, you can get DDL anyways.
-
+Use on desserts or as a spread.
+The source's sterilization alternative has no procedure specified; none is added here. It also does not specify a marble-removal step.
 
 ::source
 <<<

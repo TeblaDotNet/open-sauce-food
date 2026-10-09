@@ -21,28 +21,45 @@ serves: 5
 (oats) 3 cups
 (olive oil) 1/2 cup
 (maple syrup) 1/2 cup
-(nuts, chopped, almonds, pumpkin seeds, etc) 1 cup
+(nuts, chopped, e.g. almonds or pumpkin seeds) 1 cup
 (cloves, ground) 1 tsp
 (cardamom, ground) 1 tsp
-(fruit, dried, apricots, unsweetened cranberries, dates, etc) 1 cup
+(dried fruit, e.g. apricots or unsweetened cranberries or dates) 1 cup
 
 ::equipment
 
-(baking sheet)
 (oven)
-(bowl)
+(bowl, large)
+(baking sheets, large) 2
+(parchment paper)
 
 ::instructions
 
-<preheat, oven to 315° F>
-In a large bowl, mix: oats, oil, maple syrup, chopped nuts and spices
-<cover, two large baking sheets with parchment paper>
-<spread, the mixture thinly and evenly on baking sheets, put in oven>
-<bake, 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking)>
-<bake, 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking)>
-<bake, 10 minutes, take out of oven, do not stir (helps form clumps), let it cool>
-Coarsely chop dried fruit and mix in
-<serve, with yogurt, milk, fresh fruit, etc>
+(oven) <preheat, 315°F>
+{mixture} = (oats) + (olive oil) + (maple syrup) + (nuts) + (cloves) + (cardamom)
+    <mix, in (bowl)>
+(baking sheets) <cover, with (parchment paper)>
+{mixture} <spread, thinly and evenly, on (baking sheets)>
+(baking sheets) <put, in (oven)>
+{granola} <bake, 15m>
+(baking sheets) <remove, from (oven)>
+{granola} <stir>
+(baking sheets) <return, to the oven, swapping positions for even cooking>
+{granola} <bake, 15m>
+(baking sheets) <remove, from (oven)>
+{granola} <stir>
+(baking sheets) <return, to the oven, swapping positions for even cooking>
+{granola} <bake, 10m>
+(baking sheets) <remove, from (oven)>
+Do not stir now; this helps clumps form.
+{granola} <cool>
+(dried fruit) <chop, coarsely>
+{granola} + (dried fruit)
+    <mix>
+
+::notes
+
+Serve with yogurt, milk, fresh fruit or similar accompaniments.
 
 ::source
 <<<

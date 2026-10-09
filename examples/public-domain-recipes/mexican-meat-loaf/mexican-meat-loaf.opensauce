@@ -18,23 +18,31 @@ serves: 4
 
 ::ingredients
 
-(lean ground beef) 1 lb
-(black beans, canned, rinsed and drained) 1 cup
-(salsa, divided) 1 cup
-(corn, frozen) 1/2 cup
-(bread crumbs) 1/2 cup
+(lean ground beef) 1lb
+(black beans, canned; rinsed; drained) 1cup
+(salsa, divided) 1cup
+(corn, frozen) 1/2cup
+(bread crumbs) 1/2cup
 (cooking spray)
 
 ::equipment
 
 (bowl)
+(loaf pan, approximately 5 by 9 inches)
 
 ::instructions
 
-In bowl, place all ingredients except spray and using 3/4 cup of the salsa - mix well.
-Spray a loaf pan （approx. 5"x9"）, and add above mix.
-<bake, for 50 to 60 minutes - sit 15 minutes>
-<top, with last 1/4 cup of salsa>
+{mixture} = (bowl) + (lean ground beef) + (black beans) + (salsa) 3/4cup + (corn) + (bread crumbs)
+    <mix, well>
+(loaf pan) <spray, with (cooking spray)>
+{mixture} <place, in (loaf pan)>
+{meat loaf} <bake, 50–60m>
+    <rest, 15m>
+(salsa, remaining) 1/4cup <spoon, over the meat loaf>
+
+::notes
+
+The source does not specify a baking temperature.
 
 ::source
 <<<

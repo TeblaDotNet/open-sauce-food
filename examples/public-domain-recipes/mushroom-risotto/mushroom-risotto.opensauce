@@ -21,26 +21,40 @@ serves: 4
 (olive oil)
 (shallot) 1
 (garlic) 4 cloves
-(button or crimini mushrooms) 300g
-(risotto rice, Arborio, Carnaroli or Vialone Nano) 400g
+(mushroom selection) = (button mushrooms) 300g -OR- (crimini mushrooms) 300g
+(risotto rice) 400g, Arborio or Carnaroli or Vialone Nano
 (white wine, optional) 1/2 cup
-(mushroom or chicken stock)
-(butter)
-(pecorino or parmesan cheese, Grated)
+(stock) = (mushroom stock) -OR- (chicken stock)
+(butter, cold) a couple tablespoons
+(cheese) = (Pecorino, grated) -OR- (Parmesan, grated)
+(salt) a pinch
 
 ::equipment
 
-(skillet)
-(pot)
+(pan) = (skillet, wide, tall sides, preferred) -OR- (pot)
 
 ::instructions
 
-Finely mince the shallot and garlic and slice the mushrooms into large pieces.
-<heat, a pan with some olive oil on medium-high heat. Ideally this should be a wide skillet with tall sides, but a pot will also do the job>
-<saute, the vegetables until fragrant, then add the mushrooms with a pinch of salt and cook them down until they're nicely browned, about 10 minutes or so>
-<add, the rice in and let it toast for about a minute or so. This will develop some nice nutty flavors, but overdoing this will affect the creaminess of the finished dish>
-<deglaze, with white wine and let the alcohol cook off. After that start ladling in the stock bit by bit stirring constantly for about 20-30 minutes (depending on the brand of rice used), until the rice is cooked but has a slight bite to it>
-<turn off, the heat and add a couple tablespoons of cold butter and grated cheese, and stir well to emulsify. Check for final seasoning and serve>
+(shallot) + (garlic) <mince, finely>
+(mushroom selection) <slice, into large pieces>
+(olive oil) <heat, in (pan), medium-high heat>
+{vegetables} = (shallot) + (garlic)
+    <sauté, in (pan)> ?= fragrant
+    + (mushroom selection) + (salt)
+    <cook, ~10m> ?= nicely browned
+{risotto} = {vegetables} + (risotto rice)
+    <toast, ~1m>
+Do not overdo toasting: it develops nutty flavour but too much affects the finished creaminess.
+Optional [
+    (pan) <deglaze, with (white wine)>
+    Let the alcohol cook off before adding stock.
+]
+Ladle (stock) into {risotto} bit by bit, stirring constantly, for about 20-30 minutes depending on rice brand, until the rice is cooked but has a slight bite.
+<turn off heat>
+{risotto} + (butter) + (cheese)
+    <stir, well, to emulsify>
+    <check, final seasoning>
+    <serve>
 
 ::source
 <<<

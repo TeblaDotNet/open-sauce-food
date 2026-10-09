@@ -19,26 +19,35 @@ image: glass-of-compote.webp
 
 ::ingredients
 
-(strawberries, two standard packs works best)
-(sugar)
+(strawberries) two standard packs
+(sugar) to taste; source suggests 1-1.5 cups （237-355 grams） per 4 quarts （3.8 L） compote
+(water) enough to fill pot to brim with strawberries inside
 
 ::equipment
 
-(sieve)
-(bowl)
-(pot)
+(bowls) 3
+(butter knife, pointed preferred)
+(sieve, alternative washing container)
+(pot, 4 quart / 3.8 L)
+(fridge)
 
 ::instructions
 
-Get 3 bowls and a butter knife （if the butter knife has a point, that will work better）
-Dump out both packs of strawberries into a sieve or bowl and wash them thoroughly.
-<remove, the stem and leaves/crown of the strawberry. The crown can be peeled by hand, then use the butter knife to cut out the stem>
-Large strawberries can be cut in half.
-Once all of the strawberries are clean, put them in a standard 4 quart （3.8 L） pot. Fill it with water to the brim.
-<put, the pot to boil. The strawberries will gradually lose their color, which is completely normal>
-Once it boils, let it cook for 5 mins.
-After five minutes are over, turn off the heat and incrementally add sugar to your preference. I suggest 1-1.5 cups （237 to 355 grams） of sugar for 4 quarts （3.8 L） of compote. Taste between helpings of sugar to make sure its not oversweetened.
-<let, the pot cool, then refrigerate. Serve chilled>
+Gather (bowls) and (butter knife).
+(strawberries) <wash, thoroughly, in (sieve) or (bowls)>
+(strawberries: crown) <peel off, by hand>
+(strawberries: stem) <cut out, with (butter knife)>
+Large strawberries may be cut in half.
+(strawberries) <put, clean berries, in (pot)>
+(pot) <fill, to the brim, with (water)>
+{compote} <bring to boil>
+# The strawberries gradually losing colour is normal.
+{compote} <cook, once boiling, 5m>
+Turn off the heat.
+Add (sugar) incrementally to taste, tasting between additions to avoid oversweetening.
+{compote} <cool>
+    <refrigerate, in (fridge)>
+    <serve, chilled>
 
 ::story
 

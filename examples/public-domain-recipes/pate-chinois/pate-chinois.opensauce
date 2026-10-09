@@ -19,51 +19,77 @@ image: pate-chinois.webp
 
 ::ingredients
 
-(potatoes or around 6 big one, peeled and diced, for Mashed potatoes layer) 1½ lb
-(butter, for Mashed potatoes layer) 2 tbsp
-(milk, for Mashed potatoes layer) ½ cup
-(herbs de provence or dried parsley, for Mashed potatoes layer) 1 tsp
-(strong cheddar cheese, optional, grated, for Mashed potatoes layer) ½ cup
-(nutmeg, for Mashed potatoes layer) Pinch
-(paprika, for Mashed potatoes layer)
-(butter, for Beef layer) 1 tbsp
-(beef, ground, for Beef layer) 1 lb
-(onion, diced, for Beef layer) 1
-(soya sauce, for Beef layer) 1 tbsp
-(herbs de provence, for Beef layer) 1 tbsp
-(worcestershire sauce, for Beef layer) 1 tsp
-(can of whole kernel corn, small, around 14oz, for Corn layer) 1
-(can of cream style corn, small, around 14oz, for Corn layer) 1
+(potatoes, peeled and diced) 1½ lb or around 6 large
+(butter, for potatoes) 2 tbsp
+(milk) ½ cup
+(potato herbs) = (herbs de Provence, for potatoes) 1 tsp -OR- (parsley, dried) 1 tsp
+(strong cheddar cheese, grated, optional) ½ cup
+(nutmeg) Pinch
+(paprika) to taste
+(butter, for beef) 1 tbsp
+(beef, ground) 1 lb
+(onion, diced) 1
+(soya sauce) 1 tbsp
+(herbs de Provence, for beef) 1 tbsp
+(Worcestershire sauce) 1 tsp
+(whole kernel corn) 1 small can （around 14oz）
+(cream style corn) 1 small can （around 14oz）
+(salted water)
+(salt) to taste
+(pepper) to taste
+(ketchup, for serving)
+(beets, marinated, for serving)
 
 ::equipment
 
 (oven)
-(pot)
+(pot, large)
+(masher)
+(electric mixer)
+(pan)
+(baking dish, 6-8 inch)
+(broiler, optional)
 
 ::instructions
 
-<preheat, the oven to 375°F (190°C)>
-In a large pot of salted water, cook the potatoes for 20-30min or until tender. Drain.
-<add, the butter, the milk, the herbs, the nutmeg and mash the potatoes with a masher or an electric mixer. Gradually add the cheese. Season with salt and pepper and set aside>
-In a pan at medium-high heat, brown the onion in the butter and cook the beef until golden brown. Add the herbs, the Worcestershire and the soya sauce and cook it for another 2min. Set aside.
-In a 6-8 inch baking dish, press the meat into the bottom. Evenly cover with the whole kernel corn, the cream corn and finish with the layer of mashed potatoes.
-<sprinkle, some paprika to taste>
-<bake, it in the oven for 20-30min>
-（Optional） Finish the cooking under the broiler for no more than 2min.
-<serve, with ketchup on top and with marinated beets on the side>
+(oven) <preheat, 375°F / 190°C>
+(potatoes) <cook, in (pot) + (salted water), 20-30m> ?= tender
+    <drain>
+{potato mixture} = (potatoes) + (butter, for potatoes) + (milk) + (potato herbs) + (nutmeg)
+[
+    {potato mixture} <mash, with (masher)>
+]
+-OR-
+[
+    {potato mixture} <mash, with (electric mixer)>
+]
+Optional [
+    Gradually add (strong cheddar cheese) to the mashed potatoes.
+]
+{mashed potatoes} <season, with (salt) + (pepper)>
+    <set aside>
+(onion) <brown, in (pan) + (butter, for beef), medium-high heat>
+(pan) + (beef)
+(beef) <cook> ?= golden brown
+{meat} = (beef) + (onion) + (herbs de Provence, for beef) + (Worcestershire sauce) + (soya sauce)
+    <cook, another 2m>
+    <set aside>
+{meat} <press, into bottom of (baking dish)>
+    <cover, evenly, with (whole kernel corn) + (cream style corn)>
+{mashed potatoes} <layer, on top>
+{pie} <sprinkle, with (paprika), to taste>
+    <bake, in (oven), 20-30m>
+Optional [
+    {pie} <finish, under (broiler), no more than 2m>
+]
+{pie} <serve, with (ketchup) on top, with (beets) on the side>
 
 ::notes
 
-This is the most traditional dish that every household eats in Quebec. As a kid, you would eat Pâté Chinois at least once a week, either at home or at the school's cafeteria,. It is very similar to a Shepherd’s Pie, as it is divided in 3 layers of ingredients: meat, legumes and mashed potatoes. The literal translation of the name is something like chinese pie. You can search for the origin of the name on the internet, I'm not an history teacher.
-
-- For a vegetarian alternative, you can replace the beef with 500g of fake meat and a can of 19oz of lentils (drain and washed).
-
-- This recipe can be easily double and you can also freeze it for lunches.
-
-- If you like mushrooms, you can brown 1/2 cup of sliced mushrooms with the onions of the beef layer.
-
-- If you want to be wild, you can swap the corn layer with a mix of diced veges like black radishes, parsnips, carrots, turnips and/or cauliflower.
-
+For the source's vegetarian alternative, replace beef with 500g fake meat and a 19oz can of lentils, drained and washed.
+The recipe may be doubled and frozen for lunches.
+Optionally brown 1/2 cup sliced mushrooms with the onions in the beef layer.
+The corn layer may be replaced with diced vegetables such as black radishes, parsnips, carrots, turnips and/or cauliflower.
 
 ::source
 <<<

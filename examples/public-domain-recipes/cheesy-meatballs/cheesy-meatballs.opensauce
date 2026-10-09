@@ -15,47 +15,63 @@ image: cheesy-meatballs.webp
 
 ::ingredients
 
-(beef meat, ground) 300-400g
+(beef, ground) 300-400g
 (onion) 1/4
-(cheese, different types possible; author usually uses Gouda) ~70g
+(cheese, author usually uses Gouda) ~70g
 (parsley)
-(garlic cloves) 1-2
+(garlic) 1-2 cloves
 (egg) 1
-(metric cups of bread crumbs, ~50ml) ~1/5
+(breadcrumbs) ~1/5 metric cups / ~50ml
 (water) 250ml
-(spoonfuls of tomato paste) 8
-(oregano)
-(basil)
-(black pepper)
+(tomato paste) 8 spoonfuls
+(oregano, dried)
+(basil, dried)
+(black pepper, ground)
+(salt, for meatballs)
+(salt, for sauce) to taste
+(olive oil) some
 
 ::equipment
 
 (frying pan)
-(bowl)
+(bowl, large)
 
 ::instructions
 
-<beat, the egg(s) in a large bowl>
-<add, in the ground beef, and the bread crumbs and mix>
-<chop, the onion into small pieces and add it to the bowl>
-<mince, the garlic cloves and add to the bowl>
-<dice, the parsley leaves and add to the bowl>
-Salt the beef mix and mix it thoroughly.
-<cut, the cheese into cubes. The amount of cubes you will need will depend on how many meatballs you make, which depends on how big you want to make the meatballs. You get the idea>
-<take, a cheese cube and wrap with enough ground meat to completely cover it. Repeat this process until you've run out of the ground beef mix>
-<heat, the frying pan, add some olive oil, and add the meatballs. Cook over medium heat rolling the meatballs from time to time until they are slightly brown from all sides (wait, spheres have no sides)>
-When the meatballs look done, pour the water and tomato paste; add the dried oregano and basil, and ground black pepper; and salt to taste.
-<cook, over medium-low heat for about ten minutes rolling the meatballs so that they get completely bathed in tomato sauce>
-<serve, with some side dish and enjoy>
+(egg) <beat, in (bowl)>
+{beef mixture} = (egg) + (beef) + (breadcrumbs)
+    <mix>
+(onion) <chop, into small pieces>
+{beef mixture} + (onion)
+(garlic) <mince>
+{beef mixture} + (garlic)
+(parsley) <dice, leaves>
+{beef mixture} + (parsley)
+    <season, with (salt, for meatballs)>
+    <mix, thoroughly>
+(cheese) <cut, into cubes>
+The number of cubes depends on the number and size of the meatballs.
+Wrap each cube of (cheese) completely with enough {beef mixture} to make {meatballs}; repeat until the beef mixture runs out.
+(frying pan) <heat>
+(olive oil) <place, in (frying pan)>
+{meatballs} <cook, in (frying pan), medium heat> ?= slightly brown all over
+Meanwhile [
+    {meatballs} <roll, from time to time>
+]
+# The source jokes that spheres have no sides.
+When the meatballs look done:
+{sauce} = (water) + (tomato paste) + (oregano) + (basil) + (black pepper) + (salt, for sauce)
+{meatballs} + {sauce}
+    <cook, medium-low heat, ~10m>
+Meanwhile [
+    {meatballs} <roll> ?= completely bathed in tomato sauce
+]
+{meatballs} <serve, with a side dish>
+# Enjoy!
 
 ::notes
 
-The quantities here are for about two adult portions. That is, if you are also making some side dish, like in the photo.
-
-For the meatballs:
-
-For the sauce:
-
+The quantities make about two adult portions when also making a side dish, as in the source photo. Different cheese types can be used; the author usually uses Gouda.
 
 ::story
 

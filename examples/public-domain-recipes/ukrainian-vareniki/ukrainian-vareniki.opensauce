@@ -17,29 +17,72 @@ serves: 45
 
 ::ingredients
 
-(potatoes) 18 ounces
-(flour; all-purpose) 3 cups
-(sour cream) ¼ cup
-(baking soda) ½ teaspoon
-(water) ½ cup
-(butter) ¼ cup
-(onion, finely diced) 2
-(button mushrooms, finely chopped) 3 ½ cups
+(potatoes) 18ounces
+(flour, all-purpose) 3cups
+(sour cream) 1/4cup
+(baking soda) 1/2tsp
+(water, for dough) 1/2cup
+(water, for boiling)
+(butter) 1/4cup
+(onions, finely diced) 2
+(button mushrooms, finely chopped) 3 1/2cups
+(salt, for dough) 1tsp
+(salt, for boiling and seasoning)
+(pepper)
 
 ::equipment
 
+(pot, large)
+(flour bowl, large)
+(sour cream bowl)
+(plastic wrap)
 (skillet)
+(slotted spoon)
 (colander)
-(bowl)
-(pot)
 
 ::instructions
 
-(potatoes) <place, into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until tender, about 25 minutes. Drain potatoes and mash; season with salt and pepper>
-<combine, flour and 1 teaspoon salt in a large bowl while potatoes are cooking. Stir sour cream and baking soda together in a second bowl. Add water to flour mixture and blend in, followed by sour cream mixture. Knead into a smooth dough, cover with plastic wrap, and refrigerate for 10 to 15 minutes>
-(butter) <melt, in a skillet over medium heat and cook onions until browned, 5 to 10 minutes. Add mushrooms and cook until browned, about 5 minutes. Add to mashed potatoes>
-<divide, dough into 4 portions and roll each portion into a 1 1/2-inch thick rope. Cut ropes into small 1/2-inch pieces. Press each dough piece into a small flat circle and place 1 teaspoon of potato filling in the center. Fold dough over into a half-moon shape and seal edges>
-<bring, a large pot of salted water to a gentle boil. Add the vareniki in batches and cook until they float to the surface, about 3 minutes. Cook for 2 to 3 minutes more. Remove with a slotted spoon and place in a colander to drain>
+(potatoes) <place, in (pot)>
+(pot) + (water, for boiling) enough to cover + (salt, for boiling and seasoning)
+{potatoes and water} <boil>
+Reduce heat to medium-low.
+(potatoes) <simmer, about 25m> ?= tender
+    <drain>
+    <mash>
+{mashed potatoes} + (salt, for boiling and seasoning) + (pepper)
+Meanwhile [
+    {flour mixture} = (flour bowl) + (flour) + (salt, for dough)
+    {sour cream mixture} = (sour cream bowl) + (sour cream) + (baking soda)
+        <stir>
+    {flour mixture} + (water, for dough)
+    {flour mixture} <blend>
+    {dough} = {flour mixture} + {sour cream mixture}
+        <knead> ?= smooth
+        <cover, with (plastic wrap)>
+        <refrigerate, 10–15m>
+]
+(butter) <melt, in (skillet); medium heat>
+(skillet) + (onions)
+(onions) <cook, 5–10m> ?= browned
+(skillet) + (button mushrooms)
+(button mushrooms) <cook, about 5m> ?= browned
+{filling} = {mashed potatoes} + (onions) + (button mushrooms)
+{dough} <divide, into 4 portions>
+    <roll, each portion into a 1 1/2-inch-thick rope>
+{ropes} <cut, into 1/2-inch pieces>
+{pieces} <press, each into a small flat circle>
+{filling} 1tsp <place, in the centre of each circle>
+{dough circles} <fold, into half-moon shapes>
+    <seal, edges>
+(pot) + (water, for boiling) + (salt, for boiling and seasoning)
+(water, for boiling) <boil, gently>
+In batches:
+(pot) + {vareniki}
+{vareniki} <cook, about 3m> ?= floating to surface
+    <cook, 2–3m more>
+    <remove, with (slotted spoon)>
+    <place, in (colander)>
+    <drain>
 
 ::story
 

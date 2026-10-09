@@ -14,33 +14,57 @@ tags: curry, chicken
 
 ::ingredients
 
-(or 1lb of chicken breast) 500g
-(virgin olive oil, 1/2 cup or ~100ml)
-(tomatoes of any variety, Fresh, 10 - 15 medium sized)
-(sized onions, medium) Two
-(or 1/2lbs of fresh spinach) 250g
-(curry powder of your favourite variety)
-(red chilies, or red chilli paste)
-(herbs or spices, extra) Any; to your taste
+(chicken breast) 500g / 1lb
+(virgin olive oil) 1/2 cup / ~100ml
+(tomatoes, fresh, any variety) 10-15 medium
+(onion, medium) 2
+(spinach, fresh) 250g / 1/2lb
+(curry powder, favourite variety) to taste
+(chilli) = (red chilies) -OR- (red chilli paste)
+(extra herbs or spices, optional) to taste
 
 ::equipment
 
-(food processor)
 (pot)
+(food processor, optional method)
+(blender, source introduction alternative)
 
 ::instructions
 
-<dice, your onions, begin to fry in the pot at a medium-low temperature>
-While the onions are cooking, dice the chicken into medium sized （1x1x1 inch pieces ideally） and fry along with the onions. Flip the chicken pieces regularly to prevent them from burning or overcooking.
-<add, your desired amount of curry powder to the frying chicken. Too much may be too salty or overwhelming so be sure to not overdo it>
-As the chicken cooks through, dump all of your tomatoes and extra ingredients into a food processor and turn it all into a thin tomato paste. Add the paste to the curry directly. If you do not wish to use a food processor you can skin the tomatoes and add them to the curry anyway.
-<add, all of your wanted spinach, and don't be shy about doing so. At first it may seem like you are adding too much but it quickly shrivels up in the curry and you'll need to add more>
-Make sure the chicken is cooked all the way through and serve.
+(onion) <dice>
+    <fry, in (pot), medium-low heat>
+Meanwhile [
+    (chicken breast) <dice, into medium-sized pieces, ideally 1x1x1 inch>
+]
+(pot) + (chicken breast)
+{chicken and onions} <fry>
+Meanwhile [
+    (chicken breast) <flip, regularly to avoid burning or overcooking>
+]
+{chicken and onions} + (curry powder)
+Use your desired amount, avoiding too much as it can be salty or overwhelming.
+While the chicken cooks through:
+[
+    (tomatoes) + (chilli) + (extra herbs or spices)
+        <process, in (food processor)> ?= thin tomato paste
+    {curry} + {tomato paste}
+]
+-OR-
+[
+    (tomatoes) <skin>
+    {curry} + (tomatoes)
+    The source's unprocessed-tomato alternative does not specify a separate addition step for the extra ingredients.
+]
+{curry} + (spinach)
+# Spinach quickly shrivels in the curry; the source encourages using plenty.
+{curry} <cook> ?= chicken cooked all the way through
+    <serve>
 
 ::notes
 
-This dish is a very simple and tasty curry that can be made with minimal ingredients, but pairs amazingly with anything else one may want in a curry (i.e. ginger, lemongrass). Note: You may also need a blender / food processor.
-
+Additional herbs and spices such as ginger or lemongrass may be used to taste.
+The introduction mentions a blender as an alternative to a food processor.
+Olive oil is listed but the method does not explicitly state when it is added; no quantity allocation is inferred.
 
 ::source
 <<<

@@ -17,36 +17,53 @@ serves: 4 Omelets
 
 ::ingredients
 
-(quick-cooking tapioca) 2 tablespoon
-(salt) 1/2 teaspoon
-(pepper) 1/8 teaspoon
-(milk, scalded) 3/4 cup
-(butter, or margarine) 1 tablespoon
-(egg: yolk, beaten until thick) 4
-(egg: white, beaten stiff) 4
-(cheddar cheese, optional for Cheese Omelet)
+(quick-cooking tapioca) 2tbsp
+(salt) 1/2tsp
+(pepper) 1/8tsp
+(milk, scalded) 3/4cup
+(fat) = (butter) 1tbsp -OR- (margarine) 1tbsp
+(egg yolks, beaten until thick) 4
+(egg whites, beaten stiff) 4
+(cheddar cheese, sharp; grated; optional cheese variation) 1/2cup plus another 1/2cup for topping
+(butter, for frying pan)
 
 ::equipment
 
-(frying pan)
+(double boiler)
+(frying pan, hot)
 (oven)
+(knife)
+(platter, hot)
 
 ::instructions
 
-<add, tapioca, salt and pepper to milk; cook in double boiler 15 minutes or until tapioca is clear and mixture thickened, stirring frequently>
-(butter) <add>
-<allow, it to cool; combine with egg yolks, stirring occasionally>
-<fold, in egg whites>
-Set oven for moderate 350°F.
-<pour, egg mixture into hot buttered frying pan>
-<cook, over low heat 3 minutes>
-<transfer, to oven; bake 15 minutes>
-Omelet is done when an inserted knife comes out clean.
-<cut, across at right angles to handle of pan, being careful not to cut all the way through>
-<fold, carefully from handle to opposite side and serve on hot platter>
-For Cheese Omelet
-<add, 1/2 cup grated sharp Cheddar Cheese just before folding in egg whites>
-Before putting omelet in oven, sprinkle top with an additional 1/2 cup of grated cheese.
+{tapioca mixture} = (milk) + (quick-cooking tapioca) + (salt) + (pepper)
+    <cook, in (double boiler); 15m> ?= tapioca clear and mixture thickened
+Meanwhile [
+    {tapioca mixture} <stir, frequently>
+]
+{tapioca mixture} + (fat)
+{tapioca mixture} <cool>
+{egg mixture} = {tapioca mixture} + (egg yolks)
+    <stir, occasionally>
+Optional [
+    For the cheese omelet variation:
+    {egg mixture} + (cheddar cheese) 1/2cup
+]
+(egg whites) <fold, into the egg mixture>
+(oven) <set, 350°F; moderate>
+(frying pan) <butter, with (butter, for frying pan)>
+{egg mixture} <pour, into (frying pan)>
+    <cook, low heat; 3m>
+Optional [
+    For the same cheese omelet variation:
+    (cheddar cheese) another 1/2cup <sprinkle, on top>
+]
+{omelet} <transfer, to the oven>
+    <bake, 15m> ?= inserted knife comes out clean
+    <cut, across at right angles to the pan handle; not all the way through>
+    <fold, carefully from handle to opposite side>
+    <serve, on (platter)>
 
 ::source
 <<<

@@ -18,21 +18,29 @@ serves: 15
 
 ::ingredients
 
-(flour; self-raising) 4 cups
-(butter, softened.) 1 tablespoon
-(milk) 1 cup
+(flour, self-raising) 4cups
+(butter, softened) 1tbsp
+(milk) 1cup
+(water) 1/2cup
+(salt) 1tsp
+(flour, for work surface)
 
 ::equipment
 
-(baking sheet)
 (oven)
+(baking sheet)
+(work surface, floured)
 
 ::instructions
 
-<preheat, the oven to 425 degrees F (220 degrees C). Grease a baking sheet>
-<mix, all the ingredients together, adding a half cup of water and a teaspoon salt>
-<knead, the bread on a floured surface>
-<put, the bread into the oven for 25 minutes, then lower the temprature to 175 degrees C for 5 to 10 minutes>
+(oven) <preheat, 425°F / 220°C>
+(baking sheet) <grease>
+{dough} = (flour, self-raising) + (butter) + (milk) + (water) + (salt)
+    <mix>
+    <knead, on (work surface)>
+{bread} <bake, in (oven); 25m>
+(oven) <lower, to 175°C>
+{bread} <bake, 5–10m>
 
 ::story
 

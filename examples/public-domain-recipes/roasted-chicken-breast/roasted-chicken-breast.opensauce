@@ -18,28 +18,68 @@ tags: chicken, roast
 
 ::ingredients
 
-(boneless skinless chicken breast, s)
-(butter per chicken breast) 1/4 stick
+(chicken breast, boneless, skinless)
+(butter, melted) 1/4 stick per chicken breast
 (seasoning, optional)
+(water) enough to submerge chicken
+(salt, for brine) to full saturation
+(salt, for seasoning)
+(pepper)
 
 ::equipment
 
-(skillet)
-(thermometer)
+(bowl, large)
 (oven)
-(bowl)
+(roasting pan)
+(casserole dish)
+(skillet, oven-safe)
+(baking pan)
+(thermometer, leave-in probe)
+(foil)
 
 ::instructions
 
-<fill, a large bowl with enough water to submerge the chicken. Add salt to the water until it's fully saturated. Put the chicken under the water and let it sit for 20-40 minutes at room temperature>
-<preheat, the oven to 230°C / 450°F>
-<remove, the chicken from the water. Rinse it. Dry it. Put it in a roasting pan (you can use a casserole dish, oven-safe skillet, or baking pan too)>
-<brush, the chicken with melted butter. For best results, brush all sides of the chicken breast>
-<season, with pepper and any optional seasoning. Season with salt last>
-Insert the thermometer probe into the thickest part of the smallest breast.
-<bake, until the internal temperature reaches 68°C / 155°F>
-<remove, from the oven and immediately cover with foil leaving the probe inserted. Let the chicken sit for 10 minutes at room temperature. The chicken will continue to cook. It should reach at least 74°C / 165°F but if it doesn't, see this reddit post — https://www.reddit.com/r/Cooking/comments/49opyx/cooking_chicken_to_temps_below_165_is_it_safe/ about food safety when cooking chicken to less than 165°F>
-<serve>
+(bowl) <fill, with (water)>
+Add (salt, for brine) to (water) until fully saturated to make {brine}.
+(chicken breast) <submerge, in (bowl)>
+    <rest, in the brine, 20-40m, room temperature>
+(oven) <preheat, 230°C / 450°F>
+(chicken breast) <remove, from (water)>
+    <rinse>
+    <dry>
+[
+    (chicken breast) <place, in (roasting pan)>
+]
+-OR-
+[
+    (chicken breast) <place, in (casserole dish)>
+]
+-OR-
+[
+    (chicken breast) <place, in (skillet)>
+]
+-OR-
+[
+    (chicken breast) <place, in (baking pan)>
+]
+(chicken breast) <brush, all sides, with (butter)>
+    <season, with (pepper)>
+Optional [
+    (chicken breast) <season, with (seasoning)>
+]
+(chicken breast) <season, with (salt, for seasoning), last>
+Insert the probe of (thermometer) into the thickest part of the smallest breast.
+(chicken breast) <bake, in (oven)> ?= internal temperature reaches 68°C / 155°F
+    <remove, from (oven)>
+    <cover, immediately, with (foil)>
+Leave the probe inserted.
+(chicken breast) <rest, 10m, room temperature>
+The chicken will continue to cook. It should reach at least 74°C / 165°F but if it doesn't, see the source-linked reddit post in the notes about food safety when cooking chicken to less than 165°F.
+(chicken breast) <serve>
+
+::notes
+
+Source-linked reddit post about cooking chicken below 165°F: https://www.reddit.com/r/Cooking/comments/49opyx/cooking_chicken_to_temps_below_165_is_it_safe/
 
 ::story
 

@@ -16,25 +16,51 @@ serves: 2
 
 ::ingredients
 
-(brown rice) 1/2 cup （ 100g ）
-(frozen peas) 1/2 cup （ 70g ）
-(broccoli, you can use really any amount of broccoli) 1 head
-(chicken breast) 2
-(honey) 1 tbsp
-(low-sodium soy sauce) 1 tbsp
-(garlic, minced) 1 tbsp
+(brown rice) 1/2cup / 100g
+(peas, frozen) 1/2cup / 70g
+(broccoli, any amount allowed) 1head
+(chicken breasts) 2
+(honey) 1tbsp
+(low-sodium soy sauce) 1tbsp
+(garlic, minced) 1tbsp
+(olive oil)
+(black pepper)
+(paprika)
+(water, for broccoli)
 
 ::equipment
 
-(pot)
+(rice pot)
+(broccoli pot)
+(steamer basket)
+(pan)
 
 ::instructions
 
-<cook, rice in a pot. Instructions are on the bag it comes in>
-While rice is cooking, cut chicken breasts into cube. Season with olive oil, black pepper, and paprika. Cut broccoli into pieces and place into steamer basket over pot 1/2 filled with water, do not start it yet.
-<put, chicken cubes into a hot pan and cook for ~3 minutes. After 3 minutes add honey, soy sauce, and garlic. Cook for another 5 minutes. Begin boiling broccoli water>
-(frozen peas) <add, to rice and stir, they will heat up quickly>
-<add, rice and peas to chicken and stir>
+(brown rice) <cook, in (rice pot); according to package instructions>
+Meanwhile [
+    (chicken breasts) <cut, into cubes>
+    (chicken breasts) + (olive oil) + (black pepper) + (paprika)
+    (broccoli) <cut, into pieces>
+    (broccoli pot) <fill, halfway with (water)>
+    (steamer basket) <place, over (broccoli pot)>
+    (broccoli) <place, in (steamer basket)>
+    Do not start heating the broccoli yet.
+]
+(chicken breasts) <place, in (pan, hot)>
+    <cook, about 3m>
+(pan) + (honey) + (low-sodium soy sauce) + (garlic)
+(chicken breasts) <cook, another 5m>
+(water) <boil, in (broccoli pot)>
+{rice and peas} = (brown rice) + (peas)
+    <stir>
+The frozen peas will heat up quickly.
+{dish} = (chicken breasts) + {rice and peas}
+    <stir>
+
+::notes
+
+The source starts boiling the broccoli water but gives no steaming duration, endpoint or final serving instruction for the broccoli.
 
 ::story
 

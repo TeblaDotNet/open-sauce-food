@@ -19,33 +19,97 @@ serves: 4
 ::ingredients
 
 (chicken breast) 2
-(turkish spice blend) 1 Tbsp
+(Turkish spice blend) 1 Tbsp
 (almonds, sliced) 1 oz
 (basmati rice) 3/4 cup
 (sweet potato) 12 oz
-(onion, chopped) 2 oz
-(greek yogurt) 100 mL
-(parsley) 2 Tbsp
-(lemon) 1
-(garlic salt) 1/2 tsp
+(onion, chopped) 2 oz, divided
+(Greek yogurt) 100 mL
+(parsley) 2 Tbsp, divided
+(lemon) 1, divided
+(garlic salt) 1/2 tsp, divided
 (chicken broth) 1 1/2 cup
 (sugar) 1 tsp
+(oil, for sweet potatoes) 1 tablespoon
+(oil, for rice) 1 tablespoon
+(oil, for chicken) 1 tablespoon
+(salt, for sauce)
+(pepper)
 
 ::equipment
 
-(baking sheet)
+(baking sheet, for sweet potatoes)
+(baking sheet, for chicken)
 (oven)
-(bowl)
-(pot)
+(pot, medium)
+(lid)
+(pan, large, non-stick)
+(plate, for almonds)
+(plates, for serving)
+(paper towel)
+(bowl, small)
+(fork)
 
 ::instructions
 
-<cut, sweet potatoes into 1/2 inch pieces. Combine and toss sweet potatoes, half the onions, half the garlic salt, and a tablespoon of oil. Lay to a baking sheet and roast on the middle rack of the oven, stirring halfway through until golden brown (12-22 mins)>
-While sweet potatoes roast, heat a medium pot over medium-high heat. When hot, add a tablespoon of oil and remaining onions. Cook, stirring often until fragrant （1 min）. Add chicken broth and rice, cover, and bring to a boil over high heat. Once boiling, reduce heat to low and leave covered until rice is tender and liquid is absorbed （12-14 mins）. Remove pot from heat, still covered.
-While rice cooks, heat a large non-stick pan over medium heat. When hot, add almonds to the dry pan. Toast, stirring occasionally until golden brown （2-3 mins）. When almonds are done, transfer to a plate and set aside.
-While almonds toast, pat chicken dry with paper towel. Sprinkle with Turkish Spice blend and the remaining garlic salt. Season with pepper. With the pan used in the last step, increase heat to medium-high. Add a tablespoon of oil and the chicken. Pan-fry until golden brown （1-2 min per side）. Transfer chicken to another baking sheet. Roast on the top rack of the oven until chicken is cooked through （10-12 mins）.
-While chicken roasts, zest and juice half the lemon. Cut remaining lemon into wedges. Roughly chop parsley. Add yogurt, half the parsley, sugar, lemon zest and juice to a small bowl. Season with salt and pepper, and whisk to combine.
-Fluff rice with a fork, then stir in almonds and remaining parsley. Slice chicken. Divide rice between plates, then top with sweet potatoes and chicken. Spoon yogurt sauce over top. Squeeze over a lemon wedge, as desired.
+(sweet potato) <cut, into 1/2 inch pieces>
+{sweet potatoes} = (sweet potato) + (onion) half + (garlic salt) half + (oil, for sweet potatoes)
+    <toss>
+    <place, on (baking sheet, for sweet potatoes)>
+    <roast, middle rack, in (oven), 12-22m> ?= golden brown
+Meanwhile [
+    Stir {sweet potatoes} halfway through roasting.
+    (pot) <heat, medium-high heat>
+    (oil, for rice) + (onion) remaining half <cook, in (pot), hot, 1m> ?= fragrant
+    Meanwhile [
+        (onion) <stir, often>
+    ]
+    {rice} = (onion) remaining half + (chicken broth) + (basmati rice)
+        <cover, with (lid)>
+        <boil, high heat>
+    <reduce heat, to low>
+    {rice} <cook, covered, 12-14m> ?= rice tender and liquid absorbed
+    Meanwhile [
+        (pan) <heat, medium heat>
+        (almonds) <toast, in (pan), dry, 2-3m> ?= golden brown
+        Meanwhile [
+            (almonds) <stir, occasionally>
+            (chicken breast) <pat dry, with (paper towel)>
+                <sprinkle, with (Turkish spice blend)>
+            Sprinkle the remaining half of (garlic salt) on (chicken breast).
+            (chicken breast) <season, with (pepper)>
+        ]
+        (almonds) <place, on (plate, for almonds)>
+            <set aside>
+        (pan) <heat, medium-high heat>
+        (oil, for chicken) <place, in (pan)>
+        (chicken breast) <pan-fry, in (pan), 1-2m per side> ?= golden brown
+            <place, on (baking sheet, for chicken)>
+            <roast, top rack, in (oven), 10-12m> ?= cooked through
+        Meanwhile [
+            (lemon) half <zest>
+                <juice>
+            Cut the remaining half of (lemon) into wedges.
+            (parsley) <chop, roughly>
+            Combine (Greek yogurt), half of (parsley), (sugar) and the lemon zest and juice in (bowl) to make {yogurt sauce}.
+            {yogurt sauce} <season, with (salt, for sauce) + (pepper)>
+                <whisk, to combine>
+        ]
+    ]
+    Remove (pot) from heat when the rice is done, keeping it covered.
+]
+{rice} <fluff, with (fork)>
+    + (almonds) + (parsley) remaining half
+    <stir>
+(chicken breast) <slice>
+Divide {rice} between (plates), then top with {sweet potatoes} and (chicken breast). Spoon {yogurt sauce} over the top.
+Optional [
+    Squeeze over a wedge of (lemon).
+]
+
+::notes
+
+The source gives roasting racks, timings and endpoints but no oven temperature; none is inferred.
 
 ::source
 <<<

@@ -18,30 +18,54 @@ serves: 6
 
 ::ingredients
 
-(potatoes, peeled and quartered) 3
-(butter, cut into small chunks) 7 Tbsp
-(sour cream) 1/2 cup
+(potatoes, peeled; quartered) 3
+(butter, small chunks) 7tbsp
+(sour cream) 1/2cup
 (egg) 1
-(milk) 1 Tbsp
-(cabbage, shredded) 3 cup
-(leek, chopped) 2
-(onion, small, chopped) 1
-(cubes chicken bouillon) 2
-(cheddar cheese, shredded) 1/2 cup
+(milk) 1tbsp
+(cabbage, shredded) 3cups
+(leeks, chopped) 2
+(onion, small; chopped) 1
+(chicken bouillon cubes) 2
+(cheddar cheese, shredded) 1/2cup
+(water)
+(salt)
 
 ::equipment
 
-(skillet)
+(pot, large)
+(lid)
 (oven)
-(pot)
+(casserole dish) 2quarts
+(skillet)
 
 ::instructions
 
-(potatoes) <place, into a large pot and cover with salted water. Bring to a boil, then reduce heat to medium-low, cover and simmer until tender, about 20 minutes. Drain and allow to steam dry for a minute or two. Season the potatoes with salt, and mash with 6 Tbsp of the butter, the sour cream, egg, and milk>
-<preheat, oven to 350F. Grease a 2-quart casserole dish>
-<heat, the remaining butter in a skillet over medium heat. Stir in the cabbage, leeks, and onion until the cabbage is tender and the onion is translucent (10 mins)>
-<crush, the bouillon cubes into the cabbage mixture, and stir to blend and dissolve the cubes. Stir the cabbage mixture into the potato mixture until thoroughly mixed, and spoon into the prepared casserole dish>
-<bake, in the preheated oven for 40 minutes, top with cheddar cheese, and return to oven until the cheese melts (10 mins)>
+(potatoes) <place, in (pot)>
+(pot) + (water, enough to cover) + (salt)
+{potatoes and water} <boil>
+Reduce heat to medium-low.
+(pot) <cover, with (lid)>
+(potatoes) <simmer, about 20m> ?= tender
+    <drain>
+    <steam dry, 1–2m>
+(potatoes) + (salt)
+{potato mixture} = (potatoes) + (butter) 6tbsp + (sour cream) + (egg) + (milk)
+    <mash>
+(oven) <preheat, 350°F>
+(casserole dish) <grease>
+(butter, remaining) <heat, in (skillet); medium heat>
+{cabbage mixture} = (skillet) + (cabbage) + (leeks) + (onion)
+    <stir, 10m> ?= cabbage tender and onion translucent
+(chicken bouillon cubes) <crush, into the cabbage mixture>
+{cabbage mixture} <stir> ?= cubes blended and dissolved
+{colcannon} = {potato mixture} + {cabbage mixture}
+    <stir> ?= thoroughly mixed
+    <transfer, into (casserole dish); by spoon>
+    <bake, in (oven); 40m>
+(cheddar cheese) <place, on top>
+{colcannon} <return, to the oven>
+    <bake, 10m> ?= cheese melted
 
 ::source
 <<<

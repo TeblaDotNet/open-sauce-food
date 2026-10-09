@@ -18,36 +18,86 @@ serves: 9-10 biscuits
 
 ::ingredients
 
-(butter; unsalted) 1 stick （½ cup / 113g）
-(flour; all-purpose, plus extra for dusting) 2 cups （250g）
-(granulated sugar) 2 tablespoons （25g）
+(butter, unsalted, for dough) 1 stick （½ cup / 113g）
+(all-purpose flour) 2 cups （250g） plus extra for dusting
+(granulated sugar, for dough) 2 tablespoons （25g）
 (baking powder) 2½ teaspoons （12g）
 (fine sea salt) 1 teaspoon （6g）
-(cinnamon, ground) ½ tablespoon （4g）
-(+ 2 tablespoons cold whole milk, 150ml) ½ cup
-(butter; unsalted, for glaze) 4 tablespoons （½ stick / 57g）
+(cinnamon, ground, for dough) ½ tablespoon （4g）
+(milk, whole, cold) ½ cup plus 2 tablespoons （150ml）
+(butter, unsalted, for glaze) 4 tablespoons （½ stick / 57g）
 (granulated sugar, for glaze) ¼ cup （50g）
 (cinnamon, ground, for glaze) 1 teaspoon （3g）
+(butter, for skillet if used)
 
 ::equipment
 
 (saucepan)
-(skillet)
+(bowl, for cooling butter)
+(bowl, large, for dough)
+(bowl, small, for cinnamon sugar)
+(fridge)
+(pastry cutter, optional)
+(fork)
+(knife)
 (oven)
-(bowl)
+(skillet)
+(baking sheet)
+(parchment)
 
 ::instructions
 
-In a saucepan, melt 1 stick of butter over medium heat. Swirl until it foams, turns golden brown, and smells nutty. Pour into a bowl and refrigerate until solid and cold （30-45 minutes）.
-In a large bowl, whisk together the flour, 2 tablespoons sugar, baking powder, salt, and ½ tablespoon cinnamon.
-<cut, the cold browned butter into cubes. Using a pastry cutter or your fingers, work it into the flour mixture until it resembles coarse crumbs>
-Make a well in the center and pour in the cold milk. Gently stir with a fork until a shaggy dough forms.
-<turn, dough onto a floured surface. Gently knead 4-5 times, then press into a rectangle. Fold the dough into thirds like a letter. Rotate 90 degrees, press out, and repeat the folding process 3 more times>
-After the final fold, shape dough into a 1-inch thick square. Trim off the edges with a floured knife, then cut into 9 equal squares. Gather scraps and shape into 1-2 more biscuits.
-<preheat, oven to 425°F (218°C). Place biscuits close together in a buttered skillet or on a parchment-lined sheet>
-<bake, for 18-22 minutes, until tops are golden brown>
-While biscuits bake, melt the 4 tablespoons of butter for the glaze. Mix ¼ cup sugar with 1 teaspoon cinnamon in a small bowl.
-As soon as biscuits come out of the oven, brush tops liberally with melted butter, then immediately sprinkle or dip in the cinnamon sugar mixture. Serve warm.
+(butter, for dough) <melt, in (saucepan), medium heat>
+    <swirl> ?= foaming and golden brown with a nutty smell
+    <pour, into (bowl, for cooling butter)>
+    <refrigerate, in (fridge), 30-45m> ?= solid and cold
+{flour mixture} = (all-purpose flour) + (granulated sugar, for dough) + (baking powder) + (fine sea salt) + (cinnamon, for dough)
+    <whisk, in (bowl, for dough)>
+(butter, for dough) <cut, into cubes>
+Work the cold browned butter into the flour mixture with (pastry cutter) or fingers until it resembles coarse crumbs.
+Make a well in the centre and pour in (milk).
+{dough} <stir, gently, with (fork)> ?= shaggy
+    <turn out, onto a surface dusted with (all-purpose flour)>
+    <knead, gently, 4-5 times>
+    <press, into a rectangle>
+    <fold, into thirds like a letter>
+Repeat three more times:
+{dough} <rotate, 90 degrees>
+    <press out>
+    <fold, into thirds>
+After the final fold:
+{dough} <shape, into a 1-inch-thick square>
+    <trim, edges, with (knife) dusted with (all-purpose flour)>
+    <cut, into 9 equal squares>
+{scraps} <gather>
+    <shape, into 1-2 more biscuits>
+(oven) <preheat, 425°F / 218°C>
+[
+    (skillet) <butter, with (butter, for skillet if used)>
+    {biscuits} <place, close together, in (skillet)>
+]
+-OR-
+[
+    (baking sheet) <line, with (parchment)>
+    {biscuits} <place, close together, on (baking sheet)>
+]
+{biscuits} <bake, in (oven), 18-22m> ?= tops golden brown
+Meanwhile [
+    (butter, for glaze) <melt>
+    {cinnamon sugar} = (granulated sugar, for glaze) + (cinnamon, for glaze)
+        <mix, in (bowl, for cinnamon sugar)>
+]
+As soon as the biscuits come out of the oven:
+{biscuits} <brush, tops liberally, with (butter, for glaze)>
+Immediately:
+[
+    {biscuits} <sprinkle, with cinnamon sugar>
+]
+-OR-
+[
+    {biscuits} <dip, in cinnamon sugar>
+]
+{biscuits} <serve, warm>
 
 ::story
 

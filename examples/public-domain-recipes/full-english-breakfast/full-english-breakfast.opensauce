@@ -17,39 +17,53 @@ serves: 2
 
 ::ingredients
 
-(raw sausages, English sausages to be authentic) 4
-(bacon, English back bacon to be authentic) 4 slices
+(sausages, raw, English preferred) 4
+(bacon, English back bacon preferred) 4 slices
 (egg) 2
-(half a tin of baked beans, 200g)
+(baked beans) half a tin （200g）
 (bread) 2 slices
 (tomato, large) 1
-(half a cup of button mushrooms, 120g)
+(button mushrooms) half a cup （120g）
 
 ::equipment
 
-(colander)
 (oven)
+(colander)
 (bowl)
+(oven tray)
+(pan)
+(plate)
+(paper towels)
 (pot)
 
 ::instructions
 
-<preheat, your oven to 250°c or 480°F>
-<prepare, you mushrooms by cutting off the ends of the woody stems, and washing them in a colander>
-<prepare, your tomato by cutting off the stem, and slicing it in half>
-<crack, your eggs into a bowl and whisk them until homogeneous>
-<place, your sausages onto a oven tray, and begin cooking them for 15 minutes>
-<place, your bacon into a cold pan and begin to cook on high>
-Once the bacon is crispy on one side, flip and begin browning on the other.
-When cooked, place the bacon onto a plate with paper towels to drain.
-If fifteen minutes have passed at this point, take the sausages out of the oven and flip them to get colour on the other side,
-Set your pan to medium, and scramble the whisked eggs in the same pan,
-Once the egg's curd has set somewhat, push the eggs to the side of the pan and place your tomato into it （cut side down）; building colour,
-<add, your mushrooms to the same pan>
-<add, your baked beans to a pot set to medium. Once they are simmering, they are done>
-<toast, your bread as preferred>
-If half an hour has passed at this point, take your sausages out of the oven.
-<plate, up by taking each ingredient and giving it its own portion on the plate>
+(oven) <preheat, 250°C / 480°F>
+(button mushrooms) <trim, woody stem ends>
+    <wash, in (colander)>
+(tomato) <trim, stem>
+    <halve>
+(egg) <crack, into (bowl)>
+    <whisk> ?= homogeneous
+(sausages) <place, on (oven tray)>
+    <cook, in (oven), 30m total>
+Meanwhile [
+    (bacon) <place, in (pan), cold>
+        <cook, high heat> ?= crispy on first side
+        <flip>
+        <brown, other side>
+        <place, on (plate) + (paper towels), to drain>
+    Check the sausage timer: at 15 minutes, take them out and flip them to colour the other side, then continue cooking.
+    Set the same pan to medium heat.
+    (egg) <scramble, in (pan)> ?= curds somewhat set
+        <push, to the side of the pan>
+    (tomato) <place, in (pan), cut side down to build colour>
+    (pan) + (button mushrooms)
+    (baked beans) <heat, in (pot), medium heat> ?= simmering
+    (bread) <toast, as preferred>
+]
+After half an hour, remove the sausages from the oven.
+Plate each ingredient in its own portion.
 
 ::story
 

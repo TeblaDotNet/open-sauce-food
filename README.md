@@ -5,29 +5,11 @@ Documentation note: The current documentation is provisional and largely placeho
 
 **Open Sauce Food is in early development.**
 
-Open Sauce Food is a human-readable recipe language and shared culinary knowledge base,
-designed for personal recipe collection, versioning, remixing and collaboration.
+Open Sauce Food is a human-readable recipe language and shared culinary knowledge base, designed for personal recipe collection, versioning, remixing and collaboration.
 
-Recipes are plain-text `.opensauce` files that people can read and edit directly.
-The authored `.opensauce` representation is **Code**, the primary/default view.
-**Compact** is a condensed human-readable rendering generated from Code.
-**Original recipe source** is preserved upstream provenance where available, not
-another rendering of Code. The parser preserves authored text. Shared culinary
-knowledge lives separately in YAML. Git remains the source of truth for recipe
-and vocabulary history.
+Recipes are written in **Sauce Code**, using plain-text `.opensauce` files. The idea is that Sauce Code should still look enough like a recipe that you can read and edit it directly, while giving software enough structure to understand ingredients, equipment, actions, results, alternatives and other useful relationships.
 
-The aim is to make a recipe useful both in a text editor and in software: follow an
-ingredient to its reference page, distinguish a part from a whole, review a change,
-or keep your own version without depending on a particular website. This is a
-human recipe format, not a robot-execution language.
-
-A browsable alpha is **planned** for `tebla.net/opensaucefood/`. For now, run the
-local prototype below. See [licensing](LICENSING.md) and the remaining
-[publication setup](RELEASE-CHECKLIST.md).
-
-## A small example
-
-A preparation fragment illustrating the syntax, rather than a complete cooked dish:
+A small piece of Sauce Code looks like this:
 
 ```opensauce
 ::recipe
@@ -42,234 +24,234 @@ name: Dough preparation
 
 ::instructions
 {dough} = (flour) + (egg: yolk)
-{dough} <mix, mixing bowl>
+{dough} <mix, in (mixing bowl)>
     <rest, 20m>
 ```
 
-The current Compact renderer produces these instructions:
+One of the main reasons for Sauce Code is simple: for some people — sample size currently at least one — it can be faster to read a recipe this way than to parse the same instructions from ordinary prose.
 
-> Combine flour and egg yolk to make dough.
-> Mix the dough in the mixing bowl, then rest for 20 minutes.
+Ingredients, actions, results, alternatives and end states are visually distinct, so the useful structure is there at a glance instead of being hidden inside sentences.
 
-The original spelling and structure remain available; rendering does not rewrite
-the recipe. Natural language is still welcome wherever stricter structure would
-add little value.
+The punctuation is deliberately visual. The browser uses six semantic colours; the coloured squares below mirror them in a way that also survives on GitHub:
 
-See [recipe representations](TERMINOLOGY.md) for the API and provenance distinction.
+| Colour | Sauce Code | Meaning |
+|---|---|---|
+| 🟩 | `(flour)` | Ingredient |
+| 🟦 | `(mixing bowl)` | Equipment |
+| 🟨 | `(flour; plain)` / `(egg: yolk)` | Variant or part |
+| 🟥 | `<mix>` | Process / action |
+| 🟪 | `{dough}` | Something made during the recipe |
+| 🟧 | `20m` | Value |
+| 🟧 | `?= golden brown` | Cook-judged end state |
 
-## Current status
+One especially useful bit of Sauce Code is `?=`. It means **“judge this action complete when…”**:
 
-Draft 8 is implemented and experimental. Checked against the repository on
-8 October 2026:
+![Sauce Code judgement examples: roast potatoes until golden brown, cook onion until soft and translucent, and knead dough until smooth](docs/visual-review/judgement-dark.png)
 
-- **410 recipes**, with **756 canonical vocabulary entries**: 433 ingredients,
-  119 equipment entries and 204 processes.
-- A source-preserving TypeScript parser, Code/Compact renderers, safe
-  HTML rendering, and literal Original recipe source view when an original is embedded.
-- Explicit variants and parts, quantity precision, groups, notes, story, comments
-  and image visibility controls.
-- Ingredient, equipment and process reference pages with corpus usage links;
-  independent origin/review [curation metadata](CURATION.md).
-- A local Tebla-derived light/dark prototype with six semantic colours: ingredient
-  green, equipment blue, part/type yellow, process red, result purple, value orange.
-  Light mode uses marker fills; dark mode uses coloured text. Colour can be disabled.
+The time, temperature or other setting belongs to the action; `?=` records the state a cook is actually looking for. That distinction is useful both to people and to software, and avoids hiding an important endpoint inside free prose like “cook until done”.
 
-All 410 recipes parse without errors. **Parser success is not culinary verification.**
-The 293 most recently converted encodings are explicitly `generated / unchecked`.
-Older encodings may have no curation metadata; absence means unknown, not reviewed.
-The corpus still contains ambiguous references, free text and conversion issues.
-The knowledge base is sparse; quantity conversion, scaling and automatic dietary
-reasoning are not implemented. Numeric knowledge modules have schema support,
-not a populated nutrition or conversion database.
-
-![Code recipe with light-mode semantic highlights](docs/visual-review/code-light-current.jpg)
-
-[Dark-mode recipe preview](docs/visual-review/code-dark-current.jpg) ·
-[Historical ingredient reference preview](docs/visual-review/egg-dark.jpg)
-
-## Try it locally
-
-Requires **Node.js 24+** and **pnpm** (the lockfile uses pnpm's version 9 format).
-From the repository root:
-
-```sh
-pnpm install --frozen-lockfile
-pnpm demo
-```
-
-Open `http://127.0.0.1:4173/` on your own machine. This is a local development
-server, not the public alpha. `PORT` can select another port.
-
-Choose a recipe, switch Code / Compact / Original recipe source, or follow a resolved
-term to a reference page. The current navigation opens representative reference
-entries; complete browsable indexes are planned. The package remains private in
-`package.json`; no published npm package is implied.
-
-```sh
-pnpm check
-pnpm build
-pnpm test
-pnpm corpus
-```
-
-See [Core API and setup](CORE.md) and [HTML renderer](HTML-RENDERER.md).
-
-## Syntax at a glance
+The rest of the grammar stays mostly neutral:
 
 | Form | Meaning |
 |---|---|
-| `(thing)` | Ingredient or equipment, distinguished by declaration context/resolution |
-| `(base; variant)` | Explicit type, such as `(flour; plain)` |
-| `(base: part)` | Local part, such as `(egg: yolk)` |
-| `{result}` | Named intermediate or result |
-| `<process, parameter>` | Action and optional human-readable parameters |
-| `[ ... ]` | Grouped instruction block |
-| `+` / `=` | Combine/add / define or assign a result |
-| `/` | Equivalent quantity or setting, not an instruction to divide |
+| `+` | Add / combine |
+| `=` | Define or assign |
 | `-OR-` | Alternative |
-| `Meanwhile [ ... ]` | Parallel/overlapping block |
+| `/` | Equivalent quantity or setting |
+| `!100g` | Measure closely |
+| `~100g` | Approximate |
+| `~~100g` | Very approximate |
+| `[ ... ]` | Grouped instruction block |
+| `Meanwhile [ ... ]` | Overlapping work |
 | `Optional [ ... ]` | Optional block |
-| `Repeat [ ... ]` | Repeated block, with a condition where supplied |
-| `::ingredients`, `::equipment`, `::instructions` | Section markers; also recipe metadata, story, notes and original source |
-| `# comment` | Comment outside an opaque source payload |
+| `Repeat [ ... ]` | Repeated block |
+| `# comment` | Maintainer/import/commentary comment |
+| `::ingredients`, `::equipment`, `::instructions` | Sections |
 
-Precision belongs to the **quantity expression**: `!100g` means measure closely,
-`~100g` approximate, and `~~100g` very approximate. Future conversions must not
-manufacture precision. Loose comma qualifiers, such as `(butter, room temperature)`,
-are not automatically variants or parts.
+Precision belongs to the quantity expression rather than being guessed from prose. The full rules are in the [Draft 8 specification](SPEC.md).
 
-Full rules: [Draft 8 specification](SPEC.md), [Draft 8 changes](DRAFT8-CHANGES.md)
-and [known implementation questions](IMPLEMENTATION-ISSUES.md).
+![Sauce Code with dark-mode semantic highlighting](docs/visual-review/code-dark-current.jpg)
+
+## Code, Compact and the original recipe
+
+**Open Sauce Food** is the wider project. **Sauce Code** is the language itself.
+
+The authored `.opensauce` representation is the main version of a recipe. On the site this is shown as **Code**.
+
+**Compact** is generated from that Code. It is there for reading, not as a second source of truth.
+
+Where an imported recipe has an upstream source, **Original recipe source** preserves that provenance separately. It is not another rendering of the Sauce Code.
+
+For example, the fragment above can be rendered into something more like ordinary instructions:
+
+> Combine the flour and egg yolk to make the dough. Mix the dough in the mixing bowl, then rest it for 20 minutes.
+
+The original spelling and structure of Sauce Code are preserved; rendering does not rewrite the recipe. Natural language is also allowed where forcing more structure would make the recipe worse rather than better.
+
+See [recipe representations](TERMINOLOGY.md) for the API and provenance distinction.
+
+## Why structure recipes at all?
+
+Recipes already contain a lot of structure, but most of it is normally buried in prose.
+
+Open Sauce Food tries to make useful parts of that structure explicit without turning a recipe into a robot-execution language. Software can tell that an egg yolk is part of an egg, that dough is something created during the recipe, that two methods are alternatives, or that an instruction is referring back to a previously selected ingredient or piece of equipment.
+
+That makes some useful things possible while keeping the underlying recipe as plain text:
+
+- ingredients, equipment and processes can link to shared reference pages;
+- changes are visible in ordinary Git diffs;
+- recipes can be forked and remixed without depending on one website;
+- shared culinary knowledge can improve separately from the wording of individual recipes;
+- a recipe can be rendered differently without throwing away the authored version.
+
+The shared knowledge lives separately in YAML. Git remains the source of truth for recipe and vocabulary history.
+
+## A good recipe and good Sauce Code are different things
+
+Open Sauce Food separates **the quality of a recipe** from **the quality of its representation**.
+
+A delicious recipe can have ugly or ambiguous Sauce Code. A terrible recipe can be represented beautifully.
+
+That means a recipe can be improved as Sauce Code without changing how the food is made. Splitting an overloaded action, making an alternative explicit, naming a useful intermediate result, fixing a reference or moving serving advice into notes can all be worthwhile changes even when the ingredients and method stay exactly the same.
+
+Conversely, a representation cleanup should not quietly “fix” a strange recipe just because the author would have cooked it differently.
+
+This distinction is especially important for reviews and pull requests: **encoding-only changes should preserve culinary meaning**. Changes to the actual recipe are a different kind of edit.
 
 ## Shared culinary knowledge
 
-**Minimise concepts, not vocabulary.** Authored recipe text and canonical knowledge
-are separate layers. Authors keep their words; explicitly accepted aliases and
-regional names can resolve to one concept without changing the source.
+One of the broader aims of Open Sauce Food is a shared culinary knowledge layer that recipes can refer to without forcing every author to use exactly the same words.
 
-Current YAML examples include [courgette / zucchini](ingredients/courgette.yaml),
-[egg: yolk](ingredients/egg.yaml), [flour variants](ingredients/flour.yaml),
-[garlic: clove](ingredients/garlic.yaml), and
-[chicken: breast / thigh](ingredients/chicken.yaml). Parts are local relationships,
-not global synonyms for the whole ingredient. Distinct culinary concepts are not
-merged merely because their names look similar.
+The working principle is:
 
-Vocabulary can improve independently of recipe text. Unresolved vocabulary does
-not invalidate an otherwise valid recipe; unresolved is preferable to a wrong
-canonical match. Entries can carry origin/review metadata, and missing metadata
-means unknown. Read the [knowledge schema](VOCABULARY-SCHEMA.md) and the
-[first vocabulary-review report](VOCABULARY-REVIEW.md) for current limits.
+> **Minimise concepts, not vocabulary.**
+
+Authors can keep regional names, aliases and useful local wording while those names resolve to shared concepts where the relationship is known.
+
+For example, the knowledge base can understand things such as:
+
+- courgette / zucchini;
+- regional process names can overlap in both directions: the same technique can have different names in different places, and the same word can mean different techniques. For example, US **broil** roughly overlaps with UK **grill**, while US **grill** usually means something closer to UK **barbecue**.
+- egg → yolk / white / shell;
+- plain flour as a flour variant;
+- garlic → clove;
+- chicken → breast / thigh.
+
+Parts are relationships, not global synonyms. Distinct culinary concepts are not merged just because their names look similar, and an unresolved term is preferable to confidently resolving it to the wrong thing.
+
+Vocabulary can improve independently of recipe text. Entries can also carry origin and review metadata. See the [knowledge schema](VOCABULARY-SCHEMA.md) and [vocabulary review](VOCABULARY-REVIEW.md).
+
+## Current status
+
+Draft 8 is implemented and experimental.
+
+The current repository contains **410 recipes** and **756 canonical vocabulary entries**: 433 ingredients, 119 equipment entries and 204 processes.
+
+The project currently includes:
+
+- a source-preserving TypeScript parser;
+- Code, Compact and HTML renderers;
+- explicit variants and parts;
+- results and inherited instruction subjects;
+- qualitative judgements with `?=`;
+- alternatives, `Meanwhile`, `Optional` and `Repeat` blocks;
+- structured ingredient/equipment references inside process context;
+- story, notes, comments and source preservation;
+- ingredient, equipment and process reference pages with corpus usage links;
+- independent origin/review [curation metadata](CURATION.md);
+- light and dark presentation using the six semantic colours shown above.
+
+All 410 recipes currently parse without errors. **Parser success is not culinary verification, and it is not proof that a recipe has been represented well.**
+
+A large part of the corpus was generated from existing public-domain recipes and is still being systematically improved. Generated conversion is not the same thing as human review.
+
+The knowledge layer is also deliberately incomplete. Quantity conversion, scaling, automatic dietary reasoning and a populated nutrition/density database are not finished features yet.
+
+A browsable alpha is live at **https://tebla.net/opensaucefood/**.
+
+[Light-mode Sauce Code preview](docs/visual-review/code-light-current.jpg) ·
+[Historical ingredient reference preview](docs/visual-review/egg-dark.jpg)
 
 ## Corpus and provenance
 
-The current corpus comes from **Public Domain Recipes**, pinned to upstream commit
-`da84378b36bd5b2e3cb35f610d64630bf1bd899d`. It combines 117 earlier examples with
-293 generated conversions. Original Markdown, metadata, hashes and available
-images are retained for audit; many originals are also embedded in `::source`.
+The current corpus comes from **Public Domain Recipes**, pinned to upstream commit `da84378b36bd5b2e3cb35f610d64630bf1bd899d`.
 
-Upstream declares its text and images public domain under the Unlicense. That is
-recorded evidence, not a blanket clearance of every cited third-party source.
-Five provenance-review cases are excluded from this public distribution, including
-three formerly promoted encodings and two previously held originals. Their text,
-metadata and assets are absent; only a compact exclusion record is public.
+Original Markdown, metadata, hashes and available images are retained for audit; many originals are also embedded in `::source`.
 
-[Data sources and licence boundaries](DATA-SOURCES.md) explain the import,
-source preservation, image considerations and outstanding review. Source provenance
-and the curation status of an Open Sauce Food encoding are different things.
+Upstream declares its text and images public domain under the Unlicense. That is recorded evidence, not a blanket clearance of every cited third-party source. Five provenance-review cases are excluded from this public distribution; their text, metadata and assets are absent and only a compact exclusion record is public.
+
+[Data sources and licence boundaries](DATA-SOURCES.md) explain the import, source preservation, image considerations and outstanding review. Source provenance and the curation status of an Open Sauce Food encoding are separate things.
 
 ## Git, remixing and collaboration
 
-Plain text makes changes visible in normal diffs. Recipes can be forked and remixed,
-with ordinary Git commits recording their history. Knowledge improvements can be
-reviewed independently from recipe edits. Future personal repositories should be
-able to use or extend shared vocabulary while retaining their own authorship and
-history; that distribution workflow is still to be designed.
+Plain text makes changes visible in normal diffs. Recipes can be forked and remixed, with ordinary Git commits recording their history.
 
-A future **Open Sauce Food Index is not the source of truth**. It would provide optional
-discovery, while Git repositories continue to own recipe/version history.
+Knowledge improvements can be reviewed independently from recipe edits. In future, personal repositories should be able to use or extend shared vocabulary while keeping their own authorship and history.
+
+A future **Open Sauce Food Index would not be the source of truth**. It could provide discovery, while Git repositories continue to own recipe and version history.
 
 ## Repository map
 
 | Area | Contents |
 |---|---|
-| [src/parser](src/parser/), [src/model](src/model/), [SPEC.md](SPEC.md) | Authored language implementation and model/specification |
+| [src/parser](src/parser/), [src/model](src/model/), [SPEC.md](SPEC.md) | Sauce Code implementation, model and specification |
 | [src/renderer](src/renderer/) | Code, Compact and HTML presentation |
-| [ingredients](ingredients/), [equipment](equipment/), [processes](processes/) | Indexed canonical YAML knowledge |
+| [ingredients](ingredients/), [equipment](equipment/), [processes](processes/) | Canonical culinary knowledge |
 | [src/vocabulary](src/vocabulary/), [src/reference](src/reference/) | Lookup and reference-page generation |
-| [examples/public-domain-recipes](examples/public-domain-recipes/) | Imported/converted corpus and available recipe images |
+| [examples/public-domain-recipes](examples/public-domain-recipes/) | Imported/converted recipe corpus and available images |
 | [source/public-domain-recipes](source/public-domain-recipes/) | Retained upstream sources, notices and provenance evidence |
 | [vocabulary-raw](vocabulary-raw/) | Historical observations, not canonical resolution rules |
-| [demo](demo/), [tests](tests/), [scripts](scripts/) | Local UI, automated checks and import/report tooling |
-| [docs](docs/), root reports | Documentation index, previews and intentionally retained audit reports |
-
-## Related work
-
-[Cooklang](https://cooklang.org/docs/) is an established plain-text recipe language
-and ecosystem. Open Sauce Food explores explicit things/processes/results and a shared
-canonical knowledge layer with local variants and parts. Plain text and Git are
-shared values, not claims of uniqueness. See [Prior art](PRIOR-ART.md) for the
-comparison, ontology connections and the separate naming overlaps with
-opensauce.com and Open Sauce Recipes.
-
-## Planned / future work
-
-These are directions, not implemented features or delivery promises:
-
-- **Language and rendering:** output relationships, clearer process roles, better
-  Compact phrasing and source-preserving review/editing tools.
-- **Knowledge:** contextual defaults, richer parts/groups, sourced mass/density and
-  nutrition, defensible fuzzy quantities and substitutions.
-- **Cooking:** exact and ingredient-dependent approximate conversions, scaling,
-  localisation, richer dietary handling and step-focused presentation.
-- **Publishing:** the Tebla alpha, recipe/category and reference indexes; later,
-  optional discovery, stable IDs/lineage and linked personal repositories.
-- **Interoperability:** possible Cooklang and RDF/ontology exports, preserving
-  Git-first and offline use.
-
-The [roadmap](ROADMAP.md) separates existing foundations, the first alpha and later
-possibilities, including external data links and optional social signals.
-
-## Planned Tebla alpha
-
-The intended first web release at `tebla.net/opensaucefood/` is a browsable
-language/corpus demonstration, labelled **“Open Sauce Food is in early development”**
-and linking back to GitHub. It should include a recipe index, browsing by existing
-category metadata, ingredient/process/equipment indexes, and Spec/About pages.
-Accounts, ratings and community/index machinery are not prerequisites. This README
-does not announce a live deployment.
+| [demo](demo/), [tests](tests/), [scripts](scripts/) | UI, automated checks and import/report tooling |
+| [docs](docs/), root reports | Documentation, previews and retained audit reports |
 
 ## Contributing
 
-Recipe fixes, deliberate reviews, aliases, parts/variants, renderer improvements,
-documentation and provenance corrections are all useful. Start with
-[CONTRIBUTING.md](CONTRIBUTING.md). Small, evidenced changes are easier to review
-than bulk canonicalisation. Language changes need a concrete recipe case and an
-explicit discussion; do not silently change the grammar.
+Recipe fixes, deliberate reviews, aliases, parts/variants, renderer improvements, documentation and provenance corrections are all useful.
+
+A pull request does not have to invent a better recipe to be worthwhile. Making the **Sauce Code** represent the same recipe more clearly is a real improvement in its own right.
+
+Small, evidenced changes are easier to review than bulk canonicalisation. Language changes should come with a concrete recipe case and an explicit discussion rather than silently changing the grammar.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Related work
+
+[Cooklang](https://cooklang.org/docs/) is an established plain-text recipe language and ecosystem. Open Sauce Food explores somewhat different choices around explicit things/processes/results and a shared canonical knowledge layer with local variants and parts.
+
+Plain text and Git are shared values, not claims of uniqueness.
+
+See [Prior art](PRIOR-ART.md) for the comparison, ontology connections and the separate naming overlaps with opensauce.com and Open Sauce Recipes.
+
+## Where this might go
+
+These are directions rather than promises:
+
+- **Language and rendering:** output relationships, clearer process roles, better Compact phrasing and source-preserving review/editing tools.
+- **Knowledge:** better canonicalisation, richer ingredient/equipment/process data, sourced mass/density and nutrition, useful substitutions and contextual defaults.
+- **Cooking:** exact and ingredient-dependent approximate conversions, scaling, localisation, richer dietary handling and step-focused presentation.
+- **Publishing:** better recipe/category/reference browsing, then optional discovery, stable IDs/lineage and linked personal repositories.
+- **Interoperability:** possible Cooklang and RDF/ontology exports while preserving the Git-first/offline model.
+
+The [roadmap](ROADMAP.md) separates existing foundations from later possibilities.
 
 ## Licensing
 
-Original tooling is MIT; the demo presentation is GPL-2.0-or-later; project-owned
-canonical data is CC0 1.0; authored documentation/specification and encoding expression
-are CC BY 4.0. Imported sources and OFL fonts retain their own terms. See
-[LICENSING.md](LICENSING.md) for exact boundaries, attribution and exceptions.
+Original tooling is MIT; the demo presentation is GPL-2.0-or-later; project-owned canonical data is CC0 1.0; authored documentation/specification and encoding expression are CC BY 4.0.
+
+Imported sources and OFL fonts retain their own terms. See [LICENSING.md](LICENSING.md) for exact boundaries, attribution and exceptions.
 
 ## Development and attribution
 
 **Concept and design**
 
-Open Sauce Food's core concept, recipe-language design, syntax, culinary knowledge
-model and product direction were developed by Tebla.
+Open Sauce Food's core concept, Sauce Code language design, syntax, culinary knowledge model and product direction were developed by Tebla.
 
 **Implementation**
 
-The parser, renderers, reference-site prototype and much of the supporting tooling
-were implemented with substantial assistance from OpenAI Codex, under Tebla's
-direction and review.
+The parser, renderers, reference-site prototype and much of the supporting tooling were implemented with substantial assistance from OpenAI Codex, under Tebla's direction and review.
 
 **Development process**
 
-Design decisions, prompts, testing, review and acceptance were human-directed;
-generated implementation work was reviewed and iterated within the project.
+Design decisions, prompts, testing, review and acceptance were human-directed; generated implementation work was reviewed and iterated within the project.
 
-See [publication setup](RELEASE-CHECKLIST.md), [data sources](DATA-SOURCES.md), and
-[the documentation/report index](docs/README.md).
+See [publication setup](RELEASE-CHECKLIST.md), [data sources](DATA-SOURCES.md), and [the documentation/report index](docs/README.md).

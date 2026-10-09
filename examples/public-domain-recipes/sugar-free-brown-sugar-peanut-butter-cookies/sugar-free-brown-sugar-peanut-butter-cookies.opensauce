@@ -26,7 +26,7 @@ serves: 24
 (brown-sugar-style erythritol/stevia blend, lightly packed) 0.8 cup
 (egg, large, room temperature) 1
 (egg: yolk, large, room temperature) 1
-(heavy cream or whole milk) 3 tbsp
+(dairy) = (heavy cream) 3 tbsp -OR- (whole milk) 3 tbsp
 (vanilla extract) 2 tsp
 (flour; all-purpose, spooned and leveled) 1.3 cups
 (baking soda) 0.8 tsp
@@ -35,30 +35,65 @@ serves: 24
 
 ::equipment
 
-(food processor)
 (blender)
-(oven)
+(food processor)
+(lid)
+(hand mixer)
 (bowl)
+(oven)
+(baking sheets) 2
+(parchment)
+(fork)
+(measuring cup)
+(knife)
 
 ::instructions
 
-Powder the sweetener: run it in a blender or food processor until it looks like powdered sugar. This is the step that keeps the cookies from tasting gritty, so don't skip it. Let the dust settle before opening the lid.
-<cream, the butter and powdered sweetener with a hand mixer until pale and fluffy. Take the full time here>
-<beat, in the peanut butter, then the egg, egg yolk, cream, and vanilla. Mix until completely smooth and glossy, scraping the bowl once>
-<add, the flour, baking soda, and fine sea salt. Mix on low just until the last dry streaks disappear, then stop. Overmixing makes them tough>
-<cover, and refrigerate the dough 30 minutes. It will be soft and sticky at first; chilling makes it scoopable and keeps the cookies thick>
-<heat, the oven to 350°F and line two sheets with parchment. Roll the dough into balls of about 1 1/2 tbsp each, space them 2 inches apart, and press a light crosshatch with a fork. Keep them chunky and don't flatten them out>
-<bake, 10-11 minutes. Pull them when the edges are set but the centers still look puffy and underbaked. The sweetener firms up a lot as it cools, so a cookie that looks done in the oven will be dry on the plate>
-<sprinkle, immediately with the flaky sea salt, then leave the cookies on the hot sheet for a full 15 minutes without moving them. They're fragile hot and finish setting as they cool>
-If you taste any bitterness from the sweetener, add another 1/4 tsp of fine salt next batch, since salt suppresses bitterness better than more sweetener does.
-Keeps airtight at room temperature 4-5 days, and gets chewier overnight. Raw dough balls can be frozen and baked from frozen with 2 extra minutes.
+(flour) <spoon, into (measuring cup)>
+    <level, with (knife)>
+Do not dip the cup into the bag: the source says this packs in an extra 20-25% and makes dry cookies.
+[
+    (brown-sugar-style erythritol/stevia blend) <powder, using (blender)> ?= looks like powdered sugar
+]
+-OR-
+[
+    (brown-sugar-style erythritol/stevia blend) <powder, using (food processor)> ?= looks like powdered sugar
+]
+Do not skip powdering; it keeps the cookies from tasting gritty. Let the dust settle before opening (lid).
+{creamed mixture} = (butter) + (brown-sugar-style erythritol/stevia blend)
+    <cream, with (hand mixer)> ?= pale and fluffy
+Take the full time here.
+{creamed mixture} + (creamy peanut butter)
+    <beat>
+    + (egg) + (egg: yolk) + (dairy) + (vanilla extract)
+    <mix> ?= completely smooth and glossy
+Meanwhile [
+    (bowl) <scrape, once>
+]
+{dough} = {creamed mixture} + (flour) + (baking soda) + (fine sea salt)
+    <mix, low speed> ?= last dry streaks disappear
+Stop mixing at that point; overmixing makes the cookies tough.
+{dough} <cover>
+    <refrigerate, 30m>
+# The initially soft, sticky dough becomes scoopable with chilling, keeping the cookies thick.
+(oven) <heat, 350°F>
+(baking sheets) <line, with (parchment)>
+{dough} <roll, into balls of about 1 1/2 tbsp each>
+{cookies} <space, 2 inches apart, on (baking sheets)>
+    <press, light crosshatch, with (fork)>
+Keep the cookies chunky; do not flatten them out.
+{cookies} <bake, in (oven), 10-11m> ?= edges set but centres still puffy and underbaked
+    <remove, from (oven)>
+The sweetener firms up a lot on cooling; cookies that look done in the oven will be dry on the plate.
+{cookies} <sprinkle, immediately, with (flaky sea salt)>
+    <rest, on (baking sheets), hot, 15m>
+Do not move the cookies during those full 15 minutes: they are fragile hot and finish setting as they cool.
 
 ::notes
 
 Soft, chewy, and brown-sugary, built around a brown-sugar-style erythritol/stevia blend instead of sugar.
-
-Spoon the flour into the measuring cup and level it with a knife; dipping the cup into the bag packs in an extra 20-25%, which is the fastest way to end up with dry cookies.
-
+If there is bitterness from the sweetener, add another 1/4 tsp fine salt next batch; the source says salt suppresses bitterness better than more sweetener.
+Keep airtight at room temperature 4-5 days; the cookies get chewier overnight. Raw dough balls can be frozen and baked from frozen with 2 extra minutes.
 
 ::source
 <<<

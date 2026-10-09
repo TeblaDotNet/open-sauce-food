@@ -15,28 +15,41 @@ image: pan-seared-chicken.webp
 
 ::ingredients
 
-(chicken: fillet, author normally uses chicken breasts)
+(chicken fillets, author normally uses breasts)
 (wheat flour)
 (paprika)
 (garlic powder)
-(herbes de provence)
+(herbes de Provence)
+(salt)
+(black pepper)
+(cooking oil) a little
+
+::equipment
+
+(paper towel)
+(container, small)
+(pan)
 
 ::instructions
 
-<rinse, the chicken fillets>
-<remove, excess moisture from the fillets by patting them with a paper towel>
+(chicken fillets) <rinse>
+    <pat, with (paper towel); to remove excess moisture>
 If the fillets are too thick, cut them in half.
-In a small container, pout enough flour and mix in paprika, garlic powder, Provence herbs, salt, and black pepper to your liking.
-<add, a little cooking oil to the pan and heat it up to medium-high heat>
-<coat, the fillets by rolling them in the wheat mix>
-Once the pan is hot, put the fillets on the pan and sear each side for about 5 minutes over medium-high heat.
-As a final tip, if your fillet is too thick after all, you can just lower the heat at the end and cook it for about 2-3 more minutes.
-And that's it. Winner winner chicken dinner!
+(container) + (wheat flour, enough)
+{wheat mix} = (wheat flour) + (paprika) + (garlic powder) + (herbes de Provence) + (salt) + (black pepper)
+    <mix, to your liking in (container)>
+(pan) + (cooking oil)
+(pan) <heat, medium-high heat>
+(chicken fillets) <roll, in the wheat mix; to coat>
+Once the pan is hot:
+(chicken fillets) <place, on (pan)>
+    <sear, medium-high heat; about 5m each side>
+If the fillet is still too thick, lower the heat at the end and cook for about 2–3m more.
 
 ::notes
 
-For this recipe I don't use any exact proportions, it's just a matter of cooking it one time to get a sense of what the ideal proportions for you are.
-
+No exact proportions are specified; cook once to find proportions you like.
+# Winner winner chicken dinner!
 
 ::story
 

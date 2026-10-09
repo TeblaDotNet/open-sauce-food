@@ -19,46 +19,88 @@ image: ragu-napoletano.webp
 
 ::ingredients
 
-(san marzano plum tomatoes, fresh or canned peeled, for Tomato Sauce) 6-10 lbs
-(tomato paste, optional, for Tomato Sauce)
-(garlic, for Aromatics and Herbs) 8 cloves
-(white onion, for Aromatics and Herbs) 1.5
-(red wine, for Aromatics and Herbs) 6-8 oz
-(basil leaves, fresh, for Aromatics and Herbs) 8
-(dry oregano, for Aromatics and Herbs)
-(red pepper, for Aromatics and Herbs)
-(pork tenderloin, for Meat) 1-2 lb
-(sweet and or spicy italian sausage, for Meat) 1-2 lb
-(cubed stewing beef, chuck, short rib, or oxtail, for Meat) 1 lb
-(total of ground beef chuck, veal, and pork, for Meatballs) 1-2 lb
-(pecorino romano cheese, grated, for Meatballs) 1 1/2 cups
-(breadcrumbs, baked stale bread, oregano, salt and pepper pulsed in a food processor, for Meatballs) 1 1/2 cups
-(egg, for Meatballs) 2-3
-(splash of milk, for Meatballs)
-(handfull of fresh parsley chopped, for Meatballs)
-(sprig of fresh basil chopped, for Meatballs)
-(onion minced, for Meatballs) 1/2
-(garlic minced, for Meatballs) 4-8 cloves
+(San Marzano plum tomatoes, fresh or canned peeled) 6-10 lbs
+(tomato sauce, already prepared alternative)
+(tomato paste, optional, source gives no use)
+(garlic, for sauce) 8 cloves
+(white onion, for sauce) 1.5
+(red wine) 6-8 oz
+(basil leaves, fresh, for sauce) 8
+(dry oregano)
+(red pepper)
+(pork tenderloin) 1-2 lb
+(Italian sausage, sweet and/or spicy) 1-2 lb
+(stewing beef, cubed, chuck or short rib or oxtail) 1 lb
+(ground meat, beef chuck and veal and pork, for meatballs) 1-2 lb total
+(Pecorino Romano cheese, grated) 1 1/2 cups
+(breadcrumbs, baked stale bread with oregano and salt and pepper pulsed in a food processor) 1 1/2 cups
+(egg) 2-3
+(milk) Splash
+(parsley, fresh, chopped) Handfull
+(basil, fresh, chopped, for meatballs) Sprig
+(onion, minced, for meatballs) 1/2
+(garlic, minced, for meatballs) 4-8 cloves
+(olive oil)
+(salt)
+(pepper)
+(sugar) a pinch to taste
+(pasta, cooked, for serving, e.g. ziti or penne or rigatoni)
 
 ::equipment
 
-(food processor)
-(oven)
-(pot)
+(colander)
+(strainer)
+(stock pot, large, for tomato sauce)
+(food mill)
+(food processor, for breadcrumbs only)
+(oven, if baking meatballs)
+(sauce pot) = (Dutch oven) -OR- (stock pot, large, for ragù)
 
 ::instructions
 
-If you already have tomato sauce skip to step 5
-For fresh tomatoes, wash and cut out off the green stems of the tomatoes and cut them into a few chunks and lightly salt them over a collander or strainer so they release water and break down quicker.
-For canned tomatoes, use your hands to crush the peeled tomatoes （don't use a food processor）.
-In a large stock pot cook down the tomatoes for approximately 30 mins then use a food mill or strainer to remove the skins and seeds to yield tomato sauce （this can be done beforehand and frozen / canned for months）.
-<mix, all the ingredients in the Meatballs section by hand and form equal sized meatballs>
-Either bake the meatballs at 400°F until brown or fry them with the the other meats in step 7.
-<coat, the bottom of a dutch oven or large stock pot with olive oil and sear each meat one by one, removing from the pot once browned on the outside (do not cook the meat all the way through)>
-Sweat the onion and garlic, then deglaze the pan with the red wine.
-<fill, the pot with the seared meat, tomato sauce, add the fresh basil, then season with dried oregano, red pepper, salt, pepper, and a pinch of sugar to taste>
-<cook, on very low flame uncovered for 4-5 hours stirring making sure it doesn't burn>
-<serve, over cooked dry pasta — /pasta such as ziti, penne, rigatoni. Alternatively, freeze the sauce and meats in containers for up to 4-6 months>
+If using already prepared (tomato sauce), skip the tomato preparation below.
+Otherwise:
+[
+    (San Marzano plum tomatoes, fresh) <wash>
+        <trim, green stems>
+        <cut, into a few chunks>
+    Lightly salt the chunks over a (colander) or (strainer) to release water and help them break down faster.
+]
+-OR-
+[
+    (San Marzano plum tomatoes, canned peeled) <crush, by hand>
+    Do not use (food processor) for the tomatoes.
+]
+If preparing sauce from tomatoes, cook them down in (stock pot, for tomato sauce) for approximately 30 minutes. Then remove skins and seeds using (food mill) or (strainer) to obtain {tomato sauce}.
+{meatball mixture} = (ground meat) + (Pecorino Romano cheese) + (breadcrumbs) + (egg) + (milk) + (parsley) + (basil, for meatballs) + (onion, for meatballs) + (garlic, for meatballs)
+    <mix, by hand>
+    <form, equal-sized meatballs>
+[
+    {meatballs} <bake, in (oven), 400°F> ?= brown
+]
+-OR-
+[
+    Reserve {meatballs} to fry with the other meats in the next step.
+]
+(sauce pot) <coat, bottom, with (olive oil)>
+Sear (pork tenderloin), (Italian sausage) and (stewing beef) one by one in (sauce pot), removing each when browned outside. Fry the reserved meatballs here if using that method. Do not cook the meats all the way through.
+(white onion) + (garlic, for sauce)
+    <sweat, in (sauce pot)>
+(sauce pot) <deglaze, with (red wine)>
+Return the browned meats and meatballs to (sauce pot), with the prepared tomato sauce and (basil leaves).
+{ragù} <season, with (dry oregano) + (red pepper) + (salt) + (pepper) + (sugar), to taste>
+    <cook, very low flame, uncovered, 4-5h>
+Meanwhile [
+    {ragù} <stir, ensuring it does not burn>
+]
+{ragù} <serve, over (pasta)>
+
+::notes
+
+The tomato sauce can be made beforehand and frozen or canned for months, as described by the source.
+Alternatively freeze the finished sauce and meats in containers for up to 4-6 months.
+The source lists optional tomato paste but gives no addition step.
+Pasta guidance linked by the source: /pasta.
 
 ::story
 

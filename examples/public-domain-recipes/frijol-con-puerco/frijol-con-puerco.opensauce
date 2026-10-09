@@ -18,31 +18,50 @@ serves: 8
 
 ::ingredients
 
-(black beans, rinsed and drained.) 1 kg
-(pork, loin or ribs or a mixture of the two, cut into 5 cm pieces) 2 kg
-(white onion without skin cut, in half.) 1
-(branches of fresh epazote, or 15 branches of coriander tied with kitchen twine.) 4
-(radishes, julienned or striped) 8 to 10
+(black beans, rinsed and drained) 1 kg
+(pork, loin or ribs or a mixture, cut into 5cm pieces) 2 kg
+(white onion, peeled and halved) 1
+(herb bundle) = (epazote, fresh) 4 branches -OR- (coriander) 15 branches
+(radishes, julienned or striped) 8-10
 (cilantro, chopped) 1 cup
-(mexican avocado, halved, pitted, pulp cut into squares.) 1
-(lemon, quartered.) 4
-(Yucatan style tomato sauce or Chiltomate, optional) to taste
-(mexican tortillas)
+(Mexican avocado, halved, pitted, pulp in squares) 1
+(lemon, quartered) 4
+(Chiltomate, Yucatan style tomato sauce, optional) to taste
+(Mexican tortillas)
+(water, initial) 6 liters
+(water, boiling, extra if needed) about 4 cups
+(salt)
+(habaneros, for serving)
 
 ::equipment
 
-(pot)
+(pot, large)
+(lid)
+(kitchen twine)
 
 ::instructions
 
-In a large pot, put the black beans and 6 liters of water.
-<bring to a boil, over medium heat and cook, with the lid half-open, for 45 minutes>
-<add, the pork, onion, epazote or cilantro, and salt>
-<stir, well. Cook for another hour and a half, with the pot partially covered, until the pork is cooked and tender>
-Make sure the broth does not dry out. You can add about 4 extra cups of boiling water after adding the pork.
-<put, out the fire. Make sure the seasoning is OK>
-<serve, the beans with pork with the radishes, cilantro, avocado, lemons, chiltomate sauce and habaneros>
-<enjoy, with some authentic mexican tortillas>
+(pot) + (black beans) + (water, initial)
+(black beans) <bring to boil, medium heat>
+(pot) <cover, with (lid), half-open>
+(black beans) <cook, 45m>
+(herb bundle) <tie, with (kitchen twine)>
+(pot) + (pork) + (white onion) + (herb bundle) + (salt)
+{beans and pork} <stir, well>
+    <cook, another 1.5h, pot partially covered> ?= pork cooked and tender
+Meanwhile [
+    Ensure the broth does not dry out. After adding the pork, about 4 cups extra (water, extra if needed) may be added.
+]
+Turn off the heat and check seasoning.
+{beans and pork} <serve, with (radishes) + (cilantro) + (Mexican avocado) + (lemon) + (habaneros)>
+Optional [
+    {beans and pork} <serve, with (Chiltomate)>
+]
+{beans and pork} <serve, with (Mexican tortillas)>
+
+::notes
+
+The source header gives 45-60 minutes, but its method specifies 45 minutes for beans followed by another 1.5 hours after adding pork. Method timings are retained.
 
 ::source
 <<<

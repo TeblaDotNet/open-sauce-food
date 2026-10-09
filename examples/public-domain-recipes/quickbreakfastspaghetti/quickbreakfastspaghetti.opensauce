@@ -14,28 +14,57 @@ tags: breakfast, pasta
 
 ::ingredients
 
-(spaghetti, any kind you prefer)
-(spices, Ground, I like to use cumin, turmeric, paprika, and garlic)
-(tomato paste/sauce, preferably one with basil and without preservative)
-(extra virgin olive oil)
+(spaghetti, any kind)
+(spices, ground, e.g. cumin or turmeric or paprika or garlic)
+(tomato addition) = (tomato paste, preferably with basil and without preservative) -OR- (tomato sauce, preferably with basil and without preservative)
+(extra virgin olive oil) a generous amount
+(water)
+(salt, if needed)
+(pepper, if needed)
+(bacon, optional)
+(turkey, optional)
+(egg, optional)
 
 ::equipment
 
-(bowl)
 (pot)
+(bowl)
 
 ::instructions
 
-<boil, some water fully and prepare a pot>
-While the water is boiling, add all your spices in the pot with the spaghetti on top.
-<pour, the boiled water on the spaghetti to make it soft so you can immerse it fully in the water>
-<mix, thoroughly the water with the spices and salt and pepper if needed>
-<place, the pot on the stove, keep it boiling, and stir every minute or two for 8 minutes>
-It should take no more than 8 minutes, but you can check if it is fully cooked by tasting one piece at a time.
-Once it is fully cooked, strain the water from the pot and keep the spaghetti in.
-Before placing it back on the stove, add and mix a generous amount of olive oil. Now's the time to add bacon or turkey if you are also using that.
-While stirring the spaghetti, add your tomato sauce or paste and keep mixing for a minute and avoid letting it stick to the boiler.
-<pour, the spaghetti out in your favorite bowl and enjoy>
+(water) <boil, fully>
+Meanwhile [
+    (spices) <put, in (pot)>
+    (spaghetti) <place, on top of the spices>
+]
+(water) <pour, boiling water over the spaghetti> ?= spaghetti softened enough to immerse fully
+{spaghetti and water} <mix, thoroughly with the spices>
+If needed, add (salt) and (pepper).
+(pot) <place, on the stove>
+(spaghetti) <boil, ~8m> ?= fully cooked when tasted
+Meanwhile [
+    (spaghetti) <stir, every 1-2m>
+    Optional [
+        Cook (egg) and/or (bacon) while the spaghetti cooks, as suggested by the source.
+    ]
+]
+# The source says cooking should take no more than eight minutes; taste one piece at a time to check.
+(spaghetti) <strain, water from the pot, keeping spaghetti in the pot>
+Before returning the pot to the stove:
+(spaghetti) + (extra virgin olive oil)
+    <mix>
+Optional [
+    Add (bacon) or (turkey) now if using them.
+]
+(pot) <return, to the stove>
+While stirring, add (tomato addition).
+(spaghetti) <mix, 1m, avoiding sticking to the pot>
+    <pour, into (bowl)>
+# Enjoy!
+
+::notes
+
+The introduction suggests optional eggs and/or bacon cooked while spaghetti boils. The later method mentions bacon or turkey at the oil stage. These source options are retained without inventing an egg-placement step.
 
 ::story
 

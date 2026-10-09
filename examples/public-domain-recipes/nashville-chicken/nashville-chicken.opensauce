@@ -17,55 +17,88 @@ serves: 4
 
 ::ingredients
 
-(buttermilk) 2 Cups
-(hot sauce) 1/3 Cup
-(flour; all-purpose) 2 1/2 Cups
-(cornstarch) 3 tbsp
-(seasoned salt) 3 tbsp
-(paprika) 1 tbsp
-(cayenne pepper) 2 tsp
-(black pepper) 2 tsp
-(garlic powder) 1 tbsp
-(onion powder) 1 tbsp
-(dry mustard powder) 2 tsp
-(nashville hot chicken seasoning) 2 tbsp
-(adobo honey seasoning) 2 tbsp
-(dark brown sugar) 2 tbsp
-(chili powder) 1 tsp
-(garlic powder) 1 tsp
-(smoked paprika) 1 tsp
-(cooking oil, used to fry the chicken) 1 1/2 Cups
-(mayo) 3 tbsp
-(ketchup) 1 tbsp
-(sweet relish) 2 tbsp
-(hot sauce) 1 tbsp
+(chicken)
+(buttermilk) 2cups
+(hot sauce, for batter) 1/3cup
+(flour, all-purpose) 2 1/2cups
+(cornstarch) 3tbsp
+(seasoned salt) 3tbsp
+(paprika) 1tbsp
+(cayenne pepper) 2tsp
+(black pepper) 2tsp
+(garlic powder, for flour mixture) 1tbsp
+(onion powder) 1tbsp
+(dry mustard powder) 2tsp
+(Nashville Hot Chicken seasoning) 2tbsp
+(Adobo honey seasoning) 2tbsp
+(dark brown sugar) 2tbsp
+(chili powder) 1tsp
+(garlic powder, for hot sauce) 1tsp
+(smoked paprika) 1tsp
+(cooking oil) 2 1/2cups # Retain 1 1/2cups of used frying oil for the hot sauce.
+(mayo) 3tbsp
+(ketchup) 1tbsp
+(sweet relish) 2tbsp
+(hot sauce, for buns) 1tbsp
+(buns, toasted)
+(romaine lettuce, shredded)
+(tomato)
 
 ::equipment
 
-(bowl)
+(batter bowl)
+(flour bowl)
+(pan)
+(wire rack)
+(sheet pan)
+(whisk)
 
 ::instructions
 
-Prep your chicken by trimming it into less than a 1/2" patties for frying.
-<prepare, your batter and flour in two separate bowls>
-Dunk your chicken into the flour, then batter and then flour again. While your chicken is sitting with the battered flour pour 2 1/2 cups of cooking oil into your pan over medium heat or 350 degrees. Let it come to temp, about 20 mins.
-Once your oil has reached the temp of 350, go ahead and fry 3-4 pieces of chicken at one time. You are going to fry for 7 mins （flipping at the midway point） and then pull the chicken and let sit for 5 mins then refry for the second time 3 mins, this depends on the thickness of the chicken.
-Now that your chicken is fried make sure you have a wire rack with a sheet pan under it so the crispy chicken can sit and rest on. During this resting time, you are going to add your Nashville Hot Chicken seasoning together with 1 1/2 cups of the cooking oil you just used. It will simmer but quickly whisk until it comes still. Now you want to brush that amazing sauce all over the crispy chicken or dunk it.
-Have some toasted buns ready and create your sandwich. First, you want to sauce your top and bottom buns, add shredded romaine lettuce, chicken patty, tomato and then complete with the top bun for an amazingly delicious creation.
-Feed the family and enjoy! This one gets spicy, ＞E N J O Y＜ :）
+(chicken) <trim, into patties less than 1/2 inch thick>
+{batter} = (batter bowl) + (buttermilk) + (hot sauce, for batter)
+    <prepare>
+{flour mixture} = (flour bowl) + (flour) + (cornstarch) + (seasoned salt) + (paprika) + (cayenne pepper) + (black pepper) + (garlic powder, for flour mixture) + (onion powder) + (dry mustard powder)
+    <prepare>
+(chicken) <dunk, into the flour mixture>
+    <dunk, into the batter>
+    <dunk, into the flour mixture again>
+(chicken) <sit, with the battered flour>
+Meanwhile [
+    (cooking oil) <pour, into (pan)>
+        <heat, medium heat or 350 degrees; about 20m to reach temperature>
+]
+Once the oil reaches 350 degrees, fry 3–4 chicken pieces at a time:
+(chicken) <fry, 7m>
+Meanwhile [
+    (chicken) <flip, at the midway point of the 7m fry>
+]
+(chicken) <remove, from (pan)>
+    <rest, 5m>
+    <refry, 3m; depending on thickness>
+(sheet pan) <place, under the wire rack>
+(chicken) <rest, on (wire rack)>
+Meanwhile [
+    {hot seasoning} = (Nashville Hot Chicken seasoning) + (Adobo honey seasoning) + (dark brown sugar) + (chili powder) + (garlic powder, for hot sauce) + (smoked paprika)
+    {hot chicken sauce} = {hot seasoning} + (cooking oil, just used for frying) 1 1/2cups
+    The sauce will simmer.
+    {hot chicken sauce} <whisk, quickly using (whisk)> ?= still
+]
+[
+    {hot chicken sauce} <brush, all over the crispy chicken>
+]
+-OR-
+[
+    (chicken) <dunk, into the hot chicken sauce>
+]
+{sauce for buns} = (mayo) + (ketchup) + (sweet relish) + (hot sauce, for buns)
+(buns) <sauce, top and bottom with the sauce for buns>
+On the bottom bun, layer (romaine lettuce), a chicken patty and (tomato), then complete with the top bun.
 
 ::notes
 
-If you love spicy foods and chicken then this Nashville Hot Chicken sandwich recipe is just for you. It takes some time with prepping and process but when you take that first bite all the effort will be worth it. It’s unlike any other fried chicken recipe that includes double frying your chicken and using the same cooking oil from your fry as a sauce for the Nashville Hot Chicken spice.
-
-Batter
-
-Flour
-
-Nashville Hot Chicken
-
-Sauce For the Buns
-
+# This one gets spicy; feed the family and enjoy.
+The source gives no chicken quantity or unit for its 350-degree oil temperature.
 
 ::story
 

@@ -557,7 +557,7 @@ Three or more alternatives may span lines:
 
 ---
 
-## 15. Named ingredient choices
+## 15. Named local choices
 
 A choice between ingredients may itself be given an ingredient name.
 
@@ -590,6 +590,25 @@ Example:
     (seasoning) +
     (sesame oil)
 ```
+
+Named choices also work in `::equipment`. The section determines whether members
+are ingredients or equipment; the local name denotes whichever member was selected,
+not another physical thing or public vocabulary concept.
+
+```text
+::equipment
+(mixing tool) = (balloon whisk) -OR- (electric mixer)
+::instructions
+{mixture} <mix, using (mixing tool)>
+```
+
+Use a named equipment choice only for a natural, useful recipe-local role referenced
+later. Do not invent vague abstractions such as “cooking vessel” merely to unify
+references. When equipment alternatives belong to separate procedural `-OR-`
+branches, normally retain the actual equipment references in those branches,
+without a shared placeholder. Sauce Code readability and semantic clarity matter
+more than making the model tidier. This generalises the existing choice identity;
+it does not change result assignments or introduce new syntax.
 
 ---
 

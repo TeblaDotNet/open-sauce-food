@@ -18,14 +18,15 @@ serves: 4
 
 ::ingredients
 
-(taco-meat — /taco-meat)
+(taco meat)
 (onion) 1
-(tomatoes, Diced)
+(tomatoes, diced)
 (bell pepper) 1
-(burrito sized tortilla)
-(plain greek yogurt or sour cream)
-(any other vegetables you want)
-(cheese of choice, Shredded, Optional)
+(tortilla, burrito sized)
+(cream) = (plain Greek yogurt) -OR- (sour cream)
+(other vegetables, of choice)
+(cheese, shredded; of choice; optional)
+(oil, for oil frying)
 
 ::equipment
 
@@ -33,14 +34,36 @@ serves: 4
 
 ::instructions
 
-<dice, peppers, tomatoes, and onions and saute>
-<add, in meat. Season and cook until browned or fully cooked through>
-<warm, your tortilla and place small layer of yogurt, cheese, and filling on the bottom half of the tortilla>
-<wrap, by folding bottom over filling, folding sides in, and then rolling>
-<fry, using your preferred method (info on a couple of methods below)>
-Frying
-My preferred method to frying is air frying, place into air fryer and set for about 10 minutes. Just as crunchy with practically no grease from oil
-For oil frying, I've found using just a film of oil and flipping on to the sides works well with more time.
+(bell pepper) + (tomatoes) + (onion) <dice>
+    <sauté>
+{filling} = (bell pepper) + (tomatoes) + (onion) + (taco meat)
+    <season>
+    <cook> ?= browned or fully cooked through
+(tortilla) <warm>
+(cream) <place, a small layer on the bottom half of (tortilla)>
+Optional [
+    (cheese) <place, on the bottom half of (tortilla)>
+]
+{filling} <place, on the bottom half of (tortilla)>
+(tortilla) <fold, bottom over filling>
+    <fold, sides inward>
+    <roll>
+[
+    {chimichanga} <place, in (air fryer)>
+        <air fry, about 10m>
+]
+-OR-
+[
+    {chimichanga} <fry, in a film of (oil)>
+        <flip, onto the sides>
+    Allow more time for this method; the source gives no duration.
+]
+
+::notes
+
+Use your favourite filling. Taco meat source: /taco-meat.
+The source lists other vegetables of choice without specifying their addition.
+# The author prefers air frying for crunch with practically no grease from oil.
 
 ::story
 

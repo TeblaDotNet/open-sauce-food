@@ -21,41 +21,65 @@ tags: shrimp, chicken, cajun, tomato
 (kosher salt) 1 tsp
 (thyme) 1/4 tsp
 (rubbed sage) 1/2 tsp
-(basil, Dried) 1/4 tsp
+(basil, dried) 1/4 tsp
 (black pepper) 1/2 tsp
-(butter; unsalted) 1 Tbsp
-(andouille, Diced, or Chirozo sausage) 1/2 cup
-(onion, Diced) 1/2 cup
-(bell pepper, Diced) 1/2 cup
-(celery, Diced) 1/2 cup
-(fresh tomatoes, Diced) 1/2 cup
+(butter, unsalted) 1 Tbsp
+(sausage) = (andouille, diced) 1/2 cup -OR- (Chirozo sausage, diced) 1/2 cup
+(onion, diced) 1/2 cup
+(bell pepper, diced) 1/2 cup
+(celery, diced) 1/2 cup
+(fresh tomatoes, diced) 1/2 cup
 (tomato sauce) 1/2 cup
 (enriched long grain rice) 3/4 cup
 (chicken stock) 1-1/4 cup
-(worcestershire sauce) 1 Tbsp
-(fresh garlic, Minced) 2 Tbsp
-(chicken, Diced, cooked or raw) 1/2 cup
-(shrimp, Medium) 1-1/2 cup
-(italian parsley, Finely Chopped) 1 Tbsp
-(finely sliced green onions) 3 Tbsp
+(Worcestershire sauce) 1 Tbsp
+(garlic, fresh, minced) 2 Tbsp
+(chicken, diced, cooked or raw) 1/2 cup
+(shrimp, medium, raw) 1-1/2 cup
+(Italian parsley, finely chopped) 1 Tbsp
+(green onions, finely sliced) 3 Tbsp
 
 ::equipment
 
 (oven)
-(pot)
+(Dutch oven, cast iron)
 
 ::instructions
 
-<preheat, the oven to 350 degrees F. Mix together the seasoning mix (herbs, salt, pepper)>
-<mix, together the Holy Trinity (onion, celery, bell pepper)>
-In a Cast Iron Durch Oven, melt the butter over medium heat, add the Andouille and cook until it starts to brown.
-<add, 1/2 of the Holy Trinity, cook until the vegetables are tender>
-<add, the diced tomatoes and cook for one minute. Add the tomato sauce and cook for another minute>
-<add, the rice and cook for 2 minutes, stirring constantly>
-<add, the stock, remaining Holy Trinity, seasoning mix, Worcestershire, and the garlic>
-<taste, the broth for seasoning, particularly salt>
-<add, the chicken, stir well and put the pot in the preheated oven. Bake uncovered for 25 minutes>
-<stir, in the raw shrimp, parsley, and green onions - place back into oven for another 10 minutes (or until the shrimp is cooked through)>
+(oven) <preheat, 350°F>
+{seasoning mix} = (cayenne) + (white pepper) + (kosher salt) + (thyme) + (rubbed sage) + (basil) + (black pepper)
+    <mix>
+{Holy Trinity} = (onion) + (celery) + (bell pepper)
+    <mix>
+(butter) <melt, in (Dutch oven), medium heat>
+(sausage) <cook, in (Dutch oven)> ?= starting to brown
+(Dutch oven) + {Holy Trinity} half
+{vegetables} <cook> ?= tender
+(Dutch oven) + (fresh tomatoes)
+{mixture} <cook, 1m>
+    + (tomato sauce)
+    <cook, 1m>
+    + (enriched long grain rice)
+    <cook, 2m>
+Meanwhile [
+    {mixture} <stir, constantly>
+]
+{mixture} + (chicken stock) + {Holy Trinity} remaining half + {seasoning mix} + (Worcestershire sauce) + (garlic)
+{broth} <taste, for seasoning, particularly salt>
+{mixture} + (chicken)
+    <stir, well>
+(Dutch oven) <put, in (oven)>
+{jambalaya} <bake, uncovered, 25m>
+    + (shrimp) + (Italian parsley) + (green onions)
+    <stir>
+    <return, to the oven>
+    <bake, another 10m> ?= shrimp cooked through
+
+::notes
+
+For additional flavour, the source suggests warming the stock with raw shrimp shells if desired.
+Serve with French bread and your favourite beer.
+“Chirozo” is retained from the source ingredient alternative.
 
 ::story
 

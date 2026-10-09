@@ -14,37 +14,55 @@ tags: italian, chicken
 
 ::ingredients
 
-(chicken breast)
-(tomatoes, San Marzano is best)
+(chicken breasts)
+(tomatoes, San Marzano preferred)
 (mozzarella cheese)
 (parmesan cheese)
 (bread crumbs)
-(egg)
+(eggs)
 (flour)
-(pasta sauce — /pasta-sauce)
+(pasta sauce)
+(pepper)
+(olive oil)
+(butter)
 
 ::equipment
 
-(bowl)
+(flour bowl, or basin; large enough for a breast)
+(egg bowl, or basin; large)
+(crumb bowl, or basin; large)
+(frying pan)
+(finishing pan, oiled or buttered)
 
 ::instructions
 
-<slice, the chicken breasts through their width so that they are as flat as possible>
-Pound breasts as flat as possible.
-(flour) <add, to a bowl or basin large enough to fit a breast, add pepper>
-(egg) <crack, into another large bowl or basin and whisk them>
-<add, breadcrumbs to yet another large bowl or basin. Add generous amounts of grated parmesan>
-One by one, take each breast and dip and cover it in the flour, then the egg, then the bread crumbs.
-<cover, a pan with olive oil and heat it just under when it begins to smoke>
-<fry, the bread crumb-coated chicken breasts in the oil. Add butter generously while frying to ensure frying oil does not evaporate>
-<move, fried breasts to an oiled or buttered pan, add mozzarella and parmesan on them>
-Broil/cook the breasts only long enough for the cheese to melt.
-<serve, the breasts with pasta sauce — /pasta-sauce either above or below. This is often served with pasta — /pasta>
+(chicken breasts) <slice, through width> ?= as flat as possible
+    <pound> ?= as flat as possible
+{seasoned flour} = (flour bowl) + (flour) + (pepper)
+(eggs) <crack, into (egg bowl)>
+    <whisk>
+{crumb coating} = (crumb bowl) + (bread crumbs) + (parmesan cheese, grated; generous amount)
+One breast at a time:
+(chicken breasts) <dip, in the seasoned flour; covering them>
+    <dip, in the beaten eggs>
+    <dip, in the crumb coating; covering them>
+(frying pan) <cover, with (olive oil)>
+(olive oil) <heat> ?= just below smoking
+{coated chicken} <fry, in (olive oil)>
+Meanwhile [
+    (frying pan) + (butter, generously)
+    # Source reason: keep frying oil from evaporating.
+]
+{fried chicken} <move, to (finishing pan)>
+(mozzarella cheese) + (parmesan cheese) <place, on the chicken>
+{chicken} <cook, by broiling; only long enough> ?= cheese melted
+    <serve, with (pasta sauce) above or below>
 
 ::notes
 
-There is some controversy over when to add the pasta sauce to this dish. Some place it on the chicken before cooking it with the mozzarella. The sauce, if left on the chicken too long will make the breadcrumbs go soggy. That also will make leftovers mushy (while still tasty). I recommend keeping the breasts separate and only adding the sauce when served.
-
+Often served with pasta. Sources: /pasta-sauce and /pasta.
+The author recommends adding sauce only when serving to keep breading and leftovers from going soggy; some add it before cooking with mozzarella.
+The source lists tomatoes without a separate use in the method.
 
 ::story
 

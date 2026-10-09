@@ -14,24 +14,45 @@ tags: orange, dessert, pudding, fruit
 
 ::ingredients
 
-(orange, large, of a deep colour, and smooth thin rind.) One
+(orange, large, deep colour, smooth thin rind) One
 (lime) One
 (powdered white sugar) A quarter of a pound
-(butter, fresh) A quarter of a pound
+(butter, fresh, for filling) A quarter of a pound
 (egg) Three
-(mixed wine and brandy) A table-spoonful
+(wine and brandy, mixed) A table-spoonful
 (rose-water) A tea-spoonful
+(flour, sifted, for puff-paste) Five ounces
+(butter, fresh, for puff-paste) A quarter of a pound
+(butter, for plate)
+(loaf sugar, for topping)
 
 ::equipment
 
+(saucer)
+(soup-plate, for juice)
+(pan, for filling)
+(soup-plate, for baking)
 (oven)
 
 ::instructions
 
-<grate, the yellow rind of the orange and lime, and squeeze the juice into a saucer or soup-plate, taking out all the seeds>
-<stir, the butter and sugar to a cream>
-<beat, the eggs as light as possible, and then stir them by degrees into the pan of butter and sugar. Add, gradually, the liquor and rose-water, and then by degrees, the orange and lime. Stir all well together>
-Have ready a sheet of puff-paste made of five ounces of sifted flour, and a quarter of a pound of fresh butter. Lay the paste in a buttered soup-plate. Trim and notch the edges, and then put in the mixture. Bake it about half an hour, in a moderate oven. Grate loaf-sugar over it, before you send it to table.
+(orange: rind) + (lime: rind)
+    <grate, yellow rind only>
+Squeeze the (orange) and (lime) into a (saucer) or (soup-plate, for juice), removing all seeds.
+{cream} = (butter, for filling) + (powdered white sugar)
+    <stir, in (pan)> ?= creamy
+(egg) <beat> ?= as light as possible
+    <stir in, by degrees into the butter and sugar>
+Gradually add (wine and brandy) and (rose-water), then the prepared citrus rind and juice by degrees.
+{filling} <stir, well>
+Have ready a sheet of puff-paste made from (flour) and (butter, for puff-paste).
+(soup-plate, for baking) <butter, with (butter, for plate)>
+{puff-paste} <lay, in (soup-plate, for baking)>
+    <trim, edges>
+    <notch, edges>
+{filling} <put, into the pastry>
+{pudding} <bake, in (oven), moderate oven, ~30m>
+(loaf sugar) <grate, over the pudding before serving>
 
 ::source
 <<<

@@ -21,29 +21,46 @@ image: lasagna.webp
 ::ingredients
 
 (parmesan cheese)
-(emental cheese, optional)
+(emental cheese, grated, optional for béchamel) 3-4 handfuls
 (dry mozzarella cheese)
-(bolognese sauce, fresh; see /bolognese-sauce) -OR- (sauce, store-bought) about 1 litre
-(béchamel sauce, see /classic-bechamel-sauce) -OR- (ricotta lasagna filling, see /ricotta-lasagna-filling)
+(red sauce) = (bolognese sauce, fresh) -OR- (pasta sauce, store-bought) about 1 litre
+(filling) = (béchamel sauce) -OR- (ricotta lasagna filling)
 (lasagna pasta sheets)
 
 ::equipment
 
-(baking tray)
+(baking tray, large, deep)
 (oven)
+(aluminium foil)
 
 ::instructions
 
-<prepare, the bolognese or jared pasta sauce>
-When the sauce is almost done cooking prepare your béchamel or ricotta filling.
-If you want you can add 3-4 handfuls of grated emental cheese to the béchamel.
-If necessary, boil the lasagna noodles following the instructions on the packaging, start preheating your oven to 175°C/350°F.
-<spread, a thin layer of pasta sauce on the bottom of a large, deep baking tray>
-<cover, with lasagna sheets and spread a layer of béchamel sauce or ricotta, cover with lasagna sheets and spread a layer of pasta sauce if you want you can finely grate a little bit of parmesan on each layer of bolognese>
-<rinse, and repeat the previous step until the tray is nearly full or you are running low on béchamel sauce/ricotta filling, take care that the last layer should be bechamel or ricotta>
-<grate, some parmesan on top of your final layer and cover with Dry mozzarella cheese, wrap the top in aluminum foil>
-<place, the tray in the centre of your pre-heated oven and let it cook for 30-35 minutes, after that remove the foil to let the top brown>
-Once it is done cooking take it out of the oven and cover again with aluminum foil, let it rest for 10 minutes before serving.
+(red sauce) <prepare>
+When the sauce is almost done cooking, prepare (filling).
+Optional [
+    If using béchamel, add (emental cheese) 3-4 handfuls to (filling).
+]
+If necessary, boil (lasagna pasta sheets) following the packaging instructions.
+(oven) <preheat, 175°C / 350°F>
+Spread a thin layer of (red sauce) on the bottom of (baking tray).
+Layer (lasagna pasta sheets), then (filling), then another layer of (lasagna pasta sheets) and (red sauce). Repeat until the tray is nearly full or the filling is running low. The last layer must be (filling).
+Optional [
+    Finely grate a little (parmesan cheese) onto each bolognese layer during assembly.
+]
+Grate (parmesan cheese) over the final layer to finish assembling {lasagna}.
+{lasagna} <cover, with (dry mozzarella cheese)>
+    <wrap, top, with (aluminium foil)>
+    <cook, centre, in (oven), 30-35m>
+(aluminium foil) <remove>
+{lasagna} <brown, top>
+    <remove, from (oven)>
+    <cover, again, with (aluminium foil)>
+    <rest, 10m>
+    <serve>
+
+::notes
+
+Source component recipes: fresh bolognese sauce — /bolognese-sauce; béchamel — /classic-bechamel-sauce; ricotta filling — /ricotta-lasagna-filling.
 
 ::story
 

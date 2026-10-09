@@ -15,22 +15,41 @@ tags: basic, cheesefare
 
 ::ingredients
 
-(thermometer)
-(cheesecloth) 1
-(cheese recipient) 1
-(fresh, non-UHT milk) 250ml
+(milk, fresh; non-UHT) 250ml
 (yogurt) 250ml
 (cream, fresh) 1lt
 (table salt) 5g
-(citric acid, source says contained in 130ml of lemon juice) 6g # Source typo: of of; equivalence retained as a claim, not validated.
+(citric acid, source says contained in 130ml lemon juice) 6g # Equivalence is a source claim, not validated.
+(sugar) # Method-only; no amount supplied.
 
 ::equipment
 
+(thermometer)
+(cheesecloth) 1
+(cheese recipient) 1
 (bowl)
+(fridge)
 
 ::instructions
 
-<mix, the yogurt, the milk, the cream, the salt, and the sugar into a bowl. Heat the bowl to 80°C while stirring. Once the temperature has been reached, add the citric acid and mix well. Heat up to 90°C, then let it cool down until it reaches room temperature. Pour the cheese into the cheesecloth and let the whey drip. Store in the fridge>
+{mixture} = (bowl) + (yogurt) + (milk) + (cream) + (table salt) + (sugar)
+    <mix>
+    <heat, to 80°C>
+Meanwhile [
+    {mixture} <stir>
+]
+Once 80°C is reached:
+{mixture} + (citric acid)
+{mixture} <mix, well>
+    <heat, to 90°C>
+    <cool, to room temperature>
+{cheese} <pour, into (cheesecloth)>
+Let the whey drip.
+{cheese} <store, in (fridge)>
+
+::notes
+
+The source lists a thermometer and cheese recipient without explicit use instructions.
 
 ::source
 <<<

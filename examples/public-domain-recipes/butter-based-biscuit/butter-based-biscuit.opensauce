@@ -17,31 +17,55 @@ tags: snack, side, dough
 
 ::ingredients
 
-(butter)
+(butter, pommade, neither liquid nor solid)
 (flour)
-(sugar; white)
-(egg, optionnal)
+(white sugar)
+(egg, optional)
 
 ::equipment
 
+(plastic film)
+(fridge)
+(freezer, quicker less consistent alternative)
 (oven)
+(cooking tray)
+(baking paper)
+(grid)
+(oven shelf)
 
 ::instructions
 
-Prepare the dough
-<mix, the sugar and eggs until it gets white>
-<add, the "Pommade" butter and mix thoroughly until the preparation is airy. "pommade" is french for ointment, this is a specific state of butter that is nor liquid nor solid>
-Gradually add the flour
-Let it sit
-The dough should not be sticky and made into a ball wrapped in cellophane/film
-<put, the dough ball 1h in the fridge (15 minutes in the freezer if you are in a hurry less consistent). The dough needs to be cold when putting in the oven to prevent butter from flowing out and separating from the dough>
-Cooking the dough
-<heat, your oven to 200 °C with the cooking tray>
-Quickly shape the dough so it remains cold. Most important is the thickness, the thicker it is the longer it has to cook and the more chances the butter flows out.
-<transfer, the baking paper with the uncooked shortbreads on the hot cooking tray>
-<let, cook for 12 to 15 minutes to your liking, the brown colour means the sugar has caramelized and it is crunchy>
-Work is not done, when out of the oven, the shortbreads will fill soft and crumbly, they need 1 or 2 minutes of cooling before being solid enough to handle
-Whenever possible transfer the shortbreads on a grid or "oven shelf" so air flow can circulate Necessary for the texture of the shortbread otherwise moisture will remain inside and will be less crunchy
+If using (egg), mix it with (white sugar) until white.
+{mixture} = (white sugar) + (butter)
+Include the beaten eggs if used.
+{mixture} <mix, thoroughly> ?= airy
+Gradually add (flour).
+{dough} should not be sticky.
+{dough} <shape, into a ball>
+    <wrap, in (plastic film)>
+[
+    {dough} <chill, in (fridge), 1h>
+]
+-OR-
+[
+    {dough} <chill, in (freezer), 15m>
+    # Quicker but less consistent.
+]
+The dough must be cold when it goes in the oven to prevent butter flowing out and separating.
+(oven) <heat, 200°C, with (cooking tray) inside>
+{dough} <shape, quickly so it remains cold>
+Thickness matters: thicker biscuits need longer cooking and are more likely to lose butter.
+Transfer (baking paper) holding the uncooked shortbreads to the hot (cooking tray).
+{shortbreads} <cook, in (oven), 12-15m, to your liking>
+Brown colour means the sugar has caramelized and the biscuits are crunchy.
+{shortbreads} <remove, from (oven)>
+    <cool, 1-2m> ?= solid enough to handle
+They are initially soft and crumbly.
+Whenever possible, transfer the shortbreads to a (grid) or (oven shelf) so air can circulate. This is necessary for texture; otherwise retained moisture makes them less crunchy.
+
+::notes
+
+“Pommade” is French for ointment and describes the butter's neither-liquid-nor-solid state.
 
 ::story
 

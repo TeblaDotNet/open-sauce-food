@@ -1,3 +1,4 @@
+import {restoreGeneratedReconversionDeep} from './generated-reconversion-deep.ts';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -15,6 +16,7 @@ for (const record of Object.values(generatedReconversion.recipes)) {
 const sha=(s:string)=>createHash('sha256').update(s).digest('hex');
 /** Generated pass provenance is separate from deliberately reviewed repairs. */
 export function restoreGeneratedReconversion(source:string,pathOrSlug:string):string {
+ source=restoreGeneratedReconversionDeep(source,pathOrSlug);
  const slug=pathOrSlug.replaceAll('\\','/').split('/').at(-1)!.replace(/\.opensauce$/,'');
  if(!Object.hasOwn(generatedReconversion.recipes,slug))return source;
  const record=generatedReconversion.recipes[slug];

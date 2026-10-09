@@ -14,38 +14,54 @@ tags: austrian, ham, noodles
 
 ::ingredients
 
-(ham or smoked rolled roast) 1kg
-(noodles, cooked fusilli or small square flat noodles — Fleckerl) 1kg
-(cream) 500 ml
-(sour cream) 500 ml
-(egg) 1-2
-(majoran, Muskat, Pepper)
-(optional,)
-(parmesan)
-(chili flakes)
+(meat) = (ham) 1kg -OR- (smoked rolled roast) 1kg
+(noodles) = (fusilli, cooked) 1kg -OR- (small square flat noodles, Fleckerl; cooked) 1kg
+(cream) 500ml
+(sour cream) 500ml
+(eggs) 1–2
+(marjoram)
+(nutmeg)
+(pepper)
+(parmesan, optional)
+(chili flakes, optional)
+(topping cheese, mozzarella or other cheese; optional)
 
 ::equipment
 
+(bowl, big)
+(baking pans) 1 or 2
+(baking paper)
 (oven)
-(bowl)
 
 ::instructions
 
-Start cooking noodles.
-First slice, then cube ham into smaller than 1cm³ pieces.
-(cream) <whip, in a big bowl>
-<add, spices, eggs and sour cream to bowl and stir>
-<put, ham cubes in and stir>
-<put, noodles without water into bowl and mix>
-<put, the mixture into one or two baking pans (with baking paper)>
-<bake, at ~160°C for ~2 hours>
-Optionally gratin mozzarella or any other cheese on top for 5-10 minutes.
-There you have it, an idiot-proof carb and protein bomber that should taste reasonably well. Besides browning the noodles this is really just throwing stuff into a baking pan. This is the kind of dish that tastes better the next day so it's ideal for making on a Sunday and eating for the next 3 or 4 days. Just reheat in oven or pan （add little water）.
+(noodles) <cook>
+(meat) <slice>
+    <cube, into pieces smaller than 1 cubic centimetre>
+(cream) <whip, in (bowl)>
+{cream mixture} = (cream) + (marjoram) + (nutmeg) + (pepper) + (eggs) + (sour cream)
+Optional [
+    {cream mixture} + (chili flakes)
+]
+{cream mixture} <stir>
+{cream mixture} + (meat)
+{cream mixture} <stir>
+(noodles) <drain>
+{mixture} = {cream mixture} + (noodles)
+    <mix>
+(baking pans) <line, with (baking paper)>
+{mixture} <place, in (baking pans)>
+    <bake, in (oven); approximately 160°C; approximately 2h>
+Optional [
+    (topping cheese) <gratin, on top; 5–10m>
+]
 
 ::notes
 
-This is a recipe for a typical Austrian carb and protein bomber. This is traditionally made with ham or smoked rolled roast. This is good if you want to feed a family or if you just want to be lazy and eat the same thing for 3 or 4 days.
-
+The source lists optional parmesan without assigning it a specific addition step.
+Serve with cheese on top of salad; the source suggests mustard, jam, salt and a 1-vinegar-to-4-oil vinaigrette.
+The author suggests reheating in the oven or a pan with a little water and eating over the next 3–4 days.
+# The source describes this as a filling family meal that tastes better the next day.
 
 ::story
 

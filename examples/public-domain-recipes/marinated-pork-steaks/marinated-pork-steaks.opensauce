@@ -19,24 +19,42 @@ serves: 3-4 people
 
 ::ingredients
 
-(olive oil) 6 tablespoons
-(soy sauce) ¼ cup
-(honey) ¼ cup
-(lime: juice) from 1 lime
-(cloves garlic, peeled) 3
-(pork shoulder steaks, boneless, ¼ inch thick) 4
+(olive oil) 6tbsp
+(soy sauce) 1/4cup
+(honey) 1/4cup
+(lime juice) from 1 lime
+(garlic cloves, peeled) 3
+(pork shoulder steaks, boneless; 1/4 inch thick) 4
+(pepper)
 
 ::equipment
 
-(frying pan)
+(grill) -OR- (frying pan)
 
 ::instructions
 
-<mix, olive oil, soy sauce, honey and lime juice until you have an even marinade. Add pepper and crushed garlic>
-<add, the pork steaks to the marinade and leave in room temperature for 30 minutes or a bit longer>
-<preheat, your grill/frying pan. Add marinated steaks, grill for 2 minutes, flip, repeat until you've grilled them for 10 minutes total. Towards the last minutes pour the remaining marinade over the steaks>
-<let, the steaks rest for 10 minutes before serving>
-And just like that you got yourself some tasty pork steaks.
+{marinade} = (olive oil) + (soy sauce) + (honey) + (lime juice)
+    <mix> ?= even
+(garlic cloves) <crush>
+{marinade} + (pepper) + (garlic cloves)
+{marinade} + (pork shoulder steaks)
+(pork shoulder steaks) <marinate, room temperature; 30m or a bit longer>
+[
+    (grill) <preheat>
+    (pork shoulder steaks) <place, on (grill)>
+]
+-OR-
+[
+    (frying pan) <preheat>
+    (pork shoulder steaks) <place, in (frying pan)>
+]
+Repeat [
+    (pork shoulder steaks) <grill, 2m>
+        <flip>
+]
+until grilled for 10m total
+Towards the last minutes of cooking, pour the remaining marinade over the steaks.
+(pork shoulder steaks) <rest, 10m before serving>
 
 ::story
 

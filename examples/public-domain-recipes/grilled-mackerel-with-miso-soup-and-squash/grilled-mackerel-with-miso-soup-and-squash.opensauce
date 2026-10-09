@@ -19,7 +19,7 @@ serves: 2
 
 ::ingredients
 
-(norwegian mackerel fillets) 2
+(Norwegian mackerel fillet) 2
 (sake) 1 tbsp
 (miso paste) 2 tbsp
 (onion) 1/2
@@ -27,24 +27,46 @@ serves: 2
 (butter) 1 tbsp
 (jasmine rice, optional) 1 cup
 (soy sauce, optional)
+(water) 2 cups
+(salt, for squash) to taste
+(pepper, for squash) to taste
+(salt, for fish) ~1 tsp per fillet
 
 ::equipment
 
+(container, small)
 (saucepan)
+(pan, large)
 
 ::instructions
 
-<place, the mackerel fillets in a small container at room temperature. Pour sake on both sides of the fillets and let rest in the container, covered, for 30 min>
+(Norwegian mackerel fillet) <place, in (container), room temperature>
+Pour (sake) on both sides of the fillets.
+(Norwegian mackerel fillet) <cover>
+    <rest, in (container), 30m>
 (onion) <cut, into large slices>
-To a saucepan, add two cups of water, sliced onions, and miso paste. Whisk the solution until the miso paste is fully dissolved.
-<bring to a boil, Let the miso soup boil for about 10-15 min, then bring to a simmer>
-While the miso boils, peel the summer squash. Cut squash into 1/4 in half moons.
-In a large pan, melt 1 tbsp butter at medium-high heat.
-<grill, squash in the pan for 5-10 min, until both sides of the squash are golden brown. Add salt and pepper to taste>
-Push squash one side of the pan.
-<season, each fillet with about 1 tsp of salt>
-<place, the fillets in the pan with the squash. Grill each side of the mackerel for about 4 min>
-<serve, with rice and soy sauce>
+{miso soup} = (water) + (onion) + (miso paste)
+    <whisk, in (saucepan)> ?= miso paste fully dissolved
+    <boil, ~10-15m>
+Meanwhile [
+    (summer squash) <peel>
+        <cut, into 1/4 inch half moons>
+]
+{miso soup} <simmer>
+(butter) <melt, in (pan), medium-high heat>
+(summer squash) <grill, in (pan), 5-10m> ?= both sides golden brown
+    <season, with (salt, for squash) + (pepper), to taste>
+    <push, to one side of the pan>
+(Norwegian mackerel fillet) <season, with (salt, for fish), ~1 tsp per fillet>
+    <place, in (pan), alongside the squash>
+    <grill, ~4m each side>
+Serve the fish, soup and squash.
+Optional [
+    Serve with (jasmine rice).
+]
+Optional [
+    Serve with (soy sauce).
+]
 
 ::source
 <<<

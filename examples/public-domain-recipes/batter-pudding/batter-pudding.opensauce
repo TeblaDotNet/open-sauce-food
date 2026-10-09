@@ -14,23 +14,37 @@ tags: batter, dessert, pudding
 
 ::ingredients
 
-(egg) Six
-(table-spoonfuls of sifted flour) Eight
-(milk) One quart
-(salt) A spoonful
+(egg) six
+(flour, sifted, for batter) eight table-spoonfuls
+(milk) one quart
+(salt) a spoonful
+(water, boiling)
+(flour, for cloth)
+(wine-sauce, for serving)
 
 ::equipment
 
+(pudding-cloth, very thick, square preferred to a bag)
 (pot)
 
 ::instructions
 
-<stir, the flour, gradually, into the milk, carefully dissolving all the lumps. Beat the eggs very light, and add them by degrees to the milk and flour. Put in the salt, and stir the whole well together>
-<take, a very thick pudding-cloth. A square cloth, which when tied up will make the pudding of a round form, is better than a bag. Dip it in boiling water, and flour it>
-<pour, into it the mixture and tie it up, leaving room for it to swell>
-<boil, it hard, one hour, and keep it in the pot, till it is time to send it to table>
-<serve, it up with wine-sauce>
-Apple Batter Pudding is made by pouring the batter over a dish of apples, pared, cored, and sweetened, either whole or cut in pieces. Bake it, and eat it with butter and sugar.
+Stir (flour, for batter) gradually into (milk), carefully dissolving every lump, to make {milk and flour}.
+(egg) <beat> ?= very light
+Add (egg) by degrees to {milk and flour} to make {batter}.
+{batter} + (salt)
+    <stir, well>
+(pudding-cloth) <dip, in (water)>
+    <flour, with (flour, for cloth)>
+Pour {batter} into (pudding-cloth), then tie it up, leaving room to swell, to make {pudding}.
+{pudding} <boil, hard, 1h, in (pot)>
+Keep {pudding} in (pot) until time to serve.
+{pudding} <serve, with (wine-sauce)>
+
+::notes
+
+A square cloth makes a round pudding when tied and is preferred to a bag.
+Apple Batter Pudding variation: pour the batter over a dish of peeled, cored and sweetened apples, whole or in pieces. Bake it and eat with butter and sugar.
 
 ::source
 <<<

@@ -18,29 +18,47 @@ serves: 3
 
 ::ingredients
 
-(beef, cut into strips) 1/2 lb
-(vegetable oil) 2 Tbsp
-(ginger, minced) 1 Tbsp
-(garlic, minced) 2 cloves
-(carrot, sliced) 1 cup
+(beef, strips) 1/2lb
+(vegetable oil) 2tbsp
+(ginger, minced) 1tbsp
+(garlic, minced) 2cloves
+(carrots, sliced) 1cup
 (snow peas)
 (bean sprouts)
-(broccoli pieces) 1 cup
-(beef bouillon) 1/2 cup
-(corn starch) 1 Tbsp
-(soy sauce) 1 Tbsp
+(broccoli pieces) 1cup
+(beef bouillon) 1/2cup
+(corn starch) 1tbsp
+(soy sauce) 1tbsp
+(water) 2tbsp
+(salt)
+(pepper)
 
 ::equipment
 
+(pan)
+(lid)
 (bowl)
 
 ::instructions
 
-<heat, oil, add beef and stir-fry until meat is browned and push to sides of pan>
-<add, broccoli and carrots. Cover and steam vegetables until they are only slightly crunchy>
-<remove, vegetables to a bowl. Add bouillon, salt and pepper to meat>
-<combine, corn starch, 2 Tbsp water, and soy sauce. Add to meat to thicken sauce>
-<add, vegetables and heat. Serve over rice>
+(vegetable oil) <heat, in (pan)>
+(pan) + (beef)
+(beef) <stir-fry> ?= browned
+    <push, to sides of (pan)>
+(pan) + (broccoli pieces) + (carrots)
+(pan) <cover, with (lid)>
+{vegetables} <steam> ?= only slightly crunchy
+    <remove, to (bowl)>
+{meat sauce} = (beef) + (beef bouillon) + (salt) + (pepper)
+{slurry} = (corn starch) + (water) + (soy sauce)
+{meat sauce} + {slurry}
+Allow the sauce to thicken.
+{dish} = {meat sauce} + {vegetables}
+    <heat>
+
+::notes
+
+Serve over rice. The source lists ginger, garlic, snow peas and bean sprouts without specifying their addition; no timing is invented.
 
 ::source
 <<<

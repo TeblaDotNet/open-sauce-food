@@ -18,41 +18,57 @@ serves: 3
 
 ::ingredients
 
-(boneless chicken breast) 500g
-(fat free yoghurt) 250g
+(chicken breast, boneless) 500g
+(yoghurt, fat free) 250g
 (coriander leaves) 250g
-(mustard oil / sunflower oil)
-(sugar)
-(ginger)
-(garlic)
+(oil) = (mustard oil) 3 tbsp -OR- (sunflower oil) 3 tbsp
+(sugar) 1 tbsp
+(ginger) 20g
+(garlic) 9/10 cloves, as written in source
 (onion, medium) 2
-(green chillies)
-(garam masala — /garam-masala)
-(cardamom pods) 2/3
+(green chillies) 2/3, as written in source; according to taste
+(garam masala) 1 tbsp
+(cardamom pods) 2/3, as written in source
 (bayleaf) 1
-(cinnamom stick) 1
+(cinnamon stick, small) 1
+(salt) to taste
 
 ::equipment
 
-(frying pan)
+(mixer)
 (bowl)
+(frying pan)
 
 ::instructions
 
-<cut, the boneless chicken into small bite sized pieces>
-In a mixer, put 250g coriander leaves, 2/3 green chillies, 250g yoghurt, 20g ginger, 9/10 cloves of garlic, 2 medium sized onions and mix well.
-<add, the green chillies according to your taste>
-<pour, half of the mixture from step 2 into a bowl and mix it thoroughly with the chicken>
-Into this chicken mixture add 1 tbsp Garam Masala and salt to taste.
-<keep, the resulting marinated chicken aside for about 30 minutes>
-In a frying pan add 3 tbsp of either mustard oil or sunflower oil.
-Once the oil is hot, add 1 tbsp sugar and cook until the sugar melts into the oil.
-<add, 2/3 cardamom pods, 1 small cinnamon stick, and 1 bayleaf into the hot oil>
-<simmer, for about 1 minute, then lower the heat to medium>
-On medium heat, add the marinated chicken mixture and cook till oil starts separating from the chicken.
-<add, salt to taste and keep stirring the chicken to make sure it does not burn or stick to the bottom of the pan>
-Once the oil separates, add the remaining mixture which was left behind after step 4.
-<stir, until it has a thick consistency. Serve with naan — /naan-bread or rice — /rice>
+(chicken breast) <cut, into small bite-sized pieces>
+{coriander mixture} = (coriander leaves) + (green chillies) + (yoghurt) + (ginger) + (garlic) + (onion)
+    <mix, in (mixer), well>
+Adjust green chillies according to taste.
+{coriander mixture} <pour, half into (bowl)>
+(chicken breast) <mix, thoroughly with the half-mixture in the bowl>
+{marinated chicken} + (garam masala) + (salt)
+    <set aside, ~30m>
+(oil) <heat, in (frying pan)> ?= hot
+    + (sugar)
+(sugar) <cook> ?= melted into the oil
+(frying pan) + (cardamom pods) + (cinnamon stick) + (bayleaf)
+{spiced oil} <simmer, ~1m>
+Lower the heat to medium.
+(frying pan) + {marinated chicken}
+{chicken} <cook, medium heat> ?= oil separates from the chicken
+Meanwhile [
+    {chicken} <season, with (salt), to taste>
+        <stir, to prevent burning or sticking to the pan bottom>
+]
+{chicken} + {coriander mixture} remaining half
+    <stir> ?= thick consistency
+
+::notes
+
+Serve with naan or rice. Source links: /naan-bread and /rice.
+Garam masala source link: /garam-masala.
+The source writes 2/3 for chillies and cardamom and 9/10 for garlic; these are retained without interpreting them as fractions or ranges.
 
 ::story
 

@@ -19,24 +19,45 @@ image: spaghetti-all-amatriciana.webp
 
 ::ingredients
 
-(cheese, Pecorino romano preferably or Parmesan) 1.5oz / 40g
-(chili pepper, Fresh, as many as you'd like)
-(olive oil, extra virgin) 1/4 cup / 40g
-(guanciale or bacon, guanciale preferred) 3.5oz / 100g
-(white wine) 1/4 cup / 60g
+(cheese) = (Pecorino Romano, preferred) 1.5oz / 40g -OR- (Parmesan) 1.5oz / 40g
+(chili pepper, fresh) as many as desired
+(olive oil, extra virgin) 1/4cup / 40g
+(meat) = (guanciale, preferred) 3.5oz / 100g -OR- (bacon) 3.5oz / 100g
+(white wine) 1/4cup / 60g
 (tomato passata) 10oz / 300g
-(spaghetti or similar long pasta) 12oz / 350g
-(extra pecorino romano or parmesan, optional)
+(pasta) = (spaghetti) 12oz / 350g -OR- (similar long pasta) 12oz / 350g
+(extra cheese, Pecorino Romano or Parmesan; optional)
+(salt) some
+(pepper) plenty
 
 ::instructions
 
-<grate, the pecorino and keep it aside>
-<mince, the chili pepper(s) and keep it/them aside>
-<cut, the guanciale in thin stripes and cook them in the oil with the minced pepper(s) for about 3 minutes on medium/high heat>
-Douse with the wine and turn up the heat. Cook until the alcohol has evaporated.
-Start cooking the pasta — /pasta.
-Lower the heat to medium and add the passata, some salt and plenty of pepper. Cook for about 15 minutes.
-Once finished, drain the pasta and add the sauce and the pecorino/parmesan, mix well and serve immediately. Optionally you can add some pecorino or parmesan on top.
+(cheese) <grate>
+    <set aside>
+(chili pepper) <mince>
+    <set aside>
+(meat) <cut, into thin strips>
+    <cook, in (olive oil) with (chili pepper); medium-high heat; about 3m>
+(meat) <douse, with (white wine)>
+Turn up the heat.
+{meat and wine} <cook> ?= alcohol evaporated
+(pasta) <cook>
+Meanwhile [
+    Lower heat to medium for the sauce.
+    {sauce} = {meat and wine} + (tomato passata) + (salt) + (pepper)
+        <cook, about 15m>
+]
+(pasta) <drain>
+{dish} = (pasta) + {sauce} + (cheese)
+    <mix, well>
+    <serve, immediately>
+Optional [
+    (extra cheese) <place, on top>
+]
+
+::notes
+
+Source pasta instructions: /pasta.
 
 ::story
 

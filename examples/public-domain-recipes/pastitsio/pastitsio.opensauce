@@ -18,37 +18,79 @@ serves: 6-8
 
 ::ingredients
 
-(penne rigate, for Pasta layer) 600g
-(salted water, for Pasta layer)
-(onion, large, finely diced, for Meat layer) 1
-(lean ground beef, for Meat layer) 700g
-(allspice, ground, for Meat layer) .5 TB
-(cinnamon, ground, for Meat layer) .5 TB
-(clove, ground, optional, for Meat layer) .25 TSP
-(tomato paste, for Meat layer) 340g
-(butter, for Béchamel layer) 226g
-(flour, for Béchamel layer) 226g
-(cold milk, for Béchamel layer) 1L
-(chicken stock, for Béchamel layer) 237ml
-(nutmeg, freshly grated, optional, for Béchamel layer)
-(cheese, grated, optional, for Béchamel layer)
+(penne rigate) 600g
+(salted water, for pasta)
+(onion, large, finely diced) 1
+(lean ground beef) 700g
+(allspice, ground) .5 TB
+(cinnamon, ground) .5 TB
+(clove, ground, optional) .25 TSP
+(tomato paste) 340g
+(butter) 226g
+(flour) 226g
+(milk, cold) 1L
+(chicken stock) 237ml
+(nutmeg, freshly grated, optional)
+(cheese, grated, optional)
+(oil) a bit
+(water, for tomato sauce) enough for a viscous sauce
 
 ::equipment
 
-(saucepan)
 (oven)
-(pot)
+(pot, large)
+(saucepan)
+(casserole dish)
+(lid, for casserole)
 
 ::instructions
 
-<preheat, oven to 190°C>
-In a large pot of salted water, cook the pasta per package directions. Drain and set aside.
-(onion) <cook, in a bit of oil until soft. Add meat and cook until browned, breaking meat into small pieces>
-<drain, any excess grease and add spices. Stir together and cook ~30 seconds>
-(tomato paste) <mix, with enough water to create a viscous tomato sauce. Add sauce to meat and simmer 2-3 minutes before setting aside>
-In a saucepan melt the butter and add the flour. Cook 2-3 mins until no longer starchy, whisking frequently. Add milk gradually and whisk continuously. Add stock and cook until sauce is thickened. Add nutmeg and season to taste.
-<add, thin béchamel layer to bottom of casserole dish and assemble as follows: half pasta, all the meat sauce, 2nd half of pasta, rest of béchamel and cheese>
-<bake, covered for 45 minutes, removing lid last 5-10 minutes to brown top. Let cool 15 minutes>
+(oven) <preheat, 190°C>
+(penne rigate) <cook, in (pot), with (salted water), per package directions>
+    <drain>
+    <set aside>
+(onion) <cook, in (oil)> ?= soft
+{meat} = (onion) + (lean ground beef)
+    <cook> ?= browned
+Meanwhile [
+    (lean ground beef) <break, into small pieces>
+]
+{meat} <drain, excess grease>
+    + (allspice) + (cinnamon)
+Optional [
+    {meat} + (clove)
+]
+{meat} <stir>
+    <cook, ~30s>
+{tomato sauce} = (tomato paste) + (water)
+    <mix> ?= viscous sauce
+{meat sauce} = {meat} + {tomato sauce}
+    <simmer, 2-3m>
+    <set aside>
+(butter) <melt, in (saucepan)>
+{roux} = (butter) + (flour)
+    <cook, 2-3m> ?= no longer starchy
+Meanwhile [
+    {roux} <whisk, frequently>
+]
+Add (milk) gradually to the roux while whisking continuously.
+{béchamel} + (chicken stock)
+    <cook> ?= thickened
+Optional [
+    {béchamel} + (nutmeg)
+]
+{béchamel} <season, to taste>
+Spread a thin layer of {béchamel} on the bottom of (casserole dish).
+Layer half the cooked (penne rigate), all {meat sauce}, the remaining pasta, then the rest of {béchamel}.
+Optional [
+    (casserole dish) + (cheese)
+]
+(casserole dish) <cover, with (lid)>
+{pastitsio} <bake, in (oven), 45m total>
+Meanwhile [
+    (lid) <remove, for the last 5-10m, to brown the top>
+]
+{pastitsio} <cool, 15m>
 
 ::source
 <<<

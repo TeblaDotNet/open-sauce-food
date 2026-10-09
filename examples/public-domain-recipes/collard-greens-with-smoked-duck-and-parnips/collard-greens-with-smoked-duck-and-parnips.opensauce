@@ -18,30 +18,45 @@ serves: 2
 
 ::ingredients
 
-(smoked duck breast chopped, skin on) 1/2
-(onion sliced, large) 1
-(parsnip julienned, small) 1
-(bunch collard greens chopped into ribbons, large) 1
-(green cabbage cut into ribbons, optional) 1/2
-(olive oil and/or butter) 1–2 tablespoons
-(coriander, ground) 1 teaspoon
-(cinnamon) 1/2 teaspoon
-(garam masala) 1/2 teaspoon
+(smoked duck breast, skin on; chopped) 1/2
+(onion, large; sliced) 1
+(parsnip, small; julienned) 1
+(collard greens, cut into ribbons) 1 large bunch
+(green cabbage, cut into ribbons; optional) 1/2
+(fat, olive oil and/or butter) 1–2tbsp
+(coriander, ground) 1tsp
+(cinnamon) 1/2tsp
+(garam masala) 1/2tsp
+(pepper, freshly ground) a few twists
+(water) 2tbsp
 
 ::equipment
 
-(oven)
-(pot)
+(greens pot) = (Dutch oven, large) -OR- (pot, big; with lid)
+(lid)
 
 ::instructions
 
-In a large dutch oven （or a big pot with a lid） on low heat, add the chopped duck breast and olive oil and/or butter to the pot for a couple of minutes. Then add the spices, and cook for a minute or two before adding the sliced onion. Let cook for 5 minutes and then add the parsnip and sweat.
-<add, the ribboned cabbage and collard greens, a few twists of freshly ground pepper, and two tablespoons of water to the pot and cover. Cook until the greens are wilted and tender to the bite>
+(greens pot) + (smoked duck breast) + (fat)
+(smoked duck breast) <cook, low heat; a couple of minutes>
+(greens pot) + (coriander) + (cinnamon) + (garam masala)
+{duck and spices} <cook, 1–2m>
+(greens pot) + (onion)
+{duck and onions} <cook, 5m>
+(greens pot) + (parsnip)
+(parsnip) <sweat>
+Optional [
+    (greens pot) + (green cabbage)
+]
+(greens pot) + (collard greens) + (pepper) + (water)
+(greens pot) <cover, with (lid)>
+{greens} <cook> ?= wilted and tender to the bite
+Season to taste after cooking, since the smoked duck adds saltiness.
 
 ::notes
 
-This dish was a pandemic leftover invention loosely inspired by Ethiopian gomen. It can be served as a side dish, but we eat it an an entree. If you intend it as a side dish, then this serves 4. The smoked duck adds a bit of saltiness, so it's better to season to taste after cooking. Serve with good quality, crusty bread.
-
+# A pandemic leftover invention loosely inspired by Ethiopian gomen.
+Serve with good-quality crusty bread. Serves two as an entrée or four as a side dish.
 
 ::source
 <<<

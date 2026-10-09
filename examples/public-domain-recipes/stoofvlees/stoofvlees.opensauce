@@ -18,40 +18,72 @@ serves: 4
 
 ::ingredients
 
-(onion, Large) 2
-(butter) 1 tablespoon
-(chuck roast, cut in bite-sized pieces) 1kg
-(beer, brown) 2 bottles of 33cl
-(bayleaves) 2
-(twigs of thyme) 2
-(ingredient described in source, spice) 1 clove
-(belgian apple/pear syrup, optional, ill write up a recipe for this soon) 2 tablespoons
+(onion, large) 2
+(butter, for onions) 1 tablespoon
+(butter, for beef) a second spoon, specified only in the method
+(chuck roast, bite-sized pieces) 1kg
+(brown beer) 2 bottles （33cl each）
+(bay leaf) 2
+(thyme) 2 twigs
+(clove, spice) 1
+(Belgian apple/pear syrup, optional) 2 tablespoons
 (vinegar) 2 teaspoons
-(bread) 1 slice
-(mustard)
+(bread, preferably brown) 1 slice
+(mustard) a generous spread on both sides
+(salt)
+(pepper)
 
 ::equipment
 
-(saucepan)
-(frying pan)
-(oven)
-(pot)
+(stew pot) = (saucepan, large) -OR- (Dutch oven)
+(frying pan, large)
+(kitchen twine, optional)
+(lid)
+(fork, for checking)
+(spoon, for checking)
 
 ::instructions
 
-<peel, the onions and cut them into medium sized pieces, don't cut the onion too small>
-<place, a large saucepan or dutch oven on low heat and add 1 tbsp butter. Once melted add your onions, cook until translucent>
-While your onions are cooking place a large frying pan on medium high heat and melt your second spoon of butter.
-<fry, up your beef until it has a nice brown crust, to prevent overcrowding the pan you should sear the meat in separate batches, be careful to not burn the fond on the bottom of the pan.season the meat with salt and pepper while its cooking>
-When a piece of beef is done searing add it to the pot with the onions, once you're done searing all of your meat add your beer to the frying pan and use it to deglaze, scrape off all the pieces stuck to the frying pan.
-<add, the beer you used to deglaze to the pot with the onions and beef>
-<add, the bayleaf and thyme, optionally you can bind them together with some kitchen twine so they are easier to pick out later>
-<add, your clove and if you have it the syrup>
-<take, your piece of preferably brown bread and generously spread it with mustard on both sides, place it in the sauce>
-<let, it simmer on low heat, stirring once every 10-15 minutes. when the sauce has reached your desired thickness place a lid on the pot>
-The cooking time will depend on the quality of your meat, start checking the if your meat is done once its been simmering for about 2 hours.
-The meat is done when the pieces hold together when gently stirring the sauce, but are easily cut with a fork or spoon.
-Finish the sauce by gently stirring in the vinegar to brighten up the flavors and serve.
+(onion) <peel>
+    <cut, into medium-sized pieces>
+Do not cut the onions too small.
+(butter, for onions) <melt, in (stew pot), low heat>
+(onion) <cook, in (stew pot)> ?= translucent
+Meanwhile [
+    (butter, for beef) <melt, in (frying pan), medium-high heat>
+    Sear (chuck roast) in separate batches to avoid overcrowding; take care not to burn the fond.
+    (chuck roast) <fry, in (frying pan)> ?= nice brown crust
+    Meanwhile [
+        (chuck roast) <season, with (salt) + (pepper)>
+    ]
+    Transfer each piece of (chuck roast) to (stew pot) with the onions as it finishes searing.
+]
+After all the beef is seared:
+(frying pan) <deglaze, with (brown beer)>
+    <scrape, all stuck pieces>
+Pour the deglazing beer into (stew pot) with (onion) and (chuck roast) to make {stew}.
+Optional [
+    (bay leaf) + (thyme) <bind, with (kitchen twine), for easier removal later>
+]
+{stew} + (bay leaf) + (thyme) + (clove)
+Optional [
+    {stew} + (Belgian apple/pear syrup)
+]
+(bread) <spread, generously, both sides, with (mustard)>
+{stew} + (bread)
+    <simmer, low heat>
+Meanwhile [
+    {stew} <stir, once every 10-15m>
+    When the sauce reaches the desired thickness, cover (stew pot) with (lid).
+    Start checking the meat after about 2 hours of simmering; cooking time depends on meat quality. It is done when pieces hold together during gentle stirring but cut easily with (fork) or (spoon).
+]
+{stew} + (vinegar)
+    <stir, gently>
+    <serve>
+
+::notes
+
+Traditionally served with fries and chicory salad. The ingredient list has 1 tablespoon butter; the method uses that tablespoon for the onions and a second spoon for the beef. Both uses are preserved explicitly without silently changing the listed total.
 
 ::story
 

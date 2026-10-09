@@ -14,31 +14,55 @@ tags: american
 
 ::ingredients
 
-(ap flour) 2 cups
-(sugar; white) 1 tsp
-(baking powder) 1 tbsp
-(kosher salt) 1 tsp
-(sweet butter) 8 tbsp
-(whole milk) 3/4 cup
+(flour, all-purpose) 2cups
+(white sugar) 1tsp
+(baking powder) 1tbsp
+(kosher salt) 1tsp
+(sweet butter) 8tbsp
+(whole milk) 3/4cup
 
 ::equipment
 
 (oven)
 (bowl)
+(fork, for fork-mixing method)
+(mug) -OR- (cup) -OR- (cookie cutter)
+(cast iron pan)
 
 ::instructions
 
-<preheat, oven to 425°F>
-In a bowl combine dry ingredients
-Cube butter and add to dry ingredients
-<mix, butter with hands or fork until a cornmeal consistency is achieved>
-<add, milk and mix until homogeneous>
-<roll, biscuits out to approx. 3/4 of an inch thick>
-<use, a mug, cup, or cookie cutter to cut out rounds of dough>
-<arrange, rounds in a cast iron pan>
-<bake, for 12 to 15 minutes>
-<remove, from oven and eat hot>
-Will keep on counter or in a brisker
+(oven) <preheat, 425°F>
+{dry mixture} = (bowl) + (flour) + (white sugar) + (baking powder) + (kosher salt)
+(sweet butter) <cube>
+{mixture} = {dry mixture} + (sweet butter)
+[
+    {mixture} <mix, by hand> ?= cornmeal consistency
+]
+-OR-
+[
+    {mixture} <mix, with (fork)> ?= cornmeal consistency
+]
+{dough} = {mixture} + (whole milk)
+    <mix> ?= homogeneous
+    <roll, approximately 3/4 inch thick>
+[
+    {dough} <cut, rounds using (mug)>
+]
+-OR-
+[
+    {dough} <cut, rounds using (cup)>
+]
+-OR-
+[
+    {dough} <cut, rounds using (cookie cutter)>
+]
+{rounds} <arrange, in (cast iron pan)>
+    <bake, in (oven); 12–15m>
+{biscuits} <remove, from (oven)>
+
+::notes
+
+Eat hot. The source says these keep on the counter or in a brisker.
 
 ::story
 

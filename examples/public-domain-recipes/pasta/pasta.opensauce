@@ -16,27 +16,43 @@ tags: italian, pasta, quick, basic, fasting
 ::ingredients
 
 (pasta)
-(basil, optional)
-(butter, optional)
+(water)
+(salt)
+(basil leaves, optional)
+(other herbs and aromatics, optional)
+(butter, room temperature; optional) a knob or so
 
 ::equipment
 
-(pot)
+(pot, large)
+(strainer)
 
 ::instructions
 
-<fill, a large pot about half or 3/4th full with water>
-Salt the water profusely. The rule of thumb is that water for boiling pasta should taste as salty as the sea.
-<bring, water to a rolling boil>
-Now add pasta.
-<keep, it boiling, but decrease heat as it tries to overflow>
-<wait, until pasta is at the preferred softness (see below), then strain it>
-While the pasta is sitting in your strainer, you may add basil leaves or other herbs and aromatics. I also recommend taking a knob or so of room temperature butter and add it in and stirring it, melting it into the pasta.
+(pot) <fill, about half to three-quarters full with (water)>
+(water) + (salt, profusely)
+The water should taste as salty as the sea.
+(water) <boil, rolling>
+(pot) + (pasta)
+(pasta) <boil> ?= preferred softness
+Decrease the heat as it tries to overflow, while keeping it boiling.
+(pasta) <strain, using (strainer)>
+While the pasta sits in the strainer:
+Optional [
+    (pasta) + (basil leaves)
+]
+Optional [
+    (pasta) + (other herbs and aromatics)
+]
+Optional [
+    (pasta) + (butter)
+    (pasta) <stir> ?= butter melted into pasta
+]
 
 ::notes
 
-The often recommended way to cook most pasta is al dente, which often means "slightly undercooked," or with a subtle firmness that makes it still substantial. Cooking pasta more than that is no great crime, but if you keep it in there for too long, it'll become mush.
-
+Al dente is often recommended: slightly undercooked or subtly firm. Longer cooking is possible, but too long makes pasta mushy.
+Pasta is usually served with sauce or used in another dish. Sauce source: /pasta-sauce.
 
 ::story
 

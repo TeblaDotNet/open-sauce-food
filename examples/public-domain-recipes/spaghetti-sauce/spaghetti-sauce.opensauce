@@ -18,25 +18,36 @@ serves: 10+
 
 ::ingredients
 
-(whole or diced tomatoes) 4 28 oz cans
-(tomato paste) 1 6 oz can
-(garlic gloves) 12
-(olive oil) 3/4 cup
+(tomatoes, whole or diced) 4 cans of 28oz
+(tomato paste) 1 can of 6oz
+(garlic cloves) 12 # Source spells gloves.
+(olive oil) 3/4cup
 (basil, optional)
 (red pepper flakes, optional)
+(salt) 1pinch
 
 ::equipment
 
-(pot)
+(pot, large)
 
 ::instructions
 
-<peel, and mince garlic>
-<heat, 1/2 a cup of olive oil in a large pot (high-low to low-medium heat), and heat the garlic until golden and fragrant>
-<add, the tomato paste and 4 cans of tomatos and bring to a simmer. If adding red pepper flakes add them now>
-<cook, uncovered for 45 minutes, stirring occasionally>
-<add, a pinch of salt, the remaining 1/4 cup of olive oil, and basil if you are adding that>
-\n
+(garlic cloves) <peel>
+    <mince>
+(pot) + (olive oil) 1/2cup
+(olive oil) <heat, high-low to low-medium heat>
+(garlic cloves) <heat, in (pot)> ?= golden and fragrant
+{sauce} = (pot) + (tomato paste) + (tomatoes)
+    <simmer>
+Optional [
+    {sauce} + (red pepper flakes)
+]
+{sauce} <cook, uncovered; 45m>
+    <stir, occasionally>
+{sauce} + (salt) + (olive oil, remaining) 1/4cup
+Optional [
+    {sauce} + (basil)
+]
 
 ::source
 <<<

@@ -20,30 +20,55 @@ serves: 4
 
 (pasta, Fusilli recommended but not essential) 300-400g
 (butter) 50g
-(flour) 100g
+(flour) 100g; required quantity may vary
 (milk) 200ml
 (cheddar cheese) 400g
-(rashers of bacon, optional) 6
+(bacon, optional) 6 rashers
 
 ::equipment
 
-(saucepan)
+(saucepan, for pasta)
+(saucepan, for sauce)
+(baking dish)
+(oven)
 
 ::instructions
 
-<grate, the cheese>
-<chop, up the bacon into roughly 2cm x 2cm squares>
-Start cooking the pasta — /pasta.
-Start melting the butter in another saucepan.
-Once melted, add flour and mix until the mixture forms a paste that does not stick to the sides. The quantity of flour required may vary.
-Now start adding the milk slowly, while mixing, as to avoid lumps.
-<heat, on low heat while stirring until the sauce becomes thick. If unsure, taste the sauce, and if you cannot taste the flour, it is ready for the next step>
-<add, 80% of the cheese and stir until melted in>
-<drain, the pasta and add to baking dish>
-<add, the sauce and mix in>
-If using bacon, fry it up and mix into the dish, making sure to include any fat that comes out of the bacon for extra flavour.
-<use, the rest of the cheese to cover the top>
-<bake, at gas mark 6 for about 30 minutes>
+(cheddar cheese) <grate>
+Optional [
+    (bacon) <chop, into roughly 2cm x 2cm squares>
+]
+(pasta) <cook, in (saucepan, for pasta)>
+Meanwhile [
+    (butter) <melt, in (saucepan, for sauce)>
+    {paste} = (butter) + (flour)
+        <mix> ?= paste that does not stick to the sides
+    The quantity of flour required may vary.
+    Add (milk) slowly while mixing to avoid lumps.
+    {sauce} <heat, low heat> ?= thick
+    Meanwhile [
+        {sauce} <stir>
+    ]
+    If unsure, taste the sauce; it is ready for the next step when you cannot taste flour.
+    {sauce} + (cheddar cheese) 80%
+        <stir> ?= cheese melted in
+]
+(pasta) <drain>
+    <put, into (baking dish)>
+{pasta bake} = (pasta) + {sauce}
+    <mix, in (baking dish)>
+Optional [
+    (bacon) <fry>
+    {pasta bake} + (bacon)
+    Include any fat that comes out of the bacon for extra flavour.
+    {pasta bake} <mix>
+]
+{pasta bake} <cover, with (cheddar cheese), remaining cheese on top>
+    <bake, in (oven), gas mark 6, ~30m>
+
+::notes
+
+Pasta-cooking guidance linked by the source: /pasta.
 
 ::source
 <<<

@@ -18,47 +18,51 @@ serves: 3-4
 
 ::ingredients
 
-(cream cheese) 1 8oz
-(uncoocked peeled shrimp) 1lb
-(milk, more milk for thinner sauce) 1/3 cup
-(parmesan cheese, grated) 3/4 cup
-(tblsp butter) 2
-(garlic powder) 1 tsp
-(pasta noodles of choice, e.g. approximately 9oz of fettuccine noodles)
+(cream cheese) 1 package of 8oz
+(shrimp, uncooked; peeled) 1lb
+(milk) 1/3cup
+(parmesan cheese, grated) 3/4cup
+(butter) 2tbsp
+(garlic powder) 1tsp
+(pasta noodles, of choice; e.g. approximately 9oz of fettuccine)
+(water) 4cups
 
 ::equipment
 
-(saucepan)
-(frying pan)
+(saucepan, medium)
+(frying pan, large)
+(plate)
 
 ::instructions
 
-Initial Preparation （5-10 minutes）
-<grate, your Parmesan Cheese>
-<peel, your shrimp>
-The dish has two main parts--the Pasta and the Alfredo Sauce. In order that you can have both finish about the same time, I have given estimates on the individual cook times.
-Preparing the Pasta （10-20 minutes）
-In a medium saucepan, bring 4 cups of water to a rapid boil.
-<turn, down to medium heat (Simmering)>
-<add, your pasta noodles>
-Preparing the Alfredo Sauce （7-10 minutes）
-In a large frying pan, add butter, garlic powder, and shrimp.
-On medium heat, sauté ingredients until shrimp are cooked.
-Then add the cream cheese broken into chunks.
-<stir, until creamy>
-Once cream cheese is to sauce consistency, add milk.
-<stir, until light simmer>
-<add, parmesan cheese and continue stirring>
-<stir, until cheese is mixed>
-<remove, from heat>
-Serving
-<strain, cooked pasta noodles>
-<serve, the strained noodles on a plate and top with alfredo sauce>
+(parmesan cheese) <grate>
+(shrimp) <peel>
+(saucepan) + (water)
+(water) <boil, rapidly in (saucepan)>
+Turn down to medium heat, simmering.
+(saucepan) + (pasta noodles)
+(pasta noodles) <cook, 10–20m estimated for the pasta stage>
+Meanwhile [
+    (frying pan) + (butter) + (garlic powder) + (shrimp)
+    {shrimp mixture} <sauté, medium heat> ?= shrimp cooked
+    (cream cheese) <break, into chunks>
+    (frying pan) + (cream cheese)
+    {sauce} <stir> ?= creamy and cream cheese at sauce consistency
+    {sauce} + (milk)
+    {sauce} <stir> ?= light simmer
+    {sauce} + (parmesan cheese)
+    {sauce} <stir> ?= cheese mixed
+    (frying pan) <remove, from heat>
+    # Estimated sauce stage: 7–10m.
+]
+(pasta noodles) <strain>
+    <serve, on (plate)>
+    <top, with the alfredo sauce>
 
 ::notes
 
-Shrimp fettuccine alfredo is one of the best tasting and low effort dishes. The recipe i give below yields an alfredo sauce that is a bit on the thicker side. If you want a thinner sauce, adding a touch or two more milk will thin out the sauce. This is a great meal for 3-4 people or you can eat one serving and freeze the rest for 2-3 more dinners.
-
+This makes a thicker sauce; add a touch or two more milk for a thinner sauce.
+Serves 3–4. Eat one serving and freeze the rest for 2–3 more dinners if desired.
 
 ::source
 <<<

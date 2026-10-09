@@ -19,31 +19,43 @@ image: farci-tomatoes.webp
 
 ::ingredients
 
-(tomatoes per person) 2
-(beef meat, ground) 300g
-(or 2 onions) 1
-(condiments of your choice, parsley, origan or cumin)
+(tomatoes) 2 per person
+(beef, ground) 300g
+(onion) 1 or 2
+(condiments, of choice, parsley or origan or cumin)
 (olive oil)
-(gruyere cheese)
-(salt and pepper)
+(Gruyere cheese)
+(salt)
+(pepper)
 (butter, optional)
 
 ::equipment
 
 (oven)
+(oven tray)
+(spoon)
 (bowl)
 
 ::instructions
 
-<heat, the oven to 200C>
-<slice, the top to the tomatoes and place them in the oven tray>
-<empty, the tomatoes using a spoon and reserve the interior of the tomatoes in a bowl>
-<mix, the interior of the tomatoes with the rest of the ingredients>
-Restuff the tomatoes.
-Optionally add a thin layer of butter on top of the tomatoes.
-<put, the "lid" on the tomatoes>
-<bake, for 40 minutes in the oven>
-<enjoy>
+(oven) <heat, 200°C>
+(tomatoes) <slice, tops off for lids>
+    <place, on (oven tray)>
+    <empty, using (spoon)>
+(tomatoes: interior) <reserve, in (bowl)>
+{filling} = (tomatoes: interior) + (beef) + (onion) + (condiments) + (olive oil) + (Gruyere cheese) + (salt) + (pepper)
+    <mix>
+(tomatoes) <restuff, with filling>
+Optional [
+    (tomatoes) <top, with (butter), thin layer>
+]
+(tomatoes: tops) <put, back as lids>
+{stuffed tomatoes} <bake, in (oven), 40m>
+# Enjoy!
+
+::notes
+
+The introduction mentions rice, but neither ingredients nor method specify rice. No rice quantity or preparation is invented.
 
 ::story
 

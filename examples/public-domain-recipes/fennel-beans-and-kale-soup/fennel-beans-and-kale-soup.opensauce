@@ -22,28 +22,43 @@ image: fennel-bean-kale-soup.webp
 (olive oil) ½ cup
 (fennel bulbs, small, small-diced) 2
 (yellow onions, small, small-diced) 2
-(fresh rosemary or thyme, minced) 4 teaspoons
+(herb) = (rosemary, fresh, minced) 4 teaspoons -OR- (thyme, fresh, minced) 4 teaspoons
 (garlic, minced or pressed) 10 cloves
 (red-pepper flakes) ½-1 teaspoon
-(kale, escarole, swiss chard, or spinach can also be used, .) 10-12 oz
+(greens) = (kale) 10-12 oz -OR- (escarole) 10-12 oz -OR- (swiss chard) 10-12 oz -OR- (spinach) 10-12 oz
 (cannellini beans, rinsed) 4 cans
 (chicken broth) 4 cups
 (lemon: juice) 2 tablespoons
-(parmesan, grated, plus extra for serving if desired) 6 tablespoons
+(parmesan, grated) 6 tablespoons plus extra for serving if desired
+(black pepper)
 
 ::equipment
 
-(pot)
+(pot, large, for soup)
+(wooden spoon)
 
 ::instructions
 
-In a large soup pot, heat olive oil over medium.
-<add, fennel, onion, rosemary and mix until tender (4-6 min)>
-<add, garlic, red pepper flakes, cook until fragrant (1 min)>
-<add, one handful of greens at a time, stirring until leaves wilt>
-<add, white beans, broth, and black pepper,>
-<bring, to boil then bring to simmer while mashing some of the beans with a wooden spoon. Simmer until liquid has reduced and simmered (6-8 mins)>
-<take, off heat, stir in lemon juice and parmesan. Serve with some toasted bread that is good at scooping up soup. Enjoy>
+(olive oil) <heat, in (pot), medium heat>
+{vegetables} = (fennel bulbs) + (yellow onions) + (herb)
+    <mix, in (pot), 4-6m> ?= tender
+    + (garlic) + (red-pepper flakes)
+    <cook, 1m> ?= fragrant
+Add (greens) one handful at a time, stirring until the leaves wilt.
+{soup} = {vegetables} + (greens) + (cannellini beans) + (chicken broth) + (black pepper)
+    <bring to boil>
+    <simmer, 6-8m> ?= liquid reduced
+Meanwhile [
+    (cannellini beans) <mash, some of the beans, with (wooden spoon)>
+]
+{soup} <remove, from heat>
+    + (lemon: juice) + (parmesan)
+    <stir>
+# Enjoy!
+
+::notes
+
+Serve with toasted bread suitable for scooping up soup. Add extra parmesan if desired.
 
 ::story
 

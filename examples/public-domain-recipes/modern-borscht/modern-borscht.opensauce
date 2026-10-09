@@ -19,60 +19,122 @@ serves: 8-10
 
 ::ingredients
 
-(beef tenderloin, or stew meat if you are frugal) 1 lb
+(meat, optional) = (beef tenderloin) 1 lb -OR- (stew meat) 1 lb
 (onion) 1
 (carrot) 3
-(beets, large, or 3 medium beets) 2
-(celery shoots) 4
-(potatoes, large, Yukon Gold preferred, but any quality potatoes work) 2
+(beet selection) = (beets, large) 2 -OR- (beets, medium) 3
+(celery) 4 shoots
+(potatoes, large, Yukon Gold preferred) 2
 (garlic) 3-4 cloves
-(beef stock, or quality beef bullion such as "Better than Bullion" or equivalent and 4 cups water) 4 cups
+# Choose beef stock OR quality beef bouillon with water as described in instructions.
+(beef stock) 4 cups
+(beef bouillon) quality, such as Better than Bullion or equivalent
+(water, for stock) 4 cups
 (cabbage) 1/2 head
 (cumin) 1 heaping tbsp
 (coriander, ground) 1 heaping tbsp
 (tomatoes, diced) 1 can
-(bay leaves) 3
-(olive oil)
-(butter)
-(dill, Fresh, or dehydrated)
-(salt / pepper)
-(sour cream, Optional)
+(bay leaf) 3
+(olive oil) a thin layer for the pot
+(butter) 1/4-1/3 stick
+(dill selection) = (dill, fresh) to taste -OR- (dill, dehydrated) to taste
+(salt) to taste
+(pepper) to taste
+(sour cream, optional) 1-2 spoonfuls per bowl
+(water, for heat check) a few drops
 
 ::equipment
 
-(bowls, large) 3
-(pot, 5 quart; source also says 5 litre; with a lid) 1
-(strainer) 1
-(bowl)
-(pot)
+(bowl, large, 1)
+(bowl, large, 2)
+(bowl, large, 3)
+(pot, 5 quart; source also says 5 litre)
+(lid)
+(strainer)
+(cheese grater, optional)
 
 ::instructions
 
-Prep Directions （30-45 min）
-Finely dice onion and garlic cloves. Set aside in large bowl 1.
-<cut, off beet greens. Skin carrots and beets>
-Finely slice carrots and celery （2-3 mm maximum, 1/16-1/8" maximum）. Add to large bowl 1.
-(beets) <shred, using cheese grater. Or, if preferred, cut into small cubes no greater than 1x1 inch in size. Shredded beets break down better when cooked and release more flavor into the broth. Set aside in large bowl 2>
-<cut, beef into 1x1 inch cubes, or "Spoon size" cubes>
-15 minutes before the end of the first simmer - Cut potatoes into 1x1 cubes. Do not cut them too soon or the flesh will turn brown.
-After adding potatoes into the simmering mixture - Remove outer leaf and cut head of cabbage into quarters. Then dice the quarters.
-Cooking Directions （90 min）
-<use, high heat and get the 5qt pot hot. Flick a few drops of water onto the pot and when they start "dancing" it is hot enough>
-<coat, the bottom of the pot with a thin layer of olive oil and let it heat up for about 30 seconds to 1 minute>
-<sear, the beef on all sides until all cubes are browned. Salt and pepper the beef to taste. It is OK if the meat sticks to the bottom of the pot. Place a strainer in large bowl 3>
-Once browned, remove the beef from the pot. Place into strainer and let the juices drain.
-<add, the carrot/onion/celery/garlic mixture from large bowl 1 to the hot pot>
-<add, 1/4 to 1/3 stick of butter to this veggie mixture. Stir and agitate constantly until onions and celery are translucent and carrots begin to soften>
-<add, the strained meat, the beets from large bowl 2, the canned tomatoes, the beef stock, the cumin, the bay leaves, and the coriander to the pot. Stir until well blended>
-<bring, mixture to a boil on high heat. When a boil is achieved, reduce heat to a simmer and simmer for 60 minutes with the lid on. REMINDER - after 45 minutes, cube the potatoes>
-After 60 minutes of simmering, add the cubed potatoes and the dill （to taste） to the mixture. Stir until well blended. Cover, and simmer for 15 minutes. REMINDER - during this 15 minute simmer, dice the 1/2 head of cabbage.
-After 15 minutes, or until potatoes are soft, add the cabbage to the pot. Simmer for 2 minutes uncovered to heat the cabbage.
-<serve, The cabbage should be hot, yet still crunchy. It will retain this crunchiness through refrigeration and re-heating due to the short heat cycle. 1-2 spoonfulls of sour cream is recommended per bowl for additional flavor>
+(onion) + (garlic) <dice, finely>
+    <set aside, in (bowl, 1)>
+(beet selection) <trim, greens>
+(carrot) <peel>
+(beet selection) <peel>
+(carrot) + (celery) <slice, finely, 2-3 mm maximum / 1/16-1/8 inch maximum>
+    <place, in (bowl, 1)>
+[
+    (beet selection) <shred, with (cheese grater)>
+]
+-OR-
+[
+    (beet selection) <cut, into cubes no larger than 1x1 inch>
+]
+(beet selection) <set aside, in (bowl, 2)>
+# Shredded beets break down better and release more flavour into the broth.
+Optional [
+    (meat) <cut, into 1x1 inch or spoon-size cubes>
+]
+(pot) <heat, high heat>
+Flick (water, for heat check) onto (pot); it is hot enough when the drops dance.
+(pot) <coat, bottom, with (olive oil)>
+(olive oil) <heat, 30s-1m>
+Optional [
+    (meat) <sear, in (pot), all sides> ?= all cubes browned
+        <season, with (salt) + (pepper), to taste>
+    It is OK if the meat sticks to the bottom of the pot.
+    (strainer) <place, in (bowl, 3)>
+    (meat) <remove, from (pot)>
+        <place, in (strainer)>
+        <drain, juices>
+]
+{vegetables} = (onion) + (garlic) + (carrot) + (celery)
+    <place, in (pot), hot>
+    + (butter)
+    <stir, constantly> ?= onions and celery translucent and carrots beginning to soften
+Optional [
+    {vegetables} + (meat)
+]
+[
+    {stock} = (beef stock)
+]
+-OR-
+[
+    {stock} = (beef bouillon) + (water, for stock)
+]
+{soup} = {vegetables} + (beet selection) + (tomatoes) + {stock} + (cumin) + (bay leaf) + (coriander)
+    <stir> ?= well blended
+    <boil, high heat>
+<reduce heat, to a simmer>
+{soup} <cover, with (lid)>
+    <simmer, 60m>
+Meanwhile [
+    After 45 minutes of this simmer, 15 minutes before it ends:
+    (potatoes) <cut, into 1x1 cubes>
+    Do not cut them too soon or the flesh will turn brown.
+]
+{soup} + (potatoes) + (dill selection)
+    <stir> ?= well blended
+    <cover, with (lid)>
+    <simmer, 15m>
+
+Meanwhile [
+    (cabbage) <remove, outer leaf>
+        <quarter>
+        <dice>
+]
+After 15 minutes, or until the potatoes are soft:
+{soup} + (cabbage)
+    <simmer, 2m, uncovered>
+    <serve>
+The cabbage should be hot but still crunchy.
+Optional [
+    {soup} + (sour cream) 1-2 spoonfuls per bowl
+]
 
 ::notes
 
-This is a modern take on classic Eastern European Borscht. Meat is optional, but quality beef cuts are recommended and preferred.
-
+This is a modern take on classic Eastern European Borscht. Meat is optional, but quality beef cuts are recommended and preferred. Yukon Gold potatoes are preferred, but any quality potatoes work.
+The source says the cabbage retains its crunch through refrigeration and reheating because of the short heat cycle.
 
 ::source
 <<<

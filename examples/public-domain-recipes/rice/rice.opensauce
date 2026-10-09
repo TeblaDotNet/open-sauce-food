@@ -15,26 +15,40 @@ tags: basic, rice, side, fasting
 ::ingredients
 
 (rice)
-(chicken stock — /chicken-stock-bone-broth, optional)
-(onion or garlic, optional)
-(lime and cilantro, optional, for a Mexican taste)
+(liquid) = (water) -OR- (chicken stock) -OR- (broth)
+(aromatic, optional) = (onion) -OR- (garlic)
+(lime, optional Mexican variation)
+(cilantro, optional Mexican variation)
 
 ::equipment
 
 (pot)
+(lid)
 
 ::instructions
 
-<add, some amount of rice to a pot that has a cover>
-<add, twice as much liquid to the same pot. Water is typical, but for extra flavor, use stock or broth>
-If desired, dice onion or garlic and mix into rice.
-<cover, the pot, put it on the stove and turn the heat on the highest level>
-As soon as you hear the water beginning to bubble and boil over, turn the heat down to low and allow it to simmer.
-<wait, for twenty minutes or so until the liquid has evaporated and the rice will be ready>
-For Mexican rice
-For Mexican rice, you might want to avoid cooking in stock to avoid taste clashes.
-<dice, up some cilantro>
-<mix, in cilantro to finished rice, along with some squeezes of lime juice>
+(rice) <put, in (pot)>
+(liquid) <put, in (pot), twice as much liquid as rice>
+Optional [
+    (aromatic) <dice>
+        <mix, into the rice>
+]
+(pot) <cover, with (lid)>
+    <put, on the stove>
+Turn heat to the highest level.
+As soon as you hear the liquid beginning to bubble and boil over, turn heat to low.
+(rice) <simmer, ~20m> ?= liquid evaporated
+Optional [
+    For the Mexican variation:
+    (cilantro) <dice>
+    {finished rice} + (cilantro) + (lime: juice) some squeezes
+        <mix>
+]
+
+::notes
+
+Water is typical; stock or broth adds flavour. For the Mexican variation, the source suggests avoiding stock to prevent taste clashes.
+Source chicken-stock link: /chicken-stock-bone-broth.
 
 ::story
 

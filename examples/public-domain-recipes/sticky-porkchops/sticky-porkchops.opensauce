@@ -18,22 +18,44 @@ serves: 4
 
 ::ingredients
 
-(pork chop) 4
-(heaped tbsp set honey) 2
+(pork chops) 4
+(set honey) 2 heaped tbsp
 (garlic cloves, crushed) 3
 (soy sauce)
-(ginger, thumb sized piece, sliced)
-(chinese five spice) 1 tbsp
+(ginger, sliced) 1 thumb-sized piece
+(Chinese five spice) 1tbsp
+(olive oil) some
+
+::equipment
+
+(dish, shallow)
+(clingfilm)
+(fridge)
+(pan)
 
 ::instructions
 
-<fill, a shallow dish with soy sauce to about half the thickness of your porkchops. The level shouldn't be able to fully submerge them>
-<mix, in the honey until fully combined with the soy sauce, then mix in the garlic, ginger and chinese five spice>
-<place, your porkchops in the dish, then flip them>
-<cover, the dish with clingfilm, then chill in the fridge for 1h 30mins>
-<take, the dish out of the fridge, flip the porkchops, then recover the dish and chill for a further 1h 30mins>
-<heat, some olive oil in a pan over medium heat, then place your porkchops in the pan and cook for 10-15mins or until cooked through>
-<take, the porkchops out the pan, then rest for a couple of minutes before slicing and serving>
+(dish) <fill, with (soy sauce) to about half the thickness of the pork chops>
+The sauce level must not fully submerge the chops.
+{marinade} = (soy sauce) + (set honey)
+    <mix> ?= fully combined
+{marinade} + (garlic cloves) + (ginger) + (Chinese five spice)
+{marinade} <mix>
+(pork chops) <place, in (dish)>
+    <flip>
+(dish) <cover, with (clingfilm)>
+    <chill, in (fridge); 1h30m>
+    <remove, from (fridge)>
+(pork chops) <flip>
+(dish) <cover, again>
+    <chill, in (fridge); another 1h30m>
+(olive oil) <heat, in (pan); medium heat>
+(pork chops) <place, in (pan)>
+    <cook, 10–15m> ?= cooked through
+    <remove, from (pan)>
+    <rest, a couple of minutes>
+    <slice>
+    <serve>
 
 ::story
 

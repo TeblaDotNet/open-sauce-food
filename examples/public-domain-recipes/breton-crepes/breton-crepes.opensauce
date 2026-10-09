@@ -17,15 +17,39 @@ tags: french, cheesefare
 
 (buckwheat flour) 500g
 (egg) 1
-(water) 70cl
+(water, for batter) 70cl
+(salt)
+(salted butter, for reheating) a bit
+(water, for T stick)
+
+::equipment
+
+(crepe maker) -OR- (pan, big; flat)
+(T stick, for crepe maker)
 
 ::instructions
 
-<mix, flour, salt, egg and water. (In this order to avoid dry flour)>
-<let, it rest one hour at room temperature>
-<cook, the galette on a crepe-maker or a big flat pan>
-When garnishing, heat the galette again with a bit of salted butter.
-Always keep the crepe-maker's T stick in water while cooking so the dough doesn't dry on it. It will then be easier to spread the dough.
+Mix in this order to avoid dry flour:
+(buckwheat flour) + (salt)
+{mixture} + (egg)
+{batter} = {mixture} + (water, for batter)
+    <mix>
+    <rest, 1h; room temperature>
+[
+    {galettes} <cook, on (crepe maker)>
+    Meanwhile [
+        (T stick) <keep, in (water, for T stick); while cooking so dough does not dry on it>
+    ]
+]
+-OR-
+[
+    {galettes} <cook, on (pan)>
+]
+When garnishing, reheat the galette with a bit of (salted butter).
+
+::notes
+
+Traditionally garnished with ham, eggs and cheese. Keeping the T stick wet makes spreading easier.
 
 ::story
 

@@ -21,31 +21,53 @@ serves: 6
 (red lentils) 1 cup
 (olive oil) 5 Tbsp
 (paprika) 1 Tbsp
-(red paper flakes) 1/2 Tbsp
+(red pepper flakes, ingredient list says Red Paper Flakes; method says red pepper) 1/2 Tbsp
 (onion, large, finely diced) 1
 (carrot, large, diced) 1
 (tomato paste) 4 tsp
 (cumin) 2 tsp
-(mint, Dried) 1/2 tsp
-(thyme or oregano) 1/2 tsp
+(mint, dried) 1/2 tsp
+(herb) = (thyme) 1/2 tsp -OR- (oregano) 1/2 tsp
 (vegetable broth) 4 cup
 (water) 4 cup
+(salt)
 
 ::equipment
 
-(bowl)
-(pot)
+(pot, large)
+(lid)
+(saucepan, small)
+(bowls)
 
 ::instructions
 
-Reserve half the paprika and red pepper flakes, set aside.
-Pick through lentils for any foreign debris, rinse two or three times, drain and set aside.
-In a large pot over medium-high heat, saute 2 Tbsp of the olive oil and and onion with a pinch of salt for 3 minutes. Add the carrots and saute for another 3 minutes.
-<add, the tomato paste and stir it around for 1 minute. Add cumin, mint, thyme, and the paprika/pepper flakes not reserved - and saute for 10 seconds to bloom the spices. Immediately add the lentils, water, broth, and salt. Bring the soup to a boil>
-Once boiling, reduce heat to a medium, cover the pot halfway, and cook for 15-20 minutes or until the lentils have fallen apart and the carrots are fully softened.
-Meanwhile, heat the remaining olive oil in a small sauce pan over medium heat, and swirl in the reserved paprika and red pepper flakes. The moment you see the paprika start to bubble, remove the pan from the heat.
-<blend, the soup to reach the desired consistency. Taste for seasoning>
-<divide, soup into bowls and drizzle the paprika oil on top of each serving>
+Reserve half of (paprika) and half of (red pepper flakes).
+(red lentils) <pick through, for foreign debris>
+    <rinse, two or three times>
+    <drain>
+    <set aside>
+(pot) + (olive oil) 2 Tbsp + (onion) + (salt) a pinch
+(onion) <sauté, in (pot), medium-high heat, 3m>
+    + (carrot)
+{vegetables} <sauté, another 3m>
+    + (tomato paste)
+    <stir, 1m>
+    + (cumin) + (mint) + (herb) + (paprika) unreserved half + (red pepper flakes) unreserved half
+    <sauté, 10s to bloom the spices>
+Immediately add (red lentils), (water), (vegetable broth) and (salt).
+{soup} <bring to boil>
+Reduce heat to medium and cover (pot) halfway with (lid).
+{soup} <cook, 15-20m> ?= lentils fallen apart and carrots fully softened
+Meanwhile [
+    (olive oil) remaining <heat, in (saucepan), medium heat>
+    {paprika oil} = (olive oil) remaining + (paprika) reserved half + (red pepper flakes) reserved half
+        <swirl, in (saucepan)>
+    The moment the paprika starts bubbling, remove the saucepan from the heat.
+]
+{soup} <blend> ?= desired consistency
+    <taste, for seasoning>
+    <divide, into (bowls)>
+{paprika oil} <drizzle, over each serving>
 
 ::notes
 

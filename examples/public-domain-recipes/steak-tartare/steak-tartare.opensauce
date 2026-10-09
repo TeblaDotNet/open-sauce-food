@@ -19,32 +19,47 @@ serves: 4
 
 ::ingredients
 
-(beef, Ground, Lean as possible)
+(beef, ground, as lean as possible)
 (egg)
-(onion or shallots)
+(allium) = (onion) -OR- (shallots)
 (capers)
-(gherkin / cornichons)
-(parsley, Optional)
-(ketchup, Optional)
-(mustard, Optional)
-(worcestershire sauce, Optional)
+(gherkin, cornichons)
+(parsley, optional)
+(ketchup, optional)
+(mustard, optional)
+(Worcestershire sauce, optional)
+(salt, if desired)
+(pepper, if desired)
 
 ::equipment
 
-(bowl)
+(mixing bowl)
+(plate)
 
 ::instructions
 
-<dice, your onions or shallots>
-Finely slice your cornichons.
-<rinse, , drain and chop your capers>
-<chop, parsley. (Optional)>
-<chop, ground beef into smaller pieces>
-<add, the above to a mixing bowl and mix with hands>
-<add, ketchup, mustard or Worcestershire sauce as needed and mix further. (Optional)>
-<separate, an egg yolk from the whites>
-Loosely roll some of the mixture into a ball in your hand and place onto a plate and press softly to form a bowl shape, add egg yolk to indentation.
-<serve, , you may now add salt and pepper as desired>
+(allium) <dice>
+(gherkin) <slice, finely>
+(capers) <rinse>
+    <drain>
+    <chop>
+Optional [
+    (parsley) <chop>
+]
+(beef) <chop, into smaller pieces>
+{mixture} = (allium) + (gherkin) + (capers) + (beef)
+If using parsley, include it now.
+{mixture} <mix, by hand, in (mixing bowl)>
+Optional [
+    Add (ketchup), (mustard) or (Worcestershire sauce) as needed, then mix further.
+]
+(egg: yolk) <separate, from white>
+{mixture} <roll, a portion loosely into a ball in your hand>
+    <place, on (plate)>
+    <press, softly into a bowl shape>
+(egg: yolk) <put, into the indentation>
+{tartare} <serve>
+Add (salt) and (pepper) as desired.
 
 ::story
 

@@ -19,28 +19,42 @@ image: spicy-sausage-pasta.webp
 
 ::ingredients
 
-(red onion, chopped) 2
-(olive oil)
-(spicy italian sausages) 6
-(sprig rosemary, needles finely chopped) 1
-(red chilli, deseeded and diced) 1
-(red wine, approx. 250ml) A large glass
-(x 400g tins chopped plum tomatoes) 2
+(red onions, chopped) 2
+(olive oil) a splash
+(spicy Italian sausages) 6
+(rosemary, needles finely chopped) 1sprig
+(red chilli, deseeded; diced) 1
+(red wine) 1 large glass / approximately 250ml
+(plum tomatoes, chopped) 2 tins of 400g
 (pasta, preferably penne) 300g
 (parmesan) 50g
 (double cream) 300ml
+(seasoning) some
 
 ::equipment
 
-(frying pan)
+(frying pan, deep)
+(wooden spoon)
 (bowl)
 
 ::instructions
 
-(red onion) <fry, with a splash of oil in a deep frying pan. Add the sausage meat (discarding the casings if need be). Add the rosemary and chilli>
-Increase the heat and break up the sausage meat with a wooden spoon. Once meat has browned, pour in red wine and reduce by half. Add the chopped tomatoes and reduce the sauce, uncovered, for about 30 mins. Cook the pasta according to packet instructions.
-(parmesan) <grate, into a bowl. Drain the pasta and stir into the sauce with the parmesan, double cream and some seasoning>
-<serve, :)>
+(red onions) <fry, with (olive oil) in (frying pan)>
+Discard sausage casings if necessary.
+(frying pan) + (spicy Italian sausages, meat) + (rosemary) + (red chilli)
+Increase the heat.
+(spicy Italian sausages) <break up, with (wooden spoon)>
+    <cook> ?= browned
+(red wine) <pour, into (frying pan)>
+    <reduce, by half>
+(frying pan) + (plum tomatoes)
+{sauce} <reduce, uncovered; about 30m>
+(pasta) <cook, according to packet instructions>
+(parmesan) <grate, into (bowl)>
+(pasta) <drain>
+{dish} = {sauce} + (pasta) + (parmesan) + (double cream) + (seasoning)
+    <stir>
+    <serve>
 
 ::story
 

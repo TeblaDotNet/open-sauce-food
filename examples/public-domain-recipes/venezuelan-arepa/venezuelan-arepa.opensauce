@@ -18,26 +18,43 @@ serves: 3-4
 
 ::ingredients
 
-(water) 2 ½ cups
-(precooked corn flour) 2 cups
-(delicatessen to taste)
+(water) 2 1/2cups
+(precooked corn flour) 2cups
+(filling, delicatessen of choice) to taste
+(salt) a little
+(oil)
+(butter)
 
 ::equipment
 
-(bowl)
+(mixing bowl, large)
+(pan)
+(butter knife)
 
 ::instructions
 
-<combine, the water, the precooked corn flour, and a little bit of salt in a large mixing bowl>
-<mix, the ingredients by hand until no clumps remain in the resulting dough and it has a smooth but solid consistency>
-<preheat, a pan with oil over low heat>
-<take, a piece of dough and form a ball the size of the palm of your hand>
-Carefully slap the ball side by side to make a disk neither too thick nor too thin.
-<repeat, the process with the remainder of the dough>
-<put, the arepas in the preheated pan and wait for it approximately 2 minutes and a half to flip it over>
-When both sides are cooked, take them out of the pan.
-<cut, through the middle of the arepas with a butter knife, and brush them with butter>
-<fill, them with delicatessen to taste (ham, cheese, beans, mortadella, eggs, etc.)>
+{dough} = (mixing bowl) + (water) + (precooked corn flour) + (salt)
+    <mix, by hand> ?= no clumps and smooth but solid
+(pan) + (oil)
+(pan) <preheat, low heat>
+Repeat [
+    {dough} <take, a piece>
+        <form, into a palm-sized ball>
+    {ball} <slap, carefully side to side into a disc> ?= neither too thick nor too thin
+]
+until all dough is shaped
+{arepas} <place, in (pan)>
+    <cook, approximately 2 1/2m>
+    <flip>
+    <cook> ?= both sides cooked
+    <remove, from (pan)>
+    <cut, through the middle with (butter knife)>
+    <brush, with (butter)>
+    <fill, with (filling)>
+
+::notes
+
+Suggested fillings include ham, cheese, beans, mortadella and eggs.
 
 ::story
 

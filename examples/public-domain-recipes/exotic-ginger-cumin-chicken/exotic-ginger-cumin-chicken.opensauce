@@ -19,7 +19,7 @@ serves: 8
 ::ingredients
 
 (vegetable oil, divided) 1 Tbsp
-(boneless skinless chicken, cut bite-size) 2 lbs
+(chicken, boneless, skinless, bite-sized) 2 lbs
 (garlic, minced) 2 tsp
 (onion, chopped) 1/2 cup
 (ginger root, minced) 1 Tbsp
@@ -30,18 +30,37 @@ serves: 8
 (stewed tomatoes) 1 can （19oz）
 (tomato paste) 2 Tbsp
 (sugar) 1 tsp
-(low fat plain yogurt) 3/4 cup
+(yogurt, low fat, plain) 3/4 cup
 
 ::equipment
 
-(saucepan)
+(saucepan, large)
 
 ::instructions
 
-In large saucepan heat 2 tsp oil over medium heat. Add half of the chicken and cook 3 minutes until brown. Remove from pan and set aside. Repeat with remaining chicken.
-<add, remaining oil to pan; add garlic, onion, and ginger. Reduce heat to medium and cook, stirring constantly for 5 minutes or until soft. Stir in cayenne, cumin, and turmeric; saute for 1 minute>
-<stir, in stock, tomatoes, tomato paste, and sugar; return chicken to pan. Bring to boil; reduce heat and simmer 5 minutes>
-<stir, in yogurt and simmer 2 minutes>
+(vegetable oil) 2 tsp <heat, in (saucepan), medium heat>
+(chicken) half <cook, in (saucepan), 3m> ?= brown
+    <remove, from (saucepan)>
+    <set aside>
+Repeat the cooking, removal and setting aside with the remaining half of the chicken.
+(saucepan) + (vegetable oil) remaining + (garlic) + (onion) + (ginger root)
+Reduce heat to medium.
+{aromatics} <cook, 5m> ?= soft
+Meanwhile [
+    {aromatics} <stir, constantly>
+]
+{aromatics} + (cayenne pepper) + (cumin) + (turmeric)
+    <stir>
+    <sauté, 1m>
+    + (chicken stock) + (stewed tomatoes) + (tomato paste) + (sugar)
+    <stir>
+(chicken) <return, to the pan>
+{chicken mixture} <bring to boil>
+Reduce the heat.
+{chicken mixture} <simmer, 5m>
+    + (yogurt)
+    <stir>
+    <simmer, 2m>
 
 ::source
 <<<

@@ -23,17 +23,26 @@ serves: 2
 (onion) 1/2
 (smoked paprika) 1 tsp
 (cumin, ground) 1/2 tsp
-(tomatoes, diced) 1 15 oz can
+(tomatoes, diced) 1 can （15 oz）
 (parsley flakes) 1 tbsp
 (prosciutto)
 (arugula)
+(olive oil)
+(salt) to taste
+(pepper) to taste
 
 ::instructions
 
-Sauté garlic and onions in olive oil until onions are translucent.
-<add, diced tomatoes, seasonings, and salt and pepper to taste. Simmer for 3 minutes>
-<add, the beans, season to taste, mix until combined, and simmer for an additional 2 minutes>
-<serve, over arugula and top with bits of prosciutto>
+{aromatics} = (garlic) + (onion)
+    <sauté, in (olive oil)> ?= onions translucent
+    + (tomatoes) + (smoked paprika) + (cumin) + (parsley flakes) + (salt) + (pepper)
+    <simmer, 3m>
+    + (cannellini beans)
+    <season, to taste>
+    <mix> ?= combined
+    <simmer, another 2m>
+{beans} <serve, over (arugula)>
+    <top, with (prosciutto), bits>
 
 ::source
 <<<

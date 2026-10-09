@@ -19,39 +19,46 @@ serves: 4
 
 ::ingredients
 
-(butter) 30g+
+(butter) 30g or more
 (cheddar cheese) 250g
 (milk) 275ml
 (flour) 16g
 (potatoes) 600g
 (bacon, to garnish) As much as you want
+(salt) to taste
+(pepper) to taste
 
 ::equipment
 
 (oven)
+(baking dish, deep, oven-safe)
 (pot)
+(tinfoil, if needed)
 
 ::instructions
 
-Preparation:
-<preheat, to 180C>
-<butter, deep baking dish>
-Peal and thinly slice potatoes
-<grate, Cheese>
-Sauce:
-<melt, Butter in Pot>
-<slowly add, flour and stir constantly>
-After 2 min or bubbly remove from heat
-<add, milk slowly, stirring constantly>
-<add, 3/4 of the cheese>
-Salt and Pepper to taste
-Assembly:
-<add, a thin layer of potatoes to the dish>
-<add, a layer of cheese sauce>
-<add, bacon>
-<repeat, steps 1-3 of assembly until there are no more potatoes/sauce>
-<add, the remaining 1/4 cheese to the top>
-<put, in oven for 45 min. If it starts to brown too much cover with tinfoil>
+(oven) <preheat, 180°C>
+(baking dish) <butter, with (butter)>
+(potatoes) <peel>
+    <slice, thinly>
+(cheddar cheese) <grate>
+(butter) <melt, in (pot)>
+Slowly add (flour), stirring constantly.
+After 2 minutes or when bubbly, remove the mixture from the heat.
+Add (milk) slowly while stirring constantly.
+{sauce} + (cheddar cheese) 3/4
+    <season, with (salt) + (pepper), to taste>
+Repeat [
+    (potatoes) <layer, thinly, in (baking dish)>
+    {sauce} <layer, over potatoes>
+    (bacon) <put, over the sauce>
+]
+until there are no more potatoes or sauce
+{potato bake} <top, with (cheddar cheese), remaining 1/4>
+    <bake, in (oven), 45m>
+Meanwhile [
+    If it starts to brown too much, cover with (tinfoil).
+]
 
 ::story
 

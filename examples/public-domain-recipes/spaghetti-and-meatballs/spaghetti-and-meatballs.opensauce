@@ -18,61 +18,108 @@ serves: 6
 
 ::ingredients
 
-(sweet yellow onion, chopped, for the sauce) ½
-(garlic, chopped, for the sauce) 3 cloves
-(carrot, finely chopped, for the sauce) 1 cup
-(cremini brown mushrooms, chopped, for the sauce) 1 cup
-(italian plum tomatoes, for the sauce) 2 cans （28 oz.）
-(fresh italian parsley, chopped, for the sauce) ¼ cup
-(fresh basil, chopped, for the sauce) ¼ cup
-(tomato paste, for the sauce) 3 tbsp.
-(parmesan-romano cheese blend, grated, for the sauce) ¼ cup
-(red wine, optional, for the sauce) ¼ cup
-(beef, ground, for the meatballs) 1 lb.
-(pork sausage, fresh bulk Italian style, for the meatballs) ½ lb.
-(basil, finely chopped, for the meatballs) 2 tbsp.
-(italian parsley, finely chopped, for the meatballs) 2 tbsp.
-(cremini brown mushrooms, finely chopped, for the meatballs) ½ cup
-(egg, large, for the meatballs) 2
-(unseasoned breadcrumbs, for the meatballs) ¾ cup
-(parmesan-romano cheese blend, grated, for the meatballs) ¼ cup
-(red wine, optional, for the meatballs)
-(dry spaghetti, for the pasta) 1 ½ lb.
+# Sauce
+(sweet yellow onion, chopped, for sauce) ½
+(garlic, chopped) 3 cloves
+(carrot, finely chopped) 1 cup
+(cremini brown mushrooms, chopped, for sauce) 1 cup
+(italian plum tomatoes) 2 cans （28 oz.）
+(italian parsley, fresh, chopped, for sauce) ¼ cup
+(basil, fresh, chopped, for sauce) ¼ cup
+(tomato paste) 3 tbsp.
+(parmesan-romano cheese blend, grated, for sauce) ¼ cup
+(red wine, optional, for sauce) ¼ cup
+(olive oil, for sauce)
+(salt, for sauce) 1 teaspoon to taste
+# Meatballs
+(beef, ground) 1 lb.
+(pork sausage, fresh bulk Italian style) ½ lb.
+(basil, finely chopped, for meatballs) 2 tbsp.
+(italian parsley, finely chopped, for meatballs) 2 tbsp.
+(cremini brown mushrooms, finely chopped, for meatballs) ½ cup
+(egg, large) 2
+(unseasoned breadcrumbs) ¾ cup
+(parmesan-romano cheese blend, grated, for meatballs) ¼ cup
+(salt and pepper, for meatballs) 2 tablespoons
+# Source gives a combined salt-and-pepper amount, without a split.
+(red wine, optional, for deglazing) a little bit
+(olive oil, for browning)
+# Pasta
+(spaghetti, dry) 1 ½ lb.
+(pasta water, optional) 1/3 cup
 
 ::equipment
 
-(bowl)
-(pot)
+(pot, 4 to 5 quart)
+(potato masher)
+(bowl, large)
+(melon baller, small)
+(teaspoon)
+(pan, separate, wide, shallow)
+(plate)
 
 ::instructions
 
-Prepare the sauce
-<heat, olive oil in a 4 to 5 quart pot on medium-high heat>
-<add, onions and cook for 2 minutes>
-<add, garlic and cook for 30 seconds longer or until fragrant>
-<add, the carrots and mushrooms, and cook for 2 minutes>
-<add, the tomato paste, stir to blend, and cook for a minute longer>
-<add, the canned tomatoes, basil, and parsley>
-<mash, and stir the tomatoes with a potato masher until the sauce starts to thicken, about 5 minutes over medium-high heat>
-<reduce, heat to low and simmer gently while preparing meatballs, stirring occasionally>
-Form the meatballs
-In a large bowl, mix by hand the beef, Italian sausage, basil, parsley, mushrooms, eggs, breadcrumbs, cheese, and 2 tablespoons of salt and pepper.
-Do not overmix or the meatballs will be tough.
-<use, small melon baller (or teaspoon) to form 1-inch round meatballs>
-<roll, and compress into tight balls>
-Cook the meatballs
-In a separate wide, shallow pan, heat olive oil on medium-high heat.
-<brown, meatballs on all sides for about 2-3 minutes>
-Depending on the pan size, you may need to brown two batches of the meatballs. Cook them in a single layer; do not crowd the pan by stacking them.
+(olive oil, for sauce) <heat, in (pot), medium-high heat>
+{sauce} = (olive oil, for sauce) + (sweet yellow onion)
+    <cook, 2m>
+    + (garlic)
+    <cook, 30s longer> ?= fragrant
+    + (carrot) + (cremini brown mushrooms, for sauce)
+    <cook, 2m>
+    + (tomato paste)
+    <stir, to blend>
+    <cook, 1m longer>
+    + (italian plum tomatoes) + (basil, for sauce) + (italian parsley, for sauce)
+Mash and stir (italian plum tomatoes) in {sauce} with (potato masher) over medium-high heat for about 5 minutes, until the sauce starts to thicken.
+<reduce heat, to low>
+{sauce} <simmer, gently>
+    <stir, occasionally>
+Meanwhile [
+    {meatball mixture} = (beef) + (pork sausage) + (basil, for meatballs) + (italian parsley, for meatballs) + (cremini brown mushrooms, for meatballs) + (egg) + (unseasoned breadcrumbs) + (parmesan-romano cheese blend, for meatballs) + (salt and pepper)
+        <mix, by hand, in (bowl)>
+    Do not overmix or the meatballs will be tough.
+    [
+        {meatball mixture} <form, 1-inch round meatballs, using (melon baller)>
+    ]
+    -OR-
+    [
+        {meatball mixture} <form, 1-inch round meatballs, using (teaspoon)>
+    ]
+    {meatballs} <roll>
+        <compress, into tight balls>
+]
+(olive oil, for browning) <heat, in (pan), medium-high heat>
+Cook the meatballs in a single layer; do not crowd the pan by stacking them. Depending on pan size, brown in two batches if needed.
+{meatballs} <brown, in (pan), all sides, ~2-3m>
 Do not overcook the meatballs; they will continue to cook in the sauce.
-Towards the end of browning the meatballs, add a little bit of red wine to deglaze the pan.
-Finish and simmer the sauce
-<add, the cheese and red wine to the sauce and stir it in. Add 1 teaspoon of salt to taste>
-<add, meatballs and gently stir. Simmer the sauce and meatballs for 30-45 minutes while cooking the spaghetti, stirring occasionally>
-Cook the spaghetti
-<cook, the pasta — /pasta and optionally add 1/3 cup of pasta water to the sauce>
-Serve
-<place, a thin layer of sauce on a plate. Add pasta, sauce and meatballs>
+Optional [
+    Towards the end of browning:
+    (pan) <deglaze, with (red wine, for deglazing)>
+]
+{sauce}
+    + (parmesan-romano cheese blend, for sauce)
+Optional [
+    {sauce} + (red wine, for sauce)
+]
+{sauce} <stir>
+    + (salt, for sauce)
+    + {meatballs}
+    <stir, gently>
+    <simmer, 30-45m>
+        <stir, occasionally>
+Meanwhile [
+    (spaghetti) <cook>
+    # Source pasta-cooking reference: /pasta
+    Optional [
+        {sauce} + (pasta water)
+    ]
+]
+Place a thin layer of {sauce} on (plate), then add (spaghetti), {sauce} and {meatballs}.
+
+::notes
+
+The ingredient list marks both red-wine uses optional; the method uses wine for deglazing and in the sauce. Optional branches retain the ingredient-list qualification.
 
 ::source
 <<<

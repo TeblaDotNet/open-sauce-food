@@ -22,24 +22,46 @@ serves: 5
 (potatoes, chopped) 2
 (carrot, chopped) 2
 (onion, chopped) 1
-(cloves of garlic, chopped) 2
+(garlic, chopped) 2 cloves
 (tomato, chopped, optional) 1
 (water) 3 cups
 (tomato sauce)
-(bell pepper, Chopped)
-(peas, Dried)
+(bell pepper, chopped)
+(peas, dried)
 (liver spread)
+(cheese, grated)
 (fish sauce)
-(cheese, Grated)
+(olive oil)
+(salt)
+(pepper)
+
+::equipment
+
+(pan)
 
 ::instructions
 
-Sauté onions, garlic and （optional） tomato, in a pan of olive oil.
-<put, chicken and cook until brown, add 2 tablespoons of salt and pepper. (Note: Make sure the chicken is cook all the way through.)>
-<add, fish sauce before adding water and let the chicken boil for a few minutes and then add tomato sauce>
-<add, potatoes, carrots, and liver spread. Mix the liver spread and let it boil until broth thickens, let it boil until carrots and potatoes are soft. Add more salt and pepper if needed>
-<add, dried peas, bell pepper and grated cheese and let it cook for a minute>
-<cook, until cheese melts before serving>
+{aromatics} = (onion) + (garlic)
+Optional [
+    {aromatics} + (tomato)
+]
+{aromatics} <sauté, in (pan) + (olive oil)>
+(pan) + (chicken)
+(chicken) <cook> ?= brown
+Add (salt) and (pepper); the source says “2 tablespoons of salt and pepper” without dividing that amount between them.
+Make sure the chicken is cooked all the way through.
+(pan) + (fish sauce)
+    + (water)
+{chicken mixture} <boil, a few minutes>
+    + (tomato sauce)
+    + (potatoes) + (carrot) + (liver spread)
+    <mix, to incorporate the liver spread>
+    <boil> ?= broth thickened and carrots and potatoes soft
+Add more salt and pepper if needed.
+{chicken mixture} + (peas) + (bell pepper) + (cheese)
+    <cook, 1m>
+    <cook> ?= cheese melted
+    <serve>
 
 ::story
 

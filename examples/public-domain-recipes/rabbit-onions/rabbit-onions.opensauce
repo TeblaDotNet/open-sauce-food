@@ -13,18 +13,32 @@ tags: rabbit, meat
 
 ::ingredients
 
-(cleaned rabbits) 2
-(onion, large) 6
+(rabbits, cleaned) 2
+(onion, large) 6 or more
 (nutmeg)
-(butter or lard)
+(frying fat) = (butter, fresh, for frying) -OR- (lard)
+(butter, fresh, for flour-coated bits)
 (flour)
-(cayenne, optional)
+(cayenne, optional) very little
 
 ::instructions
 
-<peel, , boil, and slice six (or more) large onions, and season them with nutmeg, and a very little cayenne. Cover them, and set them aside till wanted>
-<cut, the meat from two rabbits into pieces, and fry them in fresh butter or lard. When browned, and nearly done, cover them with the sliced onions, and brown them, having laid among them some bits of fresh butter rolled in flour>
-Dish the rabbits, with the pieces entirely hidden under the onions.
+(onion) <peel>
+    <boil>
+    <slice>
+    <season, with (nutmeg)>
+Optional [
+    (onion) <season, with (cayenne), very little>
+]
+(onion) <cover>
+    <set aside, until needed>
+(rabbits) <cut, meat into pieces>
+    <fry, in (frying fat)> ?= browned and nearly done
+    <cover, with (onion)>
+(butter, for flour-coated bits) <roll, bits in (flour)>
+    <lay, among the rabbit and onions>
+{rabbit and onions} <brown>
+    <dish up, rabbit pieces completely hidden beneath onions>
 
 ::source
 <<<

@@ -18,24 +18,43 @@ serves: Usually enough for a family of five.
 
 ::ingredients
 
-(ckicken, whole, source spelling; source advises avoiding industrially grown birds) close to 2,5kg / roughly 3 pounds # Source equivalence is inconsistent; neither amount corrected.
-(onions of any kind, diced) A cup
-(chives, diced) Half a cup
-(lard) A tablespoon
-(boiled water) A full kettle
+(chicken, whole) close to 2,5kg / roughly 3 pounds # Source equivalence is inconsistent; neither amount corrected.
+(onions, any kind; diced) 1cup
+(chives, diced) 1/2cup
+(lard) 1tbsp
+(water, boiled) 1 full kettle
+(salt) to taste
+(pepper) to taste
 
 ::equipment
 
-(pot)
+(pan, preferably cast iron; called pot later in source)
+(kettle)
 
 ::instructions
 
-<cut, the chicken into pieces. Remove offal or small bones, if you want. Salt and pepper to taste now>
-In a pan （best if cast iron）, add the lard and heat it up very well.
-<add, the chicken and lower the heat>
-After the meat sears, add the diced onions.
-When the onions brown, cover the pot with boiling water, and let it simmer for two hours. If it dries, add more water.
-After those two hours, add the diced chives and simmer it for more thirty minutes.
+(chicken) <cut, into pieces>
+Optional [
+    Remove offal or small bones from the chicken.
+]
+(chicken) + (salt) + (pepper)
+(pan) + (lard)
+(lard) <heat, very well in (pan)>
+(pan) + (chicken)
+Lower the heat.
+(chicken) <sear>
+(pan) + (onions)
+(onions) <brown>
+(pan) + (water, boiling; enough to cover)
+{stew} <simmer, 2h>
+If the stew dries during simmering, add more (water).
+{stew} + (chives)
+    <simmer, 30m more>
+
+::notes
+
+The source advises avoiding industrially grown birds, which can make the stew greasy and flavourless.
+Serve with rice and beans, polenta or boiled cassava root.
 
 ::story
 

@@ -15,16 +15,17 @@ image: country-skillet.webp
 
 ::ingredients
 
-(egg) 2
-(small/medium-sized potatoes) 2
+(eggs) 2
+(potatoes, small or medium) 2
 (salt)
 (black pepper)
-(bacon strips) 4-6
-(onion) ½
-(cheese, I usually use Gouda)
-(paprika)
-(champignon 'shrooms) A couple of
-(bell pepper) Some slices
+(bacon strips, usual optional addition) 4–6
+(onion, usual optional addition) 1/2
+(cheese, usually Gouda; usual optional addition)
+(paprika, usual optional addition)
+(champignon mushrooms, optional) a couple
+(bell pepper, optional) some slices
+(parsley, or other herbs/spices)
 
 ::equipment
 
@@ -33,27 +34,46 @@ image: country-skillet.webp
 
 ::instructions
 
-<cut, the bacon into pieces and fry it on a pan>
-<cut, the potatoes into small cubes>
-After frying the bacon, set aside and use the bacon grease to fry the potatoes over medium/medium-low heat for about 20 minutes.
-<add, some salt and paprika to the potatoes, mix well and cook for another ten minutes>
-<cut, the onions and add them to the frying pan. Cook for about five minutes>
-If you decide to add some vegetables, like mushrooms or peppers, add them now.
-Now, there are two ways you can cook the eggs.
-(egg) <beat, in a bowl and the pour them onto the pan>
-Or just crack the eggs directly on the mix in the pan and mix everything thoroughly.
-(cheese) <cut, into small slices and add it>
-<cook, for a couple of minutes more, until eggs are cooked enough. Don't let the eggs dry (unless that's the way you like your eggs ¯\\(ツ)\/¯)>
-For the final touch, chop the parsley （or whatever other spices/herbs you decided to use） and add it on top.
-<serve, hot and add some freshly ground pepper>
-\Personally, I prefer to beat the eggs first in a bowl before adding them to the frying pan.
+(bacon strips) <cut, into pieces>
+    <fry, in (frying pan)>
+(potatoes) <cut, into small cubes>
+(bacon strips) <set aside>
+(potatoes) <fry, in the bacon grease; medium to medium-low heat; about 20m>
+(potatoes) + (salt) + (paprika)
+(potatoes) <mix, well>
+    <cook, another 10m>
+(onion) <cut>
+(frying pan) + (onion)
+{mixture} <cook, about 5m>
+Optional [
+    (frying pan) + (champignon mushrooms)
+]
+Optional [
+    (frying pan) + (bell pepper)
+]
+[
+    (eggs) <beat, in (bowl)>
+        <pour, into (frying pan)>
+]
+-OR-
+[
+    (eggs) <crack, directly onto mixture in (frying pan)>
+    {mixture} <mix, thoroughly>
+]
+(cheese) <cut, into small slices>
+(frying pan) + (cheese)
+{skillet meal} <cook, a couple more minutes> ?= eggs cooked enough
+Do not let eggs dry unless that is your preference.
+(parsley) <chop>
+    <place, on top>
+{skillet meal} <serve, hot>
+{skillet meal} + (black pepper, freshly ground)
 
 ::notes
 
-If you are feeling quite hungry after just waking up and want to have a breakfast to fill your HP and stamina bars for the day, I've got just the perfect recipe for you.
-
-Since I more often than not cook this only for myself, the ingredient list below is calculated for one person. Once more, this is not a strict ingredient list, so you can really add anything you want. I would say that the only ingredients that are a most are the eggs and the potatoes. The rest of the ingredients I will mark with for the ones that I usually use, and for ingredients that I have used, but seldom use.
-
+This is a flexible one-person starting point: only eggs and potatoes are essential. Bacon, onion, cheese and paprika are the author’s usual additions; mushrooms and peppers are occasional additions. Adjust to preference.
+The source sets the bacon aside and never specifies when to return it or an alternative frying fat if omitted.
+# The author prefers beating the eggs in a bowl first.
 
 ::story
 

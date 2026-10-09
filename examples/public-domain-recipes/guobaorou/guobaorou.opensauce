@@ -18,26 +18,58 @@ serves: 2
 
 ::ingredients
 
-(pork tenderloin or loin) 400g
-(potato starch or cornstarch) 250g
+(pork) = (pork tenderloin) 400g -OR- (pork loin) 400g
+(starch) = (potato starch) 250g -OR- (cornstarch) 250g
 (carrot) 1/2
-(tomato paste) 2 tbsp
-(sugar) 2 tbsp
-(vinegar, rice one ideally. 1 teaspoon if high %) 1 tbsp
-(oil, to fry) 1L
-(salt) 1/2 tsp
+(tomato paste) 2tbsp
+(sugar) 2tbsp
+(vinegar, rice preferred; use 1tsp if high percentage) 1tbsp
+(oil, for frying) 1L
+(salt) 1/2tsp
+(water)
+
+::equipment
+
+(paper towels)
+(pan, deep)
 
 ::instructions
 
-<cut, pork into thin slices about 2x2cm wide. They must be grabbable with chopsticks>
-<mix, starch with water into thick cream-like batter. Coat pork slices, massage the batter into the meat. Marinate for 30 minutes. Massage it from time to time>
-<heat, the oil. Fry pork in batches until golden and crispy. Drain on paper towels>
-Julienne that carrot
-<mix, 2 tbsp starch with 1 cup cold water>
-In a deep pan, combine tomato paste, sugar, and a splash （not more） of water. Cook on high heat, stir until bubbly.
-When the tomato-sugar mix boils, add vinegar and starch slurry. Stir until thickened a little.
-<toss, fried pork. Stir. Add carrot in a bit. Fry until sauce clings to the pork and caramelizes slightly>
-<serve, while hot, ideally with rice :)>
+(pork) <cut, into thin slices about 2 by 2cm; grabbable with chopsticks>
+{batter} = (starch) + (water)
+    <mix> ?= thick and cream-like
+(pork) <coat, with the batter>
+{battered pork} <massage, batter into meat>
+    <marinate, 30m>
+Meanwhile [
+    {battered pork} <massage, from time to time>
+]
+(oil) <heat>
+{battered pork} <fry, in batches> ?= golden and crispy
+    <drain, on (paper towels)>
+(carrot) <julienne>
+{slurry} = (starch) 2tbsp + (water, cold) 1cup
+    <mix>
+{sauce base} = (pan) + (tomato paste) + (sugar) + (water) a splash; not more
+    <cook, high heat> ?= bubbly
+Meanwhile [
+    {sauce base} <stir>
+]
+When the tomato-sugar mixture boils:
+{sauce} = {sauce base} + (vinegar) + {slurry}
+    <stir> ?= a little thickened
+{sauce} + {fried pork}
+{pork and sauce} <toss>
+    <stir>
+After a bit:
+{pork and sauce} + (carrot)
+{pork and sauce} <fry> ?= sauce clings to pork and caramelizes slightly
+    <serve, hot>
+
+::notes
+
+Rice is suggested for serving. The source lists salt without specifying its addition.
+It lists 250g starch and uses 2tbsp for slurry without specifying whether to reserve that from the listed amount.
 
 ::source
 <<<

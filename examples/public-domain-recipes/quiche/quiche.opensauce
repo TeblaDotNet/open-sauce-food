@@ -18,39 +18,64 @@ serves: 4
 
 ::ingredients
 
-(flour, full sight) 200g
-(butter or margarine) 100g
-(water) 5 Tablespoons
+(flour, full sight; for dough) 200g
+(fat) = (butter) 100g -OR- (margarine) 100g
+(water) 5tbsp
 (ham, alternatively cooked ham) 200g
-(egg) 4
-(cream) 1/4
-(grinded edamer cheese) 125g
-(butter, for the baking tin) More
-(flour, for the baking tin) More
+(eggs) 4
+(cream) 1/4 # Source supplies no unit.
+(Edamer cheese, grated) 125g
+(butter, for tins) more
+(flour, for tins and surface) more
+(salt)
+(pepper)
 
 ::equipment
 
 (sieve)
 (oven)
+(baking tins) = (26cm round tin) 1 -OR- (smaller tins) 2
+(aluminium foil)
+(fridge)
+(fork)
 
 ::instructions
 
-<spread, some butter on a 26cm Ø or two smaller baking tins and cover it with flour>
-<sieve, the flour, mingle the butter/margarine in small flakes>
-<form, a depression in the middle of the flour and add spoons of water>
-<mix, all ingredients by hand until the dough becomes a homogenious mass>
-<wrap, the dough in aluminium foil and let it rest in the fridge for two hours (around -4 °C)>
-<preheat, the oven at 200°C>
-<spread, the dough on a flour-covered surface. Roll it until it has a thickness of around 4mm. Form a crust on the sides>
-<use, a fork to prick the dough for a more thorough heat penetration>
-(ham) <cut, in slices and distribute them evenly on the dough>
-<divide, the yolk from the egg white>
-<whisk, the yolk with cream>
-<add, the grinded cheese>
-<whisk, the egg white until it becomes foamy. Add it to the yolk-pepper-salt-cheese mixture>
-(ham) <cover, in the baking tin with the mixture. Equalize the surface>
-<bake, the Quiche in the oven on the middle rail for 30 minutes>
-After baking leave it to rest for a few minutes, then serve while it's still warm. I recommend serving it with a glass of white wine.
+(baking tins) <grease, with (butter, for tins)>
+    <cover, with (flour, for tins and surface)>
+(flour, full sight; for dough) <sieve, using (sieve)>
+{flour mixture} = (flour, full sight; for dough) + (fat, in small flakes)
+    <mingle>
+    <form, a depression in the middle>
+{flour mixture} + (water)
+{dough} <mix, by hand> ?= homogeneous
+    <wrap, in (aluminium foil)>
+    <rest, in (fridge); 2h; around -4°C>
+(oven) <preheat, 200°C>
+{dough} <spread, on a surface covered with (flour, for tins and surface)>
+    <roll, to around 4mm thick>
+    <form, a crust on the sides>
+    <prick, using (fork); for heat penetration>
+(ham) <cut, into slices>
+    <distribute, evenly on the dough>
+(eggs) <separate, yolks and whites>
+{yolk mixture} = {egg yolks} + (cream)
+    <whisk>
+{yolk mixture} + (Edamer cheese) + (pepper) + (salt)
+{egg whites} <whisk> ?= foamy
+{filling} = {yolk mixture} + {egg whites}
+(ham) <cover, in (baking tins) with the filling>
+{filling} <level, the surface>
+{quiche} <bake, in (oven); middle rail; 30m>
+    <rest, a few minutes>
+    <serve, still warm>
+
+::notes
+
+Serve with a glass of white wine if desired.
+The source specifies around -4°C for the fridge rest; this is retained without correction.
+The method does not explicitly say when to transfer the rolled dough into the tins; later steps place it there.
+Salt and pepper appear in the method’s yolk-pepper-salt-cheese mixture without amounts or a separate addition step.
 
 ::source
 <<<

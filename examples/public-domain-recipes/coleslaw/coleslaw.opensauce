@@ -28,34 +28,40 @@ serves: 8 - 10
 (granulated sugar) 1/4 cup
 (kosher salt) 1 1/2 tsp
 (black pepper, ground) 1 tsp
-(celery seed) 1 tsp
+(celery seeds) 1 tsp
 (onion powder) 1/2 tsp
 (granulated garlic) 1/4 tsp
-(mustard powder) 1/4 tsp
-(head of green cabbage, large) One
-(carrot, large) One
+(mustard powder, listed but method gives no use) 1/4 tsp
+(green cabbage, large) 1 head
+(carrot, large) 1
 
 ::equipment
 
-(food processor)
-(bowl)
+(food processor, if available for cabbage)
+(bowl, for vegetables)
+(fridge)
 
 ::instructions
 
-Finely shred, rinse, and drain the carrot
-Finely shred the cabbage （use a food processor if possible）
-<whisk, together the mayonnaise, buttermilk, lemon juice, cider vinegar, distilled vinegar, olive oil, and sugar>
-<add, the salt, pepper, celery seeds, onion powder, and granulated garlic, and combine well>
-<combine, the shredded cabbage and carrot in a separate bowl>
-<slowly add, the dressing until it lightly coats the vegetables, and toss well. Add more dressing until it tastes good>
-<refrigerate, for at least an hour before serving>
+(carrot) <shred, finely>
+    <rinse>
+    <drain>
+(green cabbage) <shred, finely, using (food processor) if possible>
+{dressing} = (mayonnaise) + (buttermilk) + (lemon: juice) + (apple cider vinegar) + (distilled vinegar) + (olive oil) + (granulated sugar)
+    <whisk>
+    + (kosher salt) + (black pepper) + (celery seeds) + (onion powder) + (granulated garlic)
+    <combine, well>
+{vegetables} = (green cabbage) + (carrot)
+    <combine, in (bowl)>
+Slowly add dressing until it lightly coats the vegetables.
+{coleslaw} <toss, well>
+Add more dressing until it tastes good.
+{coleslaw} <refrigerate, in (fridge), at least 1h before serving>
 
 ::notes
 
-This is a coleslaw recipe that I got from a chili restaurant in my neighborhood that closed down a few years ago. This recipe makes more dressing than needed for the coleslaw, so you can save it or use it as a vegetable dip.
-
-- 🥶 Fridge time: 1 hr
-
+Makes more dressing than needed; save the extra or use it as a vegetable dip.
+The source lists mustard powder but gives no addition step; none is inferred.
 
 ::source
 <<<

@@ -19,33 +19,41 @@ serves: 4
 ::ingredients
 
 (olive oil) 3 Tbsp
-(onion, Chopped) 2 cup
-(garlic, Chopped) 2 cloves
+(onion, chopped) 2 cup
+(garlic, chopped) 2 cloves
 (sweet potatoes, chopped and peeled) 2 cup
-(celery, Chopped) 1/2 cup
-(fresh tomatoes, Chopped) 1 cup
-(sweet pepper, Chopped) 3/4 cup
-(cooked chickpeas) 1-1/2 cup
-(stock or water) 3 cup
+(celery, chopped) 1/2 cup
+(tomatoes, fresh, chopped) 1 cup
+(sweet peppers, chopped) 3/4 cup
+(chickpeas, cooked) 1-1/2 cup
+(liquid) = (stock) 3 cup -OR- (water) 3 cup
 (paprika) 2 tsp
 (turmeric) 1 tsp
 (basil) 1 tsp
 (salt) 1 tsp
-(dash cinnamon)
-(dash cayenne)
+(cinnamon) dash
+(cayenne) dash
 (bay leaf) 1
 (tamari soy sauce) 1 Tbsp
 
 ::equipment
 
-(saucepan)
+(soup pot) = (soup kettle) -OR- (saucepan, large)
+(lid)
 
 ::instructions
 
-In a soup kettle or large saucepan, saute onions garlic, celery, and sweet potatoes in olive oil for about five minutes.
-<add, seasonings, except tamari, and the stock/water. Simmer covered, for fifteen minutes>
-<add, remaining vegetables, chickpeas, and tamari>
-<simmer, another 10 minutes or so - until all the vegetables are as tender as you like them>
+{vegetables} = (onion) + (garlic) + (celery) + (sweet potatoes)
+    <sauté, in (soup pot) + (olive oil), ~5m>
+{soup} = {vegetables} + (paprika) + (turmeric) + (basil) + (salt) + (cinnamon) + (cayenne) + (bay leaf) + (liquid)
+(soup pot) <cover, with (lid)>
+{soup} <simmer, 15m>
+    + (tomatoes) + (sweet peppers) + (chickpeas) + (tamari soy sauce)
+    <simmer, another ~10m> ?= all vegetables as tender as desired
+
+::notes
+
+Vegetables are flexible: peas or green beans can replace peppers, and carrots and/or squash can replace sweet potato. Combine orange and green vegetables as the source suggests.
 
 ::story
 

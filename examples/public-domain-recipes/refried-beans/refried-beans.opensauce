@@ -15,32 +15,49 @@ image: refried-beans.webp
 
 ::ingredients
 
-(can of pre-cooked beans) 400-500g
+(beans, pre-cooked, canned) 1 can （400-500g）
 (onion) 1/4
-(garlic cloves) 3-4
-(cumin)
-(paprika)
-(spoonfuls butter) 2-4
-(cooking oil, can be olive oil)
+(garlic) 3-4 cloves
+(cumin) to taste
+(paprika) to taste
+(butter) 2-4 spoonfuls
+(cooking oil, may be olive oil)
+(salt) to taste
+(totopos, for serving)
 
 ::equipment
 
 (frying pan)
+(spatula)
 
 ::instructions
 
-<add, the oil and the butter to the frying pan and heat to medium heat>
-<chop, the onion and mince the garlic>
-Once the frying pan is heated, add the onion and garlic to the pan, and fry them for about 3 minutes.
-<add, salt, cumin, and paprika to taste. Usually I add paprika until the mix is a brownish red. Mix with your spatula, and let fry for about 5 minutes>
-<open, the can of beans and pour the beans into the pan. Depending on how liquid you want the refried beans to be, you can use all or just some part of the liquid inside the can. I usually get rid of some of the liquid from the can before pouring the beans>
-<mash, the beans and mix. Let them fry at medium-low to medium heat for about 5 to 10 minutes, mixing from time to time>
-<serve, , and enjoy with some totopos>
+{fat} = (cooking oil) + (butter)
+    <heat, in (frying pan), medium heat>
+(onion) <chop>
+(garlic) <mince>
+Once the pan is heated:
+{base} = {fat} + (onion) + (garlic)
+    <fry, ~3m>
+    + (salt) + (cumin) + (paprika)
+# The author usually adds paprika until the mixture is brownish red.
+{base} <mix, with (spatula)>
+    <fry, ~5m>
+Open the can of (beans). Use all or only part of the can liquid according to the desired consistency.
+# The author usually discards some can liquid before adding the beans.
+{refried beans} = {base} + (beans)
+    <mash>
+    <mix>
+    <fry, medium-low to medium heat, ~5-10m>
+Meanwhile [
+    {refried beans} <mix, from time to time>
+]
+{refried beans} <serve, with (totopos)>
+# Enjoy!
 
 ::notes
 
-As usual, the ingredients here are for about two adult portions:
-
+About two adult portions. A Mexican appetizer or side dish, served with totopos or tortilla chips.
 
 ::story
 

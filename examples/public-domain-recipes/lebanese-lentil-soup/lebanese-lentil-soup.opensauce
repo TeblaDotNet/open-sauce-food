@@ -20,26 +20,40 @@ serves: 8
 (red lentils) 3 cups
 (water) 12 cups
 (red onion, large, diced) 1
-(yukon gold potatoes, small, diced) 2
+(Yukon gold potatoes, small, diced) 2
 (zucchini, medium, diced) 1
-(swiss chard, chopped) 4 cups
+(Swiss chard, chopped) 4 cups
 (cilantro, chopped) 1 bunch
-(lemon: juice, more to taste) ¼ cup
+(lemon: juice) ¼ cup, more to taste
 (cumin) 1 teaspoon
+(salt) to taste
+(pepper) to taste
 
 ::equipment
 
-(pot)
+(pot, large)
+(pan)
+(lid)
 
 ::instructions
 
-In a large pot, add lentils and water and place on medium heat to boil.
-In a pan, sauté onions until pink, about 5 minutes. Add chopped Swiss chard and sauté together until chard is wilted, 2-3 minutes.
-After lentils have cooked about 8 minutes, add onion chard mixture, along with diced potatoes and zucchini to the boiling water.
-<add, salt and pepper to taste>
-<reduce, heat to medium-low, cover the pot, and cook until the potatoes and lentils are completely cooked, about 12 minutes>
-<add, the chopped cilantro. Stir and cook for about 5 minutes>
-<add, lemon juice and cumin before serving>
+(pot) + (red lentils) + (water)
+(red lentils) <bring to boil, medium heat>
+    <cook, ~8m>
+Meanwhile [
+    (red onion) <sauté, in (pan), ~5m> ?= pink
+    {onion chard mixture} = (red onion) + (Swiss chard)
+        <sauté, 2-3m> ?= chard wilted
+]
+(pot) + {onion chard mixture} + (Yukon gold potatoes) + (zucchini) + (salt) + (pepper)
+Reduce heat to medium-low.
+(pot) <cover, with (lid)>
+{soup} <cook, ~12m> ?= potatoes and lentils completely cooked
+    + (cilantro)
+    <stir>
+    <cook, ~5m>
+    + (lemon: juice) + (cumin)
+    <serve>
 
 ::story
 

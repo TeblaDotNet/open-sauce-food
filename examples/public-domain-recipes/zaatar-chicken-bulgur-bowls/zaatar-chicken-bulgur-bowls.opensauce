@@ -23,28 +23,70 @@ serves: 4
 (mixed olives, drained) 1 oz
 (baby spinach, chopped) 4 oz
 (za'atar spice blend) 2 tbsp
-(roma tomatoes) 2
+(Roma tomatoes) 2
 (lemon) 1
 (feta cheese, crumbled) 1/2 cup
-(garlic cloves, minced/grated) 2
+(garlic, minced or grated) 2 cloves
 (white vinegar) 2 tbsp
 (sugar) 1 tsp
-(oil)
+(water) 1 1/2 cup
+(oil, for chicken) 1/2 tsp
+(oil, for dressing) 1 tsp
+(salt, for bulghur) 1/4 tsp
+(salt, for dressing) 1/2 tsp
+(salt, for seasoning)
+(pepper)
 
 ::equipment
 
 (oven)
-(bowl)
-(pot)
+(pot, medium)
+(lid)
+(pan, large, non-stick)
+(baking sheet)
+(bowl, small)
+(fork)
+(plates)
 
 ::instructions
 
-<preheat, oven to 450F. Add 1 1/2 cup water and 1/4 tsp salt to a medium pot. Cover and bring to a boil over high heat. While water comes to a boil, cut tomato into 1/4" pieces. Zest and juice the lemon>
-<add, garlic and bulghur to the boiling water. Stir to combine, remove pot from heat, cover, and let stand until bulghur is tender and liquid is absorbed (15 mins)>
-While bulghur rehydrates, pat chicken dry and season with Za'atar spice blend, salt, and pepper. Heat a large non-stick pan over medium-high heat. Add 1/2 tsp oil, then the chicken. Sear until golden-brown. Transfer chicken to a sheet and bake on the middle rack in the oven until chicken is cooked through （10-12 mins）
-Meanwhile, whisk together vinegar, lemon juice, lemon zest, 1 tsp oil, and 1/2 tsp salt in a small bowl. Set aside.
-When bulghur is done, fluff with a fork. Add olives, spinach, tomatoes, and half the dressing to the pot. Season with salt and pepper, then stir to combine.
-Thinly slice chicken. Divide bulghur salad between plates, then top with chicken. Sprinkle with feta and drizzle remaining dressing over top.
+(oven) <preheat, 450°F>
+{salted water} = (water) + (salt, for bulghur)
+    <cover, in (pot), with (lid)>
+    <boil, high heat>
+Meanwhile [
+    (Roma tomatoes) <cut, into 1/4 inch pieces>
+    (lemon) <zest>
+        <juice>
+]
+{bulghur} = {salted water} + (garlic) + (bulghur wheat)
+    <stir, to combine>
+(pot) <remove, from heat>
+{bulghur} <cover, with (lid)>
+    <rest, 15m> ?= bulghur tender and liquid absorbed
+Meanwhile [
+    (chicken breast) <pat dry>
+        <season, with (za'atar spice blend) + (salt, for seasoning) + (pepper)>
+    (pan) <heat, medium-high heat>
+    (oil, for chicken) <place, in (pan)>
+    (chicken breast) <sear, in (pan)> ?= golden-brown
+        <place, on (baking sheet)>
+        <bake, middle rack, in (oven), 10-12m> ?= cooked through
+    Meanwhile [
+        Whisk (white vinegar), the juice and zest of (lemon), (oil, for dressing) and (salt, for dressing) in (bowl) to make {dressing}.
+        {dressing} <set aside>
+    ]
+]
+{bulghur} <fluff, with (fork)>
+{bulghur salad} = {bulghur} + (mixed olives) + (baby spinach) + (Roma tomatoes) + {dressing} half
+    <season, with (salt, for seasoning) + (pepper)>
+    <stir, to combine>
+(chicken breast) <slice, thinly>
+Divide {bulghur salad} between (plates), then top with (chicken breast). Sprinkle (feta cheese) and drizzle the remaining {dressing} over the top.
+
+::notes
+
+The source lists 1 tsp sugar without a corresponding use in the method; no addition stage is inferred.
 
 ::source
 <<<

@@ -13,15 +13,15 @@ tags: american, quick, beef, sandwich
 
 ::ingredients
 
-(soft bread crumb) 1 cup
-(milk) 1/2 cup
-(beef, ground) 1 1/2 pound
-(onion, medium, chopped) 1
-(salt) 1/2 teaspoon
-(dash pepper)
-(cayenne) 1/2 teaspoon
-(worcestershire sauce) 1 teaspoon
-(fat or salad oil) 2 tablespoons
+(soft bread crumb) 1cup
+(milk) 1/2cup
+(ground beef) 1 1/2lb
+(onion, medium; chopped) 1
+(salt) 1/2tsp
+(pepper) a dash
+(cayenne) 1/2tsp
+(Worcestershire sauce) 1tsp
+(frying fat, fat or salad oil) 2tbsp
 
 ::equipment
 
@@ -29,9 +29,13 @@ tags: american, quick, beef, sandwich
 
 ::instructions
 
-<combine, all ingredients except fat: mix well; shape into 6 patties>
-<heat, fat in skillet>
-<brown, patties on all sides; lower heat; cook to desired degree of doneness>
+{mixture} = (soft bread crumb) + (milk) + (ground beef) + (onion) + (salt) + (pepper) + (cayenne) + (Worcestershire sauce)
+    <mix, well>
+    <shape, into 6 patties>
+(frying fat) <heat, in (skillet)>
+{patties} <brown, on all sides>
+Lower heat.
+{patties} <cook> ?= desired doneness
 
 ::source
 <<<

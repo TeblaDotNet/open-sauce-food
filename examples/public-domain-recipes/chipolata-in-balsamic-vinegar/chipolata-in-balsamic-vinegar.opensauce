@@ -21,32 +21,44 @@ serves: 4
 (chipolata sausages) 12
 (red onion) 4
 (cherry tomatoes, preferably mixed species) 500g
-(garlic cloves) 4
-(basil leaves, Fresh)
-(black balsamic vinegar)
-(loaf of ciabatta bread) 1
+(garlic) 4 cloves, divided
+(basil leaves, fresh)
+(black balsamic vinegar) 3 tablespoons
+(ciabatta bread) 1 loaf
+(oil) 3 tablespoons
 
 ::equipment
 
 (oven)
+(oven dish)
 
 ::instructions
 
-Pre-heat the oven to 200c （400f）
-(chipolata sausages) <put, in an oven dish>
-<cut, 4 red onions into quarters spread them out in the oven dish>
-<mince, 2 of the garlic cloves and add them to the oven dish>
-<add, the 2 remaining garlic cloves to the oven dish, This can be done with the skin to create a garlic spread for the bread>
-<add, 3 tablespoons of oil to the oven dish and toss to cover everything in oil>
-<put, the dish in the oven for 30 minutes. Toss everything around at 15 minutes to ensure even baking>
-<cut, half of the cherry tomatos in half keep the other half intact>
-After 30 minutes take the dish out of the oven.
-<add, all the tomatoes to the oven dish>
-<add, 3 tablespoons of balsamic vinegar to the oven dish>
-<put, the dish back into the oven for another 30 minutes at 200c (400f)>
-After 30 minutes take the dish out of the oven and reheat the oven as per instructions on the ciabatta bread.
-<tear, the fresh basil leaves and add to the oven dish. Let it rest while you wait for the bread>
-<take, the bread out of the oven and serve along with the oven dish. Bread can be used to dip in the oven dish>
+(oven) <preheat, 200°C / 400°F>
+(chipolata sausages) <put, in (oven dish)>
+(red onion) <quarter>
+    <spread, in (oven dish)>
+(garlic) 2 cloves <mince>
+    <put, in (oven dish)>
+Put the remaining 2 cloves of (garlic) in (oven dish); they may retain their skins to make a garlic spread for the bread.
+{sausage mixture} = (chipolata sausages) + (red onion) + (garlic) + (oil)
+    <toss, in (oven dish), to coat everything in oil>
+    <bake, in (oven), 30m>
+Meanwhile [
+    At 15 minutes, toss {sausage mixture} to ensure even baking.
+]
+(cherry tomatoes) half <cut, in half>
+Keep the other half of (cherry tomatoes) intact.
+(oven dish) <remove, from (oven)>
+{sausage mixture} + (cherry tomatoes) all + (black balsamic vinegar)
+    <bake, in (oven), 200°C / 400°F, 30m more>
+(oven dish) <remove, from (oven)>
+(oven) <reheat, as instructed on (ciabatta bread)>
+(basil leaves) <tear>
+{sausage mixture} + (basil leaves)
+Let the dish rest while waiting for (ciabatta bread), prepared according to its instructions.
+(ciabatta bread) <remove, from (oven)>
+Serve (ciabatta bread) alongside {sausage mixture}; use it to dip in the dish.
 
 ::story
 

@@ -18,23 +18,43 @@ serves: Depends
 ::ingredients
 
 (sausages, thin)
-(onion, 4g per sausage)
+(onions) 4g per sausage
 (tomato sauce)
 (mustard, optional)
 (white sliced bread)
 (butter)
-(oil)
-(wood chips, optional, fuel for smokey flavour)
+(oil, of choice)
+
+::equipment
+
+(grill)
+(hotplate)
+(tongs)
+(wood chips, optional fuel for smoky flavour)
 
 ::instructions
 
-<chop, up the onions into rings>
-(sausages) <bring, to the grill, turning once every 5 mins>
-<add, oil of your choice to the hotplate then add the onions>
-<use, your tongs to toss the onions until they are golden brown>
-When the onions are golden brown turn off the hotplate
-When the sausages are cooked, butter the bread, then the onions, and add a sausage （optionally split）
-Finally tomato sauce on top
+(onions) <chop, into rings>
+(sausages) <place, on (grill)>
+    <cook>
+Meanwhile [
+    (sausages) <turn, once every 5m>
+    (hotplate) + (oil) + (onions)
+    (onions) <toss, using (tongs)> ?= golden brown
+    (hotplate) <turn off>
+]
+When the sausages are cooked:
+(white sliced bread) <butter, with (butter)>
+(onions) <place, on the bread>
+Optional [
+    (sausages) <split>
+]
+(sausages) <place, on the onions>
+(tomato sauce) <place, on top>
+
+::notes
+
+The source lists optional mustard and wood-chip fuel without a specific use step.
 
 ::story
 

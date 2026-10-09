@@ -17,30 +17,41 @@ image: kettlecorn.webp
 
 ::ingredients
 
-(vegetable oil, or oil of your choice) 2 tablespoons
-(popcorn kernels) 1/4 cup
-(sugar, brown sugar works too) 2 tablespoons
-(salt to taste)
+(oil, vegetable or of choice) 2tbsp
+(popcorn kernels) 1/4cup
+(sugar, brown sugar also works) 2tbsp
+(salt) to taste
 
 ::equipment
 
-(saucepan)
+(saucepan) 3quart
+(lid)
+(stove)
 (bowl)
-(pot)
 
 ::instructions
 
-<add, oil into your saucepan and 3 popcorn kernels>
-<cover, with lid and set stove to medium-high heat>
-Once all 3 kernels pop, add in the rest of your kernels and shake to coat in oil. Pour sugar directly onto the kernels.
-<shake, the pot for 3 seconds, rest for 3 seconds, and repeat till the kernels start to pop steadily. Depending on your stove, you may need to lift the pot to shake>
-Once kernels start popping, shake pot every 1-2 seconds.
-Important. Once you no longer hear pops for about 3 seconds, immediately transfer into a bowl to avoid burning.
+(saucepan) + (oil) + (popcorn kernels) 3
+(saucepan) <cover, with (lid)>
+(stove) <set, medium-high heat>
+Once all three kernels pop:
+(saucepan) + (popcorn kernels, remaining)
+(saucepan) <shake, to coat kernels in oil>
+(sugar) <pour, directly onto the kernels>
+Repeat [
+    (saucepan) <shake, 3s>
+        <rest, 3s>
+]
+until kernels start popping steadily
+Depending on the stove, you may need to lift the saucepan to shake.
+(saucepan) <shake, every 1–2s while kernels pop>
+As soon as no pops are heard for about 3 seconds, immediately transfer the popcorn into (bowl) to avoid burning.
 
 ::notes
 
-- 🍽️ Serving 14
-
+The source lists salt to taste without specifying its addition.
+The author halves the recipe for a 2-quart saucepan and recommends Orville Redenbacher’s kernels for consistent popping.
+# The source claims its precise method avoids burnt or unpopped kernels.
 
 ::story
 

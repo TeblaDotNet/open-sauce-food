@@ -19,25 +19,58 @@ serves: 2
 ::ingredients
 
 (turkey, ground) 1 pound
-(bag coleslaw mix) 1
+(coleslaw mix) 1 bag
 (onion, small) 1
 (garlic) 2-3 cloves
 (ginger, fresh) 1 tbsp
 (hoisin sauce) 1/4 cup
-(soy sauce)
-(sesame oil)
+(soy sauce, for seasoning)
+(soy sauce, for optional marinade) 2 Tbsp
+(baking soda, for optional marinade) 1 tsp
+(sesame oil) 1 tsp
+(cooking oil, preferably peanut) a few tablespoons
+(salt) to taste
+(sweet chili sauce, for serving)
+(green onions, for serving)
 
 ::equipment
 
-(skillet)
+(pan) = (wok) -OR- (skillet)
+(knife)
 (bowl)
 
 ::instructions
 
-<grate, or mince ginger finely. Process with the garlic cloves by grinding with salt under the edge of a knife. Finely mince the onion. Optional Marinade the ground turkey in 2 Tbsp of soy sauce and 1 tsp baking soda for 15 minutes to improve browning>
-In a hot wok or skillet add a few tablespoons of cooking oil, preferably peanut, and a tsp of sesame oil. Add the ground turkey and cook until no longer raw seasoning with soy sauce.
-<add, the onion and cook until translucent and the meat is nicely browned. Add in the garlic and ginger mixture and cook for approximately 1 minute or until fragrant ensuring not to burn the garlic>
-<add, in the coleslaw mix and season with more soy sauce. Cook until the cabbage is just softened. Add 1/4 cup of hoisin sauce and stir to combine. Check seasoning and add salt to taste. Serve in a bowl with sweet chili sauce and green onions>
+[
+    (ginger) <grate, finely>
+]
+-OR-
+[
+    (ginger) <mince, finely>
+]
+{garlic ginger mixture} = (ginger) + (garlic) + (salt)
+    <grind, under the edge of (knife)>
+(onion) <mince, finely>
+Optional [
+    (turkey) <marinate, in (soy sauce, for optional marinade) + (baking soda), 15m, to improve browning>
+]
+(pan) <heat> ?= hot
+(pan) + (cooking oil) + (sesame oil)
+(turkey) <cook, in (pan)> ?= no longer raw
+Meanwhile [
+    (turkey) <season, with (soy sauce, for seasoning)>
+]
+{meat mixture} = (turkey) + (onion)
+    <cook> ?= onion translucent and meat nicely browned
+    + {garlic ginger mixture}
+    <cook, ~1m, ensuring not to burn the garlic> ?= fragrant
+    + (coleslaw mix)
+    <season, with (soy sauce, for seasoning), more>
+    <cook> ?= cabbage just softened
+    + (hoisin sauce)
+    <stir> ?= combined
+Check seasoning and add (salt) to taste.
+{meat mixture} <serve, in (bowl), with (sweet chili sauce) + (green onions)>
 
 ::story
 

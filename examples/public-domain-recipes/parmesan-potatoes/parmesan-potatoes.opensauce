@@ -15,10 +15,12 @@ image: parmesan-potatoes.webp
 
 ::ingredients
 
-(medium-sized potatoes) 2-3
+(potatoes, medium) 2-3
 (butter)
-(parmesan cheese)
-(rosemary, dried should be fine, but fresh is obviously better)
+(parmesan cheese, shredded)
+(rosemary, fresh preferred, dried acceptable)
+(salt)
+(pepper, freshly ground)
 
 ::equipment
 
@@ -26,19 +28,23 @@ image: parmesan-potatoes.webp
 
 ::instructions
 
-<cut, the potatoes into small cubes>
-<add, some butter to a frying pan and heat up>
-<add, potatoes to frying pan, salt them and fry over medium heat for about 20 minutes moving the potatoes from time to time>
-About 3-5 minutes before removing the potatoes from the heat, add some rosemary leaves a stir the potatoes.
-<remove, potatoes from pan, serve and add shredded Parmesan and some freshly ground pepper on top>
-<enjoy>
+(potatoes) <cut, into small cubes>
+(butter) <heat, in (frying pan)>
+(potatoes) <put, in (frying pan)>
+    <salt, with (salt)>
+    <fry, medium heat, ~20m>
+Meanwhile [
+    (potatoes) <move, from time to time>
+    About 3-5 minutes before removing from heat, add (rosemary: leaves) and stir.
+]
+(potatoes) <remove, from (frying pan)>
+    <serve>
+    <top, with (parmesan cheese) + (pepper)>
+# Enjoy!
 
 ::notes
 
-You can have this as a side dish, or for breakfast. Well, you can have it whenever and wherever you want if you are cooking it! We are grown ups here after all.
-
-As you can already probably imagine, this dish doesn't require a lot of ingredients. The quantities are for one average hungry student. If you want to have it as a side dish this should be enough for two persons.
-
+One meal portion or about two side portions. Suitable as a side or for breakfast.
 
 ::source
 <<<

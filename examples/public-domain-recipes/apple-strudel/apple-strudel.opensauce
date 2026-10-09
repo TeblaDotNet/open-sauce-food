@@ -20,28 +20,36 @@ image: apple-strudel.webp
 ::ingredients
 
 (puff pastry)
-(apricot jam, about 300 g | 10 oz)
+(apricot jam) about 300 g | 10 oz
 (apple) 3
-(cinnamon, Ground)
-(breadcrumbs / crushed cookies)
+(cinnamon, ground)
+(crumbs) = (breadcrumbs) -OR- (cookies, crushed)
 (butter, optional)
 (powdered sugar, optional)
 
 ::equipment
 
 (rolling pin)
+(spoon)
+(oven)
 
 ::instructions
 
-<peel, and cut the apples in thin slices>
-<roll, out the puff pastry with a rolling pin>
-<spread, the jam over the puff pastry with a spoon>
-<arrange, the apple slices over the jam>
-<sprinkle, with cinnamon and breadcrumbs>
-<cut, tiny pieces of butter and arrange them over the apple slices>
-<roll, the puff pastry edges over, overlapping them>
-<bake, for around 40 minutes at 180°C (360° F)>
-<cover, with powdered sugar>
+(apple) <peel>
+    <cut, into thin slices>
+(puff pastry) <roll out, with (rolling pin)>
+(apricot jam) <spread, over (puff pastry), with (spoon)>
+(apple) <arrange, slices over the jam>
+{strudel} <sprinkle, with (cinnamon) + (crumbs)>
+Optional [
+    (butter) <cut, into tiny pieces>
+        <arrange, over the apple slices>
+]
+(puff pastry) <roll, edges over so they overlap>
+{strudel} <bake, in (oven), ~40m, 180°C / 360°F as source states>
+Optional [
+    {strudel} <cover, with (powdered sugar)>
+]
 
 ::source
 <<<

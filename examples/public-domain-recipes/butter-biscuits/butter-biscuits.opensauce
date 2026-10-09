@@ -14,21 +14,42 @@ tags: biscuit, basic
 
 ::ingredients
 
-(half a pound of butter)
-(flour, sifted) Two pounds
-(half a pint of milk, or cold water.)
+(butter, for dough) Half a pound
+(flour, sifted, for dough) Two pounds
+(liquid) = (milk) Half a pint -OR- (water, cold) Half a pint
 (salt) A salt-spoonful
+(butter, for pans)
+(flour, for paste-board)
 
 ::equipment
 
+(pan, for dough)
+(knife)
+(paste-board)
+(rolling pin)
+(tin)
+(cup)
+(fork)
+(pans, for baking)
 (oven)
 
 ::instructions
 
-<cut, up the butter in the flour, and put the salt to it. Wet it to a stiff dough with the milk or water. Mix it well with a knife>
-Throw some flour on the paste-board, take the dough out of the pan, and knead it very well.
-<roll, it out into a large thick sheet, and beat it very hard on both sides with the rolling-pin. Beat it a long time>
-<cut, it out with a tin, or cup, into small round thick cakes. Beat each cake on both sides, with the rolling-pin. Prick them, with a fork. Put them in buttered pans, and bake them of a light brown in a slow oven>
+(butter, for dough) <cut up, in (flour, for dough)>
+{mixture} + (salt)
+    <wet, with (liquid)> ?= stiff dough
+    <mix, well, with (knife)>
+(paste-board) <dust, with (flour, for paste-board)>
+{dough} <remove, from (pan)>
+    <knead, on (paste-board), very well>
+    <roll out, into a large thick sheet>
+    <beat, very hard on both sides, with (rolling pin), for a long time>
+Cut out small round thick cakes with a (tin) or (cup).
+{cakes} <beat, each on both sides, with (rolling pin)>
+    <prick, with (fork)>
+(pans) <butter, with (butter, for pans)>
+{cakes} <put, in (pans)>
+    <bake, in (oven), slow oven> ?= light brown
 
 ::source
 <<<

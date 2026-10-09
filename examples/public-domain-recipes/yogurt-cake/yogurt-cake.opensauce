@@ -23,29 +23,66 @@ image: yogurt-cake.webp
 (sugar) 180 g
 (egg) 3
 (butter) 120 g
-(yogurt, raw or flavoured) 200
+(yogurt, raw or flavoured) 200; unit not specified
 (instant yeast)
 (powdered sugar, optional)
-(fruit of your choice, optional) 100 g
+(fruit, of choice, optional) 100 g
+(milk, optional, for adjustment)
 
 ::equipment
 
-(sieve)
+(sieve, optional)
+(bowl, for batter)
+(bowl, for egg whites)
+(mould)
 (oven)
-(bowl)
 
 ::instructions
 
-<beat, the yolks with the sugar>
-<add, the butter and stir until uniform>
-<add, the flour. You may sieve it to prevent lumps. Stir until uniform>
-<add, the yogurt and stir until uniform>
-<beat, the albumens in another bowl, then add them to the compound and stir until uniform>
-The compound should now be thick, but still liquid enough to be poured. If it's too thick, you may adjust it by adding yogurt or milk.
-<add, the yeast and stir>
-<pour, into a mould. If you want to add fruit, cut it to small pieces or slices and add it after 2/3 of the compound, then cover with the remaining. Alternatively, you may add it on top: it will sink during cooking>
-You may now sprinkle powdered sugar on top, to create a thin, sweet crust
-<cook, in pre-heated oven at 180 °C. This will take about 45 minutes, but start checking frequently after 30>
+{batter} = (egg: yolk) + (sugar)
+    <beat, in (bowl, for batter)>
+    + (butter)
+    <stir> ?= uniform
+Optional [
+    (flour) <sieve, using (sieve), to prevent lumps>
+]
+{batter} + (flour)
+    <stir> ?= uniform
+    + (yogurt)
+    <stir> ?= uniform
+(egg: white) <beat, in (bowl, for egg whites)>
+{batter} + (egg: white)
+    <stir> ?= uniform
+The batter should be thick but still pourable. If too thick, it may be adjusted with more (yogurt) or (milk).
+{batter} + (instant yeast)
+    <stir>
+[
+    {batter} <pour, into (mould)>
+]
+-OR-
+[
+    (fruit) <cut, into small pieces or slices>
+    Pour two-thirds of {batter} into (mould), add (fruit), then cover with the remaining batter.
+]
+-OR-
+[
+    (fruit) <cut, into small pieces or slices>
+    {batter} <pour, into (mould)>
+        <top, with (fruit)>
+    # Fruit on top sinks during cooking.
+]
+Optional [
+    {batter} <sprinkle, with (powdered sugar), for a thin sweet crust>
+]
+(oven) <preheat, 180°C>
+{cake} <cook, in (oven), ~45m>
+Meanwhile [
+    Start checking the cake frequently after 30 minutes.
+]
+
+::notes
+
+The source specifies “200 yogurt” without a unit; none is inferred. The listed instant yeast is retained as written.
 
 ::source
 <<<

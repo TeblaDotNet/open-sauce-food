@@ -14,24 +14,25 @@ tags: mexican, beef, beans
 
 ::ingredients
 
-(canned whole peeled tomatoes)
-(red pepper)
-(white onion)
-(chili pepper)
+(tomatoes, canned; whole; peeled)
+(red peppers)
+(white onions)
+(chili peppers)
 (garlic)
-(beef, Ground)
+(ground beef)
 (kidney beans)
 (dark chocolate)
 (chili powder)
 (tomato paste)
-(beef stock, optional)
+(liquid) = (water) -OR- (beef stock)
 (neutral oil)
-(cilantro)
+(cilantro, fresh)
 (sugar)
-(seasoning)
 (cumin)
 (paprika)
 (chili flakes)
+(salt)
+(oregano)
 
 ::equipment
 
@@ -39,14 +40,32 @@ tags: mexican, beef, beans
 
 ::instructions
 
-<brown, the beef by adding it to a pot with neutral oil. Start breaking it into small pieces. Allow water to leave the meat. Salt it to expel more water. Once water is gone, the sound will change and it will start to fry. Let it get a dark brown. Remove beef and set aside>
-<dice, onions, red peppers, and chili peppers into small pieces (dice). Sautee until translucent. Add finely chopped garlic, chili flakes, paprika, cumin, and oregano>
-(tomato paste) <add, to vegetables and let brown>
-<add, meat to the vegetables>
-<add, whole peeled tomatoes and some water (or stock)>
-<simmer, for at least 45-60 minutes. Stir occasionally and add liquid if getting too dry>
-<stir, in kidney beans and dark chocolate>
-<serve, over rice and garnish with fresh cilantro>
+(pot) + (neutral oil) + (ground beef)
+(ground beef) <break up, into small pieces>
+    <cook, allowing water to leave>
+(ground beef) + (salt)
+Once the water is gone, the sound changes and the meat begins frying.
+(ground beef) <fry> ?= dark brown
+    <remove, from (pot)>
+    <set aside>
+(white onions) + (red peppers) + (chili peppers) <dice, small>
+{vegetables} <sauté> ?= translucent
+(garlic) <chop, finely>
+{vegetables} + (garlic) + (chili flakes) + (paprika) + (cumin) + (oregano) + (tomato paste)
+{vegetable mixture} <brown>
+{chili} = {vegetable mixture} + (ground beef) + (tomatoes) + (liquid)
+    <simmer, at least 45–60m>
+Meanwhile [
+    {chili} <stir, occasionally>
+]
+If getting too dry, add more liquid during simmering.
+{chili} + (kidney beans) + (dark chocolate)
+{chili} <stir>
+    <garnish, with (cilantro)>
+
+::notes
+
+Serve over rice. The source lists chili powder and sugar without an explicit use step.
 
 ::source
 <<<

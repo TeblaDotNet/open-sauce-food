@@ -16,30 +16,46 @@ tags: argentinian, fry, bread
 
 ::ingredients
 
-(flour; all-purpose) 1.1 pound （1/2 kilo）
-(lard or butter) 4 tablespoons
-(water) 1/2 cup
-(salt, mixed with the water) a teaspoon
-(oil or grease, for frying, source suggests refined tallow or sunflower seed oil; or unrefined lard or tallow for the gaucho version)
-(sugar, Optional, cinnamon, or herbs and spices of choice)
+(flour, all-purpose) 1.1lb / 1/2kg
+(dough fat) = (lard) 4tbsp -OR- (butter) 4tbsp
+(water) 1/2cup
+(salt) 1tsp
+(frying fat, oil or grease of choice)
+(garnish, sugar or cinnamon or herbs/spices; optional)
 
 ::equipment
 
 (bowl)
+(perforated spoon)
+(draining bowl)
+(paper towels)
 
 ::instructions
 
-<add, the flour on a bowl, and the grease in ambient temperature in the middle>
-<mix, flour and grease with your fingertips, while slowly adding the salt water, until you end up with a dough ball>
-<knead, it energically, until the dough forms bubbles on its surface>
-<let, it rest for 1 or 2 hours, and then form little balls, the size you'd do for a chocolate chip cookie, smash them to a disc shape, then poke a small hole in the middle>
-<fry, it on abundant grease until golden brown, remove it with a perforated spoon, then put it on a bowl with paper towels to absorb excess grease>
-<add, garnishes, but it is not essential, due to how rich and filling the dish is>
+(bowl) + (flour)
+(dough fat, room temperature) <place, in the middle>
+{salt water} = (water) + (salt)
+{dough} = (flour) + (dough fat)
+    <mix, with fingertips> ?= dough ball
+Meanwhile [
+    {salt water} <pour, slowly into the dough>
+]
+{dough} <knead, energetically> ?= bubbles form on surface
+    <rest, 1–2h>
+    <form, into small balls the size of chocolate-chip cookies>
+{balls} <flatten, into discs>
+    <poke, a small hole in the middle>
+{discs} <fry, in abundant (frying fat)> ?= golden brown
+    <remove, with (perforated spoon)>
+    <place, in (draining bowl) with (paper towels); to absorb excess grease>
+Optional [
+    {frybread} + (garnish)
+]
 
 ::notes
 
-A "merienda" (afternoon meal) that is intertwined with the history of colonization on the River Plate region. Never have it by yourself, instead with friends or family, and a cup/gourd of Mate.
-
+Serve with friends or family and mate. Suggested frying fats: refined tallow or sunflower oil; unrefined lard or tallow for the source’s gaucho version.
+# Garnishes are not essential; the source describes the bread as rich and filling.
 
 ::story
 

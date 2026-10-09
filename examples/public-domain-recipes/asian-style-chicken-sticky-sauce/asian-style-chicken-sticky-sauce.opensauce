@@ -15,37 +15,56 @@ image: asian-style-chicken-sticky-sauce.webp
 
 ::ingredients
 
-(chicken: breast) Around 14 ounces or 400 grams
-(egg, for Chicken with crispy coating) 1
-(cornflour, for Chicken with crispy coating) 3 tbsp
-(flour; all-purpose, for Chicken with crispy coating) 10 tbsp
-(garlic powder, for Chicken with crispy coating) 1/2 tsp
-(paprika powder, for Chicken with crispy coating) 2 tsp
-(sesame oil, for frying the chicken) Around 5 tbsp
-(sesame oil, for Sauce) 1 tbsp
-(garlic cloves, mashed to paste., for Sauce) 2
-(rice vinegar, Chinese, for Sauce) 1 tbsp -OR- (white wine vinegar, for Sauce) 1 tbsp
-(honey, for Sauce) 3 tbsp
-(ketchup, for Sauce) 2 tbsp
-(sugar; brown, for Sauce) 2 tbsp
-(soy sauce, for Sauce) 4 tbsp
+(chicken breast) around 14oz / 400g
+(egg) 1
+(cornflour) 3tbsp
+(flour, all-purpose) 10tbsp
+(garlic powder) 1/2tsp
+(paprika powder) 2tsp
+(sesame oil, for frying) around 5tbsp
+(sesame oil, for sauce) 1tbsp
+(garlic cloves, mashed to paste) 2
+(vinegar) = (Chinese rice vinegar) 1tbsp -OR- (white wine vinegar) 1tbsp
+(honey) 3tbsp
+(ketchup) 2tbsp
+(brown sugar) 2tbsp
+(soy sauce) 4tbsp
+(salt) 1/2tsp
+(pepper) 1/2tsp
 
 ::equipment
 
-(bowl)
+(sauce bowl)
+(flour bowl, shallow)
+(egg bowl, shallow)
+(pan)
+(draining bowl)
+(kitchen towels)
 
 ::instructions
 
-<prepare, the sauce by mixing the ingredients together in a bowl>
-<cut, the chicken into bite sized pieces>
-<place, all-purpose flour in a shallow bowl. Mix in garlic powder as well as salt and pepper, 1/2 tsp each>
-<place, lightly beaten egg in another shallow bowl>
-<coat, the chicken in corn flour, dip it in egg and finally coat with seasoned all purpose-flour>
-<heat, a good amount of oil on a pan to fry the chicken in. The oil should be hot enough so that the chicken sizzles when placed in the pan. You may want to do this in a couple of batches depending on the size of your pan>
-<fry, until chicken is cooked and has a nice golden-brownish coating>
-<pour, out excess oil, put the sauce in and mix to coat the chicken. Or place the chicken in a bowl with kitchen towels and do another batch>
-<let, the sauce bubble for one or two minutes and you're done>
-<serve, with boiled rice>
+{sauce} = (sauce bowl) + (sesame oil, for sauce) + (garlic cloves) + (vinegar) + (honey) + (ketchup) + (brown sugar) + (soy sauce)
+    <mix>
+(chicken breast) <cut, into bite-sized pieces>
+{seasoned flour} = (flour bowl) + (flour) + (garlic powder) + (salt) + (pepper)
+    <mix>
+(egg) <beat, lightly>
+    <place, in (egg bowl)>
+(chicken breast) <coat, in (cornflour)>
+    <dip, in (egg)>
+    <coat, in the seasoned flour>
+(sesame oil, for frying) <heat, in (pan)> ?= hot enough that chicken sizzles on contact
+Depending on pan size, fry in a couple of batches.
+{coated chicken} <fry> ?= cooked with golden-brownish coating
+If another batch is needed, place cooked chicken in (draining bowl) with (kitchen towels), then fry the next batch before finishing.
+Pour out excess frying oil.
+(pan) + {sauce}
+{chicken and sauce} <mix, to coat chicken>
+{sauce} <bubble, 1–2m>
+
+::notes
+
+Serve with boiled rice. The source lists paprika powder without explicitly adding it in the method.
 
 ::story
 

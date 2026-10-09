@@ -19,27 +19,38 @@ image: chicken-pasta-casserole.webp
 
 ::ingredients
 
-(macaroni, elbow, penne) 16oz （450g）
-(raw chicken breast, diced) 24oz （700g）
-(mozzarella cheese, shredded) 9oz （250g）
-(parmesan cheese, grated) 1.5oz （40g）
-(bread crumbs) 1.5oz （40g）
-(tomatoes, diced) 16oz （450g）
-(oil and butter) Some
-(mozzarella, optional) More
-(parmesan, optional) More
+(macaroni, elbow or penne) 16oz / 450g
+(chicken breast, raw; diced) 24oz / 700g
+(mozzarella cheese, shredded) 9oz / 250g
+(parmesan cheese, grated) 1.5oz / 40g
+(bread crumbs) 1.5oz / 40g
+(tomatoes, diced) 16oz / 450g
+(oil) some
+(butter) about 1spoonful
 
 ::equipment
 
 (oven)
+(pan)
+(casserole dish)
 
 ::instructions
 
-<preheat, oven to 400F/200C>
-<dice, chicken and pan cook with oil until fully cooked>
-<cook, the pasta — /pasta for a few minutes less than usual (about 7-8 minutes)>
-<add, chicken and pasta into a casserole dish. Mix together. Add diced tomato and shredded mozzarella cheese and keep mixing. Top with parmesan cheese and bread crumbs for an even coat. Add about a spoonful of butter evenly on the top>
-<cook, in the oven for 22-25 minutes, until the top looks golden>
+(oven) <preheat, 400°F / 200°C>
+(chicken breast) <dice>
+    <cook, in (pan) with (oil)> ?= fully cooked
+(macaroni) <cook, a few minutes less than usual; about 7–8m>
+{mixture} = (casserole dish) + (chicken breast) + (macaroni)
+    <mix>
+{mixture} + (tomatoes) + (mozzarella cheese)
+{mixture} <mix>
+(parmesan cheese) + (bread crumbs) <place, on top in an even coat>
+(butter) <place, evenly on top>
+{casserole} <bake, in (oven); 22–25m> ?= top golden
+
+::notes
+
+Optional variation: more mozzarella and parmesan for cheese fans. Source pasta instructions: /pasta.
 
 ::story
 

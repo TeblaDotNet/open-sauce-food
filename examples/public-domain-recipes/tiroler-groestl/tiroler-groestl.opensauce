@@ -18,25 +18,37 @@ serves: 5
 
 ::ingredients
 
-(potatoes) 1 kg / 2 lbs
-(red onion) 2
-(porkchops) 500 g / 1 lbs
-(bacon, smoked) 400 g / 14 ounce
-(egg) 5
-(garlic) 3 cloves
-(ample amount of chopped parsley)
-(marjoram and cumin to taste)
+(potatoes) 1kg / 2lbs
+(red onions) 2
+(porkchops) 500g / 1lb
+(bacon, smoked) 400g / 14ounces
+(eggs) 5
+(garlic) 3cloves
+(parsley, chopped) ample amount
+(marjoram) to taste
+(cumin) to taste
+(butter)
 
 ::instructions
 
-<clean, potatoes and boil with skin>
-<chop, onion, squeeze and mince the garlic>
-<dice, pork and bacon>
-<slice, cooked potatoes in thick wedges>
-<fry, potato wedges in butter, add more butter while stirring>
-<add, pork and bacon and bake until crispy>
-<add, and stir the rest of the ingredients, except eggs>
-<fry, the eggs separately and serve on top>
+(potatoes) <clean>
+    <boil, with skin>
+(red onions) <chop>
+(garlic) <squeeze>
+    <mince>
+(porkchops) + (bacon) <dice>
+(potatoes) <slice, cooked potatoes into thick wedges>
+    <fry, in (butter)>
+Meanwhile [
+    (potatoes) + (butter, more)
+    (potatoes) <stir>
+]
+{mixture} = (potatoes) + (porkchops) + (bacon)
+    <bake> ?= crispy
+{mixture} + (red onions) + (garlic) + (parsley) + (marjoram) + (cumin)
+{mixture} <stir>
+(eggs) <fry, separately>
+    <serve, on top>
 
 ::source
 <<<

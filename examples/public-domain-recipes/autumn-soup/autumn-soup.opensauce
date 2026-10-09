@@ -19,33 +19,39 @@ serves: 4
 
 ::ingredients
 
-(squash, Medium) 1
+(squash, medium) 1
 (potatoes) 3
-(carrot) 4
-(onion, Small) 1
-(chicken bullion cube) 1
-(water) 1 cup
-(milk) 2 cups
-(salt)
-(pepper)
+(carrots) 4
+(onion, small) 1
+(chicken bouillon cube) 1
+(water) 1cup
+(milk) 2cups
+(salt) as desired
+(pepper) as desired
 
 ::equipment
 
 (oven)
-(pot)
+(pot, oven-safe)
+(electric beaters, authors choice)
 
 ::instructions
 
-<peel, and chop squash, potatoes, carrots, and onion, add to oven-safe pot>
-<add, bullion and enough water to avoid burning (1 cup), place pot in oven (350F) to bake until veggies are soft>
-If there is too much stock, don't be scared to pour some down the drain.
-Puree （I use electric beaters） while adding the milk.
-<add, the salt and pepper, as desired>
+(squash) + (potatoes) + (carrots) + (onion) <peel>
+    <chop>
+(pot) + (squash) + (potatoes) + (carrots) + (onion) + (chicken bouillon cube) + (water, enough to avoid burning)
+(pot) <place, in (oven); 350°F>
+{vegetables} <bake> ?= soft
+If there is too much stock, pour some down the drain.
+{soup} <purée, using (electric beaters)>
+Meanwhile [
+    {soup} + (milk)
+]
+{soup} + (salt) + (pepper)
 
 ::notes
 
-You can cook the veggies on the stove instead of baking them, just pay more attention to avoid burning. You can also use pumpkin instead of squash.
-
+You can cook the vegetables on the stove instead of baking them; pay more attention to avoid burning. Pumpkin can replace squash.
 
 ::source
 <<<

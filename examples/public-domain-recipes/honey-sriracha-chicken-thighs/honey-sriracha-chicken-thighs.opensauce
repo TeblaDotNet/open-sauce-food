@@ -19,38 +19,59 @@ image: honey-sriracha-chicken-thighs.webp
 
 ::ingredients
 
-(bone-in, skin-on chicken thighs) 5-6
+(chicken thighs, bone-in, skin-on) 5-6
 (olive oil) 1 tablespoon
 (honey) 1/3 cup
 (sriracha hot sauce) 2 tablespoons
 (kosher salt) 1/2 teaspoon
 (black pepper) 1/2 teaspoon
-(sesame seeds as a garnish, optional)
+(sesame seeds, optional garnish)
 
 ::equipment
 
-(skillet)
-(baking tray)
+(skillet, cast iron if used in oven)
+(baking tray, alternative to cast iron skillet)
 (oven)
 (bowl)
 
 ::instructions
 
-<preheat, oven to 350°F>
-<season, the chicken. Rub the thighs with some olive oil and season liberally with salt and pepper>
-<place, the chicken thighs in a cold skillet, skin-side down. Cook for 15 minutes on medium-low heat without touching them>
-<prepare, Sriracha sauce by stirring honey and sriracha together in a bowl>
-<flip, the chicken thighs. Cook for another 10 minutes>
-<place, chicken thighs on baking tray (or just use skillet if using a cast-iron skillet). Drizzle the sriracha sauce on both sides of the chicken, coating it. You do not have to use all of it>
-<bake, chicken thighs for 15 minutes>
-Test chicken for doneness. Chicken should reach internal temperature of 165°F.
-If chicken is near done （or done）, you can baste a second time with the remaining sauce （you can make more sauce if you need） and return to oven for 5 more minutes. Do not worry about overcooking; chicken thighs are difficult to overcook.
-When chicken is done, let cool for a few minutes and garnish with sesame seeds before serving.
+(oven) <preheat, 350°F>
+(chicken thighs) <rub, with (olive oil)>
+    <season, liberally, with (kosher salt) + (black pepper)>
+    <place, in (skillet), cold, skin-side down>
+    <cook, medium-low heat, 15m, without touching>
+{sriracha sauce} = (honey) + (sriracha hot sauce)
+    <stir, in (bowl)>
+(chicken thighs) <flip>
+    <cook, another 10m>
+[
+    (chicken thighs) <place, on (baking tray)>
+]
+-OR-
+[
+    If using a cast-iron (skillet), leave the thighs in it for baking.
+]
+{sriracha sauce} <drizzle, over both sides of the chicken> ?= coated
+You do not have to use all the sauce.
+(chicken thighs) <bake, in (oven), 15m>
+Test for doneness: the chicken should reach 165°F internally.
+Optional [
+    If the chicken is near done or done, baste again with the remaining sauce; make more sauce if needed.
+    (chicken thighs) <return, to the oven>
+        <bake, 5m more>
+    # The source says not to worry about overcooking chicken thighs.
+]
+When done:
+(chicken thighs) <cool, a few minutes>
+Optional [
+    (chicken thighs) <garnish, with (sesame seeds)>
+]
+(chicken thighs) <serve>
 
 ::notes
 
-This recipe yields a batch of relatively spicy chicken thighs. If you don't like spicy foods, you can add more honey and less sriracha. Conversely, if you like spicy foods, consider a 1:1 ratio of sriracha and honey.
-
+For less heat, use more honey and less sriracha. For more heat, the source suggests a 1:1 ratio of sriracha to honey.
 
 ::source
 <<<

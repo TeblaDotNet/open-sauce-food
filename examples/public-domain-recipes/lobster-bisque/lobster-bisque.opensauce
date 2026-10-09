@@ -18,51 +18,81 @@ serves: 2 litres
 
 ::ingredients
 
-(live lobster that weighs ~750 grams) 1
+(lobster, live) 1, weighing ~750 grams
 (onion) 2
 (carrot) 2
 (shallot) 1
-(garlic cloves) 2
-(cognac)
-(concentrated tomato puree) 3 tbsp
+(garlic) 2 cloves
+(cognac) a dash
+(tomato puree, concentrated) 3 tbsp
 (tomatoes) 4
 (flour) 3 tbsp
-(glass dry white wine) 1
+(white wine, dry) 1 glass
 (fish stock) 2 litres
-(bayleaf) 1
-(twigs of thyme) 2
+(bay leaf) 1
+(thyme) 2 twigs
 (parsley, fresh)
-(heavy cream)
-(olive oil)
+(heavy cream) a bit
+(olive oil) enough to cover the stockpot bottom
 (butter) 2 tbsp
+(water, boiling)
+(pepper) to taste
+(salt) to taste
 
 ::equipment
 
-(sieve)
-(pot)
+(stockpot)
+(kitchen twine)
+(sieve, fine)
+(plate)
 
 ::instructions
 
-Finely dice the onions, carrots, shallots and garlic and set aside for later.
-Blanche the lobster in boiling water for 2 minutes, remove from the water and let it leak.
-<cut, it down the middle and remove the meat from the shell, set the meat aside for later>
-<place, a stockpot on medium high heat and heat up enough oil to cover the bottom of the pan, add the lobster shells and cook them until they are bright red>
-<remove, the oil from the pan and discard it, add your butter to the shells>
-<add, all diced vegetables and let it sauté for 2 minutes, add a dash of cognac and flambé, lower the heat to medium low>
-Roughly dice the tomatoes and add them together with the tomato puree, once again let it sauté for 2 minutes.
-<add, the flour and give it all a stir, let it dry up in the pan>
-<deglaze, the pan with the white wine and once the wine has dried up a bit add the fish stock>
-Tie up your herbs using kitchen twine and add them to your pot.
-<let, it simmer on low heat for 30 minutes, while the soup is boiling take the lobster meat and dice it into bite-sized pieces>
-After the soup is done boiling run it through a fine sieve.
-<bring, the strained soup back to a light boil and add the diced lobster pieces>
-<let, the soup boil for 4 more minutes to heat up the lobster and serve, add pepper and salt to taste>
-Finish off in the plate with a bit of heavy cream.
+{diced vegetables} = (onion) + (carrot) + (shallot) + (garlic)
+    <dice, finely>
+    <set aside>
+(lobster) <blanch, in (water), 2m>
+    <remove, from (water)>
+    <drain>
+    <cut, down the middle>
+Separate the meat from the shell to obtain {lobster meat} and {lobster shells}.
+{lobster meat} <set aside>
+(stockpot) <place, over medium-high heat>
+(olive oil) <heat, in (stockpot)>
+{lobster shells} <cook, in (stockpot)> ?= bright red
+(olive oil) <remove, from (stockpot)>
+    <discard>
+{soup base} = {lobster shells} + (butter) + {diced vegetables}
+    <sauté, 2m>
+    + (cognac)
+    <flambé>
+<reduce heat, to medium-low>
+(tomatoes) <dice, roughly>
+{soup base} + (tomatoes) + (tomato puree)
+    <sauté, 2m>
+    + (flour)
+    <stir>
+    <dry, in (stockpot)>
+(stockpot) <deglaze, with (white wine)> ?= wine dried up a bit
+{soup base} + (fish stock)
+{herb bundle} = (bay leaf) + (thyme) + (parsley)
+    <tie, with (kitchen twine)>
+{soup} = {soup base} + {herb bundle}
+    <simmer, low heat, 30m>
+Meanwhile [
+    {lobster meat} <dice, into bite-sized pieces>
+]
+{soup} <strain, through (sieve)>
+    <boil, lightly>
+    + {lobster meat}
+    <boil, 4m more>
+    <serve>
+    <season, with (pepper) + (salt), to taste>
+    <finish, in (plate), with (heavy cream)>
 
 ::notes
 
-Creamy french lobster soup perfect for the holidays, you can optionally replace the lobster with any other shellfish.
-
+Creamy French lobster soup perfect for the holidays. You can optionally replace the lobster with any other shellfish.
 
 ::source
 <<<

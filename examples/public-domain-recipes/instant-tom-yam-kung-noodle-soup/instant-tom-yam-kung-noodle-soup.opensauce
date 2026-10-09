@@ -18,27 +18,46 @@ serves: 2 people
 
 ::ingredients
 
-(vegetable- or tom yam-quick noodles) 2 packages
-(coconut milk) 1 can
-(or 5 big mushrooms, small) 10
-(egg) 2
-(salad leaves, or practically any veggie you have in the fridge) A few
+(noodles) = (vegetable quick noodles) 2packages -OR- (tom yam quick noodles) 2packages
+(noodle spices, from the packages)
+(coconut milk) 1can
+(mushrooms) = (small mushrooms) 10 -OR- (big mushrooms) 5
+(eggs) 2
+(greens) = (salad leaves) a few -OR- (other vegetables, available)
 (lime) 1
 (coriander)
+(water) a small amount
 
 ::equipment
 
-(bowl)
 (pot)
+(bowls, deep)
 
 ::instructions
 
-<put, small amount of water and coconut milk to boil. Add the noodle spices. (If you don't like it too creamy, add extra water.)>
-<chop, the mushrooms and coriander (and other veggies if you wish). Cut the lime into four pieces>
-When boiling add mushroom, and crack the eggs directly into the pot （be sure not to stir after this, otherwise they will break）. Wait 30 seconds to 1 minute.
-<add, the noodles and salad leaves (or whatever veggie you got)>
-After 3-5 minutes it's done. Serve in deep bowls. Squeeze the lime juice and chopped coriander on top.
-Pro tip: Squeeze some remaining lime juice into your drinking water.
+{broth} = (pot) + (water) + (coconut milk)
+    <boil>
+{broth} + (noodle spices)
+If you prefer it less creamy, add extra (water).
+(mushrooms) + (coriander) <chop>
+Optional [
+    (greens) <chop>
+]
+(lime) <cut, into four pieces>
+When the broth is boiling:
+{broth} + (mushrooms)
+(eggs) <crack, directly into (pot)>
+Do not stir after this, or the eggs will break.
+Wait 30 seconds to 1 minute.
+{broth} + (noodles) + (greens)
+{soup} <cook, 3–5m>
+    <serve, in (bowls)>
+(lime) <squeeze, juice over the soup>
+{soup} + (coriander, chopped)
+
+::notes
+
+Squeeze any remaining lime juice into drinking water if desired.
 
 ::story
 

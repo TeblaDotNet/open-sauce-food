@@ -16,24 +16,58 @@ image: fried-anglerfish-fillet.webp
 ::ingredients
 
 (anglerfish) 1
-(butter, enough to fry with)
-(chives or green onions)
-(marjoram, fresh herbs are preferable)
+(butter) enough to fry with
+(green herbs) = (chives) -OR- (green onions)
+(marjoram, fresh preferable)
+(salt, optional)
+(pepper, optional)
+
+::equipment
+
+(knife, sharp, preferably short-bladed)
+(filleting knife)
+(pan)
+(lid)
 
 ::instructions
 
-Preparing the fish
-<turn, the creature on its back. With a sharp and preferably short-bladed knife make an incision from the anus to just between the two small fins under the head. This is best done by inserting the knife blade tip facing up while putting force upwards and moving towards the head, letting gravity do the work. This helps to avoid puncturing the organs>
-<remove, the organs. Gently pull and cut the membrane that connects each to the rest of the body>
-Make an incision around the mouth （the hard 'lips'）, turn the fish around and do the same to that side.
-Start to slowly but firmly pull back the skin cutting whenever there is resistance as you make your way towards the tail.
-Once you have removed the skin, flip it back onto its back and cut off the thin flabs of meat of its underside and fins from the body. At this point there should be a clear distinction between the body and the larger head. Behead the animal.
-With a filleting knife, fillet the meat from the backbone and remove the tail.
-You should be left with 2 long strips of meat. Cut each in half.
-Cooking
-In a pan on medium heat, melt a good amount of butter and place the fillets inside. The goal here is to sear the meat to get that light crust. Flip until all sides have turned the 'golden brown' color.
-<add, the herbs, just enough to cover the fillets, salt and pepper too if desired and cover with the lid on low heat until fully cooked. Time here varies but it can be anywhere between 5-10 minutes>
-<enjoy, This goes well with steamed vegetables. Or potatoes to soak up the butter>
+(anglerfish) <turn, onto its back>
+    <incise, from the anus to between the two small fins under the head, with (knife)>
+Insert the blade tip facing up, applying upward force and moving toward the head, letting gravity do the work to avoid puncturing the organs.
+(anglerfish: organs) <remove, gently pulling and cutting the connecting membranes>
+(anglerfish) <incise, around the mouth's hard lips>
+    <turn>
+    <incise, around the other side of the mouth>
+(anglerfish: skin) <pull, slowly but firmly toward the tail>
+Cut wherever there is resistance while pulling the skin back.
+Once the skin is removed:
+(anglerfish) <turn, onto its back>
+(anglerfish: underside flaps) <cut off>
+(anglerfish: fins) <cut off>
+There should now be a clear distinction between the body and the larger head.
+(anglerfish) <behead>
+    <fillet, from the backbone, with (filleting knife)>
+(anglerfish: tail) <remove>
+You should have two long strips of meat.
+{fillets} <cut, each strip in half>
+(butter) <melt, in (pan), medium heat>
+{fillets} <place, in (pan)>
+    <sear> ?= light golden-brown crust on all sides
+Meanwhile [
+    {fillets} <flip, as needed to brown all sides>
+]
+{fillets} + (green herbs) + (marjoram)
+Use just enough herbs to cover the fillets.
+Optional [
+    {fillets} <season, with (salt) + (pepper)>
+]
+(pan) <cover, with (lid)>
+{fillets} <cook, low heat, 5-10m depending on the fish> ?= fully cooked
+# Enjoy.
+
+::notes
+
+Serve with steamed vegetables or potatoes to soak up the butter.
 
 ::story
 

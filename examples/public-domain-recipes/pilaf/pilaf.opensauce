@@ -15,27 +15,70 @@ tags: uzbek, rice, lamb
 ::ingredients
 
 (cooking oil) 150ml
-(long grain rice — /rice) 1kg
-(meat, lamb or any other kind of meat) 1.5kg
-(onion) 500g
-(carrot) 500g
-(salt) 2 tbsp
-(garlic) 5 cloves
-(raisins, all optional, cardamom, paprika, coriander, cinnamon, cumin, turmeric)
+(long grain rice) 1kg
+(meat, lamb or other kind) 1.5kg
+(onions) 500g
+(carrots) 500g
+(salt) 2tbsp plus a pinch used earlier
+(garlic) 5cloves
+(raisins, optional)
+(cardamom, optional)
+(paprika, optional)
+(coriander, optional)
+(cinnamon, optional)
+(cumin, optional)
+(turmeric, optional)
+(water) 500ml plus another 500ml
+(tomato paste)
+
+::equipment
+
+(cauldron)
 
 ::instructions
 
-(cooking oil) <put, in a cauldron and heat it until the oil is boiling, add a head of onion until it is black, then throw it out>
-Throw coarsely chopped meat into the cauldron and let it boil until it's golden brown, then add a pinch of salt.
-<add, the chopped onions, then wait 2 minutes and add the sliced carrots, boil for another 2 minutes>
-<add, 500 ml of water diluted with tomato paste, boil for 5 minutes>
-<rinse, the rice and put it into the cauldron but do not mix>
-<add, another 500 ml of water diluted with tomato paste and wait until it is boiling>
-<reduce, the heat to minimum, then add two table spoons of salt>
-Close the cauldron and leave it on low heat for 1.5-2 hours.
-1 hour before it is ready（or when you can't see water above the rice）, add the garlic.
-You can now turn over the rice if it is undercooked and add some raisins.
-<keep, boiling until all water is evaporated>
+(cooking oil) <put, in (cauldron)>
+    <heat> ?= boiling
+(cauldron) + (onions) 1head
+(onions) <cook> ?= black
+Discard the blackened onion.
+(meat) <chop, coarsely>
+(cauldron) + (meat)
+(meat) <boil> ?= golden brown
+(meat) + (salt) a pinch
+(onions) <chop>
+(cauldron) + (onions)
+Wait 2 minutes.
+(carrots) <slice>
+(cauldron) + (carrots)
+{mixture} <boil, another 2m>
+{first tomato water} = (water) 500ml + (tomato paste)
+(cauldron) + {first tomato water}
+{mixture} <boil, 5m>
+(long grain rice) <rinse>
+    <put, into (cauldron)>
+Do not mix.
+{second tomato water} = (water) another 500ml + (tomato paste)
+(cauldron) + {second tomato water}
+{pilaf} <boil>
+Reduce heat to minimum.
+(cauldron) + (salt) 2tbsp
+(cauldron) <close>
+{pilaf} <cook, low heat; 1.5–2h>
+Meanwhile [
+    One hour before ready, or when water is no longer visible above the rice:
+    {pilaf} + (garlic)
+    If the rice is undercooked, turn it over now.
+    Optional [
+        {pilaf} + (raisins)
+    ]
+]
+{pilaf} <boil> ?= all water evaporated
+
+::notes
+
+Rice source: /rice. The source does not specify whether the discarded onion is included in the 500g, the amount of tomato paste, or when to add the listed optional spices other than raisins.
+Its wording about boiling oil and meat is retained, not corrected to a different method.
 
 ::story
 

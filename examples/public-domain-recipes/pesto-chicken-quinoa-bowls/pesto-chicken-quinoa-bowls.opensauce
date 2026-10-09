@@ -18,33 +18,72 @@ serves: 4
 
 ::ingredients
 
-(raw quinoa) 1 1/2 cups
-(chicken breast) 1 lb
-(olive oil, plus more for the pan) 2 tbsp
-(lemon: juice) 1 tbsp
-(italian seasoning, or dried oregano) 1 tsp
-(garlic powder, or 2 cloves, minced) 1 tsp
+(quinoa, raw) 1 1/2 cups
+(chicken breasts) 1 lb
+(olive oil, for marinade) 2 tbsp
+(olive oil, for pan) more as needed
+(lemon juice) 1 tbsp
+(herb seasoning) = (Italian seasoning) 1 tsp -OR- (oregano, dried) 1 tsp
+(garlic seasoning) = (garlic powder) 1 tsp -OR- (garlic, minced) 2 cloves
 (red pepper flakes, optional) 1/2 tsp
 (cherry tomatoes) 2 cups
 (zucchini, medium, quartered and sliced) 1
-(pesto, plus more to serve) 1/4 cup
-(basil and grated parmesan, Fresh, optional, to serve)
+(pesto) 1/4 cup plus more to serve
+(basil, fresh, optional, for serving)
+(parmesan, grated, optional, for serving)
+(salted water)
+(salt) to taste
+(pepper) to taste
 
 ::equipment
 
+(strainer, fine mesh)
+(bowl, large, for marinade)
 (skillet)
-(oven)
-(bowl)
+(oven, alternative method)
+(bowls, for serving)
 
 ::instructions
 
-<boil, salted water, add the quinoa, and cook about 15 minutes until tender. Drain well in a fine mesh strainer>
-<whisk, the olive oil, lemon juice, Italian seasoning, garlic powder, and red pepper flakes in a large bowl with salt and pepper to taste. Add the chicken and toss to coat>
-<sear, the chicken in an oiled skillet over medium-high heat, 5-6 minutes per side, until it reaches 165°F inside. Rest 5 minutes, then slice>
-<toss, the tomatoes and zucchini in the leftover marinade bowl, then cook in the same pan over medium heat, 3-4 minutes, until the zucchini is tender and the tomatoes burst>
-(pesto) <stir, into the drained quinoa>
-Build the bowls with pesto quinoa, sliced chicken, and the vegetables. Finish with more pesto, basil, and parmesan.
-Oven method: bake the marinated chicken and vegetables at 400°F for 20-25 minutes instead of searing. Keeps 4 days in the fridge; store the pesto separately. Use a punchy pesto and be generous with the seasoning, or it can taste flat.
+(salted water) <boil>
+    + (quinoa)
+(quinoa) <cook, ~15m> ?= tender
+    <drain, well, using (strainer)>
+{marinade} = (olive oil, for marinade) + (lemon juice) + (herb seasoning) + (garlic seasoning) + (salt) + (pepper)
+Optional [
+    {marinade} + (red pepper flakes)
+]
+{marinade} <whisk, in (bowl)>
+(chicken breasts) <toss, in the marinade> ?= coated
+[
+    (skillet) <oil, with (olive oil, for pan)>
+    (chicken breasts) <sear, in (skillet), medium-high heat, 5-6m per side, to 165°F inside>
+        <rest, 5m>
+        <slice>
+    {vegetables} = (cherry tomatoes) + (zucchini)
+        <toss, in the leftover marinade bowl>
+        <cook, in (skillet), medium heat, 3-4m> ?= zucchini tender and tomatoes burst
+]
+-OR-
+[
+    (cherry tomatoes) + (zucchini)
+        <toss, in the marinade bowl>
+    (chicken breasts) + (cherry tomatoes) + (zucchini)
+        <bake, in (oven), 400°F, 20-25m instead of searing>
+    Slice the chicken for assembly.
+]
+{pesto quinoa} = (quinoa) + (pesto) 1/4 cup
+    <stir>
+Assemble (bowls) with {pesto quinoa}, sliced chicken and the cooked vegetables.
+Finish with more (pesto).
+Optional [
+    (bowls) + (basil) + (parmesan)
+]
+
+::notes
+
+Keeps four days in the fridge according to the source; store pesto separately.
+Use a punchy pesto and generous seasoning or the dish can taste flat.
 
 ::source
 <<<

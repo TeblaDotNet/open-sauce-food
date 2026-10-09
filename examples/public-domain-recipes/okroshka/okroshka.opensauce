@@ -16,27 +16,39 @@ tags: basic, spread, quick, russian, soup
 
 (potatoes, medium) 2-3
 (egg) 4
-(long or 4 short cucumbers) 2
-(strands of spring onions) 3
+(cucumber choice) = (cucumbers, long) 2 -OR- (cucumbers, short) 4
+(spring onions) 3 strands
 (radishes) 10-12
-(bunch of dill)
-(kefir or 1 kvass) 2
-(boiled sausage or boiled chicken meat) 500g
-(mineral water, optional) 1
+(dill) bunch
+(soup liquid) = (kefir) 2; unit unspecified -OR- (kvass) 1; unit unspecified
+(meat) = (sausage, boiled) 500g -OR- (chicken meat, boiled) 500g
+(mineral water, optional) 1; unit unspecified
+(water, boiled, alternative optional dilution)
 
 ::equipment
 
-(saucepan)
+(saucepan, 5 liters, for soup)
+(saucepan, for boiling)
 
 ::instructions
 
-<prepare, a saucepan where you will put the ingredients (5 liters) and a saucepan for boiling eggs and potatoes>
-<boil, potatoes and eggs (hard boiled)>
-Finely chop cucumbers, radishes, onions, dill and sausage （or meat）
-<peel, eggs and potatoes and chop finely>
-<pour, kefir (or kvass) and mix all the ingredients>
-If necessary, add boiled water or mineral water.
-<let, it brew for a few minutes and the dish is ready to eat>
+(potatoes) <boil, in (saucepan, for boiling)>
+(egg) <hard boil, in (saucepan, for boiling)>
+(cucumber choice) + (radishes) + (spring onions) + (dill) + (meat)
+    <chop, finely>
+(egg) + (potatoes)
+    <peel>
+    <chop, finely>
+{ingredients} <put, in (saucepan, for soup)>
+(soup liquid) <pour, into (saucepan, for soup)>
+{soup} <mix>
+If needed, add (water) or (mineral water).
+{soup} <stand, a few minutes>
+    <serve>
+
+::notes
+
+The source gives kefir as 2, kvass as 1, and mineral water as 1 without units. No units are inferred.
 
 ::story
 

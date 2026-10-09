@@ -14,8 +14,8 @@ tags: russian, pasta, mushrooms
 
 ::ingredients
 
-(pasta, uncooked; spaghetti or any other long noodle, source also allows serving Stroganov over rice) 8 oz
-(mushrooms, I reccommend shitake, but white, portabello, or maitake will also work.) 12 oz
+(pasta, uncooked, spaghetti or other long noodles) 8 oz
+(mushrooms, shitake preferred; white or portabello or maitake alternatives) 12 oz
 (garlic, minced) 2 cloves
 (yellow onion, small, minced) 1
 (butter) 2 Tbsp
@@ -23,26 +23,49 @@ tags: russian, pasta, mushrooms
 (vegetable broth) 1 Cup
 (dijon mustard) 1 Tsp
 (smoked paprika) 1 Tsp
-(creme fraiche, can be made by mixing equal parts heavy and sour cream) 4 Tbsp
-(parsely) 2 Tbsp
+(creme fraiche) 4 Tbsp
+(parsely, as source spells it, listed but method gives no use) 2 Tbsp
+(salted water)
+(salt)
+(pepper)
 
 ::equipment
 
-(skillet)
-(pot)
+(pot, large)
+(cup)
+(skillet, medium)
 
 ::instructions
 
-<bring, a large pot of salted water to a boil and cook pasta al dente>
-In a cup, combine flour, mustard, smoked paprika, salt and pepper. Add broth and whisk until no lumps remain.
-While pasta is cooking, melt butter in a medium skillet and over medium heat.
-When the butter is melted, add onions and cook until softened.
-<add, mushrooms and cook until all water evaporates and mushrooms are slightly browned, about 7 minutes>
-<add, garlic and cook for another 30 seconds>
-<pour, the flour and broth mixture into the mushrooms and cook until thickens, about 2 minutes>
-<stir, in Creme Fraiche>
-<add, the strained pasta to the mushroom sauce and stir to coat the pasta completely>
-<serve, immediately>
+(salted water) <bring to boil, in (pot)>
+(pasta) <cook, in (pot)> ?= al dente
+Meanwhile [
+    {broth mixture} = (general purpose flour) + (dijon mustard) + (smoked paprika) + (salt) + (pepper)
+        <combine, in (cup)>
+        + (vegetable broth)
+        <whisk> ?= no lumps
+    (butter) <melt, in (skillet), medium heat>
+    (skillet) + (yellow onion)
+    (yellow onion) <cook> ?= softened
+    (skillet) + (mushrooms)
+    (mushrooms) <cook, ~7m> ?= all water evaporated and mushrooms slightly browned
+    (skillet) + (garlic)
+    {vegetables} <cook, another 30s>
+    {broth mixture} <pour, into the mushrooms>
+    {sauce} <cook, ~2m> ?= thickened
+        + (creme fraiche)
+        <stir>
+]
+(pasta) <strain>
+{sauce} + (pasta)
+    <stir> ?= pasta completely coated
+{stroganov} <serve, immediately>
+
+::notes
+
+The source also allows serving the sauce over rice.
+Creme fraiche can be made from equal parts heavy and sour cream, as described in the source.
+The source lists 2 Tbsp “parsely” but gives no addition step.
 
 ::source
 <<<

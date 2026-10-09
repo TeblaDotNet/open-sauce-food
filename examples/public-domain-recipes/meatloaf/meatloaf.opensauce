@@ -20,43 +20,63 @@ image: meatloaf.webp
 
 ::ingredients
 
-(beef, Ground) 4 1/2 pounds
+(beef, ground, thawed) 4 1/2 pounds
 (onion) 1
-(bread) 2 Slices
+(bread) 2 slices
 (egg) 4
-(milk) 1/4 Cup
+(milk) 1/4 cup
 (garlic salt)
 (onion powder)
-(mustard)
-(sugar free ketchup)
-(cubes of brown sugar) 3
-(campbell's tomato soup) 1 Can
-(franks redhot sauce, Optional)
+(mustard, for meat) moderate amount
+(sugar free ketchup, for meat) moderate amount
+(brown sugar) 3 cubes
+(Campbell's tomato soup) 1 can
+(mustard, for sauce) 1/4 cup
+(sugar free ketchup, for sauce) 1/4 cup
+(Franks RedHot sauce, optional, listed but method gives no use)
+(water, hot) a little
+(grease, for dishes)
 
 ::equipment
 
+(bowl, large, for meat)
+(bowl, for sauce)
+(dishes, oven-safe) 2 or 3
 (oven)
-(bowl)
 
 ::instructions
 
-Once thawed, put all of your beef into a bowl. The next 4 steps will all go into this same bowl.
-<dice, the onion and bread slices into small pieces. Add them>
-<crack, and put in all of your eggs>
-<pour, in your milk, and a moderate amount of mustard and ketchup>
-<add, garlic salt and onion powder>
-Now you must use your （sanitized） hands and mix everything in the big bowl well. Make sure you get the bottom.
-Evenly distribute your mixed meat into 2 or 3 oven safe greased up dishes. Try to flatten the surface as much as you can.
-In each dish, create a small channel in the middle of each meatloaf. This is to maintain the shape as it's cooking.
-<put, all of your meatloaf filled dishes into the oven on 180 Celsius for 1 hour>
-Once you have about 15 minutes left on your timer, get started on your sauce.
-<toss, your 3 sugar cubes into a bowl with a little bit of hot water to melt them>
-<add, your tomato soup, 1/4 Cup of ketchup and mustard (each)>
-<stir, sauce until it's a thick, light red color>
-Once 1 hour is up, take out all of your meatloaf. Make sure to cut open the thickest meatloaf and confirm the beef is cooked.
-<coat, the top of each of your meatloaves with the sauce, evenly>
-Once coated, put back into the oven for 10 minutes.
-<take, out all of your meatloaf. Once cool, slice it up and serve>
+(beef) <put, in (bowl, for meat)>
+(onion) + (bread)
+    <dice, into small pieces>
+(bowl, for meat) + (onion) + (bread)
+(egg) <crack, into (bowl, for meat)>
+(bowl, for meat) + (milk) + (mustard, for meat) + (sugar free ketchup, for meat) + (garlic salt) + (onion powder)
+{meat mixture} <mix, well with sanitized hands, reaching the bowl bottom>
+(dishes) <grease, with (grease)>
+{meat mixture} <distribute, evenly among (dishes)>
+    <flatten, surface as much as possible>
+Make a small channel in the middle of each meatloaf to maintain its shape during cooking.
+{meatloaves} <bake, in (oven), 180°C, 1h>
+Meanwhile [
+    With about 15 minutes left:
+    (brown sugar) <dissolve, in (water), in (bowl, for sauce)>
+    {sauce} = (brown sugar) + (Campbell's tomato soup) + (sugar free ketchup, for sauce) + (mustard, for sauce)
+        <stir> ?= thick and light red
+]
+{meatloaves} <remove, from (oven)>
+Cut open the thickest meatloaf to confirm the beef is cooked.
+{meatloaves} <coat, tops evenly with sauce>
+    <return, to the oven>
+    <bake, 10m>
+    <remove, from (oven)>
+    <cool>
+    <slice>
+    <serve>
+
+::notes
+
+The source lists optional Franks RedHot sauce but gives no addition step.
 
 ::story
 

@@ -14,32 +14,49 @@ tags: portuguese, soup, pork
 
 ::ingredients
 
-(well-washed stone)
-(kidney beans or fresh)
-(pig's ear, blanched and sliced thin)
-(chouriço negro) -OR- (blood sausage, firm type)
-(chouriço, mixed meat) -OR- (smoked sausage, mediterranean)
-(pork belly, fatback or bacon)
+(kidney beans, source wording: kidney beans or fresh)
+(pigs ear, blanched; sliced thin)
+(blood sausage choice) = (chouriço negro) -OR- (blood sausage, firm type)
+(smoked sausage choice) = (mixed meat chouriço) -OR- (Mediterranean smoked sausage)
+(pork) = (pork belly) -OR- (fatback) -OR- (bacon)
 (potatoes, cubed)
-(onion, chopped)
+(onions, chopped)
 (garlic cloves)
 (bay leaf)
 (cilantro/coriander, chopped)
+(water)
+(olive oil) to taste
+(salt) to taste
+(pepper) to taste
 
 ::equipment
 
+(stone, well-washed)
 (saucepan)
-(bowl)
-(pot)
+(bowls)
 
 ::instructions
 
-In a saucepan, boil the kidney beans with the pig's ear, sausages, pork belly, onions, garlic and bay leaf in some water and add a well-washed stone. Season with the olive oil and salt and pepper to taste.
-If necessary, add more water while it’s boiling.
-Once the meat is cooked, take it out and reserve, then add the diced potatoes and cilantro to the pot.
-<let, the potatoes cook on medium to high heat for about 30-35 minutes>
-Once the potatoes are well cooked, you can remove the pot from the heat, add the previously chopped meat back in and stir it well.
-<pour, into bowls and serve>
+{soup} = (saucepan) + (kidney beans) + (pigs ear) + (blood sausage choice) + (smoked sausage choice) + (pork) + (onions) + (garlic cloves) + (bay leaf) + (water)
+    <boil>
+(saucepan) + (stone)
+{soup} + (olive oil) + (salt) + (pepper)
+If necessary, add more (water) while boiling.
+Once the meat is cooked:
+{meat} <remove, from (saucepan)>
+    <reserve>
+{soup} + (potatoes) + (cilantro/coriander)
+(potatoes) <cook, medium to high heat; about 30–35m> ?= well cooked
+(saucepan) <remove, from heat>
+{soup} + {meat, chopped}
+{soup} <stir, well>
+    <pour, into (bowls)>
+    <serve>
+
+::notes
+
+The method calls the reserved meat previously chopped without specifying when to chop it.
+The method does not specify stone removal; the preserved story describes removing it after cooking.
 
 ::story
 

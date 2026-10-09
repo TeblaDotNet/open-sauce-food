@@ -22,27 +22,45 @@ serves: 3
 (soy sauce) 3 Tbsp
 (oyster sauce) 2 Tbsp
 (sesame oil) 2 tsp
-(peanut oil) 2 Tbsp -OR- (frying oil, other suitable oil) 2 Tbsp
-(firm tofu, cut into cubes) 6 oz
+(frying oil) = (peanut oil) 2 Tbsp -OR- (oil, other suitable for frying) 2 Tbsp
+(tofu, firm, cubed) 6 oz
 (carrot, julienned) 1
-(broccoli florets, Small) 2 cups
+(broccoli florets, small) 2 cups
 (garlic, minced) 2 cloves
 (ginger, finely grated) 2 tsp
-(roasted cashews) 1/2 cup
+(cashews, roasted) 1/2 cup
+(water, hot, for soaking)
+(water, for sauce) 2 Tbsp
 
 ::equipment
 
-(frying pan)
-(bowl)
+(bowl, for noodles)
+(bowl, for sauce)
+(pan) = (wok) -OR- (frying pan, large)
 
 ::instructions
 
-Loosen the precooked noodles by soaking in a bowl of hot water for 2-3 minutes, then drain and set aside.
-<mix, together the soy sauce, oyster sauce, sesame oil and 2 Tbsp water in a bowl>
-<heat, a wok or large frying pan over a high heat, add the oil and stir-fry the carrot and broccoli for 2 minutes>
-<add, the tofu and stir-fry for 4 minutes>
-<add, the garlic and ginger and stir-fry for a minute>
-<stir, through the noodles and then add the sauce mixture and cashews and mix until thoroughly combined and heated through>
+(precooked thick wheat noodles) <soak, in (bowl, for noodles), with (water, for soaking), 2-3m> ?= loosened
+    <drain>
+    <set aside>
+{sauce} = (soy sauce) + (oyster sauce) + (sesame oil) + (water, for sauce)
+    <mix, in (bowl, for sauce)>
+(pan) <heat, high heat>
+(frying oil) <put, in (pan)>
+{stir-fry} = (carrot) + (broccoli florets)
+    <stir-fry, in (pan), 2m>
+    + (tofu)
+    <stir-fry, 4m>
+    + (garlic) + (ginger)
+    <stir-fry, 1m>
+    + (precooked thick wheat noodles)
+    <stir>
+    + {sauce} + (cashews)
+    <mix> ?= thoroughly combined and heated through
+
+::notes
+
+Precooked thick wheat noodles are usually found in the refrigerated supermarket section. Prepared soba noodles are a worthy substitute.
 
 ::story
 

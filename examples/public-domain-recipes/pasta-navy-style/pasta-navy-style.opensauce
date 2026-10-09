@@ -15,38 +15,52 @@ image: pasta-navy-style.webp
 
 ::ingredients
 
-(pasta, Usually I prefer to use fusilli or penne, but any short-cut pasta should do.) 250g
-(beef, ground) 300-400g
-(tomatoes) 3-4
+(pasta, short-cut; fusilli or penne preferred) 250g
+(ground beef) 300–400g
+(tomatoes) 3–4
 (carrot) 1
 (onion) 1/2
-(garlic cloves) 2-3
+(garlic cloves) 2–3
 (cumin)
 (paprika)
+(olive oil)
+(salt) to taste
+(black pepper) to taste
 
 ::equipment
 
 (frying pan)
 (pot)
+(grater, small and medium slots)
 
 ::instructions
 
-<add, olive oil to your frying pan, heat it to medium-high heat>
-<chop, some onions and add them to the preheated pan>
-After a couple of minutes add the ground beef to the pan, salt it and mix it a bit with the onions in the pan.
-When the meat is almost done, mince the garlic and add it together with the cumin and paprika to the pan.
-<cook, the pasta — /pasta in a pot until its done al dente while the beef is being cooked>
-(tomatoes) <grate, over the pan using a grater with small-sized slots, in such a way that the tomato paste and juice falls right away from the grater to the pan>
-(carrot) <grate, using a grater with medium-sized slots and add it to the pan>
-Salt some more to taste, and add some black pepper to taste, mix.
-<cook, it over medium/medium-low heat for about 10-15 minutes or until the water and juices from the tomatoes have almost completely evaporated>
-Once （or if） the pasta and beef is already cooked, add the pasta to the pan and cook for another couple of minutes.
-<serve, hot and enjoy>
+(frying pan) + (olive oil)
+(frying pan) <heat, medium-high heat>
+(onion) <chop>
+(frying pan) + (onion)
+(onion) <cook, a couple of minutes>
+(frying pan) + (ground beef) + (salt)
+{beef and onions} <mix, a bit>
+    <cook> ?= meat almost done
+Meanwhile [
+    (pasta) <cook, in (pot)> ?= al dente
+]
+(garlic cloves) <mince>
+(frying pan) + (garlic cloves) + (cumin) + (paprika)
+(tomatoes) <grate, over (frying pan) using (grater); small slots so pulp and juice fall directly into pan>
+(carrot) <grate, using (grater); medium slots>
+(frying pan) + (carrot) + (salt) + (black pepper)
+{beef mixture} <mix>
+    <cook, medium to medium-low heat; about 10–15m> ?= tomato water and juices almost completely evaporated
+Once both pasta and beef are cooked:
+(frying pan) + (pasta)
+{dish} <cook, another couple of minutes>
+    <serve, hot>
 
 ::notes
 
-Here are the ingredients for about two hearty adult portions:
-
+About two hearty adult portions. Source pasta instructions: /pasta.
 
 ::story
 

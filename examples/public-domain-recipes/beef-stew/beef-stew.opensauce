@@ -14,31 +14,67 @@ tags: irish, stew, lamb, beef
 
 ::ingredients
 
-(lamb shoulder or beef chuck)
-(onion, celery, carrot and garlic)
-(thyme, rosemary and some bay leaves.)
-(beef or chicken stock — /chicken-stock-bone-broth)
-(beer, stout or porter, optional; for some extra flavour) a bottle
+(meat) = (lamb shoulder) -OR- (beef chuck)
+(onion)
+(celery)
+(carrot)
+(garlic, may be whole)
+(thyme)
+(rosemary)
+(bay leaves) some
+(stock) = (beef stock) -OR- (chicken stock)
+(beer, stout or porter, optional) a bottle; method uses about a third of a can
+(oil)
+(salt)
+(potatoes, optional thickening method)
+(flour, alternative thickening method) 1 teaspoon
+(water, for flour slurry)
 
 ::equipment
 
-(pot)
+(pot, large)
+(cup, for flour slurry)
 
 ::instructions
 
-<cut, up the onion, carrot and celery into bite-sized chunks roughly the same size as the meat. The garlic can go in whole>
-<brown, the meat on all sides. Get a large pot with some oil and sear the edges of the meat. Do this in batches and try not to overcrowd the pot. Browning the meat on the outside will give it a much nicer texture when you go to eat this and should not be skipped for convenience>
-<remove, the meat and add in the vegetables. Adding some salt will help remove the moisture in the veg and will help deglaze the caramelised bits at the bottom of the pot>
-（Optional） If you have a Guinness or some other stout add the meat back in an deglaze with about a third of the can. This will add some extra flavour. Wait until the alcohol has completely evaporated until you stir or continue.
-<add, back in the meat and add in the stock and herbs. Lower the heat and allow to simmer for about 2 - 2.5 hours>
-After 2 hours the stew will be a bit thicker but probably still watery. The easiest thing to do is add some cut up potatoes for the last half hour. The starch will help thicken the stew considerably. Otherwise you can mix a teaspoon of flour with water in a cup and slowly add this to the stew while whisking.
+(onion) + (carrot) + (celery)
+    <cut, into bite-sized chunks roughly the same size as the meat>
+The (garlic) can go in whole.
+(meat) <sear, in (pot) + (oil), in batches without overcrowding> ?= browned on all sides
+Do not skip browning for convenience; it gives the meat a nicer texture.
+(meat) <remove, from (pot)>
+(pot) + (onion) + (carrot) + (celery) + (garlic)
+Adding some (salt) helps remove moisture from the vegetables and deglaze the caramelised bits.
+Optional [
+    (meat) <return, to the pot>
+    (pot) <deglaze, with (beer), about a third of a can>
+    Wait until the alcohol has completely evaporated before stirring or continuing.
+]
+Return the (meat) if it is not already back in the pot.
+(pot) + (stock) + (thyme) + (rosemary) + (bay leaves)
+Lower the heat.
+{stew} <simmer, ~2-2.5h>
+Meanwhile [
+    After 2 hours, if the stew is still watery, thicken it using one of these methods:
+    [
+        (potatoes) <cut>
+        {stew} + (potatoes)
+        Let the potatoes cook for the last half hour; their starch thickens the stew.
+    ]
+    -OR-
+    [
+        {slurry} = (flour) + (water)
+            <mix, in (cup)>
+        Add the slurry slowly to the stew while whisking.
+    ]
+]
 
 ::notes
 
-This is a recipe for a typical Irish stew. This is traditionally made with lamb since it's cheaper however, beef tastes a lot better and is more readily available in North America I've been told. This is good if you want to feed a family or if you just want to be lazy and eat the same thing for 2 or 3 days. Besides browning the meat this is really just throwing stuff into a pot in a certain order. This is the kind of dish that tastes better the next day so it's ideal for making on a Sunday and eating for the next 2 or 3 days.
-
 Serve with mashed potatoes.
-
+The author says this tastes better the next day and is useful for making on a Sunday and eating over the next two or three days.
+The ingredient list specifies a bottle of beer; the method uses about a third of a can. Both source descriptions are retained without assuming container sizes.
+Chicken-stock guidance linked by the source: /chicken-stock-bone-broth.
 
 ::source
 <<<

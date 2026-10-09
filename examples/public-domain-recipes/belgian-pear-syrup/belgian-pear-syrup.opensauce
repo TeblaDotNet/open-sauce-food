@@ -19,34 +19,64 @@ tags: syrup, fruit, belgian
 
 ::ingredients
 
-(pears, Quality doesn't matter; you can argue that overripe pears are better because they have more sugar content.) 7
+(pear) 7
 (apple) 3
-(dates, optional -- you can experiment with these; they can bring out some nice flavors., raisins, dried apricots or prunes) a small handful
-(sugar) 150 grams
-(glass of water) 1
-(find sieve or cheese cloth)
-(glass jar)
+(dried fruit, optional) = (dates) a small handful -OR- (raisins) a small handful -OR- (dried apricots) a small handful -OR- (prunes) a small handful
+(sugar) 150 grams; a bit less if dried fruit is used
+(water, for stewing) 1 glass
+(water, for washing and rinsing)
 
 ::equipment
 
-(sieve)
+(pan, large, thick-bottomed; also called pot in source)
+(sieve, fine)
+(cheesecloth)
+(glass jars)
 (bowl)
-(pot)
+(towel, clean, dry)
+(stove)
+(plate, cold, optional)
 
 ::instructions
 
-<wash, the outside of the fruit with water and cut it in 8 medium sized pieces. You don't have to core or deseed the fruit; everything can go in the pot>
-<place, the fruit in a large pan with a thick bottom so you get even heat. I suggest you place the pears on the bottom, since they don't burn as fast. Add the glass of water>
-If you are using them, add the dried fruits at this point.
-<put, the heat as low as possible and let it all slowly stew for 3 hours, stirring every now and then>
-At this point, you can boil your glass jars to sterilize them. Place the sterilized jars on a clean, dry towel.
-When the fruit is done cooking for 3 hours, grab your sieve or cheese cloth, and place it over a bowl, run your fruit through it until you have extracted all the clear liquid. You can discard the pulp.
-Quickly rinse the pot with water until clean and add the fruit liquid back. Place back on the stove.
-<add, the sugar. Add a bit less sugar if you also used dried fruits>
-<cook, for another 2 hours. After that, stir every so often, Be careful with the stirring; if you stir too often, it might caramelize too quickly>
-After two to two and a half hours, your syrup should be nearly done.
-At this point, it's up to you on how thick you want your syrup to be. A good way to test the viscosity is to drop a little bit on a cold plate or on your countertop to see how it is at room temperature.
-When you are happy with the viscosity, pour the syrup into your sterilized jars and immediately seal them.
+(pear) + (apple) <wash, outside, with (water, for washing and rinsing)>
+    <cut, into 8 medium-sized pieces>
+You do not have to core or deseed the fruit; everything can go in the pan.
+{fruit} = (pear) + (apple)
+    <place, in (pan), pears on the bottom>
+# The source recommends pears on the bottom because they do not burn as fast; the thick bottom gives even heat.
+{fruit} + (water, for stewing)
+Optional [
+    {fruit} + (dried fruit)
+]
+<reduce heat, to as low as possible>
+{fruit} <stew, slowly, 3h>
+Meanwhile [
+    {fruit} <stir, every now and then>
+]
+At this point, you can boil (glass jars) to sterilize them, then place them on (towel).
+[
+    Place (sieve) over (bowl). Run {fruit} through it to extract all the clear {fruit liquid}.
+]
+-OR-
+[
+    Place (cheesecloth) over (bowl). Run {fruit} through it to extract all the clear {fruit liquid}.
+]
+The pulp can be discarded.
+(pan) <rinse, quickly, with (water, for washing and rinsing)> ?= clean
+Pour {fruit liquid} back into (pan).
+(pan) <place, on (stove)>
+{fruit liquid} + (sugar)
+Use a bit less sugar if dried fruit was included.
+{fruit liquid} <cook, 2h more>
+After that, stir every so often. Be careful: stirring too often might caramelize it too quickly.
+The source says the syrup should be nearly done after two to two and a half hours; it does not explicitly clarify the relation to the preceding two-hour step.
+Test the viscosity by dropping a little {syrup} on (plate) or the countertop to judge it at room temperature.
+When happy with the viscosity, pour {syrup} into the sterilized (glass jars) and seal immediately.
+
+::notes
+
+A syrup for bread and many other recipes. Pear quality does not matter; the source suggests overripe pears may be better because of their sugar content. Optional dried fruits can bring out different flavours.
 
 ::story
 

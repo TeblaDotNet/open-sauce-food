@@ -19,29 +19,55 @@ image: hoisin-pork-belly.webp
 
 ::ingredients
 
-(high fat pork belly, no skin) 400g
-(thumb of ginger, large)
+(pork belly, high fat, no skin) 400g
+(ginger) large thumb
 (garlic) 4 cloves
 (scotch bonnet chili) 1
 (ketchup) 2 tbsp
 (hoisin sauce) 2 tbsp
 (honey) 2 tbsp
-(sesame oil) 2 tsp
+(sesame oil, listed but method gives no use) 2 tsp
 (spring onion) 1
 
 ::equipment
 
-(frying pan)
+(frying pan, small)
+(lid)
 (bowl)
 
 ::instructions
 
-<cut, pork belly into 1 inch cubes>
-In a small frying pan place pork cubes fattiest side down in dry pan, put gas on lowest level possible flame, cover with lid. Ideally your pork covers the entire surface of the small pan---crowding is good for this recipe.
-Lard will render out of the pork allowing it to confit cook in its own juice. Low flame essential. Turn the pork 3 or 4 times until all sides are golden and fat is rendered to melt in mouth levels. This will take around 1hr.
-<remove, pork belly and place in a bowl and cover. Remove around half the liquified lard and store for other uses>
-<add, diced ginger, smashed garlic cloves and chopped chili and sauté in the remaining lard. Once these are softened add the ketchup, hoisin sauce and honey. Reduce over very low heat for a few minutes until thickened>
-<add, the pork belly to the sauce and cook on low for a further 2 minutes. Leave to stand for 5 minutes then add thinly sliced spring onions to garnish. Enjoy with steamed white rice>
+(pork belly) <cut, into 1 inch cubes>
+    <place, in (frying pan), dry pan, fattiest side down>
+Set the gas to the lowest possible flame.
+(frying pan) <cover, with (lid)>
+Ideally the pork covers the pan's entire surface; crowding is desirable here.
+(pork belly) <confit, in its own rendered fat and juices, lowest flame, ~1h> ?= all sides golden and fat melt-in-mouth
+Meanwhile [
+    (pork belly) <turn, 3 or 4 times>
+]
+(pork belly) <remove, from (frying pan)>
+    <place, in (bowl)>
+    <cover>
+Remove around half the liquefied lard and keep for other uses.
+(ginger) <dice>
+(garlic) <smash>
+(scotch bonnet chili) <chop>
+{aromatics} = (ginger) + (garlic) + (scotch bonnet chili)
+    <sauté, in the remaining lard> ?= softened
+{sauce} = {aromatics} + (ketchup) + (hoisin sauce) + (honey)
+    <reduce, very low heat, a few minutes> ?= thickened
+{sauce} + (pork belly)
+    <cook, low heat, a further 2m>
+    <stand, 5m>
+(spring onion) <slice, thinly>
+{pork} <garnish, with (spring onion)>
+
+::notes
+
+Serve with steamed white rice.
+The source lists 2 tsp sesame oil but does not specify its use; none is inferred.
+The removed lard may be stored for other uses, as described in the source.
 
 ::story
 

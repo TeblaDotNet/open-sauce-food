@@ -19,9 +19,9 @@ serves: 3
 ::ingredients
 
 (lamb leg meat, diced) 450 g
-(sesame oil, olive oil, or rendered fat) 4 tbsp
-(prepared water) 350 mL
-(sour-tasting beer , e.g, Weißbier) 350 mL
+(fat) = (sesame oil) 4 tbsp -OR- (olive oil) 4 tbsp -OR- (rendered fat) 4 tbsp
+(water) 350 mL
+(beer, sour-tasting, e.g. Weißbier) 350 mL
 (onion, large, chopped) 1
 (arugula, chopped) 2 cups
 (cilantro, chopped) ¾ cup
@@ -29,24 +29,34 @@ serves: 3
 (beetroot, large, chopped) 2
 (leek, minced or diced) 1
 (garlic, minced or diced) 3-9 cloves
-(persian shallot, Akkadian: samidu; uncertain translation) 1
-(egyptian leek, Akkadian: suhutinnu; uncertain translation) 1
-(coriander seeds for garnish)
+(Persian shallot, samidu, uncertain translation) 1
+(Egyptian leek, suhutinnu, uncertain translation) 1
+(coriander seeds, for garnish)
+(salt)
 
 ::equipment
 
+(pot, large, preferably iron)
 (bowl)
-(pot)
 
 ::instructions
 
-<add, oil/fat to a large pot (preferably iron) and set over high heat. Sear lamb for several minutes in the oil/fat until lightly browned>
-<add, onions and cook for 5 minutes>
-<add, beetroots and let cook for 5 minutes>
-<add, salt, water, beer, arugula, cilantro, shallot, and cumin. Bring to a boil>
-(garlic) <mix, with leek and Egyptian leek, and add the mixture to the pot>
-Lower heat to medium and let simmer for 60 minutes, or until the beetroot and meat are cooked to your liking.
-Once the tuh'u has finished cooking, serve in a bowl. Sprinkle with coriander seeds. Garnish with chopped cilantro and chopped Egyptian leek.
+(fat) <heat, in (pot), high heat>
+(lamb leg meat) <sear, in (pot), several minutes> ?= lightly browned
+    + (onion)
+{stew} <cook, 5m>
+    + (beetroot)
+    <cook, 5m>
+    + (salt) + (water) + (beer) + (arugula) + (cilantro) + (Persian shallot) + (cumin seeds)
+    <bring to boil>
+{leek mixture} = (garlic) + (leek) + (Egyptian leek)
+    <mix>
+{stew} + {leek mixture}
+Lower heat to medium.
+{stew} <simmer, 60m> ?= beetroot and meat cooked to your liking
+    <serve, in (bowl)>
+    <sprinkle, with (coriander seeds)>
+    <garnish, with (cilantro) + (Egyptian leek), chopped>
 
 ::story
 

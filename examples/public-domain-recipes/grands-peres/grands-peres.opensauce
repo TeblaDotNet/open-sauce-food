@@ -19,27 +19,35 @@ image: grands-peres.webp
 
 ::ingredients
 
-(flour) 1 cup
-(baking powder) 2 TSP
-(salt) 1 pinch
-(tb butter, cut into pieces) 2
-(milk) ½ cup
-(water) 1 cup
-(maple syrup) 1 cup
+(flour) 1cup
+(baking powder) 2tsp
+(salt) 1pinch
+(butter, cut into pieces) 2tbsp
+(milk) 1/2cup
+(water) 1cup
+(maple syrup) 1cup
 
 ::equipment
 
 (saucepan)
+(lid)
 
 ::instructions
 
-<stir, together flour, baking powder and salt until aerated and no longer clumpy>
-Work in the butter with your fingertips and add milk. Form into 5-6 balls.
-In a saucepan equipped with a lid, bring water and syrup to a simmer. Add dough balls and cover. Simmer on low 12-15 minutes.
+{dry mixture} = (flour) + (baking powder) + (salt)
+    <stir> ?= aerated and no longer clumpy
+{dry mixture} + (butter)
+{mixture} <work, with fingertips>
+{dough} = {mixture} + (milk)
+    <form, into 5–6 balls>
+{syrup} = (saucepan) + (water) + (maple syrup)
+    <simmer>
+{syrup} + {dough balls}
+(saucepan) <cover, with (lid)>
+{dumplings} <simmer, low heat; 12–15m>
+Avoid lifting the lid; these cook with the help of steam.
 
 ::notes
-
-- Avoid lifting the lid since these cook with the help of steam.
 
 
 ::source

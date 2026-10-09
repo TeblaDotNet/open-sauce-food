@@ -37,11 +37,11 @@ image: easy-pizza-sauce.webp
 
 ::instructions
 
-Finely chop onions and garlic into a pot.
-<cover, them with olive oil>
-<cook, mixture on medium heat (~4/10) until glazed>
-<add, tomato sauce, tomato concentrate, sugar, salt, pepper, thyme/rosemary, oregano and basil to the mixture>
-<let, the mixture boil on low heat (~2.5/10) for ~60min>
+(onion) + (garlic cloves) <chop, finely into (pot)>
+    <cover, with (olive oil)>
+{mixture} <cook, medium heat approximately 4/10> ?= glazed
+{sauce} = {mixture} + (tomato sauce) + (tomato concentrate) + (sugar) + (salt) + (pepper) + (thyme/rosemary) + (oregano) + (basil)
+    <boil, low heat approximately 2.5/10; approximately 60m>
 
 ::notes
 

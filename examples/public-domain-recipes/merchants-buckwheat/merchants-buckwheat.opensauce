@@ -16,33 +16,52 @@ image: merchants-buckwheat.webp
 ::ingredients
 
 (pork meat) 400g
-(buckwheat) 1/2 metric cup / ~125ml
-(water) 1 1/5 metric cup / ~300ml
-(medium-sized carrot) 1
+(buckwheat) 1/2 metric cup （~125ml）
+(water) 1 1/5 metric cup （~300ml）
+(carrot, medium-sized) 1
 (onion, small) 1
 (tomato paste) 6-8 tablespoons
 (wheat flour)
 (curcuma)
 (chili powder, optional)
-(garlic cloves) 3-4
+(garlic) 3-4 cloves
 (parsley)
 (bay leaves) 3-4
+(oil) a bit
+(salt) to taste
+(black pepper) to taste
 
 ::equipment
 
 (frying pan)
+(lid)
 
 ::instructions
 
-<chop, the onion and cut the pork into small pieces>
-<dust, the pork with some flour. I sometimes like to do this once I've added the pork to the pan, just because I am lazy and I haven't noticed much difference between either approach>
-<heat, the frying pan add a bit of oil, add the pork and onion, and fry for about 10-15 minutes over medium-high heat>
-While the pork and onion are being fried, cut the carrot into small pieces and chop the parsley.
-Once the pork and onion are fried, add the water, tomato paste, buckwheat and carrots.
-<add, curcuma, chili powder, salt and black pepper to taste; mix thoroughly>
-<add, in the garlic cloves, bay leaves and chopped parsley>
-Once the water is boiling, close the pan with a lid and stew for about 25 minutes over low heat.
-<serve, hot and enjoy>
+(onion) <chop>
+(pork meat) <cut, into small pieces>
+    <dust, with (wheat flour)>
+# The author sometimes dusts after adding pork to the pan and reports little difference.
+(frying pan) <heat>
+    + (oil)
+{pork and onion} = (pork meat) + (onion)
+    <fry, in (frying pan), medium-high heat, 10-15m>
+Meanwhile [
+    (carrot) <cut, into small pieces>
+    (parsley) <chop>
+]
+{pork and onion} + (water) + (tomato paste) + (buckwheat) + (carrot)
+    + (curcuma) + (salt) + (black pepper)
+Optional [
+    {pork and onion} + (chili powder)
+]
+{mixture} <mix, thoroughly>
+    + (garlic) + (bay leaves) + (parsley)
+Once the water boils:
+(frying pan) <cover, with (lid)>
+{mixture} <stew, low heat, ~25m>
+    <serve, hot>
+# Enjoy!
 
 ::notes
 

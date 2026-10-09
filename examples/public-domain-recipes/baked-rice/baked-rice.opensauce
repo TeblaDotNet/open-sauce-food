@@ -26,32 +26,56 @@ image: baked-rice.webp
 (pork belly, cut into pieces) 200 g
 (blood sausages, morcillas de cebolla) 2
 (potato, medium) 1
-(tomato, large) 1
+(tomato, large, sliced for topping) 1
 (whole garlic head) 1
 (tomatoes, crushed) 100 g
 (extra virgin olive oil) 50 ml
 (hot broth, preferably from stew) 800 ml
 (sweet paprika) 1 teaspoon
 (saffron threads) A few
-(salt to taste)
+(salt) to taste
 
 ::equipment
 
 (oven)
+(clay casserole, oven-safe)
+(cloth, clean)
 
 ::instructions
 
-<preheat, the oven to 220°C (428°F), using both upper and lower heat>
-<peel, the potato and cut it into 1 cm thick slices. Set aside>
-In a clay casserole （oven-safe）, heat the olive oil over medium-high heat. Brown the pork ribs and pork belly until golden and crispy. Remove and set aside.
-In the same oil, lightly fry the potato slices until golden. Remove and set aside.
-(blood sausages) <sear, for a few minutes, being careful not to break them. Remove and set aside>
-(sweet paprika) <stir, into the remaining oil, mixing quickly to avoid burning. Add the crushed tomatoes and cook until the oil separates from the sauce>
-<mix, in the cooked chickpeas and rice, stirring for a couple of minutes so the rice absorbs the flavors>
-Return the pork ribs, pork belly, and potato slices to the casserole, evenly distributing them over the rice. Place the whole garlic head in the center and arrange the blood sausages and tomato slices on top.
-(hot broth) <pour, into the casserole, ensuring it covers all ingredients. Add the saffron threads and adjust the salt if needed>
-<bake, in the preheated oven for 20-25 minutes, or until the rice has absorbed all the broth and is tender>
-Once done, remove from the oven and let the baked rice rest, covered with a clean cloth, for 5 minutes before serving.
+(oven) <preheat, 220°C / 428°F, upper and lower heat>
+(potato) <peel>
+    <cut, into 1 cm thick slices>
+    <set aside>
+(extra virgin olive oil) <heat, in (clay casserole), medium-high heat>
+{browned pork} = (pork ribs) + (pork belly)
+    <brown, in (clay casserole)> ?= golden and crispy
+    <remove, from (clay casserole)>
+    <set aside>
+(potato) <fry, lightly, in the same oil> ?= golden
+    <remove, from (clay casserole)>
+    <set aside>
+(blood sausages) <sear, a few minutes, being careful not to break them>
+    <remove, from (clay casserole)>
+    <set aside>
+(sweet paprika) <stir, into the remaining oil, quickly to avoid burning>
+(clay casserole) + (tomatoes)
+{sauce} <cook, in (clay casserole)> ?= oil separates from the sauce
+{rice mixture} = {sauce} + (cooked chickpeas) + (bomba rice)
+    <stir, a couple of minutes, so the rice absorbs the flavors>
+{browned pork} + (potato)
+    <return, to (clay casserole)>
+    <distribute, evenly over the rice>
+(whole garlic head) <place, in the center>
+(blood sausages) + (tomato)
+    <arrange, on top>
+(hot broth) <pour, into (clay casserole), ensuring it covers all ingredients>
+(clay casserole) + (saffron threads)
+Adjust (salt) if needed.
+{baked rice} <bake, in (oven), 20-25m> ?= rice has absorbed all the broth and is tender
+    <remove, from (oven)>
+    <cover, with (cloth)>
+    <rest, 5m before serving>
 
 ::story
 

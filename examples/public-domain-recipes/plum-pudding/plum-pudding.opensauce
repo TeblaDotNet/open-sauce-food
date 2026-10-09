@@ -14,28 +14,61 @@ tags: raisins, dessert, pudding, fruit
 
 ::ingredients
 
-(raisins, stoned and cut in half.) One pound
-(currants, picked, washed and dried.) One pound
-(beef suet chopped fine) One pound
-(stale bread, grated, or, half a pound of flour and half a pound of bread.) One pound
+(raisins, stoned and halved) One pound
+(currants, picked, washed and dried) One pound
+(beef suet, finely chopped) One pound
+(stale bread, grated) One pound if using bread only; half a pound if using flour too
+(flour, for pudding mixture) Half a pound if using half bread and half flour
 (egg) Eight
 (sugar) A quarter of a pound
 (brandy) A glass
 (milk) A pint
 (wine) A glass
-(nutmeg, grated.) Two
+(nutmeg, grated) Two
 (mixed cinnamon and mace) A table-spoonful
 (salt) A salt-spoonful
+(flour, for fruit and cloth)
+(sweet almonds, blanched, cut in slips, garnish alternative)
+(citron, cut in slips, garnish alternative)
+(water, boiling)
+
+::equipment
+
+(pudding cloth)
+(pan)
 
 ::instructions
 
-You must prepare all your ingredients the day before （except beating the eggs） that in the morning you may have nothing to do but to mix them, as the pudding will require six hours to boil.
-<beat, the eggs very light, then put to them half the milk and beat both together. Stir in gradually the flour and grated bread. Next add the sugar by degrees. Then the suet and fruit alternately. The fruit must be well sprinkled with flour, lest it sink to the bottom. Stir very hard. Then add the spice and liquor, and lastly the remainder of the milk. Stir the whole mixture very well together. If it is not thick enough, add a little more grated bread or flour. If there is too much bread or flour, the pudding will be hard and heavy>
-Dip your pudding-cloth, in boiling water, shake it out and sprinkle it slightly with flour. Lay it in a pan and pour the mixture into the cloth. Tie it up carefully, allowing room for the pudding to swell.
-<boil, it six hours, and turn it carefully out of the cloth>
-Before you send it to table, have ready some blanched sweet almonds cut in slips, or some slips of citron, or both. Stick them all over the outside of the pudding.
-Eat it with wine, or with a sauce made of drawn butter, wine and nutmeg.
-The pudding will be improved if you add to the other ingredients, the grated rind of a large lemon or orange.
+Prepare all ingredients the day before except beating the eggs, leaving only mixing for the morning; the pudding needs six hours to boil.
+Use either one pound of grated (stale bread), or half a pound of bread and half a pound of (flour, for pudding mixture).
+(egg) <beat> ?= very light
+{mixture} = (egg) + (milk) half
+    <beat>
+Gradually stir the prepared bread, and flour if using it, into {mixture}.
+{mixture} + (sugar) by degrees
+(raisins) + (currants)
+    <sprinkle, with (flour, for fruit and cloth), well to prevent sinking>
+Add (beef suet) and the prepared fruit alternately to {mixture}.
+{mixture} <stir, very hard>
+    + (nutmeg) + (mixed cinnamon and mace) + (brandy) + (wine)
+    + (milk) remainder
+    <stir, very well>
+The source lists (salt) but does not explicitly identify its addition step.
+If not thick enough, add a little more grated bread or flour. Too much makes the pudding hard and heavy.
+(pudding cloth) <dip, in (water)>
+    <shake out>
+    <sprinkle, with (flour, for fruit and cloth), lightly>
+    <lay, in (pan)>
+{mixture} <pour, into the cloth>
+(pudding cloth) <tie, carefully with room for the pudding to swell>
+{pudding} <boil, 6h>
+    <turn out, carefully from the cloth>
+Before serving, stick slips of (sweet almonds), (citron), or both all over the outside of {pudding}.
+
+::notes
+
+Eat with wine, or a sauce of drawn butter, wine and nutmeg.
+The source suggests adding the grated rind of a large lemon or orange to the other ingredients as a variation.
 
 ::source
 <<<

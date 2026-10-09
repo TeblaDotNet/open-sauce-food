@@ -20,41 +20,61 @@ image: tajine-maadnous.webp
 
 ::ingredients
 
-(chicken breasts diced) 1 lb
-(onion chopped, medium) 1
-(potato peeled and diced, large) 1
+(chicken breast, diced) 1 lb
+(onion, medium, chopped) 1
+(potato, large, peeled and diced) 1
 (water) 1 cup
-(bunch parsley, small, about 1.5 cups, chopped, loosely packed) 1
+(parsley, small bunch, chopped, loosely packed) 1 bunch （about 1.5 cups）
 (egg, large) 8
 (cheese) 6 oz
-(olive oil) 2 tbsp
-(cumin, for Spice Blend) 1 tsp
-(coriander, for Spice Blend) 1 tsp
-(turmeric, for Spice Blend) 1 tsp
-(salt, for Spice Blend) 1 tsp
-(paprika, for Spice Blend) 1/2 tsp -OR- (cayenne pepper, for Spice Blend; if you want some heat) 1/2 tsp
-(black pepper, for Spice Blend) 1/2 tsp
-(caraway, for Spice Blend) 1/4 tsp
-(thyme, for Spice Blend) 1/4 tsp
-(cinnamon, for Spice Blend) 1/4 tsp
+(olive oil) 2 tbsp, divided
+(cumin) 1 tsp
+(coriander) 1 tsp
+(turmeric) 1 tsp
+(salt) 1 tsp
+(pepper spice) = (paprika) 1/2 tsp -OR- (cayenne pepper, for heat) 1/2 tsp
+(black pepper) 1/2 tsp
+(caraway) 1/4 tsp
+(thyme) 1/4 tsp
+(cinnamon) 1/4 tsp
+(harissa, optional, for serving)
 
 ::equipment
 
-(frying pan)
+(pan) = (frying pan, large) -OR- (pot)
 (oven)
-(bowl)
-(pot)
+(baking pan, medium, 2 quart/litre)
+(bowl, large)
 
 ::instructions
 
-<mix, the spices together (grinding any whole spices if necessary) and set them aside>
-In a large frying pan or pot over medium heat, saute the onions in about 1 tbsp of olive oil until tender.
-<toss, chicken with 1/2 of the spice mix. Add this to the pan and brown>
-<add, the potatoes and the water to the pan. Bring to a gentle simmer, then cook uncovered until potatoes are tender and most of the liquid has evaporated>
-<stir, chopped parsley into the cooked mixture and set aside to cool>
-<preheat, oven to 350°F (180°C), and grease a medium (2 quart/liter) baking pan with the remaining olive oil>
-Thoroughly whisk the eggs in a large bowl, then mix in the cheese. Stir in the chicken, potato, and parsley mixture, along with the remaining spice mixture. Stir until well-combined, then pour into the oiled baking dish.
-<bake, for 30-35 minutes, or until set in the center. Allow to cool, and serve warm or at room temperature. Serve with some harissa, if you like>
+Grind any whole spices if necessary.
+{spice mix} = (cumin) + (coriander) + (turmeric) + (salt) + (pepper spice) + (black pepper) + (caraway) + (thyme) + (cinnamon)
+    <mix>
+    <set aside>
+(onion) <sauté, in (pan), with (olive oil), about 1 tbsp, medium heat> ?= tender
+Toss (chicken breast) with half of {spice mix}, then add it to (pan).
+(chicken breast) <brown>
+{cooked mixture} = (onion) + (chicken breast) + (potato) + (water)
+    <simmer, gently>
+    <cook, uncovered> ?= potatoes tender and most liquid evaporated
+    + (parsley)
+    <stir>
+    <set aside, to cool>
+(oven) <preheat, 350°F / 180°C>
+Grease (baking pan) with the remaining (olive oil).
+(egg) <whisk, thoroughly, in (bowl)>
+{egg mixture} = (egg) + (cheese)
+    <mix>
+{tajine} = {egg mixture} + {cooked mixture} + {spice mix} remaining half
+    <stir> ?= well combined
+    <pour, into (baking pan)>
+    <bake, in (oven), 30-35m> ?= set in the centre
+    <cool>
+    <serve, warm or at room temperature>
+Optional [
+    Serve {tajine} with (harissa).
+]
 
 ::story
 

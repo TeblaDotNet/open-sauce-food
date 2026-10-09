@@ -18,32 +18,61 @@ serves: 4
 
 ::ingredients
 
-(aubergine, 900g) 3
+(aubergine) 3 （900g）
 (spaghetti) 300g
-(olive oil) 100ml
-(garlic cloves, minced) 5
-(chilli, or 1 tsp of dried chilli flakes) 1
-(tomatoes, tinned; chopped) 2 x 400g
+(olive oil) 100ml listed; method uses 75ml plus 2 tablespoons
+(garlic, minced) 5 cloves
+(chilli seasoning) = (chilli) 1 -OR- (chilli flakes, dried) 1 tsp
+(tomatoes, tinned, chopped) 2 x 400g
 (oregano, dried) 1 teaspoon
 (caster sugar) 1 teaspoon
-(basil, Fresh)
+(basil, fresh)
+(salt)
+(black pepper)
 
 ::equipment
 
-(frying pan)
 (oven)
+(peeler)
 (bowl)
-(pot)
+(baking trays) 2 or 3
+(baking paper)
+(pan) = (frying pan) -OR- (pot)
 
 ::instructions
 
-<preheat, oven to 220c (fan), or gas mark 7>
-<use, a peeler to shave off alternating strips on your aubergines, so they looked striped, like zebras>
-Then cut the aubergine widthways into 1cm thick slices. Place into a bowl with 75ml of olive oil, a good pinch of salt and black pepper. Coat the aubergines, then spread them onto two or three baking paper-lined trays. Roast for 30-35 minutes until dark brown.
-Whilst the aubergines are cooking, put two tablespoons of olive oil into a frying pan or pot on a medium-high heat. Add garlic and chilies and fry for 1 minute （don't burn them!）. Add tinned tomatoes, oregano, sugar and a pinch of salt and pepper to the pot. Reduce heat to medium low and cook until the sauce has thickened.
-<cook, the pasta — /pasta according to packet instructions, once al dente, drain and retain some of the pasta water>
-Once cooked, add the aubergine to the pasta sauce and mix well. Then add the spaghetti to the aubergine and sauce mixture, making sure everything is evenly coated. Add some of the pasta water if required to loosen the sauce, then top with fresh basil.
-Check for seasoning, then serve immediately.
+(oven) <preheat, 220°C fan / gas mark 7 as written>
+(aubergine) <shave, alternating strips, with (peeler)> ?= striped like a zebra
+    <cut, widthways into 1cm-thick slices>
+    <place, in (bowl)>
+(bowl) + (olive oil) 75ml + (salt) a good pinch + (black pepper)
+(aubergine) <coat, with the oil and seasoning>
+(baking trays) <line, with (baking paper)>
+(aubergine) <spread, over (baking trays)>
+    <roast, in (oven), 30-35m> ?= dark brown
+Meanwhile [
+    (olive oil) 2 tablespoons <heat, in (pan), medium-high heat>
+    (pan) + (garlic) + (chilli seasoning)
+    {aromatics} <fry, 1m, without burning>
+    {sauce} = {aromatics} + (tomatoes) + (oregano) + (caster sugar) + (salt) a pinch + (black pepper) a pinch
+    Reduce heat to medium-low.
+    {sauce} <cook> ?= thickened
+]
+(spaghetti) <cook, according to packet instructions> ?= al dente
+    <drain, retaining some pasta water>
+{sauce} + (aubergine)
+    <mix, well>
+    + (spaghetti)
+    <mix> ?= evenly coated
+Add some reserved pasta water if needed to loosen the sauce.
+{pasta} <top, with (basil)>
+Check seasoning.
+{pasta} <serve, immediately>
+
+::notes
+
+Source pasta guidance: /pasta.
+The ingredient list gives 100ml olive oil; the method specifies 75ml for aubergines and two tablespoons for sauce. Both are retained without recalculating the total.
 
 ::story
 

@@ -13,33 +13,53 @@ tags: mexican, pork
 
 ::ingredients
 
-(pork butt with fat)
-(adobo goya all purpose)
-(cumin)
-(goya naranja juice)
-(corn oil, preferred)
+(pork butt, with fat)
+(Adobo Goya all purpose)
+(black pepper) 1 ml
+(cumin) 1 ml
+(salt) 5 ml
+(Goya Naranja juice) 15 ml
+(corn oil, preferred) some
 
 ::equipment
 
-(skillet)
+(skillet, deep dish)
+(lid)
 (colander)
 (pot)
+(paper, for catching oil)
+(spoon)
 
 ::instructions
 
-<cut, pork butt to around bite sized pieces with fat attached for frying and flavor>
-<add, Adobo Goya and spread evenly throughout the pork>
-<add, Black pepper 1 ml>
-<add, Cumin 1 ml>
-<add, Salt 5 ml>
-<add, Goya Naranja 15 ml>
-<rub, all of it to spread the spices along the meat>
-Have a colander to put the Chicharonnes in after having fried it and have another pot on the bottom that has some paper inside for oil
-<put, it in deep dish skillet around Medium (3-4) heat cover with lid for around 30-35 mins till you see it's cooked, turning to make sure everything is cooking evenly>
-After it dries up at around 30-35 mins put the temperature to High （6-7） without the lid
-<put, some oil to make sure it doesn't stick too much>
-<use, spoon to spin/stir and fry until a golden brown>
-<take, out the Chicharonnes and put into the colander. You may keep some of the fried bits that come off to eat as well>
+(pork butt) <cut, into about bite-sized pieces, fat attached>
+# Fat is kept for frying and flavour.
+(pork butt) + (Adobo Goya all purpose)
+    <spread, evenly>
+    + (black pepper) + (cumin) + (salt) + (Goya Naranja juice)
+    <rub, to distribute spices along the meat>
+(pot) <line, with (paper)>
+Place (colander) over (pot) to catch oil when draining the fried pork.
+(pork butt) <put, in (skillet)>
+    <cover, with (lid)>
+    <cook, medium heat setting 3-4, ~30-35m> ?= cooked and dried up
+Meanwhile [
+    (pork butt) <turn, for even cooking>
+]
+(lid) <remove>
+<increase heat, to high setting 6-7>
+(pork butt) + (corn oil)
+# Oil prevents excessive sticking.
+(pork butt) <fry> ?= golden brown
+Meanwhile [
+    (pork butt) <stir, with (spoon)>
+]
+(pork butt) <remove, from (skillet)>
+    <put, in (colander)>
+
+::notes
+
+You may keep the fried bits that come off to eat as well. Source seasoning quantities are in ml and are retained without conversion.
 
 ::source
 <<<

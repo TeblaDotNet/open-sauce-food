@@ -21,26 +21,45 @@ image: tarte-merengada.webp
 
 (buttered cookies, shortcake) 200g
 (margarine) 80g
-(condensed milk, 370g) 1 can
-(lemon, 1 dl of juice + the outer scrapings) 3 / 4
+(condensed milk) 1 can （370g）
+(lemon, for 1 dl juice and zest) 3 / 4
 (egg) 5
 (sugar) 150g
 
 ::equipment
 
 (oven)
+(pie dish)
+(grater)
+(spoon)
 
 ::instructions
 
-Pre-heat the oven to 220ºC.
-<separate, the yolk from the egg whites and mix the yolks with the condensed milk into whipped cream>
-Meanwhile mash the cookies into a powder and mix it with the margarine while covering the bottom and sides of a pie dish.
-<take, the outer scrapings of a lemon with a gratter and squeeze the juice of all the lemons>
-<mix, the scrappings and the juice with the yolk and add to the pie dish>
-<take, it to the oven>
-Meanwhile mix the egg whites until they start to foam, add the sugar then and keep mixing them until the meringe starts to be firm.
-After 10 to 15 minutes in the oven, cover the surface of the pie with small dumpings of meringe with a spoon.
-<reduce, the heat of the oven to 160ºC and put the pie back into the oven until the meringe on top becomes golden brown>
+(oven) <preheat, 220°C>
+(egg) <separate, yolks from whites>
+{cream} = (egg: yolk) + (condensed milk)
+    <mix> ?= whipped cream consistency
+Meanwhile [
+    (buttered cookies) <mash> ?= powder
+    {crust} = (buttered cookies) + (margarine)
+        <mix>
+        <spread, over the bottom and sides of (pie dish)>
+]
+(lemon: zest) <grate, from one lemon, with (grater)>
+(lemon) <squeeze, all the lemons>
+{filling} = {cream} + (lemon: zest) + {lemon juice}
+    <mix>
+    <put, into (pie dish)>
+{pie} <bake, in (oven), 10-15m>
+Meanwhile [
+    (egg: white) <mix> ?= starting to foam
+    {meringue} = (egg: white) + (sugar)
+        <mix> ?= starting to be firm
+]
+{pie} <cover, with small spoonfuls of meringue, using (spoon)>
+(oven) <reduce, to 160°C>
+{pie} <return, to (oven)>
+    <bake> ?= meringue on top is golden brown
 
 ::story
 

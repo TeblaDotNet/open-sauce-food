@@ -18,32 +18,51 @@ serves: 4
 
 ::ingredients
 
-(+ 1/2 tsp lime juice, divided) 1/4 cup
-(olive oil, divided) 3 Tbsp
-(garlic, crushed) 4 cloves
-(soy sauce, divided) 3 tsp
-(salt) 1 tsp
-(liquid smoke) 1/2 tsp
-(cayenne pepper) 1/2 tsp
-(black pepper) 1/4 tsp
-(chicken breasts or skirt steak, bones/skin removed) 1 lb
-(water) 2 Tbsp
-(spanish onion, large, thinly sliced) 1
-(each green, Red, and Yellow Bell Pepper, thinly sliced) 1/2
+(lime juice, divided) 1/4cup + 1/2tsp
+(olive oil, divided) 3tbsp
+(garlic, crushed) 4cloves
+(soy sauce, divided) 3tsp
+(salt, for marinade) 1tsp
+(salt, for reserved liquid) a dash
+(liquid smoke) 1/2tsp
+(cayenne pepper) 1/2tsp
+(black pepper, for marinade) 1/4tsp
+(pepper, for reserved liquid) a dash
+(meat) = (chicken breasts, bones/skin removed) 1lb -OR- (skirt steak, bones/skin removed) 1lb
+(water) 2tbsp
+(Spanish onion, large; thinly sliced) 1
+(green bell pepper, thinly sliced) 1/2
+(red bell pepper, thinly sliced) 1/2
+(yellow bell pepper, thinly sliced) 1/2
 
 ::equipment
 
-(skillet)
+(container, resealable)
+(grill)
+(skillet, large)
 
 ::instructions
 
-<combine, 1/4 cup lime juice, 2 Tbsp of the oil, garlic, 2 tsp soy sauce, the salt, liquid smoke, cayenne pepper, and black pepper in a resealable container, add chicken/steak, cover, and refrigerate for at least 2 hours or overnight>
-<combine, water, remaining soy sauce and lime juice, and a dash of salt and pepper - set aside>
-<grill, meat over a medium-high flame for 4-5 minutes per side, or until cooked through>
-<cut, meat into thin strips - set aside and keep warm>
-In a large skillet over medium-high heat, cook onion and peppers in remaining oil until brown - remove from heat and pour reserved liquid mixture over onions and peppers.
-<toss, together meat, onions, and peppers>
-Can serve with warm tortillas, pico de gallo, cheese, sour cream, and guacamole.
+{marinade} = (container) + (lime juice) 1/4cup + (olive oil) 2tbsp + (garlic) + (soy sauce) 2tsp + (salt, for marinade) + (liquid smoke) + (cayenne pepper) + (black pepper, for marinade)
+{marinated meat} = {marinade} + (meat)
+(container) <cover>
+{marinated meat} <refrigerate, at least 2h or overnight>
+{reserved liquid} = (water) + (soy sauce, remaining) + (lime juice, remaining) + (salt, for reserved liquid) + (pepper, for reserved liquid)
+    <set aside>
+{marinated meat} <grill, on (grill); medium-high flame; 4–5m per side> ?= cooked through
+    <cut, into thin strips>
+    <set aside>
+    <keep warm>
+{vegetables} = (skillet) + (Spanish onion) + (green bell pepper) + (red bell pepper) + (yellow bell pepper) + (olive oil, remaining)
+    <cook, medium-high heat> ?= brown
+(skillet) <remove, from heat>
+{reserved liquid} <pour, over the onions and peppers>
+{fajitas} = {marinated meat} + {vegetables}
+    <toss>
+
+::notes
+
+Serve with warm tortillas, pico de gallo, cheese, sour cream and guacamole if desired.
 
 ::source
 <<<

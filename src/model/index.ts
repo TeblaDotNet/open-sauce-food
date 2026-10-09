@@ -22,6 +22,8 @@ export interface Token {
   /** Resolved vocabulary entry opts out of public reference pages. */
   reference?: boolean;
   thingKind?: ThingKind;
+  /** Member category of a named local choice; never a canonical placeholder. */
+  choiceKind?: 'ingredient' | 'equipment';
   declarationIds?: string[];
   canonicalId?: string;
   /** Optional known prefix of explicit parts; unknown parts remain in `parts`. */

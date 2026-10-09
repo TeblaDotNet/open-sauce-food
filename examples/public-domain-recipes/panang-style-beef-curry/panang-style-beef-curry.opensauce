@@ -18,28 +18,76 @@ serves: 4
 
 ::ingredients
 
-(beef, Ground) 1/2 lb
+(beef, ground) 1/2 lb
 (coconut milk) 1 can （400mL）
 (red chili pepper) 1
 (red curry paste) 1/2 cup
 (peanut butter) 4 tsp
 (jasmine rice) 3/4 cup
-(cilantro) 2 Tbsp
+(cilantro) 2 Tbsp, divided
 (sweet bell pepper) 1
-(onion, 2 oz, chopped) 1/2
+(onion, chopped) 1/2 （2 oz）
 (garlic puree) 1 Tbsp
 (peanuts, chopped) 1 oz
 (soy sauce) 1/2 Tbsp
 (mild curry paste) 2 Tbsp
+(water)
+(oil) 1 tablespoon
+
+::equipment
+
+(pan, large, non-stick)
+(fork)
+(plates)
 
 ::instructions
 
-Start rice. While water comes to a boil, core and cut pepper into 1/2 inch pieces. Roughly chop cilantro. Finely chop the chili pepper - remove seeds for less heat.
-<add, rice to boiling water. Reduce heat to low, cover and cook until rice is tender and absorbed, about 12-14 minutes. Remove from heat and keep covered>
-While rice cooks, heat a large non-stick pan over medium-high heat. Once hot, add a tablespoon of oil, then the beef and garlic puree. Cook, breaking up beef into smaller pieces, until no pink remains （4-5 mins）.
-<add, peppers and onions to the pan with beef. Cook, stirring occasionally until softened (2-3 mins). Add mild curry paste, red curry base, soy sauce, peanut butter, and the minced chili pepper. Cook, stirring often, until fragrant (1 min)>
-(coconut milk) <add, to the pan. Cook, stirring often, until curry thickens slightly (2-3 mins)>
-Fluff rice with a fork. Add half the cilantro and season, then stir to combine. Divide rice between plates and top with beef curry. Sprinkle peanuts and remaining cilantro over top.
+(water) <boil>
+Meanwhile [
+    (sweet bell pepper) <core>
+        <cut, into 1/2 inch pieces>
+    (cilantro) <chop, roughly>
+    Optional [
+        (red chili pepper) <deseed, for less heat>
+    ]
+    (red chili pepper) <chop, finely>
+]
+{rice} = (jasmine rice) + (water)
+<reduce heat, to low>
+{rice} <cover>
+    <cook, ~12-14m> ?= rice tender and water absorbed
+Meanwhile [
+    (pan) <heat, medium-high heat>
+    (oil) <place, in (pan), hot>
+    {beef base} = (beef) + (garlic puree)
+        <cook, in (pan), 4-5m> ?= no pink remains
+    Meanwhile [
+        (beef) <break up, into smaller pieces>
+    ]
+    {beef base} + (sweet bell pepper) + (onion)
+        <cook, 2-3m> ?= softened
+            <stir, occasionally>
+    {curry} = {beef base} + (mild curry paste) + (red curry paste) + (soy sauce) + (peanut butter) + (red chili pepper)
+        <cook, 1m> ?= fragrant
+    Meanwhile [
+        {curry} <stir, often>
+    ]
+    {curry} + (coconut milk)
+        <cook, 2-3m> ?= curry slightly thickened
+    Meanwhile [
+        {curry} <stir, often>
+    ]
+]
+Remove {rice} from heat when done and keep it covered.
+{rice} <fluff, with (fork)>
+    + (cilantro) half
+    <season>
+    <stir, to combine>
+Divide {rice} between (plates), then top with {curry}. Sprinkle (peanuts) and the remaining (cilantro) over the top.
+
+::notes
+
+The method calls the listed red curry paste “red curry base”. It does not specify the rice water quantity or the seasoning used for the rice. The source metadata gives a 315-minute cook time; that metadata is retained despite the shorter method timings.
 
 ::source
 <<<

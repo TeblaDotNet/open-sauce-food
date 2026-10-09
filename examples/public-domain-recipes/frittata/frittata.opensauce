@@ -24,23 +24,40 @@ serves: 4-6
 (onion) 1/2
 (bell pepper) 1
 (heavy cream) 2 Tbsp
-(meat, Thinly sliced, prosciutto, shaved chicken, sandwich steak, etc., Optional)
-(cheese of choice, Shredded, Optional)
+(meat, thinly sliced, optional) e.g. prosciutto, shaved chicken or sandwich steak
+(cheese, shredded, of choice, optional)
+(salt)
+(pepper)
 
 ::equipment
 
+(pan, oven-safe)
 (oven)
 (bowl)
 
 ::instructions
 
-<dice, peppers and onions and saute in an oven safe pan at medium heat>
-<add, in meat to the pan and set oven to low broil>
-<beat, eggs, cream, salt, and pepper together in a bowl>
-<add, in egg mixture to the pan and mix together until even>
-<cook, egg and vegetable mixture in pan until eggs begin to firm up and edges begin to pull away. Place into oven>
-<keep, in Oven until completely firm. At this point you can add shredded cheese on top and put back into the oven until melted (about 2 more minutes)>
-<flip, out of pan and cool to room temperature to ensure settling>
+{vegetables} = (bell pepper) + (onion)
+    <dice>
+    <sauté, in (pan), medium heat>
+Optional [
+    {vegetables} + (meat)
+]
+(oven) <set, low broil>
+{egg mixture} = (egg) + (heavy cream) + (salt) + (pepper)
+    <beat, in (bowl)>
+{frittata} = {vegetables} + {egg mixture}
+    <mix, in (pan)> ?= even
+    <cook> ?= eggs begin to firm up and edges begin to pull away
+    <place, in (oven)>
+    <cook> ?= completely firm
+Optional [
+    {frittata} <top, with (cheese)>
+        <return, to the oven>
+        <cook, ~2m more> ?= cheese melted
+]
+{frittata} <flip, out of the pan>
+    <cool, to room temperature, to ensure settling>
 
 ::notes
 

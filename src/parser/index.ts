@@ -242,7 +242,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
     const tokens = tokenize(code, contentSpan);
     const significant = tokens.filter(t => t.raw.trim());
     let role: Statement['role'] = section.name === 'instructions' ? 'instruction' : 'declaration';
-    if (significant.some(t => t.raw === '=')) role = section.name === 'ingredients' && significant[0]?.kind === 'thing' ? 'choice' : 'assignment';
+    if (significant.some(t => t.raw === '=')) role = ['ingredients', 'equipment'].includes(section.name) && significant[0]?.kind === 'thing' ? 'choice' : 'assignment';
     if (code === '-OR-') role = 'alternative';
     const node: Statement = { kind: 'statement', id: id(), span: lineSpan, indent, tokens, children: [], comment, role };
     if (/^until\b/.test(code)) {
@@ -287,6 +287,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
       for (const t of n.tokens.filter(t => t.kind === 'thing')) {
         const kind = n.role === 'choice' && t === n.tokens.find(t => t.kind === 'thing') ? 'choice' : s.name === 'ingredients' ? 'ingredient' : 'equipment';
         t.thingKind = kind;
+        if (kind === 'choice') t.choiceKind = s.name === 'ingredients' ? 'ingredient' : 'equipment';
         const list = declarations.get(key(t.name!)) ?? []; list.push({ token: t, node: n, kind }); declarations.set(key(t.name!), list);
       }
     });
@@ -336,6 +337,7 @@ export function parseRecipe(source: string, options: ParseOptions = {}): Recipe 
         if (qualified.length) matches = qualified; // parts may reference the base declaration
         t.declarationIds = [...new Set(matches.map(d => d.node.id))];
         t.thingKind = !matches.length ? 'unresolved' : matches.length > 1 ? 'ambiguous' : matches[0].kind;
+        if (t.thingKind === 'choice') t.choiceKind = matches[0].token.choiceKind;
         if (!matches.length || matches.length > 1) report('warning', matches.length ? 'AMBIGUOUS_REFERENCE' : 'UNRESOLVED_REFERENCE', `${t.raw}: ${matches.length ? 'multiple declarations match' : 'no local declaration'}; wording retained.`, t.span);
       }
       if (t.kind === 'result') {

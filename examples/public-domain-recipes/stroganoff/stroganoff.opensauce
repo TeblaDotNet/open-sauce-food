@@ -15,32 +15,71 @@ tags: american, beef
 ::ingredients
 
 (beef)
-(chicken stock — /chicken-stock-bone-broth)
-(onion)
-(flour)
+(chicken stock)
+(onions)
+(flour) a small amount
 (butter)
-(worchestershire sauce or something similar)
-(dijon or honey dijon mustard)
+(olive oil, alternative frying fat)
+(Worcestershire sauce, or similar) to taste
+(mustard) = (Dijon mustard) -OR- (honey Dijon mustard)
 (egg noodles)
+(kosher salt)
+(pepper, freshly ground)
+(other seasoning, as desired)
+(water)
 
 ::equipment
 
 (skillet)
 (pot)
+(plate)
 
 ::instructions
 
-<dice, an onion>
-(beef) <cut, into bite-size strips. Ground beef can also be used (although not traditional), if beef is compacted into strips of similar size>
-(beef) <season, with kosher salt, freshly-ground pepper, or any other desired seasoning>
-<heat, a skillet on high with butter or olive oil. Cook the onions until about translucent>
-Begin adding the beef strips and let them cook, stirring to prevent sticking or unequal cooking.
-Meanwhile, heat up a pot of highly salted water until it boils. Then add the egg noodles. Do not cook for too long as egg noodles might begin disintegrating when overcooked.
-Once beef is cooked, pour off the liquid produced from the meat.
-<add, the chicken stock to the pan and continue cooking>
-Make roux （by mixing a small amount of flour with either water or melted butter）. Mix this into the beef and stock as it cooks to thicken it to the desired consistency.
-<add, Worchestershire sauce and the dijon mustard to taste>
-<serve, on a plate with a scoop of egg noodles covered with the beef sauce>
+(onions) <dice>
+(beef) <cut, into bite-sized strips>
+(beef) <season, with (kosher salt) or (pepper) or (other seasoning)>
+[
+    (skillet) + (butter)
+]
+-OR-
+[
+    (skillet) + (olive oil)
+]
+(skillet) <heat, high heat>
+(onions) <cook, in (skillet)> ?= about translucent
+(skillet) + (beef)
+(beef) <cook>
+Meanwhile [
+    (beef) <stir, to prevent sticking or uneven cooking>
+    (pot) + (water) + (kosher salt, generously)
+    (water) <boil, in (pot)>
+    (pot) + (egg noodles)
+    (egg noodles) <cook>
+    Do not overcook; egg noodles may disintegrate.
+]
+Once the beef is cooked, pour off the meat liquid.
+(skillet) + (chicken stock)
+{beef and stock} <cook>
+[
+    {roux} = (flour) + (water)
+        <mix>
+]
+-OR-
+[
+    {roux} = (flour) + (butter, melted)
+        <mix>
+]
+{sauce} = {beef and stock} + {roux}
+    <mix, as it cooks> ?= desired thickness
+{sauce} + (Worcestershire sauce) + (mustard)
+(egg noodles) <serve, a scoop on (plate)>
+{sauce} <pour, over the noodles>
+
+::notes
+
+Ground beef can replace beef strips if compacted into similarly sized strips; the source calls this less traditional.
+Chicken stock source: /chicken-stock-bone-broth.
 
 ::story
 

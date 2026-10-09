@@ -22,13 +22,22 @@ tags: cookies, baking, dutch, pennsylvania
 (egg) 3
 (flour)
 
+::equipment
+
+(waffle iron, hot)
+
 ::instructions
 
-<cream, the butter and sugar>
-<beat, in the eggs 1 at a time and add cinnamon>
-Work in enough flour to make a soft dough.
-<form, into small balls>
-<place, several in a hot waffle iron, suitably spaced, press down top and bake>
+{mixture} = (butter) + (sugar)
+    <cream>
+(egg) <beat, into the mixture one at a time>
+{mixture} + (cinnamon)
+{dough} = {mixture} + (flour, enough)
+    <work> ?= soft dough
+    <form, into small balls>
+{balls} <place, several in (waffle iron); suitably spaced>
+(waffle iron) <press down, top>
+{waffles} <bake>
 
 ::story
 

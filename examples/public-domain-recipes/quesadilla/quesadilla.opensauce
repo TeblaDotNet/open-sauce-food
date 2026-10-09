@@ -16,27 +16,46 @@ image: quesadilla.webp
 
 ::ingredients
 
-(tortillas, Any brand works, but you can decide if you want the tortilla folded in half, or 2 tortillas together.) 1-2
-(cheese, Mozzarella; Oaxaca; or Montery Jack as source spells it) ~4 small pinches
-(most cheeses are fine, but the taste of oaxaca cheese is more authentic.)
-(oil, optional, for the pan) A thin coating # Source's health comparison is not validated.
-(any ingredients you want. ie, cooked, veggies, chicken, mushrooms , or beans)
+(tortillas) 1-2
+(cheese, Mozzarella or Oaxaca or Montery Jack as spelled in source) ~4 small pinches
+(oil, optional) a thin coating for the pan
+(filling, ingredients of choice, e.g. veggies or chicken or cooked mushrooms or beans)
+
+::equipment
+
+(pan)
+(plate, optional aid for flipping)
 
 ::instructions
 
-<heat, a pan to medium with an (optional) thin coating of oil>
-Lay a single tortilla down on the pan and arrange cheese on the edges.
-<arrange, on 1 edge if you are making a folded quesadilla. Do both edges if using 2 tortillas. The cheese will help make sure the ingredients don't fall out when flipping>
-<add, the ingredients onto one half of the tortilla if using 1, or the entire surface if using 2>
-<fold, empty half of the tortilla in the pan onto itself if you are only using one tortilla>
-If you are using 2 simply place the second on top of the first.
-Periodically flip the tortilla until both sides are golden brown.
-This may be hard if using 2 tortillas, so try your best or transfer it to a plate, flip it with your hands, and transfer it back to the pan.
+Optional [
+    (pan) <coat, thinly, with (oil)>
+]
+(pan) <heat, medium heat>
+(tortillas) <lay, one tortilla in (pan)>
+[
+    (cheese) <arrange, on one edge of the tortilla>
+    (filling) <spread, over one half of the tortilla>
+    {tortilla} <fold, empty half over the filling>
+]
+-OR-
+[
+    (cheese) <arrange, on both edges of the tortilla>
+    (filling) <spread, over the whole tortilla surface>
+    (tortillas) <place, second tortilla on top>
+]
+# The cheese helps keep filling in place when flipping.
+{quesadilla} <cook, in (pan)> ?= both sides golden brown
+Meanwhile [
+    {quesadilla} <flip, periodically>
+    If flipping two tortillas is difficult, transfer to (plate), flip with your hands, then transfer back to the pan.
+]
 
 ::notes
 
-If you don't have pre-grated cheese, you can cut thin slices off of the block of cheese.
-
+Most cheeses work; the source describes Oaxaca as the more authentic choice.
+If cheese is not pre-grated, cut thin slices from the block.
+The optional oil is described as more traditional by the source.
 
 ::story
 

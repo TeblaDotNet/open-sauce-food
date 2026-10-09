@@ -18,22 +18,38 @@ serves: 8
 
 ::ingredients
 
-(squash, medium sized, easy to peel; butternut squash is usually best) One
-(coconut milk) Two cans
-(onion) One
-(garlic) A few cloves
+(squash, medium, easy to peel, butternut preferred) 1
+(coconut milk) 2 cans
+(onion) 1
+(garlic) a few cloves
+(oil, for pot)
 
 ::equipment
 
-(pot)
+(stock pot)
+(potato masher)
 
 ::instructions
 
-<remove, the seeds from your squash, then peel it and chop it up into large cubes, then set aside. (The easiest way to peel the squash while raw is to cut it into strips and cut the skin off of each strip individually)>
-<chop, your onion and garlic and cook in an oiled stock pot until translucent>
-Once your onions are translucent add both cans of coconut milk to the pot along with your cubes of squash. Let simmer until squash is soft.
-When your squash is soft take a potato masher and mash about half of your squash leaving the rest of it as cubes.
-<take, off heat and serve over rice>
+(squash) <deseed>
+    <peel>
+For easier raw peeling, cut into strips and cut the skin off each strip individually.
+(squash) <chop, into large cubes>
+    <set aside>
+(onion) + (garlic)
+    <chop>
+(stock pot) <oil, with (oil)>
+(onion) + (garlic)
+    <cook, in (stock pot)> ?= onion translucent
+(stock pot) + (coconut milk) + (squash)
+{mixture} <simmer> ?= squash soft
+(squash) <mash, about half, with (potato masher)>
+Leave the rest of the squash as cubes.
+{dish} <remove, from heat>
+
+::notes
+
+Serve over rice.
 
 ::story
 

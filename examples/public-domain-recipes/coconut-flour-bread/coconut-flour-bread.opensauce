@@ -19,27 +19,49 @@ image: coconutbread-lufemas.webp
 
 ::ingredients
 
-(egg, Medium, or 5 Extra Large) 6
-(coconut oil) 1 Tbsp
-(coconut flour) ¾ cup
-(baking powder) 1 tsp
-(salt) Pinch
-(or less of xanthan gum, optional, to have a more stick bread) ½ tsp
+(eggs) = (medium eggs) 6 -OR- (extra-large eggs) 5
+(coconut oil) 1tbsp
+(coconut flour) 3/4cup
+(baking powder) 1tsp
+(salt) 1pinch
+(xanthan gum, optional; for stickier bread) 1/2tsp or less
+(butter, for coating form)
 
 ::equipment
 
+(bowl, big)
+(spoon)
 (oven)
-(bowl)
+(loaf form)
+(parchment paper)
 
 ::instructions
 
-<mix, all dry ingredients in a big bowl>
-<add, the whole eggs and the coconut oil>
-<mix, well with a spoon until it gets thick. You can add extra coconut flour if you feel it is too liquid>
-Pre-heat your oven to 350°F （175°C）.
-<pour, the dough evenly into a Bread/Loaf form (coated with butter or parchment paper) and cook for 35 to 45 min>
-After cooking, remove it from the oven and let it sits while it cools down.
-Some variations can be done, like using butter instead of coconut oil or adding pumpkin pure to the mix and having a cake-like texture.
+{dry mixture} = (bowl) + (coconut flour) + (baking powder) + (salt)
+Optional [
+    {dry mixture} + (xanthan gum)
+]
+{dry mixture} <mix>
+{dough} = {dry mixture} + (eggs, whole) + (coconut oil)
+    <mix, well with (spoon)> ?= thick
+If too liquid, add extra (coconut flour).
+(oven) <preheat, 350°F / 175°C>
+[
+    (loaf form) <coat, with (butter)>
+]
+-OR-
+[
+    (loaf form) <line, with (parchment paper)>
+]
+{dough} <pour, evenly into (loaf form)>
+    <bake, in (oven); 35–45m>
+{bread} <remove, from (oven)>
+    <cool>
+
+::notes
+
+Variations: use butter instead of coconut oil, or add pumpkin purée for a cake-like texture.
+The author uses pasture-raised eggs; regular eggs are also fine.
 
 ::story
 

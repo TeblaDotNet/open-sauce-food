@@ -20,30 +20,49 @@ image: tarta-de-santiago.webp
 ::ingredients
 
 (egg) 3
-(sugar, 150 gr) ¾ cup
-(almond meal, 150 gr) 1 ½ cup
+(sugar) ¾ cup （150 gr）
+(almond meal) 1 ½ cup （150 gr）
 (cinnamon powder) ½ teaspoon
 (salt) ¼ teaspoon
 (lemon: zest) of 1 lemon
 (clementine: zest) of 1 clementine
-(icing sugar, for dusting on top)
+(icing sugar, for dusting)
+(butter, for pan)
+(flour, for pan)
 
 ::equipment
 
-(oven)
 (bowl)
+(spatula)
+(springform pan, 7 inch / 18 cm)
+(oven)
+(cut out, Santiago cross, optional)
 
 ::instructions
 
-<add, eggs and sugar into a bowl and whisk until the mixture turns pale>
-<add, the rest of the ingredients, except for icing sugar and using a spatula, gently fold everything until well combine>
-<pour, batter into a 7 inch (18 cm) springform pan that has been buttered and floured. Bake in a preheated oven at 360ºF (180ºC) for 40 minutes or until golden brown and fully cooked>
-<cool, completely. Place the Santiago cross cut out on top and dust generous amount of icing sugar all over the cake. Carefully remove the cut out. Slice and serve, enjoy>
+{batter} = (egg) + (sugar)
+    <whisk, in (bowl)> ?= pale
+    + (almond meal) + (cinnamon powder) + (salt) + (lemon: zest) + (clementine: zest)
+    <fold, gently, using (spatula)> ?= well combined
+(springform pan) <butter, with (butter)>
+    <flour, with (flour)>
+{batter} <pour, into (springform pan)>
+(oven) <preheat, 360°F / 180°C as written in source>
+{cake} <bake, in (oven), 40m> ?= golden brown and fully cooked
+    <cool, completely>
+Optional [
+    (cut out) <place, on the cake>
+]
+{cake} <dust, with (icing sugar), generously all over>
+If a cut out was used, remove it carefully.
+{cake} <slice>
+    <serve>
+# Enjoy!
 
 ::notes
 
-As I mentioned earlier, this cake is dusted with icing sugar with an imprint of Santiago's cross on its top surface. You can also make an imprint of a scallop shell. Or with no imprint at all. Your choice.
-
+Use a Santiago cross imprint, a scallop shell imprint, or no imprint.
+The source states 360°F and 180°C together; both are retained without correcting the conversion.
 
 ::story
 

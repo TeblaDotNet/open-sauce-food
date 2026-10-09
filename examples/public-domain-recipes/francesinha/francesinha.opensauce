@@ -14,40 +14,53 @@ tags: portuguese, beef
 
 ::ingredients
 
-(bread, for Based Ingredients)
-(linguiça, type of Portuguese sausage, for Based Ingredients)
-(ham, for Based Ingredients)
-(portuguese cheese, for Based Ingredients)
-(beef meat, for Based Ingredients)
-(blonde beer, for Sauce Ingredients)
-(fried tomato sauce, for Sauce Ingredients)
-(port wine, for Sauce Ingredients)
-(beef broth, for Sauce Ingredients)
-(butter; salted, for Sauce Ingredients)
-(onion, for Sauce Ingredients)
-(garlic, minced, for Sauce Ingredients)
-(cornstarch, for Sauce Ingredients)
-(olive oil, for Sauce Ingredients)
-(piripiri, Portuguese chili, for Sauce Ingredients)
+(bread) 4 slices per Francesinha
+(linguiça, Portuguese sausage)
+(ham)
+(Portuguese cheese)
+(beef)
+(blonde beer)
+(fried tomato sauce)
+(port wine)
+(beef broth)
+(butter; salted)
+(onion)
+(garlic, minced)
+(cornstarch)
+(olive oil)
+(piripiri, Portuguese chili)
+(salt)
+(black pepper)
+(french fries, for serving)
 
 ::equipment
 
-(saucepan)
+(saucepan, big)
 (oven)
 
 ::instructions
 
-Directions for the sauce
-In a big saucepan, heat the olive oil and add the garlic and the onions. Cook them until golden.
-<pour, the beer and simmer until the alcohol evaporates. It's around 5 minutes>
-<pour, the beef broth, the fried tomato sauce, the port wine, the Piripiri and the butter to give shine to the sauce. Add the cornstarch slowly avoiding lumps. Simmer for a couple of minutes until the sauce looks thick>
-Directions for the Francesinhas
-<preheat, the oven to 180 C (350 F)>
-<cook, the beef chopped in small strings. Season with salt and black pepper>
-<cook, the linguiças sliced in half lengthwise>
-<take, 4 slices of bread for each Francesinha. Cut the center of two slices to make room for the filling. The other two will be the bottom and top of the francesinhas>
-(bread) <fill, with the sausages, the beef and the ham roughly chopped. Cover the francesinhas with the cheese and melt in the oven for 5 minutes>
-<cover, with the sauce and serve with french fries>
+(olive oil) <heat, in (saucepan)>
+{sauce} = (olive oil) + (garlic) + (onion)
+    <cook> ?= garlic and onions golden
+    + (blonde beer)
+    <simmer, ~5m> ?= alcohol evaporated
+    + (beef broth) + (fried tomato sauce) + (port wine) + (piripiri) + (butter)
+# Butter gives shine to the sauce.
+Add (cornstarch) slowly to {sauce}, avoiding lumps.
+{sauce} <simmer, a couple of minutes> ?= thick
+(oven) <preheat, 180°C / 350°F>
+(beef) <chop, into small strings>
+    <cook>
+    <season, with (salt) + (black pepper)>
+(linguiça) <slice, in half lengthwise>
+    <cook>
+For each Francesinha, use 4 slices of (bread). Cut out the centres of two slices to make room for the filling; keep the other two as the bottom and top.
+(ham) <chop, roughly>
+Fill (bread) with (linguiça), (beef) and (ham) to make {francesinhas}.
+{francesinhas} <cover, with (Portuguese cheese)>
+    <heat, in (oven), 5m> ?= cheese melted
+Cover {francesinhas} with {sauce}, then serve with (french fries).
 
 ::story
 

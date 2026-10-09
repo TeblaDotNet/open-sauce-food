@@ -16,28 +16,45 @@ image: cacio-e-pepe.webp
 ::ingredients
 
 (spaghetti)
-(pecorino romano, Grated)
-(peppercorns, you can also use pepper but it will change the flavour)
+(Pecorino Romano, grated)
+(peppercorns)
+(water, for pasta)
 
 ::equipment
 
+(cutting board)
+(pestle)
+(pan)
 (bowl)
+(plate)
 
 ::instructions
 
-<cook, your chosen amount of spaghetti 3-4 minutes under the time on the package according to the directions on the package or however you usually do it. See Pasta — /pasta>
-Meanwhile place the peppercorns on a cutting board and mash them with a pestle.
-<place, half of the peppercorns in a pan and toast them at medium heat>
-<drain, the pasta, place it in the pan and save the boiling water for later use>
-<add, the pasta with the pepper with 2 spoons of the water previously saved>
-<prepare, the Pecorino by putting half of it a bowl with a spoon of the pasta water you saved; continue mixing the cheese with the water until a cream is formed>
-When the pasta is almost cooked, add the cream and mix （you can add more water if the pasta is too dry）.
-<serve, on a plate with the Pecorino left before on top>
+(spaghetti) <cook, 3–4m less than package time; following package directions or usual method>
+Meanwhile [
+    (peppercorns) <place, on (cutting board)>
+        <mash, with (pestle)>
+    (pan) + (peppercorns) half
+    (peppercorns) <toast, medium heat>
+]
+(spaghetti) <drain>
+Reserve the boiling pasta water for later use.
+(spaghetti) <place, in (pan)>
+(pan) + {pasta water} 2spoons
+{cheese cream} = (bowl) + (Pecorino Romano) half + {pasta water} 1spoon
+    <mix> ?= cream formed
+When the pasta is almost cooked:
+(spaghetti) + {cheese cream}
+{pasta} <mix>
+If too dry, add more of the reserved pasta water.
+{pasta} <serve, on (plate)>
+(Pecorino Romano, remaining) <place, on top>
 
 ::notes
 
-Cacio e Pepe (meaning cheese and pepper) is not only based but also incredibly simple, ideal for lazy neets and similarly minded people who don't want to wash too many dishes and don't like complicated recipes with too many extra ingredients.
-
+Pepper can replace peppercorns, changing the flavour. Source pasta instructions: /pasta.
+The method uses half the peppercorns and gives no use for the remaining half.
+# Cacio e Pepe means cheese and pepper; the source presents it as a simple dish requiring few ingredients and dishes.
 
 ::source
 <<<

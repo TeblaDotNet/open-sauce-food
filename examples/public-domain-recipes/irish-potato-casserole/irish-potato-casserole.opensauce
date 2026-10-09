@@ -18,25 +18,34 @@ serves: 6
 
 ::ingredients
 
-(potatoes, peeled and shredded) 2 cups
-(butter, melted) 1/2 cup
-(whole eggs, beaten) 2
-(onion, minced) 1 tsp
-(salt) 1 tsp
-(paprika) 1/4 tsp
-(milk) 1/2 cup
-(sharp cheddar cheese, shredded) 1/2 cup
+(potatoes, peeled; shredded) 2cups
+(butter, melted; for mixture) 1/2cup
+(butter, for dish)
+(eggs, whole; beaten) 2
+(onion, minced) 1tsp
+(salt) 1tsp
+(paprika) 1/4tsp
+(milk) 1/2cup
+(sharp cheddar cheese, shredded) 1/2cup
 
 ::equipment
 
 (oven)
-(bowl)
+(bowl, medium)
+(baking dish) 1.5quart
 
 ::instructions
 
-<preheat, oven to 350F. Butter a 1.5 quart baking dish>
-In a medium bowl, combine the potatoes, butter, eggs, onion, salt, and paprika. Mix well.
-<place, potato mixture into the prepared baking dish and pour milk over top. Bake in the preheated oven for 40 minutes. Sprinkle top with cheese, return to oven until cheese melts and is slightly browned>
+(oven) <preheat, 350°F>
+(baking dish) <grease, with (butter, for dish)>
+{potato mixture} = (bowl) + (potatoes) + (butter, melted; for mixture) + (eggs) + (onion) + (salt) + (paprika)
+    <mix, well>
+    <place, in (baking dish)>
+(milk) <pour, over the potato mixture>
+{casserole} <bake, in (oven); 40m>
+(sharp cheddar cheese) <sprinkle, over the top>
+{casserole} <return, to the oven>
+    <bake> ?= cheese melted and slightly browned
 
 ::source
 <<<

@@ -15,20 +15,30 @@ tags: bread, quick, snack, spread, fasting
 ::ingredients
 
 (plums, dried) 10
-(tomatoes, dried) 1 jar
-(smoked paprika) 1 tsp
-(coriander, dried, optional) pinch
-(chilli, optional, if you like it to be spicy) pinch
+(tomatoes, dried) 1jar
+(smoked paprika) 1tsp
+(coriander, dried; optional) 1pinch
+(chilli, optional) 1pinch
+(water, hot from kettle)
 
 ::equipment
 
+(kettle)
 (blender)
 
 ::instructions
 
-(plums) <put, in hot water from kettle for couple of minutes, in order to make them softer>
-After that put plums （without the water） and rest of the ingredients into blender and mix it until you're satisfied.
-If you want to make it more liquid you can add water from the plums.
+(plums) <soak, in (water); a couple of minutes> ?= softer
+    <remove, from the water>
+{spread} = (blender) + (plums) + (tomatoes) + (smoked paprika)
+Optional [
+    {spread} + (coriander)
+]
+Optional [
+    {spread} + (chilli)
+]
+{spread} <blend> ?= satisfactory consistency
+If you want a more liquid spread, add some of the plum soaking water.
 
 ::story
 

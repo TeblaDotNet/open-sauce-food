@@ -17,24 +17,41 @@ image: torrijas.webp
 
 ::ingredients
 
-(bread, Dried, Must be bread from a regular loaf, not from a tin loaf., or Torrijas bread)
-(milk, to soak the bread, 2 cups per 16 torrijas approx.)
-(egg, to coat the bread, 2 eggs per 16 torrijas approx.)
+(bread, dried or Torrijas bread; regular loaf; not tin loaf)
+(milk) approximately 2cups per 16 torrijas
+(eggs) approximately 2 per 16 torrijas
 (cinnamon)
-(lemon rind, Grated, optional)
+(lemon rind, grated; optional)
 (sugar)
 (olive oil)
 
+::equipment
+
+(pan)
+
 ::instructions
 
-Mull the milk with cinnamon and a bit of sugar （not too much, the milk is already sweet）. Add the lemon rind if you want.
-<cool, down the milk>
-While the milk is cooling, beat the eggs and heat up half a pan of olive oil.
-<cut, the dry bread in slices. Soak it in the milk>
-<coat, the bread soaking it in the beaten eggs>
-<fry, the soaked & coated bread with the heated oil>
-Optionally sprinkle some sugar onto the Torrijas.
-<enjoy, when they are cooled down. Don't eat too much, it won't be easy resisting>
+{spiced milk} = (milk) + (cinnamon) + (sugar, a little)
+    <mull>
+Do not use much sugar; the milk is already sweet.
+Optional [
+    {spiced milk} + (lemon rind)
+]
+{spiced milk} <cool>
+Meanwhile [
+    (eggs) <beat>
+    (pan) <fill, halfway with (olive oil)>
+    (olive oil) <heat>
+]
+(bread) <cut, into slices>
+    <soak, in the spiced milk>
+    <coat, by soaking in the beaten eggs>
+    <fry, in (olive oil, heated)>
+Optional [
+    (sugar) <sprinkle, over the torrijas>
+]
+{torrijas} <cool>
+    <serve>
 
 ::story
 

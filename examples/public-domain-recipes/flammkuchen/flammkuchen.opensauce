@@ -16,26 +16,39 @@ serves: 2
 
 ::ingredients
 
-(pizza dough, either bought or from Pizza Dough — /pizza-dough) 400g
-(onion, I prefer the red ones for optical reasons) 1
-(bacon, you can replace it with mushrooms or other vegetables) 150g
-(sour creme or creme fraiche) 2 big spoons
+(pizza dough, bought or homemade) 400g
+(onion, red preferred by author) 1
+(topping) = (bacon) 150g -OR- (mushrooms) -OR- (vegetables, other)
+(cream) = (sour cream) 2 big spoons -OR- (creme fraiche) 2 big spoons
+(salt)
+(pepper)
 
 ::equipment
 
-(baking sheet)
-(baking tray)
+(parchment paper) 2 pieces for rolling
+(bottle, e.g. wine bottle)
+(baking trays) 2
 (oven)
 
 ::instructions
 
-we start by flattening the dough. Even if you buy thin crust that is already sold as 'super thin' you have to make it even thinner. Make it so thin that you can fill 2 baking sheets with it （yes, you will make two large flammkuchen - since they are thin you need one per person） :） I take two pieces of parchment paper, put the dough in between and flatten it using a bottle （e.g. wine）. It has to be as thin as possible （1-2 mm）.
-once the dough is flat, put it on your baking tray and preheat the oven at 450 to 500 Fahrenheit （230 to 260 Celsius）
-distribute the sour cream evenly （it should be a very thin layer, just barely covering the dough
-<cut, the onion and bacon into small pieces and distribute onion, bacon/vegetables (also in small pieces) evenly>
-<put, in the oven for 10 minutes and take it out when it is getting a bit dark. The thin parts will get a bit brown>
-<put, salt and pepper>
-I usually take it down from the baking tray and let it cool down for 2-5 minutes before eating
+(pizza dough) <put, between (parchment paper)>
+    <flatten, with (bottle), even if sold as super thin> ?= as thin as possible, 1-2mm, enough for two baking trays
+    <place, on (baking trays)>
+(oven) <preheat, 450-500°F / 230-260°C>
+(cream) <spread, evenly over the dough, very thin layer barely covering it>
+(onion) + (topping)
+    <cut, into small pieces>
+    <distribute, evenly over the dough>
+{flammkuchen} <bake, in (oven), ~10m> ?= getting a little dark with thin parts browned
+    <remove, from (oven)>
+    <season, with (salt) + (pepper)>
+
+::notes
+
+The author usually removes it from the tray and cools it for 2-5 minutes before eating. Serve with a green salad.
+Makes two large thin flammkuchen, one per person. Source dough link: /pizza-dough.
+The source gives 150g for bacon but no amount for replacement vegetables.
 
 ::story
 

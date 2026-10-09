@@ -19,35 +19,55 @@ image: herbs-pizza.webp
 
 ::ingredients
 
-(dough,)
 (flour, 0 or 00) 350 g
-(butter) 25 g
+(butter, softened) 25 g
 (brewer's yeast) 15 g
-(extra-virgin olive oil or lard)
-(stuffing,)
-(boiled herbs, e.g. spinach, chicory, ribwort) 500 g
+(fat) = (extra-virgin olive oil) -OR- (lard)
+(herbs, boiled, e.g. spinach or chicory or ribwort) 500 g
 (ricotta) 250 g
 (pepper, optional)
 (nutmeg, optional)
+(water, warm, for dough)
+(water, for sealing, if needed) a few drops
+(salt)
 
 ::equipment
 
+(baking paper)
 (baking tray)
+(cloth)
+(fork)
 (oven)
 
 ::instructions
 
-Carefully dry the herbs and cut them finely.
-<mix, them with ricotta, salt, pepper and nutmeg>
-(flour) <knead, with warm water and a little salt, and oil or lard>
-<add, softened butter and yeast and knead a soft dough>
-<divide, the dough in two parts and roll out each of them to a thickness of about 1 cm>
-<place, the first disc on baking paper in a baking tray. Cover it with the stuffing, leaving about 1.5 cm free surface all around>
-<cover, with the other disc and stick them together all over the border. If it's difficult, you may wet it wit a few drops of water>
-<cover, with a cloth and let it rise>
-Pierce gently all over the top layer with a fork.
-<preheat, the oven to 180 °C>
-<place, the pie in the oven and cook for 30 minutes>
+(herbs) <dry, carefully>
+    <cut, finely>
+{stuffing} = (herbs) + (ricotta) + (salt)
+Optional [
+    {stuffing} + (pepper)
+]
+Optional [
+    {stuffing} + (nutmeg)
+]
+{stuffing} <mix>
+{dough} = (flour) + (water, for dough) + (salt) a little + (fat)
+    <knead>
+    + (butter) + (brewer's yeast)
+    <knead> ?= soft dough
+    <divide, into two parts>
+    <roll out, each part to ~1 cm thick>
+{first disc} <place, on (baking paper), in (baking tray)>
+    <cover, with stuffing, leaving ~1.5 cm free all around>
+{second disc} <place, over the stuffing>
+{discs} <seal, together all around the border>
+If sealing is difficult, wet the border with a few drops of (water, for sealing).
+{pie} <cover, with (cloth)>
+    <rise, ~30m as given in the source preparation time>
+    <pierce, gently all over the top layer, with (fork)>
+(oven) <preheat, 180°C>
+{pie} <place, in (oven)>
+    <cook, 30m>
 
 ::story
 

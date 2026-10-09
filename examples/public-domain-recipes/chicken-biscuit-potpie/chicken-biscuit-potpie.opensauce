@@ -14,23 +14,29 @@ tags: chicken
 
 ::ingredients
 
-(frozen mixed vegetables, thawed) 1-2/3 cups
-(cubed cooked chicken) 1-1/2 cups
-(condensed cream of chicken soup, undiluted) 1 can （10-3/4 ounces）
-(thyme, dried) 1/4 teaspoon
-(biscuit/baking mix) 1 cup
-(whole milk) 1/2 cup
+(mixed vegetables, frozen; thawed) 1-2/3cups
+(chicken, cooked; cubed) 1-1/2cups
+(cream of chicken soup, condensed; undiluted) 1can (10-3/4 ounces)
+(thyme, dried) 1/4tsp
+(biscuit/baking mix) 1cup
+(milk, whole) 1/2cup
 (egg, large) 1
 
 ::equipment
 
 (oven)
-(bowl)
+(bowl, large)
+(pie plate, deep dish; 9-inch; ungreased)
+(toothpick)
 
 ::instructions
 
-<preheat, oven to 400°F (200°C). In a large bowl, combine the vegetables, chicken, soup and thyme. Pour into an ungreased deep-dish 9-in. pie plate. Combine the biscuit mix, milk and egg; spoon over chicken mixture>
-<bake, until topping is golden brown and toothpick inserted in the center comes out clean, 25-30 minutes>
+(oven) <preheat, 400°F / 200°C>
+{chicken mixture} = (bowl) + (mixed vegetables) + (chicken) + (cream of chicken soup) + (thyme)
+    <pour, into (pie plate)>
+{topping} = (biscuit/baking mix) + (milk) + (egg)
+    <spoon, over the chicken mixture>
+{potpie} <bake, in (oven); 25–30m> ?= topping golden brown and toothpick inserted in the centre comes out clean
 
 ::source
 <<<
