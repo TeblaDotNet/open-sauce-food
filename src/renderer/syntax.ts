@@ -34,9 +34,11 @@ export function syntaxLabel(t: Token, label: string | undefined, escape: (s: str
   };
   if (t.kind === 'judgement') add(0, value.length, 'value');
   if (t.kind === 'result') add(0, value.length, 'result');
-  if (t.kind === 'thing' && ['ingredient', 'equipment'].includes(t.thingKind ?? '')) {
+  // Local choices keep their member category's colour without acquiring a reference link.
+  const thingRole = t.thingKind === 'choice' ? t.choiceKind : t.thingKind;
+  if (t.kind === 'thing' && ['ingredient', 'equipment'].includes(thingRole ?? '')) {
     if (label === undefined) {
-      const start = value.indexOf(t.name!, 1); add(start, start + t.name!.length, t.thingKind!);
+      const start = value.indexOf(t.name!, 1); add(start, start + t.name!.length, thingRole!);
       // Only explicit ; and : fields, stopping before loose comma qualifiers.
       const headEnd = value.indexOf(',') < 0 ? value.lastIndexOf(')') : value.indexOf(',');
       for (const m of value.slice(0, headEnd).matchAll(/[;:]\s*([^;:]+?)(?=\s*[;:]|$)/g)) {
@@ -48,7 +50,7 @@ export function syntaxLabel(t: Token, label: string | undefined, escape: (s: str
       // identity portion are styled. Parenthesised loose qualifiers stay neutral.
       const identity = value.split(' (')[0];
       for (const [word, role] of [...(t.variant ? [[t.variant, 'specificity']] : []),
-        ...(t.parts ?? []).map(p => [p, 'specificity']), [t.name!, t.thingKind!]]) {
+        ...(t.parts ?? []).map(p => [p, 'specificity']), [t.name!, thingRole!]]) {
         const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const pattern = new RegExp(`(?<![\\p{L}\\p{N}])${escaped}s?(?![\\p{L}\\p{N}])`, 'giu');
         for (const m of identity.matchAll(pattern)) {
