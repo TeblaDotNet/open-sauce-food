@@ -1,0 +1,14 @@
+id: pasta-machine
+kind: equipment
+canonical_name: pasta machine
+names:
+  en: pasta machine
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Equipment for forming pasta dough; designs may use rollers or extrusion.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: ATK kitchen tools shop
+    url: https://shop.americastestkitchen.com/shop-all-products/goods/kitchen-tools.html

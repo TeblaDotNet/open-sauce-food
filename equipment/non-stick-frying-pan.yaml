@@ -1,0 +1,15 @@
+id: non-stick-frying-pan
+kind: equipment
+canonical_name: non-stick frying pan
+names:
+  en: non-stick frying pan
+type_of: frying-pan
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A frying pan identified by its non-stick surface or coating, rather than a single base material. Coatings and product instructions vary.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: All-Clad frying pans
+    url: https://www.all-clad.com/cookware/categories/fry-pans-skillets.html

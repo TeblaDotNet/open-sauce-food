@@ -1,0 +1,19 @@
+id: bread-knife
+kind: equipment
+canonical_name: bread knife
+names:
+  en: bread knife
+type_of: knife
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A serrated knife used for slicing bread.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: Mealime kitchen essentials
+    url: https://www.mealime.com/kitchen-essentials-list
+  - title: Escoffier professional chef tools
+    url: https://www.escoffier.edu/blog/value-of-culinary-education/essential-professional-chef-tools/
+  - title: King Arthur sourdough tools
+    url: https://www.kingarthurbaking.com/learn/guides/sourdough/tools

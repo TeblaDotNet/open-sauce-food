@@ -1,0 +1,15 @@
+id: carbon-steel-frying-pan
+kind: equipment
+canonical_name: carbon-steel frying pan
+names:
+  en: carbon-steel frying pan
+type_of: frying-pan
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A frying pan identified by its carbon-steel material. Material does not establish a universal heat limit or appliance compatibility.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: Lodge cast iron and carbon steel
+    url: https://www.lodgecastiron.com/pages/cleaning-and-care-cast-iron-vs-carbon-steel

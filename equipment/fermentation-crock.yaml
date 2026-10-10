@@ -1,0 +1,15 @@
+id: fermentation-crock
+kind: equipment
+canonical_name: fermentation crock
+names:
+  en: fermentation crock
+type_of: container
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A specialist crock used to hold food during fermentation. This classification does not imply that arbitrary containers or jars are interchangeable.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: UMN fermentation
+    url: https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation

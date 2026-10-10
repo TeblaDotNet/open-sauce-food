@@ -64,7 +64,7 @@ const { assertReferenceHeading } = require('./helpers/browser-reference.cjs');
     assert.equal((await fetch(base + 'equipment/bowl/')).status, 404);
     // Restore the starting theme expected by the existing toggle acceptance checks.
     await page.locator('#dark-mode-toggle').click();
-    for (const [child, parent] of [['paring-knife','knife'],['cast-iron-frying-pan','frying-pan'],['stand-mixer','mixer']]) {
+    for (const [child, parent] of [['chef-knife','knife'],['paring-knife','knife'],['bread-knife','knife'],['ladle','spoon'],['cast-iron-frying-pan','frying-pan'],['carbon-steel-frying-pan','frying-pan'],['stainless-steel-frying-pan','frying-pan'],['non-stick-frying-pan','frying-pan'],['hand-mixer','mixer'],['stand-mixer','mixer'],['springform-tin','cake-tin'],['boston-shaker','cocktail-shaker'],['hawthorne-strainer','strainer'],['fermentation-crock','container']]) {
       await page.goto(base + 'equipment/' + child + '/');
       await page.locator('.os-reference a[href="/opensaucefood/equipment/' + parent + '/"]').click();
       assert.equal(page.url(), base + 'equipment/' + parent + '/');
@@ -177,7 +177,7 @@ const { assertReferenceHeading } = require('./helpers/browser-reference.cjs');
     assert.equal(await plain.locator('[data-recipe]').count(), manifest.categories.find(c => c.value === 'bread/baking').count);
     await page.goto(base + 'recipe/basic-waffles/');
     assert.ok((await page.locator('[data-view-panel="code"] .os-dietary-notice').textContent()).includes('not a guarantee of suitability'));
-    for (const [family, count] of [['ingredients',386],['processes',180],['equipment',120]]) {
+    for (const [family, count] of [['ingredients',386],['processes',180],['equipment',143]]) {
       await page.goto(base + family + '/'); assert.equal(await page.locator('[data-reference]').count(), count);
     }
     await page.goto(base + 'ingredients/'); await page.screenshot({ path: join(evidence, 'ingredient-index.png') });
@@ -222,7 +222,7 @@ const { assertReferenceHeading } = require('./helpers/browser-reference.cjs');
     assert.equal((await fetch(base + 'assets/missing.js')).status, 404);
     assert.equal((await fetch(base + 'recipes', { redirect: 'manual' })).status, 301);
     assert.deepEqual(errors, []); assert.deepEqual(badResponses, []);
-    const result = { status: 'passed', checks: ['Equipment Model v1 blue unlinked bowl in both themes and parent/child navigation','Process Model v1 semantic colour and reference eligibility','Code default','Compact switching','literal original','syntax toggle computed style','theme toggle and persistence','story toggle','Code and Compact ingredient/process/equipment loops','part-yolk anchor','visible keyboard focus','390px no overflow','no-JavaScript navigation and provenance','real 404 and slash redirect','with/without original and image','Story and Notes',published.length + ' published recipe browse links','initial/blocked direct pages and noindex','hidden backlink exclusion','tag and category membership/navigation','386/180/120 reference indexes','public egg/Stracciatella backlink','Spec code examples and contents anchors','About','no-JavaScript browse/index/spec/about routes'], screenshots: evidence };
+    const result = { status: 'passed', checks: ['Equipment Model v1 blue unlinked bowl in both themes and parent/child navigation','Process Model v1 semantic colour and reference eligibility','Code default','Compact switching','literal original','syntax toggle computed style','theme toggle and persistence','story toggle','Code and Compact ingredient/process/equipment loops','part-yolk anchor','visible keyboard focus','390px no overflow','no-JavaScript navigation and provenance','real 404 and slash redirect','with/without original and image','Story and Notes',published.length + ' published recipe browse links','initial/blocked direct pages and noindex','hidden backlink exclusion','tag and category membership/navigation','386/180/143 reference indexes','public egg/Stracciatella backlink','Spec code examples and contents anchors','About','no-JavaScript browse/index/spec/about routes'], screenshots: evidence };
     await writeFile(join(evidence, 'result.json'), JSON.stringify(result, null, 2)); console.log(JSON.stringify(result, null, 2));
   } finally { if (browser) await browser.close(); server?.kill(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });

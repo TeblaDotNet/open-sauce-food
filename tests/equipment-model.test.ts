@@ -1,3 +1,4 @@
+import { equipmentTrancheIds, equipmentTrancheEdges } from './helpers/equipment-tranche.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { Vocabulary, parseRecipe, semanticTokens, renderHtml, createReferencePage, renderReferenceHtml, buildUsageIndex, recipeReferenceUrl } from '../src/index.ts';
@@ -37,8 +38,8 @@ test('equipment reference requires a boolean; process eligibility and ingredient
 });
 test('equipment proof edges survive loading and JSON transport and link in both directions', () => {
   const v = new Vocabulary(JSON.parse(JSON.stringify(vocabulary.entries)));
-  assert.equal(v.entries.filter(e => e.kind === 'equipment').length, 121);
-  assert.equal(v.entries.filter(e => e.kind === 'equipment' && e.reference !== false).length, 120);
+  assert.equal(v.entries.filter(e => e.kind === 'equipment').length, 144);
+  assert.equal(v.entries.filter(e => e.kind === 'equipment' && e.reference !== false).length, 143);
   for (const [child, parent] of [['paring-knife', 'knife'], ['cast-iron-frying-pan', 'frying-pan'], ['stand-mixer', 'mixer']]) {
     assert.equal(v.resolve(child, 'equipment')[0].type_of, parent);
     const page = createReferencePage(v, 'equipment', child)!;
@@ -87,4 +88,48 @@ test('equipment taxonomy neither inherits usage nor promotes authored qualifiers
   const r = parseRecipe(source, { vocabulary });
   assert.deepEqual(tokens(r).filter(t => t.kind === 'thing').map(t => t.canonicalId), ['knife', 'frying-pan']);
   for (const t of tokens(r)) assert.equal(source.slice(t.span.start, t.span.end), t.raw);
+});
+
+// Tranche data remains declarative: parsing and reference behavior use the existing model.
+test('equipment tranche identities resolve, retain knowledge, and produce semantic reference links', () => {
+  for (const id of equipmentTrancheIds) {
+    const entry = vocabulary.resolve(id, 'equipment')[0];
+    assert.equal(entry.id, id);
+    assert.ok((entry.evidence as { definition: string }).definition.length > 20);
+    const page = createReferencePage(vocabulary, 'equipment', id)!;
+    assert.ok(page, id);
+    assert.ok(renderReferenceHtml(page).includes('Recorded vocabulary evidence'));
+    for (const view of ['code', 'compact'] as const) {
+      const html = renderHtml(parseRecipe('::equipment\n(' + entry.names.en + ')', { vocabulary }), { view, syntaxSpans: true, referenceUrl: recipeReferenceUrl });
+      assert.ok(html.includes('href="/reference/equipment/' + id + '"'), id);
+      assert.ok(html.includes('os-equipment'), id);
+    }
+  }
+  for (const [term, id] of [["chef's knife", 'chef-knife'], ['cling film', 'plastic-wrap'], ['clingfilm', 'plastic-wrap']])
+    assert.deepEqual(vocabulary.resolve(term, 'equipment').map(e => e.id), [id]);
+  assert.deepEqual(vocabulary.resolve('electric beaters', 'equipment'), []);
+  assert.equal(vocabulary.resolve('ladle', 'process')[0].kind, 'process');
+  assert.equal(vocabulary.resolve('ladle', 'equipment')[0].kind, 'equipment');
+});
+
+test('equipment tranche relationships are acyclic, bidirectional and never inherit recipe usage', () => {
+  for (const [child, parent] of equipmentTrancheEdges) {
+    assert.equal(vocabulary.resolve(child, 'equipment')[0].type_of, parent);
+    assert.equal(createReferencePage(vocabulary, 'equipment', child)!.typeOf!.id, parent);
+    assert.ok(createReferencePage(vocabulary, 'equipment', parent)!.types!.some(t => t.id === child));
+    const seen = new Set<string>();
+    let id: string | undefined = child;
+    while (id) { assert.ok(!seen.has(id)); seen.add(id); id = vocabulary.resolve(id, 'equipment')[0].type_of; }
+    for (const [used, unused] of [[child, parent], [parent, child]]) {
+      const usage = buildUsageIndex([{ id: 'proof', name: 'Proof', recipe: parseRecipe('::equipment\n(' + used + ')', { vocabulary }) }]);
+      assert.equal(createReferencePage(vocabulary, 'equipment', used, usage)!.usage!.length, 1);
+      assert.deepEqual(createReferencePage(vocabulary, 'equipment', unused, usage)!.usage, []);
+    }
+  }
+  for (const id of ['pressure-cooker', 'moka-pot', 'mandoline', 'plastic-wrap'])
+    assert.equal(vocabulary.resolve(id, 'equipment')[0].type_of, undefined);
+  const source = '::equipment\n(knife, paring)\n(frying pan, cast iron)\n(frying pan, non-stick)';
+  const recipe = parseRecipe(source, { vocabulary });
+  assert.deepEqual(tokens(recipe).filter(t => t.kind === 'thing').map(t => t.canonicalId), ['knife', 'frying-pan', 'frying-pan']);
+  for (const t of tokens(recipe)) assert.equal(source.slice(t.span.start, t.span.end), t.raw);
 });

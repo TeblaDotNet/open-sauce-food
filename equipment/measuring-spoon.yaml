@@ -1,0 +1,20 @@
+id: measuring-spoon
+kind: equipment
+canonical_name: measuring spoon
+names:
+  en: measuring spoon
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A spoon with a defined capacity for measuring small volumes of ingredients.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: Mealime kitchen essentials
+    url: https://www.mealime.com/kitchen-essentials-list
+  - title: Wikipedia preparation utensils
+    url: https://en.wikipedia.org/wiki/List_of_food_preparation_utensils
+  - title: Escoffier professional chef tools
+    url: https://www.escoffier.edu/blog/value-of-culinary-education/essential-professional-chef-tools/
+  - title: King Arthur sourdough tools
+    url: https://www.kingarthurbaking.com/learn/guides/sourdough/tools

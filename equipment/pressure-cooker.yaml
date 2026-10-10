@@ -1,0 +1,14 @@
+id: pressure-cooker
+kind: equipment
+canonical_name: pressure cooker
+names:
+  en: pressure cooker
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A closed cooking vessel designed to cook under pressure. This identity is distinct from a pressure canner and does not establish suitability for pressure canning.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: Wikipedia cooking appliances
+    url: https://en.wikipedia.org/wiki/List_of_cooking_appliances

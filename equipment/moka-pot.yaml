@@ -1,0 +1,14 @@
+id: moka-pot
+kind: equipment
+canonical_name: moka pot
+names:
+  en: moka pot
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A stovetop coffee brewer with a lower water chamber, a coffee basket and an upper collecting chamber. Distinct from an espresso machine.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: Bialetti Moka Express instructions
+    url: https://bialetti-cookware.zendesk.com/hc/fr/articles/5416235346322-Comment-utiliser-la-Moka-Express
