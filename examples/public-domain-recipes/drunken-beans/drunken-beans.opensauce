@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: soup/stew
 curation origin: generated
 curation review: unchecked
@@ -11,28 +11,38 @@ units: source
 tags: beans, stew
 
 # Imported from content/drunken-beans.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 
 ::ingredients
 
 (yellow onion, small) 1
-(gloves of garlic) 3
-(tomatoes. chopped) 2
+(garlic) 3 cloves
+(tomato, chopped) 2
 (water) 4 cups
-(pinto beans, can be dried or canned) 1 1/2 cups
-(oregano) 1 tbsp
-(cumin) 3/4 tsp
-(chilli powder, depends how hot you like it) 2 tbsp
-(beer/dark ale) 12oz
+(bean choice) = (pinto beans, dried) 1 1/2 cups -OR- (pinto beans, canned) 1 1/2 cups
+(oregano) 1tbsp
+(cumin) 3/4tsp
+(chilli powder) 2tbsp, depending on how hot you like it
+(beer, dark ale or your choice) 12oz
+(salt)
 
 ::instructions
 
-Sauté onions.
-<add, garlic, sauté bit longer>
-<add, tomatoes, water, beans, oregano, cumin, chilli powder, beer and salt, gradually bring to boil>
-When boiled, reduce to simmer.
-When beans are al dente （about 1 hour if using dried）, bring to quick boil and evaporate remaining liquid until beans are stew-like.
-<remove, from the heat and mashup, or skip this step if you want more of a bean stew>
+(yellow onion) <sauté>
+{aromatics} = (yellow onion) + (garlic)
+    <sauté, a bit longer>
+{beans} = {aromatics} + (tomato) + (water) + (bean choice) + (oregano) + (cumin) + (chilli powder) + (beer) + (salt)
+    <bring to boil, gradually>
+    <simmer, about 1h if using dried beans> ?= beans al dente
+    <bring to boil, quickly>
+    <reduce> ?= beans stew-like
+Optional [
+    {beans} <remove, from the heat>
+        <mash>
+]
+
+::notes
+
+Skip the final mashing step if you want more of a bean stew.
 
 ::story
 

@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: preserve/ferment
 
 name: Orange jam
@@ -20,17 +20,23 @@ tags: jam, fruit, sweet, spread
 
 ::equipment
 
-(zester)
 (blender)
 (pot)
 
 ::instructions
 
-(orange) + (lemon) <zest, reserve zest>
-    <peel, remove white albedo>
-    <blend, into small pieces, not an even mush>
-    + {zest} + (sugar) <combine, pot>
-    <bring to boil> <boil, low heat, 30-40m, still slightly runny at finish, thickens further on cooling>
+(orange) <zest>
+(lemon) <zest>
+{zest} = (orange:zest) + (lemon:zest)
+(orange) + (lemon) <peel, remove white albedo>
+{fruit pieces} = (orange) + (lemon) <blend, in (blender), into small pieces; not an even mush>
+{jam} = {fruit pieces} + {zest} + (sugar)
+{jam} <combine, in (pot)>
+{jam} <bring to boil>
+{jam} <boil, low heat, 30-40m> ?= still a little runny
+
+::notes
+The jam thickens further as it cools, so the source says not to boil it for too long.
 
 ::story
 

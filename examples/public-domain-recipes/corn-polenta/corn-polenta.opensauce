@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: side
 curation origin: generated
 curation review: unchecked
@@ -13,38 +13,48 @@ tags: corn, fasting, italian, side
 serves: 4
 
 # Imported from content/corn-polenta.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 1 h
 # Source metadata: - 🍽️ Servings: 4
 
 ::ingredients
 
-(corn flour, Consider that not all corns are suitable for polenta.) 500 g
+(corn flour) 500g
+(water, fresh) 3l plus more if needed
+(salt)
+
+::equipment
+
+(whisk)
+(spoon, big)
 
 ::instructions
 
-<pour, all the flour in 3 l fresh water and stir with a whip until no lumps remain>
-<heat, until boiling, stirring slowly with a big spoon>
-<cook, on low fire for about 1 hour. Stir very often. If it thickens too much, add water>
-<season, with salt>
+{polenta} = (corn flour) + (water) 3l
+    <stir, using (whisk)> ?= no lumps remain
+{polenta} <heat> ?= boiling
+Meanwhile [
+    {polenta} <stir, slowly, using (spoon)>
+]
+{polenta} <cook, low heat, ~1h>
+Meanwhile [
+    {polenta} <stir, very often>
+    If {polenta} thickens too much:
+        {polenta} + (water)
+]
+{polenta} <season, with (salt)>
 
 ::notes
 
+Consider that not all corns are suitable for polenta.
 Polenta is not to be eaten alone; instead, it may be served in a variety of ways:
-
+- as a side dish, often with meat
+- with a side dish, like peas
+- with a sauce, such as meat sauce or tomato sauce
+- transformed in a main dish melting in it a slice of a savoury cheese
 
 ::story
 
 Polenta is basically cereal flour boiled in water until thick. It was a common peasant dish in many areas of Italy, thus many versions exist, varying in consistency (from almost liquid to thick enough to make slices) and cereals used.
-
-- as a side dish, often with meat
-
-- with a side dish, like peas
-
-- with a sauce, such as meat sauce or tomato sauce
-
-- transformed in a main dish melting in it a slice of a savoury cheese
-
 
 ::source
 <<<

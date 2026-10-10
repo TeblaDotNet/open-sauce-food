@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: side
 curation origin: generated
 curation review: unchecked
@@ -13,7 +13,6 @@ tags: salad, mediterranean
 serves: 12
 
 # Imported from content/tabouleh.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 15 min
 # Source metadata: - 🍳 Cook time: 30 min
 # Source metadata: - 🍽️ Servings: 12
@@ -22,7 +21,7 @@ serves: 12
 ::ingredients
 
 (cracked wheat, bulghur) 2 cups
-(very hot water, or as directed) 2 cups
+(water, very hot) 2 cups; or as directed
 (cucumber, chopped) 1
 (tomatoes, small, chopped) 2
 (green onion, sliced) 1 bunch
@@ -36,15 +35,21 @@ serves: 12
 
 ::equipment
 
-(bowl)
+(bowl, medium)
 
 ::instructions
 
-(cracked wheat) <soak, in the hot water until the water is absorbed, about 30 minutes>
-<drain, any excess water, if necessary, and squeeze dry>
-<combine, the salad ingredients (all but the oil, lemon juice, salt and pepper dressing ingredients) in a medium bowl>
-<mix, the dressing ingredients together and stir into the salad mix>
-<serve, chilled or at room temperature>
+(cracked wheat) <soak, in (water), ~30m> ?= water absorbed
+If excess (water) remains:
+    (cracked wheat) <drain>
+(cracked wheat) <squeeze> ?= dry
+{salad} = (cracked wheat) + (cucumber) + (tomatoes) + (green onion) + (mint) + (parsley) + (garlic)
+    <combine, in (bowl)>
+{dressing} = (olive oil) + (lemon: juice) + (salt) + (pepper)
+    <mix>
+{salad} + {dressing}
+    <stir>
+{salad} <serve, chilled or at room temperature>
 
 ::source
 <<<

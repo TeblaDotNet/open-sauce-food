@@ -37,7 +37,7 @@ test('merged ingredient references combine real corpus backlinks without rewriti
   }
   const usage = buildUsageIndex(corpus);
   for (const [id, expected] of [
-    ['oats', ['granola', 'oat-milk', 'oatmeal-cookies', 'oats']],
+    ['oats', ['granola', 'hearty-breakfast-oatmeal', 'oat-milk', 'oatmeal-cookies', 'oats']],
     ['red-chilli', ['bebek-mropol', 'chicken-tomato-spinach-curry', 'japanese-noodle-soup', 'red-lentil-dahl', 'spicy-sausage-pasta']],
   ] as const) {
     const page = createReferencePage(vocabulary, 'ingredient', id, usage)!;

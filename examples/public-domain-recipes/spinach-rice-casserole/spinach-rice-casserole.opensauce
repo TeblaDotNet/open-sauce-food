@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -13,7 +13,6 @@ tags: spinach, rice
 serves: 6
 
 # Imported from content/spinach-rice-casserole.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 10 min
 # Source metadata: - 🍳 Cook time: 40 min
 # Source metadata: - 🍽️ Servings: 6
@@ -21,7 +20,7 @@ serves: 6
 ::ingredients
 
 (brown rice, cooked) 4 cups
-(raw spinach, chopped) 2 lbs
+(spinach, raw, chopped) 2 lbs
 (onion, chopped) 1 cup
 (garlic, minced) 2 cloves
 (butter) 3 Tbsp
@@ -36,12 +35,20 @@ serves: 6
 (cayenne) A few dashes
 (paprika) A few dashes
 
+::equipment
+
+(casserole dish, buttered)
+
 ::instructions
 
-<saute, onions and garlic with salt in butter. When onions are soft, add spinach. Cook 2 minutes>
-<combine, with all ingredients except sunflower seeds and paprika>
-<spread, into buttered casserole dish and sprinkle sunflower seeds and paprika on top>
-<bake, , covered, 35 minutes at 350F>
+{aromatics} = (onion) + (garlic) + (salt) + (butter)
+    <sauté> ?= onions soft
+{spinach mixture} = {aromatics} + (spinach)
+    <cook, 2m>
+{casserole} = {spinach mixture} + (brown rice) + (egg) + (milk) + (cheddar) + (parsley) + (tamari) + (nutmeg) + (cayenne)
+    <spread, into (casserole dish)>
+(sunflower seeds) + (paprika) <sprinkle, on top of the casserole>
+{casserole} <bake, covered, 35m, 350°F>
 
 ::source
 <<<

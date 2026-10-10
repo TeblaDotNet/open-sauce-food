@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: dessert
 
 name: Crostata
@@ -32,17 +32,25 @@ image: crostata.webp
 
 ::instructions
 
-(shortcrust pastry) ~1/6 of <set aside>
-(shortcrust pastry) rest of <roll, slightly larger than tray>
-    <place, baking mold, arrange borders along mold to contain jam>
-(filling) <pour, pastry container>
-    <spread, spoon>
-(shortcrust pastry) reserved ~1/6 <shape, rolls>
-    <place, criss-cross over filling>
-    <press, through jam to bottom>
-(oven) <preheat, 180c>
-{crostata} <bake, ~45m>
-    <cool, room temperature before removing from mold to prevent breakage>
+(shortcrust pastry) ~1/6 <set aside>
+(shortcrust pastry) the remainder <roll out> ?= slightly larger than the baking mold
+    <place, in (baking mold)>
+    <arrange, in (baking mold), borders aligned with the mold to contain the filling>
+(filling) <pour, into the pastry container>
+    <spread, using (spoon)>
+(shortcrust pastry) reserved ~1/6 <shape, into rolls>
+    <place, in a criss-cross pattern over the filling>
+    <press, through the filling to the bottom>
+(oven) <preheat, 180°C>
+{crostata} = (shortcrust pastry) + (filling)
+    <bake, in (oven), ~45m>
+    <cool> ?= room temperature
+    <remove, from (baking mold)>
+
+::notes
+
+Source pastry recipe: https://publicdomainrecipes.com/shortcrust-pastry/
+Let the cake reach room temperature before removing it from the mold; otherwise it will easily break.
 
 ::source
 <<<

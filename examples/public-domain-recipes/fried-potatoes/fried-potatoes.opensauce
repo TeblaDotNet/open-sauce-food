@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: side
 curation origin: generated
 curation review: unchecked
@@ -12,22 +12,27 @@ units: source
 tags: potato, quick, side, fasting
 
 # Imported from content/fried-potatoes.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 
 ::ingredients
 
 (potatoes)
-(oil or crème fraîche)
+(cooking medium) = (oil) a bit -OR- (crème fraîche) a bit
 (onion)
+
+::equipment
+
+(pan)
 
 ::instructions
 
-<peel, and cut the potatoes to desired size>
+(potatoes) <peel>
+    <cut, to desired size>
 (onion) <cut>
-<put, a bit of Oil or Crème Fraîche in your pan>
-<put, both the potatoes and the onions into the pan>
-<cook, them until they're golden-brown>
-<enjoy>
+(cooking medium) <put, in (pan)>
+{potato mixture} = (potatoes) + (onion)
+    <put, in (pan)>
+    <cook> ?= golden-brown
+    <enjoy>
 
 ::source
 <<<

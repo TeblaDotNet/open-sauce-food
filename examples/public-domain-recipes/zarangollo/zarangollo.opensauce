@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: side
 curation origin: generated
 curation review: unchecked
@@ -13,7 +13,6 @@ tags: spanish, mediterranean, side, quick
 serves: 2
 
 # Imported from content/zarangollo.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 5 min
 # Source metadata: - 🍳 Cook time: 10-15 min
 # Source metadata: - 🍽️ Servings: 2
@@ -25,16 +24,34 @@ serves: 2
 (olive oil)
 (egg, optional)
 
+::equipment
+
+(pan, not shallow; ideally wide and a bit deep)
+
 ::instructions
 
-<cut, onion in julienne (a third or half of an onion ring)>
-(eggplant) <cut, in slices or chunks that can fit in a teaspoon>
-<add, oil to a pan (not a shallow one, wide and a bit deep is ideal if you have one) until it barely covers the vegetables>
-<cook, and stir in medium heat until they are tender, caramelized and translucent>
-Kick up the heat to give them a crispy touch, but not for long
-（Optional） Turn off the heat and crack open an egg on top
-（Optional） Let the residual heat cook the egg. If it breaks just scramble it, the recipe doesn't call for anything fancy
-You can serve the dish with that oil （provided it is not burnt） or keep it for cooking other stuff
+(white onion) <julienne, a third or half of an onion ring>
+(eggplant) <cut, into slices or chunks that can fit in a teaspoon>
+{vegetables} = (white onion) + (eggplant)
+    <place, in (pan)>
+(olive oil) <add, in (pan)> ?= barely covers the vegetables
+{vegetables} <cook, medium heat> ?= tender, caramelized and translucent
+Meanwhile [
+    {vegetables} <stir>
+]
+{vegetables} <cook, higher heat, briefly> ?= a crispy touch
+Optional [
+    <turn off, the heat>
+    (egg) <crack, on {vegetables}>
+        <cook, with residual heat>
+    If (egg) breaks:
+        (egg) <scramble>
+]
+
+::notes
+
+You can serve the dish with that oil (provided it is not burnt) or keep it for cooking other stuff.
+If the optional egg breaks, just scramble it; the recipe doesn't call for anything fancy.
 
 ::story
 

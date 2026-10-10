@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -14,15 +14,14 @@ serves: 1
 image: wholemeal-pizza.webp
 
 # Imported from content/wholemeal-pizza.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 5 min
 # Source metadata: - 🍳 Cook time: 10 min
 # Source metadata: - 🍽️ Servings: 1
 
 ::ingredients
 
-(wholemeal wheat flour pizza dough, see /wholemeal-wheat-flour-pizza-dough) 1 serving
-(easy pizza sauce — /easy-pizza-sauce) 1 serving
+(wholemeal wheat flour pizza dough) 1 serving
+(easy pizza sauce) 1 serving
 (mozzarella cheese) ~80g
 (edam cheese) ~40g
 (tilsitter cheese) ~40g
@@ -33,8 +32,10 @@ image: wholemeal-pizza.webp
 (zucchini, optional)
 (mushrooms, optional)
 (olives, optional)
-(arugula salad, add after pizza is done, optional)
-(basil leaves, fresh, add after pizza is done, optional)
+(arugula salad, optional)
+(basil leaves, fresh, optional)
+
+(olive oil) a thin layer for the baking tray
 
 ::equipment
 
@@ -43,15 +44,47 @@ image: wholemeal-pizza.webp
 
 ::instructions
 
-<cover, a baking tray fully with a thin layer of olive oil>
-<roll, out the dough until it barely fits in the baking tray and place it in there>
-<spread, the sauce on the pizza>
-<add, any ingredients you want to add on top of the sauce (cheese last)>
-<bake, the pizza for 10 minutes in the oven at 250°C>
-<add, any fresh ingredients now>
-<cut, into slices and serve>
+(baking tray) <cover, with (olive oil), fully with a thin layer>
+(wholemeal wheat flour pizza dough) <roll out> ?= barely fits in the baking tray
+    <place, in (baking tray)>
+{pizza} = (wholemeal wheat flour pizza dough) + (easy pizza sauce)
+(easy pizza sauce) <spread, on (wholemeal wheat flour pizza dough)>
+Optional [
+    {pizza} + (salami)
+]
+Optional [
+    {pizza} + (ham)
+]
+Optional [
+    {pizza} + (salsiccia)
+]
+Optional [
+    {pizza} + (aubergine)
+]
+Optional [
+    {pizza} + (zucchini)
+]
+Optional [
+    {pizza} + (mushrooms)
+]
+Optional [
+    {pizza} + (olives)
+]
+{pizza} + (mozzarella cheese) + (edam cheese) + (tilsitter cheese)
+{pizza} <bake, in (oven), 250°C, 10m>
+Optional [
+    {pizza} + (arugula salad)
+]
+Optional [
+    {pizza} + (basil leaves)
+]
+{pizza} <cut, into slices>
+    <serve>
 
 ::notes
+
+Source dough recipe: https://publicdomainrecipes.com/wholemeal-wheat-flour-pizza-dough/
+Source sauce recipe: https://publicdomainrecipes.com/easy-pizza-sauce/
 
 This is a recipe combining two others and adding stuff on top. This is more of an example of possible ingredients, you can replace any of them with others.
 

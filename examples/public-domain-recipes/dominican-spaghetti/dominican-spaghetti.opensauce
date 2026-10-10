@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -13,36 +13,51 @@ tags: pasta, supper, dominican, cheesefare
 serves: 4
 
 # Imported from content/dominican-spaghetti.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 10 min
 # Source metadata: - 🍳 Cook time: 25 min
 # Source metadata: - 🍽️ Servings: 4
 
 ::ingredients
 
-(box spaghetti) 1
-(onion minced) 1
-(green pepper minced) 1
-(garlic cloves minced) 2
-(chicken bouillon cube or adobo) 1 tbsp
-(sazón) 1 tbsp
-(tomato paste) 1 tbsp
+(spaghetti) 1 box
+(onion, minced) 1
+(green pepper, minced) 1
+(garlic, minced) 2 cloves
+(seasoning choice) = (chicken bouillon cube) 1tbsp -OR- (adobo) 1tbsp
+(sazón) 1tbsp
+(tomato paste) 1tbsp
 (tomato sauce) 1 cup
-(butter) 1 tbsp
-(evaporated milk) ¼ cup
-(green olives) 2 tbsp
-(sugar) 1 tsp
-(starchy pasta water) 1 cup
+(butter) 1tbsp
+(evaporated milk) 1/4 cup
+(green olives) 2tbsp
+(sugar) 1tsp
+(pasta water, starchy) 1 cup
+(black pepper) to taste
+
+::equipment
+
+(pan, separate from the spaghetti)
 
 ::instructions
 
-<boil, spaghetti — /pasta>
-In a separate pan, Sauté onions, peppers, and garlic until soft.
-<add, seasonings and black pepper to taste. Mix until well combined>
-<add, tomato paste, sauce, and the pasta water. Mix and let it come to a simmer. Simmer for 5 minutes>
-<add, evaporated milk, butter, sugar, and olives>
-<taste, for seasoning and heat to desired temperature>
-<add, spaghetti and toss into the sauce>
+(spaghetti) <boil>
+{aromatics} = (onion) + (green pepper) + (garlic)
+    <sauté, in (pan)> ?= soft
+{aromatics} + (seasoning choice) + (sazón) + (black pepper)
+    <mix> ?= well combined
+{sauce} = {aromatics} + (tomato paste) + (tomato sauce) + (pasta water)
+    <mix>
+    <heat> ?= simmering
+    <simmer, 5m>
+{sauce} + (evaporated milk) + (butter) + (sugar) + (green olives)
+    <taste, for seasoning>
+    <heat> ?= desired temperature
+(spaghetti) + {sauce}
+    <toss>
+
+::notes
+
+Source pasta cooking recipe: https://publicdomainrecipes.com/pasta/
 
 ::source
 <<<

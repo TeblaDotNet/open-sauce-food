@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -14,35 +14,53 @@ serves: 2
 image: risengroed.webp
 
 # Imported from content/risengroed.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: ~5 minutes + ingredients prep time
 # Source metadata: - 🍳 Cook time: 40 minutes
 # Source metadata: - 🍽️ Servings: 2
 
 ::ingredients
 
-(water) 3 dl
-(Pama porridge rice) 180 g
-(milk; whole) 1 liter
+(water) 3dl
+(rice, Pama porridge rice) 180g
+(milk, whole) 1 liter
 (salt) 2 pinches
-(sugar) 4 tablespoons
-(cinnamon) 2 teaspoons
-(butter) 50 g
+(sugar) 4tbsp
+(cinnamon) 2tsp
+(butter) 50g
 
 ::equipment
 
-(bowl)
-(pot)
+(bowl) -OR- (container)
+(pot, deep)
+(lid)
 
 ::instructions
 
-<bring, water and rice to a boil in a deep pot. Boil the rice at steady heat and with active stirring for approximately 2 minutes>
-<add, milk and bring the concoction to a boil. Boil the pot at low heat, still with active stirring for approximately 10 minutes>
-<put, on lid and boil for approximately 30 minutes. Stir the pot often. If the porridge seems too thin, boil it for another 5-10 minutes>
-<add, salt>
-<mix, sugar and cinnamon to form cinnamon sugar in a bowl or container>
-<serve, warm with cinnamon sugar on top and a bit of butter in the middle>
-<enjoy>
+{porridge} = (water) + (rice)
+    <heat, in (pot)> ?= boiling
+{porridge} <boil, steady heat, ~2m>
+Meanwhile [
+    {porridge} <stir, actively>
+]
+{porridge} + (milk)
+    <heat> ?= boiling
+{porridge} <boil, low heat, ~10m>
+Meanwhile [
+    {porridge} <stir, actively>
+]
+(pot) <cover, with (lid)>
+{porridge} <boil, ~30m>
+Meanwhile [
+    {porridge} <stir, often>
+]
+If {porridge} seems too thin:
+    {porridge} <boil, another 5-10m>
+{porridge} + (salt)
+{cinnamon sugar} = (sugar) + (cinnamon)
+    <mix, in (bowl) or in (container)>
+{porridge} + {cinnamon sugar} on top + (butter) a bit in the middle
+{porridge} <serve, warm>
+    <enjoy>
 
 ::story
 

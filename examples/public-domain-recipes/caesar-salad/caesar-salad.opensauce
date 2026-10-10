@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: side
 curation origin: generated
 curation review: unchecked
@@ -13,26 +13,30 @@ tags: italian, salad, cheesefare
 image: csalad.webp
 
 # Imported from content/caesar-salad.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 
 ::ingredients
 
-(romaine lettuce)
-(parmesan cheese, Grated)
+(romaine lettuce) 1 whole head
+(parmesan cheese)
 (croutons)
 (caesar salad dressing)
+(water, for rinsing)
 
 ::equipment
 
-(bowl)
+(bowl, mixing)
 
 ::instructions
 
-<prepare, a whole head of Romaine Lettuce by chopping off the root and rising thoroughly with water. Dry completely>
-Once the lettuce is fully dry, put in a mixing bowl with lettuce and the Caesar Salad dressing. Toss to cover each leaf completely.
-(croutons) <add>
-<grate, Parmesan over salad>
-Eat with hands.
+(romaine lettuce) <chop, off the root>
+    <rinse, thoroughly, with (water)>
+    <dry> ?= completely dry
+{salad} = (romaine lettuce) + (caesar salad dressing)
+    <toss, in (bowl)> ?= each leaf completely covered
+    + (croutons)
+(parmesan cheese) <grate>
+{salad} + (parmesan cheese) over the top
+{salad} <eat, with hands>
 
 ::story
 

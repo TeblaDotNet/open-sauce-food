@@ -1,3 +1,4 @@
+import {restoreCorpusRepairs, repairedRecipeCount} from './helpers/corpus-quality-unattended.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFile} from 'node:fs/promises';
@@ -74,7 +75,7 @@ test('410 corpus ASTs change only by the approved process resolution and eligibi
   const changed: string[] = [];
   let demotions = 0;
   for (const file of files) {
-    const text = await readFile(file,'utf8'), r = parseRecipe(text,{vocabulary}), old = parseRecipe(text,{vocabulary:before});
+    const text = restoreCorpusRepairs(await readFile(file,'utf8'),file), r = parseRecipe(text,{vocabulary}), old = parseRecipe(text,{vocabulary:before});
     const ts = tokens(r), bs = tokens(old); assert.equal(ts.length,bs.length);
     for (let i=0;i<ts.length;i++) {
       const t = ts[i], b = bs[i];

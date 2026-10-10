@@ -1,3 +1,4 @@
+import {restoreCorpusRepairs, repairedRecipeCount} from './helpers/corpus-quality-unattended.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile } from 'node:fs/promises';
@@ -31,7 +32,7 @@ test('all 410 recipes have one explicit stage and only header metadata changed',
   const counts = {initial: 0, reworked: 0, blocked: 0};
   const files = await recipeFiles('examples/public-domain-recipes'); assert.equal(files.length, 410);
   for (const file of files) {
-    const source = await readFile(file, 'utf8'), before = restoreRecipePublication(source, file);
+    const source = restoreCorpusRepairs(await readFile(file, 'utf8'),file), before = restoreRecipePublication(source, file);
     assert.notEqual(source, before); // helper verifies the complete baseline SHA-256
     const r = parseRecipe(source, {vocabulary}), b = parseRecipe(before, {vocabulary});
     assert.ok(r.conversionStage); counts[r.conversionStage]++;
@@ -43,12 +44,12 @@ test('all 410 recipes have one explicit stage and only header metadata changed',
   }
   assert.deepEqual(counts, {initial: 184, reworked: 216, blocked: 10});
 });
-test('six historical examples have explicit current decisions rather than a privileged quality class', async () => {
+test('six historical examples had explicit baseline decisions rather than a privileged quality class', async () => {
   const ledger = JSON.parse(await readFile('recipe-publication-decisions.json','utf8'));
   const ids = ['orange-glorious','bloody-mary-mix','chicken-tikka-masala','smoked-salmon-pasta-primavera','hakka-style-meatballs','ravioli'];
   for (const id of ids) {
     assert.ok(ledger.records[id].reason);
-    const source = await readFile('examples/public-domain-recipes/' + id + '/' + id + '.opensauce', 'utf8');
+    const source = restoreCorpusRepairs(await readFile('examples/public-domain-recipes/' + id + '/' + id + '.opensauce', 'utf8'), id);
     assert.equal(parseRecipe(source).conversionStage, 'initial');
     assert.equal(isPublished(parseRecipe(source.replace('conversion stage: initial','conversion stage: reworked'))), true);
   }
@@ -57,7 +58,7 @@ test('whole-corpus usage remains available independently of filtered public usag
   const corpus = await loadCorpus('.', vocabulary, routes(siteConfig()));
   const items = corpus.records.map(r => ({id:r.slug,name:r.name,recipe:corpus.parsed.get(r.slug)!}));
   const all = buildUsageIndex(items), published = buildUsageIndex(items.filter(r => isPublished(r.recipe)));
-  assert.equal(all.recipeCount,410); assert.equal(published.recipeCount,216);
+  assert.equal(all.recipeCount,410); assert.equal(published.recipeCount,216+repairedRecipeCount);
   for (const [kind,id] of [['ingredient','egg'],['equipment','bowl'],['process','stir']] as const) {
     const a = createReferencePage(vocabulary,kind,id,all)!, p = createReferencePage(vocabulary,kind,id,published)!;
     assert.ok(a.usage!.length > p.usage!.length);

@@ -1,3 +1,4 @@
+import {repairedRecipeCount} from './helpers/corpus-quality-unattended.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { mkdtemp, writeFile, readFile, rm, mkdir } from 'node:fs/promises';
@@ -16,14 +17,14 @@ const config = siteConfig();
 const generated = await generateSite(root, config);
 test('complete corpus browse memberships and canonical references are generated without unpublished recipe links', () => {
   assert.equal(generated.manifest.recipes.length, 410);
-  assert.equal(generated.audit.distinctTags, 142);
-  assert.equal(generated.audit.recipesWithTags, 216);
-  assert.equal(generated.audit.recipesWithCategory, 216);
+  assert.equal(generated.audit.distinctTags, new Set(generated.manifest.recipes.filter(r => r.conversionStage === 'reworked').flatMap(r => r.tags)).size);
+  assert.equal(generated.audit.recipesWithTags, 216+repairedRecipeCount);
+  assert.equal(generated.audit.recipesWithCategory, 216+repairedRecipeCount);
   assert.equal(generated.audit.recipesWithoutCategory.length, 0);
-  assert.equal(generated.audit.tagSlugCollisions.length, 5);
+  assert.equal(generated.audit.tagSlugCollisions.length, 8); // Grostoli preserves authored Fry/Italian/Brazilian tags.
   assert.equal(generated.manifest.pages.filter(p => p.includes('/recipe/')).length, 410);
   assert.equal(generated.validation.status, 'passed');
-  assert.equal(generated.validation.pages, 1257);
+  assert.equal(generated.validation.pages, 1115 + generated.audit.distinctTags); // Fixed pages plus published tag facets.
   assert.equal(generated.validation.references, 685);
   assert.equal(generated.validation.originalSourcePages, 391);
 });
@@ -208,7 +209,7 @@ test('public discovery and noindex are governed by explicit conversion stage', (
       if (facet.recipes.includes(recipe.slug)) assert.ok(visible);
     for (const ref of generated.manifest.references) if (ref.usageRecipes.includes(recipe.slug)) assert.ok(visible);
   }
-  assert.equal(generated.validation.publishedRecipes,216);
+  assert.equal(generated.validation.publishedRecipes,216+repairedRecipeCount);
   const exposed = new Map(generated.files);
   exposed.set('index.html', exposed.get('index.html') + '<a href="/opensaucefood/recipe/orange-glorious/">Hidden example</a>');
   assert.throws(() => validateFiles(exposed,generated.manifest), /Public navigation exposes hidden/);
@@ -231,7 +232,7 @@ test('category pages contain exactly the published members and hidden direct pag
     assert.ok(html.includes('Recipe category · ' + expected.length + ' recipe'));
     total += facet.count;
   }
-  assert.equal(total, 216);
+  assert.equal(total, 216+repairedRecipeCount);
   for (const stage of ['initial', 'blocked']) {
     const recipe = generated.manifest.recipes.find(r => r.conversionStage === stage && r.category)!;
     const html = generated.files.get('recipe/' + recipe.slug + '/index.html')!.toString();

@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 
 name: Baked Trout
@@ -17,7 +17,7 @@ tags: fish
 
 (trout, cleaned) quantity unspecified
 (bacon) very thin slice per fish
-(garlic choice) = (garlic) as needed -OR- (garlic powder) as needed
+(garlic choice) = (garlic, minced) as needed -OR- (garlic powder) as needed
 (butter) thin slice per fish
 (cayenne, optional) as desired
 
@@ -29,18 +29,19 @@ tags: fish
 ::instructions
 
 (trout) <clean>
-    <wrap, very thin bacon slice per fish>
-    + (garlic choice) <sprinkle, minced garlic or powder>
+    <wrap, with (bacon), a very thin slice per fish>
+(garlic choice) <sprinkle, on (trout)>
 Optional [
-    (trout) + (cayenne) <season>
+    (trout) <season, with (cayenne)>
 ]
-(butter) <slice, thin>
-(trout) + (butter) <place, middle of fish>
-    <enclose, foil with overlap>
-    <place, pan>
-    <bake, in foil, 350f / 175c, 15m>
-    <check, skin peels easily from meat as source doneness test>
-    <remove, foil>
+(butter) <slice, thinly, one slice per fish>
+    <place, in (trout), in the middle>
+(foil) <cut, larger than each fish so there is overlap>
+(trout) <enclose, in (foil), each fish with overlap>
+    <place, in (pan)>
+    <bake, in (foil), 350°F / 175°C, 15m>
+    <check> ?= skin peels easily from the meat
+    <remove, from (foil)>
     <serve>
 
 ::source

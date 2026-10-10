@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: sauce/seasoning/stock
 curation origin: generated
 curation review: unchecked
@@ -12,23 +12,37 @@ units: source
 tags: sauce, mexican
 
 # Imported from content/corn-salsa.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 10 Minutes
 # Source metadata: - 🍳 Cook time: 1 Hour+ in fridge
 
 ::ingredients
 
-(frozen corn, defrosted) 2 pounds
-(red onion, finely chopped) 1/2
-(radishes, sliced thin and chopped) 4
-(few pinches of cilantro, finely chopped)
-(jalepenos, optional, finely chopped) 1-2
+(corn, frozen, defrosted) 2 pounds
+(red onion) 1/2
+(radishes, sliced thin) 4
+(cilantro) a few pinches
+(jalapeño, optional) 1-2
 (lime: juice) of 2-3 limes
-(salt and pepper, to taste)
+(salt) to taste
+(pepper) to taste
+
+::equipment
+
+(fridge)
 
 ::instructions
 
-<chop, everything to pieces smaller than the corn kernels. Mix well and let sit covered in the fridge for at least an hour, even better overnight>
+(red onion) <chop, finely, pieces smaller than the corn kernels>
+(radishes) <chop, finely, pieces smaller than the corn kernels>
+(cilantro) <chop, finely, pieces smaller than the corn kernels>
+{salsa} = (corn) + (red onion) + (radishes) + (cilantro) + (lime: juice) + (salt) + (pepper)
+Optional [
+    (jalapeño) <chop, finely, pieces smaller than the corn kernels>
+    {salsa} + (jalapeño)
+]
+{salsa} <mix, well>
+    <cover>
+    <rest, in (fridge), at least 1h, even better overnight>
 
 ::source
 <<<

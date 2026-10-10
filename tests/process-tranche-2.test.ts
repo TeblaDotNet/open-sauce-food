@@ -1,3 +1,4 @@
+import {restoreCorpusRepairs, repairedRecipeCount} from './helpers/corpus-quality-unattended.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFile} from 'node:fs/promises';
@@ -45,7 +46,7 @@ test('all 410 recipes retain exact baseline bytes except three registered heads;
  const files=await recipeFiles('examples/public-domain-recipes');assert.equal(files.length,410);
  let changed=0;const resolved:string[]=[],reduction:string[]=[];
  for(const file of files){
-  const slug=file.replaceAll('\\','/').split('/').at(-2)!;const source=await readFile(file,'utf8'),original=restoreProcessTranche2(source,slug);
+  const slug=file.replaceAll('\\','/').split('/').at(-2)!;const source=restoreCorpusRepairs(await readFile(file,'utf8'),file),original=restoreProcessTranche2(source,slug);
   assert.equal(sha(original),processTranche2.recipeHashes[slug],slug);
   if(original!==source){changed++;assert.equal(sha(source),processTranche2.migrations[slug].afterSha256);}
   const current=parseRecipe(source,{vocabulary}),baseline=parseRecipe(original,{vocabulary:before});

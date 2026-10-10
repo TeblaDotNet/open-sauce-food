@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: preserve/ferment
 curation origin: generated
 curation review: unchecked
@@ -12,7 +12,6 @@ units: source
 tags: basic, breakfast, cheesefare
 
 # Imported from content/yogurt.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # source ambiguity: Shares most steps with greek-yogurt, which additionally strains the yogurt. — Retain both with an explicit near-duplicate relationship.
 # safety: 12h incubation, 45°C target, thermos washing and refrigeration directions. — Preserve source instructions without independently endorsing fermentation safety.
 
@@ -20,23 +19,27 @@ tags: basic, breakfast, cheesefare
 
 (milk) 1l
 (yogurt) 100ml
+(water, for washing thermos) ~100ml
 
 ::equipment
 
 (thermos, ½l capacity each) 2
 (thermometer)
 (oven, or any other place without air flow)
+(fridge)
 
 ::instructions
 
-(milk) <bring, to 45°C (113°F)>
-(yogurt) <pour, into the milk>
-<wisk, well>
-(milk) <bring, to 45°C (113°F) again (don't go higher than that, please)>
-<boil, some water (about 100ml) and use it to wash the thermos from inside>
-<let, the water out and pour the milk into the thermos>
-(thermos) <leave, in the oven(or in any other place whithout air flow) for 12h>
-<store, in the fridge>
+(milk) <heat, to 45°C / 113°F>
+{yogurt mixture} = (milk) + (yogurt)
+{yogurt mixture} <whisk>
+{yogurt mixture} <heat, to 45°C / 113°F; do not go higher>
+(water, for washing thermos) <boil>
+(thermos) <wash, inside, with (water, for washing thermos)>
+(thermos) <empty>
+{yogurt mixture} <pour, into (thermos)>
+(thermos) <leave, in (oven, or any other place without air flow), 12h>
+(thermos) <store, in (fridge)>
 
 ::source
 <<<

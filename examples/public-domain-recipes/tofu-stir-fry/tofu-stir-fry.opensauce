@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 
 name: Tofu Stir Fry
@@ -18,7 +18,8 @@ serves: 3-5
 
 (tofu, extra firm) 1 block
 (egg, conditional on non-vegan version in method) 3
-(vegetables, choice, examples sugar snap peas / chopped cabbage / sliced carrots / broccoli / cauliflower) as desired
+(hard vegetables, optional; your choice; examples sugar snap peas / sliced carrots / broccoli / cauliflower) as desired
+(cabbage, chopped, optional)
 (sauce) = (soy sauce) as needed -OR- (teriyaki sauce) as needed
 (garlic, minced) 2tbsp
 (coconut oil) enough for coating wok and ~1/2in at bottom
@@ -35,22 +36,37 @@ Optional [
     (tofu) <freeze, at least 24h prior>
         <thaw>
 ]
-(tofu) <cut, cubes or slabs as preferred>
+(tofu) <cut, into cubes or slabs as preferred>
     <drain, carefully>
-    + (sauce) <soak, a few minutes>
-(coconut oil) <pour, copper wok, coat basin, ~1/2in at bottom>
-    <heat, medium>
-{stir fry} = (tofu) + (sauce) + (garlic) + (coconut oil)
-{stir fry} <turn, and shift tofu, gradually increase heat until surface starts browning>
-    + (vegetables) hard vegetables first <cook, until softened; reserve cabbage if using>
-Optional [
-    (egg) <scramble, separate smaller pan, if non-vegan, until no longer runny>
-    {stir fry} + (egg)
+    <soak, in (sauce), a few minutes>
+(coconut oil) <pour, into (wok), evenly coat the basin; ~1/2in at the bottom>
+    <heat, medium heat>
+{stir fry} = (coconut oil) + (tofu) + (sauce) + (garlic)
+    <heat, in (wok), gradually increasing the heat> ?= tofu surface starts browning
+Meanwhile [
+    (tofu) <shift>
+        <flip>
 ]
-{stir fry} + (vegetables, cabbage) if using <add, once eggs firm/brown to liking when eggs used>
-    <cook, until cabbage softens, retain crunch>
-    <remove from heat>
-    <serve, plate, favourite sides>
+Optional [
+    {stir fry} + (hard vegetables)
+        <cook> ?= vegetables softened
+]
+If making the non-vegan version:
+    (egg) <scramble fry, in (pan)> ?= no longer runny
+    {stir fry} + (egg)
+        <cook> ?= eggs firm or brown to your liking
+Optional [
+    {stir fry} + (cabbage)
+        <cook> ?= cabbage softened while retaining some crunch
+]
+(wok) <remove, from the heat>
+{stir fry} <serve, on (plate), with your favourite sides>
+
+::notes
+
+The source recommends optional freezing and thawing to make tofu spongier and chewier and aid flavour absorption.
+Adding sauce and garlic early helps tofu absorb the flavours.
+Save cabbage for last: it softens fast, so this lets it retain some crunch.
 
 ::story
 

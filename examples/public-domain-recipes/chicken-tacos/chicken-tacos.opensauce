@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -12,30 +12,73 @@ units: source
 tags: mexican, chicken, slowcooked
 
 # Imported from content/chicken-tacos.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 
 ::ingredients
 
 (chicken breast)
-(or three onions, preferably red) two
-(seasoning,)
+(onion, preferably red) 2 or 3
 (adobo seasoning)
 (paprika)
-(cheese, either shredded Mexican blend or crumbling cheese)
+(other seasonings, desired, optional)
+(extra seasoning, optional) a dash
+(cheese choice) = (cheese, shredded Mexican blend) -OR- (cheese, crumbling)
 (tortillas, small)
 (lime)
-(cilantro, tomato, lettuce, other desired taco contents)
+(cilantro)
+(tomato)
+(lettuce, optional)
+(other taco contents, desired, optional)
+
+::equipment
+
+(slow cooker)
+(forks)
 
 ::instructions
 
-Quarter two onions and spread on the bottom of a slow-cooker.
-(chicken breast) <place, on top of onions>
-<season, slow-cooker contents liberally with adobo seasoning, paprika and any other desired seasonings, squeeze half of a lime too if desired>
-<let, cook on low for 8 hours. Cooking on high for less time is possible as well, but a slower cook is preferable>
-<dice, the tomato, cilantro, any lettuce and the third onion for taco contents>
-<shred, chicken with forks once cooked. Optionally add a dash more seasoning for taste or appearance>
-<add, chicken, cheese and all the diced ingredients to tortillas>
-<squeeze, remainder of lime over finished product>
+(onion) 2 <quarter>
+    <spread, in (slow cooker), on the bottom>
+(chicken breast) <place, on (onion)>
+{slow cooker contents} = (onion) 2 + (chicken breast) + (adobo seasoning) liberally + (paprika) liberally
+Optional [
+    {slow cooker contents} + (other seasonings)
+]
+Optional [
+    (lime) 1/2 <squeeze, over the slow cooker contents>
+]
+[
+    {slow cooker contents} <slow cook, in (slow cooker), low, 8h>
+]
+-OR-
+[
+    {slow cooker contents} <slow cook, in (slow cooker), high, for less time>
+]
+(tomato) <dice>
+(cilantro) <dice>
+Optional [
+    (lettuce) <dice>
+]
+If using a third (onion):
+    (onion) the third <dice>
+(chicken breast) <shred, using (forks), once cooked>
+Optional [
+    (chicken breast) + (extra seasoning) a dash
+]
+{tacos} = (tortillas) + (chicken breast) + (cheese choice) + (tomato) + (cilantro)
+Optional [
+    {tacos} + (lettuce)
+]
+If using a third (onion):
+    {tacos} + (onion) the diced third
+Optional [
+    {tacos} + (other taco contents)
+]
+(lime) remainder <squeeze, over the finished tacos>
+
+::notes
+
+Cooking on high for less time is possible as well, but a slower cook is preferable.
+The optional extra dash of seasoning is for taste or appearance.
 
 ::source
 <<<

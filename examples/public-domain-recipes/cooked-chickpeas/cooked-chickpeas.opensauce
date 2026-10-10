@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: side
 curation origin: generated
 curation review: unchecked
@@ -13,24 +13,32 @@ tags: basic, beans, fasting
 serves: 3
 
 # Imported from content/cooked-chickpeas.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 1 min
 # Source metadata: - 🍳 Cook time: 15 min
 # Source metadata: - 🍽️ Servings: 3
 
 ::ingredients
 
-(chickpeas / garbanzo beans, drained) 1 can
+(chickpeas, canned, drained) 1 can
 (olive oil) 1 tbsp
 (garlic powder) 1 tsp
 (cumin) 1 tsp
 (paprika) 1 tsp
 (cayenne pepper) 1 tsp
 
+(salt) to taste
+(pepper) to taste
+
+::equipment
+
+(pan)
+
 ::instructions
 
-<heat, oil in pan. Add chickpeas and seasonings>
-<cook, over medium-high heat for 10-15 minutes. Salt and pepper to taste>
+(olive oil) <heat, in (pan)>
+{seasoned chickpeas} = (chickpeas) + (olive oil) + (garlic powder) + (cumin) + (paprika) + (cayenne pepper)
+    <cook, in (pan), medium-high heat, 10-15m>
+    <season, with (salt) + (pepper), to taste>
 
 ::story
 

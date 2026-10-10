@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -13,7 +13,6 @@ serves: 4
 image: korv-stroganoff.webp
 
 # Imported from content/korv-stroganoff.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 5 min
 # Source metadata: - 🍳 Cook time: 20 min
 # Source metadata: - 🍽️ Servings: 4
@@ -29,13 +28,33 @@ image: korv-stroganoff.webp
 (soy sauce) 1 tbsp
 (dijon mustard) 1 tbsp
 
+(pepper) plenty to taste; optionally freshly ground for topping
+(salt, optional) to taste
+(rice, boiled) for serving
+(parsley, chopped, optional) for garnish
+
 ::instructions
 
-<cut, the sausage into sticks and dice the onion>
-<fry, the sausage and onion in oil for about ten minutes. Add the tomato purée and cook for another minute>
-<stir, in cream, milk, soy sauce and Dijon mustard. Let it simmer for at least five minutes>
-<season, to taste with plenty of pepper, and possibly salt>
-<serve, with boiled rice. Optionally top with freshly ground pepper and/or garnish with chopped parsley>
+(swedish falukorv) <cut, into sticks>
+(yellow onion) <dice>
+{sausage mixture} = (swedish falukorv) + (yellow onion) + (olive oil)
+    <fry, ~10m>
+{sausage mixture} + (tomato purée)
+    <cook, another 1m>
+{stroganoff} = {sausage mixture} + (cream) + (milk) + (soy sauce) + (dijon mustard)
+    <stir>
+    <simmer, at least 5m>
+    <season, with (pepper), plenty to taste>
+Optional [
+    {stroganoff} <season, with (salt), to taste>
+]
+{stroganoff} <serve, with (rice)>
+Optional [
+    {stroganoff} + (pepper, freshly ground) on top
+]
+Optional [
+    {stroganoff} + (parsley) as garnish
+]
 
 ::story
 

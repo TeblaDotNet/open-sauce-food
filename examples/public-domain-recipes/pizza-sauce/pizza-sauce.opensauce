@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: sauce/seasoning/stock
 
 name: Pizza sauce
@@ -13,7 +13,7 @@ tags: basic, pizza, sauce
 # Retrieved 2026-10-07; upstream commit da84378b36bd5b2e3cb35f610d64630bf1bd899d.
 # Source Prep time: 10 min
 # Source Cook time: 0.5-2 hours
-# Conversion note: Headline cook time 0.5-2h but method only longer the better. Do not change method to a precise duration.
+# Conversion note: Headline cook time 0.5-2h but method only says longer is better. Do not change method to a precise duration.
 
 ::ingredients
 
@@ -29,17 +29,25 @@ tags: basic, pizza, sauce
 
 ::equipment
 
+(pan)
 (spatula)
 
 ::instructions
 
 (onion) <dice>
-    + (olive oil) <fry, medium>
-    + (garlic, chopped) + (chili pepper, if using) <cook, some minutes>
-    + (tomato puré) + (salt) + (pepper) + (oregano) <mix>
-    <cook, until puré gets oily>
-    + (tomato) <crush, spatula>
-    <cook, low heat, longer is better>
+{onion base} = (onion) + (olive oil)
+{onion base} <fry, in (pan), medium heat>
+{onion base} + (garlic, chopped)
+Optional [
+    {onion base} + (chili pepper)
+]
+{onion base} <cook, a few minutes>
+{sauce base} = {onion base} + (tomato puré) + (salt) + (pepper) + (oregano)
+{sauce base} <mix>
+{sauce base} <cook> ?= tomato puré gets oily
+{pizza sauce} = {sauce base} + (tomato)
+{pizza sauce} <crush, using (spatula)>
+{pizza sauce} <cook, low heat; longer is better>
 
 ::source
 <<<

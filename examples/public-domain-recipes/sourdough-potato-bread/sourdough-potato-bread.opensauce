@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: bread/baking
 curation origin: generated
 curation review: unchecked
@@ -13,15 +13,14 @@ tags: sourdough, bread, potato
 image: sourdough-potato-bread.webp
 
 # Imported from content/sourdough-potato-bread.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 15 min
 # Source metadata: - 🍳 Cook time: 45 min
 
 ::ingredients
 
-(boiled potatoes in there skin) 150g
+(potatoes, in their skins) 150g boiled weight
 (wheat flour) 350g
-(whole rye flour) 50g
+(rye flour, whole) 50g
 (salt) 11g
 (water) 150g
 (sourdough) 250g
@@ -32,14 +31,18 @@ image: sourdough-potato-bread.webp
 
 ::instructions
 
-<boil, the potatoes>
-<peel, of the skin of the potatoes (let them cool down a bit)>
-<stir, all ingredients and knead them well>
-<let, the dough rest for 5 hours in warm (25-30°C) conditions>
-<preheat, the oven to 250°C>
-<bake, for up to 10 minute with steam>
-Release the steam and turn the heat down to 220°C.
-<bake, for another 35 minutes>
+(potatoes) <boil>
+    <cool, a bit>
+    <peel>
+{dough} = (potatoes) + (wheat flour) + (rye flour) + (salt) + (water) + (sourdough)
+    <stir>
+    <knead, well>
+    <rest, 5h, warm conditions at 25-30°C>
+(oven) <preheat, 250°C>
+{dough} <bake, in (oven), up to 10m, with steam>
+<release, steam from (oven)>
+(oven) <reduce heat, 220°C>
+{bread} <bake, another 35m>
 
 ::source
 <<<

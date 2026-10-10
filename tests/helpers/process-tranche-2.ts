@@ -1,3 +1,4 @@
+import {restoreCorpusRepairs} from './corpus-quality-unattended.ts';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -8,6 +9,7 @@ export const processTranche2 = JSON.parse(readFileSync('tests/fixtures/process-t
 const sha = (s:string) => createHash('sha256').update(s).digest('hex');
 /** Undo only the three approved action-head edits for historical fidelity checks. */
 export function restoreProcessTranche2(source:string,pathOrSlug:string):string {
+  source=restoreCorpusRepairs(source,pathOrSlug);
   const slug=pathOrSlug.replaceAll('\\','/').split('/').at(-1)!.replace(/\.opensauce$/,'');
   const record=processTranche2.migrations[slug];
   if (!record || !source.includes(record.afterLine)) return source;

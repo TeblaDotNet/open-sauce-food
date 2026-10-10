@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: snack
 curation origin: generated
 curation review: unchecked
@@ -12,7 +12,6 @@ units: source
 tags: pork, pastry
 
 # Imported from content/sausage-rolls.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 10 min
 # Source metadata: - 🍳 Cook time: 30-60 min
 
@@ -20,16 +19,29 @@ tags: pork, pastry
 
 (egg)
 (puff pastry)
-(pork meat / sausage meat)
+(meat filling, pork meat / sausage meat)
+
+::equipment
+
+(baking paper)
+(tray)
 
 ::instructions
 
-<place, baking paper onto a tray>
+(baking paper) <place, on (tray)>
 (egg) <whisk>
-Lay out pastry, brush or pour egg whisk so it lightly covers the pastry
-<prepare, sausage meat onto pastry>
-<fold, pastry around the meat, apply extra egg whisk to the 'seal' where the pastry is folded together>
-<bake, until golden brown>
+(puff pastry) <lay out>
+[
+    (egg) <brush, on (puff pastry)> ?= lightly covers the pastry
+]
+-OR-
+[
+    (egg) <pour, on (puff pastry)> ?= lightly covers the pastry
+]
+(meat filling) <place, on (puff pastry)>
+(puff pastry) <fold, around (meat filling)>
+(egg) <apply, extra to the seal where the pastry is folded together>
+(puff pastry) <bake, with the enclosed filling> ?= golden brown
 
 ::source
 <<<

@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: dessert
 
 name: Casio in pastelletto
@@ -31,10 +31,11 @@ image: casio-in-pastelletto.webp
 
 ::instructions
 
-(frying fat) <heat, pan, for frying>
-    + (cheese) <place>
-    + (sugar) + (cinnamon) <sprinkle, immediately, all over>
-(cheese) <remove, as soon as softened>
+(frying fat) <heat, in (pan), for frying>
+(cheese) <place, in (pan)>
+(sugar) + (cinnamon) <sprinkle, on (cheese), immediately all over>
+(cheese) <fry> ?= softened
+    <remove, from (pan), as soon as softened>
     <serve, warm>
 
 ::story

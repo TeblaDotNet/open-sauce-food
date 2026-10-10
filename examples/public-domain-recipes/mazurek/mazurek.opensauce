@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: dessert
 curation origin: generated
 curation review: unchecked
@@ -12,38 +12,67 @@ units: source
 tags: polish, easter, dessert
 
 # Imported from content/mazurek.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 
 ::ingredients
 
 (flour) 2 1/2 cups
 (powdered sugar) 1/4 cup
-(butter) 200g （7 oz）
-(sour cream, 18%) 1 tablespoon
+(butter) 200g / 7oz
+(sour cream, 18%) 1tbsp
 (egg: yolk) 2
-(topping, for example orange jam; see /orange-jam) from 4 oranges
-(optional additional toppings/decorations,)
-(walnuts)
-(pecans)
-(raisins)
-(almonds, sliced)
+(salt) 1 pinch
+(topping, your choice)
+(walnuts, optional)
+(pecans, optional)
+(raisins, optional)
+(almonds, sliced, optional)
 
 ::equipment
 
-(baking sheet)
+(baking sheet, large, 25x35cm / 10x14in)
 (bowl)
+(knife, sharp)
+(plastic wrap)
+(fridge)
+(parchment paper)
+(fork)
 
 ::instructions
 
-<put, flour and butter in a bowl>
-(butter) <cut, with a sharp knife into tiny pieces, mixing with the flour>
-<add, egg yolks, sugar, sour cream, and a pinch of salt>
-<knead, well and form into a ball. Wrap in plastic wrap and let chill in fridge for about an hour>
-<roll, out flat and place in large baking sheet (this should be enough for a 25x35cm/10x14in sheet) on top of parchment paper>
-Make little holes with fork in the dough.
-<bake, for 15-20 minutes in 200°C (395°F)>
-<let, cool before spreading topping>
-Decorate with nuts or other toppings.
+{flour mixture} = (flour) + (butter)
+    <place, in (bowl)>
+(butter) <cut, into tiny pieces, using (knife)>
+Meanwhile [
+    {flour mixture} <mix>
+]
+{dough} = {flour mixture} + (egg: yolk) + (powdered sugar) + (sour cream) + (salt)
+    <knead, well>
+    <shape, into a ball>
+    <wrap, in (plastic wrap)>
+    <chill, in (fridge), ~1h>
+    <roll, flat>
+(baking sheet) <line, with (parchment paper)>
+{dough} <place, on (baking sheet)>
+    <prick, small holes, using (fork)>
+    <bake, 200°C / 395°F, 15-20m>
+    <cool>
+(topping) <spread, on the cooled cake>
+Optional [
+    {dough} + (walnuts)
+]
+Optional [
+    {dough} + (pecans)
+]
+Optional [
+    {dough} + (raisins)
+]
+Optional [
+    {dough} + (almonds)
+]
+
+::notes
+
+For example, use orange jam made from 4 oranges as the topping. Decorate with nuts or other toppings of your choice.
 
 ::story
 

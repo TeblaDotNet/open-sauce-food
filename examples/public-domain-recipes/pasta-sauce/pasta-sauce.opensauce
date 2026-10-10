@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: sauce/seasoning/stock
 curation origin: generated
 curation review: unchecked
@@ -12,31 +12,32 @@ units: source
 tags: italian, basic, sauce, fasting
 
 # Imported from content/pasta-sauce.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 
 ::ingredients
 
-(san marzano tomatoes, or home-grown with some extra pulp) a can
-(onion or garlic)
+(tomato choice) = (tomatoes, San Marzano) 1 can -OR- (tomatoes, home-grown, with some extra pulp)
+(aromatic) = (onion, diced or grated) -OR- (garlic, crushed and sliced)
 (olive oil)
-(oregano or basil, Dried or diced)
+(herb choice) = (oregano, dried or diced) -OR- (basil, dried or diced)
 
 ::equipment
 
 (saucepan)
+(crushing tool, your choice)
 
 ::instructions
 
-<heat, up olive oil on saucepan>
-<add, and roast either diced or grated onion or crushed and sliced garlic until translucent>
-<add, San Marzano tomatoes, include the liquids from the can if possible>
-<simmer, contents of the pan and crush the tomatoes on the pan with your instrument of choice>
-Additionally add desired herbs.
+(olive oil) <heat, in (saucepan)>
+(aromatic) <add, into (saucepan)>
+    <roast> ?= translucent
+(tomato choice) <add, into (saucepan), including the can liquids if possible>
+{sauce} <simmer, in (saucepan)>
+(tomato choice) <crush, in (saucepan), using (crushing tool)>
+{sauce} + (herb choice)
 
-::notes
+::story
 
 This is very simple pasta sauce. Unlike modern store-bought sauces, there is no added sugar, only the subtle taste of San Marzano tomatoes.
-
 
 ::source
 <<<
