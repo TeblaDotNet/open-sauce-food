@@ -9,6 +9,9 @@ aliases:
 - name: parchment paper
   type: regional-name
   observed_count: 5
+- name: parchment
+  type: short-name
+
 evidence:
   current_recipe_count: 7
   current_observation_count: 7

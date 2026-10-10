@@ -3,7 +3,13 @@ kind: equipment
 canonical_name: loaf tin
 names:
   en: loaf tin
+  en-GB: loaf tin
+  en-US: loaf pan
 status: canonical-seed
+aliases:
+- name: loaf form
+  type: equivalent-name
+
 evidence:
   current_recipe_count: 2
   current_observation_count: 2

@@ -4,6 +4,10 @@ canonical_name: stock pot
 names:
   en: stock pot
 status: canonical-seed
+aliases:
+- name: stockpot
+  type: spelling
+
 evidence:
   current_recipe_count: 1
   current_observation_count: 1

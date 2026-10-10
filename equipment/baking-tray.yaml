@@ -9,6 +9,11 @@ aliases:
 - name: baking sheet
   type: regional-name
   observed_count: 8
+- name: sheet pan
+  type: regional-name
+- name: oven tray
+  type: equivalent-name
+
 evidence:
   current_recipe_count: 14
   current_observation_count: 14

@@ -4,6 +4,12 @@ canonical_name: immersion blender
 names:
   en: immersion blender
 status: canonical-seed
+aliases:
+- name: hand blender
+  type: equivalent-name
+- name: stick blender
+  type: equivalent-name
+
 evidence:
   current_recipe_count: 4
   current_observation_count: 4

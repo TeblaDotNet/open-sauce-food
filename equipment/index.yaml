@@ -16,7 +16,7 @@ entries:
 - id: aluminium-foil
   canonical_name: aluminium foil
   file: aluminium-foil.yaml
-  aliases: 3
+  aliases: 4
 - id: baking-dish
   canonical_name: baking dish
   file: baking-dish.yaml
@@ -32,11 +32,11 @@ entries:
 - id: baking-paper
   canonical_name: baking paper
   file: baking-paper.yaml
-  aliases: 1
+  aliases: 2
 - id: baking-tray
   canonical_name: baking tray
   file: baking-tray.yaml
-  aliases: 1
+  aliases: 3
 - id: baking-vessel
   canonical_name: baking vessel
   file: baking-vessel.yaml
@@ -80,7 +80,7 @@ entries:
 - id: butchers-twine
   canonical_name: butcher’s twine
   file: butchers-twine.yaml
-  aliases: 0
+  aliases: 1
 - id: butter-knife
   canonical_name: butter knife
   file: butter-knife.yaml
@@ -184,7 +184,7 @@ entries:
 - id: frying-pan
   canonical_name: frying pan
   file: frying-pan.yaml
-  aliases: 1
+  aliases: 2
 - id: glass-bottles
   canonical_name: glass bottles
   file: glass-bottles.yaml
@@ -240,7 +240,7 @@ entries:
 - id: immersion-blender
   canonical_name: immersion blender
   file: immersion-blender.yaml
-  aliases: 0
+  aliases: 2
 - id: jar
   canonical_name: jar
   file: jar.yaml
@@ -276,7 +276,7 @@ entries:
 - id: loaf-tin
   canonical_name: loaf tin
   file: loaf-tin.yaml
-  aliases: 0
+  aliases: 1
 - id: mandoline
   canonical_name: mandoline
   file: mandoline.yaml
@@ -396,7 +396,7 @@ entries:
 - id: refrigerator
   canonical_name: refrigerator
   file: refrigerator.yaml
-  aliases: 0
+  aliases: 1
 - id: reynolds-oven-bag
   canonical_name: Reynold’s Oven Bag
   file: reynolds-oven-bag.yaml
@@ -496,7 +496,7 @@ entries:
 - id: stock-pot
   canonical_name: stock pot
   file: stock-pot.yaml
-  aliases: 0
+  aliases: 1
 - id: strainer
   canonical_name: strainer
   file: strainer.yaml
@@ -540,7 +540,7 @@ entries:
 - id: waffle-maker
   canonical_name: waffle maker
   file: waffle-maker.yaml
-  aliases: 0
+  aliases: 1
 - id: whisk
   canonical_name: whisk
   file: whisk.yaml
@@ -568,7 +568,7 @@ entries:
 - id: steaming-basket
   canonical_name: steaming basket
   file: steaming-basket.yaml
-  aliases: 0
+  aliases: 1
 - id: stand-mixer
   canonical_name: stand mixer
   file: stand-mixer.yaml
