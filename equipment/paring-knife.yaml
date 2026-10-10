@@ -1,0 +1,9 @@
+id: paring-knife
+kind: equipment
+canonical_name: paring knife
+names:
+  en: paring knife
+type_of: knife
+curation:
+  origin: generated
+  review: unchecked

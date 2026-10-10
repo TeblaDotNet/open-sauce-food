@@ -1,0 +1,9 @@
+id: cast-iron-frying-pan
+kind: equipment
+canonical_name: cast-iron frying pan
+names:
+  en: cast-iron frying pan
+type_of: frying-pan
+curation:
+  origin: generated
+  review: unchecked

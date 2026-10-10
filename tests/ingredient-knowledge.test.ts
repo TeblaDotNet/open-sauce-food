@@ -12,7 +12,7 @@ const pair = '(egg: yolk) <separate>\n(egg: white) <separate>';
 const instructionTokens = (r: ReturnType<typeof parseRecipe>) => (r.sections.at(-1)!.children as Statement[]).flatMap(n => n.tokens ?? []);
 
 test('canonical loader retains sparse knowledge; egg groups do not claim exhaustive anatomy', () => {
-  assert.equal(vocabulary.entries.length, 721);
+  assert.equal(vocabulary.entries.length, 723);
   assert.deepEqual(Object.keys(egg.parts!), ['yolk', 'white', 'shell']);
   assert.equal(egg.parts!.yolk.names['en-GB'], 'yolk');
   const groups = vocabulary.partGroups('egg');

@@ -1,5 +1,6 @@
 id: stand-mixer
 kind: equipment
+type_of: mixer
 canonical_name: stand mixer
 names:
   en: stand mixer

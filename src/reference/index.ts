@@ -15,7 +15,8 @@ export interface RecipeUsage { id: string; name: string; forms: UsageForm[] }
 export interface UsageIndex { recipeCount: number; concepts: Record<string, RecipeUsage[]> }
 const key = (kind: ReferenceKind, id: string) => JSON.stringify([kind, id]);
 
-/** Counts distinct recipes with explicit resolved tokens, not text mentions or inherited subjects. */
+/** Counts explicit resolved uses, including equipment without pages; no inferred/inherited uses.
+ * Ordinary non-reference processes retain their existing exclusion. Public backlinks are page-gated. */
 export function buildUsageIndex(recipes: readonly CorpusRecipe[]): UsageIndex {
   const concepts: Record<string, RecipeUsage[]> = Object.create(null);
   const seen = new Set<string>();
@@ -27,7 +28,7 @@ export function buildUsageIndex(recipes: readonly CorpusRecipe[]): UsageIndex {
       for (const node of nodes) {
         if (node.kind === 'statement') for (const token of semanticTokens(node.tokens)) {
           const kind = token.kind === 'process' ? 'process' : token.kind === 'thing' ? token.thingKind : undefined;
-          if (token.reference === false || !token.canonicalId || !kind || !['ingredient', 'equipment', 'process'].includes(kind)) continue;
+          if ((token.reference === false && kind !== 'equipment') || !token.canonicalId || !kind || !['ingredient', 'equipment', 'process'].includes(kind)) continue;
           const id = key(kind as ReferenceKind, token.canonicalId);
           const forms = uses.get(id) ?? new Map<string, UsageForm>();
           const form: UsageForm = { parts: [...(token.parts ?? [])] };
@@ -93,8 +94,8 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
   if (entry.reference === false) return undefined;
   const conceptUsage = usage ? usage.concepts[key(kind, id)] ?? [] : undefined;
   const relation = (e: VocabularyEntry): ReferenceRelation => ({ id: e.id,
-    name: displayName(e.names, e.canonical_name ?? e.id), url: (options.referenceUrl ?? referencePath)('ingredient', e.id) });
-  const parent = entry.type_of ? vocabulary.entries.find(e => e.kind === 'ingredient' && e.id === entry.type_of) : undefined;
+    name: displayName(e.names, e.canonical_name ?? e.id), url: e.reference === false ? undefined : (options.referenceUrl ?? referencePath)(e.kind, e.id) });
+  const parent = entry.type_of ? vocabulary.entries.find(e => e.kind === kind && e.id === entry.type_of) : undefined;
   const knowledge = (data: IngredientKnowledge, path: string[]): ReferenceKnowledge => ({
     typical_mass: data.typical_mass, reference_density: data.reference_density, nutrition: data.nutrition,
     parts: Object.entries(data.parts ?? {}).map(([id, part]) => {
@@ -115,7 +116,7 @@ export function createReferencePage(vocabulary: Vocabulary, kind: ReferenceKind,
   return structuredClone({ ...knowledge(entry, []), id, kind, name: displayName(entry.names, entry.canonical_name ?? id),
     states: entry.states,
     typeOf: parent ? relation(parent) : undefined,
-    types: kind === 'ingredient' ? vocabulary.entries.filter(e => e.kind === 'ingredient' && e.type_of === id)
+    types: kind === 'ingredient' || kind === 'equipment' ? vocabulary.entries.filter(e => e.kind === kind && e.type_of === id)
       .map(relation).sort((a, b) => a.name.localeCompare(b.name)) : undefined,
     canonicalName: entry.canonical_name, names: entry.names, pluralNames: entry.plural_names,
     aliases: (entry.aliases ?? []).map(a => typeof a === 'string' ? { name: a } : a),

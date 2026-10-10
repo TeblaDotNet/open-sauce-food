@@ -22,10 +22,10 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
   const published = manifest.recipes.filter(isPublished);
   const hiddenPaths = new Set(manifest.recipes.filter(r => !isPublished(r)).map(r => urls.recipe(r.slug)));
   assert.ok(published.some(r => r.slug === manifest.representative), 'Representative must be published');
-  const referenceCounts = { ingredient: 386, process: 180, equipment: 119 };
+  const referenceCounts = { ingredient: 386, process: 180, equipment: 120 };
   for (const kind of ['ingredient', 'process', 'equipment'] as const) {
     const entries = manifest.references.filter(r => r.kind === kind);
-    assert.equal(entries.length, referenceCounts[kind], `Canonical ${kind} count changed`);
+    assert.equal(entries.length, referenceCounts[kind], `Public ${kind} reference-page count changed`);
     const index = html.get(urls.output(urls.index(kind)))!;
     const ids = [...index.matchAll(/data-reference="([^"]+)"/g)].map(m => decode(m[1])).sort();
     assert.deepEqual(ids, entries.map(r => r.id).sort(), `Incomplete ${kind} index`);
@@ -113,10 +113,10 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
       for (const token of view.matchAll(/<(a|span) class="os-token os-(ingredient|process|equipment|unresolved|ambiguous)"([^>]*)>/g)) {
         const canonical = /data-canonical-id="([^"]+)"/.exec(token[3]);
         if (/data-reference="false"/.test(token[3])) {
-          assert.equal(token[2], 'process', 'Only actions may opt out of reference pages');
-          assert.ok(canonical, 'Classified action has no canonical ID');
-          assert.ok(!manifest.references.some(r => r.kind === 'process' && r.id === decode(canonical[1])), 'Non-reference action has a public page');
-          assert.equal(token[1], 'span', 'Ordinary action has a reference link');
+          assert.ok(['process', 'equipment'].includes(token[2]), 'Only processes/equipment may opt out of reference pages');
+          assert.ok(canonical, 'Suppressed concept has no canonical ID');
+          assert.ok(!manifest.references.some(r => r.kind === token[2] && r.id === decode(canonical[1])), 'Suppressed concept has a public page');
+          assert.equal(token[1], 'span', 'Suppressed concept has a reference link');
           assert.ok(!/href=/.test(token[3])); unlinkedTokens++; continue;
         }
         if (!canonical || ['unresolved','ambiguous'].includes(token[2])) {

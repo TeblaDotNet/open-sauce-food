@@ -24,8 +24,8 @@ test('complete corpus browse memberships and canonical references are generated 
   assert.equal(generated.audit.tagSlugCollisions.length, 8); // Grostoli preserves authored Fry/Italian/Brazilian tags.
   assert.equal(generated.manifest.pages.filter(p => p.includes('/recipe/')).length, 410);
   assert.equal(generated.validation.status, 'passed');
-  assert.equal(generated.validation.pages, 1115 + generated.audit.distinctTags); // Fixed pages plus published tag facets.
-  assert.equal(generated.validation.references, 685);
+  assert.equal(generated.validation.pages, 1116 + generated.audit.distinctTags); // Fixed pages plus published tag facets.
+  assert.equal(generated.validation.references, 686);
   assert.equal(generated.validation.originalSourcePages, 391);
 });
 test('ordinary actions have no public pages, index entries or recipe links; techniques retain pages and backlinks', () => {
@@ -276,4 +276,23 @@ test('new process techniques have pages and only published recipe backlinks', ()
     assert.deepEqual([...ref.usageRecipes].sort(),expected,id);
     assert.equal(ref.usageCount,expected.length,id);
   }
+});
+
+
+test('equipment proofs expose only eligible pages and direct parent/child links', () => {
+  const index = generated.files.get('equipment/index.html')!.toString();
+  assert.equal(generated.manifest.references.filter(r => r.kind === 'equipment').length, 120);
+  assert.ok(!generated.files.has('equipment/bowl/index.html'));
+  assert.ok(!index.includes('data-reference="bowl"'));
+  assert.ok(!generated.manifest.references.some(r => r.kind === 'equipment' && r.id === 'bowl'));
+  for (const r of generated.manifest.recipes) assert.ok(!r.semanticLinks.includes(routes(config).reference('equipment', 'bowl')));
+  for (const [path, data] of generated.files) if (path.endsWith('.html'))
+    assert.ok(!data.toString().includes('href="' + routes(config).reference('equipment', 'bowl') + '"'), path);
+  for (const [child, parent] of [['paring-knife','knife'],['cast-iron-frying-pan','frying-pan'],['stand-mixer','mixer']]) {
+    assert.ok(generated.files.get('equipment/' + child + '/index.html')!.toString().includes('Type of: <a href="' + routes(config).reference('equipment', parent) + '"'));
+    assert.ok(generated.files.get('equipment/' + parent + '/index.html')!.toString().includes('href="' + routes(config).reference('equipment', child) + '"'));
+  }
+  const soup = generated.files.get('recipe/stracciatella-soup/index.html')!.toString();
+  assert.match(soup, /<span class="os-token os-equipment"[^>]*data-canonical-id="bowl"[^>]*data-reference="false"/);
+  assert.equal(generated.validation.status, 'passed');
 });

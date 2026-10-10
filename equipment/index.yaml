@@ -3,7 +3,7 @@ schema_version: '0.3'
 status: draft8-vocabulary-review-pass-1
 current_recipe_count: 410
 legacy_evidence: bbc-food-10 vocabulary observations retained; recipe texts not distributed
-canonical_concept_count: 119
+canonical_concept_count: 121
 entries:
 - id: air-fryer
   canonical_name: air fryer
@@ -480,4 +480,12 @@ entries:
 - id: stand-mixer
   canonical_name: stand mixer
   file: stand-mixer.yaml
+  aliases: 0
+- id: paring-knife
+  canonical_name: paring knife
+  file: paring-knife.yaml
+  aliases: 0
+- id: cast-iron-frying-pan
+  canonical_name: cast-iron frying pan
+  file: cast-iron-frying-pan.yaml
   aliases: 0
