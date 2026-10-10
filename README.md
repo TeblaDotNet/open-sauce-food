@@ -3,6 +3,11 @@ Documentation note: The current documentation is provisional and largely placeho
 
 # Open Sauce Food
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/brand/open-sauce-food-wordmark-dark.svg">
+  <img src="assets/brand/open-sauce-food-wordmark-light.svg" alt="Open Sauce Food" width="480">
+</picture>
+
 **Open Sauce Food is in early development.**
 
 Open Sauce Food is a human-readable recipe language and shared culinary knowledge base, designed for personal recipe collection, versioning, remixing and collaboration.

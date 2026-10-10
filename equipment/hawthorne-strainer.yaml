@@ -1,0 +1,15 @@
+id: hawthorne-strainer
+kind: equipment
+canonical_name: Hawthorne strainer
+names:
+  en: Hawthorne strainer
+type_of: strainer
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A cocktail strainer with a coiled spring around its edge. Distinct from a julep strainer, mesh strainer, sieve or colander.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: Difford basic cocktail equipment
+    url: https://www.diffordsguide.com/g/1150/how-to-make-cocktails/basic-cocktail-equipment

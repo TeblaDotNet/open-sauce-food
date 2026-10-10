@@ -4,6 +4,10 @@ canonical_name: waffle maker
 names:
   en: waffle maker
 status: canonical-seed
+aliases:
+- name: waffle iron
+  type: equivalent-name
+
 evidence:
   current_recipe_count: 1
   current_observation_count: 1

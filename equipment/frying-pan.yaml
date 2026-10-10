@@ -9,6 +9,9 @@ aliases:
   - name: skillet
     type: regional-name
     observed_count: 7
+  - name: fry pan
+    type: equivalent-name
+
 evidence:
   legacy_observation_count: 0
   observed_terms:

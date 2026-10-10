@@ -1,3 +1,4 @@
+import { equipmentTrancheIds, equipmentTrancheEdges } from './helpers/equipment-tranche.ts';
 import {repairedRecipeCount} from './helpers/corpus-quality-unattended.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
@@ -24,8 +25,8 @@ test('complete corpus browse memberships and canonical references are generated 
   assert.equal(generated.audit.tagSlugCollisions.length, 8); // Grostoli preserves authored Fry/Italian/Brazilian tags.
   assert.equal(generated.manifest.pages.filter(p => p.includes('/recipe/')).length, 410);
   assert.equal(generated.validation.status, 'passed');
-  assert.equal(generated.validation.pages, 1116 + generated.audit.distinctTags); // Fixed pages plus published tag facets.
-  assert.equal(generated.validation.references, 686);
+  assert.equal(generated.validation.pages, 1139 + generated.audit.distinctTags); // Fixed pages plus published tag facets.
+  assert.equal(generated.validation.references, 709);
   assert.equal(generated.validation.originalSourcePages, 391);
 });
 test('ordinary actions have no public pages, index entries or recipe links; techniques retain pages and backlinks', () => {
@@ -247,7 +248,7 @@ test('category pages contain exactly the published members and hidden direct pag
 
 test('existing dietary labels display advisory policy in both site recipe views', () => {
   const html = generated.files.get('recipe/basic-waffles/index.html')!.toString();
-  assert.equal((html.match(/class="os-dietary-notice"/g) ?? []).length, 2);
+  assert.equal((html.match(/class="os-dietary-notice"/g) ?? []).length, 3);
   assert.match(html, /Dietary labels are author-supplied and are not a guarantee of suitability/);
 });
 
@@ -281,7 +282,7 @@ test('new process techniques have pages and only published recipe backlinks', ()
 
 test('equipment proofs expose only eligible pages and direct parent/child links', () => {
   const index = generated.files.get('equipment/index.html')!.toString();
-  assert.equal(generated.manifest.references.filter(r => r.kind === 'equipment').length, 120);
+  assert.equal(generated.manifest.references.filter(r => r.kind === 'equipment').length, 143);
   assert.ok(!generated.files.has('equipment/bowl/index.html'));
   assert.ok(!index.includes('data-reference="bowl"'));
   assert.ok(!generated.manifest.references.some(r => r.kind === 'equipment' && r.id === 'bowl'));
@@ -295,4 +296,45 @@ test('equipment proofs expose only eligible pages and direct parent/child links'
   const soup = generated.files.get('recipe/stracciatella-soup/index.html')!.toString();
   assert.match(soup, /<span class="os-token os-equipment"[^>]*data-canonical-id="bowl"[^>]*data-reference="false"/);
   assert.equal(generated.validation.status, 'passed');
+});
+
+test('equipment tranche pages, index membership and direct backlinks are generated', () => {
+  const index = generated.files.get('equipment/index.html')!.toString();
+  for (const id of equipmentTrancheIds) {
+    assert.ok(index.includes('data-reference="' + id + '"'), id);
+    const html = generated.files.get('equipment/' + id + '/index.html')!.toString();
+    assert.ok(html.includes('Recorded vocabulary evidence'), id);
+    const ref = generated.manifest.references.find(r => r.kind === 'equipment' && r.id === id)!;
+    const expected = generated.manifest.recipes.filter(r => r.conversionStage === 'reworked' && r.semanticLinks.includes(routes(config).reference('equipment', id))).map(r => r.slug).sort();
+    assert.deepEqual([...ref.usageRecipes].sort(), expected, id);
+  }
+  for (const [child, parent] of equipmentTrancheEdges) {
+    assert.ok(generated.files.get('equipment/' + child + '/index.html')!.toString().includes('Type of: <a href="' + routes(config).reference('equipment', parent) + '"'));
+    assert.ok(generated.files.get('equipment/' + parent + '/index.html')!.toString().includes('href="' + routes(config).reference('equipment', child) + '"'));
+  }
+});
+
+test('recipe layout projects primary metadata and demotes source and raw metadata', () => {
+  const html = generated.files.get('recipe/ravioli/index.html')!.toString();
+  const header = html.split('<header class="recipe-header">')[1].split('</header>')[0];
+  const sidebar = html.split('<aside class="recipe-sidebar"')[1];
+  assert.equal((html.match(/<h1\b/g) ?? []).length, 1);
+  assert.match(header, /<h1>Ravioli<\/h1>/);
+  for (const key of ['category', 'serves', 'tags']) assert.ok(header.includes('<dt>' + key + '</dt>'));
+  for (const key of ['name','units','conversion stage','source']) assert.ok(!header.includes('<dt>' + key + '</dt>'));
+  for (const label of ['Sauce Code', 'Compact', 'Original Source']) assert.ok(header.includes('<span>' + label + '</span>'));
+  assert.match(header, /value="code"[^>]* checked/);
+  assert.ok(!header.includes('>Code<'));
+  for (const label of ['source author', 'source licence', 'github-source', 'Encoding curation', 'dark-mode-toggle', 'syntax-colour']) assert.ok(sidebar.includes(label));
+  assert.ok(html.indexOf('data-view-panel="code"') < html.indexOf('<aside class="recipe-sidebar"'));
+  assert.match(html, /<details class="os-section-details" data-section="recipe"><summary>Recipe metadata/);
+  assert.match(html, /<details class="os-section-details" data-section="source"><summary>Source material/);
+  const code = html.split('data-view-panel="code"')[1].split('data-view-panel="compact"')[0];
+  for (const section of ['ingredients','equipment','instructions','notes']) {
+    assert.ok(!code.includes('<details class="os-section-details" data-section="' + section + '"'));
+  }
+  assert.ok(code.indexOf('<img') < code.indexOf('<summary>Recipe metadata'));
+  const bread = generated.files.get('recipe/bread/index.html')!.toString();
+  assert.match(bread, /<details class="os-section-details" data-section="story"><summary>Story/);
+  assert.ok(!bread.includes('data-section="story" open'));
 });

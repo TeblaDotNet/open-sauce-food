@@ -6,6 +6,10 @@ names:
 curation:
   origin: generated
   review: unchecked
+aliases:
+- name: steamer basket
+  type: equivalent-name
+
 evidence:
   seen_in:
   - examples/public-domain-recipes/dou-sha-bao/dou-sha-bao.opensauce

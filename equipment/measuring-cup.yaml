@@ -1,0 +1,16 @@
+id: measuring-cup
+kind: equipment
+canonical_name: measuring cup
+names:
+  en: measuring cup
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A vessel with a defined capacity or volume markings for measuring ingredients.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: Mealime kitchen essentials
+    url: https://www.mealime.com/kitchen-essentials-list
+  - title: Wikipedia preparation utensils
+    url: https://en.wikipedia.org/wiki/List_of_food_preparation_utensils

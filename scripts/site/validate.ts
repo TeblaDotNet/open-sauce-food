@@ -22,7 +22,7 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
   const published = manifest.recipes.filter(isPublished);
   const hiddenPaths = new Set(manifest.recipes.filter(r => !isPublished(r)).map(r => urls.recipe(r.slug)));
   assert.ok(published.some(r => r.slug === manifest.representative), 'Representative must be published');
-  const referenceCounts = { ingredient: 386, process: 180, equipment: 120 };
+  const referenceCounts = { ingredient: 386, process: 180, equipment: 143 };
   for (const kind of ['ingredient', 'process', 'equipment'] as const) {
     const entries = manifest.references.filter(r => r.kind === kind);
     assert.equal(entries.length, referenceCounts[kind], `Public ${kind} reference-page count changed`);
@@ -70,7 +70,10 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
   };
   for (const [path, text] of html) {
     for (const m of text.matchAll(/\b(href|src)="([^"]*)"/g)) check(m[2], path, m[1] === 'src');
-    for (const m of text.matchAll(/<img\b([^>]*)>/g)) { assert.match(m[1], /alt="[^"]+"/, `Missing image alt: ${path}`); images++; }
+    for (const m of text.matchAll(/<img\b([^>]*)>/g)) { if (/class="wordmark wordmark-(light|dark)"/.test(m[1])) {
+      assert.match(m[1], /alt="" aria-hidden="true"/);
+      assert.match(text, /class="brand"[^>]*aria-label="Open Sauce Food"/);
+    } else assert.match(m[1], /alt="[^"]+"/, `Missing image alt: ${path}`); images++; }
   }
   for (const [path, data] of files) if (path.endsWith('.css')) for (const m of data.toString().matchAll(/url\(['"]?([^)'"\s]+)['"]?\)/g)) check(m[1], path, true);
   for (const [path, data] of files) if (/\.(js|css)$/.test(path)) {
@@ -108,7 +111,7 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
     assert.match(text, /data-view-panel="compact" hidden/);
     const compactStart = text.indexOf('data-view-panel="compact"'), originalStart = text.indexOf('data-view-panel="originalSource"');
     const code = text.slice(text.indexOf('data-view-panel="code"'), compactStart);
-    const compact = text.slice(compactStart, originalStart < 0 ? text.indexOf('</main>') : originalStart);
+    const compact = text.slice(compactStart, originalStart < 0 ? text.indexOf('<aside class="recipe-sidebar"') : originalStart);
     for (const [name, view] of [['code', code], ['compact', compact]] as const) {
       for (const token of view.matchAll(/<(a|span) class="os-token os-(ingredient|process|equipment|unresolved|ambiguous)"([^>]*)>/g)) {
         const canonical = /data-canonical-id="([^"]+)"/.exec(token[3]);
@@ -136,13 +139,13 @@ export function validateFiles(files: Map<string, string | Buffer>, manifest: Man
     }
     assert.equal(originalStart >= 0, selected.originalSource, `Wrong original availability: ${selected.slug}`);
     if (selected.originalSource) {
-      const original = text.slice(originalStart, text.indexOf('</main>', originalStart));
+      const original = text.slice(originalStart, text.indexOf('<aside class="recipe-sidebar"', originalStart));
       assert.ok(!/<a\b/.test(original), 'Original source must be literal text');
       const hashes = [...original.matchAll(/<pre class="os-original-source"[^>]*><code>([\s\S]*?)<\/code><\/pre>/g)]
         .map(m => createHash('sha256').update(decode(m[1])).digest('hex'));
       assert.deepEqual(hashes, selected.originalSourceHashes, `Original source changed: ${selected.slug}`); originals++;
     }
-    assert.ok(text.indexOf('class="provenance"') < text.indexOf('data-view-panel='));
+    assert.ok(text.indexOf('class="provenance"') > text.indexOf('<aside class="recipe-sidebar"'), 'Provenance belongs in the recipe sidebar');
     for (const media of selected.media) assert.ok(files.has(urls.output(urls.asset(`recipes/${selected.slug}/${media}`))), `Missing recipe media: ${selected.slug}`);
   }
   for (const ref of manifest.references) {

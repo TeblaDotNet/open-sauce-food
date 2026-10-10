@@ -1,0 +1,12 @@
+id: hand-mixer
+kind: equipment
+canonical_name: hand mixer
+names:
+  en: hand mixer
+type_of: mixer
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A handheld powered mixer used with beaters or other mixing attachments. Distinct from a stand mixer.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Electric beaters remains unresolved: the autumn-soup usage does not establish equivalence. Identity evidence from equipment-domain audit v1 (10 October 2026)."

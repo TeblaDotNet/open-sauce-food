@@ -4,6 +4,10 @@ canonical_name: butcher’s twine
 names:
   en: butcher’s twine
 status: canonical-seed
+aliases:
+- name: kitchen twine
+  type: equivalent-name
+
 evidence:
   legacy_observation_count: 0
   observed_terms:

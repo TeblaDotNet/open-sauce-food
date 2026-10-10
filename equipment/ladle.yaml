@@ -1,0 +1,15 @@
+id: ladle
+kind: equipment
+canonical_name: ladle
+names:
+  en: ladle
+type_of: spoon
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: A deep-bowled spoon used to transfer or serve liquids such as soup.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."
+  sources:
+  - title: Mealime kitchen essentials
+    url: https://www.mealime.com/kitchen-essentials-list

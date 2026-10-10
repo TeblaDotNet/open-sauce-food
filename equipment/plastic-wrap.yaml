@@ -1,0 +1,14 @@
+id: plastic-wrap
+kind: equipment
+canonical_name: plastic wrap
+names:
+  en: plastic wrap
+aliases:
+- cling film
+- clingfilm
+curation:
+  origin: generated
+  review: unchecked
+evidence:
+  definition: Thin flexible film used to cover or wrap food. Product suitability for heating and other uses varies.
+  review_note: "Equipment vocabulary tranche 1: approved identity and relationship scope; generated knowledge text, not a human-review claim. Identity evidence from equipment-domain audit v1 (10 October 2026)."

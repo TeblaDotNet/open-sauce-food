@@ -15,6 +15,9 @@ aliases:
 - name: tin foil
   type: colloquial-name
   observed_count: 1
+- name: tinfoil
+  type: spelling
+
 evidence:
   current_recipe_count: 5
   current_observation_count: 5
