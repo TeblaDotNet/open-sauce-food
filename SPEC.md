@@ -1,702 +1,272 @@
 # Open Sauce Food Recipe Format
-## Draft 8 — experimental, implemented
 
-Open Sauce Food is a human-readable plain-text recipe format intended to work well both for people and software.
+## Sauce Code — Draft 8
 
-The design goal is:
+Open Sauce Food is a human-readable recipe language and shared culinary knowledge base, designed for personal recipe collection, versioning, remixing and collaboration.
 
-> A recipe should still make sense when opened in a basic text editor, while remaining structured enough for software to validate, transform, localise, version and render it.
+Recipe files use the `.opensauce` extension.
 
-This is an experimental draft. Real recipes should drive changes to the language.
+The basic idea is simple:
 
----
+A recipe should still make sense if you open it in a plain text editor, while containing enough structure for software to understand useful things about it.
 
-## 1. File extension
+That means Open Sauce Food sits somewhere between ordinary recipe prose and a programming language.
 
-Open Sauce Food recipe files use:
+It is not an attempt to make dinner executable by a robot. Humans are still expected to know roughly what “golden brown” looks like.
+
+## The three recipe views
+
+Open Sauce Food recipes can be shown in three ways:
+
+**Sauce Code**
+
+The actual .opensauce recipe. This is the primary representation and source of truth.
+
+**Compact**
+
+A more conventional recipe view generated from the Sauce Code.
+
+**Original Source**
+
+Where an imported recipe retains its original source text, that can be viewed unchanged alongside the converted recipe.
+
+The Original Source is provenance, not another interpretation of the Sauce Code.
+
+## Core syntax
+
+A small number of visual conventions carry most of the structure:
 
 ```text
-.opensauce
+::section             recipe section
+
+(thing)               ingredient or equipment
+{result}              something made during the recipe
+<action>              action or cooking process
+[ ... ]               grouped instructions
+
++                     add/combine
+=                     define/assign
+-OR-                  alternative
+?=                    cook-judged completion condition
+
+~                     approximate quantity
+~~                    very approximate quantity
+!                     measure accurately
+/                     equivalent quantity or setting
+
+# comment             maintainer/author comment
 ```
 
-Example:
+The aim is that most of these should be understandable before reading a manual.
+
+## Sections
+
+A recipe can contain:
 
 ```text
-apple-cake.opensauce
+::recipe
+::ingredients
+::equipment
+::instructions
+::story
+::notes
+::source
 ```
 
-The `.opensauce` extension was chosen to be distinctive and descriptive.
+`::ingredients` and `::instructions` contain the main recipe.
 
----
+`::equipment` lists equipment worth stating explicitly.
 
-## 2. Core visual grammar
+`::story` contains history, context or personal narrative.
 
-Open Sauce Food currently uses a small set of visual conventions:
+`::notes` contains practical cook-facing information such as storage, substitutions or serving suggestions.
+
+`::source` can preserve the original imported recipe verbatim.
+
+Comments beginning with # are for authoring, conversion and maintenance information rather than normal published prose.
+
+## Ingredients and equipment
+
+Ingredients and equipment both use parentheses:
+
+```opensauce
+::ingredients
+
+(onion) 2
+(olive oil) 1tbsp
+
+::equipment
+
+(frying pan)
+(chef knife)
+```
+
+The section tells Open Sauce Food whether the thing is an ingredient or equipment.
+
+Qualifiers can be added with commas:
+
+```opensauce
+::ingredients
+(onion, finely chopped)
+::equipment
+(frying pan, large)
+```
+
+Not every obvious tool needs to be declared. A recipe usually does not need to tell you that chopping requires a knife.
+
+Specific or important equipment should be declared when it materially helps someone follow the recipe.
+
+## Types, parts and qualifiers
+
+Sauce Code can distinguish between an ingredient itself, a type of it, a part of it, and loose descriptive qualifiers.
+
+The full shape is:
 
 ```text
-::section        structural section
-
-(thing)          one declared physical thing/reference
-{result}         something created, combined or assembled during the recipe
-<process>        action/process
-[ ... ]          grouped instruction block
-
-# comment        comment to end of line
-~                approximately
-/                equivalent quantity
--OR-             alternative
-+                add/combine
-=                define/assign
+(base [; variant] [: part [: subpart ...]] [, qualifiers...])
 ```
-
-The section in which a `(thing)` is declared gives it its type.
 
 For example:
 
-```text
-::ingredients
-
-(onion, finely chopped) 2
-
-::equipment
-
-(pan, non-stick, 30cm)
+```opensauce ingredients
+(flour; plain)
+(egg: yolk)
+(lemon: juice)
+(chicken: thigh: skin)
+(chicken; free range: thigh: skin)
 ```
 
-Both are single physical things, but one is an ingredient and one is equipment.
-
----
-
-## 3. Sections
-
-Sections begin with `::`.
-
-Current standard sections are:
+The punctuation has different meanings:
 
 ```text
-::recipe
-::ingredients
-::equipment
-::instructions
-::story
+;    type / variant
+:    part or product
+,    loose qualifier, preparation, state, role, size, etc.
 ```
 
-`::equipment`, `::story`, `::notes` and `::source` are optional. Draft 8 section
-semantics and source fences are specified in section 43 below.
+So these are deliberately different ideas:
 
-Example:
-
-```text
-::recipe
-
-name: Apple Cake
-serves: 8
-
-::ingredients
-
-(apple) 500g
-
-::equipment
-
-(cake tin, round, 20cm)
-
-::instructions
-
-(apple) <chop>
-
-::story
-
-This recipe came from my grandmother.
+```opensauce ingredients
+(egg: yolk)
+(egg, beaten)
 ```
 
-`::story` contains narrative/editorial prose such as history, origin, context or
-personal stories. Practical cook-facing advice belongs in `::notes`; import,
-conversion and debug commentary belongs in `#` comments.
+One says which part of the egg. The other says something about its current preparation.
 
----
+The knowledge base can understand these relationships without requiring every combination to become its own separate ingredient.
 
-## 4. Recipe metadata
+Qualifiers stay authored text. Explicit recognised preparation states may be annotated by the knowledge base; no implicit state transition is inferred. See [the vocabulary schema](VOCABULARY-SCHEMA.md) for the implemented relationship model.
 
-Recipe metadata uses:
+## Results
 
-```text
-key: value
+Curly braces name things created during the recipe:
+
+```opensauce
+{sauce}
+{dough}
+{batter}
+{filling}
 ```
 
-Example:
+Results can be defined with =:
 
-```text
-::recipe
-
-name: Simple veggie fajitas
-source: https://example.com/original-recipe
-ingredients: UK
-units: metric
-category: main
-tags: fajitas, quick, Mexican-inspired
-dietary: vegetarian
-serves: 4
-active time: <30m
-total time: ~30m
-image: images/fajitas.jpg
+```opensauce
+{dressing} = (olive oil) + (vinegar) + (mustard)
 ```
 
-### Current metadata fields
+and then used later:
 
-- `name`
-- `source`
-- `source author`
-- `source license`
-- `ingredients`
-- `units`
-- `category`
-- `cuisine`
-- `region`
-- `tags`
-- `dietary`
-- `serves`
-- `yield`
-- `active time`
-- `total time`
-- `image`
-
-All fields except `name` are currently considered optional.
-
-
-### Optional recipe classification
-
-Classification adds optional capabilities: a minimal recipe remains valid without
-`category`, `dietary`, `cuisine` or `region`. These fields are independent of
-`conversion stage`, `curation origin` and `curation review`.
-
-```text
-category: main
-dietary: vegan, nut-free
-cuisine: italian
-region: sicily
+```opensauce
+{dressing} <mix>
+{salad} + {dressing}
 ```
 
-- `category` is one broad culinary role: `drink`, `bread/baking`,
-  `preserve/ferment`, `soup/stew`, `main`, `dessert`, `side`, `starter`, `sauce/seasoning/stock`,
-  `snack`, `breakfast`, or `miscellaneous`. Multiple values are not supported. Invalid, empty or duplicate
-  declarations produce a warning and no resolved category; raw text is retained.
-  Soups, chowders, broths-as-dishes and stews use `soup/stew`, regardless of
-  portion size. Reserve `starter` for clearly appetiser/first-course dishes that
-  are not primarily soup or stew.
-  `sauce/seasoning/stock` covers sauces, dressings, dips, spreads, relishes,
-  condiments, spice mixtures, dry rubs, seasoning blends, stocks, cooking-base
-  broths and similar prepared components used with or in another dish.
-  `miscellaneous` is a deliberately small residual category for preparations
-  without a defensible fit elsewhere. Prefer a meaningful specific category;
-  substantial growth of miscellaneous would suggest another real category is needed.
-- `dietary` is an extensible comma-separated list of author-supplied labels, such
-  as `vegan`, `vegetarian`, `nut-free`, `gluten-free` or `dairy-free`. Values are
-  trimmed, exact duplicates removed in first-seen order, and repeated lines
-  combined in source order. Empty entries produce a warning and no resolved list.
-  There is no controlled dietary vocabulary or inference in this version.
-- `cuisine` and `region` are optional single plain-text values with no controlled
-  vocabulary. Non-empty arbitrary strings are accepted. Empty or duplicate
-  declarations warn and leave the resolved field absent.
+Sauce Code does not require every obvious physical state change to be formally modelled.
 
-Dietary labels are author-supplied and are not a guarantee of suitability. Check
-ingredients, substitutions and product labels for your own dietary requirements.
-They are advisory, not certification. HTML dietary displays include this advice.
+If batter goes into the oven and the next line calls it {cake}, that is fine. People can cope.
 
-Corpus categories are provisional best-effort guesses of a primary role and can
-be corrected. Some preparations do not fit these broad roles and may remain
-uncategorised. Category discovery includes only `reworked` recipes; hidden direct
-pages retain their own metadata. These labels do not change publication or review
-status. No corpus-wide dietary, cuisine or region inference has been performed.
+## Actions and processes
 
-### Source / provenance
+Actions use angle brackets:
 
-`source:` records where an imported or adapted recipe came from.
-
-Example:
-
-```text
-source: https://www.bbc.co.uk/food/recipes/birria_beef_76829
+```opensauce
+(onion) <chop>
+(onion) <fry, medium heat, 5m>
+{cake} <bake, 180C, 40m>
 ```
 
-The source is provenance. It does not imply ownership or licensing.
+One important authoring rule is:
 
-When known, imported recipes may also record:
+One `<...>` token should represent one action head.
 
-```text
-source author: Example Author
-source license: Public domain (Unlicense)
+So this:
+
+```opensauce
+{rice} <cook, 12m>
+    <stir, occasionally>
 ```
 
-These fields preserve useful attribution/licensing information without requiring it for recipes that
-do not have an external source.
+is preferred to burying two separate actions inside one process token.
 
-A recipe may later be changed through ordinary Git commits while retaining its original source reference.
+Angle brackets are used for both significant cooking techniques and ordinary verbs.
 
----
+That does not mean every verb needs its own knowledge page. `<braise>` may deserve one; `<put>` probably does not.
 
-## 5. Locale defaults
+The vocabulary can therefore recognise an action without publishing a separate reference page for it.
 
-A recipe may declare ingredient naming and unit conventions:
+## Judgement conditions
 
-```text
-ingredients: UK
-units: metric
-```
+Recipes often finish a cooking step using human judgement rather than a stopwatch.
 
-These are defaults, not restrictions.
+Sauce Code represents that with `?=`:
 
-`units:` may describe the dominant convention rather than forbidding other units. Draft 7 examples
-use values such as:
-
-```text
-units: metric
-units: US
-units: mixed
-units: source
-```
-
-`mixed` means the file intentionally contains more than one measurement convention. `source` means
-the imported source does not justify a stronger convention declaration.
-
-Examples of other valid combinations might include:
-
-```text
-ingredients: US
-units: US
+```opensauce
+<roast, 180C, 20m> ?= golden brown
 ```
 
 or:
 
-```text
-ingredients: US
-units: metric
+```opensauce
+{sauce} <simmer, 15m> ?= thick enough to coat a spoon
 ```
 
-Explicit information overrides defaults.
+Compact rendering can turn the first example into:
 
-For example:
+Roast at 180°C for 20 minutes, until golden brown.
 
-```text
-ingredients: UK
+The judgement remains human-readable rather than becoming another controlled vocabulary.
 
-::ingredients
+This is intentional: cooking contains quite a lot of “you'll know it when you see it.”
 
-(apple cider, US) 500ml
+## Adding and combining
+
++ handles straightforward addition or combination:
+
+```opensauce
+{dressing} = (oil) + (vinegar) + (mustard)
 ```
 
-The local `US` qualifier disambiguates that specific ingredient.
+or:
 
-Tooling should be permissive where meaning is clear and warn where regional ambiguity matters.
-
----
-
-## 6. Ingredients
-
-Ingredients are declared in `::ingredients` using parentheses:
-
-```text
-(ingredient) quantity
+```opensauce
+{pot} + (water) + (salt)
 ```
 
-Qualifiers are comma-separated:
+For simple additions, + is usually clearer than repeatedly writing `<add>`.
 
-```text
-(sugar, brown)
-(egg, large)
-(milk, skimmed)
-(onion, finely chopped)
-(chilli, red, dried)
-```
+## Alternatives
 
-Example:
+-OR- represents a genuine choice:
 
-```text
-::ingredients
-
-(flour, plain) 200g
-(butter, unsalted) 100g
-(egg, large) 2
-(sugar, brown) ~150g
-```
-
-The first term normally names the ingredient. Additional terms refine identity, state, preparation, region or variety.
-
-### Mise en place vs explicit preparation
-
-Preparation state may be declared directly in the ingredient list:
-
-```text
-(onion, finely chopped) 2
-```
-
-or performed in the method:
-
-```text
-::ingredients
-
-(onion) 2
-
-::instructions
-
-(onion) <chop, fine>
-```
-
-Both are valid.
-
-The first implies mise en place. The second makes preparation an explicit recipe step.
-
----
-
-## 7. Equipment
-
-Equipment is optionally declared in `::equipment`.
-
-Equipment uses the same `(thing, qualifier)` syntax as ingredients:
-
-```text
-::equipment
-
-(pan, non-stick, 30cm)
-(bowl, large)
-(whisk)
-```
-
-The declaration section tells software that these are equipment rather than ingredients.
-
-Equipment may then be referenced naturally in instructions:
-
-```text
-(pan) <heat, medium>
-(butter) <melt, pan>
-{batter} <ladle, pan>
-```
-
-Draft 7 deliberately does not introduce a separate equipment delimiter.
-
-Equipment may carry quantities where useful:
-
-```text
-(bowl) 2
-(baking sheet) 3
-```
-
-Optionality and qualifiers work the same way as for other `(thing)` declarations:
-
-```text
-(food processor, optional)
-```
-
----
-
-## 8. Processes and actions
-
-Angle-bracket syntax expresses both culinary processes and ordinary actions.
-Vocabulary entries may mark generic actions with `reference: false`: they retain
-normal syntax and action semantics but have no public Process reference page or
-link. This classification never determines parser legality.
-
-Processes use angle brackets:
-
-```text
-<process>
-```
-
-Parameters are comma-separated:
-
-```text
-<bake, 180c, ~25m>
-<boil, 10m>
-<chop, fine>
-<fry, medium heat, 5m>
-<heat, packet instructions>
-<simmer, until tender>
-```
-
-Parameters may contain structured values or ordinary human-readable phrases.
-
-Examples:
-
-```text
-(tortilla wrap) <heat, packet instructions>
-(onion) <fry, medium heat, until golden>
-```
-
-Open Sauce Food should not require every cooking phrase to become rigid machine vocabulary.
-
-Preferred authoring/conversion rule: **ONE `<...>` TOKEN = ONE ACTION HEAD.**
-Parameters describe that action, not another independent action. For example,
-prefer `<cook, 12m>` with an indented `<stir, occasionally>` to hiding stirring
-inside the cook parameters. This is advisory style, not a parser restriction.
-
-For simple addition to an unambiguous subject, prefer `+` over `<add>`:
-`(pot, medium) + (water) 1 1/4 cup + (salt) 1/4 tsp`, or an indented
-`+ (salt)` under a sauce definition. `<add>` remains legal when context is
-unclear or its explicit action form is needed.
-
-Conversion invariant: confidently recognised culinary ingredients/equipment used
-in instructions should be structured as `(thing)` and declared in the appropriate
-section, retaining source quantities and qualifiers. Use curated vocabulary and
-culinary-use evidence; do not guess from ambiguous names, incidental nouns or
-narrative mentions. Advisory tooling reports candidates; it does not rewrite
-recipes or make parser legality vocabulary-dependent.
-
-
-### Postfix judgement conditions
-
-`<process, parameters> ?= qualitative target` attaches a cook-judged completion
-condition to the immediately preceding process/action on the same instruction line.
-Only whitespace may intervene. The nonempty body is literal human-readable text
-through the end of the line, before an ordinary `#` comment. It is not tokenised
-as references, quantities, assignment, or further actions. Start another instruction
-line to continue after a judgement.
-
-`<roast, 180C, 20 mins> ?= golden brown` renders in Compact as
-“Roast at 180°C for 20 mins, until golden brown.” Do not author the leading word
-“until”. Code retains `?= golden brown` as one orange value-family syntax unit.
-This qualitative condition is distinct from numeric quantities, process parameters
-and result identity. It has no controlled vocabulary.
-
----
-
-## 9. Created / combined results
-
-Braces name something produced, combined, assembled or otherwise created during the recipe:
-
-```text
-{mix a}
-{batter}
-{sauce}
-{dough}
-{bowl}
-```
-
-Assignment uses `=`:
-
-```text
-{mix a} = (milk) + (vanilla)
-{mix b} = (egg) + (sugar)
-{batter} = {mix a} + {mix b} + (flour)
-```
-
-Processes can operate on results:
-
-```text
-{batter} <mix>
-{batter} <bake, 180c, ~25m>
-```
-
-### Important distinction
-
-Parentheses represent one declared physical thing or one ingredient choice:
-
-```text
-(milk)
-(pan)
-(seasoning)
-```
-
-Braces represent a result created during the recipe:
-
-```text
-{dressing}
-{batter}
-{cooked vegetables}
-```
-
----
-
-## 10. Combining things
-
-`+` means add/combine in context.
-
-Examples:
-
-```text
-{mix a} = (milk) + (vanilla)
-{batter} = {mix a} + (flour)
-{vegetables} + (vegetable oil) 2tbsp + (black pepper)
-```
-
-A process may clarify the nature of the combination:
-
-```text
-{vegetables} + (vegetable oil) 2tbsp + (black pepper)
-    <coat>
-```
-
----
-
-## 11. Quantity precision
-
-`~` means approximately; `~~` means very approximately; `!` requests high intended
-precision (measure closely), not mathematical exactness. No marker means
-unspecified precision. These markers belong to the following quantity expression,
-including a range or mixed fraction, never to the ingredient. Each equivalent
-expression separated by `/` has its own marker. See section 43 for model scope.
-
-It may apply to amounts, times, temperatures or other numeric values.
-
-Examples:
-
-```text
-(salt) ~5g
-(milk) ~200ml
-<knead, ~10m>
-<bake, 180c, ~25m>
-```
-
----
-
-## 12. Quantity ranges
-
-Ranges use `-`.
-
-Examples:
-
-```text
-(courgette) 2-3
-(red curry paste) 3-4tbsp
-<simmer, 2-3h>
-```
-
----
-
-## 13. Equivalent quantities
-
-`/` separates equivalent ways of expressing the same quantity for the same ingredient.
-
-Examples:
-
-```text
-(courgette) 2-3 / ~440g
-(flour) 2 cups / ~240g
-(butter) 1 stick / ~113g
-```
-
-`/` is not a choice between ingredients.
-
-It means:
-
-> the same quantity expressed another way
-
----
-
-## 14. Ingredient alternatives
-
-`-OR-` indicates a genuine alternative.
-
-Simple alternatives may stay on one line:
-
-```text
-(chipotle paste) 2tbsp -OR- (chilli flakes, dried, red) 2tsp
-(soured cream) 150ml -OR- (crème fraîche) 150ml
-(chicken breast, large) 1 -OR- (chicken breast, small) 2
-```
-
-Three or more alternatives may span lines:
-
-```text
-(MSG) 1 pinch
+```opensauce ingredients
+(soured cream)
 -OR-
-(chicken bouillon) 1 pinch
--OR-
-(mushroom seasoning) 1 pinch
+(crème fraîche)
 ```
 
----
+Multi-step alternative methods can use blocks:
 
-## 15. Named local choices
-
-A choice between ingredients may itself be given an ingredient name.
-
-Example:
-
-```text
-(seasoning) =
-    (MSG) 1 pinch
-    -OR-
-    (chicken bouillon) 1 pinch
-    -OR-
-    (mushroom seasoning) 1 pinch
-```
-
-Later instructions refer simply to:
-
-```text
-(seasoning)
-```
-
-This still represents one ingredient slot, not a combined result, so it uses parentheses rather than braces.
-
-Example:
-
-```text
-{dressing} =
-    (garlic) +
-    (rice vinegar) +
-    (sugar) +
-    (seasoning) +
-    (sesame oil)
-```
-
-Named choices also work in `::equipment`. The section determines whether members
-are ingredients or equipment; the local name denotes whichever member was selected,
-not another physical thing or public vocabulary concept.
-
-```text
-::equipment
-(mixing tool) = (balloon whisk) -OR- (electric mixer)
-::instructions
-{mixture} <mix, using (mixing tool)>
-```
-
-Use a named equipment choice only for a natural, useful recipe-local role referenced
-later. Do not invent vague abstractions such as “cooking vessel” merely to unify
-references. When equipment alternatives belong to separate procedural `-OR-`
-branches, normally retain the actual equipment references in those branches,
-without a shared placeholder. Sauce Code readability and semantic clarity matter
-more than making the model tidier. This generalises the existing choice identity;
-it does not change result assignments or introduce new syntax.
-
----
-
-## 16. Instruction blocks
-
-Square brackets group instructions:
-
-```text
-[
-    ...
-]
-```
-
-Square brackets mean only:
-
-> these instructions belong together
-
-The word or operator associated with the block explains why they are grouped.
-
----
-
-## 17. Alternative instruction blocks
-
-Multi-step alternatives may be expressed as blocks joined by `-OR-`.
-
-Example:
-
-```text
-[
-    {birria} <simmer, very gentle, 2-3h>
-]
--OR-
-[
-    {birria} <slow cook, low, 4-5h>
-]
-```
-
-Another example:
-
-```text
+```opensauce
 [
     {dough} <knead, 10m>
     {dough} <prove, 1h>
@@ -708,876 +278,333 @@ Another example:
 ]
 ```
 
----
+For small local choices, the alternative should stay as local as possible rather than duplicating a whole method unnecessarily.
 
-## 18. Meanwhile blocks
-
-`Meanwhile` introduces a group of instructions that may be carried out during the preceding process:
+Intended authoring improvement, not a fully structured alternative in the current implementation:
 
 ```text
-(chicken breast) <poach, medium heat, covered, 10-12m, until cooked through>
-
-Meanwhile [
-    (vermicelli noodles) <cover, boiling water>
-        <soak>
-        <drain>
-]
+{ravioli} <cut, between seams, with (pasta cutter) -OR- (knife) -OR- (pizza cutter)>
 ```
 
-The exact scheduling semantics remain intentionally lightweight.
+Keeping the choice local is preferable to repeating the entire cutting procedure. Currently only the first tool in this example is recognised as a structured reference; the remaining alternatives are preserved as literal context. Use a named local equipment choice today, or branch-level `-OR-` when the method or sequence genuinely differs.
 
----
+## Named choices
 
-## 19. Repeat blocks
+A local choice can also be given a name:
 
-`Repeat` groups instructions which are repeated.
-
-Example:
-
-```text
-Repeat [
-    {batter} <ladle, pan>
-        <cook, ~3m, until bubbles appear and edges set>
-        <turn>
-        <cook, ~2m>
-]
-until {batter} used
+```opensauce ingredients
+(seasoning) =
+    (MSG)
+    -OR-
+    (chicken bouillon)
+    -OR-
+    (mushroom seasoning)
 ```
 
-This is deliberately readable as ordinary English.
+Later:
 
-More complex loop conditions should be driven by real recipes before the syntax is expanded.
+```opensauce
+{sauce} + (seasoning)
+```
 
----
+This is useful when the recipe needs to refer repeatedly to whichever option was selected.
 
-## 20. Indented continuation
+The same idea can be used for equipment.
 
-Indented process lines may inherit the nearest explicit subject.
+## Indented continuation
 
-Example:
+Indentation can avoid repeating the same subject:
 
-```text
+```opensauce
 (noodles) <cover, boiling water>
-    <soak>
+    <soak, 5m>
     <drain>
 ```
 
-is equivalent to:
+The indented actions inherit (noodles).
 
-```text
-(noodles) <cover, boiling water>
-(noodles) <soak>
-(noodles) <drain>
-```
+Result definitions can also establish a continuation subject:
 
-A result definition also establishes the subject for its indented continuation block:
-
-```text
+```opensauce
 {batter} = (butter) + (sugar)
     <beat> ?= incorporated
-    + (egg: yolk) <beat, one at a time>
-    + (milk) <beat>
+    + (egg: yolk)
+    <beat>
 ```
 
-The subject is the left-hand `{batter}`, not an ingredient on the right. Each bare
-action inherits it; leading `+` adds to that result before the action. Dedenting
-ends the scope. The same rule works inside an Optional group; groups and sections
-remain separate scopes. Code keeps the concise form; Compact uses the inherited
-result as if explicitly authored. This result-definition rule does not give
-`(thing) = ...` assignments a new inheritance scope or extend the existing
-Draft 8 explicit-subject continuation rules above.
+Indentation means continuation of the current subject, not “these things happen simultaneously.”
 
-Recommended indentation: 4 spaces.
+## Grouped instructions
 
-Indentation means continuation/inherited subject. It does not by itself mean concurrency.
-
----
-
-## 21. Using part of an ingredient
-
-An ingredient may be declared once and used in portions during the method.
-
-Example:
+Square brackets group related instructions:
 
 ```text
-::ingredients
-
-(vegetable oil) 3tbsp
-
-::instructions
-
-(vegetable oil) 2tbsp
-...
-(vegetable oil) rest of
-```
-
-Relative amounts may be used:
-
-```text
-(cheese) half of
-(cheese) 1/3 of
-(cheese) ~half of
-(cheese) ~1/3 of
-(cheese) rest of
-```
-
-`of` means a fraction of the amount declared in `::ingredients`.
-
-Other human-readable relative quantities may be allowed when clear:
-
-```text
-(sesame seeds) extra for serving
-(butter) extra for cooking
-```
-
----
-
-## 22. Human-readable quantities
-
-Not every useful cooking quantity is numeric.
-
-Draft 2 permits readable quantities such as:
-
-```text
-(salt) to taste
-(oil) as needed
-(maple syrup) as desired
-(sesame seeds) extra for serving
-(butter) extra for cooking
-```
-
-Tooling may understand some of these phrases, but a parser must at minimum preserve them.
-
----
-
-## 23. Comments
-
-`#` begins a comment and continues to the end of the line.
-
-Comments are author/developer notes and are hidden by default in normal rendered recipes.
-
-Example:
-
-```text
-# Grandma used 200g, but I prefer it less sweet
-(sugar, brown) ~150g
-```
-
-Inline comments are valid:
-
-```text
-(courgette) 2-3 / ~440g  # use smaller ones if possible
-```
-
-Comments are different from `::story`.
-
-- `# comment` = normally hidden author/developer note
-- `::story` = publishable prose
-
----
-
-## 24. Images
-
-Images use Markdown-style syntax:
-
-```text
-![description](relative/path.jpg)
-```
-
-Example:
-
-```text
-{dough} <knead, ~10m>
-
-![dough after kneading](images/kneaded-dough.jpg)
-```
-
-Image position may imply which stage it illustrates.
-
-A recipe-level hero image may be declared in metadata:
-
-```text
-image: images/finished-dish.jpg
-```
-
-Relative paths are recommended so a recipe and its media remain portable.
-
----
-
-## 25. Dietary metadata
-
-Dietary classification belongs in `::recipe`.
-
-Examples:
-
-```text
-dietary: vegetarian
-```
-
-or:
-
-```text
-dietary: vegan, nut-free
-```
-
-Dietary classification is optional author-declared advisory metadata, not a safety guarantee. See optional recipe classification in section 4 for list parsing and the dietary disclaimer.
-
-Future tooling may detect obvious conflicts against the ingredient vocabulary.
-
-Alternatives or optional ingredients may mean that a recipe supports additional diets only under some choices.
-
-A recipe may therefore declare both its normal classification and optional classifications:
-
-```text
-dietary: vegetarian
-dietary options: vegan
-```
-
-The renderer may present this as:
-
-> Vegetarian as written  
-> Vegan option available
-
-Future tooling may infer or validate why an option is possible from optional ingredients and named alternatives.
-
----
-
-## 26. Yield
-
-Use `yield:` when the natural output is not best described as servings.
-
-Examples:
-
-```text
-yield: 10 scones
-yield: 1 loaf
-yield: 12 biscuits
-yield: ~500ml sauce
-```
-
-`serves:` and `yield:` may both exist if useful, but neither should be forced where it does not fit the recipe.
-
----
-
-## 27. Optional instruction blocks
-
-`Optional` introduces a grouped instruction that may be omitted:
-
-```text
-Optional [
-    (honey) <add, final 5m>
+[
+    ...
 ]
 ```
 
-This keeps `[ ... ]` consistent as a grouped block while the leading keyword provides the relationship.
-
----
-
-## 28. Role qualifiers for repeated ingredients
-
-The same underlying ingredient may appear more than once with different roles.
-
-Examples:
-
-```text
-(sugar, caster, for cake) 100g
-(sugar, caster, for icing) 50g
-```
-
-or:
-
-```text
-(sugar, golden caster, for coating) 2tsp
-(sugar, golden caster, for sauce) 1 1/2tbsp
-```
-
-Role qualifiers are ordinary qualifiers used to make references unambiguous within the recipe.
-
----
-
-## 29. Ingredient parts and derived references
-
-A declared ingredient may later be referenced by a part, state or derivative qualifier without requiring a new intermediate result.
-
-Example:
-
-```text
-::ingredients
-
-(lemon, unwaxed, large) 1
-
-::instructions
-
-(lemon, zest)
-(lemon, juice)
-```
-
-Likewise:
-
-```text
-(egg, yolk)
-(egg, white)
-(coriander, leaves)
-(coriander, stems)
-```
-
-Authors may instead declare the parts directly in `::ingredients` if that is more natural:
-
-```text
-(lemon, zest) 1 large
-(lemon, juice) 1 large
-```
-
-Both approaches are valid.
-
----
-
-## 30. Optional explicitness and author style
-
-Open Sauce Food permits more than one writing style where the meaning remains clear.
-
-For example, an author may explicitly repeat the current result:
-
-```text
-{dry} + (butter)
-    <rub in>
-
-{dry} + (sugar)
-    <stir>
-```
-
-or rely on indentation:
-
-```text
-{dry} + (butter)
-    <rub in>
-    + (sugar)
-    <stir>
-```
-
-or avoid naming the intermediate entirely:
-
-```text
-(flour) + (salt) + (butter)
-    <rub in>
-    + (sugar)
-    <stir>
-```
-
-All may be valid if the intended subject is clear.
-
-The format should favour readability rather than forcing one canonical authoring style.
-
----
-
-## 31. Implicit result names
-
-A result name in braces may be introduced without an explicit `=` definition when its meaning is obvious to a human reader from the immediately preceding recipe state.
-
-Example:
-
-```text
-{cake mix} <spoon, loaf tin>
-    <level surface>
-    <bake, 50-55m>
-
-{cake} <cool, slightly>
-    <pierce, top>
-```
-
-The author is not required to write:
-
-```text
-{cake} = {cake mix} <bake>
-```
-
-when the transition is obvious.
-
-This is intentionally permissive. If a new result name is genuinely ambiguous, an author should define it explicitly.
-
----
-
-## 32. Human recipe, not robot program
-
-Open Sauce Food is not intended to make recipes fully machine-executable.
-
-Its parser needs enough structure to render a `.opensauce` file into a readable human-facing recipe, localise terms and units, and preserve broad relationships between ingredients, equipment, processes and results.
-
-It is not required to:
-
-- model every physical state transition
-- prove that a baked batter is now a cake
-- make every qualitative cooking instruction measurable
-- remove all ambiguity a human cook could easily understand
-- make a recipe executable by a robot
+The thing outside the block explains why they are grouped.
 
 For example:
 
 ```text
-{cake mix} <spoon, loaf tin>
-    <level surface>
-    <bake, 50-55m>
-
-{cake} <cool, slightly>
-    <pierce, top>
+Meanwhile [
+    ...
+]
+Repeat [
+    ...
+]
+Optional [
+    ...
+]
 ```
 
-is sufficient for a renderer to produce a sensible instruction set.
-
-The format can contain well-written recipes and badly written recipes. Structure does not guarantee culinary quality.
-
----
-
-## 33. Equipment and temperature alternatives
-
-Equivalent appliance settings may use `/` when the meaning is obvious in context:
-
-```text
-(oven) <heat, 200c / 180c fan>
-```
-
-Here `/` still communicates equivalent settings rather than a choice between different ingredients.
-
----
-
-## 34. Process and ingredient choice blocks remain lightweight
-
-A single-line choice may use:
-
-```text
-A -OR- B
-```
-
-while multi-step alternatives may use grouped blocks:
+or:
 
 ```text
 [
-    ...
+    method A
 ]
 -OR-
 [
-    ...
+    method B
 ]
 ```
 
-The syntax is intentionally readable rather than formally exhaustive.
+The brackets themselves deliberately have very little meaning.
 
----
+## Structured references inside actions
 
-## 35. Ingredient, equipment and process vocabularies
+Ingredients and equipment can appear inside action context:
 
+The declarations below supply the local ingredient/equipment roles used by the action references.
 
-Open Sauce Food intends to maintain open, version-controlled vocabularies for ingredients, equipment and processes.
-
-These may eventually define:
-
-- regional names
-- regional meanings
-- aliases
-- ambiguity warnings
-- substitutions
-- approximate substitutions
-- dietary properties
-- common process definitions
-- regional process terminology
-- conversion data where meaningful
-
-Examples include:
-
-- UK `aubergine` / US `eggplant`
-- UK `plain flour` / US `all-purpose flour`
-- UK `grill` / US `broil`
-- regionally different meanings of `apple cider`
-- UK vs US `pint`
-
-The vocabulary itself should be open to community pull requests, such as:
-
-> "In Australia we call this..."
-
-The exact vocabulary file schema is not defined in Draft 2.
-
----
-
-## 36. Vocabulary canonicalisation
-
-Open Sauce Food aims to **minimise concepts, not accepted vocabulary**.
-
-When several names genuinely refer to the same culinary concept, the vocabulary should eventually
-store one canonical concept and list regional names, synonyms and accepted aliases within it.
-
-For example, conceptually:
-
-```yaml
-id: courgette
-names:
-  en-GB: courgette
-  en-US: zucchini
-  en-AU: zucchini
-```
-
-Both source forms remain valid:
-
-```text
-(courgette)
-(zucchini)
-```
-
-Canonicalisation must be conservative. Similar words should not be merged merely to make the
-dictionary smaller.
-
-A useful test is:
-
-> If replacing one term with the other in the same locale and context changes the recipe's meaning,
-> they are not simple aliases.
-
-The vocabulary may therefore need several relationship types:
-
-- preferred regional names
-- aliases / synonyms
-- variants
-- parts
-- parent / subtype relationships
-- related concepts
-- substitutions
-
-This principle applies to ingredients, equipment and processes.
-
-The evolving YAML data model is documented separately in `VOCABULARY-SCHEMA.md`; vocabulary schema changes do not require new recipe-language syntax.
-
----
-
-## 37. Substitutions
-
-Ingredient vocabulary entries may eventually describe substitutions.
-
-Example concept:
-
-```text
-milk
-
-vegan substitutions:
-- oat milk
-- soy milk
-- almond milk
-```
-
-Substitution is not assumed to mean perfect equivalence.
-
-Future entries may carry information such as:
-
-- suitable for
-- works best in
-- flavour impact
-- texture impact
-- equivalent / near-equivalent
-- warnings or caveats
-
----
-
-## 38. Compact rendering of Code
-
-A `.opensauce` file is authored **Code**, the primary recipe representation.
-**Compact** is a condensed human-readable rendering generated from Code.
-**Original recipe source**, where preserved, is upstream provenance rather than
-another rendering of Code. Its literal text is never interpreted as recipe syntax.
-
-A website or renderer may offer:
-
-- Code (primary/default)
-- Compact recipe
-- Original recipe source (where available)
-- images on/off
-- comments on/off
-- story on/off
-- original / localised units
-- ingredient localisation
-- process localisation
-- serving scaling
-- cooking-focused view
-
-The source file remains authoritative.
-
----
-
-## 39. Version control
-
-Open Sauce Food does not define its own version-control system.
-
-The intended initial model is ordinary Git hosting, such as GitHub.
-
-Recipes can be stored, committed, diffed and forked using existing Git tooling.
-
-An Open Sauce Food website may index public repositories and render their `.opensauce` files without becoming their source of truth.
-
----
-
-## 40. Design principles
-
-Draft 8 follows these principles:
-
-1. Human-readable source comes first.
-2. Structure should have obvious visual meaning.
-3. Do not add syntax until real recipes demonstrate the need.
-4. Allow natural cooking language where strict formalisation adds little value.
-5. Explicit information overrides defaults.
-6. Regional ambiguity should be surfaced, not guessed.
-7. The format should remain useful without a website or special editor.
-8. Ingredient and process vocabularies should be open and community-maintained.
-9. Git should provide versioning rather than Open Sauce Food reinventing it.
-10. Real recipes should drive language evolution.
-11. A section may provide type context for otherwise shared syntax.
-12. Grouping syntax should remain consistent: `[ ... ]` means a block, while `Meanwhile`, `Repeat` or `-OR-` explains the relationship.
-13. Open Sauce Food is a human recipe format, not a robot-execution language.
-14. Multiple authoring styles may be valid when they render to the same clear human meaning.
-15. Implicit state/result transitions are acceptable where a human reader would understand them.
-16. Minimise vocabulary concepts without minimising the natural words authors are allowed to use.
-17. Canonicalisation must preserve culinary meaning; regional names and synonyms belong in vocabulary data, not in rigid source syntax.
-
----
-
-## 41. Syntax summary (Draft 7-compatible core; Draft 8 additions in section 43)
-
-```text
-::recipe
+```opensauce
 ::ingredients
+(water)
+(salt)
+(onion)
+(olive oil)
 ::equipment
+(plastic wrap)
+(frying pan)
 ::instructions
-::story
-
-(thing, qualifier)           one declared physical thing/reference
-{result}                     created/combined/assembled result
-<process, parameter>         action
-[ ... ]                      grouped instruction block
-
-+                            add/combine
-=                            define/assign
-~                            approximately
-/                            equivalent quantity
--OR-                         alternative
-#                            comment to end of line
-
-Meanwhile [ ... ]            parallel/overlapping block
-Repeat [ ... ]               repeated block
-Optional [ ... ]             optional block
-
-yield: 10 scones             non-serving output
-dietary options: vegan       additional suitability under choices
-
-![alt](path)                 image
-
-(ingredient) half of         relative quantity
-(ingredient) ~1/3 of         approximate relative quantity
-(ingredient) rest of         remaining declared quantity
+{dough} <cover, with (plastic wrap)>
+{ravioli} <cook, in (water, boiling) + (salt)> ?= they float
+(onion) <fry, in (frying pan) + (olive oil)>
 ```
 
----
+Those references remain real ingredients/equipment rather than disappearing into an opaque sentence.
 
-## 42. Draft status
+This lets the site link them to the shared knowledge base while leaving the surrounding cooking language readable.
 
-This specification is deliberately incomplete.
+## Quantity precision
 
-At the Draft 8 milestone, the development corpus contained 120 public-domain recipes. The current public subset contains 410; see DATA-SOURCES.md. The earlier 10-recipe BBC Food stress-test corpus has been removed, while its extracted generic ingredient, equipment and process observations remain as legacy vocabulary evidence.
+Recipes often imply different levels of precision.
 
-Draft 7 therefore separates the publishable recipe corpus from the broader vocabulary-evidence set.
+Sauce Code can make that explicit:
 
-The next stage is a conservative canonicalisation pass: merge genuine aliases/regional names while
-preserving meaningful variants, subtypes and culinary distinctions.
-
-Repeated real problems should justify new syntax.
-
-## 43. Draft 8 additions (implemented baseline)
-
-### Structured physical things
-
-```text
-(base [; variant] [: part [: subpart ...]] [, qualifiers...])
-```
-
-Square brackets in this grammar description mean optional fields; they are not
-literal characters inside a thing. `;` introduces one type/variant of the base.
-Each `:` selects a part/product of the preceding thing, in order. Commas introduce loose
-qualifiers such as preparation, state, role or size. Base, variant and each part
-must be nonempty. Variant precedes parts, which precede comma qualifiers. There
-is no delimiter-escaping syntax in names in this version. Malformed explicit
-structure receives a diagnostic while original source remains available.
-
-```text
-(flour; plain)
-(egg: yolk)
-(orange: peel, finely grated)
-(chicken: thigh: skin)
-(chicken; free range: thigh: skin)
-```
-
-The last example means skin of a thigh of a free-range chicken. English word order
-is a rendering decision, not syntax. Existing `(egg, yolk)` and `(flour, plain)`
-remain valid **ordinary comma qualifiers**, with no implicit structural migration.
-Existing small display dictionaries may naturalise their labels but must not add
-part/type semantics to the model.
-
-Local references may derive a part from a declared base or part-chain prefix.
-Explicit incompatible variants and sibling part chains must not match. Prefer
-an exact structure if one is declared; retain ambiguity when several declarations
-remain. Canonical vocabulary resolution annotates the base, not a fabricated
-compound concept. This establishes no output yield, mass balance or cooking state.
-
-### Ingredient reference relationships (knowledge model)
-
-`:` means part/product in Sauce Code: `(egg: yolk)` and `(lemon: juice)`
-can link to subsections of their parent ingredient pages. Existing `part-` anchor
-IDs are preserved. Fresh or bottled lemon juice can share Lemon → Juice, with
-fresh/bottled retained as qualifiers; this does not generalise to every product.
-
-Type/family relationships are optional knowledge-base hierarchy. A type can be
-important enough to have its own ingredient page while still belonging to a
-broader family. Self-raising flour has its own page within the Flour
-family. An independent ingredient may use `type_of: flour` without being authored
-as `(flour; variant)`. The existing `;` syntax remains valid and unchanged.
-
-Type relationships do not collapse pages, rewrite recipes, infer substitutions,
-inherit knowledge fields or aggregate child usage into the family. Local roles
-and named choices remain local. See [VOCABULARY-SCHEMA.md](VOCABULARY-SCHEMA.md)
-for validation and explicit compatibility targets. Standalone `(lemon juice)`
-now targets Lemon → Juice while preserving authored spelling. `(flour; self-raising)`
-and `(self-raising flour)` target the independent Self-raising Flour concept. Other
-compound/part overlaps remain explicit migration work. This adds no recipe grammar.
-
-### Quantity precision
-
-```text
+```opensauce ingredients
 (flour) !500g
-(salt) !10g
 (water) ~325g
-(olive oil) ~~1tbsp
 (spinach) ~~1 handful
 ```
 
-`!` expresses high intended precision / measure accurately; `~` approximate;
-`~~` very approximate. An unmarked expression has unspecified precision. None
-specifies a numeric error bound. Precision belongs to the expression, including
-a fraction, mixed fraction or range. `/` between equivalent expressions starts a
-separate expression with its own precision; a numeric fraction slash is internal.
-`![alt](path)` remains an image and takes lexical precedence over `!`.
-
-The implemented model annotates numeric-starting quantities in statements and
-process parameters as source strings with spans and precision. Units and values
-are not evaluated. Fully nonnumeric amounts such as `to taste` remain valid free
-text; this milestone does not interpret their precision or unit semantics.
-No conversion, serving scaling or density model is introduced. A future sourced
-transformation must preserve or weaken source precision, never manufacture greater
-precision. `~~1 handful` must not become a falsely precise `31.742g`.
-
-### Story, notes and comments
-
-`::story` is optional narrative/editorial material: personal stories, history,
-origin or context. `::notes` is optional practical information for the cook:
-storage, reheating, freezing, substitutions, serving and make-ahead advice.
-They are independent prose sections and have independent visibility controls.
-Maintainer, import, conversion and debug commentary uses existing `#` comments.
-Machine-readable provenance remains recipe/source metadata. There is no
-`::provenance` section.
-
-Not every source sentence belongs in `::instructions`. Classify by its role:
-
-- Keep core procedural prose and cook-facing warnings in `::instructions` when
-  existing structure would make them less clear. Ordinary serve/store/freeze
-  actions are not automatically side advice.
-- Use `::notes` for serving suggestions, variations, substitutions, storage or
-  make-ahead advice outside the core procedural path.
-- Use `#` comments for non-instruction author/import/editorial context, including
-  personal rule-of-thumb remarks when they are not essential cooking guidance.
-- Remove converted narration only when groups, `-OR-`, `Meanwhile`, `Optional`
-  or results already convey all its information. Retain useful branch labels.
-
-Remove obsolete source-step navigation only after representing its target and
-meaning structurally; otherwise retain it for review. Keep Original source
-unchanged. Advisory classification is not authorization to hide cooking content.
-
-### Verbatim original source
+Meaning:
 
 ```text
+!     measure this carefully
+~     approximately
+~~    very approximately
+```
+
+No marker means the recipe has not specified a precision level.
+
+These markers are deliberately descriptive rather than mathematical error bounds.
+
+Nobody needs `~~1 handful` converted into 31.742g.
+
+Precision belongs to the quantity expression, not the ingredient. Unit conversion and serving scaling are not implemented here; a future conversion must preserve the source precision rather than introduce falsely precise decimals.
+
+## Equivalent quantities
+
+/ can give equivalent forms of the same quantity:
+
+```opensauce ingredients
+(flour) 2 cups / ~240g
+```
+
+or equivalent appliance settings:
+
+```opensauce
+(oven) <heat, 200C / 180C fan>
+```
+
+It does not mean an ingredient choice. Choices use -OR-.
+
+## Human-readable quantities
+
+Sauce Code does not insist everything become a number:
+
+```opensauce ingredients
+(salt) to taste
+(oil) as needed
+(sesame seeds) extra for serving
+```
+
+A recipe language that could not express “salt to taste” would be solving the wrong problem.
+
+## Recipe metadata
+
+`::recipe` contains recipe-level metadata such as:
+
+```opensauce recipe
+name: Lentil Soup
+serves: 4
+category: soup/stew
+tags: lentils, warming
+dietary: vegetarian
+cuisine: italian
+region: sicily
+```
+
+Current metadata can also preserve:
+
+- source
+- source author
+- source license
+- ingredient locale
+- units
+- yield
+- active time
+- total time
+- image
+- conversion stage
+- curation origin
+- curation review
+
+Most of this metadata is optional. A minimal recipe remains valid without category, dietary, cuisine or region metadata. No corpus-wide dietary, cuisine or region inference is performed by the parser.
+
+Dietary labels are author-supplied guidance, not a guarantee of suitability. Ingredients and product labels still need checking.
+
+## Original source preservation
+
+Imported recipes can retain the original source text verbatim:
+
+```opensauce
 ::source
 <<<
-Original recipe text, including Markdown if present.
-::ingredients
-# These lines are literal source, not Open Sauce syntax.
-(something) {something} <something> [something]
+Original source recipe here.
+Nothing inside this block is interpreted as Sauce Code.
 >>>
-::notes
-Ordinary parsing has resumed.
 ```
 
-Opening and closing fences are lines containing **exactly** `<<<` and `>>>`,
-respectively, with no leading/trailing spaces or comments. LF, CRLF and CR line
-terminators are supported. Blank lines before the opening fence are allowed.
-The body begins immediately after the opener's line terminator and ends immediately
-before the closing fence. Every character in that interval is preserved, including
-blank lines, indentation, hashes, URLs, markup and line-ending spelling. A body
-therefore includes its final line terminator when nonempty. An original document
-without a terminal newline needs a documented framing newline when embedded.
+This makes conversion auditable.
 
-Only the first exact closing-fence line ends the body. There is no fence escaping
-in this milestone: a payload containing an exact `>>>` line cannot be embedded
-unchanged; retain it externally and record the collision. Indented or suffixed
-fence-like lines are literal payload. A missing opener or closer is an error;
-an unclosed body's contents remain opaque through EOF. Subsequent section headers
-are parsed normally after closure. Repeated source sections retain source order.
+The original recipe can remain available next to the structured version instead of being quietly replaced by it.
 
-Code displays authored notation (including source fences); Compact
-generates instructions and omits the original-source section. Original recipe source displays only
-the stored payload, escaped as literal text in HTML. It is available only when
-source text exists. Image/comment/story/notes toggles must never alter the source
-payload. This original-source payload is distinct from the exact entire authored
-`.opensauce` document retained as `Recipe.source`.
+## Culinary knowledge
 
-Typed process argument roles, choice-scope redesign, repeat count/cadence,
-part/output quantity provenance, conversion/density data, localisation and serving
-scaling remain unimplemented proposals.
+Sauce Code is only one part of Open Sauce Food.
 
-### Structured references in process/action context
+Ingredients, equipment and processes can resolve against a shared version-controlled culinary knowledge base.
 
-An action may retain explicit ingredient/equipment references in its context:
+That knowledge can describe things such as:
 
-```text
-{ravioli} <cook, 1-2m, in (water, boiling) + (salt)> ?= they float to the top
-{dough} <cover, with (plastic wrap)>
-(onion) <fry, in (pan) + (oil)>
-```
+- aliases and regional names
+- ingredient families
+- ingredient parts
+- preparation states
+- equipment subtypes
+- cooking techniques
+- links between recipes and the concepts they use
 
-These remain single-action tokens. Context things use the existing
-`(base [; variant] [: part ...] [, qualifiers...])` notation, with normal local
-and vocabulary resolution; unknown names remain legal. A comma in a thing's
-qualifiers belongs to that thing. No new delimiters or recursive expressions are added.
+For example:
 
-The conservative recognition boundary is a non-nested parenthesized thing directly
-following `in`, `into`, `with`, `using`, `on`, `onto`, `from` or `over`
-in a parameter, or `+` after a recognized context thing in that parameter.
-Sentence punctuation in the identity, nested delimiters and parenthesized numeric
-measurements are left literal. Other incidental parentheses remain ordinary prose.
-This boundary is vocabulary-independent: `with (care)` denotes an unknown thing,
-not a guessed adverb. Write `with care` when literal prose is intended.
+- self-raising flour  → type of flour
+- paring knife        → type of knife
+- cast-iron frying pan → type of frying pan
 
-Code retains authored notation. Compact can render `in (water, boiling) + (salt)`
-as “in boiling water with salt”; HTML gives the action head and context references
-separate semantic links, without nested anchors. Existing duration/precision values
-and following `?=` judgements retain their meanings.
+An identity can exist in the knowledge base without needing a public reference page.
 
-### Optional ingredient state annotations (knowledge model; no syntax change)
+Conversely, a useful reference page can exist even before the recipe corpus happens to use the concept much.
 
-Identity, type/family, part/product, state/preparation and loose qualifiers remain
-separate. Brown lentils is a type of lentils; in `(brown lentils, soaked)`, an
-explicit vocabulary state can annotate soaked without changing identity or source.
-Finely chopped remains a loose qualifier; lemon juice remains a part/product.
-Only complete explicitly configured qualifiers are annotated, retaining their raw
-text and source spans. Grammar and vocabulary-free parsing are unchanged. No
-state inheritance, transitions or conversions are inferred. See
-[VOCABULARY-SCHEMA.md](VOCABULARY-SCHEMA.md) for the optional model.
+Recipe syntax remains legal independently of whether something is already known to the vocabulary.
 
-### Conversion maturity metadata
+## Reference pages
 
-Optional `conversion stage` recipe metadata accepts `initial`, `reworked` or
-`blocked`. It is independent of `curation origin` and `curation review` and does
-not change recipe syntax or culinary semantics. Missing values mean unknown;
-invalid or duplicate values receive `INVALID_CONVERSION_STAGE` warnings. Public
-site policy uses explicit reworked status, not parser success or numeric quality
-scores. See [RECIPE-PUBLICATION.md](RECIPE-PUBLICATION.md).
+Reference pages are intended to become useful culinary resources in their own right.
+
+For processes, a page may be useful because the term has:
+
+- discovery value — finding recipes that use the technique
+- explanation value — explaining what the technique means
+
+Equipment also has a third possible reason:
+
+recommendation value — helping people understand useful types or good examples of a tool
+
+Eventually these pages can also link to carefully selected external articles and videos.
+
+The aim is useful curation, not turning every verb and spoon into an encyclopedia entry.
+
+## Publication and conversion status
+
+Imported recipes are not automatically treated as finished recipes merely because the parser accepts them.
+
+Conversion stage is currently one of:
+
+- initial
+- reworked
+- blocked
+
+reworked recipes are the normal public browsing set.
+
+initial and blocked recipes may remain directly accessible for development/review but are kept out of normal discovery.
+
+This is independent of parser validity and of any automated quality score.
+
+## Git and openness
+
+Open Sauce Food does not invent its own version-control system.
+
+Recipes are plain text, so ordinary Git works rather well.
+
+They can be:
+
+- committed
+- diffed
+- forked
+- reviewed
+- remixed
+- contributed through pull requests
+
+The same principle applies to the shared culinary vocabularies.
+
+If somebody knows that a tool, ingredient or technique has a different name where they live, that is exactly the sort of useful contribution the project should eventually make easy.
+
+## Design principles
+
+The language is still experimental, but a few principles have become fairly stable:
+
+- Human-readable source comes first.
+- Structure should be understandable by inspection where practical.
+- Real recipe problems should justify new syntax.
+- Natural cooking language is allowed where formalisation adds little.
+- Parser legality must not depend on whether the vocabulary already knows a term.
+- Ingredients, equipment and processes are shared knowledge, not rigid source-code enums.
+- Regional differences should be represented rather than guessed away.
+- Git handles versioning; Open Sauce Food does not need to reinvent Git badly.
+- Sauce Code should encode useful structure without pretending cooking is a robot program.
+- A recipe can still be badly written. The file extension is not magic.
+
+## Status
+
+Draft 8 is implemented and actively being tested against a growing recipe corpus.
+
+The format is deliberately still allowed to change.
+
+New syntax should be driven by real recipes, not by an attempt to predict every culinary edge case in advance.
+
+That has already proved considerably more useful than designing an immaculate language for imaginary soup.

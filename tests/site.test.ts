@@ -138,7 +138,7 @@ test('Spec is rendered from authoritative Markdown with escaped examples and saf
   const spec = await readFile('SPEC.md', 'utf8');
   assert.ok(generated.files.get('spec/index.html')!.toString().includes(renderSpec(spec, routes(config))));
   const sample = renderSpec('# Example\n\n<script>alert(1)</script>\n\n```opensauce\n(egg) <whisk>\n```\n\n[Guide](README.md)', routes(config));
-  assert.ok(!sample.includes('<script>')); assert.ok(sample.includes('&lt;whisk&gt;'));
+  assert.ok(!sample.includes('<script>')); assert.ok(sample.includes('&lt;<span class="os-syntax-process">whisk</span>&gt;'));
   assert.ok(sample.includes(routes(config).source('README.md')));
 });
 

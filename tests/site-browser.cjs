@@ -318,6 +318,39 @@ const { assertReferenceHeading, assertReferenceFragment } = require('./helpers/b
       await layout.getByRole('navigation',{name:'Open Sauce Food',exact:true}).getByRole('link',{name:'Recipes',exact:true}).click();
       assert.equal(layout.url(),base+'recipes/');
     }
+    // Public documents share the recipe palette, with literal source examples.
+    for (const width of [1280, 320]) for (const dark of [false, true]) {
+      await layout.setViewportSize({ width, height: 1000 });
+      await layout.goto(base + 'spec/');
+      if (await layout.locator('html').evaluate(el => el.classList.contains('dark-mode')) !== dark)
+        await layout.locator('#dark-mode-toggle').click();
+      const specText = await layout.locator('.spec-document').innerText();
+      for (const text of ['Sauce Code \u2014 Draft 8', '?=', '!500g', '~325g', '~~1 handful', 'Original Source', 'recommendation value', 'not a fully structured alternative']) assert.ok(specText.includes(text), text);
+      assert.ok(!/Draft [27]/.test(specText));
+      for (const role of ['ingredient','equipment','specificity','process','result','value']) {
+        const token = layout.locator('.spec-document pre .os-syntax-' + role).first();
+        const colour = await token.evaluate((el, role) => {
+          const style = getComputedStyle(el);
+          return { accent: style.getPropertyValue('--syntax-accent').trim(), expected: style.getPropertyValue('--os-' + role).trim(), decoration: style.textDecorationLine };
+        }, role);
+        assert.ok(colour.accent && colour.accent === colour.expected, role);
+        assert.equal(colour.decoration, 'none');
+      }
+      assert.equal(await layout.locator('.spec-document pre a').count(), 0);
+      assert.equal(await layout.locator('.spec-document .language-text [class*="os-syntax-"]').count(), 0);
+      assert.ok(await layout.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+      await layout.locator('.spec-document pre .os-syntax-ingredient').first().scrollIntoViewIfNeeded();
+      await layout.screenshot({ path: join(evidence, `spec-${width}-${dark ? 'dark' : 'light'}.png`), animations: 'disabled' });
+      await layout.goto(base + 'about/');
+      const aboutText = await layout.locator('main').innerText();
+      for (const text of ['Sauce Code','Compact','Original Source','structure where structure is useful','Early development']) assert.ok(aboutText.includes(text), text);
+      assert.ok(!aboutText.includes('programming exercise'));
+      assert.equal(await layout.locator('.development-notice').count(), 0);
+      assert.equal(await layout.getByRole('heading', {name:'Early development',exact:true}).count(), 1);
+      for (const name of ['Browse recipes','Read the current specification','View the project on GitHub','Project explanation on GitHub','Source for this page']) assert.ok(await layout.getByRole('link',{name,exact:true}).getAttribute('href'));
+      assert.ok(await layout.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+      await layout.screenshot({ path: join(evidence, `about-${width}-${dark ? 'dark' : 'light'}.png`), animations: 'disabled' });
+    }
     await layoutContext.close();
     assert.deepEqual(errors, []); assert.deepEqual(badResponses, []);
     const result = { status: 'passed', checks: ['Recipe layout v1 metadata/sidebar, keyboard representations, native no-JavaScript disclosures, both themes and 320/390px Ravioli','Equipment Model v1 blue unlinked bowl in both themes and parent/child navigation','Process Model v1 semantic colour and reference eligibility','Code default','Compact switching','literal original','syntax toggle computed style','theme toggle and persistence','story toggle','Code and Compact ingredient/process/equipment loops','part-yolk anchor','visible keyboard focus','390px no overflow','no-JavaScript navigation and provenance','real 404 and slash redirect','with/without original and image','Story and Notes',published.length + ' published recipe browse links','initial/blocked direct pages and noindex','hidden backlink exclusion','tag and category membership/navigation','386/180/143 reference indexes','public egg/Stracciatella backlink','Spec code examples and contents anchors','About','no-JavaScript browse/index/spec/about routes'], screenshots: evidence };

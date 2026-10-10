@@ -15,6 +15,6 @@ ${noindex ? '<meta name="robots" content="noindex">' : ''}
 <header class="site-header"><a class="back-to-tebla" href="https://tebla.net/">← tebla.net</a><a class="brand" href="${urls.home()}" aria-label="Open Sauce Food"><img class="wordmark wordmark-light" src="${urls.asset('brand/open-sauce-food-wordmark-light.svg')}" alt="" aria-hidden="true" width="1698" height="230"><img class="wordmark wordmark-dark" src="${urls.asset('brand/open-sauce-food-wordmark-dark.svg')}" alt="" aria-hidden="true" width="1698" height="230"></a>
 <nav aria-label="Open Sauce Food"><a href="${urls.recipes()}">Recipes</a>${(['ingredient','process','equipment'] as const).map(k => `<a href="${urls.index(k)}">${k === 'ingredient' ? 'Ingredients' : k === 'process' ? 'Processes' : 'Equipment'}</a>`).join('')}<a href="${urls.page('spec')}">Spec</a><a href="${urls.page('about')}">About</a></nav>
 ${recipePage ? '' : appearanceControls}</header>
-${recipePage ? '' : developmentNotice(config.github)}
+${recipePage || route === urls.page('about') ? '' : developmentNotice(config.github)}
 <main id="content" tabindex="-1">${body}</main><footer><p>Open Sauce Food · A human-readable recipe language and shared culinary knowledge base.</p><a href="${e(config.github)}">Project on GitHub</a> · <a href="${urls.asset('notices.txt')}">Licences and notices</a></footer></body></html>`;
 }
