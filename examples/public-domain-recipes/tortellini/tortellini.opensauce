@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -12,31 +12,48 @@ units: source
 tags: italian, pasta, quick, cheesefare
 
 # Imported from content/tortellini.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 
 ::ingredients
 
 (tortellini)
 (egg) 1-2
 (cooking cream)
-(cheese, optional)
+(cheese, shredded, optional)
+
+(water) for boiling
+(salt) for water; more if needed for serving
+(pepper) for serving
 
 ::equipment
 
 (pot)
+(plate)
 
 ::instructions
 
-Buy tortellini （prefer meat or spinach）.
-<bring, water to a boil>
-<add, salt to water only after boiling>
-(tortellini) <add, in>
-<cook, for 3 minutes>
-<drain, water from the pot while keeping tortellini in>
-<add, cooking cream and mix at medium heat until reduced a bit so it's more creamy>
-<turn off, the heat and add 1 or 2 eggs>
-<mix, in and let eggs cook using heat from the pot and tortellini>
-<serve, on a plate. Add pepper, more salt if needed, and optionally, shredded cheese on top for extra creaminess>
+(water) <bring to boil, in (pot)>
+(water) + (salt)
+(tortellini) <add, in (pot)>
+    <cook, 3m>
+(water) <drain, from (pot), keeping tortellini in the pot>
+{creamy tortellini} = (tortellini) + (cooking cream)
+    <mix, medium heat> ?= reduced a bit and creamier
+<turn off, the heat>
+{creamy tortellini} + (egg) 1-2
+    <mix>
+(egg) <cook, using residual heat from (pot) and the tortellini>
+{creamy tortellini} <serve, on (plate)>
+    <season, with (pepper)>
+If more (salt) is needed:
+    {creamy tortellini} + (salt)
+Optional [
+    {creamy tortellini} + (cheese) on top
+]
+
+::notes
+
+Buy tortellini; the source prefers meat or spinach filling.
+Optional shredded cheese adds extra creaminess.
 
 ::source
 <<<

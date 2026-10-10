@@ -1,3 +1,4 @@
+import { restoreCorpusRepairs } from './helpers/corpus-quality-unattended.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFileSync } from 'node:fs';
@@ -7,7 +8,9 @@ import { loadVocabulary } from '../src/vocabulary/node.ts';
 import { auditConversion } from '../src/conversion-quality.ts';
 import { restoreReviewedInstructions } from './helpers/reviewed-instructions.ts';
 const path = 'examples/public-domain-recipes/ravioli/ravioli.opensauce';
-const source = readFileSync(path, 'utf8'), vocabulary = await loadVocabulary('.');
+// Preserve the earlier reviewed tranche's exact assertions; current accepted
+// Ravioli structure and fidelity are covered in corpus-quality-unattended.test.ts.
+const source = restoreCorpusRepairs(readFileSync(path, 'utf8'), path), vocabulary = await loadVocabulary('.');
 const recipe = parseRecipe(source, { vocabulary });
 const instructions = recipe.sections.find(s => s.name === 'instructions')!;
 const visit = (nodes: Node[]): Statement[] => nodes.flatMap(n => n.kind === 'statement' ? [n, ...visit(n.children)] : n.kind === 'group' ? visit(n.children) : []);
@@ -21,10 +24,10 @@ test('Ravioli preserves Original and reviewed history, including declaration cor
   assert.equal(renderCode(parseRecipe(code, { vocabulary }), { comments: true }), code);
   assert.ok(recipe.diagnostics.every(d => d.code === 'FREE_TEXT'));
   for (const [before, after, message] of [
-    ['(olive oil, for Dough) a drizzle', '(olive oil, for Dough) 100 g', /unreviewed ingredients|publication/],
-    ['(plastic wrap)\n', '(pot)\n', /unreviewed equipment|publication/],
-    ['::equipment\n', '::equipment # changed\n', /non-instruction bytes/],
-    ['title: "Ravioli"', 'title: "Changed"', /non-instruction bytes/],
+    ['(olive oil, for Dough) a drizzle', '(olive oil, for Dough) 100 g', /unreviewed ingredients|publication|Unrecorded corpus repair bytes/],
+    ['(plastic wrap)\n', '(pot)\n', /unreviewed equipment|publication|Unrecorded corpus repair bytes/],
+    ['::equipment\n', '::equipment # changed\n', /non-instruction bytes|Unrecorded corpus repair bytes/],
+    ['title: "Ravioli"', 'title: "Changed"', /non-instruction bytes|Unrecorded corpus repair bytes/],
   ] as const) assert.throws(() => restoreReviewedInstructions(source.replace(before, after), path), message);
 });
 

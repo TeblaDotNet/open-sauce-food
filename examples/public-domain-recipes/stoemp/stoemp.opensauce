@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: side
 curation origin: generated
 curation review: unchecked
@@ -13,7 +13,6 @@ tags: belgian, potato
 serves: 4
 
 # Imported from content/stoemp.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 10 min
 # Source metadata: - 🍳 Cook time: 30 min
 # Source metadata: - 🍽️ Servings: 4
@@ -27,14 +26,29 @@ serves: 4
 (heavy cream) 100ml
 (nutmeg, ground) 1/2 teaspoon
 
+(water) for boiling
+(salt) for boiling and seasoning
+(pepper)
+
+::equipment
+
+(fork)
+
 ::instructions
 
 (bacon) <cut, into bits>
-Sauté bacon until well colored.
-<peel, and dice into small chunks potatoes, peel and slice carrots>
-<boil, for 20-25 minutes potatoes and carrots in salted water>
-<drain, vegetables and mash with a fork, so that the texture remains slightly chunky>
-<mix, with bacon bits, butter, cream, nutmeg, salt, pepper>
+    <sauté> ?= well colored
+(potatoes) <peel>
+    <dice, into small chunks>
+(carrot) <peel>
+    <slice>
+{salted water} = (water) + (salt)
+{vegetables} = (potatoes) + (carrot)
+    <boil, in {salted water}, 20-25m>
+    <drain>
+    <mash, using (fork)> ?= slightly chunky
+{stoemp} = {vegetables} + (bacon) + (butter) + (heavy cream) + (nutmeg) + (salt) + (pepper)
+    <mix>
 
 ::story
 

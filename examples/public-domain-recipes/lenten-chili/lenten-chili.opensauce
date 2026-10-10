@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: soup/stew
 
 name: Lenten Chili
@@ -43,17 +43,25 @@ image: lenten-chili.webp
 
 (onion) <chop>
 (garlic) <mince>
-(olive oil) <heat, large tall pot, medium-low>
-(onion) <cook, oil, 5-10m, constantly stirring, until beginning to brown>
-    + (garlic) <cook, add just before onion done, 1-2m>
-{chili} = (onion) + (garlic) + (olive oil) + (tomato sauce choice) + (tomato choice) + (corn) + (beans choice) + (rice)
-{chili} <heat, turn up to medium>
-    + (cumin) + (paprika) + (garlic powder) + (onion powder) + (chili powder) + (red pepper)
-    <taste>
+(olive oil) <heat, in (pot), medium-low heat>
+(onion) <cook, in (pot), with (olive oil), 5-10m> ?= beginning to brown
+Meanwhile [
+    (onion) <stir, constantly>
+]
+Just before (onion) is done:
+    {aromatics} = (onion) + (garlic)
+        <cook, 1-2m>
+{chili} = {aromatics} + (tomato sauce choice) + (tomato choice) + (corn) + (beans choice) + (rice)
+    <heat, medium heat>
+{chili} + (cumin) + (paprika) + (garlic powder) + (onion powder) + (chili powder) + (red pepper)
+{chili} <taste>
     <adjust, flavouring accordingly>
-    <cook, 20-30m, stirring occasionally>
-    <cool, a few minutes>
-    <serve, bowls>
+    <cook, 20-30m>
+Meanwhile [
+    {chili} <stir, occasionally>
+]
+{chili} <cool, a few minutes>
+    <serve, in (serving bowl)>
 
 ::notes
 Let cool for a few minutes and then serve in bowls.

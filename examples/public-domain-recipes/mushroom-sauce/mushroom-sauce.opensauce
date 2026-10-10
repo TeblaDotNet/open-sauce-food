@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: sauce/seasoning/stock
 curation origin: generated
 curation review: unchecked
@@ -13,36 +13,52 @@ tags: mushrooms, sauce, pasta, basic
 serves: 3
 
 # Imported from content/mushroom-sauce.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 5 min
 # Source metadata: - 🍳 Cook time: 30 min
 # Source metadata: - 🍽️ Servings: 3
 
 ::ingredients
 
-(champignons)
-(onion)
-(cream or milk) A glass
+(champignons, finely chopped)
+(onion, chopped)
+(dairy choice) = (cream) 1 glass -OR- (milk) 1 glass
 (butter)
-(wheat flour)
+(wheat flour) 1tbsp
+(salt)
+(pepper)
 
 ::equipment
 
 (frying pan)
+(lid)
 
 ::instructions
 
-(butter) <place, in a frying pan and place over medium heat>
-<add, all the chopped onions, mix well and leave for 10 minutes until the onions turn a little translucent golden>
-<add, finely chopped champignons, mix well and add salt. Close the lid for 5 minutes>
-<add, a tablespoon of flour, stir>
-After 3 minutes, add a glass of cream （or milk）, mix well and close the lid for 10 minutes.
-<add, salt, pepper and mix>
+(butter) <place, in (frying pan)>
+(frying pan) <heat, medium heat>
+(onion) <add, into (frying pan)>
+    <mix, well>
+    <cook, 10m> ?= a little translucent golden
+{mushroom mixture} = (onion) + (champignons)
+    <mix, well>
+    + (salt)
+(frying pan) <cover, with (lid), 5m>
+{mushroom mixture} + (wheat flour) 1tbsp
+    <stir>
+<wait, 3m>
+{sauce} = {mushroom mixture} + (dairy choice)
+    <mix, well>
+(frying pan) <cover, with (lid), 10m>
+{sauce} + (salt) + (pepper)
+    <mix>
+
+::notes
+
+Goes great with pasta.
 
 ::story
 
-This is a simple mushroom sauce recipe. Goes great with pasta — /pasta/.
-
+This is a simple mushroom sauce recipe.
 
 ::source
 <<<

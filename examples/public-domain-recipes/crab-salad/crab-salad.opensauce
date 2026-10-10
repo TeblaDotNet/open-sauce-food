@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: side
 
 name: Crab salad
@@ -16,7 +16,7 @@ image: crab-salad.webp
 # Source Prep time: 10 min
 # Source Cook time: 30 min
 # Source Servings: 3
-# Conversion note: Chop crab meat and all other ingredients; combine all ingredients then add mayonnaise. Literal all is imprecise; avoid interpreting it as chopping liquids or inventing preparation detail.
+# Conversion note: Source says "Chop crab meat and all other ingredients". This is imprecise because some ingredients are not sensibly chopped; preserve the ambiguity rather than inventing preparation details.
 
 ::ingredients
 
@@ -31,12 +31,19 @@ image: crab-salad.webp
 
 ::instructions
 
-(rice) + (egg) + (carrot) <boil>
-(crab meat) <chop, and all other ingredients as source states>
+(rice) <boil>
+(egg) <boil>
+(carrot) <boil>
+(crab meat) <chop>
+(cucumber) <chop>
+(carrot) <chop>
+(onion) <chop>
+# Source also says "all other ingredients"; no extra chopping is inferred for rice, egg, corn or mayonnaise.
 {salad} = (crab meat) + (egg) + (rice) + (corn) + (cucumber) + (carrot) + (onion)
 {salad} <mix>
-    + (mayonnaise)
-    <chill, before serving>
+{salad} + (mayonnaise)
+{salad} <mix>
+{salad} <chill, before serving>
 
 ::source
 <<<

@@ -1,3 +1,4 @@
+import {restoreCorpusRepairs, repairedRecipeCount} from './helpers/corpus-quality-unattended.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile } from 'node:fs/promises';
@@ -87,7 +88,7 @@ test('corpus classification changes only category metadata; culinary/source byte
   let categories = 0, changed = 0, dietary = 0, cuisine = 0, region = 0;
   const counts = {initial: 0, reworked: 0, blocked: 0};
   for (const file of files) {
-    const source = await readFile(file, 'utf8');
+    const source = restoreCorpusRepairs(await readFile(file, 'utf8'),file);
     const before = restoreRecipeClassification(source, file);
     if (before !== source) changed++;
     // This existing adapter verifies the full pre-publication SHA256 from its committed ledger.

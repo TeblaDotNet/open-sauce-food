@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: soup/stew
 curation origin: generated
 curation review: unchecked
@@ -13,7 +13,6 @@ tags: filipino, chicken, pineapple
 serves: 5
 
 # Imported from content/pininyahang-manok.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 20 min.
 # Source metadata: - 🍳 Cook time: 45 min.
 # Source metadata: - 🍽️ Servings: 5
@@ -21,8 +20,8 @@ serves: 5
 ::ingredients
 
 (chicken, cut into serving pieces) 1 lb
-(pineapple chunks) 1 cup
-(pineapple juice) 1 cup
+(pineapple, chunks) 1 cup
+(pineapple: juice) 1 cup
 (carrot, chopped) 2
 (red bell pepper, sliced) 1
 (onion, chopped) 1
@@ -31,16 +30,35 @@ serves: 5
 (fish sauce) 2 tbsp
 (cooking oil) 2 tbsp
 
+(salt)
+(pepper)
+
+::equipment
+
+(pan)
+
 ::instructions
 
-(cooking oil) <heat, in a pan and sauté onions and garlic until fragrant>
-<add, chicken pieces and cook until lightly browned>
-<pour, fish sauce and stir for a minute>
-<add, pineapple juice and simmer for 15–20 minutes until the chicken becomes tender>
-<add, carrots and pineapple chunks, then continue cooking until vegetables soften>
-(evaporated milk) <pour, for a creamy texture (optional)>
-<add, bell peppers and season with salt and pepper>
-<simmer, for another 3–5 minutes and serve hot>
+(cooking oil) <heat, in (pan)>
+{aromatics} = (cooking oil) + (onion) + (garlic)
+    <sauté, in (pan)> ?= fragrant
+{chicken mixture} = {aromatics} + (chicken)
+    <cook> ?= lightly browned
+{chicken mixture} + (fish sauce)
+    <stir, 1m>
+{chicken mixture} + (pineapple: juice)
+    <simmer, 15-20m> ?= chicken tender
+{stew} = {chicken mixture} + (carrot) + (pineapple)
+    <cook> ?= vegetables softened
+Optional [
+    {stew} + (evaporated milk)
+]
+{stew} + (red bell pepper) + (salt) + (pepper)
+    <simmer, another 3-5m>
+    <serve, hot>
+
+::notes
+
 For a richer flavor, let the chicken absorb the pineapple juice longer before adding milk.
 Best served with warm rice and an ice-cold drink.
 

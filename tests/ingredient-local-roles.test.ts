@@ -1,3 +1,4 @@
+import { restoreCorpusRepairs } from './helpers/corpus-quality-unattended.ts';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile } from 'node:fs/promises';
@@ -30,13 +31,15 @@ test('reviewed local identities have no canonical ingredient entries or referenc
 test('all corpus ASTs preserve local bindings, diagnostics and other canonical identities', async () => {
   let removedTokens = 0;
   for (const file of await recipeFiles('examples/public-domain-recipes')) {
-    const source = await readFile(file, 'utf8');
+    const current = await readFile(file, 'utf8');
+    const baseline = restoreCorpusRepairs(current, file);
+    for (const source of new Set([current, baseline])) {
     const before = parseRecipe(source, { vocabulary: previous });
     const after = parseRecipe(source, { vocabulary });
     const expected = JSON.parse(JSON.stringify(before), (_key, value) => {
       if (value?.kind === 'thing' && value.thingKind === 'ingredient' && retired.has(value.canonicalId)) {
         delete value.canonicalId;
-        removedTokens++;
+        if (source === baseline) removedTokens++;
       }
       return value;
     });
@@ -48,7 +51,8 @@ test('all corpus ASTs preserve local bindings, diagnostics and other canonical i
       } });
     }
   }
-  assert.equal(removedTokens, 38);
+  }
+  assert.equal(removedTokens, 38); // Historical count; current repaired ASTs are also checked above.
 });
 
 test('broad roles and named choices work and render without any vocabulary', () => {

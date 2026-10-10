@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: starter
 
 name: Chicken Satay with Peanut Sauce
@@ -40,14 +40,17 @@ serves: 4
 {marinated chicken} <mix>
     <marinate, at least 1h>
 Optional [
-    {marinated chicken} <skewer, wooden skewers>
+    {marinated chicken} <skewer, using (skewer)>
 ]
-{chicken} <grill, until cooked through>
+{marinated chicken} <grill> ?= cooked through
 {peanut sauce} = (peanut butter) + (sugar) 1tbsp + (massaman curry paste)
-{peanut sauce} <mix, small saucepan>
-    + (water) <thin, thick sauce consistency>
-    <cook, 1-2m, stirring frequently>
-{chicken} <serve, peanut sauce for dipping>
+{peanut sauce} <mix, in (saucepan)>
+{peanut sauce} <thin, with (water)> ?= thick sauce consistency
+{peanut sauce} <cook, 1-2m>
+Meanwhile [
+    {peanut sauce} <stir, frequently>
+]
+{marinated chicken} <serve, with the peanut sauce for dipping>
 
 ::source
 <<<

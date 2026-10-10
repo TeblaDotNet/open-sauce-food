@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: side
 curation origin: generated
 curation review: unchecked
@@ -12,26 +12,59 @@ units: source
 tags: rabbit, meat
 
 # Imported from content/pulled-rabbit.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 
 ::ingredients
 
-(cleaned rabbits) 2
-(butter)
-(hard-boiled egg yolks) 2
-(sweet herbs, minced, basil and/or rosemary)
-(lemon)
+(rabbit, cleaned) 2
+(cream, alternative to butter) plenty
+(butter, fresh, alternative to cream) some bits
+(flour, for the butter option)
+(egg: yolk, hard-boiled) 2
+(sweet herbs, minced; basil and/or rosemary)
+(lemon: rind, fresh, grated)
 (nutmeg)
 (cayenne, optional)
 
+::equipment
+
+(fork)
+(knife)
+(stew-pan)
+(stove)
+(dish, deep)
+
 ::instructions
 
-<boil, 2 cleaned rabbits until very tender>
-<take, them out to cool>
-When cold, cut them in pieces as for carving, and peel off the skin. Then with a fork pull all the meat from the bones, first loosening it with a knife.
-<put, it into a stew-pan with plenty of cream, or some bits of fresh butter rolled in flour; some minced sweet herbs, some grated fresh lemon rind, and some hard-boiled yolks of eggs crumbled. Season with cayenne and nutmeg>
-<cover, it, and let it simmer till it comes to a boil. Then immediately take it off the stove, and transfer it to a deep dish>
-<serve, it up hot. This is a side dish at dinner>
+(rabbit) <boil> ?= very tender
+    <remove>
+    <cool> ?= cold
+    <cut, into pieces as for carving>
+    <peel, off the skin>
+    <loosen, meat from bones, using (knife)>
+    <pull, meat from bones, using (fork)>
+    <place, in (stew-pan)>
+[
+    (rabbit) + (cream)
+]
+-OR-
+[
+    (butter) <roll, in (flour)>
+    (rabbit) + (butter)
+]
+(egg: yolk) <crumble>
+{rabbit mixture} = (rabbit) + (sweet herbs) + (lemon: rind) + (egg: yolk) + (nutmeg)
+Optional [
+    {rabbit mixture} + (cayenne)
+]
+(stew-pan) <cover>
+{rabbit mixture} <simmer> ?= comes to a boil
+(stew-pan) <remove, from (stove), immediately>
+{rabbit mixture} <transfer, into (dish)>
+    <serve, hot>
+
+::notes
+
+This is a side dish at dinner.
 
 ::source
 <<<

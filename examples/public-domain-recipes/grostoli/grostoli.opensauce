@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: dessert
 curation origin: generated
 curation review: unchecked
@@ -13,31 +13,45 @@ tags: Fry, Italian, Brazilian
 serves: A batch like this will last for two days in a family of four.
 
 # Imported from content/grostoli.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 30 min
 # Source metadata: - 🍳 Cook time: 10 min
 # Source metadata: - 🍽️ Servings: A batch like this will last for two days in a family of four.
 
 ::ingredients
 
-(sugar) A cup
-(flour) 800g
-(baking powder) A tablespoon
-(salt) A pinch
+(sugar, for dough) 1 cup
+(flour, for dough) 800g
+(baking powder) 1tbsp
+(salt) 1 pinch
 (egg) 4
-(lard or butter) 3 tablespoons
-(spirit, 40% a.b.v., Cachaça preferred; Rum or Grappa will do) 4 tablespoons
-(milk) A cup
+(fat choice) = (lard, for dough) 3tbsp -OR- (butter) 3tbsp
+(spirit, 40% a.b.v.; Cachaça preferred; Rum or Grappa will do) 4tbsp
+(milk) 1 cup
+(flour, for sprinkling)
+(lard, for frying)
+(sugar, for coating)
+(cinnamon, for coating)
+
+::equipment
+
+(table)
+(rolling pin)
 
 ::instructions
 
-<add, sugar, flour, baking powder, salt and mix all these dry ingredients>
-<add, eggs, grease, liquor, milk and mix it>
-<knead, it in a table until it is homogenous>
-<divide, the dough into smaller pieces and roll them with a pin on the table>
-<sprinkle, the flour and finally, cut the dough into rectangles>
-Make a vertical cut in the middle, and twist the sides.
-<fry, it in lard until it browns and sprinkle it on sugar and cinnamon>
+{dry mixture} = (sugar, for dough) + (flour, for dough) + (baking powder) + (salt)
+    <mix>
+{dough} = {dry mixture} + (egg) + (fat choice) + (spirit) + (milk)
+    <mix>
+    <knead, on (table)> ?= homogeneous
+    <divide, into smaller pieces>
+    <roll, on (table), using (rolling pin)>
+(flour, for sprinkling) <sprinkle, on {dough}>
+{dough} <cut, into rectangles>
+    <cut, vertically in the middle>
+    <twist, the sides>
+    <fry, in (lard, for frying)> ?= browned
+(sugar, for coating) + (cinnamon, for coating) <sprinkle, on the fried pieces>
 
 ::story
 

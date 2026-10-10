@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: side
 curation origin: generated
 curation review: unchecked
@@ -14,19 +14,18 @@ serves: 2
 image: stuffed-vegetables.webp
 
 # Imported from content/stuffed-vegetables.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 15 min
 # Source metadata: - 🍳 Cook time: 45 min
 # Source metadata: - 🍽️ Servings: 2
 
 ::ingredients
 
-(medium-sized tomato) 1
+(tomato, medium-sized) 1
 (sweet pepper) 1
 (courgette) 1
-(elongated aubergine) 1
+(aubergine, elongated) 1
 (bread, grated) 100-150 g
-(about 50 g grated parmigiano cheese)
+(parmigiano cheese, grated) ~50g
 (parsley, fresh is best, dry is fine)
 (extra virgin olive oil)
 (salt, optional)
@@ -34,16 +33,36 @@ image: stuffed-vegetables.webp
 ::equipment
 
 (baking tray)
+(baking paper)
 (oven)
 
 ::instructions
 
-<cut, all the vegetables in half on the long side. You may remove the seeds and some of the pulp from the tomato and the courgette, but not too much or you will get just burnt vegetable skin>
-<place, the vegetables on baking paper in a baking tray>
-(parsley) <sprinkle, over the vegetables, then, if you want, a little salt>
-<add, copious grated bread, then sprinkle Parmigiano cheese all over it>
-<add, enough olive oil to wet all the bread. If you don't use enough oil, grated bread won't stick together and may burn>
-<bake, for about 45 minutes in the oven pre-heated to 170 °C>
+(tomato) <halve, lengthwise>
+(sweet pepper) <halve, lengthwise>
+(courgette) <halve, lengthwise>
+(aubergine) <halve, lengthwise>
+Optional [
+    <remove, seeds and some pulp from (tomato), not too much>
+    <remove, seeds and some pulp from (courgette), not too much>
+]
+(baking paper) <place, in (baking tray)>
+{vegetables} = (tomato) + (sweet pepper) + (courgette) + (aubergine)
+    <place, on (baking paper), in (baking tray)>
+(parsley) <sprinkle, over the vegetables>
+Optional [
+    (salt) a little <sprinkle, over the vegetables>
+]
+(bread) <add, copiously over the vegetables>
+(parmigiano cheese) <sprinkle, all over the bread>
+(extra virgin olive oil) <add, over the bread> ?= all bread wet
+(oven) <preheat, 170°C>
+{vegetables} <bake, in (oven), ~45m>
+
+::notes
+
+Do not remove too much pulp or you will get just burnt vegetable skin.
+If you don't use enough oil, grated bread won't stick together and may burn.
 
 ::source
 <<<

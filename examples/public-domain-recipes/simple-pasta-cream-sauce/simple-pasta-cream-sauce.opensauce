@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: sauce/seasoning/stock
 curation origin: generated
 curation review: unchecked
@@ -13,15 +13,15 @@ tags: basic, quick, sauce, pasta
 serves: 1
 
 # Imported from content/simple-pasta-cream-sauce.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 2 min
 # Source metadata: - 🍳 Cook time: 3 mins
 # Source metadata: - 🍽️ Servings: 1
 
 ::ingredients
 
-(dairy liquid cream, 10%+ fat recommended)
-(flour, Wheat flour recommended)
+(cream, dairy liquid, 10%+ fat recommended) ~60ml / 2fl oz / 1/4 cup; extra if needed
+(flour, wheat recommended) 1tsp; extra if needed
+(pasta)
 
 ::equipment
 
@@ -29,11 +29,17 @@ serves: 1
 
 ::instructions
 
-<add, 1 teaspoon of flour into a saucepan>
-<pour, ~60ml(2fl oz|1/4 cup) of cream into a saucepan>
-<stir, and turn on maximum heat>
-<keep, stirring until it becomes thick. If the sauce is too liquid, add more flour, if the sauce is too solid (like a uncooked pancake), add more cream>
-<mix, the sauce with the pasta>
+(flour) 1tsp <add, into (saucepan)>
+(cream) ~60ml / 2fl oz / 1/4 cup <pour, into (saucepan)>
+{sauce} <stir>
+(saucepan) <heat, maximum heat>
+{sauce} <stir, continuously> ?= thick
+If {sauce} is too liquid:
+    {sauce} + (flour) more
+If {sauce} is too solid, like an uncooked pancake:
+    {sauce} + (cream) more
+{sauce} + (pasta)
+    <mix>
 
 ::source
 <<<

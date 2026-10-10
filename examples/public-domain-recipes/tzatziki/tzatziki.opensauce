@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: sauce/seasoning/stock
 
 name: Tzatziki
@@ -15,7 +15,7 @@ serves: 3
 # Source Prep time: 2 min
 # Source Cook time: 6 min
 # Source Servings: 3
-# Conversion note: Garlic, 1 clove/teaspoon; add all three to yogurt after cucumber, dill and garlic-oil preparation. Slash meaning and referent count are ambiguous; no measured equivalence assumed.
+# Conversion note: Garlic amount 1 clove/teaspoon is retained without measured equivalence. The three preceding preparations are cucumber, dill and garlic-oil mixture.
 # Conversion note: Image reference /pix/tzatziki.webp has no image in upstream snapshot; live retrieval returned HTML. No image substituted or fabricated.
 
 ::ingredients
@@ -38,16 +38,21 @@ serves: 3
 
 (cucumber) <grate, finely>
 (dill) <chop>
-(cucumber) <strain, thoroughly, clean kitchen towel>
-(garlic) + (olive oil) <mash, mortar and pestle>
-{tzatziki} = (yogurt) + (cucumber) + (dill) + (garlic) + (olive oil)
-{tzatziki} + (acid) <squeeze, some lemon/lime or vinegar>
-    + (salt) + (pepper)
+(cucumber) <strain, using (kitchen towel), thoroughly>
+{garlic oil} = (garlic) + (olive oil) 1tsp
+    <mash, using (mortar and pestle)>
+{tzatziki} = (yogurt) + (cucumber) + (dill) + {garlic oil}
+{tzatziki} + (acid)
+{tzatziki} + (salt) a generous pinch + (pepper) a small pinch
 Optional [
     {tzatziki} + (olive oil) extra
 ]
 {tzatziki} <stir>
-    <serve, favourite snack>
+    <serve, with your favourite snack>
+
+::notes
+
+The source's garlic amount, 1 clove/teaspoon, is retained without interpreting the slash as a measured equivalence.
 
 ::story
 

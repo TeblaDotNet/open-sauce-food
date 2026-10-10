@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: breakfast
 curation origin: generated
 curation review: unchecked
@@ -10,26 +10,26 @@ source author: joel-farthing
 source license: Public domain (upstream Unlicense dedication)
 units: source
 tags: breakfast, quick
+serves: 1 hearty serving
 image: hearty-breakfast-oatmeal.webp
 
 # Imported from content/hearty-breakfast-oatmeal.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 5 min
 # Source metadata: - 🍳Cook time: 10 min
 
 ::ingredients
 
-(flake oats, Large, no partially cooked quick-oats allowed!) 1/2 cup
+(oats, large flake) 1/2 cup
 (almonds)
 (pecans)
-(roasted flax seed) 1 Tbsp
-(hemp hearts) 1 Tbsp
-(cranberries, adjust amount to preference)
+(flax seed, roasted) 1tbsp
+(hemp hearts) 1tbsp
+(cranberries) to preference
 (banana, mashed) 1/2
 (milk, 3.25% if possible) 1 cup
-(cinnamon, adjust amount to preference)
+(cinnamon) to preference
 (egg) 1
-(on vanilla ice cream protein powder, optional)
+(protein powder, ON Vanilla Ice Cream, optional)
 
 ::equipment
 
@@ -37,16 +37,23 @@ image: hearty-breakfast-oatmeal.webp
 
 ::instructions
 
-<chop, or mash nuts and fruit>
-<combine, nuts, fruit, and other dry ingredients in a saucepan>
-<add, milk and cook mixture over medium heat until oats are desired tenderness (5-10 mins)>
-<add, egg and protein powder and cook for a few more minutes>
-<enjoy>
+(almonds) <chop> -OR- <mash>
+(pecans) <chop> -OR- <mash>
+(cranberries) <chop> -OR- <mash>
+{oatmeal mixture} = (almonds) + (pecans) + (cranberries) + (banana) + (oats) + (flax seed) + (hemp hearts) + (cinnamon)
+    <combine, in (saucepan)>
+    + (milk)
+    <cook, medium heat, 5-10m> ?= oats at desired tenderness
+    + (egg)
+Optional [
+    {oatmeal mixture} + (protein powder)
+]
+{oatmeal mixture} <cook, a few more minutes>
+    <enjoy>
 
 ::notes
 
-- 🍽️ Serving: 1 hearty serving
-
+No partially cooked quick-oats allowed!
 
 ::story
 

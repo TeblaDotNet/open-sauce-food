@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: drink
 
 name: Indian tea
@@ -33,12 +33,24 @@ serves: 4
 
 ::instructions
 
-(ginger) <peel> <cut, small pieces>
-    + (cardamom seeds) <crush>
-(water) <bring to boil> <turn off heat>
-    + (ginger) + (cardamom seeds) + (black tea) + (milk) <add> <cover>
-    <infuse, 5-10m>
-    + (sugar) <serve, 1tsp sugar per cup, optionally sieve or allow particles to settle>
+(ginger) <peel>
+(ginger) <cut, small pieces>
+{aromatics} = (ginger) + (cardamom seeds) <crush>
+(water) <bring to boil, in (pot)>
+<turn off heat>
+{tea} = (water) + {aromatics} + (black tea) + (milk)
+{tea} <cover, in (pot)>
+{tea} <infuse, 5-10m>
+{tea} + (sugar) 1tsp per cup <serve>
+Optional [
+    [
+        {tea} <sieve, using (sieve)>
+    ]
+    -OR-
+    [
+        <wait, for particles to settle to the bottom of the cups>
+    ]
+]
 
 ::source
 <<<

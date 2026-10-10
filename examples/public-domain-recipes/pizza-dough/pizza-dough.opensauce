@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: bread/baking
 
 name: Pizza Dough
@@ -26,14 +26,15 @@ tags: basic, pizza, dough
 ::equipment
 
 (bowl)
+(table)
 
 ::instructions
 
-{dough} = (flour, basic wheat) + (water) + (yeast) + (olive oil) + (salt) + (sugar)
-{dough} <knead, bowl>
-    <rest, ~30m, somewhere lukewarm>
-(flour, for rolling) <dust, table>
-{dough} <roll, floured table>
+{dough} = (flour, basic wheat) + (water, lukewarm) + (yeast, dry) + (olive oil) + (salt) + (sugar)
+{dough} <knead, in (bowl)>
+{dough} <rest, ~30m, somewhere lukewarm>
+(flour, for rolling) <dust, onto (table)>
+{dough} <roll, on (table)>
 
 ::notes
 Here is a simple pizza dough recipe. Basically you use a 2/1 ratio of

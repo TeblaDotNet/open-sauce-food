@@ -132,7 +132,7 @@ test('chickpea states are evidenced, local, exact and source-preserving', () => 
   assert.match(html, /tinned \/ canned/);
 });
 
-test('all 410 corpus ASTs gain exactly three chickpea annotations and nothing else', async () => {
+test('all 410 corpus ASTs gain exactly four chickpea annotations and nothing else', async () => {
   const before = new Vocabulary(vocabulary.entries.map(e => {
     const copy = {...e}; if (e.kind === 'ingredient' && e.id === 'chickpeas') delete copy.states;
     return copy;
@@ -153,6 +153,7 @@ test('all 410 corpus ASTs gain exactly three chickpea annotations and nothing el
     assert.deepEqual(r, parseRecipe(source, {vocabulary: before}), file);
   }
   assert.deepEqual(added, [
+    {recipe: 'cooked-chickpeas', line: 22, id: 'tinned', raw: ' canned'},
     {recipe: 'fall-vegetable-and-chickpea-curry', line: 27, id: 'tinned', raw: ' canned'},
     {recipe: 'gypsy-soup', line: 30, id: 'cooked', raw: ' cooked'},
     {recipe: 'hummus', line: 18, id: 'tinned', raw: ' canned'},

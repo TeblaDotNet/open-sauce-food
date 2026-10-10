@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 
 name: Schnitzel
@@ -19,7 +19,7 @@ image: schnitzel.webp
 
 ::ingredients
 
-(veal cutlet) 4 / ~150g each
+(veal cutlet) 4, ~150g each
 (egg) 2
 (lemon) 1
 (flour) 100g
@@ -32,25 +32,37 @@ image: schnitzel.webp
 
 ::equipment
 
-(bowl) 3
+(bowl, for flour)
+(bowl, for egg)
+(bowl, for crumbs)
+(kitchen roll)
 (board)
 (meat tenderizer) -OR- (rolling pin)
 (pan, deep)
 
 ::instructions
 
+(flour) <place, in (bowl, for flour)>
 (egg) <beat>
-(bread crumbs) + (salt) + (paprika) <season>
-(bowl) <prepare, three separate bowls: flour; beaten eggs; seasoned bread crumbs>
+    <place, in (bowl, for egg)>
+{seasoned crumbs} = (bread crumbs) + (salt) + (paprika)
+    <place, in (bowl, for crumbs)>
 (veal cutlet) <wash>
-    <dry, gently, kitchen roll>
-    <place, board>
-    <beat, meat tenderizer or rolling pin, 0.5cm thick>
-    + (salt) + (pepper) <season, both sides>
-    <coat, first flour then eggs then bread crumbs>
-(frying fat) <melt, deep pan, not too hot; butter must not brown>
-(veal cutlet) <fry, each side until golden brown, example 3m each side>
-    <serve, piece of lemon>
+(veal cutlet) <dry, using (kitchen roll), gently>
+(veal cutlet) <place, on (board)>
+(veal cutlet) <beat, using (meat tenderizer) or using (rolling pin), to 0.5cm thick>
+(veal cutlet) <season, with (salt) + (pepper), on both sides>
+(veal cutlet) <coat, with (flour), in (bowl, for flour)>
+(veal cutlet) <coat, with (egg), in (bowl, for egg)>
+(veal cutlet) <coat, in (bowl, for crumbs), with the seasoned crumbs>
+(frying fat) <melt, in (pan), not too hot; butter must not brown>
+(veal cutlet) <fry, in (pan), each side; for example 3m per side> ?= golden brown on each side
+    <serve, with (lemon), a piece>
+
+::notes
+
+The source prefers clarified butter over butter.
+Beating the veal makes it tender.
 
 ::story
 

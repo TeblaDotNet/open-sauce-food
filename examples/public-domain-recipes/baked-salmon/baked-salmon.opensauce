@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 
 name: Baked Salmon
@@ -29,16 +29,17 @@ tags: basic, fish
 ::equipment
 
 (aluminum foil)
-(cookie sheet) -OR- (baking pan)
+(baking vessel) = (cookie sheet) -OR- (baking pan)
 
 ::instructions
 
-(salmon) + (salt) + (black pepper) + (red pepper flakes) <season, to taste>
-(aluminum foil) + (cooking fat) <coat, spray or rub>
-    <place, cookie sheet or baking pan>
-(salmon) + (lemon juice) <squeeze>
-    + (butter) 1tsp per steak <place>
-    <bake, 400f / 200c, 19m>
+(salmon) <season, with (salt) + (black pepper) + (red pepper flakes), to taste>
+(aluminum foil) <coat, with (cooking fat), by spraying or rubbing>
+(aluminum foil) <place, on or in (baking vessel)>
+(lemon juice) <squeeze, onto (salmon)>
+(salmon) <top, with (butter), 1tsp per steak>
+(salmon) <place, on (aluminum foil)>
+(salmon) <bake, 400f / 200c, 19m>
 
 ::story
 

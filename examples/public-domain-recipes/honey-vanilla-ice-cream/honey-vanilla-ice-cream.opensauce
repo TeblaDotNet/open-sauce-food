@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: dessert
 
 name: Honey Vanilla Ice Cream
@@ -30,18 +30,29 @@ serves: 8-10
 (bowl, medium)
 (ice cream maker)
 (container)
+(refrigerator)
 (silicone spatula, optional)
 
 ::instructions
 
-(milk) + (sugar) <mix, medium bowl, until dissolved>
-    + (heavy cream) + (vanilla extract) <mix>
-    + (honey) <stir>
-    <chill, refrigerator, at least 2h>
-    <churn, ice cream maker, 30m>
-    <transfer, swiftly to container, scrape sides with silicone spatula if desired>
-    <freeze, overnight preferred, a few hours in a pinch>
-    <scoop> <serve>
+{sweetened milk} = (milk) + (sugar)
+{sweetened milk} <mix, in (bowl)> ?= sugar dissolved
+{ice cream mixture} = {sweetened milk} + (heavy cream) + (vanilla extract)
+{ice cream mixture} <mix>
+{ice cream mixture} + (honey)
+{ice cream mixture} <stir>
+{ice cream mixture} <chill, in (refrigerator), at least 2h>
+{ice cream} = {ice cream mixture} <churn, in (ice cream maker), 30m>
+Optional [
+    (ice cream maker) <scrape, sides, using (silicone spatula)>
+]
+{ice cream} <transfer, swiftly, into (container)>
+{ice cream} <freeze, overnight preferred; a few hours in a pinch>
+{ice cream} <scoop>
+{ice cream} <serve>
+
+::notes
+Goes great with honey cake.
 
 ::source
 <<<

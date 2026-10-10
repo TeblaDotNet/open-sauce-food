@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -9,23 +9,42 @@ source: https://publicdomainrecipes.com/hamburger-patties-all-beef/
 source author: James Hendrie
 source license: Public domain (upstream Unlicense dedication)
 units: source
+yield: 4 patties
 tags: american, quick, beef, basic
 
 # Imported from content/hamburger-patties-all-beef.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 
 ::ingredients
 
-(beef, ground, 20% or more fat ratio) 1 lb
-(onion, optional, chopped or powder)
-(garlic, optional, chopped or powder)
+(beef, ground, 20% or more fat ratio) 1lb
+(onion choice, optional) = (onion, chopped) -OR- (onion powder)
+(garlic choice, optional) = (garlic, chopped) -OR- (garlic powder)
+(salt)
+(pepper)
+
+::equipment
+
+(pan, pre-heated or otherwise)
 
 ::instructions
 
-<form, patties with the beef. Use high-fat ground beef, you won't need oil>
-<place, into a pan, pre-heated or otherwise, at medium/med-high temperature>
-<add, salt, pepper, and optional seasonings>
-<cook, until done, flipping occasionally to prevent burning>
+(beef) <form, into patties>
+    <place, in (pan), medium to medium-high heat>
+(beef) + (salt) + (pepper)
+Optional [
+    (beef) + (onion choice)
+]
+Optional [
+    (beef) + (garlic choice)
+]
+(beef) <cook> ?= done
+Meanwhile [
+    (beef) <flip, occasionally to prevent burning>
+]
+
+::notes
+
+Use high-fat ground beef; you won't need oil.
 
 ::source
 <<<

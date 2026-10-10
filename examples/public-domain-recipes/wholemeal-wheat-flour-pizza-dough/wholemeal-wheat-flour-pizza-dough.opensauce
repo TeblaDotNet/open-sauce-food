@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: bread/baking
 curation origin: generated
 curation review: unchecked
@@ -14,7 +14,6 @@ serves: 4
 image: wholemeal-wheat-flour-pizza-dough.webp
 
 # Imported from content/wholemeal-wheat-flour-pizza-dough.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 70 min
 # Source metadata: - 🍽️ Servings: 4
 # source ambiguity: Near-duplicate of existing pizza-dough, with different flour, quantities and resting time. — Keep distinct; amounts and flour choice are materially different.
@@ -22,8 +21,8 @@ image: wholemeal-wheat-flour-pizza-dough.webp
 ::ingredients
 
 (flour, Wholemeal Wheat Flour) 500g
-(lukewarm water) 280ml
-(dry yeast) 8g
+(water, lukewarm) 280ml
+(yeast, dry) 8g
 (olive oil) 3.5 spoon
 (salt) 1.5 teaspoon
 
@@ -33,8 +32,9 @@ image: wholemeal-wheat-flour-pizza-dough.webp
 
 ::instructions
 
-<combine, all the ingredients in a bowl and knead into a dough>
-<let, it rest for ~60 minutes somewhere lukewarm>
+{dough} = (flour) + (water) + (yeast) + (olive oil) + (salt)
+    <knead, in (bowl)>
+    <rest, ~60m, somewhere lukewarm>
 
 ::notes
 

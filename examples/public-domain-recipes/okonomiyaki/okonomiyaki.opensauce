@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -12,7 +12,6 @@ tags: quick, japanese
 serves: 1
 
 # Imported from content/okonomiyaki.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 10 min
 # Source metadata: - 🍳 Cook time: 10 min
 # Source metadata: - 🍽️ Servings: 1
@@ -22,36 +21,59 @@ serves: 1
 (flour) 125g
 (egg) 1
 (water) 125ml
-(meat, Thinly sliced, any kind can do, sliced pork, beef, even bacon)
-(dashi powder or any desired seasonings)
+(meat, thinly sliced; any kind such as pork, beef or bacon)
+(seasoning choice) = (dashi powder) -OR- (seasonings, any desired)
 (cabbage) 2-4 leaves
-(salt) Pinch; to taste
-(tonkatsu sauce in squirt bottle, sometimes known as Bulldog sauce)
-(mayonnaise in squirt bottle)
-(sriacha in squirt bottle)
-(katsuobushi, Dried bonito flakes)
-(nori, Dried roasted seaweed)
+(salt) 1 pinch, to taste
+(tonkatsu sauce, sometimes known as Bulldog sauce)
+(mayonnaise)
+(sriracha)
+(katsuobushi, dried bonito flakes)
+(nori, dried roasted seaweed)
 
 ::equipment
 
 (bowl)
+(pan, cast-iron, pre-heated) -OR- (griddle, pre-heated)
+(broiler, for the broiler option)
+(plate, for serving)
+(squirt bottles, for the sauces)
 
 ::instructions
 
 (cabbage) <chop, into thin strips>
-<whisk, water and egg together in a bowl and then whisk in flour, salt, and seasonings>
-(cabbage) <fold, into batter with as few folds as possible to completely work the cabbage in>
-(meat) <fry, in a pre-heated cast-iron pan or griddle on medium-high heat until brown on one side, flip, and immediately pour batter on top after flipping>
-<allow, to cook for 2-3 minutes and either flip the pancake, or move under a broiler to cook the top for another 2-3 minutes>
-<move, pancake to a serving plate meat side up and squirt tonkatsu sauce, mayonnaise, and sriracha over the top in a zig-zag pattern>
-<sprinkle, katsuobushi and nori on top of the sauces and the okonomiyaki is ready to serve>
+{batter} = (water) + (egg)
+    <whisk, in (bowl)>
+{batter} + (flour) + (salt) + (seasoning choice)
+    <whisk>
+(cabbage) <fold, into the batter, with as few folds as possible> ?= cabbage completely worked in
+(meat) <fry, in (pan) or on (griddle), medium-high heat> ?= brown on one side
+    <flip>
+{batter} <pour, on (meat), immediately after flipping>
+{pancake} = (meat) + {batter}
+    <cook, 2-3m>
+[
+    {pancake} <flip>
+        <cook, another 2-3m>
+]
+-OR-
+[
+    {pancake} <broil, using (broiler), the top, another 2-3m>
+]
+{pancake} <place, on (plate), meat side up>
+(tonkatsu sauce) <squirt, using (squirt bottles), over the top in a zig-zag pattern>
+(mayonnaise) <squirt, using (squirt bottles), over the top in a zig-zag pattern>
+(sriracha) <squirt, using (squirt bottles), over the top in a zig-zag pattern>
+(katsuobushi) + (nori) <sprinkle, on top of the sauces>
+{pancake} <serve>
 
 ::notes
 
+The listed toppings are traditional options but can be substituted with any desired toppings.
+
+::story
+
 Okonomiyaki is a Japanese savory pancake. Instead of using air bubbles to lighten the pancake, thin strips of cabbage provide levity to the cake. This is a very popular street food in Japan, and can be topped with all sorts of different ingredients, as "Okonomiyaki" roughly translates to "Grilled how you like".
-
-The following options are traditional but can be substituted with any desired toppings
-
 
 ::source
 <<<

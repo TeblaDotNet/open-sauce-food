@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: sauce/seasoning/stock
 
 name: Salsa Verde
@@ -33,17 +33,20 @@ yield: ~2 cups / 475ml
 
 ::instructions
 
-(tomatillos) + (garlic) + (chillies choice) <place, medium saucepan>
-    <cover, water>
-    <simmer, ~10m, until tomatillos pale green>
-{salsa} = (tomatillos) + (garlic) + (chillies choice) + (onion) + (cilantro)
-{salsa} <transfer, blender or food processor>
-    <purée, smooth>
-    + (salt) <season, to taste, usually 1tsp / 6g>
-(oil) <heat, medium saucepan, hot not smoking>
-{salsa} <pour, into pan>
-    <cook, 6-8m, stirring occasionally, until somewhat thickened>
-    <refrigerate, leftovers>
+{vegetables} = (tomatillos) + (garlic) + (chillies choice)
+    <place, in (saucepan)>
+    <cover, with (water)>
+    <simmer, ~10m> ?= tomatillos pale green
+{vegetables} <transfer, into (blender) or into (food processor)>
+{salsa} = {vegetables} + (onion) + (cilantro)
+    <purée> ?= smooth
+    <season, with (salt), to taste; usually 1tsp / 6g>
+(oil) <heat, in (saucepan)> ?= hot but not smoking
+{salsa} <pour, into (saucepan)>
+    <cook, 6-8m> ?= somewhat thickened
+Meanwhile [
+    {salsa} <stir, occasionally>
+]
 
 ::notes
 Makes about 2 cups (475mL). Refrigerate leftovers

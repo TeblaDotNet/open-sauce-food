@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -12,7 +12,6 @@ units: source
 tags: beef, quick
 
 # Imported from content/hellfire-steak.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 
 ::ingredients
 
@@ -23,10 +22,14 @@ tags: beef, quick
 
 ::instructions
 
-<rub, a generous amount of salt all over the steak>
-<coat, the entire steak with mustard powder>
-(tabasco sauce) <pour, onto both sides of the steak, don't be afraid to put more on than you think you might otherwise be comfortable with the salt will cancel out a lot of the spice while grilling>
-<grill, over low heat until steak is cooked to your preference>
+(kosher salt) a generous amount <rub, on (steak), all over>
+(steak) <coat, with (mustard powder), entirely>
+(tabasco sauce) <pour, onto (steak), both sides>
+(steak) <grill, low heat> ?= cooked to your preference
+
+::notes
+
+The source author's advice on Tabasco: "don't be afraid to put more on than you think you might otherwise be comfortable with the salt will cancel out a lot of the spice while grilling."
 
 ::story
 

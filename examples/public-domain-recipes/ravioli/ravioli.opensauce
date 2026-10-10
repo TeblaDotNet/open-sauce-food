@@ -1,5 +1,5 @@
 ::recipe
-conversion stage: initial
+conversion stage: reworked
 category: main
 curation origin: generated
 curation review: unchecked
@@ -14,44 +14,47 @@ serves: 4
 image: ravioli.webp
 
 # Imported from content/ravioli.md at da84378b36bd5b2e3cb35f610d64630bf1bd899d; retrieved 2026-10-08.
-# Conservative conversion: free-text action parameters preserve source instructions; argument roles are not inferred.
 # Source metadata: - ⏲️ Prep time: 30 min
 # Source metadata: - 🍳Cook time: 2 min
 # Source metadata: - 🍽️ Servings: 4
 
 ::ingredients
 
-(egg, for Dough) 4
-(00 flour, for Dough) 400 g
-(olive oil, for Dough) a drizzle
-(lemon, for Cheese Filling) 1
-(pecorino romano cheese, grated, for Cheese Filling) 50 g
-(ricotta, for Cheese Filling) 250 g
-(egg, for Cheese Filling) 1
-(seafood, optional) =
+(egg, for dough) 4
+(00 flour, for dough) 400 g
+(olive oil, for dough) a drizzle
+
+(lemon, for cheese filling) 1
+(pecorino romano cheese, grated, for cheese filling) 50 g
+(ricotta, for cheese filling) 250 g
+(egg, for cheese filling) 1
+
+(seafood choice, optional) =
     (leftover lobster legs, chopped)
     -OR-
     (lobster tail)
     -OR-
     (crab, minced)
-(salt) to taste in the filling; also for the cooking water
+
+(salt) to taste in filling; also for cooking water
 (pepper) to taste
-(water) for sealing if needed, and for cooking
-(red sauce, for serving the seafood version)
-(basil, for serving the seafood version)
-(heavy cream, for the pink sauce option)
-(red pepper flakes, for the pink sauce option) a pinch
+(water) for sealing if needed; also for cooking
+
+(red sauce, for serving seafood version)
+(basil, for serving seafood version)
+(heavy cream, for pink sauce option)
+(red pepper flakes, for pink sauce option) a pinch
 
 ::equipment
 
 (stand mixer)
+(pasta machine)
 (rolling pin)
 (bowl)
 (fork)
 (knife)
 (refrigerator)
 (plastic wrap)
-(pasta machine)
 (pasta cutter)
 (pizza cutter)
 (wax paper)
@@ -59,87 +62,154 @@ image: ravioli.webp
 
 ::instructions
 
-The basic rule of thumb I use for pasta is 100g, 1 egg per person.
-Choose the old-school well method or the stand-mixer method:
+# The source gives two alternative dough-making methods.
+
 [
     Well method:
-    (00 flour) <pile, onto the counter>
-        <shape, by hand into a well in the centre>
-    (egg, for Dough) <crack, into the centre of the well>
-        + (olive oil)
-    With a (fork):
-    (egg, for Dough) <break up, slowly>
-        <mix, slowly into the flour> ?= no loose egg can escape the outer well border
-    {dough} <bring together, by hand from the sandy mixture>
-        <knead, by hand, ~5-10m> ?= smooth
+
+    (00 flour, for dough) <pile, onto work surface>
+        <shape, into a well>
+
+    (egg, for dough) <crack, into the well>
+    (olive oil, for dough) <drizzle, into the well>
+
+    {dough mixture} = (egg, for dough) + (olive oil, for dough) + (00 flour, for dough)
+        <mix, gradually with (fork)> ?= no loose egg can escape the flour well
+
+    {dough} = {dough mixture}
+        <bring together, by hand>
+        <knead, ~5-10m> ?= smooth
 ]
 -OR-
 [
-    Stand-mixer method, with a dough hook:
-    In the (stand mixer):
-    {dough} = (00 flour) + (egg, for Dough) + (olive oil)
-        <mix, level 4, ~3-5m>
-    If the sides need scraping:
+    Stand-mixer method:
+
+    {dough} = (00 flour, for dough) + (egg, for dough) + (olive oil, for dough)
+        <mix, with (stand mixer), dough hook, level 4, ~3-5m>
+
     Optional [
-        (stand mixer) <scrape, down the sides>
+        (stand mixer) <scrape, sides down>
     ]
-    If the dough needs a bit more hand-kneading:
+
     Optional [
-        {dough} <knead, by hand> ?= a nice smooth ball
+        {dough} <knead, by hand> ?= smooth ball
     ]
 ]
-Use (plastic wrap) to cover the {dough}.
-In the (refrigerator), so it is easier to roll out:
-{dough} <rest, 15-30m>
+
+{dough} <cover, with (plastic wrap)>
+{dough} <refrigerate, 15-30m>
+
 Meanwhile [
-    While the dough rests, make the filling:
-    In a (bowl):
-    {cheese filling} = (ricotta) + (egg, for Cheese Filling)
-        <mix>
-    (lemon) <zest, into the bowl> <juice, into the bowl>
+    {cheese filling} = (ricotta, for cheese filling) + (egg, for cheese filling)
+        <mix, in (bowl)>
+
+    (lemon, for cheese filling) <zest, into (bowl)>
+    (lemon, for cheese filling) <juice, into (bowl)>
+
     Optional [
-        {cheese filling} + (seafood)
+        {cheese filling} + (seafood choice, optional)
     ]
-    (pecorino romano cheese) <grate, into the bowl>
+
     {cheese filling}
-        + (salt, to taste) + (pepper, to taste)
+        + (pecorino romano cheese, grated, for cheese filling)
+        + (salt)
+        + (pepper)
         <mix> ?= ingredients evenly distributed
 ]
-{dough} <take out, of the fridge> <cut, into 4 pieces>
-Keep the pieces not currently being worked on covered so they do not dry out.
+
+{dough} <remove, from (refrigerator)>
+{dough} <cut, into 4 pieces>
+
+# Keep pieces not currently being worked on covered so they do not dry out.
+
 [
-    With a (pasta machine), setting 2-3 out of 7:
-    {dough} <roll out> ?= you can just barely see your hand through it
+    With pasta machine:
+
+    {dough sheet} = {dough}
+        <roll out, with (pasta machine), setting 2-3 out of 7> ?= hand is just barely visible through it
 ]
 -OR-
 [
-    With a (rolling pin):
-    {dough} <roll out, into a long sheet, about 16 x 8 inches>
+    With rolling pin:
+
+    {dough sheet} = {dough}
+        <roll out, with (rolling pin), into long sheet, about 16 x 8 inches>
 ]
-Either cut the sheet in half for a top and bottom, or keep one sheet to fold over later.
-Using a (teaspoon), space the {cheese filling} evenly onto the sheets, leaving a few inches on each side for seams.
-Place the second sheet over the filling, or fold over the single sheet with the folded seam as one side of the ravioli.
-{ravioli} <press, down firmly>
-air <expel, from between the sheets>
-{ravioli} <seal> ?= the two pieces of dough stick together
-If the dough is too heavily floured and not sticking:
+
+[
+    Two-sheet method:
+
+    {dough sheet} <cut, in half>
+    {bottom sheet} = {dough sheet} one half
+    {top sheet} = {dough sheet} other half
+
+    {cheese filling} <space, evenly on the bottom sheet, using (teaspoon), leaving a few inches for seams>
+    {top sheet} <place, over filling>
+    {ravioli sheet} = {bottom sheet} + {cheese filling} + {top sheet}
+]
+-OR-
+[
+    Fold-over method:
+
+    {cheese filling} <space, evenly on the dough sheet, using (teaspoon), leaving a few inches for seams>
+    {dough sheet} <fold over, using folded seam as one side>
+    {ravioli sheet} = {dough sheet} + {cheese filling}
+]
+
+{ravioli sheet} <press, firmly around filling>
+<expel, air from between dough layers>
 Optional [
-    (water) <brush, onto the dough>
+    (water) <brush, onto dough, if heavily floured and not sticking>
 ]
-Using a fancy (pasta cutter), a (knife), or even a (pizza cutter):
-{ravioli} <cut, evenly between the seams to separate them>
-If you used a pasta cutter, the ravioli are ready for storage or cooking.
+{ravioli sheet} <seal> ?= dough layers stick together
+
+[
+    {ravioli} = {ravioli sheet}
+        <cut, evenly between seams, with (pasta cutter)>
+]
+-OR-
+[
+    {ravioli} = {ravioli sheet}
+        <cut, evenly between seams, with (knife)>
+]
+-OR-
+[
+    {ravioli} = {ravioli sheet}
+        <cut, evenly between seams, with (pizza cutter)>
+]
+
 If you did not use a pasta cutter:
 [
-    With a (fork):
-    {ravioli} <press, around the cut edges> ?= firmly closed with no visible leaks or air bubbles
-    Or else they will explode when cooked.
+    {ravioli} <press, around cut edges, with (fork)> ?= firmly closed with no visible leaks or air bubbles
 ]
-Store the ravioli on a floured (wax paper) sheet or freeze them for later.
-To cook, use boiling (water) with (salt):
-{ravioli} <cook, 1-2m> ?= they float to the top
-For the seafood version, serve with a simple fresh (red sauce) and (basil).
-Or spice it up a bit: use (red sauce) with some (heavy cream) and a pinch of (red pepper flakes) to make a pink sauce.
+
+(water) + (salt) <boil>
+
+{ravioli} <cook, in (water) + (salt), 1-2m> ?= ravioli float to the top
+
+Optional [
+    {ravioli} + (red sauce, for serving seafood version) + (basil, for serving seafood version)
+        <serve, seafood version>
+]
+
+-OR-
+
+Optional [
+    {pink sauce} = (red sauce, for serving seafood version)
+        + (heavy cream, for pink sauce option)
+        + (red pepper flakes, for pink sauce option)
+
+    {ravioli} + {pink sauce}
+        <serve, seafood version>
+]
+
+::notes
+
+The source gives a rule of thumb of 100 g flour and 1 egg per person.
+
+Keep dough pieces covered while working so they do not dry out.
+
+Store uncooked ravioli on floured wax paper or freeze for later.
 
 ::source
 <<<
