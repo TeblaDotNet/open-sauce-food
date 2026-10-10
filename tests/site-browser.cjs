@@ -5,7 +5,7 @@ const { join } = require('node:path');
 const { tmpdir } = require('node:os');
 // Optional browser acceptance: provide Playwright on NODE_PATH or install it locally.
 const { chromium } = require('playwright');
-const { assertReferenceHeading } = require('./helpers/browser-reference.cjs');
+const { assertReferenceHeading, assertReferenceFragment } = require('./helpers/browser-reference.cjs');
 (async () => {
   const port = 4196, base = (process.env.SITE_TEST_ORIGIN ?? `http://127.0.0.1:${port}`) + '/opensaucefood/';
   const server = process.env.SITE_TEST_ORIGIN ? undefined : spawn(process.execPath, ['scripts/site-preview.ts'], { env: { ...process.env, PORT: String(port) }, stdio: ['ignore','pipe','pipe'], windowsHide: true });
@@ -229,7 +229,9 @@ const { assertReferenceHeading } = require('./helpers/browser-reference.cjs');
     // The retained hidden Mayonnaise page still exercises part navigation without a public backlink.
     await page.goto(base + 'recipe/mayonnaise-or-aioli/');
     await page.locator('[data-view-panel="code"] a[href="/opensaucefood/ingredients/egg/#part-yolk"]').first().click();
-    assert.ok(await page.locator('#part-yolk').isVisible());
+    await assertReferenceFragment(page, base + 'ingredients/egg/#part-yolk');
+    await assertReferenceHeading(page, base + 'ingredients/egg/#part-yolk');
+    assert.match(await page.locator('#part-yolk h3').innerText(), /^egg\s*\u203a\s*yolk$/);
     assert.equal(await page.getByRole('link',{name:'Mayonnaise or aioli',exact:true}).count(),0);
     assert.equal((await fetch(base + 'recipe/missing/')).status, 404);
     assert.equal((await fetch(base + 'assets/missing.js')).status, 404);
