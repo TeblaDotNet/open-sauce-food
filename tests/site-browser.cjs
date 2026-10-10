@@ -45,6 +45,31 @@ const { chromium } = require('playwright');
       assert.equal(style.tag, modelActions.includes(id) ? 'SPAN' : 'A', id);
       if (modelActions.includes(id)) assert.equal(style.decoration,'none',id);
     }
+    // Equipment identity/colour remains independent of page eligibility, in both themes.
+    for (const dark of [true, false]) {
+      await page.goto(base + 'recipe/stracciatella-soup/');
+      if (await page.locator('html').evaluate(el => el.classList.contains('dark-mode')) !== dark)
+        await page.locator('#dark-mode-toggle').click();
+      const bowl = page.locator('[data-view-panel="code"] .os-equipment[data-canonical-id="bowl"]').first();
+      const style = await bowl.evaluate(el => {
+        const ink = el.querySelector('.os-syntax-equipment');
+        return { tag: el.tagName, href: el.getAttribute('href'), decoration: getComputedStyle(el).textDecorationLine,
+          accent: getComputedStyle(ink).getPropertyValue('--syntax-accent').trim(),
+          blue: getComputedStyle(el).getPropertyValue('--os-equipment').trim() };
+      });
+      assert.equal(style.tag, 'SPAN'); assert.equal(style.href, null); assert.equal(style.decoration, 'none');
+      assert.ok(style.accent && style.accent === style.blue);
+    }
+    assert.equal((await fetch(base + 'equipment/bowl/')).status, 404);
+    // Restore the starting theme expected by the existing toggle acceptance checks.
+    await page.locator('#dark-mode-toggle').click();
+    for (const [child, parent] of [['paring-knife','knife'],['cast-iron-frying-pan','frying-pan'],['stand-mixer','mixer']]) {
+      await page.goto(base + 'equipment/' + child + '/');
+      await page.locator('.os-reference a[href="/opensaucefood/equipment/' + parent + '/"]').click();
+      assert.equal(page.url(), base + 'equipment/' + parent + '/');
+      await page.locator('.os-reference a[href="/opensaucefood/equipment/' + child + '/"]').click();
+      assert.equal(page.url(), base + 'equipment/' + child + '/');
+    }
     await page.goto(base); await page.screenshot({ path: join(evidence, 'home-desktop.png'), fullPage: true });
     const recipeUrl = base + 'recipe/stracciatella-soup/';
     await page.goto(recipeUrl);
@@ -67,15 +92,18 @@ const { chromium } = require('playwright');
     assert.ok(!await page.locator('[data-view-panel="code"]').isVisible());
     await page.screenshot({ path: join(evidence, 'recipe-compact-light.png'), fullPage: true });
     for (const view of ['code','compact']) {
-      for (const [kind, suffix] of [['ingredient','ingredients/egg/'],['process','processes/beat/'],['equipment','equipment/bowl/']]) {
-        await page.goto(recipeUrl); await page.locator(`input[value="${view}"]`).check();
+      for (const [kind, suffix] of [['ingredient','ingredients/egg/'],['process','processes/beat/'],['equipment','equipment/knife/']]) {
+        const loopRecipe = kind === 'equipment' ? published.find(r => r.semanticLinks.includes('/opensaucefood/equipment/knife/')) : published.find(r => r.slug === 'stracciatella-soup');
+        const loopUrl = base + 'recipe/' + loopRecipe.slug + '/';
+        await page.goto(loopUrl); await page.locator(`input[value="${view}"]`).check();
         const link = page.locator(`[data-view-panel="${view}"] a.os-${kind}[href="/opensaucefood/${suffix}"]`).first();
         await page.keyboard.press('Tab'); await link.focus(); assert.equal(await link.evaluate(el => getComputedStyle(el).outlineStyle), 'solid');
         await link.click(); assert.equal(page.url(), base + suffix);
         if (kind === 'ingredient') assert.ok(await page.locator('.os-reference h1').isVisible());
-        await page.getByRole('link', { name: 'Stracciatella soup', exact: true }).click(); assert.equal(page.url(), recipeUrl);
+        await page.getByRole('link', { name: loopRecipe.name, exact: true }).click(); assert.equal(page.url(), loopUrl);
       }
     }
+    await page.goto(recipeUrl);
     await page.locator('[data-section-toggle="notes"]').uncheck();
     assert.ok(!await page.locator('[data-view-panel="code"] [data-section="notes"]').isVisible());
     await page.locator('input[value="originalSource"]').check();
@@ -147,7 +175,7 @@ const { chromium } = require('playwright');
     assert.equal(await plain.locator('[data-recipe]').count(), manifest.categories.find(c => c.value === 'bread/baking').count);
     await page.goto(base + 'recipe/basic-waffles/');
     assert.ok((await page.locator('[data-view-panel="code"] .os-dietary-notice').textContent()).includes('not a guarantee of suitability'));
-    for (const [family, count] of [['ingredients',386],['processes',180],['equipment',119]]) {
+    for (const [family, count] of [['ingredients',386],['processes',180],['equipment',120]]) {
       await page.goto(base + family + '/'); assert.equal(await page.locator('[data-reference]').count(), count);
     }
     await page.goto(base + 'ingredients/'); await page.screenshot({ path: join(evidence, 'ingredient-index.png') });
@@ -162,7 +190,7 @@ const { chromium } = require('playwright');
     await page.locator('.spec-contents a').nth(2).click();
     assert.ok(page.url().includes('#spec-'));
     await page.goto(base + 'about/'); assert.ok((await page.locator('main').textContent()).includes('Original recipe source'));
-    for (const route of ['recipes/', 'recipes/tag/soup/', 'ingredients/', 'ingredients/egg/', 'processes/beat/', 'equipment/bowl/', 'spec/', 'about/', 'recipe/apple-pie/', 'recipe/butter-cake/']) {
+    for (const route of ['recipes/', 'recipes/tag/soup/', 'ingredients/', 'ingredients/egg/', 'processes/beat/', 'equipment/knife/', 'spec/', 'about/', 'recipe/apple-pie/', 'recipe/butter-cake/']) {
       await plain.goto(base + route); assert.ok(await plain.locator('main').isVisible()); assert.ok(await plain.locator('nav').first().isVisible());
       if (route.startsWith('recipe/')) { assert.ok(await plain.locator('[data-view-panel="code"]').isVisible()); assert.ok(await plain.locator('.provenance').isVisible()); }
     }
@@ -192,7 +220,7 @@ const { chromium } = require('playwright');
     assert.equal((await fetch(base + 'assets/missing.js')).status, 404);
     assert.equal((await fetch(base + 'recipes', { redirect: 'manual' })).status, 301);
     assert.deepEqual(errors, []); assert.deepEqual(badResponses, []);
-    const result = { status: 'passed', checks: ['Process Model v1 semantic colour and reference eligibility','Code default','Compact switching','literal original','syntax toggle computed style','theme toggle and persistence','story toggle','Code and Compact ingredient/process/equipment loops','part-yolk anchor','visible keyboard focus','390px no overflow','no-JavaScript navigation and provenance','real 404 and slash redirect','with/without original and image','Story and Notes',published.length + ' published recipe browse links','initial/blocked direct pages and noindex','hidden backlink exclusion','tag and category membership/navigation','386/180/119 reference indexes','public egg/Stracciatella backlink','Spec code examples and contents anchors','About','no-JavaScript browse/index/spec/about routes'], screenshots: evidence };
+    const result = { status: 'passed', checks: ['Equipment Model v1 blue unlinked bowl in both themes and parent/child navigation','Process Model v1 semantic colour and reference eligibility','Code default','Compact switching','literal original','syntax toggle computed style','theme toggle and persistence','story toggle','Code and Compact ingredient/process/equipment loops','part-yolk anchor','visible keyboard focus','390px no overflow','no-JavaScript navigation and provenance','real 404 and slash redirect','with/without original and image','Story and Notes',published.length + ' published recipe browse links','initial/blocked direct pages and noindex','hidden backlink exclusion','tag and category membership/navigation','386/180/120 reference indexes','public egg/Stracciatella backlink','Spec code examples and contents anchors','About','no-JavaScript browse/index/spec/about routes'], screenshots: evidence };
     await writeFile(join(evidence, 'result.json'), JSON.stringify(result, null, 2)); console.log(JSON.stringify(result, null, 2));
   } finally { if (browser) await browser.close(); server?.kill(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });

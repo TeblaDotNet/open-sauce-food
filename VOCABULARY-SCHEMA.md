@@ -339,7 +339,7 @@ See [CURATION.md](CURATION.md) for values, diagnostics, migration and contributi
 
 A `kind: process` entry may set top-level `reference: false` for an ordinary
 action. Omitted or true retains normal culinary reference eligibility. The field
-is boolean and valid only for process entries. Names, aliases, canonical IDs and
+is boolean; equipment also supports it as described below. Names, aliases, canonical IDs and
 red action syntax remain unchanged; the flag suppresses recipe hyperlinks,
 reference usage/backlinks, public Process index entries and generated pages.
 
@@ -421,3 +421,34 @@ paste, raisins, toast, smoked pancetta and yoghurt are not automatically classif
 a processed product may have its own culinary identity, so state is not a universal
 processed-form category. Review chickpeas next before considering mushrooms, beans,
 rice or pasta; no additional ingredient is enriched here.
+
+## Equipment Model v1
+
+Equipment entries may declare one `type_of` canonical equipment ID. The target
+must uniquely exist in the same domain; aliases, missing targets, cross-domain
+parents, self-links and cycles are rejected. Ingredient families are unchanged.
+Pages show the immediate parent and direct children. These are taxonomic browsing
+relationships, not substitution rules: neither resolution nor recipe usage is
+inherited in either direction.
+
+Equipment may also declare `reference: false`. Omitted or true retains the
+existing page-producing default. False means that this canonical concept does
+not currently warrant its own public page, not that the object is mundane.
+Equipment pages may have discovery **or** explanation **or** recommendation value.
+They may eventually provide community/editorial recommendations, regardless of
+whether links are monetized; this model adds no recommendation or monetization
+features.
+
+Suppressed equipment still resolves canonically and retains equipment semantic
+colour and internal structured-use counts. It has no generated page, public
+index entry or public backlink. Recipe tokens have no reference link/underline;
+related parent/child names render as plain text when their pages are suppressed.
+Colour expresses semantic role; linking expresses an available reference target.
+Process reference suppression keeps its existing behaviour.
+
+The bounded proofs are `paring-knife -> knife`, `cast-iron-frying-pan -> frying-pan`,
+`stand-mixer -> mixer` and `bowl` with `reference: false`. There are 121 canonical
+equipment identities and 120 eligible public equipment pages. Existing qualifiers
+such as `(knife, paring)` and `(frying pan, cast iron)` are not reinterpreted or
+migrated to child identities. No recipe grammar or material-property ontology is
+introduced.

@@ -1,5 +1,6 @@
 id: bowl
 kind: equipment
+reference: false
 canonical_name: bowl
 names:
   en: bowl

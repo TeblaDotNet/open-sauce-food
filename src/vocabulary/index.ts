@@ -7,11 +7,11 @@ export interface IngredientState { names: Record<string, string>; aliases?: stri
 export interface VocabularyEntry extends IngredientKnowledge {
   /** Explicit local states of this whole ingredient/type; never inherited. */
   states?: Record<string, IngredientState>;
-  /** One direct ingredient family; no inheritance or alias expansion. */
+  /** One direct same-domain ingredient/equipment parent; no inheritance or alias expansion. */
   type_of?: string;
   curation?: Curation;
   id: string; kind: 'ingredient' | 'equipment' | 'process';
-  /** False for ordinary actions that do not have public culinary reference pages. */
+  /** False for process/equipment concepts without a public reference page; identity is unchanged. */
   reference?: boolean;
   canonical_name?: string;
   names: Record<string, string>;
@@ -40,10 +40,10 @@ export class Vocabulary {
     for (const entry of entries) {
       for (const message of readCuration(entry.curation).warnings)
         this.diagnostics.push({ severity: 'warning', code: 'INVALID_CURATION', entryId: entry.id, message });
-      if (entry.reference !== undefined && (entry.kind !== 'process' || typeof entry.reference !== 'boolean'))
-        throw new Error('reference must be a boolean on a process entry: ' + entry.id);
-      if (entry.type_of !== undefined && (entry.kind !== 'ingredient' || typeof entry.type_of !== 'string' || !/^[a-z][a-z0-9_-]*$/.test(entry.type_of)))
-        throw new Error(`Invalid type_of on ${entry.id}: expected one canonical ingredient ID`);
+      if (entry.reference !== undefined && (!['process', 'equipment'].includes(entry.kind) || typeof entry.reference !== 'boolean'))
+        throw new Error('reference must be a boolean on a process or equipment entry: ' + entry.id);
+      if (entry.type_of !== undefined && (!['ingredient', 'equipment'].includes(entry.kind) || typeof entry.type_of !== 'string' || !/^[a-z][a-z0-9_-]*$/.test(entry.type_of)))
+        throw new Error(`Invalid type_of on ${entry.id}: expected one canonical ingredient or equipment ID`);
       validateIngredientKnowledge(entry, entry.id);
       if (entry.kind !== 'ingredient' && ['states', 'variants', 'parts', 'part_groups', 'typical_mass', 'reference_density', 'nutrition'].some(k => Object.hasOwn(entry, k)))
         throw new Error(`Ingredient knowledge on non-ingredient: ${entry.id}`);
@@ -53,7 +53,7 @@ export class Vocabulary {
       const seen = new Set([entry.id]);
       let current = entry;
       while (current.type_of !== undefined) {
-        const matches = entries.filter(e => e.kind === 'ingredient' && e.id === current.type_of);
+        const matches = entries.filter(e => e.kind === entry.kind && e.id === current.type_of);
         if (matches.length !== 1) throw new Error('Invalid type_of target on ' + current.id);
         if (seen.has(matches[0].id)) throw new Error('Cyclic type_of on ' + entry.id);
         seen.add(matches[0].id);

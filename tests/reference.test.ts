@@ -58,9 +58,9 @@ test('recipe reference URLs target known nested parts and fall back to base for 
     const recipe = parseRecipe(`::ingredients\n(chicken: ${part})`, { vocabulary: nested });
     assert.match(renderHtml(recipe, { referenceUrl: recipeReferenceUrl }), new RegExp(`href="/reference/ingredient/chicken${anchor}"`));
   }
-  const recipe = parseRecipe('::ingredients\n(egg)\n::equipment\n(bowl)\n::instructions\n(egg: yolk) <separate>', { vocabulary });
+  const recipe = parseRecipe('::ingredients\n(egg)\n::equipment\n(knife)\n::instructions\n(egg: yolk) <separate>', { vocabulary });
   const html = renderHtml(recipe, { referenceUrl: recipeReferenceUrl });
-  for (const href of ['/reference/ingredient/egg#part-yolk', '/reference/process/separate', '/reference/equipment/bowl']) assert.ok(html.includes(`href="${href}"`));
+  for (const href of ['/reference/ingredient/egg#part-yolk', '/reference/process/separate', '/reference/equipment/knife']) assert.ok(html.includes(`href="${href}"`));
 });
 
 test('usage counts recipes once, keeps base/part/variant forms, and ignores opaque source and prose', () => {
@@ -139,7 +139,7 @@ test('reference routes support direct loads, JSON models, all promoted usage lin
   const address = server.address(); assert.ok(address && typeof address !== 'string');
   const base = `http://127.0.0.1:${address.port}`;
   try {
-    for (const path of ['/reference/ingredient/egg', '/reference/ingredient/courgette', '/reference/process/separate', '/reference/equipment/bowl']) {
+    for (const path of ['/reference/ingredient/egg', '/reference/ingredient/courgette', '/reference/process/separate', '/reference/equipment/knife']) {
       const response = await fetch(base + path); assert.equal(response.status, 200);
       assert.match(await response.text(), /Syntax colour/);
     }

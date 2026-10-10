@@ -58,8 +58,11 @@ test('whole-corpus usage remains available independently of filtered public usag
   const corpus = await loadCorpus('.', vocabulary, routes(siteConfig()));
   const items = corpus.records.map(r => ({id:r.slug,name:r.name,recipe:corpus.parsed.get(r.slug)!}));
   const all = buildUsageIndex(items), published = buildUsageIndex(items.filter(r => isPublished(r.recipe)));
+  const bowlKey = JSON.stringify(['equipment', 'bowl']);
+  assert.ok(all.concepts[bowlKey].length > published.concepts[bowlKey].length);
+  assert.equal(createReferencePage(vocabulary, 'equipment', 'bowl', all), undefined);
   assert.equal(all.recipeCount,410); assert.equal(published.recipeCount,216+repairedRecipeCount);
-  for (const [kind,id] of [['ingredient','egg'],['equipment','bowl'],['process','stir']] as const) {
+  for (const [kind,id] of [['ingredient','egg'],['equipment','knife'],['process','stir']] as const) {
     const a = createReferencePage(vocabulary,kind,id,all)!, p = createReferencePage(vocabulary,kind,id,published)!;
     assert.ok(a.usage!.length > p.usage!.length);
     assert.ok(p.usage!.every(r => isPublished(corpus.parsed.get(r.id)!)));
