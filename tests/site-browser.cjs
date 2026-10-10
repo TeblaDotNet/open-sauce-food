@@ -5,6 +5,7 @@ const { join } = require('node:path');
 const { tmpdir } = require('node:os');
 // Optional browser acceptance: provide Playwright on NODE_PATH or install it locally.
 const { chromium } = require('playwright');
+const { assertReferenceHeading } = require('./helpers/browser-reference.cjs');
 (async () => {
   const port = 4196, base = (process.env.SITE_TEST_ORIGIN ?? `http://127.0.0.1:${port}`) + '/opensaucefood/';
   const server = process.env.SITE_TEST_ORIGIN ? undefined : spawn(process.execPath, ['scripts/site-preview.ts'], { env: { ...process.env, PORT: String(port) }, stdio: ['ignore','pipe','pipe'], windowsHide: true });
@@ -98,8 +99,9 @@ const { chromium } = require('playwright');
         await page.goto(loopUrl); await page.locator(`input[value="${view}"]`).check();
         const link = page.locator(`[data-view-panel="${view}"] a.os-${kind}[href="/opensaucefood/${suffix}"]`).first();
         await page.keyboard.press('Tab'); await link.focus(); assert.equal(await link.evaluate(el => getComputedStyle(el).outlineStyle), 'solid');
-        await link.click(); assert.equal(page.url(), base + suffix);
-        if (kind === 'ingredient') assert.ok(await page.locator('.os-reference h1').isVisible());
+        await link.click();
+        if (kind === 'ingredient') await assertReferenceHeading(page, base + suffix);
+        else assert.equal(page.url(), base + suffix);
         await page.getByRole('link', { name: loopRecipe.name, exact: true }).click(); assert.equal(page.url(), loopUrl);
       }
     }
@@ -125,7 +127,7 @@ const { chromium } = require('playwright');
     assert.ok(await plain.locator('.provenance').isVisible());
     assert.ok(!await plain.locator('.controls').isVisible());
     await plain.locator('[data-view-panel="code"] a[href="/opensaucefood/ingredients/egg/"]').first().click();
-    assert.ok(await plain.locator('.os-reference h1').isVisible());
+    await assertReferenceHeading(plain, base + 'ingredients/egg/');
     await plain.getByRole('link', { name: 'Stracciatella soup', exact: true }).click();
     await plain.screenshot({ path: join(evidence, 'recipe-no-javascript.png'), fullPage: true });
     // Full-alpha coverage beyond the original representative.
