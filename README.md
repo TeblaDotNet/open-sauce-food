@@ -1,8 +1,5 @@
 Documentation note: The current documentation is provisional and largely placeholder text from the initial development/release process. I plan to rewrite the public-facing docs as the project settles.
 
-
-# Open Sauce Food
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/brand/open-sauce-food-wordmark-dark.svg">
   <img src="assets/brand/open-sauce-food-wordmark-light.svg" alt="Open Sauce Food" width="480">
