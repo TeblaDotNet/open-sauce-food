@@ -17,6 +17,8 @@ export interface HtmlRenderOptions extends RenderOptions {
   syntaxSpans?: boolean;
   /** Page shells can provide a persistent title/curation header. */
   header?: boolean;
+  /** Optional native disclosures for low-priority sections in a page layout. */
+  collapsedSections?: readonly string[];
   /** Code is the default. Original recipe source is literal provenance, not rendered Code. */
   view?: RecipeView;
   /** Give each recipe a distinct prefix when embedding several in one document. */
@@ -158,8 +160,11 @@ export function renderHtml(recipe: Recipe, options: HtmlRenderOptions = {}): str
   return `<article class="os-recipe os-view-${code ? 'code' : 'compact'}" aria-labelledby="${prefix}-title">${options.header === false ? '' : `<header><p class="os-eyebrow">Open Sauce Food recipe</p><h1 id="${prefix}-title">${e(name)}</h1>${recipe.curation ? `<p class="os-curation"><small>Encoding curation: ${e(curationLabel(recipe.curation))}</small></p>` : ''}</header>`}${nodes(recipe.preamble, '')}${recipe.sections.map((s, i) => {
     if (s.name === 'story' && options.story === false) return '';
     if (s.name === 'notes' && options.notes === false) return '';
-    if (s.name === 'source') return code && s.originalSource ? `<section class="os-section" data-section="source"><h2>::source</h2><pre class="os-original-source">${e('<<<\n' + s.originalSource.text + (s.originalSource.closed ? '>>>' : ''))}</pre></section>` : '';
+    const collapse = options.collapsedSections?.includes(s.name);
+    const disclose = (html: string) => collapse ? `<details class="os-section-details" data-section="${e(s.name)}"><summary>${e(s.name === 'recipe' ? 'Recipe metadata' : s.name === 'source' ? 'Source material' : s.name === 'story' ? 'Story' : s.name)}</summary>${html.replace(` data-section="${e(s.name)}"`, '')}</details>` : html;
+    if (s.name === 'source') return code && s.originalSource ? disclose(`<section class="os-section" data-section="source"><h2>::source</h2><pre class="os-original-source">${e('<<<\n' + s.originalSource.text + (s.originalSource.closed ? '>>>' : ''))}</pre></section>`) : '';
     const heading = s.name === 'recipe' ? 'Recipe details' : s.name.charAt(0).toUpperCase() + s.name.slice(1);
-    return `<section class="os-section" data-section="${e(s.name)}" aria-labelledby="${prefix}-section-${i}"><h2 id="${prefix}-section-${i}">${e(code ? '::' + s.name : heading)}</h2>${comment(s.comment)}${nodes(s.children, s.name)}</section>`;
+    const images = collapse && s.name === 'recipe' ? s.children.filter(n => n.kind === 'metadata' && n.key === 'image') : [];
+    return nodes(images, s.name) + disclose(`<section class="os-section" data-section="${e(s.name)}" aria-labelledby="${prefix}-section-${i}"><h2 id="${prefix}-section-${i}">${e(code ? '::' + s.name : heading)}</h2>${comment(s.comment)}${nodes(s.children.filter(n => !images.includes(n)), s.name)}</section>`);
   }).join('')}</article>`;
 }
